@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建人：长风
-#  创建时间：2022-06-23 09:23:43
+#  创建时间：2022-06-24 08:46:46
 #  模版：v2rayse默认模版
-#  节点数量：122
+#  节点数量：112
 #  油管：https://tt.vg/PzDVz
 #  免费节点 & 工具：https://v2rayse.com
 #  电报频道：https://t.me/changfengchannel
@@ -19,126 +19,116 @@ external-controller: 0.0.0.0:9090
 proxies:
   - {"type":"vmess","name":"关注电报https://t.me/mftizi","server":"g8.v2.gay","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇺🇸_油管：全网最强白嫖_1","ws-opts":{"path":"/api/v3/download.getFile"},"server":"v04.ssrsub.com","port":"153","uuid":"640e3ef0-9c44-49a8-98f6-0895b11eecd6","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_1","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"24053","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2505","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_3","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2704","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_4","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"24055","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_5","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2603","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_6","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2702","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_7","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2802","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_8","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2701","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_9","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"24052","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_10","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"21501","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_11","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2504","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_12","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2901","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_13","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"24051","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_14","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"21101","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_15","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"24054","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_16","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2501","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_17","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2601","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_18","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2503","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_19","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2502","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_20","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2703","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_21","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2803","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_22","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"21301","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_23","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"21402","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_24","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2506","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_25","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"21201","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_26","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"24058","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_27","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2406","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_28","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"21102","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_29","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"2407","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇺🇸_油管：全网最强白嫖_2","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v04.ssrsub.com","port":"153","uuid":"57229afb-d4e4-426e-bfdc-18fc1f3267fd","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_油管：全网最强白嫖_3","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"aweikeji-YouTube"}},"server":"v04.ssrsub.com","port":"153","uuid":"57229afb-d4e4-426e-bfdc-18fc1f3267fd","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_油管：全网最强白嫖_4","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"aweikeji-YouTube"}},"server":"v04.ssrsub.com","port":"153","uuid":"640e3ef0-9c44-49a8-98f6-0895b11eecd6","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_30","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"t.me.vpnhat"}},"server":"36.138.197.169","port":"21401","uuid":"6861c307-5efd-3b8a-b7fa-248ad8dde74e","alterId":"2","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_油管：全网最强白嫖_5","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47.v2dns.bar"}},"server":"g1.v2.gay","port":"2052","uuid":"0c68af8a-961a-3065-a3a7-1800ebc70bdb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_油管：全网最强白嫖_6","server":"g8.v2.gay","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇺🇸_油管：全网最强白嫖_7","server":"tj-us02.yiyodns.xyz","port":443,"password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇺🇸_油管：全网最强白嫖_8","server":"tj-sg02.yiyodns.xyz","port":443,"password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇺🇸_油管：全网最强白嫖_3","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"aweikeji-YouTube"}},"server":"v04.ssrsub.com","port":"153","uuid":"640e3ef0-9c44-49a8-98f6-0895b11eecd6","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_油管：全网最强白嫖_4","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47.v2dns.bar"}},"server":"g1.v2.gay","port":"2052","uuid":"0c68af8a-961a-3065-a3a7-1800ebc70bdb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸_油管：全网最强白嫖_5","server":"g8.v2.gay","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸_油管：全网最强白嫖_6","server":"tj-us02.yiyodns.xyz","port":443,"password":"7dafe71e-2be6-302f-bdfc-e6319a3299bc","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"06@WangCai_1","server":"51.81.223.6","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"20@WangCai_1","server":"51.81.223.20","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"tg频道:@mftizi","server":"f3.v2.gay","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"@SSRSUB-V04-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i1.onebox6.org","port":"38106","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"Az香港","server":"138.2.59.97","port":"80","uuid":"1e9f956b-1720-4519-b5c9-333247f6c23f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_1","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"data-hk-v2.shwjfkw.cn"}},"server":"data-hk-v2.shwjfkw.cn","port":"50205","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"tv.cctv.com"}},"server":"data-tw-v1.shwjfkw.cn","port":"50221","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_1","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"tv.cctv.com"}},"server":"data-tw-v1.shwjfkw.cn","port":"50221","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇺🇸_油管频道：全网最强白嫖_1","server":"51.81.223.6","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_3","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"tv.cctv.com"}},"server":"data-hk-v2.heisey.cn","port":"50207","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_4","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"tv.cctv.com"}},"server":"data-hk-v1.shwjfkw.cn","port":"50207","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_5","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"data-hk-v2.shwjfkw.cn"}},"server":"data-hk-v2.shwjfkw.cn","port":"50206","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_6","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"tv.cctv.com"}},"server":"data-hk-v2.shwjfkw.cn","port":"50205","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_7","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"tv.cctv.com"}},"server":"data-hk-v1.heisey.cn","port":"50205","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_8","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"tv.cctv.com"}},"server":"data-hk-v2.shwjfkw.cn","port":"50206","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_9","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"in-sg-1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"tv.cctv.com"}},"server":"data-hk-v2.heisey.cn","port":"50207","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_3","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"data-hk-v2.shwjfkw.cn"}},"server":"data-hk-v2.shwjfkw.cn","port":"50206","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_4","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"tv.cctv.com"}},"server":"data-hk-v2.shwjfkw.cn","port":"50205","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_5","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"tv.cctv.com"}},"server":"data-hk-v1.heisey.cn","port":"50205","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_6","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"tv.cctv.com"}},"server":"data-hk-v2.shwjfkw.cn","port":"50206","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_7","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"in-sg-1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇺🇸_油管频道：全网最强白嫖_2","server":"51.81.223.32","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇺🇸_油管频道：全网最强白嫖_3","server":"51.81.223.19","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇺🇸_油管频道：全网最强白嫖_4","server":"51.81.223.29","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇺🇸_油管频道：全网最强白嫖_5","server":"51.81.223.10","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_10","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"data-hk-v1.shwjfkw.cn"}},"server":"data-hk-v1.shwjfkw.cn","port":"50207","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_油管频道：全网最强白嫖_8","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"data-hk-v1.shwjfkw.cn"}},"server":"data-hk-v1.shwjfkw.cn","port":"50207","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
   - {"type":"trojan","name":"🇺🇸_油管频道：全网最强白嫖_6","server":"usfree1.jiantian.xyz","port":23425,"password":"eecb88a3-d8c1-4fc3-bea0-8a4f13aa42be","udp":true,"skip-cert-verify":true,"sni":"usfree1.jiantian.xyz"}
   - {"type":"trojan","name":"🇺🇸_油管频道：全网最强白嫖_7","server":"scloud54.jafiyun.life","port":22054,"password":"63d7b7bb-e526-3ea5-a61f-9da6df645da0","udp":true,"skip-cert-verify":true,"sni":"scloud54.jafiyun.life"}
   - {"type":"vmess","name":"TG@mftizi","server":"g3.v2.gay","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"长期更新节点https://t.me/mftizi","ws-opts":{"path":"xxX1","headers":{"host":"link2.wweblog.pw"}},"server":"g4.v2.gay","port":"443","uuid":"a6458eee-549a-3d60-b559-0bf0a4fbf65b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"免费梯子TG搜索@mftizi","ws-opts":{"path":"xxX7","headers":{"host":"link2.wweblog.pw"}},"server":"g5.v2.gay","port":"443","uuid":"a6458eee-549a-3d60-b559-0bf0a4fbf65b","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"关注频道https://t.me/mftizi","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"ingress-i1.onebox6.org"}},"server":"g7.v2.gay","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"免费梯子https://t.me/mftizi","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"g7.v2.gay","port":"38106","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_1","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"g7.v2.gay","port":"38106","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"US-高速节点推荐：v2cross.com","server":"51.81.223.20","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心4","server":"51.81.223.6","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"v2cross.com-希腊19","server":"gnailiad.tk","port":"1443","uuid":"84c7039b-1d1e-4b78-aefd-1268e9c17f3d","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"高速节点推荐：v2cross.com_1","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47.v2dns.bar"}},"server":"v47.v2dns.bar","port":"2052","uuid":"0c68af8a-961a-3065-a3a7-1800ebc70bdb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"高速节点推荐：v2cross.com_2","ws-opts":{"path":"/v1252N93nZez6Py","headers":{"host":"v125.v2dns.bar"}},"server":"v125.v2dns.bar","port":"80","uuid":"0c68af8a-961a-3065-a3a7-1800ebc70bdb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"v2cross.com-美国CloudFlare公司CDN节点31","ws-opts":{"path":"/go","headers":{"host":"lu1.gogogoo.cyou"}},"server":"lu1.gogogoo.cyou","port":"443","uuid":"db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US_2169","server":"51.81.223.10","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US_2144","server":"51.81.223.32","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"高速节点推荐：v2cross.com","ws-opts":{"path":"/v1252N93nZez6Py","headers":{"host":"v125.v2dns.bar"}},"server":"v125.v2dns.bar","port":"80","uuid":"0c68af8a-961a-3065-a3a7-1800ebc70bdb","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇺🇸US_2168","server":"51.81.223.19","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Relay_🇷🇺RU-🇷🇺RU_1191","ws-opts":{"path":"/ray","headers":{"host":"422wkl.fans8.xyz"}},"server":"422wkl.fans8.xyz","port":"443","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"","server":"51.81.223.29","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇺🇸US_733","server":"sg.guiqing.ml","port":"43956","uuid":"91df6837-896d-45bc-ec6f-0fe4b792b369","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇭🇰【tg@freevpn8】_🇨🇳CN-🇭🇰HK_272","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"ingress-i1.onebox6.org"}},"server":"ingress-i1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Relay_🇻🇳VN-🇻🇳VN_62","ws-opts":{"path":"/sos4g.xyz","headers":{"host":"tv.akamaized.net"}},"server":"hcmn4.sos4g.xyz","port":"80","uuid":"88feb3a4-8dd9-4001-91d6-9cceabca5a4b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"v2cross.com-美国弗吉尼亚州阿什本Oracle云计算数据中心16","server":"usfree1.jiantian.xyz","port":23425,"password":"7cb64c49-2ce5-4fa6-9b79-9c02eb54735c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"v2cross.com-美国12","server":"ga.gnailiad.ga","port":23578,"password":"aBfOmU3irR","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"v2cross.com-美国9","server":"wireless.starspace.link","port":443,"password":"5LN8SGTqxk336nFg","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG-高速节点推荐：v1.mk/vip","server":"w11.udpgw.com","port":443,"password":"f64e69c0-e7b7-11ec-ab81-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"v2cross.com-新加坡Linode数据中心21","server":"w12.udpgw.com","port":443,"password":"08964210-e7b8-11ec-95aa-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"🇰🇷KR_720【tg@freevpn8】16.61Mb","server":"jgw2.gaox.ml","port":443,"password":"f2117e99-9b6e-47fd-b0a9-634a0b15b998","udp":true,"skip-cert-verify":true,"sni":"jgw2.gaox.ml"}
-  - {"type":"vmess","name":"🇰🇷_KR_韩国_1","server":"ga.gnailiad.tk","port":"1443","uuid":"deaf378f-515f-4832-bfc1-ed937edc78c3","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"ss","name":"🇫🇷_FR_法国","server":"51.38.118.42","port":811,"cipher":"chacha20-ietf-poly1305","password":"Ultr@r00t_2017"}
-  - {"type":"ss","name":"🇩🇪_DE_德国_1","server":"161.35.69.20","port":811,"cipher":"chacha20-ietf-poly1305","password":"Ultr@r00t_2017"}
-  - {"type":"ss","name":"Relay_CN-JP_156","server":"b5d28a9.sd.gladns.com","port":8474,"cipher":"chacha20-ietf-poly1305","password":"a501c82c72d790b8"}
-  - {"type":"ss","name":"FR_322","server":"51.38.118.42","port":811,"cipher":"chacha20-ietf-poly1305","password":"Ultr@r00t_2017"}
-  - {"type":"ss","name":"IR_414","server":"185.112.151.147","port":101,"cipher":"aes-256-gcm","password":"SnFKf1vmcpPDN8Rs"}
-  - {"type":"ss","name":"US_1763","server":"161.35.69.20","port":811,"cipher":"chacha20-ietf-poly1305","password":"Ultr@r00t_2017"}
-  - {"type":"vmess","name":"v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心3","server":"51.81.223.19","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"v2cross.com-美国CloudFlare公司CDN节点9","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47.v2dns.bar"}},"server":"v47.v2dns.bar","port":"2052","uuid":"0c68af8a-961a-3065-a3a7-1800ebc70bdb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"v2cross.com-美国CloudFlare节点11","ws-opts":{"path":"xxX5","headers":{"host":"link2.wweblog.pw"}},"server":"g2.v2.gay","port":"443","uuid":"a6458eee-549a-3d60-b559-0bf0a4fbf65b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心12","server":"51.81.223.6","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"@SSRSUB-V12-付费推荐:v2cross.com","ws-opts":{"path":"/didi","headers":{"host":"taobao.babazhuji.com"}},"server":"taobao.babazhuji.com","port":"443","uuid":"36712be8-f2ff-4875-8c67-95efd66ac994","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"Relay_🇦🇺AU-🇦🇺AU_96","ws-opts":{"path":"/ray","headers":{"host":"527hk2.fans8.xyz"}},"server":"527hk2.fans8.xyz","port":"80","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US_2194","server":"51.81.223.10","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US_2186","server":"51.81.223.32","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US_2192","server":"51.81.223.29","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US_2190","server":"20.123.187.212","port":"27931","uuid":"256eae41-0b8f-4faa-bce8-6366011dc19f","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Relay_🇨🇳CN-🇸🇪SE_190","server":"2.game.speed.zz.001.oooooooooo.icu","port":"53945","uuid":"0f62bb1b-dd16-3bb2-a435-c13e068b0955","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Relay_🇺🇸US-🇺🇸US_2185","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"aweikeji-YouTube"}},"server":"v04.ssrsub.com","port":"153","uuid":"57229afb-d4e4-426e-bfdc-18fc1f3267fd","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Relay_🇷🇺RU-🇷🇺RU_536","ws-opts":{"path":"/ray","headers":{"host":"422wkl.fans8.xyz"}},"server":"422wkl.fans8.xyz","port":"443","uuid":"7f4ff2e1-c08f-35bd-afe7-4a6a386907aa","alterId":"2","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸US_2193","server":"150.230.99.46","port":"22222","uuid":"e6c55d36-022c-4ebc-b9c2-e1220a7184f4","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Relay_🇺🇸US-🇺🇸US_2171","ws-opts":{"path":"/go","headers":{"host":"us03.gogogoo.cyou"}},"server":"us03.gogogoo.cyou","port":"443","uuid":"db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇭🇺HU_111v2cross.com","server":"185.225.69.134","port":"45081","uuid":"3c3bfd75-dc30-4e76-8940-47e1137e21f9","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇯🇵JP_45","ws-opts":{"path":"/","headers":{"host":"146.56.47.161"}},"server":"146.56.47.161","port":"80","uuid":"fa0702f4-8ec9-48e5-9b53-a0afb7c3717e","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Relay_🇻🇳VN-🇻🇳VN_97","ws-opts":{"path":"/sos4g.xyz","headers":{"host":"tv.akamaized.net"}},"server":"hcmn4.sos4g.xyz","port":"80","uuid":"88feb3a4-8dd9-4001-91d6-9cceabca5a4b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Relay_🇯🇵JP-🇯🇵JP_46","server":"ga.gnailiad.tk","port":"1443","uuid":"deaf378f-515f-4832-bfc1-ed937edc78c3","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"trojan","name":"v2cross.com-中国阿里云1","server":"613hk.fans8.xyz","port":443,"password":"6f5e02bd-9b8f-44bc-b681-55150c102911","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"v2cross.com-加拿大13","server":"67tw01.fans8.xyz","port":443,"password":"6f5e02bd-9b8f-44bc-b681-55150c102911","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"v2cross.com-美国21","server":"wireless.starspace.link","port":443,"password":"5LN8SGTqxk336nFg","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"v2cross.com-日本4","server":"sg0601.fans8.xyz","port":443,"password":"6f5e02bd-9b8f-44bc-b681-55150c102911","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"🇺🇸_US_美国_1","server":"c8s2.jamjams.net","port":30162,"cipher":"aes-256-gcm","password":"eWh5br48eraTyoJS"}
-  - {"type":"vmess","name":"🇺🇸_US_美国_2","ws-opts":{"path":"/go","headers":{"host":"us03.gogogoo.cyou"}},"server":"us03.gogogoo.cyou","port":"443","uuid":"db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇰🇷_KR_韩国_2","server":"ga.gnailiad.tk","port":"1443","uuid":"deaf378f-515f-4832-bfc1-ed937edc78c3","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"🇺🇸_US_美国_3","ws-opts":{"path":"/wzjdvws","headers":{"host":"56789.gq"}},"server":"172.67.167.111","port":"443","uuid":"89b6075d-ea4a-43f4-a8a2-f155de987ab9","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇩🇪_DE_德国_2","server":"161.35.69.20","port":811,"cipher":"chacha20-ietf-poly1305","password":"Ultr@r00t_2017"}
-  - {"type":"vmess","name":"🇺🇸_US_美国_4","ws-opts":{"path":"xxX5","headers":{"host":"link2.wweblog.pw"}},"server":"g2.v2.gay","port":"443","uuid":"a6458eee-549a-3d60-b559-0bf0a4fbf65b","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"SG_1221","server":"81.90.189.18","port":807,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"SG_1220","server":"81.90.189.18","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"SG_1232","server":"217.197.161.164","port":806,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"SG_1247","server":"81.90.189.18","port":810,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"SG_1265","server":"217.197.161.164","port":811,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"SG_1286","server":"81.90.189.18","port":805,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"SG_1281","server":"81.90.189.18","port":809,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"SG_1299","server":"217.197.161.164","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"SG_1270","server":"194.124.35.40","port":801,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"Relay_CN-JP_07","server":"b5d28a9.sd.gladns.com","port":8474,"cipher":"chacha20-ietf-poly1305","password":"a501c82c72d790b8"}
+  - {"type":"vmess","name":"v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心35","server":"51.81.223.19","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心15","server":"51.81.223.6","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸@SSRSUB-美国V09-付费推荐:v2cross.com","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"d76bb35696.laowanxiang.com"}},"server":"v04.ssrsub.com","port":"153","uuid":"640e3ef0-9c44-49a8-98f6-0895b11eecd6","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@SSRSUB-V03-付费推荐:v2cross.com","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"ingress-i1.onebox6.org"}},"server":"ingress-i1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"v2cross.com-美国CloudFlare节点34","ws-opts":{"path":"/v47-unlimitndxd","headers":{"host":"v47.v2dns.bar"}},"server":"v47.v2dns.bar","port":"2052","uuid":"0c68af8a-961a-3065-a3a7-1800ebc70bdb","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸US_2169","server":"51.81.223.32","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US_2184","server":"51.81.223.29","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸US_1218","server":"51.81.223.10","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Relay_🇨🇳CN-🇺🇸US_195","server":"yd1000-c.zsclouddns.club","port":"13008","uuid":"67c50f6a-816d-3555-89b4-19dd29608f8b","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Relay_🇨🇳CN-🇸🇪SE_24","server":"2.game.speed.zz.001.oooooooooo.icu","port":"53945","uuid":"0f62bb1b-dd16-3bb2-a435-c13e068b0955","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Relay_🇺🇸US-🇺🇸US_41","ws-opts":{"path":"/","headers":{"host":"www.youku.com"}},"server":"hk1.ningmengshui.xyz","port":"80","uuid":"1e9f956b-1720-4519-b5c9-333247f6c23f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Relay_🇨🇳CN-🇭🇰HK_25","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"data-hk-v2.shwjfkw.cn"}},"server":"data-hk-v2.shwjfkw.cn","port":"50205","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"v2cross.com-新加坡Linode数据中心29","server":"w11.udpgw.com","port":443,"password":"f64e69c0-e7b7-11ec-ab81-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"v2cross.com-美国弗吉尼亚州阿什本Oracle云计算数据中心41","server":"usfree1.jiantian.xyz","port":23425,"password":"7cb64c49-2ce5-4fa6-9b79-9c02eb54735c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"v2cross.com-俄罗斯26","server":"hkbgp1.jiantian.xyz","port":14326,"password":"7cb64c49-2ce5-4fa6-9b79-9c02eb54735c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"v2cross.com-香港Microsoft数据中心42","server":"scloud58.jafiyun.life","port":22058,"password":"63d7b7bb-e526-3ea5-a61f-9da6df645da0","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_1","server":"bgpv2.ktyjsq.com","port":"12229","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_2","server":"bgpv2.ktyjsq.com","port":"12224","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_3","server":"bgpv2.ktyjsq.com","port":"12221","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_4","server":"bgpv2.ktyjsq.com","port":"12223","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_5","ws-opts":{"path":"/","headers":{"host":"shyd.ddnsguru.com"}},"server":"shyd.ddnsguru.com","port":"58777","uuid":"67d81d00-66de-3f68-91c6-0ac560181418","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_6","server":"bgpv2.ktyjsq.com","port":"12005","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_7","ws-opts":{"path":"/","headers":{"host":"shyd.ddnsguru.com"}},"server":"shyd.ddnsguru.com","port":"31817","uuid":"67d81d00-66de-3f68-91c6-0ac560181418","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_8","server":"bgpv2.ktyjsq.com","port":"12205","uuid":"71421b16-e5ae-36df-8f0c-c9cc90d14fd9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸_油管：全网最强白嫖_7","server":"hk6.ningmengshui.xyz","port":"80","uuid":"01981120-6a45-4e7a-9dc6-18f7f1cee658","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_9","server":"2.game.speed.zz.001.oooooooooo.icu","port":"53945","uuid":"0f62bb1b-dd16-3bb2-a435-c13e068b0955","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇯🇵_油管：全网最强白嫖","server":"133.167.106.55","port":"33115","uuid":"3a610ada-a699-4d6e-8140-7629febc6e51","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸_油管：全网最强白嫖_8","server":"ss2.2046.gq","port":4443,"password":"794871c6-022b-4498-b816-296e8a581d86","udp":true,"skip-cert-verify":true,"sni":"ss2.2046.gq"}
+  - {"type":"trojan","name":"🇺🇸_油管：全网最强白嫖_9","server":"67us01.fans8.xyz","port":443,"password":"f5362b9a-812f-4d77-89a3-09f7d0851bfb","udp":true,"skip-cert-verify":true,"sni":"67us01.fans8.xyz"}
+  - {"type":"trojan","name":"🇨🇳_油管：全网最强白嫖_10","server":"611hk01.fans8.xyz","port":443,"password":"f5362b9a-812f-4d77-89a3-09f7d0851bfb","udp":true,"skip-cert-verify":true,"sni":"611hk01.fans8.xyz"}
+  - {"type":"trojan","name":"🇭🇰_油管：全网最强白嫖","server":"azhj001.xiba1.xyz","port":20727,"password":"8e295665-f1af-3973-bc49-02e180e35b5f","udp":true,"skip-cert-verify":true,"sni":"ssl.ssl12.xyz"}
+  - {"type":"trojan","name":"🇸🇬_油管：全网最强白嫖","server":"67sg01.fans8.xyz","port":443,"password":"f5362b9a-812f-4d77-89a3-09f7d0851bfb","udp":true,"skip-cert-verify":true,"sni":"67sg01.fans8.xyz"}
+  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_2","ws-opts":{"path":"/eisasqa","headers":{"host":"foxsg.fovi.tk"}},"server":"h5.v2.gay","port":"2053","uuid":"bf67437e-6c90-45ca-abc2-c7240a5ce2aa","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"关注频道@mftizi","server":"h6.v2.gay","port":"443","uuid":"c0156451-4efb-45e2-84fc-8d315c4650db","alterId":"32","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"@wbnet🇸🇬SG1996","server":"194.124.35.40","port":804,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"@wbnet🇸🇬SG1998","server":"194.124.35.42","port":801,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"@wbnet🇸🇬SG2004","server":"194.124.35.42","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"@wbnet🇸🇬SG2006","server":"194.124.35.40","port":808,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"@wbnet🇸🇬SG2007","server":"194.124.35.42","port":806,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"@wbnet🇸🇬SG2008","server":"194.124.35.40","port":810,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"@wbnet🇸🇬SG2011","server":"194.124.35.40","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"@wbnet🇸🇬SG2012","server":"194.124.35.40","port":806,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"@wbnet🇸🇬SG2016","server":"194.124.35.40","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"@wbnet🇸🇬SG2026","server":"194.124.35.42","port":808,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"@wbnet🇸🇬SG2027","server":"194.124.35.40","port":807,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"@wbnet🇸🇬SG2032","server":"194.124.35.42","port":812,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"@wbnet🇸🇬SG2033","server":"194.124.35.42","port":809,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"@wbnet🇸🇬SG2034","server":"194.124.35.42","port":811,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"@wbnet🇸🇬SG2055","server":"194.124.35.42","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"@wbnet🇸🇬SG2059","server":"194.124.35.42","port":807,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇨🇦_CA_加拿大","server":"138.197.166.205","port":811,"cipher":"chacha20-ietf-poly1305","password":"Ultr@r00t_2017"}
+  - {"type":"ss","name":"🇸🇬_SG_新加坡_1","server":"81.90.189.18","port":806,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇸🇬_SG_新加坡_2","server":"194.124.35.42","port":810,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇸🇬_SG_新加坡_3","server":"81.90.189.18","port":801,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇸🇬_SG_新加坡_4","server":"194.124.35.42","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇸🇬_SG_新加坡_5","server":"81.90.189.18","port":812,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇸🇬_SG_新加坡_6","server":"194.124.35.40","port":809,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇸🇬_SG_新加坡_7","server":"217.197.161.164","port":807,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇸🇬_SG_新加坡_8","server":"194.124.35.40","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇸🇬_SG_新加坡_9","server":"81.90.189.18","port":800,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇸🇬_SG_新加坡_10","server":"194.124.35.40","port":812,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇸🇬_SG_新加坡_11","server":"194.124.35.42","port":804,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇸🇬_SG_新加坡_12","server":"194.124.35.42","port":805,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇸🇬_SG_新加坡_13","server":"81.90.189.18","port":811,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇸🇬_SG_新加坡_14","server":"194.124.35.40","port":805,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇸🇬_SG_新加坡_15","server":"194.124.35.40","port":811,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇸🇬_SG_新加坡_16","server":"81.90.189.18","port":808,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -147,6 +137,65 @@ proxy-groups:
       - DIRECT
       - 关注电报https://t.me/mftizi
       - 🇺🇸_油管：全网最强白嫖_1
+      - 🇺🇸_油管：全网最强白嫖_2
+      - 🇺🇸_油管：全网最强白嫖_3
+      - 🇺🇸_油管：全网最强白嫖_4
+      - 🇺🇸_油管：全网最强白嫖_5
+      - 🇺🇸_油管：全网最强白嫖_6
+      - 06@WangCai_1
+      - 20@WangCai_1
+      - tg频道:@mftizi
+      - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
+      - Az香港
+      - 🇨🇳_油管频道：全网最强白嫖_1
+      - 🇺🇸_油管频道：全网最强白嫖_1
+      - 🇨🇳_油管频道：全网最强白嫖_2
+      - 🇨🇳_油管频道：全网最强白嫖_3
+      - 🇨🇳_油管频道：全网最强白嫖_4
+      - 🇨🇳_油管频道：全网最强白嫖_5
+      - 🇨🇳_油管频道：全网最强白嫖_6
+      - 🇨🇳_油管频道：全网最强白嫖_7
+      - 🇺🇸_油管频道：全网最强白嫖_2
+      - 🇺🇸_油管频道：全网最强白嫖_3
+      - 🇺🇸_油管频道：全网最强白嫖_4
+      - 🇺🇸_油管频道：全网最强白嫖_5
+      - 🇨🇳_油管频道：全网最强白嫖_8
+      - 🇺🇸_油管频道：全网最强白嫖_6
+      - 🇺🇸_油管频道：全网最强白嫖_7
+      - TG@mftizi
+      - 长期更新节点https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
+      - 免费梯子https://t.me/mftizi_1
+      - US-高速节点推荐：v2cross.com
+      - 高速节点推荐：v2cross.com
+      - 🇺🇸US_2168
+      - 🇺🇸US_733
+      - SG_1221
+      - SG_1220
+      - SG_1232
+      - SG_1247
+      - SG_1265
+      - SG_1286
+      - SG_1281
+      - SG_1299
+      - SG_1270
+      - Relay_CN-JP_07
+      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心35
+      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心15
+      - 🇺🇸@SSRSUB-美国V09-付费推荐:v2cross.com
+      - '@SSRSUB-V03-付费推荐:v2cross.com'
+      - v2cross.com-美国CloudFlare节点34
+      - 🇺🇸US_2169
+      - 🇺🇸US_2184
+      - 🇺🇸US_1218
+      - Relay_🇨🇳CN-🇺🇸US_195
+      - Relay_🇨🇳CN-🇸🇪SE_24
+      - Relay_🇺🇸US-🇺🇸US_41
+      - Relay_🇨🇳CN-🇭🇰HK_25
+      - v2cross.com-新加坡Linode数据中心29
+      - v2cross.com-美国弗吉尼亚州阿什本Oracle云计算数据中心41
+      - v2cross.com-俄罗斯26
+      - v2cross.com-香港Microsoft数据中心42
       - 🇨🇳_油管：全网最强白嫖_1
       - 🇨🇳_油管：全网最强白嫖_2
       - 🇨🇳_油管：全网最强白嫖_3
@@ -155,118 +204,49 @@ proxy-groups:
       - 🇨🇳_油管：全网最强白嫖_6
       - 🇨🇳_油管：全网最强白嫖_7
       - 🇨🇳_油管：全网最强白嫖_8
-      - 🇨🇳_油管：全网最强白嫖_9
-      - 🇨🇳_油管：全网最强白嫖_10
-      - 🇨🇳_油管：全网最强白嫖_11
-      - 🇨🇳_油管：全网最强白嫖_12
-      - 🇨🇳_油管：全网最强白嫖_13
-      - 🇨🇳_油管：全网最强白嫖_14
-      - 🇨🇳_油管：全网最强白嫖_15
-      - 🇨🇳_油管：全网最强白嫖_16
-      - 🇨🇳_油管：全网最强白嫖_17
-      - 🇨🇳_油管：全网最强白嫖_18
-      - 🇨🇳_油管：全网最强白嫖_19
-      - 🇨🇳_油管：全网最强白嫖_20
-      - 🇨🇳_油管：全网最强白嫖_21
-      - 🇨🇳_油管：全网最强白嫖_22
-      - 🇨🇳_油管：全网最强白嫖_23
-      - 🇨🇳_油管：全网最强白嫖_24
-      - 🇨🇳_油管：全网最强白嫖_25
-      - 🇨🇳_油管：全网最强白嫖_26
-      - 🇨🇳_油管：全网最强白嫖_27
-      - 🇨🇳_油管：全网最强白嫖_28
-      - 🇨🇳_油管：全网最强白嫖_29
-      - 🇺🇸_油管：全网最强白嫖_2
-      - 🇺🇸_油管：全网最强白嫖_3
-      - 🇺🇸_油管：全网最强白嫖_4
-      - 🇨🇳_油管：全网最强白嫖_30
-      - 🇺🇸_油管：全网最强白嫖_5
-      - 🇺🇸_油管：全网最强白嫖_6
       - 🇺🇸_油管：全网最强白嫖_7
+      - 🇨🇳_油管：全网最强白嫖_9
+      - 🇯🇵_油管：全网最强白嫖
       - 🇺🇸_油管：全网最强白嫖_8
-      - 06@WangCai_1
-      - 20@WangCai_1
-      - tg频道:@mftizi
-      - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
-      - Az香港
-      - 🇨🇳_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_2
-      - 🇺🇸_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_3
-      - 🇨🇳_油管频道：全网最强白嫖_4
-      - 🇨🇳_油管频道：全网最强白嫖_5
-      - 🇨🇳_油管频道：全网最强白嫖_6
-      - 🇨🇳_油管频道：全网最强白嫖_7
-      - 🇨🇳_油管频道：全网最强白嫖_8
-      - 🇨🇳_油管频道：全网最强白嫖_9
-      - 🇺🇸_油管频道：全网最强白嫖_2
-      - 🇺🇸_油管频道：全网最强白嫖_3
-      - 🇺🇸_油管频道：全网最强白嫖_4
-      - 🇺🇸_油管频道：全网最强白嫖_5
-      - 🇨🇳_油管频道：全网最强白嫖_10
-      - 🇺🇸_油管频道：全网最强白嫖_6
-      - 🇺🇸_油管频道：全网最强白嫖_7
-      - TG@mftizi
-      - 长期更新节点https://t.me/mftizi
-      - 免费梯子TG搜索@mftizi
-      - 关注频道https://t.me/mftizi
-      - 免费梯子https://t.me/mftizi
-      - US-高速节点推荐：v2cross.com
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心4
-      - v2cross.com-希腊19
-      - 高速节点推荐：v2cross.com_1
-      - 高速节点推荐：v2cross.com_2
-      - v2cross.com-美国CloudFlare公司CDN节点31
-      - 🇺🇸US_2169
-      - 🇺🇸US_2144
-      - 🇺🇸US_2168
-      - Relay_🇷🇺RU-🇷🇺RU_1191
-      - ''
-      - 🇺🇸US_733
-      - 🇭🇰【tg@freevpn8】_🇨🇳CN-🇭🇰HK_272
-      - Relay_🇻🇳VN-🇻🇳VN_62
-      - v2cross.com-美国弗吉尼亚州阿什本Oracle云计算数据中心16
-      - v2cross.com-美国12
-      - v2cross.com-美国9
-      - SG-高速节点推荐：v1.mk/vip
-      - v2cross.com-新加坡Linode数据中心21
-      - 🇰🇷KR_720【tg@freevpn8】16.61Mb
-      - 🇰🇷_KR_韩国_1
-      - 🇫🇷_FR_法国
-      - 🇩🇪_DE_德国_1
-      - Relay_CN-JP_156
-      - FR_322
-      - IR_414
-      - US_1763
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心3
-      - v2cross.com-美国CloudFlare公司CDN节点9
-      - v2cross.com-美国CloudFlare节点11
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心12
-      - '@SSRSUB-V12-付费推荐:v2cross.com'
-      - Relay_🇦🇺AU-🇦🇺AU_96
-      - 🇺🇸US_2194
-      - 🇺🇸US_2186
-      - 🇺🇸US_2192
-      - 🇺🇸US_2190
-      - Relay_🇨🇳CN-🇸🇪SE_190
-      - Relay_🇺🇸US-🇺🇸US_2185
-      - Relay_🇷🇺RU-🇷🇺RU_536
-      - 🇺🇸US_2193
-      - Relay_🇺🇸US-🇺🇸US_2171
-      - 🇭🇺HU_111v2cross.com
-      - 🇯🇵JP_45
-      - Relay_🇻🇳VN-🇻🇳VN_97
-      - Relay_🇯🇵JP-🇯🇵JP_46
-      - v2cross.com-中国阿里云1
-      - v2cross.com-加拿大13
-      - v2cross.com-美国21
-      - v2cross.com-日本4
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_4
+      - 🇺🇸_油管：全网最强白嫖_9
+      - 🇨🇳_油管：全网最强白嫖_10
+      - 🇭🇰_油管：全网最强白嫖
+      - 🇸🇬_油管：全网最强白嫖
+      - 免费梯子https://t.me/mftizi_2
+      - 关注频道@mftizi
+      - '@wbnet🇸🇬SG1996'
+      - '@wbnet🇸🇬SG1998'
+      - '@wbnet🇸🇬SG2004'
+      - '@wbnet🇸🇬SG2006'
+      - '@wbnet🇸🇬SG2007'
+      - '@wbnet🇸🇬SG2008'
+      - '@wbnet🇸🇬SG2011'
+      - '@wbnet🇸🇬SG2012'
+      - '@wbnet🇸🇬SG2016'
+      - '@wbnet🇸🇬SG2026'
+      - '@wbnet🇸🇬SG2027'
+      - '@wbnet🇸🇬SG2032'
+      - '@wbnet🇸🇬SG2033'
+      - '@wbnet🇸🇬SG2034'
+      - '@wbnet🇸🇬SG2055'
+      - '@wbnet🇸🇬SG2059'
+      - 🇨🇦_CA_加拿大
+      - 🇸🇬_SG_新加坡_1
+      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡_3
+      - 🇸🇬_SG_新加坡_4
+      - 🇸🇬_SG_新加坡_5
+      - 🇸🇬_SG_新加坡_6
+      - 🇸🇬_SG_新加坡_7
+      - 🇸🇬_SG_新加坡_8
+      - 🇸🇬_SG_新加坡_9
+      - 🇸🇬_SG_新加坡_10
+      - 🇸🇬_SG_新加坡_11
+      - 🇸🇬_SG_新加坡_12
+      - 🇸🇬_SG_新加坡_13
+      - 🇸🇬_SG_新加坡_14
+      - 🇸🇬_SG_新加坡_15
+      - 🇸🇬_SG_新加坡_16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -275,6 +255,65 @@ proxy-groups:
     proxies:
       - 关注电报https://t.me/mftizi
       - 🇺🇸_油管：全网最强白嫖_1
+      - 🇺🇸_油管：全网最强白嫖_2
+      - 🇺🇸_油管：全网最强白嫖_3
+      - 🇺🇸_油管：全网最强白嫖_4
+      - 🇺🇸_油管：全网最强白嫖_5
+      - 🇺🇸_油管：全网最强白嫖_6
+      - 06@WangCai_1
+      - 20@WangCai_1
+      - tg频道:@mftizi
+      - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
+      - Az香港
+      - 🇨🇳_油管频道：全网最强白嫖_1
+      - 🇺🇸_油管频道：全网最强白嫖_1
+      - 🇨🇳_油管频道：全网最强白嫖_2
+      - 🇨🇳_油管频道：全网最强白嫖_3
+      - 🇨🇳_油管频道：全网最强白嫖_4
+      - 🇨🇳_油管频道：全网最强白嫖_5
+      - 🇨🇳_油管频道：全网最强白嫖_6
+      - 🇨🇳_油管频道：全网最强白嫖_7
+      - 🇺🇸_油管频道：全网最强白嫖_2
+      - 🇺🇸_油管频道：全网最强白嫖_3
+      - 🇺🇸_油管频道：全网最强白嫖_4
+      - 🇺🇸_油管频道：全网最强白嫖_5
+      - 🇨🇳_油管频道：全网最强白嫖_8
+      - 🇺🇸_油管频道：全网最强白嫖_6
+      - 🇺🇸_油管频道：全网最强白嫖_7
+      - TG@mftizi
+      - 长期更新节点https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
+      - 免费梯子https://t.me/mftizi_1
+      - US-高速节点推荐：v2cross.com
+      - 高速节点推荐：v2cross.com
+      - 🇺🇸US_2168
+      - 🇺🇸US_733
+      - SG_1221
+      - SG_1220
+      - SG_1232
+      - SG_1247
+      - SG_1265
+      - SG_1286
+      - SG_1281
+      - SG_1299
+      - SG_1270
+      - Relay_CN-JP_07
+      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心35
+      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心15
+      - 🇺🇸@SSRSUB-美国V09-付费推荐:v2cross.com
+      - '@SSRSUB-V03-付费推荐:v2cross.com'
+      - v2cross.com-美国CloudFlare节点34
+      - 🇺🇸US_2169
+      - 🇺🇸US_2184
+      - 🇺🇸US_1218
+      - Relay_🇨🇳CN-🇺🇸US_195
+      - Relay_🇨🇳CN-🇸🇪SE_24
+      - Relay_🇺🇸US-🇺🇸US_41
+      - Relay_🇨🇳CN-🇭🇰HK_25
+      - v2cross.com-新加坡Linode数据中心29
+      - v2cross.com-美国弗吉尼亚州阿什本Oracle云计算数据中心41
+      - v2cross.com-俄罗斯26
+      - v2cross.com-香港Microsoft数据中心42
       - 🇨🇳_油管：全网最强白嫖_1
       - 🇨🇳_油管：全网最强白嫖_2
       - 🇨🇳_油管：全网最强白嫖_3
@@ -283,118 +322,49 @@ proxy-groups:
       - 🇨🇳_油管：全网最强白嫖_6
       - 🇨🇳_油管：全网最强白嫖_7
       - 🇨🇳_油管：全网最强白嫖_8
-      - 🇨🇳_油管：全网最强白嫖_9
-      - 🇨🇳_油管：全网最强白嫖_10
-      - 🇨🇳_油管：全网最强白嫖_11
-      - 🇨🇳_油管：全网最强白嫖_12
-      - 🇨🇳_油管：全网最强白嫖_13
-      - 🇨🇳_油管：全网最强白嫖_14
-      - 🇨🇳_油管：全网最强白嫖_15
-      - 🇨🇳_油管：全网最强白嫖_16
-      - 🇨🇳_油管：全网最强白嫖_17
-      - 🇨🇳_油管：全网最强白嫖_18
-      - 🇨🇳_油管：全网最强白嫖_19
-      - 🇨🇳_油管：全网最强白嫖_20
-      - 🇨🇳_油管：全网最强白嫖_21
-      - 🇨🇳_油管：全网最强白嫖_22
-      - 🇨🇳_油管：全网最强白嫖_23
-      - 🇨🇳_油管：全网最强白嫖_24
-      - 🇨🇳_油管：全网最强白嫖_25
-      - 🇨🇳_油管：全网最强白嫖_26
-      - 🇨🇳_油管：全网最强白嫖_27
-      - 🇨🇳_油管：全网最强白嫖_28
-      - 🇨🇳_油管：全网最强白嫖_29
-      - 🇺🇸_油管：全网最强白嫖_2
-      - 🇺🇸_油管：全网最强白嫖_3
-      - 🇺🇸_油管：全网最强白嫖_4
-      - 🇨🇳_油管：全网最强白嫖_30
-      - 🇺🇸_油管：全网最强白嫖_5
-      - 🇺🇸_油管：全网最强白嫖_6
       - 🇺🇸_油管：全网最强白嫖_7
+      - 🇨🇳_油管：全网最强白嫖_9
+      - 🇯🇵_油管：全网最强白嫖
       - 🇺🇸_油管：全网最强白嫖_8
-      - 06@WangCai_1
-      - 20@WangCai_1
-      - tg频道:@mftizi
-      - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
-      - Az香港
-      - 🇨🇳_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_2
-      - 🇺🇸_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_3
-      - 🇨🇳_油管频道：全网最强白嫖_4
-      - 🇨🇳_油管频道：全网最强白嫖_5
-      - 🇨🇳_油管频道：全网最强白嫖_6
-      - 🇨🇳_油管频道：全网最强白嫖_7
-      - 🇨🇳_油管频道：全网最强白嫖_8
-      - 🇨🇳_油管频道：全网最强白嫖_9
-      - 🇺🇸_油管频道：全网最强白嫖_2
-      - 🇺🇸_油管频道：全网最强白嫖_3
-      - 🇺🇸_油管频道：全网最强白嫖_4
-      - 🇺🇸_油管频道：全网最强白嫖_5
-      - 🇨🇳_油管频道：全网最强白嫖_10
-      - 🇺🇸_油管频道：全网最强白嫖_6
-      - 🇺🇸_油管频道：全网最强白嫖_7
-      - TG@mftizi
-      - 长期更新节点https://t.me/mftizi
-      - 免费梯子TG搜索@mftizi
-      - 关注频道https://t.me/mftizi
-      - 免费梯子https://t.me/mftizi
-      - US-高速节点推荐：v2cross.com
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心4
-      - v2cross.com-希腊19
-      - 高速节点推荐：v2cross.com_1
-      - 高速节点推荐：v2cross.com_2
-      - v2cross.com-美国CloudFlare公司CDN节点31
-      - 🇺🇸US_2169
-      - 🇺🇸US_2144
-      - 🇺🇸US_2168
-      - Relay_🇷🇺RU-🇷🇺RU_1191
-      - ''
-      - 🇺🇸US_733
-      - 🇭🇰【tg@freevpn8】_🇨🇳CN-🇭🇰HK_272
-      - Relay_🇻🇳VN-🇻🇳VN_62
-      - v2cross.com-美国弗吉尼亚州阿什本Oracle云计算数据中心16
-      - v2cross.com-美国12
-      - v2cross.com-美国9
-      - SG-高速节点推荐：v1.mk/vip
-      - v2cross.com-新加坡Linode数据中心21
-      - 🇰🇷KR_720【tg@freevpn8】16.61Mb
-      - 🇰🇷_KR_韩国_1
-      - 🇫🇷_FR_法国
-      - 🇩🇪_DE_德国_1
-      - Relay_CN-JP_156
-      - FR_322
-      - IR_414
-      - US_1763
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心3
-      - v2cross.com-美国CloudFlare公司CDN节点9
-      - v2cross.com-美国CloudFlare节点11
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心12
-      - '@SSRSUB-V12-付费推荐:v2cross.com'
-      - Relay_🇦🇺AU-🇦🇺AU_96
-      - 🇺🇸US_2194
-      - 🇺🇸US_2186
-      - 🇺🇸US_2192
-      - 🇺🇸US_2190
-      - Relay_🇨🇳CN-🇸🇪SE_190
-      - Relay_🇺🇸US-🇺🇸US_2185
-      - Relay_🇷🇺RU-🇷🇺RU_536
-      - 🇺🇸US_2193
-      - Relay_🇺🇸US-🇺🇸US_2171
-      - 🇭🇺HU_111v2cross.com
-      - 🇯🇵JP_45
-      - Relay_🇻🇳VN-🇻🇳VN_97
-      - Relay_🇯🇵JP-🇯🇵JP_46
-      - v2cross.com-中国阿里云1
-      - v2cross.com-加拿大13
-      - v2cross.com-美国21
-      - v2cross.com-日本4
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_4
+      - 🇺🇸_油管：全网最强白嫖_9
+      - 🇨🇳_油管：全网最强白嫖_10
+      - 🇭🇰_油管：全网最强白嫖
+      - 🇸🇬_油管：全网最强白嫖
+      - 免费梯子https://t.me/mftizi_2
+      - 关注频道@mftizi
+      - '@wbnet🇸🇬SG1996'
+      - '@wbnet🇸🇬SG1998'
+      - '@wbnet🇸🇬SG2004'
+      - '@wbnet🇸🇬SG2006'
+      - '@wbnet🇸🇬SG2007'
+      - '@wbnet🇸🇬SG2008'
+      - '@wbnet🇸🇬SG2011'
+      - '@wbnet🇸🇬SG2012'
+      - '@wbnet🇸🇬SG2016'
+      - '@wbnet🇸🇬SG2026'
+      - '@wbnet🇸🇬SG2027'
+      - '@wbnet🇸🇬SG2032'
+      - '@wbnet🇸🇬SG2033'
+      - '@wbnet🇸🇬SG2034'
+      - '@wbnet🇸🇬SG2055'
+      - '@wbnet🇸🇬SG2059'
+      - 🇨🇦_CA_加拿大
+      - 🇸🇬_SG_新加坡_1
+      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡_3
+      - 🇸🇬_SG_新加坡_4
+      - 🇸🇬_SG_新加坡_5
+      - 🇸🇬_SG_新加坡_6
+      - 🇸🇬_SG_新加坡_7
+      - 🇸🇬_SG_新加坡_8
+      - 🇸🇬_SG_新加坡_9
+      - 🇸🇬_SG_新加坡_10
+      - 🇸🇬_SG_新加坡_11
+      - 🇸🇬_SG_新加坡_12
+      - 🇸🇬_SG_新加坡_13
+      - 🇸🇬_SG_新加坡_14
+      - 🇸🇬_SG_新加坡_15
+      - 🇸🇬_SG_新加坡_16
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -403,6 +373,65 @@ proxy-groups:
       - 🎯 全球直连
       - 关注电报https://t.me/mftizi
       - 🇺🇸_油管：全网最强白嫖_1
+      - 🇺🇸_油管：全网最强白嫖_2
+      - 🇺🇸_油管：全网最强白嫖_3
+      - 🇺🇸_油管：全网最强白嫖_4
+      - 🇺🇸_油管：全网最强白嫖_5
+      - 🇺🇸_油管：全网最强白嫖_6
+      - 06@WangCai_1
+      - 20@WangCai_1
+      - tg频道:@mftizi
+      - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
+      - Az香港
+      - 🇨🇳_油管频道：全网最强白嫖_1
+      - 🇺🇸_油管频道：全网最强白嫖_1
+      - 🇨🇳_油管频道：全网最强白嫖_2
+      - 🇨🇳_油管频道：全网最强白嫖_3
+      - 🇨🇳_油管频道：全网最强白嫖_4
+      - 🇨🇳_油管频道：全网最强白嫖_5
+      - 🇨🇳_油管频道：全网最强白嫖_6
+      - 🇨🇳_油管频道：全网最强白嫖_7
+      - 🇺🇸_油管频道：全网最强白嫖_2
+      - 🇺🇸_油管频道：全网最强白嫖_3
+      - 🇺🇸_油管频道：全网最强白嫖_4
+      - 🇺🇸_油管频道：全网最强白嫖_5
+      - 🇨🇳_油管频道：全网最强白嫖_8
+      - 🇺🇸_油管频道：全网最强白嫖_6
+      - 🇺🇸_油管频道：全网最强白嫖_7
+      - TG@mftizi
+      - 长期更新节点https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
+      - 免费梯子https://t.me/mftizi_1
+      - US-高速节点推荐：v2cross.com
+      - 高速节点推荐：v2cross.com
+      - 🇺🇸US_2168
+      - 🇺🇸US_733
+      - SG_1221
+      - SG_1220
+      - SG_1232
+      - SG_1247
+      - SG_1265
+      - SG_1286
+      - SG_1281
+      - SG_1299
+      - SG_1270
+      - Relay_CN-JP_07
+      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心35
+      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心15
+      - 🇺🇸@SSRSUB-美国V09-付费推荐:v2cross.com
+      - '@SSRSUB-V03-付费推荐:v2cross.com'
+      - v2cross.com-美国CloudFlare节点34
+      - 🇺🇸US_2169
+      - 🇺🇸US_2184
+      - 🇺🇸US_1218
+      - Relay_🇨🇳CN-🇺🇸US_195
+      - Relay_🇨🇳CN-🇸🇪SE_24
+      - Relay_🇺🇸US-🇺🇸US_41
+      - Relay_🇨🇳CN-🇭🇰HK_25
+      - v2cross.com-新加坡Linode数据中心29
+      - v2cross.com-美国弗吉尼亚州阿什本Oracle云计算数据中心41
+      - v2cross.com-俄罗斯26
+      - v2cross.com-香港Microsoft数据中心42
       - 🇨🇳_油管：全网最强白嫖_1
       - 🇨🇳_油管：全网最强白嫖_2
       - 🇨🇳_油管：全网最强白嫖_3
@@ -411,118 +440,49 @@ proxy-groups:
       - 🇨🇳_油管：全网最强白嫖_6
       - 🇨🇳_油管：全网最强白嫖_7
       - 🇨🇳_油管：全网最强白嫖_8
-      - 🇨🇳_油管：全网最强白嫖_9
-      - 🇨🇳_油管：全网最强白嫖_10
-      - 🇨🇳_油管：全网最强白嫖_11
-      - 🇨🇳_油管：全网最强白嫖_12
-      - 🇨🇳_油管：全网最强白嫖_13
-      - 🇨🇳_油管：全网最强白嫖_14
-      - 🇨🇳_油管：全网最强白嫖_15
-      - 🇨🇳_油管：全网最强白嫖_16
-      - 🇨🇳_油管：全网最强白嫖_17
-      - 🇨🇳_油管：全网最强白嫖_18
-      - 🇨🇳_油管：全网最强白嫖_19
-      - 🇨🇳_油管：全网最强白嫖_20
-      - 🇨🇳_油管：全网最强白嫖_21
-      - 🇨🇳_油管：全网最强白嫖_22
-      - 🇨🇳_油管：全网最强白嫖_23
-      - 🇨🇳_油管：全网最强白嫖_24
-      - 🇨🇳_油管：全网最强白嫖_25
-      - 🇨🇳_油管：全网最强白嫖_26
-      - 🇨🇳_油管：全网最强白嫖_27
-      - 🇨🇳_油管：全网最强白嫖_28
-      - 🇨🇳_油管：全网最强白嫖_29
-      - 🇺🇸_油管：全网最强白嫖_2
-      - 🇺🇸_油管：全网最强白嫖_3
-      - 🇺🇸_油管：全网最强白嫖_4
-      - 🇨🇳_油管：全网最强白嫖_30
-      - 🇺🇸_油管：全网最强白嫖_5
-      - 🇺🇸_油管：全网最强白嫖_6
       - 🇺🇸_油管：全网最强白嫖_7
+      - 🇨🇳_油管：全网最强白嫖_9
+      - 🇯🇵_油管：全网最强白嫖
       - 🇺🇸_油管：全网最强白嫖_8
-      - 06@WangCai_1
-      - 20@WangCai_1
-      - tg频道:@mftizi
-      - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
-      - Az香港
-      - 🇨🇳_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_2
-      - 🇺🇸_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_3
-      - 🇨🇳_油管频道：全网最强白嫖_4
-      - 🇨🇳_油管频道：全网最强白嫖_5
-      - 🇨🇳_油管频道：全网最强白嫖_6
-      - 🇨🇳_油管频道：全网最强白嫖_7
-      - 🇨🇳_油管频道：全网最强白嫖_8
-      - 🇨🇳_油管频道：全网最强白嫖_9
-      - 🇺🇸_油管频道：全网最强白嫖_2
-      - 🇺🇸_油管频道：全网最强白嫖_3
-      - 🇺🇸_油管频道：全网最强白嫖_4
-      - 🇺🇸_油管频道：全网最强白嫖_5
-      - 🇨🇳_油管频道：全网最强白嫖_10
-      - 🇺🇸_油管频道：全网最强白嫖_6
-      - 🇺🇸_油管频道：全网最强白嫖_7
-      - TG@mftizi
-      - 长期更新节点https://t.me/mftizi
-      - 免费梯子TG搜索@mftizi
-      - 关注频道https://t.me/mftizi
-      - 免费梯子https://t.me/mftizi
-      - US-高速节点推荐：v2cross.com
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心4
-      - v2cross.com-希腊19
-      - 高速节点推荐：v2cross.com_1
-      - 高速节点推荐：v2cross.com_2
-      - v2cross.com-美国CloudFlare公司CDN节点31
-      - 🇺🇸US_2169
-      - 🇺🇸US_2144
-      - 🇺🇸US_2168
-      - Relay_🇷🇺RU-🇷🇺RU_1191
-      - ''
-      - 🇺🇸US_733
-      - 🇭🇰【tg@freevpn8】_🇨🇳CN-🇭🇰HK_272
-      - Relay_🇻🇳VN-🇻🇳VN_62
-      - v2cross.com-美国弗吉尼亚州阿什本Oracle云计算数据中心16
-      - v2cross.com-美国12
-      - v2cross.com-美国9
-      - SG-高速节点推荐：v1.mk/vip
-      - v2cross.com-新加坡Linode数据中心21
-      - 🇰🇷KR_720【tg@freevpn8】16.61Mb
-      - 🇰🇷_KR_韩国_1
-      - 🇫🇷_FR_法国
-      - 🇩🇪_DE_德国_1
-      - Relay_CN-JP_156
-      - FR_322
-      - IR_414
-      - US_1763
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心3
-      - v2cross.com-美国CloudFlare公司CDN节点9
-      - v2cross.com-美国CloudFlare节点11
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心12
-      - '@SSRSUB-V12-付费推荐:v2cross.com'
-      - Relay_🇦🇺AU-🇦🇺AU_96
-      - 🇺🇸US_2194
-      - 🇺🇸US_2186
-      - 🇺🇸US_2192
-      - 🇺🇸US_2190
-      - Relay_🇨🇳CN-🇸🇪SE_190
-      - Relay_🇺🇸US-🇺🇸US_2185
-      - Relay_🇷🇺RU-🇷🇺RU_536
-      - 🇺🇸US_2193
-      - Relay_🇺🇸US-🇺🇸US_2171
-      - 🇭🇺HU_111v2cross.com
-      - 🇯🇵JP_45
-      - Relay_🇻🇳VN-🇻🇳VN_97
-      - Relay_🇯🇵JP-🇯🇵JP_46
-      - v2cross.com-中国阿里云1
-      - v2cross.com-加拿大13
-      - v2cross.com-美国21
-      - v2cross.com-日本4
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_4
+      - 🇺🇸_油管：全网最强白嫖_9
+      - 🇨🇳_油管：全网最强白嫖_10
+      - 🇭🇰_油管：全网最强白嫖
+      - 🇸🇬_油管：全网最强白嫖
+      - 免费梯子https://t.me/mftizi_2
+      - 关注频道@mftizi
+      - '@wbnet🇸🇬SG1996'
+      - '@wbnet🇸🇬SG1998'
+      - '@wbnet🇸🇬SG2004'
+      - '@wbnet🇸🇬SG2006'
+      - '@wbnet🇸🇬SG2007'
+      - '@wbnet🇸🇬SG2008'
+      - '@wbnet🇸🇬SG2011'
+      - '@wbnet🇸🇬SG2012'
+      - '@wbnet🇸🇬SG2016'
+      - '@wbnet🇸🇬SG2026'
+      - '@wbnet🇸🇬SG2027'
+      - '@wbnet🇸🇬SG2032'
+      - '@wbnet🇸🇬SG2033'
+      - '@wbnet🇸🇬SG2034'
+      - '@wbnet🇸🇬SG2055'
+      - '@wbnet🇸🇬SG2059'
+      - 🇨🇦_CA_加拿大
+      - 🇸🇬_SG_新加坡_1
+      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡_3
+      - 🇸🇬_SG_新加坡_4
+      - 🇸🇬_SG_新加坡_5
+      - 🇸🇬_SG_新加坡_6
+      - 🇸🇬_SG_新加坡_7
+      - 🇸🇬_SG_新加坡_8
+      - 🇸🇬_SG_新加坡_9
+      - 🇸🇬_SG_新加坡_10
+      - 🇸🇬_SG_新加坡_11
+      - 🇸🇬_SG_新加坡_12
+      - 🇸🇬_SG_新加坡_13
+      - 🇸🇬_SG_新加坡_14
+      - 🇸🇬_SG_新加坡_15
+      - 🇸🇬_SG_新加坡_16
   - name: 📲 电报信息
     type: select
     proxies:
@@ -530,6 +490,65 @@ proxy-groups:
       - 🎯 全球直连
       - 关注电报https://t.me/mftizi
       - 🇺🇸_油管：全网最强白嫖_1
+      - 🇺🇸_油管：全网最强白嫖_2
+      - 🇺🇸_油管：全网最强白嫖_3
+      - 🇺🇸_油管：全网最强白嫖_4
+      - 🇺🇸_油管：全网最强白嫖_5
+      - 🇺🇸_油管：全网最强白嫖_6
+      - 06@WangCai_1
+      - 20@WangCai_1
+      - tg频道:@mftizi
+      - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
+      - Az香港
+      - 🇨🇳_油管频道：全网最强白嫖_1
+      - 🇺🇸_油管频道：全网最强白嫖_1
+      - 🇨🇳_油管频道：全网最强白嫖_2
+      - 🇨🇳_油管频道：全网最强白嫖_3
+      - 🇨🇳_油管频道：全网最强白嫖_4
+      - 🇨🇳_油管频道：全网最强白嫖_5
+      - 🇨🇳_油管频道：全网最强白嫖_6
+      - 🇨🇳_油管频道：全网最强白嫖_7
+      - 🇺🇸_油管频道：全网最强白嫖_2
+      - 🇺🇸_油管频道：全网最强白嫖_3
+      - 🇺🇸_油管频道：全网最强白嫖_4
+      - 🇺🇸_油管频道：全网最强白嫖_5
+      - 🇨🇳_油管频道：全网最强白嫖_8
+      - 🇺🇸_油管频道：全网最强白嫖_6
+      - 🇺🇸_油管频道：全网最强白嫖_7
+      - TG@mftizi
+      - 长期更新节点https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
+      - 免费梯子https://t.me/mftizi_1
+      - US-高速节点推荐：v2cross.com
+      - 高速节点推荐：v2cross.com
+      - 🇺🇸US_2168
+      - 🇺🇸US_733
+      - SG_1221
+      - SG_1220
+      - SG_1232
+      - SG_1247
+      - SG_1265
+      - SG_1286
+      - SG_1281
+      - SG_1299
+      - SG_1270
+      - Relay_CN-JP_07
+      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心35
+      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心15
+      - 🇺🇸@SSRSUB-美国V09-付费推荐:v2cross.com
+      - '@SSRSUB-V03-付费推荐:v2cross.com'
+      - v2cross.com-美国CloudFlare节点34
+      - 🇺🇸US_2169
+      - 🇺🇸US_2184
+      - 🇺🇸US_1218
+      - Relay_🇨🇳CN-🇺🇸US_195
+      - Relay_🇨🇳CN-🇸🇪SE_24
+      - Relay_🇺🇸US-🇺🇸US_41
+      - Relay_🇨🇳CN-🇭🇰HK_25
+      - v2cross.com-新加坡Linode数据中心29
+      - v2cross.com-美国弗吉尼亚州阿什本Oracle云计算数据中心41
+      - v2cross.com-俄罗斯26
+      - v2cross.com-香港Microsoft数据中心42
       - 🇨🇳_油管：全网最强白嫖_1
       - 🇨🇳_油管：全网最强白嫖_2
       - 🇨🇳_油管：全网最强白嫖_3
@@ -538,118 +557,49 @@ proxy-groups:
       - 🇨🇳_油管：全网最强白嫖_6
       - 🇨🇳_油管：全网最强白嫖_7
       - 🇨🇳_油管：全网最强白嫖_8
-      - 🇨🇳_油管：全网最强白嫖_9
-      - 🇨🇳_油管：全网最强白嫖_10
-      - 🇨🇳_油管：全网最强白嫖_11
-      - 🇨🇳_油管：全网最强白嫖_12
-      - 🇨🇳_油管：全网最强白嫖_13
-      - 🇨🇳_油管：全网最强白嫖_14
-      - 🇨🇳_油管：全网最强白嫖_15
-      - 🇨🇳_油管：全网最强白嫖_16
-      - 🇨🇳_油管：全网最强白嫖_17
-      - 🇨🇳_油管：全网最强白嫖_18
-      - 🇨🇳_油管：全网最强白嫖_19
-      - 🇨🇳_油管：全网最强白嫖_20
-      - 🇨🇳_油管：全网最强白嫖_21
-      - 🇨🇳_油管：全网最强白嫖_22
-      - 🇨🇳_油管：全网最强白嫖_23
-      - 🇨🇳_油管：全网最强白嫖_24
-      - 🇨🇳_油管：全网最强白嫖_25
-      - 🇨🇳_油管：全网最强白嫖_26
-      - 🇨🇳_油管：全网最强白嫖_27
-      - 🇨🇳_油管：全网最强白嫖_28
-      - 🇨🇳_油管：全网最强白嫖_29
-      - 🇺🇸_油管：全网最强白嫖_2
-      - 🇺🇸_油管：全网最强白嫖_3
-      - 🇺🇸_油管：全网最强白嫖_4
-      - 🇨🇳_油管：全网最强白嫖_30
-      - 🇺🇸_油管：全网最强白嫖_5
-      - 🇺🇸_油管：全网最强白嫖_6
       - 🇺🇸_油管：全网最强白嫖_7
+      - 🇨🇳_油管：全网最强白嫖_9
+      - 🇯🇵_油管：全网最强白嫖
       - 🇺🇸_油管：全网最强白嫖_8
-      - 06@WangCai_1
-      - 20@WangCai_1
-      - tg频道:@mftizi
-      - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
-      - Az香港
-      - 🇨🇳_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_2
-      - 🇺🇸_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_3
-      - 🇨🇳_油管频道：全网最强白嫖_4
-      - 🇨🇳_油管频道：全网最强白嫖_5
-      - 🇨🇳_油管频道：全网最强白嫖_6
-      - 🇨🇳_油管频道：全网最强白嫖_7
-      - 🇨🇳_油管频道：全网最强白嫖_8
-      - 🇨🇳_油管频道：全网最强白嫖_9
-      - 🇺🇸_油管频道：全网最强白嫖_2
-      - 🇺🇸_油管频道：全网最强白嫖_3
-      - 🇺🇸_油管频道：全网最强白嫖_4
-      - 🇺🇸_油管频道：全网最强白嫖_5
-      - 🇨🇳_油管频道：全网最强白嫖_10
-      - 🇺🇸_油管频道：全网最强白嫖_6
-      - 🇺🇸_油管频道：全网最强白嫖_7
-      - TG@mftizi
-      - 长期更新节点https://t.me/mftizi
-      - 免费梯子TG搜索@mftizi
-      - 关注频道https://t.me/mftizi
-      - 免费梯子https://t.me/mftizi
-      - US-高速节点推荐：v2cross.com
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心4
-      - v2cross.com-希腊19
-      - 高速节点推荐：v2cross.com_1
-      - 高速节点推荐：v2cross.com_2
-      - v2cross.com-美国CloudFlare公司CDN节点31
-      - 🇺🇸US_2169
-      - 🇺🇸US_2144
-      - 🇺🇸US_2168
-      - Relay_🇷🇺RU-🇷🇺RU_1191
-      - ''
-      - 🇺🇸US_733
-      - 🇭🇰【tg@freevpn8】_🇨🇳CN-🇭🇰HK_272
-      - Relay_🇻🇳VN-🇻🇳VN_62
-      - v2cross.com-美国弗吉尼亚州阿什本Oracle云计算数据中心16
-      - v2cross.com-美国12
-      - v2cross.com-美国9
-      - SG-高速节点推荐：v1.mk/vip
-      - v2cross.com-新加坡Linode数据中心21
-      - 🇰🇷KR_720【tg@freevpn8】16.61Mb
-      - 🇰🇷_KR_韩国_1
-      - 🇫🇷_FR_法国
-      - 🇩🇪_DE_德国_1
-      - Relay_CN-JP_156
-      - FR_322
-      - IR_414
-      - US_1763
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心3
-      - v2cross.com-美国CloudFlare公司CDN节点9
-      - v2cross.com-美国CloudFlare节点11
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心12
-      - '@SSRSUB-V12-付费推荐:v2cross.com'
-      - Relay_🇦🇺AU-🇦🇺AU_96
-      - 🇺🇸US_2194
-      - 🇺🇸US_2186
-      - 🇺🇸US_2192
-      - 🇺🇸US_2190
-      - Relay_🇨🇳CN-🇸🇪SE_190
-      - Relay_🇺🇸US-🇺🇸US_2185
-      - Relay_🇷🇺RU-🇷🇺RU_536
-      - 🇺🇸US_2193
-      - Relay_🇺🇸US-🇺🇸US_2171
-      - 🇭🇺HU_111v2cross.com
-      - 🇯🇵JP_45
-      - Relay_🇻🇳VN-🇻🇳VN_97
-      - Relay_🇯🇵JP-🇯🇵JP_46
-      - v2cross.com-中国阿里云1
-      - v2cross.com-加拿大13
-      - v2cross.com-美国21
-      - v2cross.com-日本4
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_4
+      - 🇺🇸_油管：全网最强白嫖_9
+      - 🇨🇳_油管：全网最强白嫖_10
+      - 🇭🇰_油管：全网最强白嫖
+      - 🇸🇬_油管：全网最强白嫖
+      - 免费梯子https://t.me/mftizi_2
+      - 关注频道@mftizi
+      - '@wbnet🇸🇬SG1996'
+      - '@wbnet🇸🇬SG1998'
+      - '@wbnet🇸🇬SG2004'
+      - '@wbnet🇸🇬SG2006'
+      - '@wbnet🇸🇬SG2007'
+      - '@wbnet🇸🇬SG2008'
+      - '@wbnet🇸🇬SG2011'
+      - '@wbnet🇸🇬SG2012'
+      - '@wbnet🇸🇬SG2016'
+      - '@wbnet🇸🇬SG2026'
+      - '@wbnet🇸🇬SG2027'
+      - '@wbnet🇸🇬SG2032'
+      - '@wbnet🇸🇬SG2033'
+      - '@wbnet🇸🇬SG2034'
+      - '@wbnet🇸🇬SG2055'
+      - '@wbnet🇸🇬SG2059'
+      - 🇨🇦_CA_加拿大
+      - 🇸🇬_SG_新加坡_1
+      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡_3
+      - 🇸🇬_SG_新加坡_4
+      - 🇸🇬_SG_新加坡_5
+      - 🇸🇬_SG_新加坡_6
+      - 🇸🇬_SG_新加坡_7
+      - 🇸🇬_SG_新加坡_8
+      - 🇸🇬_SG_新加坡_9
+      - 🇸🇬_SG_新加坡_10
+      - 🇸🇬_SG_新加坡_11
+      - 🇸🇬_SG_新加坡_12
+      - 🇸🇬_SG_新加坡_13
+      - 🇸🇬_SG_新加坡_14
+      - 🇸🇬_SG_新加坡_15
+      - 🇸🇬_SG_新加坡_16
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -657,6 +607,65 @@ proxy-groups:
       - 🚀 节点选择
       - 关注电报https://t.me/mftizi
       - 🇺🇸_油管：全网最强白嫖_1
+      - 🇺🇸_油管：全网最强白嫖_2
+      - 🇺🇸_油管：全网最强白嫖_3
+      - 🇺🇸_油管：全网最强白嫖_4
+      - 🇺🇸_油管：全网最强白嫖_5
+      - 🇺🇸_油管：全网最强白嫖_6
+      - 06@WangCai_1
+      - 20@WangCai_1
+      - tg频道:@mftizi
+      - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
+      - Az香港
+      - 🇨🇳_油管频道：全网最强白嫖_1
+      - 🇺🇸_油管频道：全网最强白嫖_1
+      - 🇨🇳_油管频道：全网最强白嫖_2
+      - 🇨🇳_油管频道：全网最强白嫖_3
+      - 🇨🇳_油管频道：全网最强白嫖_4
+      - 🇨🇳_油管频道：全网最强白嫖_5
+      - 🇨🇳_油管频道：全网最强白嫖_6
+      - 🇨🇳_油管频道：全网最强白嫖_7
+      - 🇺🇸_油管频道：全网最强白嫖_2
+      - 🇺🇸_油管频道：全网最强白嫖_3
+      - 🇺🇸_油管频道：全网最强白嫖_4
+      - 🇺🇸_油管频道：全网最强白嫖_5
+      - 🇨🇳_油管频道：全网最强白嫖_8
+      - 🇺🇸_油管频道：全网最强白嫖_6
+      - 🇺🇸_油管频道：全网最强白嫖_7
+      - TG@mftizi
+      - 长期更新节点https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
+      - 免费梯子https://t.me/mftizi_1
+      - US-高速节点推荐：v2cross.com
+      - 高速节点推荐：v2cross.com
+      - 🇺🇸US_2168
+      - 🇺🇸US_733
+      - SG_1221
+      - SG_1220
+      - SG_1232
+      - SG_1247
+      - SG_1265
+      - SG_1286
+      - SG_1281
+      - SG_1299
+      - SG_1270
+      - Relay_CN-JP_07
+      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心35
+      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心15
+      - 🇺🇸@SSRSUB-美国V09-付费推荐:v2cross.com
+      - '@SSRSUB-V03-付费推荐:v2cross.com'
+      - v2cross.com-美国CloudFlare节点34
+      - 🇺🇸US_2169
+      - 🇺🇸US_2184
+      - 🇺🇸US_1218
+      - Relay_🇨🇳CN-🇺🇸US_195
+      - Relay_🇨🇳CN-🇸🇪SE_24
+      - Relay_🇺🇸US-🇺🇸US_41
+      - Relay_🇨🇳CN-🇭🇰HK_25
+      - v2cross.com-新加坡Linode数据中心29
+      - v2cross.com-美国弗吉尼亚州阿什本Oracle云计算数据中心41
+      - v2cross.com-俄罗斯26
+      - v2cross.com-香港Microsoft数据中心42
       - 🇨🇳_油管：全网最强白嫖_1
       - 🇨🇳_油管：全网最强白嫖_2
       - 🇨🇳_油管：全网最强白嫖_3
@@ -665,118 +674,49 @@ proxy-groups:
       - 🇨🇳_油管：全网最强白嫖_6
       - 🇨🇳_油管：全网最强白嫖_7
       - 🇨🇳_油管：全网最强白嫖_8
-      - 🇨🇳_油管：全网最强白嫖_9
-      - 🇨🇳_油管：全网最强白嫖_10
-      - 🇨🇳_油管：全网最强白嫖_11
-      - 🇨🇳_油管：全网最强白嫖_12
-      - 🇨🇳_油管：全网最强白嫖_13
-      - 🇨🇳_油管：全网最强白嫖_14
-      - 🇨🇳_油管：全网最强白嫖_15
-      - 🇨🇳_油管：全网最强白嫖_16
-      - 🇨🇳_油管：全网最强白嫖_17
-      - 🇨🇳_油管：全网最强白嫖_18
-      - 🇨🇳_油管：全网最强白嫖_19
-      - 🇨🇳_油管：全网最强白嫖_20
-      - 🇨🇳_油管：全网最强白嫖_21
-      - 🇨🇳_油管：全网最强白嫖_22
-      - 🇨🇳_油管：全网最强白嫖_23
-      - 🇨🇳_油管：全网最强白嫖_24
-      - 🇨🇳_油管：全网最强白嫖_25
-      - 🇨🇳_油管：全网最强白嫖_26
-      - 🇨🇳_油管：全网最强白嫖_27
-      - 🇨🇳_油管：全网最强白嫖_28
-      - 🇨🇳_油管：全网最强白嫖_29
-      - 🇺🇸_油管：全网最强白嫖_2
-      - 🇺🇸_油管：全网最强白嫖_3
-      - 🇺🇸_油管：全网最强白嫖_4
-      - 🇨🇳_油管：全网最强白嫖_30
-      - 🇺🇸_油管：全网最强白嫖_5
-      - 🇺🇸_油管：全网最强白嫖_6
       - 🇺🇸_油管：全网最强白嫖_7
+      - 🇨🇳_油管：全网最强白嫖_9
+      - 🇯🇵_油管：全网最强白嫖
       - 🇺🇸_油管：全网最强白嫖_8
-      - 06@WangCai_1
-      - 20@WangCai_1
-      - tg频道:@mftizi
-      - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
-      - Az香港
-      - 🇨🇳_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_2
-      - 🇺🇸_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_3
-      - 🇨🇳_油管频道：全网最强白嫖_4
-      - 🇨🇳_油管频道：全网最强白嫖_5
-      - 🇨🇳_油管频道：全网最强白嫖_6
-      - 🇨🇳_油管频道：全网最强白嫖_7
-      - 🇨🇳_油管频道：全网最强白嫖_8
-      - 🇨🇳_油管频道：全网最强白嫖_9
-      - 🇺🇸_油管频道：全网最强白嫖_2
-      - 🇺🇸_油管频道：全网最强白嫖_3
-      - 🇺🇸_油管频道：全网最强白嫖_4
-      - 🇺🇸_油管频道：全网最强白嫖_5
-      - 🇨🇳_油管频道：全网最强白嫖_10
-      - 🇺🇸_油管频道：全网最强白嫖_6
-      - 🇺🇸_油管频道：全网最强白嫖_7
-      - TG@mftizi
-      - 长期更新节点https://t.me/mftizi
-      - 免费梯子TG搜索@mftizi
-      - 关注频道https://t.me/mftizi
-      - 免费梯子https://t.me/mftizi
-      - US-高速节点推荐：v2cross.com
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心4
-      - v2cross.com-希腊19
-      - 高速节点推荐：v2cross.com_1
-      - 高速节点推荐：v2cross.com_2
-      - v2cross.com-美国CloudFlare公司CDN节点31
-      - 🇺🇸US_2169
-      - 🇺🇸US_2144
-      - 🇺🇸US_2168
-      - Relay_🇷🇺RU-🇷🇺RU_1191
-      - ''
-      - 🇺🇸US_733
-      - 🇭🇰【tg@freevpn8】_🇨🇳CN-🇭🇰HK_272
-      - Relay_🇻🇳VN-🇻🇳VN_62
-      - v2cross.com-美国弗吉尼亚州阿什本Oracle云计算数据中心16
-      - v2cross.com-美国12
-      - v2cross.com-美国9
-      - SG-高速节点推荐：v1.mk/vip
-      - v2cross.com-新加坡Linode数据中心21
-      - 🇰🇷KR_720【tg@freevpn8】16.61Mb
-      - 🇰🇷_KR_韩国_1
-      - 🇫🇷_FR_法国
-      - 🇩🇪_DE_德国_1
-      - Relay_CN-JP_156
-      - FR_322
-      - IR_414
-      - US_1763
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心3
-      - v2cross.com-美国CloudFlare公司CDN节点9
-      - v2cross.com-美国CloudFlare节点11
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心12
-      - '@SSRSUB-V12-付费推荐:v2cross.com'
-      - Relay_🇦🇺AU-🇦🇺AU_96
-      - 🇺🇸US_2194
-      - 🇺🇸US_2186
-      - 🇺🇸US_2192
-      - 🇺🇸US_2190
-      - Relay_🇨🇳CN-🇸🇪SE_190
-      - Relay_🇺🇸US-🇺🇸US_2185
-      - Relay_🇷🇺RU-🇷🇺RU_536
-      - 🇺🇸US_2193
-      - Relay_🇺🇸US-🇺🇸US_2171
-      - 🇭🇺HU_111v2cross.com
-      - 🇯🇵JP_45
-      - Relay_🇻🇳VN-🇻🇳VN_97
-      - Relay_🇯🇵JP-🇯🇵JP_46
-      - v2cross.com-中国阿里云1
-      - v2cross.com-加拿大13
-      - v2cross.com-美国21
-      - v2cross.com-日本4
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_4
+      - 🇺🇸_油管：全网最强白嫖_9
+      - 🇨🇳_油管：全网最强白嫖_10
+      - 🇭🇰_油管：全网最强白嫖
+      - 🇸🇬_油管：全网最强白嫖
+      - 免费梯子https://t.me/mftizi_2
+      - 关注频道@mftizi
+      - '@wbnet🇸🇬SG1996'
+      - '@wbnet🇸🇬SG1998'
+      - '@wbnet🇸🇬SG2004'
+      - '@wbnet🇸🇬SG2006'
+      - '@wbnet🇸🇬SG2007'
+      - '@wbnet🇸🇬SG2008'
+      - '@wbnet🇸🇬SG2011'
+      - '@wbnet🇸🇬SG2012'
+      - '@wbnet🇸🇬SG2016'
+      - '@wbnet🇸🇬SG2026'
+      - '@wbnet🇸🇬SG2027'
+      - '@wbnet🇸🇬SG2032'
+      - '@wbnet🇸🇬SG2033'
+      - '@wbnet🇸🇬SG2034'
+      - '@wbnet🇸🇬SG2055'
+      - '@wbnet🇸🇬SG2059'
+      - 🇨🇦_CA_加拿大
+      - 🇸🇬_SG_新加坡_1
+      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡_3
+      - 🇸🇬_SG_新加坡_4
+      - 🇸🇬_SG_新加坡_5
+      - 🇸🇬_SG_新加坡_6
+      - 🇸🇬_SG_新加坡_7
+      - 🇸🇬_SG_新加坡_8
+      - 🇸🇬_SG_新加坡_9
+      - 🇸🇬_SG_新加坡_10
+      - 🇸🇬_SG_新加坡_11
+      - 🇸🇬_SG_新加坡_12
+      - 🇸🇬_SG_新加坡_13
+      - 🇸🇬_SG_新加坡_14
+      - 🇸🇬_SG_新加坡_15
+      - 🇸🇬_SG_新加坡_16
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -784,6 +724,65 @@ proxy-groups:
       - 🎯 全球直连
       - 关注电报https://t.me/mftizi
       - 🇺🇸_油管：全网最强白嫖_1
+      - 🇺🇸_油管：全网最强白嫖_2
+      - 🇺🇸_油管：全网最强白嫖_3
+      - 🇺🇸_油管：全网最强白嫖_4
+      - 🇺🇸_油管：全网最强白嫖_5
+      - 🇺🇸_油管：全网最强白嫖_6
+      - 06@WangCai_1
+      - 20@WangCai_1
+      - tg频道:@mftizi
+      - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
+      - Az香港
+      - 🇨🇳_油管频道：全网最强白嫖_1
+      - 🇺🇸_油管频道：全网最强白嫖_1
+      - 🇨🇳_油管频道：全网最强白嫖_2
+      - 🇨🇳_油管频道：全网最强白嫖_3
+      - 🇨🇳_油管频道：全网最强白嫖_4
+      - 🇨🇳_油管频道：全网最强白嫖_5
+      - 🇨🇳_油管频道：全网最强白嫖_6
+      - 🇨🇳_油管频道：全网最强白嫖_7
+      - 🇺🇸_油管频道：全网最强白嫖_2
+      - 🇺🇸_油管频道：全网最强白嫖_3
+      - 🇺🇸_油管频道：全网最强白嫖_4
+      - 🇺🇸_油管频道：全网最强白嫖_5
+      - 🇨🇳_油管频道：全网最强白嫖_8
+      - 🇺🇸_油管频道：全网最强白嫖_6
+      - 🇺🇸_油管频道：全网最强白嫖_7
+      - TG@mftizi
+      - 长期更新节点https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
+      - 免费梯子https://t.me/mftizi_1
+      - US-高速节点推荐：v2cross.com
+      - 高速节点推荐：v2cross.com
+      - 🇺🇸US_2168
+      - 🇺🇸US_733
+      - SG_1221
+      - SG_1220
+      - SG_1232
+      - SG_1247
+      - SG_1265
+      - SG_1286
+      - SG_1281
+      - SG_1299
+      - SG_1270
+      - Relay_CN-JP_07
+      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心35
+      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心15
+      - 🇺🇸@SSRSUB-美国V09-付费推荐:v2cross.com
+      - '@SSRSUB-V03-付费推荐:v2cross.com'
+      - v2cross.com-美国CloudFlare节点34
+      - 🇺🇸US_2169
+      - 🇺🇸US_2184
+      - 🇺🇸US_1218
+      - Relay_🇨🇳CN-🇺🇸US_195
+      - Relay_🇨🇳CN-🇸🇪SE_24
+      - Relay_🇺🇸US-🇺🇸US_41
+      - Relay_🇨🇳CN-🇭🇰HK_25
+      - v2cross.com-新加坡Linode数据中心29
+      - v2cross.com-美国弗吉尼亚州阿什本Oracle云计算数据中心41
+      - v2cross.com-俄罗斯26
+      - v2cross.com-香港Microsoft数据中心42
       - 🇨🇳_油管：全网最强白嫖_1
       - 🇨🇳_油管：全网最强白嫖_2
       - 🇨🇳_油管：全网最强白嫖_3
@@ -792,118 +791,49 @@ proxy-groups:
       - 🇨🇳_油管：全网最强白嫖_6
       - 🇨🇳_油管：全网最强白嫖_7
       - 🇨🇳_油管：全网最强白嫖_8
-      - 🇨🇳_油管：全网最强白嫖_9
-      - 🇨🇳_油管：全网最强白嫖_10
-      - 🇨🇳_油管：全网最强白嫖_11
-      - 🇨🇳_油管：全网最强白嫖_12
-      - 🇨🇳_油管：全网最强白嫖_13
-      - 🇨🇳_油管：全网最强白嫖_14
-      - 🇨🇳_油管：全网最强白嫖_15
-      - 🇨🇳_油管：全网最强白嫖_16
-      - 🇨🇳_油管：全网最强白嫖_17
-      - 🇨🇳_油管：全网最强白嫖_18
-      - 🇨🇳_油管：全网最强白嫖_19
-      - 🇨🇳_油管：全网最强白嫖_20
-      - 🇨🇳_油管：全网最强白嫖_21
-      - 🇨🇳_油管：全网最强白嫖_22
-      - 🇨🇳_油管：全网最强白嫖_23
-      - 🇨🇳_油管：全网最强白嫖_24
-      - 🇨🇳_油管：全网最强白嫖_25
-      - 🇨🇳_油管：全网最强白嫖_26
-      - 🇨🇳_油管：全网最强白嫖_27
-      - 🇨🇳_油管：全网最强白嫖_28
-      - 🇨🇳_油管：全网最强白嫖_29
-      - 🇺🇸_油管：全网最强白嫖_2
-      - 🇺🇸_油管：全网最强白嫖_3
-      - 🇺🇸_油管：全网最强白嫖_4
-      - 🇨🇳_油管：全网最强白嫖_30
-      - 🇺🇸_油管：全网最强白嫖_5
-      - 🇺🇸_油管：全网最强白嫖_6
       - 🇺🇸_油管：全网最强白嫖_7
+      - 🇨🇳_油管：全网最强白嫖_9
+      - 🇯🇵_油管：全网最强白嫖
       - 🇺🇸_油管：全网最强白嫖_8
-      - 06@WangCai_1
-      - 20@WangCai_1
-      - tg频道:@mftizi
-      - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
-      - Az香港
-      - 🇨🇳_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_2
-      - 🇺🇸_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_3
-      - 🇨🇳_油管频道：全网最强白嫖_4
-      - 🇨🇳_油管频道：全网最强白嫖_5
-      - 🇨🇳_油管频道：全网最强白嫖_6
-      - 🇨🇳_油管频道：全网最强白嫖_7
-      - 🇨🇳_油管频道：全网最强白嫖_8
-      - 🇨🇳_油管频道：全网最强白嫖_9
-      - 🇺🇸_油管频道：全网最强白嫖_2
-      - 🇺🇸_油管频道：全网最强白嫖_3
-      - 🇺🇸_油管频道：全网最强白嫖_4
-      - 🇺🇸_油管频道：全网最强白嫖_5
-      - 🇨🇳_油管频道：全网最强白嫖_10
-      - 🇺🇸_油管频道：全网最强白嫖_6
-      - 🇺🇸_油管频道：全网最强白嫖_7
-      - TG@mftizi
-      - 长期更新节点https://t.me/mftizi
-      - 免费梯子TG搜索@mftizi
-      - 关注频道https://t.me/mftizi
-      - 免费梯子https://t.me/mftizi
-      - US-高速节点推荐：v2cross.com
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心4
-      - v2cross.com-希腊19
-      - 高速节点推荐：v2cross.com_1
-      - 高速节点推荐：v2cross.com_2
-      - v2cross.com-美国CloudFlare公司CDN节点31
-      - 🇺🇸US_2169
-      - 🇺🇸US_2144
-      - 🇺🇸US_2168
-      - Relay_🇷🇺RU-🇷🇺RU_1191
-      - ''
-      - 🇺🇸US_733
-      - 🇭🇰【tg@freevpn8】_🇨🇳CN-🇭🇰HK_272
-      - Relay_🇻🇳VN-🇻🇳VN_62
-      - v2cross.com-美国弗吉尼亚州阿什本Oracle云计算数据中心16
-      - v2cross.com-美国12
-      - v2cross.com-美国9
-      - SG-高速节点推荐：v1.mk/vip
-      - v2cross.com-新加坡Linode数据中心21
-      - 🇰🇷KR_720【tg@freevpn8】16.61Mb
-      - 🇰🇷_KR_韩国_1
-      - 🇫🇷_FR_法国
-      - 🇩🇪_DE_德国_1
-      - Relay_CN-JP_156
-      - FR_322
-      - IR_414
-      - US_1763
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心3
-      - v2cross.com-美国CloudFlare公司CDN节点9
-      - v2cross.com-美国CloudFlare节点11
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心12
-      - '@SSRSUB-V12-付费推荐:v2cross.com'
-      - Relay_🇦🇺AU-🇦🇺AU_96
-      - 🇺🇸US_2194
-      - 🇺🇸US_2186
-      - 🇺🇸US_2192
-      - 🇺🇸US_2190
-      - Relay_🇨🇳CN-🇸🇪SE_190
-      - Relay_🇺🇸US-🇺🇸US_2185
-      - Relay_🇷🇺RU-🇷🇺RU_536
-      - 🇺🇸US_2193
-      - Relay_🇺🇸US-🇺🇸US_2171
-      - 🇭🇺HU_111v2cross.com
-      - 🇯🇵JP_45
-      - Relay_🇻🇳VN-🇻🇳VN_97
-      - Relay_🇯🇵JP-🇯🇵JP_46
-      - v2cross.com-中国阿里云1
-      - v2cross.com-加拿大13
-      - v2cross.com-美国21
-      - v2cross.com-日本4
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_4
+      - 🇺🇸_油管：全网最强白嫖_9
+      - 🇨🇳_油管：全网最强白嫖_10
+      - 🇭🇰_油管：全网最强白嫖
+      - 🇸🇬_油管：全网最强白嫖
+      - 免费梯子https://t.me/mftizi_2
+      - 关注频道@mftizi
+      - '@wbnet🇸🇬SG1996'
+      - '@wbnet🇸🇬SG1998'
+      - '@wbnet🇸🇬SG2004'
+      - '@wbnet🇸🇬SG2006'
+      - '@wbnet🇸🇬SG2007'
+      - '@wbnet🇸🇬SG2008'
+      - '@wbnet🇸🇬SG2011'
+      - '@wbnet🇸🇬SG2012'
+      - '@wbnet🇸🇬SG2016'
+      - '@wbnet🇸🇬SG2026'
+      - '@wbnet🇸🇬SG2027'
+      - '@wbnet🇸🇬SG2032'
+      - '@wbnet🇸🇬SG2033'
+      - '@wbnet🇸🇬SG2034'
+      - '@wbnet🇸🇬SG2055'
+      - '@wbnet🇸🇬SG2059'
+      - 🇨🇦_CA_加拿大
+      - 🇸🇬_SG_新加坡_1
+      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡_3
+      - 🇸🇬_SG_新加坡_4
+      - 🇸🇬_SG_新加坡_5
+      - 🇸🇬_SG_新加坡_6
+      - 🇸🇬_SG_新加坡_7
+      - 🇸🇬_SG_新加坡_8
+      - 🇸🇬_SG_新加坡_9
+      - 🇸🇬_SG_新加坡_10
+      - 🇸🇬_SG_新加坡_11
+      - 🇸🇬_SG_新加坡_12
+      - 🇸🇬_SG_新加坡_13
+      - 🇸🇬_SG_新加坡_14
+      - 🇸🇬_SG_新加坡_15
+      - 🇸🇬_SG_新加坡_16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -928,6 +858,65 @@ proxy-groups:
       - ♻️ 自动选择
       - 关注电报https://t.me/mftizi
       - 🇺🇸_油管：全网最强白嫖_1
+      - 🇺🇸_油管：全网最强白嫖_2
+      - 🇺🇸_油管：全网最强白嫖_3
+      - 🇺🇸_油管：全网最强白嫖_4
+      - 🇺🇸_油管：全网最强白嫖_5
+      - 🇺🇸_油管：全网最强白嫖_6
+      - 06@WangCai_1
+      - 20@WangCai_1
+      - tg频道:@mftizi
+      - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
+      - Az香港
+      - 🇨🇳_油管频道：全网最强白嫖_1
+      - 🇺🇸_油管频道：全网最强白嫖_1
+      - 🇨🇳_油管频道：全网最强白嫖_2
+      - 🇨🇳_油管频道：全网最强白嫖_3
+      - 🇨🇳_油管频道：全网最强白嫖_4
+      - 🇨🇳_油管频道：全网最强白嫖_5
+      - 🇨🇳_油管频道：全网最强白嫖_6
+      - 🇨🇳_油管频道：全网最强白嫖_7
+      - 🇺🇸_油管频道：全网最强白嫖_2
+      - 🇺🇸_油管频道：全网最强白嫖_3
+      - 🇺🇸_油管频道：全网最强白嫖_4
+      - 🇺🇸_油管频道：全网最强白嫖_5
+      - 🇨🇳_油管频道：全网最强白嫖_8
+      - 🇺🇸_油管频道：全网最强白嫖_6
+      - 🇺🇸_油管频道：全网最强白嫖_7
+      - TG@mftizi
+      - 长期更新节点https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
+      - 免费梯子https://t.me/mftizi_1
+      - US-高速节点推荐：v2cross.com
+      - 高速节点推荐：v2cross.com
+      - 🇺🇸US_2168
+      - 🇺🇸US_733
+      - SG_1221
+      - SG_1220
+      - SG_1232
+      - SG_1247
+      - SG_1265
+      - SG_1286
+      - SG_1281
+      - SG_1299
+      - SG_1270
+      - Relay_CN-JP_07
+      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心35
+      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心15
+      - 🇺🇸@SSRSUB-美国V09-付费推荐:v2cross.com
+      - '@SSRSUB-V03-付费推荐:v2cross.com'
+      - v2cross.com-美国CloudFlare节点34
+      - 🇺🇸US_2169
+      - 🇺🇸US_2184
+      - 🇺🇸US_1218
+      - Relay_🇨🇳CN-🇺🇸US_195
+      - Relay_🇨🇳CN-🇸🇪SE_24
+      - Relay_🇺🇸US-🇺🇸US_41
+      - Relay_🇨🇳CN-🇭🇰HK_25
+      - v2cross.com-新加坡Linode数据中心29
+      - v2cross.com-美国弗吉尼亚州阿什本Oracle云计算数据中心41
+      - v2cross.com-俄罗斯26
+      - v2cross.com-香港Microsoft数据中心42
       - 🇨🇳_油管：全网最强白嫖_1
       - 🇨🇳_油管：全网最强白嫖_2
       - 🇨🇳_油管：全网最强白嫖_3
@@ -936,118 +925,49 @@ proxy-groups:
       - 🇨🇳_油管：全网最强白嫖_6
       - 🇨🇳_油管：全网最强白嫖_7
       - 🇨🇳_油管：全网最强白嫖_8
-      - 🇨🇳_油管：全网最强白嫖_9
-      - 🇨🇳_油管：全网最强白嫖_10
-      - 🇨🇳_油管：全网最强白嫖_11
-      - 🇨🇳_油管：全网最强白嫖_12
-      - 🇨🇳_油管：全网最强白嫖_13
-      - 🇨🇳_油管：全网最强白嫖_14
-      - 🇨🇳_油管：全网最强白嫖_15
-      - 🇨🇳_油管：全网最强白嫖_16
-      - 🇨🇳_油管：全网最强白嫖_17
-      - 🇨🇳_油管：全网最强白嫖_18
-      - 🇨🇳_油管：全网最强白嫖_19
-      - 🇨🇳_油管：全网最强白嫖_20
-      - 🇨🇳_油管：全网最强白嫖_21
-      - 🇨🇳_油管：全网最强白嫖_22
-      - 🇨🇳_油管：全网最强白嫖_23
-      - 🇨🇳_油管：全网最强白嫖_24
-      - 🇨🇳_油管：全网最强白嫖_25
-      - 🇨🇳_油管：全网最强白嫖_26
-      - 🇨🇳_油管：全网最强白嫖_27
-      - 🇨🇳_油管：全网最强白嫖_28
-      - 🇨🇳_油管：全网最强白嫖_29
-      - 🇺🇸_油管：全网最强白嫖_2
-      - 🇺🇸_油管：全网最强白嫖_3
-      - 🇺🇸_油管：全网最强白嫖_4
-      - 🇨🇳_油管：全网最强白嫖_30
-      - 🇺🇸_油管：全网最强白嫖_5
-      - 🇺🇸_油管：全网最强白嫖_6
       - 🇺🇸_油管：全网最强白嫖_7
+      - 🇨🇳_油管：全网最强白嫖_9
+      - 🇯🇵_油管：全网最强白嫖
       - 🇺🇸_油管：全网最强白嫖_8
-      - 06@WangCai_1
-      - 20@WangCai_1
-      - tg频道:@mftizi
-      - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
-      - Az香港
-      - 🇨🇳_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_2
-      - 🇺🇸_油管频道：全网最强白嫖_1
-      - 🇨🇳_油管频道：全网最强白嫖_3
-      - 🇨🇳_油管频道：全网最强白嫖_4
-      - 🇨🇳_油管频道：全网最强白嫖_5
-      - 🇨🇳_油管频道：全网最强白嫖_6
-      - 🇨🇳_油管频道：全网最强白嫖_7
-      - 🇨🇳_油管频道：全网最强白嫖_8
-      - 🇨🇳_油管频道：全网最强白嫖_9
-      - 🇺🇸_油管频道：全网最强白嫖_2
-      - 🇺🇸_油管频道：全网最强白嫖_3
-      - 🇺🇸_油管频道：全网最强白嫖_4
-      - 🇺🇸_油管频道：全网最强白嫖_5
-      - 🇨🇳_油管频道：全网最强白嫖_10
-      - 🇺🇸_油管频道：全网最强白嫖_6
-      - 🇺🇸_油管频道：全网最强白嫖_7
-      - TG@mftizi
-      - 长期更新节点https://t.me/mftizi
-      - 免费梯子TG搜索@mftizi
-      - 关注频道https://t.me/mftizi
-      - 免费梯子https://t.me/mftizi
-      - US-高速节点推荐：v2cross.com
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心4
-      - v2cross.com-希腊19
-      - 高速节点推荐：v2cross.com_1
-      - 高速节点推荐：v2cross.com_2
-      - v2cross.com-美国CloudFlare公司CDN节点31
-      - 🇺🇸US_2169
-      - 🇺🇸US_2144
-      - 🇺🇸US_2168
-      - Relay_🇷🇺RU-🇷🇺RU_1191
-      - ''
-      - 🇺🇸US_733
-      - 🇭🇰【tg@freevpn8】_🇨🇳CN-🇭🇰HK_272
-      - Relay_🇻🇳VN-🇻🇳VN_62
-      - v2cross.com-美国弗吉尼亚州阿什本Oracle云计算数据中心16
-      - v2cross.com-美国12
-      - v2cross.com-美国9
-      - SG-高速节点推荐：v1.mk/vip
-      - v2cross.com-新加坡Linode数据中心21
-      - 🇰🇷KR_720【tg@freevpn8】16.61Mb
-      - 🇰🇷_KR_韩国_1
-      - 🇫🇷_FR_法国
-      - 🇩🇪_DE_德国_1
-      - Relay_CN-JP_156
-      - FR_322
-      - IR_414
-      - US_1763
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心3
-      - v2cross.com-美国CloudFlare公司CDN节点9
-      - v2cross.com-美国CloudFlare节点11
-      - v2cross.com-美国弗吉尼亚州文特山农场OVH数据中心12
-      - '@SSRSUB-V12-付费推荐:v2cross.com'
-      - Relay_🇦🇺AU-🇦🇺AU_96
-      - 🇺🇸US_2194
-      - 🇺🇸US_2186
-      - 🇺🇸US_2192
-      - 🇺🇸US_2190
-      - Relay_🇨🇳CN-🇸🇪SE_190
-      - Relay_🇺🇸US-🇺🇸US_2185
-      - Relay_🇷🇺RU-🇷🇺RU_536
-      - 🇺🇸US_2193
-      - Relay_🇺🇸US-🇺🇸US_2171
-      - 🇭🇺HU_111v2cross.com
-      - 🇯🇵JP_45
-      - Relay_🇻🇳VN-🇻🇳VN_97
-      - Relay_🇯🇵JP-🇯🇵JP_46
-      - v2cross.com-中国阿里云1
-      - v2cross.com-加拿大13
-      - v2cross.com-美国21
-      - v2cross.com-日本4
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇰🇷_KR_韩国_2
-      - 🇺🇸_US_美国_3
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_4
+      - 🇺🇸_油管：全网最强白嫖_9
+      - 🇨🇳_油管：全网最强白嫖_10
+      - 🇭🇰_油管：全网最强白嫖
+      - 🇸🇬_油管：全网最强白嫖
+      - 免费梯子https://t.me/mftizi_2
+      - 关注频道@mftizi
+      - '@wbnet🇸🇬SG1996'
+      - '@wbnet🇸🇬SG1998'
+      - '@wbnet🇸🇬SG2004'
+      - '@wbnet🇸🇬SG2006'
+      - '@wbnet🇸🇬SG2007'
+      - '@wbnet🇸🇬SG2008'
+      - '@wbnet🇸🇬SG2011'
+      - '@wbnet🇸🇬SG2012'
+      - '@wbnet🇸🇬SG2016'
+      - '@wbnet🇸🇬SG2026'
+      - '@wbnet🇸🇬SG2027'
+      - '@wbnet🇸🇬SG2032'
+      - '@wbnet🇸🇬SG2033'
+      - '@wbnet🇸🇬SG2034'
+      - '@wbnet🇸🇬SG2055'
+      - '@wbnet🇸🇬SG2059'
+      - 🇨🇦_CA_加拿大
+      - 🇸🇬_SG_新加坡_1
+      - 🇸🇬_SG_新加坡_2
+      - 🇸🇬_SG_新加坡_3
+      - 🇸🇬_SG_新加坡_4
+      - 🇸🇬_SG_新加坡_5
+      - 🇸🇬_SG_新加坡_6
+      - 🇸🇬_SG_新加坡_7
+      - 🇸🇬_SG_新加坡_8
+      - 🇸🇬_SG_新加坡_9
+      - 🇸🇬_SG_新加坡_10
+      - 🇸🇬_SG_新加坡_11
+      - 🇸🇬_SG_新加坡_12
+      - 🇸🇬_SG_新加坡_13
+      - 🇸🇬_SG_新加坡_14
+      - 🇸🇬_SG_新加坡_15
+      - 🇸🇬_SG_新加坡_16
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
