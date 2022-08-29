@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-08-27 10:41:16
+#  创建时间：2022-08-29 09:37:17
 #  模版：v2rayse默认模版
-#  节点数量：159
+#  节点数量：197
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -23,9 +23,8 @@ proxies:
   - {"type":"vmess","name":"CN-高速节点推荐：v2cross.com（浏览器打开）26","server":"120.233.7.221","port":"18001","uuid":"21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_5","server":"120.233.7.221","port":"18003","uuid":"67c50f6a-816d-3555-89b4-19dd29608f8b","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"CN-高速节点推荐：v2cross.com（浏览器打开）133","server":"120.233.7.221","port":"32001","uuid":"21dcbec8-eee8-3d20-82b6-f8c16fe6dc8d","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_6","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"ingress-i2.iivvppnn.info","port":"38106","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"1","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"翻墙党fanqiangdang.com","server":"120.233.7.221","port":"32004","uuid":"67c50f6a-816d-3555-89b4-19dd29608f8b","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_7","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"in-sg-1.onebox6.org"}},"server":"in-sg-1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇨🇳_油管：全网最强白嫖_6","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"in-sg-1.onebox6.org"}},"server":"in-sg-1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇨🇳_youtube：全网最强白嫖","server":"120.233.7.221","port":"18007","uuid":"67c50f6a-816d-3555-89b4-19dd29608f8b","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"荷兰01","ws-opts":{"path":"/path/152212033125","headers":{"host":"www.39270723.xyz"}},"server":"64.32.3.206","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"罗马尼亚01","ws-opts":{"path":"/path/152212033125","headers":{"host":"www.92469008.xyz"}},"server":"67.21.95.198","port":"443","uuid":"c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a","alterId":"64","cipher":"auto","network":"ws","tls":true}
@@ -46,37 +45,20 @@ proxies:
   - {"type":"vmess","name":"俄罗斯01","ws-opts":{"path":"/path/120208301422","headers":{"host":"www.73180466.xyz"}},"server":"107.167.26.5","port":"443","uuid":"2649c24f-2af9-4ad7-a655-0df9b70c0645","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"回国专线青岛_2","ws-opts":{"path":"/path/120208301422","headers":{"host":"www.48816626.xyz"}},"server":"67.21.72.44","port":"443","uuid":"2566d00f-218c-48f7-9a36-13d3d6f1a724","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_2","server":"120.233.7.221","port":"18005","uuid":"67c50f6a-816d-3555-89b4-19dd29608f8b","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇭🇰_YouTube：全网最强白嫖","server":"128.1.134.126","port":"6666","uuid":"7fb3b571-cda8-40f6-c9e6-db9765ea8faa","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"@SSRSUB-V06-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"in-sg-1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"@SSRSUB-V07-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"ingress-i1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"周","server":"yytok.wvs22.buzz","port":"31848","uuid":"b88dd566-4fb4-42d0-bb79-7f06638d4d61","alterId":"0","cipher":"auto","network":"tcp","tls":true}
   - {"type":"vmess","name":"cumtbno1","server":"150.230.249.15","port":"46842","uuid":"4530b5ee-ced4-4e64-9285-1867fc5df7f8","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇨🇳CN_260","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"YouTube-aweikeji"}},"server":"in-us-1.onebox6.org","port":"38401","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_CN_中国->🇺🇸_US_美国_1","ws-opts":{"path":"/ray","headers":{"host":"usarm.ptuu.cf"}},"server":"42.186.175.8","port":"443","uuid":"c19b138c-6e30-43b4-f66d-a94c6e869d12","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇨🇳_CN_中国->🇺🇸_US_美国","ws-opts":{"path":"/ray","headers":{"host":"usarm.ptuu.cf"}},"server":"42.186.175.8","port":"443","uuid":"c19b138c-6e30-43b4-f66d-a94c6e869d12","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"🇨🇳_CN_中国->🇭🇰_HK_香港_1","server":"4.hk.zz.xxxxx.x-t-fuckword.network","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"TG:@mfjdpd","server":"16.162.100.9","port":"6688","uuid":"703a041f-b1f5-46e2-ca57-7329a9c62844","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇭🇰_HK_香港","server":"18.167.20.169","port":"8080","uuid":"e1f97064-adcd-40d3-91a0-3f0bea035fca","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇰🇷_KR_韩国","server":"m4.40010010.xyz","port":"37121","uuid":"575e4d92-1056-44c2-8cac-75ef1c859ad5","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"trojan","name":"🇺🇸_US_美国_1","server":"us.tcpbbr.net","port":443,"password":"80bcf4f2-12f7-11ed-bb74-f23c9164ca5d","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2","server":"4.3.1.fuckppppp.today","port":"58418","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"长期更新节点@mftizi_1","server":"i2.v2.gay","port":"30862","uuid":"3b0f44e4-dd11-429d-c80f-615b10595db9","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"关注电报https://t.me/mftizi_1","server":"i3.v2.gay","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_1","ws-opts":{"path":"/vpnneo","headers":{"host":"sanggoro6.nextvpn.cc"}},"server":"i4.v2.gay","port":"80","uuid":"a55b7d77-d251-4e31-a76e-22d09ac69eb0","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"免费节点TG@mftizi_1","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"%7B%22Host%22:%22in-us-1.onebox6.org%22%7D"}},"server":"i5.v2.gay","port":"38401","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"长期更新节点@mftizi_2","server":"i7.v2.gay","port":"54242","uuid":"f2393d82-94c4-4b12-8267-293a7500e487","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_2","server":"i8.v2.gay","port":"58418","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"9206@WangCai_1_1","server":"183.232.158.66","port":9206,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"ss","name":"9206@WangCai_1_2","server":"183.232.158.67","port":9206,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"ss","name":"9206@WangCai_1_3","server":"120.233.151.122","port":9206,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"ss","name":"9403@WangCai_1_1","server":"183.232.158.66","port":9403,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"ss","name":"9405@WangCai_1_1","server":"183.232.158.66","port":9405,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"ss","name":"9407@WangCai_1_1","server":"183.232.158.66","port":9407,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"ss","name":"9403@WangCai_1_2","server":"183.232.158.67","port":9403,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"ss","name":"9405@WangCai_1_2","server":"183.232.158.67","port":9405,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"ss","name":"9407@WangCai_1_2","server":"183.232.158.67","port":9407,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"ss","name":"9403@WangCai_1_3","server":"120.233.151.122","port":9403,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"ss","name":"9407@WangCai_1_3","server":"120.233.151.122","port":9407,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_3","server":"j1.v2.gay","port":"9001","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_1","server":"i8.v2.gay","port":"58418","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_2","server":"j1.v2.gay","port":"9001","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"关注电报https://t.me/mftizi_2","server":"j2.v2.gay","port":"9018","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"长期更新节点@mftizi_3","server":"j2.v2.gay","port":"9031","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"关注电报https://t.me/mftizi_3","server":"j2.v2.gay","port":"9005","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
@@ -89,7 +71,6 @@ proxies:
   - {"type":"vmess","name":"🇨🇳_YouTube:全网最强白嫖_5","server":"aliyun.unicom.vnupgcn.cn","port":"9024","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇸🇬_YouTube：全网最强白嫖","server":"139.59.244.143","port":"38941","uuid":"3dc5c1c9-7d8c-432e-daff-4422103a7918","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇮🇳_YouTube：全网最强白嫖","server":"147.139.7.71","port":"888","uuid":"08d6729d-830e-4341-df76-62d3d12e75e8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇺🇸_YouTube：全网最强白嫖","ws-opts":{"path":"/vpnneo","headers":{"host":"sanggoro6.nextvpn.cc"}},"server":"141.193.213.20","port":"80","uuid":"a55b7d77-d251-4e31-a76e-22d09ac69eb0","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_3","server":"aliyun.moble.vnupgcn.cn","port":"9041","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_4","server":"aliyun.moble.vnupgcn.cn","port":"9038","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_5","server":"aliyun.moble.vnupgcn.cn","port":"9013","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
@@ -97,15 +78,9 @@ proxies:
   - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_7","server":"aliyun.moble.vnupgcn.cn","port":"9005","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇨🇳_YouTube：全网最强白嫖_8","server":"aliyun.moble.vnupgcn.cn","port":"9009","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"_40|78.29Mb","server":"129.159.41.233","port":"32586","uuid":"341a9182-c423-499c-c46e-d17838b29037","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇺🇸US_1367|22.57Mb","ws-opts":{"path":"/"},"server":"147.139.7.71","port":"888","uuid":"08d6729d-830e-4341-df76-62d3d12e75e8","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_1","ws-opts":{"path":"/chcar","headers":{"host":"v2fly.samrt.website"}},"server":"188.114.97.110","port":"443","uuid":"9e6ceeff-2546-3690-ac00-6fcdf31dec94","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸_US_美国_2","ws-opts":{"path":"/eb11fd03/","headers":{"host":"jixu2.qiqis.ml"}},"server":"jixu2.qiqis.ml","port":"443","uuid":"8ff3321a-63c5-48a5-a469-f334789102ff","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇺🇸_US_美国_3","server":"38.75.136.34","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_1","server":"ersgdf.passwordv2.com","port":7402,"cipher":"aes-128-gcm","password":"c0b4efb0-ab81-46f8-87af-815b62351089"}
-  - {"type":"ss","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_2","server":"183.232.158.120","port":7402,"cipher":"aes-128-gcm","password":"c0b4efb0-ab81-46f8-87af-815b62351089"}
-  - {"type":"vmess","name":"🇬🇧_GB_英国","ws-opts":{"path":"/chat","headers":{"host":"vuk2.0bad.com"}},"server":"vuk2.0bad.com","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇺🇸_US_美国_4","ws-opts":{"path":"/fd1eb4612cdd493b93556e0067e80690","headers":{"host":"fd1eb4612cdd493b93556e0067e806.run-us-west2.goorm.io"}},"server":"fd1eb4612cdd493b93556e0067e806.run-us-west2.goorm.io","port":"443","uuid":"5a0e8b3d-96cb-47f5-abd4-a652a37144e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_4","server":"k1.v2.gay","port":"9005","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸_US_美国_1","ws-opts":{"path":"/eb11fd03/","headers":{"host":"jixu2.qiqis.ml"}},"server":"jixu2.qiqis.ml","port":"443","uuid":"8ff3321a-63c5-48a5-a469-f334789102ff","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_2","ws-opts":{"path":"/fd1eb4612cdd493b93556e0067e80690","headers":{"host":"fd1eb4612cdd493b93556e0067e806.run-us-west2.goorm.io"}},"server":"fd1eb4612cdd493b93556e0067e806.run-us-west2.goorm.io","port":"443","uuid":"5a0e8b3d-96cb-47f5-abd4-a652a37144e2","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_3","server":"k1.v2.gay","port":"9005","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"关注电报https://t.me/mftizi_4","server":"k1.v2.gay","port":"9018","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"免费节点TG@mftizi_4","server":"k2.v2.gay","port":"9001","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"免费节点TG@mftizi_5","server":"k7.v2.gay","port":"80","uuid":"5bf5388b-a8e2-4dfe-a33a-d9d5f524fcbe","alterId":"0","cipher":"auto","network":"tcp"}
@@ -114,64 +89,127 @@ proxies:
   - {"type":"ss","name":"🇨🇳_YouTube：全我那个最强白嫖_3","server":"linux.nameserversv3.com","port":9201,"cipher":"aes-256-gcm","password":"2bf86435908573620556efdd3a4883ad"}
   - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_4","server":"aliyun.moble.vnupgcn.cn","port":"9004","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_5","server":"aliyun.moble.vnupgcn.cn","port":"9006","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇨🇳_YouTube：全我那个最强白嫖_6","server":"gdcm.subnebula.live","port":13010,"password":"91121a75-7327-33e0-ae86-fbc9a76044e9","udp":true,"skip-cert-verify":true,"sni":"hkt.node.qchwnd.moe"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_7","server":"aliyun.moble.vnupgcn.cn","port":"9003","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全我那个最强白嫖_8","server":"linux.nameserversv3.com","port":9206,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_9","server":"aliyun.install03.vnupgcn.cn","port":"11906","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全我那个最强白嫖_10","server":"183.232.158.66","port":9205,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_11","server":"aliyun.moble.vnupgcn.cn","port":"9002","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇨🇳_YouTube：全我那个最强白嫖_12","server":"hk-hkg-sh-hk-02-tr.nodes.cjhh.one","port":21089,"password":"TqGiLGqoqLUssJpiIamJCpkGtxMRVJFV","udp":true,"skip-cert-verify":true,"sni":"cdn.savoy.click"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_13","server":"aliyun.install04.vnupgcn.cn","port":"11907","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_14","server":"aliyun.moble.vnupgcn.cn","port":"9000","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_15","server":"aliyun.moble.vnupgcn.cn","port":"9007","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全我那个最强白嫖_16","server":"linux.nameserversv3.com","port":9205,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_17","ws-opts":{"path":"/ray","headers":{"host":"825hk02.fx6688.top"}},"server":"825hk02.fx6688.top","port":"443","uuid":"2cc10f9c-fb02-3e45-b619-c3b98cde912a","alterId":"2","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇨🇳_YouTube：全我那个最强白嫖_18","server":"jp-tyo-04-tr.cdn.savoy.click","port":889,"password":"LTKPTMbjBDYisdMxKEBDzcduXacOvIVY","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_6","server":"aliyun.moble.vnupgcn.cn","port":"9003","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_7","server":"aliyun.install03.vnupgcn.cn","port":"11906","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_8","server":"aliyun.moble.vnupgcn.cn","port":"9002","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_9","server":"aliyun.install04.vnupgcn.cn","port":"11907","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_10","server":"aliyun.moble.vnupgcn.cn","port":"9000","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_11","server":"aliyun.moble.vnupgcn.cn","port":"9007","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_12","ws-opts":{"path":"/ray","headers":{"host":"825hk02.fx6688.top"}},"server":"825hk02.fx6688.top","port":"443","uuid":"2cc10f9c-fb02-3e45-b619-c3b98cde912a","alterId":"2","cipher":"auto","network":"ws","tls":true}
   - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_1","server":"38.75.136.34","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
   - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_2","server":"38.75.136.34","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_3","server":"38.75.136.34","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_4","server":"38.75.136.34","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全我那个最强白嫖_19","server":"183.232.158.66","port":9203,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_5","server":"38.75.136.34","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_6","server":"38.75.136.34","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全我那个最强白嫖_20","server":"183.232.158.67","port":9205,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_21","server":"aliyun.install03.vnupgcn.cn","port":"11929","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"🇺🇸_YouTube：全我那个最强白嫖_7","server":"do.cloudorg.uk","port":443,"password":"9682edd6-89e6-4e6a-b31d-271089771d87","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"🇨🇳_YouTube：全我那个最强白嫖_22","server":"120.233.151.122","port":9205,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全我那个最强白嫖_23","server":"120.233.151.122","port":9203,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全我那个最强白嫖_24","server":"183.232.158.67","port":9203,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_25","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"%7B%22Host%22:%22in-us-1.onebox6.org%22%7D"}},"server":"in-us-1.onebox6.org","port":"38401","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_26","server":"aliyun.install04.vnupgcn.cn","port":"11933","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全我那个最强白嫖_27","server":"183.232.158.120","port":7401,"cipher":"aes-128-gcm","password":"c0b4efb0-ab81-46f8-87af-815b62351089"}
-  - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_8","server":"38.68.135.18","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_9","server":"38.75.136.34","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全我那个最强白嫖_28","server":"linux.nameserversv3.com","port":9203,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_29","server":"3.sg.zz.xxxxx.x-t-fuckword.network","port":"36679","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_30","server":"aliyun.moble.vnupgcn.cn","port":"9010","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_YouTube：全我那个最强白嫖_31","server":"ersgdf.passwordv2.com","port":7401,"cipher":"aes-128-gcm","password":"c0b4efb0-ab81-46f8-87af-815b62351089"}
-  - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_10","server":"38.121.43.204","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_32","server":"aliyun.install01.vnupgcn.cn","port":"11927","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_11","server":"38.121.43.204","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_12","server":"38.121.43.204","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_33","server":"aliyun.install01.vnupgcn.cn","port":"11916","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_34","server":"aliyun.install04.vnupgcn.cn","port":"11916","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"default_name_1","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.79759381.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇺🇸_US_美国_5","server":"38.91.107.37","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_3","server":"38.75.136.34","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_4","server":"38.75.136.34","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_5","server":"38.75.136.34","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_13","server":"aliyun.install03.vnupgcn.cn","port":"11929","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_14","server":"aliyun.install04.vnupgcn.cn","port":"11933","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"🇨🇳_YouTube：全我那个最强白嫖_15","server":"183.232.158.120","port":7401,"cipher":"aes-128-gcm","password":"c0b4efb0-ab81-46f8-87af-815b62351089"}
+  - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_6","server":"38.68.135.18","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_7","server":"38.75.136.34","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_16","server":"3.sg.zz.xxxxx.x-t-fuckword.network","port":"36679","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_17","server":"aliyun.moble.vnupgcn.cn","port":"9010","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"🇨🇳_YouTube：全我那个最强白嫖_18","server":"ersgdf.passwordv2.com","port":7401,"cipher":"aes-128-gcm","password":"c0b4efb0-ab81-46f8-87af-815b62351089"}
+  - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_8","server":"38.121.43.204","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_19","server":"aliyun.install01.vnupgcn.cn","port":"11927","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"🇺🇸_YouTube：全我那个最强白嫖_9","server":"38.121.43.204","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_20","server":"aliyun.install01.vnupgcn.cn","port":"11916","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇨🇳_YouTube：全我那个最强白嫖_21","server":"aliyun.install04.vnupgcn.cn","port":"11916","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"default_name","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.79759381.xyz"}},"server":"119.36.161.40","port":"443","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"ss","name":"🇩🇪_DE_德国","server":"193.108.118.30","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"vmess","name":"🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_2","ws-opts":{"path":"/chcar","headers":{"host":"v2fly.samrt.website"}},"server":"188.114.97.113","port":"443","uuid":"9e6ceeff-2546-3690-ac00-6fcdf31dec94","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇺🇸_US_美国_6","server":"38.121.43.65","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"vmess","name":"🇨🇳_CN_中国->🇺🇸_US_美国_2","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"cdn.savoy.click"}},"server":"us-sjc-ap-v2.node.inforun.work","port":"788","uuid":"d0aec6f9-a2d0-4238-893d-73571c4e9cee","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇺🇸_US_美国_7","server":"38.68.135.18","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"🇺🇸_US_美国_8","server":"38.68.135.18","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"🇺🇸_US_美国_9","server":"38.68.135.18","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"🇺🇸_US_美国_10","server":"38.68.135.18","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"default_name_2","server":"38.68.135.18","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"🇨🇳_CN_中国->🇺🇸_US_美国_3","server":"uiug.expirationv3.com","port":9405,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"vmess","name":"🇫🇮_FI_芬兰","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"cdn.savoy.click"}},"server":"fi-hel-01-v2.node.inforun.work","port":"888","uuid":"763b2303-0e16-455e-926d-66d909c3e37b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇺🇸_US_美国_11","server":"38.68.135.18","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"🇨🇳_CN_中国->🇺🇸_US_美国_4","server":"sadfsn.domainsv3.com","port":9403,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"ss","name":"🇨🇳_CN_中国->🇺🇸_US_美国_5","server":"uiug.expirationv3.com","port":9407,"cipher":"aes-256-gcm","password":"269f71b9-c45b-43f3-8c48-eb5f986aa707"}
-  - {"type":"ss","name":"default_name_3","server":"38.75.136.34","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"🇺🇸_US_美国_3","server":"38.68.135.18","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇺🇸_US_美国_4","server":"38.68.135.18","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"🇺🇸_US_美国_5","server":"38.68.135.18","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"🇺🇲US_25","server":"38.68.135.18","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"🇺🇲US_26","server":"38.91.107.37","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"🇺🇲US_27","server":"38.68.135.18","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"ss","name":"🇺🇲US_28","server":"38.68.135.18","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"🇺🇲US_29","server":"38.121.43.204","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"ss","name":"🇺🇲US_31","server":"38.75.136.34","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"🇺🇲US_33","server":"38.75.136.34","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"🇺🇲US_34","server":"38.75.136.34","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"vmess","name":"@SSRSUB-V01-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"www.ivpnpro.net"}},"server":"in-sg-1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@SSRSUB-V02-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/","headers":{"host":"YouTube-aweikeji"}},"server":"129.150.46.8","port":"36277","uuid":"f3d972b0-aa7f-499d-85cd-c0c26f9cc15f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@SSRSUB-V07-付费推荐:suo.yt/ssrsub","server":"aliyun.unicom.vnupgcn.cn","port":"9026","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"@SSRSUB-V08-付费推荐:suo.yt/ssrsub","server":"aliyun.moble.vnupgcn.cn","port":"9043","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"@SSRSUB-V09-付费推荐:suo.yt/ssrsub","server":"129.159.41.233","port":"32586","uuid":"341a9182-c423-499c-c46e-d17838b29037","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"@SSRSUB-V10-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"aweikeji-YouTube"}},"server":"ingress-i1.onebox6.org","port":"38701","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@SSRSUB-V11-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"%7B%22Host%22:%22in-us-1.onebox6.org%22%7D"}},"server":"in-us-1.onebox6.org","port":"38401","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@SSRSUB-V12-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"120.240.55.137"}},"server":"120.240.55.137","port":"38201","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@SSRSUB-V13-付费推荐:suo.yt/ssrsub","server":"aliyun.unicom.vnupgcn.cn","port":"9026","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"@SSRSUB-V14-付费推荐:suo.yt/ssrsub","server":"aliyun.moble.vnupgcn.cn","port":"9043","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"@SSRSUB-V15-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"ingress-i1.onebox6.org"}},"server":"ingress-i1.onebox6.org","port":"38201","uuid":"79386685-16da-327c-9e14-aa6d702d86bc","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@SSRSUB-V17-付费推荐:suo.yt/ssrsub","server":"103.218.243.21","port":"10003","uuid":"4fe413ef-e3a2-40df-fba0-6d151dd3b2b4","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"@SSRSUB-V19-付费推荐:suo.yt/ssrsub","server":"128.1.134.126","port":"6666","uuid":"7fb3b571-cda8-40f6-c9e6-db9765ea8faa","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"@SSRSUB-V24-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/vpnneo","headers":{"host":"sanggoro6.nextvpn.cc"}},"server":"141.193.213.21","port":"80","uuid":"a55b7d77-d251-4e31-a76e-22d09ac69eb0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@SSRSUB-V26-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/vpnneo","headers":{"host":"sanggoro6.nextvpn.cc"}},"server":"141.193.213.20","port":"80","uuid":"a55b7d77-d251-4e31-a76e-22d09ac69eb0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_4","server":"i2.v2.gay","port":"30862","uuid":"3b0f44e4-dd11-429d-c80f-615b10595db9","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"长期更新节点@mftizi_4","ws-opts":{"path":"/vpnneo","headers":{"host":"sanggoro6.nextvpn.cc"}},"server":"i4.v2.gay","port":"80","uuid":"a55b7d77-d251-4e31-a76e-22d09ac69eb0","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_5","server":"j13.v2.gay","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_6","server":"i8.v2.gay","port":"58418","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_7","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"jgwus.jgwaad.tk"}},"server":"j14.v2.gay","port":"443","uuid":"d019484c-2181-4d4a-a0fb-302a55351156","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_8","server":"i3.v2.gay","port":"36676","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_9","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"cdn.savoy.click"}},"server":"l1.v2.gay","port":"13888","uuid":"b46e5bfe-739c-4026-91fd-686209ce6d85","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"关注电报https://t.me/mftizi_5","server":"l2.v2.gay","port":"9030","uuid":"0253b574-8020-3186-a647-0267295ac9bb","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"免费节点TG@mftizi_6","ws-opts":{"path":"/cctv13/hd.m3u8","headers":{"host":"jgwus.jgwaad.tk"}},"server":"l3.v2.gay","port":"443","uuid":"d019484c-2181-4d4a-a0fb-302a55351156","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"@wbnet_🇸🇬_SG_1","server":"kaizen-sg-02.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇹🇼_TW_2","server":"kaizen-tw-1.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_3","server":"kaizen-us-02.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇭🇰_HK_4","server":"kaizen-hk-4.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_5","server":"kaizen-us-6.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_6","server":"kaizen-us-8.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_7","server":"kaizen-us-34.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_8","server":"kaizen-us-13.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_9","server":"kaizen-jp-4.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇹🇼_TW_10","server":"kaizen-tw-3.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_12","server":"kaizen-us-19.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇹🇼_TW_14","server":"kaizen-tw-7.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_15","server":"kaizen-us-14.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_16","server":"kaizen-us-31.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_17","server":"kaizen-us-27.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_18","server":"kaizen-us-25.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_19","server":"kaizen-us-21.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_20","server":"kaizen-us-33.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_21","server":"kaizen-us-35.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_22","server":"kaizen-us-12.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇭🇰_HK_23","server":"kaizen-hk-6.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_24","server":"kaizen-kr-2.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_25","server":"kaizen-us-11.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_26","server":"kaizen-hk-5.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_27","server":"kaizen-us-17.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇭🇰_HK_28","server":"kaizen-hk-1.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_29","server":"kaizen-us-16.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_30","server":"kaizen-us-10.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_31","server":"kaizen-us-24.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_32","server":"kaizen-us-28.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_33","server":"kaizen-kr-1.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_34","server":"kaizen-us-5.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_35","server":"zhilian-us-k.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_36","server":"kaizen-us-23.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇷🇺_RU_37","server":"zhilian-ru-c.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_38","server":"kaizen-jp-1.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_40","server":"kaizen-us-30.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇯🇵_JP_41","server":"kaizen-jp-11.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_42","server":"kaizen-us-15.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇹🇼_TW_43","server":"kaizen-tw-5.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇸🇬_SG_45","server":"kaizen-sg-01.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_46","server":"kaizen-us-36.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_47","server":"kaizen-us-7.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_48","server":"kaizen-hk-8.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇯🇵_JP_50","server":"kaizen-jp-12.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_51","server":"kaizen-us-9.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_53","server":"kaizen-us-37.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_54","server":"kaizen-hk-10.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_56","server":"kaizen-us-26.mielink-dns2.com","port":443,"password":"acf40985-ef35-3d1d-ae64-1e165e309eebmielink","udp":true,"skip-cert-verify":true,"sni":"paydiu.com"}
+  - {"type":"vmess","name":"@wbnet_🇺🇸_US_57","ws-opts":{"path":"/cctv13/hd.m3u8"},"server":"jgwus.jgwaad.tk","port":"443","uuid":"d019484c-2181-4d4a-a0fb-302a55351156","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"@wbnet_🇺🇸_US_58","ws-opts":{"path":"/123"},"server":"arm.ptuu.gq","port":"443","uuid":"9821b817-5cb0-4af3-a3e3-7c137850935d","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@wbnet_59","ws-opts":{"path":"/123"},"server":"usamd.ptuu.gq","port":"443","uuid":"33653796-feef-43fd-e7cc-1adccd79b7c7","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@wbnet_60","ws-opts":{"path":"/123"},"server":"usamd.ptuu.tk","port":"443","uuid":"009a2a72-afe7-4521-fec0-391908a088c6","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@wbnet_63","ws-opts":{"path":"/123"},"server":"jpamd.fineyoo.cf","port":"443","uuid":"9bdac558-1d2b-425b-f0e7-445d38be025e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@wbnet_64","ws-opts":{"path":"/123"},"server":"jpamd.fineyoo.ml","port":"443","uuid":"35e5e2ea-1372-4745-dff8-fb2bd11016c4","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@wbnet_🇺🇸_US_75","ws-opts":{"path":"/ws","headers":{"host":"usa-washington.lvuft.com"}},"server":"192.96.204.250","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@wbnet_🇺🇸_US_76","ws-opts":{"path":"/ws"},"server":"usa-washington.lvuft.com","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_201","server":"jgwcc3.gaox.ml","port":443,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"@wbnet_🇺🇸_US_218","server":"jgwdj3.gaox.ml","port":443,"password":"da777aae-defb-41d0-a183-2c27da2b4677","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -188,9 +226,8 @@ proxy-groups:
       - CN-高速节点推荐：v2cross.com（浏览器打开）26
       - 🇨🇳_油管：全网最强白嫖_5
       - CN-高速节点推荐：v2cross.com（浏览器打开）133
-      - 🇨🇳_油管：全网最强白嫖_6
       - 翻墙党fanqiangdang.com
-      - 🇨🇳_油管：全网最强白嫖_7
+      - 🇨🇳_油管：全网最强白嫖_6
       - 🇨🇳_youtube：全网最强白嫖
       - 荷兰01
       - 罗马尼亚01
@@ -211,37 +248,20 @@ proxy-groups:
       - 俄罗斯01
       - 回国专线青岛_2
       - 🇨🇳_YouTube：全网最强白嫖_2
-      - 🇭🇰_YouTube：全网最强白嫖
-      - '@SSRSUB-V06-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
-      - 周
       - cumtbno1
       - 🇨🇳CN_260
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - TG:@mfjdpd
       - 🇭🇰_HK_香港
       - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 长期更新节点@mftizi_1
       - 关注电报https://t.me/mftizi_1
-      - 免费梯子https://t.me/mftizi_1
       - 免费节点TG@mftizi_1
       - 长期更新节点@mftizi_2
+      - 免费梯子https://t.me/mftizi_1
       - 免费梯子https://t.me/mftizi_2
-      - 9206@WangCai_1_1
-      - 9206@WangCai_1_2
-      - 9206@WangCai_1_3
-      - 9403@WangCai_1_1
-      - 9405@WangCai_1_1
-      - 9407@WangCai_1_1
-      - 9403@WangCai_1_2
-      - 9405@WangCai_1_2
-      - 9407@WangCai_1_2
-      - 9403@WangCai_1_3
-      - 9407@WangCai_1_3
-      - 免费梯子https://t.me/mftizi_3
       - 关注电报https://t.me/mftizi_2
       - 长期更新节点@mftizi_3
       - 关注电报https://t.me/mftizi_3
@@ -254,7 +274,6 @@ proxy-groups:
       - 🇨🇳_YouTube:全网最强白嫖_5
       - 🇸🇬_YouTube：全网最强白嫖
       - 🇮🇳_YouTube：全网最强白嫖
-      - 🇺🇸_YouTube：全网最强白嫖
       - 🇨🇳_YouTube：全网最强白嫖_3
       - 🇨🇳_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_5
@@ -262,15 +281,9 @@ proxy-groups:
       - 🇨🇳_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_8
       - _40|78.29Mb
-      - 🇺🇸US_1367|22.57Mb
-      - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_4
-      - 免费梯子https://t.me/mftizi_4
+      - 免费梯子https://t.me/mftizi_3
       - 关注电报https://t.me/mftizi_4
       - 免费节点TG@mftizi_4
       - 免费节点TG@mftizi_5
@@ -286,57 +299,120 @@ proxy-groups:
       - 🇨🇳_YouTube：全我那个最强白嫖_10
       - 🇨🇳_YouTube：全我那个最强白嫖_11
       - 🇨🇳_YouTube：全我那个最强白嫖_12
-      - 🇨🇳_YouTube：全我那个最强白嫖_13
-      - 🇨🇳_YouTube：全我那个最强白嫖_14
-      - 🇨🇳_YouTube：全我那个最强白嫖_15
-      - 🇨🇳_YouTube：全我那个最强白嫖_16
-      - 🇨🇳_YouTube：全我那个最强白嫖_17
-      - 🇨🇳_YouTube：全我那个最强白嫖_18
       - 🇺🇸_YouTube：全我那个最强白嫖_1
       - 🇺🇸_YouTube：全我那个最强白嫖_2
       - 🇺🇸_YouTube：全我那个最强白嫖_3
       - 🇺🇸_YouTube：全我那个最强白嫖_4
-      - 🇨🇳_YouTube：全我那个最强白嫖_19
       - 🇺🇸_YouTube：全我那个最强白嫖_5
+      - 🇨🇳_YouTube：全我那个最强白嫖_13
+      - 🇨🇳_YouTube：全我那个最强白嫖_14
+      - 🇨🇳_YouTube：全我那个最强白嫖_15
       - 🇺🇸_YouTube：全我那个最强白嫖_6
+      - 🇺🇸_YouTube：全我那个最强白嫖_7
+      - 🇨🇳_YouTube：全我那个最强白嫖_16
+      - 🇨🇳_YouTube：全我那个最强白嫖_17
+      - 🇨🇳_YouTube：全我那个最强白嫖_18
+      - 🇺🇸_YouTube：全我那个最强白嫖_8
+      - 🇨🇳_YouTube：全我那个最强白嫖_19
+      - 🇺🇸_YouTube：全我那个最强白嫖_9
       - 🇨🇳_YouTube：全我那个最强白嫖_20
       - 🇨🇳_YouTube：全我那个最强白嫖_21
-      - 🇺🇸_YouTube：全我那个最强白嫖_7
-      - 🇨🇳_YouTube：全我那个最强白嫖_22
-      - 🇨🇳_YouTube：全我那个最强白嫖_23
-      - 🇨🇳_YouTube：全我那个最强白嫖_24
-      - 🇨🇳_YouTube：全我那个最强白嫖_25
-      - 🇨🇳_YouTube：全我那个最强白嫖_26
-      - 🇨🇳_YouTube：全我那个最强白嫖_27
-      - 🇺🇸_YouTube：全我那个最强白嫖_8
-      - 🇺🇸_YouTube：全我那个最强白嫖_9
-      - 🇨🇳_YouTube：全我那个最强白嫖_28
-      - 🇨🇳_YouTube：全我那个最强白嫖_29
-      - 🇨🇳_YouTube：全我那个最强白嫖_30
-      - 🇨🇳_YouTube：全我那个最强白嫖_31
-      - 🇺🇸_YouTube：全我那个最强白嫖_10
-      - 🇨🇳_YouTube：全我那个最强白嫖_32
-      - 🇺🇸_YouTube：全我那个最强白嫖_11
-      - 🇺🇸_YouTube：全我那个最强白嫖_12
-      - 🇨🇳_YouTube：全我那个最强白嫖_33
-      - 🇨🇳_YouTube：全我那个最强白嫖_34
-      - default_name_1
-      - 🇺🇸_US_美国_5
+      - default_name
       - 🇩🇪_DE_德国
-      - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_6
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - default_name_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇫🇮_FI_芬兰
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - default_name_3
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇲US_25
+      - 🇺🇲US_26
+      - 🇺🇲US_27
+      - 🇺🇲US_28
+      - 🇺🇲US_29
+      - 🇺🇲US_31
+      - 🇺🇲US_33
+      - 🇺🇲US_34
+      - '@SSRSUB-V01-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V08-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V17-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V19-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V24-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V26-付费推荐:suo.yt/ssrsub'
+      - 免费梯子https://t.me/mftizi_4
+      - 长期更新节点@mftizi_4
+      - 免费梯子https://t.me/mftizi_5
+      - 免费梯子https://t.me/mftizi_6
+      - 免费梯子https://t.me/mftizi_7
+      - 免费梯子https://t.me/mftizi_8
+      - 免费梯子https://t.me/mftizi_9
+      - 关注电报https://t.me/mftizi_5
+      - 免费节点TG@mftizi_6
+      - '@wbnet_🇸🇬_SG_1'
+      - '@wbnet_🇹🇼_TW_2'
+      - '@wbnet_🇺🇸_US_3'
+      - '@wbnet_🇭🇰_HK_4'
+      - '@wbnet_🇺🇸_US_5'
+      - '@wbnet_🇺🇸_US_6'
+      - '@wbnet_🇺🇸_US_7'
+      - '@wbnet_🇺🇸_US_8'
+      - '@wbnet_🇺🇸_US_9'
+      - '@wbnet_🇹🇼_TW_10'
+      - '@wbnet_🇺🇸_US_12'
+      - '@wbnet_🇹🇼_TW_14'
+      - '@wbnet_🇺🇸_US_15'
+      - '@wbnet_🇺🇸_US_16'
+      - '@wbnet_🇺🇸_US_17'
+      - '@wbnet_🇺🇸_US_18'
+      - '@wbnet_🇺🇸_US_19'
+      - '@wbnet_🇺🇸_US_20'
+      - '@wbnet_🇺🇸_US_21'
+      - '@wbnet_🇺🇸_US_22'
+      - '@wbnet_🇭🇰_HK_23'
+      - '@wbnet_🇺🇸_US_24'
+      - '@wbnet_🇺🇸_US_25'
+      - '@wbnet_🇺🇸_US_26'
+      - '@wbnet_🇺🇸_US_27'
+      - '@wbnet_🇭🇰_HK_28'
+      - '@wbnet_🇺🇸_US_29'
+      - '@wbnet_🇺🇸_US_30'
+      - '@wbnet_🇺🇸_US_31'
+      - '@wbnet_🇺🇸_US_32'
+      - '@wbnet_🇺🇸_US_33'
+      - '@wbnet_🇺🇸_US_34'
+      - '@wbnet_🇺🇸_US_35'
+      - '@wbnet_🇺🇸_US_36'
+      - '@wbnet_🇷🇺_RU_37'
+      - '@wbnet_🇺🇸_US_38'
+      - '@wbnet_🇺🇸_US_40'
+      - '@wbnet_🇯🇵_JP_41'
+      - '@wbnet_🇺🇸_US_42'
+      - '@wbnet_🇹🇼_TW_43'
+      - '@wbnet_🇸🇬_SG_45'
+      - '@wbnet_🇺🇸_US_46'
+      - '@wbnet_🇺🇸_US_47'
+      - '@wbnet_🇺🇸_US_48'
+      - '@wbnet_🇯🇵_JP_50'
+      - '@wbnet_🇺🇸_US_51'
+      - '@wbnet_🇺🇸_US_53'
+      - '@wbnet_🇺🇸_US_54'
+      - '@wbnet_🇺🇸_US_56'
+      - '@wbnet_🇺🇸_US_57'
+      - '@wbnet_🇺🇸_US_58'
+      - '@wbnet_59'
+      - '@wbnet_60'
+      - '@wbnet_63'
+      - '@wbnet_64'
+      - '@wbnet_🇺🇸_US_75'
+      - '@wbnet_🇺🇸_US_76'
+      - '@wbnet_🇺🇸_US_201'
+      - '@wbnet_🇺🇸_US_218'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -353,9 +429,8 @@ proxy-groups:
       - CN-高速节点推荐：v2cross.com（浏览器打开）26
       - 🇨🇳_油管：全网最强白嫖_5
       - CN-高速节点推荐：v2cross.com（浏览器打开）133
-      - 🇨🇳_油管：全网最强白嫖_6
       - 翻墙党fanqiangdang.com
-      - 🇨🇳_油管：全网最强白嫖_7
+      - 🇨🇳_油管：全网最强白嫖_6
       - 🇨🇳_youtube：全网最强白嫖
       - 荷兰01
       - 罗马尼亚01
@@ -376,37 +451,20 @@ proxy-groups:
       - 俄罗斯01
       - 回国专线青岛_2
       - 🇨🇳_YouTube：全网最强白嫖_2
-      - 🇭🇰_YouTube：全网最强白嫖
-      - '@SSRSUB-V06-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
-      - 周
       - cumtbno1
       - 🇨🇳CN_260
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - TG:@mfjdpd
       - 🇭🇰_HK_香港
       - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 长期更新节点@mftizi_1
       - 关注电报https://t.me/mftizi_1
-      - 免费梯子https://t.me/mftizi_1
       - 免费节点TG@mftizi_1
       - 长期更新节点@mftizi_2
+      - 免费梯子https://t.me/mftizi_1
       - 免费梯子https://t.me/mftizi_2
-      - 9206@WangCai_1_1
-      - 9206@WangCai_1_2
-      - 9206@WangCai_1_3
-      - 9403@WangCai_1_1
-      - 9405@WangCai_1_1
-      - 9407@WangCai_1_1
-      - 9403@WangCai_1_2
-      - 9405@WangCai_1_2
-      - 9407@WangCai_1_2
-      - 9403@WangCai_1_3
-      - 9407@WangCai_1_3
-      - 免费梯子https://t.me/mftizi_3
       - 关注电报https://t.me/mftizi_2
       - 长期更新节点@mftizi_3
       - 关注电报https://t.me/mftizi_3
@@ -419,7 +477,6 @@ proxy-groups:
       - 🇨🇳_YouTube:全网最强白嫖_5
       - 🇸🇬_YouTube：全网最强白嫖
       - 🇮🇳_YouTube：全网最强白嫖
-      - 🇺🇸_YouTube：全网最强白嫖
       - 🇨🇳_YouTube：全网最强白嫖_3
       - 🇨🇳_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_5
@@ -427,15 +484,9 @@ proxy-groups:
       - 🇨🇳_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_8
       - _40|78.29Mb
-      - 🇺🇸US_1367|22.57Mb
-      - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_4
-      - 免费梯子https://t.me/mftizi_4
+      - 免费梯子https://t.me/mftizi_3
       - 关注电报https://t.me/mftizi_4
       - 免费节点TG@mftizi_4
       - 免费节点TG@mftizi_5
@@ -451,57 +502,120 @@ proxy-groups:
       - 🇨🇳_YouTube：全我那个最强白嫖_10
       - 🇨🇳_YouTube：全我那个最强白嫖_11
       - 🇨🇳_YouTube：全我那个最强白嫖_12
-      - 🇨🇳_YouTube：全我那个最强白嫖_13
-      - 🇨🇳_YouTube：全我那个最强白嫖_14
-      - 🇨🇳_YouTube：全我那个最强白嫖_15
-      - 🇨🇳_YouTube：全我那个最强白嫖_16
-      - 🇨🇳_YouTube：全我那个最强白嫖_17
-      - 🇨🇳_YouTube：全我那个最强白嫖_18
       - 🇺🇸_YouTube：全我那个最强白嫖_1
       - 🇺🇸_YouTube：全我那个最强白嫖_2
       - 🇺🇸_YouTube：全我那个最强白嫖_3
       - 🇺🇸_YouTube：全我那个最强白嫖_4
-      - 🇨🇳_YouTube：全我那个最强白嫖_19
       - 🇺🇸_YouTube：全我那个最强白嫖_5
+      - 🇨🇳_YouTube：全我那个最强白嫖_13
+      - 🇨🇳_YouTube：全我那个最强白嫖_14
+      - 🇨🇳_YouTube：全我那个最强白嫖_15
       - 🇺🇸_YouTube：全我那个最强白嫖_6
+      - 🇺🇸_YouTube：全我那个最强白嫖_7
+      - 🇨🇳_YouTube：全我那个最强白嫖_16
+      - 🇨🇳_YouTube：全我那个最强白嫖_17
+      - 🇨🇳_YouTube：全我那个最强白嫖_18
+      - 🇺🇸_YouTube：全我那个最强白嫖_8
+      - 🇨🇳_YouTube：全我那个最强白嫖_19
+      - 🇺🇸_YouTube：全我那个最强白嫖_9
       - 🇨🇳_YouTube：全我那个最强白嫖_20
       - 🇨🇳_YouTube：全我那个最强白嫖_21
-      - 🇺🇸_YouTube：全我那个最强白嫖_7
-      - 🇨🇳_YouTube：全我那个最强白嫖_22
-      - 🇨🇳_YouTube：全我那个最强白嫖_23
-      - 🇨🇳_YouTube：全我那个最强白嫖_24
-      - 🇨🇳_YouTube：全我那个最强白嫖_25
-      - 🇨🇳_YouTube：全我那个最强白嫖_26
-      - 🇨🇳_YouTube：全我那个最强白嫖_27
-      - 🇺🇸_YouTube：全我那个最强白嫖_8
-      - 🇺🇸_YouTube：全我那个最强白嫖_9
-      - 🇨🇳_YouTube：全我那个最强白嫖_28
-      - 🇨🇳_YouTube：全我那个最强白嫖_29
-      - 🇨🇳_YouTube：全我那个最强白嫖_30
-      - 🇨🇳_YouTube：全我那个最强白嫖_31
-      - 🇺🇸_YouTube：全我那个最强白嫖_10
-      - 🇨🇳_YouTube：全我那个最强白嫖_32
-      - 🇺🇸_YouTube：全我那个最强白嫖_11
-      - 🇺🇸_YouTube：全我那个最强白嫖_12
-      - 🇨🇳_YouTube：全我那个最强白嫖_33
-      - 🇨🇳_YouTube：全我那个最强白嫖_34
-      - default_name_1
-      - 🇺🇸_US_美国_5
+      - default_name
       - 🇩🇪_DE_德国
-      - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_6
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - default_name_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇫🇮_FI_芬兰
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - default_name_3
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇲US_25
+      - 🇺🇲US_26
+      - 🇺🇲US_27
+      - 🇺🇲US_28
+      - 🇺🇲US_29
+      - 🇺🇲US_31
+      - 🇺🇲US_33
+      - 🇺🇲US_34
+      - '@SSRSUB-V01-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V08-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V17-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V19-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V24-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V26-付费推荐:suo.yt/ssrsub'
+      - 免费梯子https://t.me/mftizi_4
+      - 长期更新节点@mftizi_4
+      - 免费梯子https://t.me/mftizi_5
+      - 免费梯子https://t.me/mftizi_6
+      - 免费梯子https://t.me/mftizi_7
+      - 免费梯子https://t.me/mftizi_8
+      - 免费梯子https://t.me/mftizi_9
+      - 关注电报https://t.me/mftizi_5
+      - 免费节点TG@mftizi_6
+      - '@wbnet_🇸🇬_SG_1'
+      - '@wbnet_🇹🇼_TW_2'
+      - '@wbnet_🇺🇸_US_3'
+      - '@wbnet_🇭🇰_HK_4'
+      - '@wbnet_🇺🇸_US_5'
+      - '@wbnet_🇺🇸_US_6'
+      - '@wbnet_🇺🇸_US_7'
+      - '@wbnet_🇺🇸_US_8'
+      - '@wbnet_🇺🇸_US_9'
+      - '@wbnet_🇹🇼_TW_10'
+      - '@wbnet_🇺🇸_US_12'
+      - '@wbnet_🇹🇼_TW_14'
+      - '@wbnet_🇺🇸_US_15'
+      - '@wbnet_🇺🇸_US_16'
+      - '@wbnet_🇺🇸_US_17'
+      - '@wbnet_🇺🇸_US_18'
+      - '@wbnet_🇺🇸_US_19'
+      - '@wbnet_🇺🇸_US_20'
+      - '@wbnet_🇺🇸_US_21'
+      - '@wbnet_🇺🇸_US_22'
+      - '@wbnet_🇭🇰_HK_23'
+      - '@wbnet_🇺🇸_US_24'
+      - '@wbnet_🇺🇸_US_25'
+      - '@wbnet_🇺🇸_US_26'
+      - '@wbnet_🇺🇸_US_27'
+      - '@wbnet_🇭🇰_HK_28'
+      - '@wbnet_🇺🇸_US_29'
+      - '@wbnet_🇺🇸_US_30'
+      - '@wbnet_🇺🇸_US_31'
+      - '@wbnet_🇺🇸_US_32'
+      - '@wbnet_🇺🇸_US_33'
+      - '@wbnet_🇺🇸_US_34'
+      - '@wbnet_🇺🇸_US_35'
+      - '@wbnet_🇺🇸_US_36'
+      - '@wbnet_🇷🇺_RU_37'
+      - '@wbnet_🇺🇸_US_38'
+      - '@wbnet_🇺🇸_US_40'
+      - '@wbnet_🇯🇵_JP_41'
+      - '@wbnet_🇺🇸_US_42'
+      - '@wbnet_🇹🇼_TW_43'
+      - '@wbnet_🇸🇬_SG_45'
+      - '@wbnet_🇺🇸_US_46'
+      - '@wbnet_🇺🇸_US_47'
+      - '@wbnet_🇺🇸_US_48'
+      - '@wbnet_🇯🇵_JP_50'
+      - '@wbnet_🇺🇸_US_51'
+      - '@wbnet_🇺🇸_US_53'
+      - '@wbnet_🇺🇸_US_54'
+      - '@wbnet_🇺🇸_US_56'
+      - '@wbnet_🇺🇸_US_57'
+      - '@wbnet_🇺🇸_US_58'
+      - '@wbnet_59'
+      - '@wbnet_60'
+      - '@wbnet_63'
+      - '@wbnet_64'
+      - '@wbnet_🇺🇸_US_75'
+      - '@wbnet_🇺🇸_US_76'
+      - '@wbnet_🇺🇸_US_201'
+      - '@wbnet_🇺🇸_US_218'
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -518,9 +632,8 @@ proxy-groups:
       - CN-高速节点推荐：v2cross.com（浏览器打开）26
       - 🇨🇳_油管：全网最强白嫖_5
       - CN-高速节点推荐：v2cross.com（浏览器打开）133
-      - 🇨🇳_油管：全网最强白嫖_6
       - 翻墙党fanqiangdang.com
-      - 🇨🇳_油管：全网最强白嫖_7
+      - 🇨🇳_油管：全网最强白嫖_6
       - 🇨🇳_youtube：全网最强白嫖
       - 荷兰01
       - 罗马尼亚01
@@ -541,37 +654,20 @@ proxy-groups:
       - 俄罗斯01
       - 回国专线青岛_2
       - 🇨🇳_YouTube：全网最强白嫖_2
-      - 🇭🇰_YouTube：全网最强白嫖
-      - '@SSRSUB-V06-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
-      - 周
       - cumtbno1
       - 🇨🇳CN_260
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - TG:@mfjdpd
       - 🇭🇰_HK_香港
       - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 长期更新节点@mftizi_1
       - 关注电报https://t.me/mftizi_1
-      - 免费梯子https://t.me/mftizi_1
       - 免费节点TG@mftizi_1
       - 长期更新节点@mftizi_2
+      - 免费梯子https://t.me/mftizi_1
       - 免费梯子https://t.me/mftizi_2
-      - 9206@WangCai_1_1
-      - 9206@WangCai_1_2
-      - 9206@WangCai_1_3
-      - 9403@WangCai_1_1
-      - 9405@WangCai_1_1
-      - 9407@WangCai_1_1
-      - 9403@WangCai_1_2
-      - 9405@WangCai_1_2
-      - 9407@WangCai_1_2
-      - 9403@WangCai_1_3
-      - 9407@WangCai_1_3
-      - 免费梯子https://t.me/mftizi_3
       - 关注电报https://t.me/mftizi_2
       - 长期更新节点@mftizi_3
       - 关注电报https://t.me/mftizi_3
@@ -584,7 +680,6 @@ proxy-groups:
       - 🇨🇳_YouTube:全网最强白嫖_5
       - 🇸🇬_YouTube：全网最强白嫖
       - 🇮🇳_YouTube：全网最强白嫖
-      - 🇺🇸_YouTube：全网最强白嫖
       - 🇨🇳_YouTube：全网最强白嫖_3
       - 🇨🇳_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_5
@@ -592,15 +687,9 @@ proxy-groups:
       - 🇨🇳_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_8
       - _40|78.29Mb
-      - 🇺🇸US_1367|22.57Mb
-      - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_4
-      - 免费梯子https://t.me/mftizi_4
+      - 免费梯子https://t.me/mftizi_3
       - 关注电报https://t.me/mftizi_4
       - 免费节点TG@mftizi_4
       - 免费节点TG@mftizi_5
@@ -616,57 +705,120 @@ proxy-groups:
       - 🇨🇳_YouTube：全我那个最强白嫖_10
       - 🇨🇳_YouTube：全我那个最强白嫖_11
       - 🇨🇳_YouTube：全我那个最强白嫖_12
-      - 🇨🇳_YouTube：全我那个最强白嫖_13
-      - 🇨🇳_YouTube：全我那个最强白嫖_14
-      - 🇨🇳_YouTube：全我那个最强白嫖_15
-      - 🇨🇳_YouTube：全我那个最强白嫖_16
-      - 🇨🇳_YouTube：全我那个最强白嫖_17
-      - 🇨🇳_YouTube：全我那个最强白嫖_18
       - 🇺🇸_YouTube：全我那个最强白嫖_1
       - 🇺🇸_YouTube：全我那个最强白嫖_2
       - 🇺🇸_YouTube：全我那个最强白嫖_3
       - 🇺🇸_YouTube：全我那个最强白嫖_4
-      - 🇨🇳_YouTube：全我那个最强白嫖_19
       - 🇺🇸_YouTube：全我那个最强白嫖_5
+      - 🇨🇳_YouTube：全我那个最强白嫖_13
+      - 🇨🇳_YouTube：全我那个最强白嫖_14
+      - 🇨🇳_YouTube：全我那个最强白嫖_15
       - 🇺🇸_YouTube：全我那个最强白嫖_6
+      - 🇺🇸_YouTube：全我那个最强白嫖_7
+      - 🇨🇳_YouTube：全我那个最强白嫖_16
+      - 🇨🇳_YouTube：全我那个最强白嫖_17
+      - 🇨🇳_YouTube：全我那个最强白嫖_18
+      - 🇺🇸_YouTube：全我那个最强白嫖_8
+      - 🇨🇳_YouTube：全我那个最强白嫖_19
+      - 🇺🇸_YouTube：全我那个最强白嫖_9
       - 🇨🇳_YouTube：全我那个最强白嫖_20
       - 🇨🇳_YouTube：全我那个最强白嫖_21
-      - 🇺🇸_YouTube：全我那个最强白嫖_7
-      - 🇨🇳_YouTube：全我那个最强白嫖_22
-      - 🇨🇳_YouTube：全我那个最强白嫖_23
-      - 🇨🇳_YouTube：全我那个最强白嫖_24
-      - 🇨🇳_YouTube：全我那个最强白嫖_25
-      - 🇨🇳_YouTube：全我那个最强白嫖_26
-      - 🇨🇳_YouTube：全我那个最强白嫖_27
-      - 🇺🇸_YouTube：全我那个最强白嫖_8
-      - 🇺🇸_YouTube：全我那个最强白嫖_9
-      - 🇨🇳_YouTube：全我那个最强白嫖_28
-      - 🇨🇳_YouTube：全我那个最强白嫖_29
-      - 🇨🇳_YouTube：全我那个最强白嫖_30
-      - 🇨🇳_YouTube：全我那个最强白嫖_31
-      - 🇺🇸_YouTube：全我那个最强白嫖_10
-      - 🇨🇳_YouTube：全我那个最强白嫖_32
-      - 🇺🇸_YouTube：全我那个最强白嫖_11
-      - 🇺🇸_YouTube：全我那个最强白嫖_12
-      - 🇨🇳_YouTube：全我那个最强白嫖_33
-      - 🇨🇳_YouTube：全我那个最强白嫖_34
-      - default_name_1
-      - 🇺🇸_US_美国_5
+      - default_name
       - 🇩🇪_DE_德国
-      - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_6
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - default_name_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇫🇮_FI_芬兰
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - default_name_3
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇲US_25
+      - 🇺🇲US_26
+      - 🇺🇲US_27
+      - 🇺🇲US_28
+      - 🇺🇲US_29
+      - 🇺🇲US_31
+      - 🇺🇲US_33
+      - 🇺🇲US_34
+      - '@SSRSUB-V01-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V08-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V17-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V19-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V24-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V26-付费推荐:suo.yt/ssrsub'
+      - 免费梯子https://t.me/mftizi_4
+      - 长期更新节点@mftizi_4
+      - 免费梯子https://t.me/mftizi_5
+      - 免费梯子https://t.me/mftizi_6
+      - 免费梯子https://t.me/mftizi_7
+      - 免费梯子https://t.me/mftizi_8
+      - 免费梯子https://t.me/mftizi_9
+      - 关注电报https://t.me/mftizi_5
+      - 免费节点TG@mftizi_6
+      - '@wbnet_🇸🇬_SG_1'
+      - '@wbnet_🇹🇼_TW_2'
+      - '@wbnet_🇺🇸_US_3'
+      - '@wbnet_🇭🇰_HK_4'
+      - '@wbnet_🇺🇸_US_5'
+      - '@wbnet_🇺🇸_US_6'
+      - '@wbnet_🇺🇸_US_7'
+      - '@wbnet_🇺🇸_US_8'
+      - '@wbnet_🇺🇸_US_9'
+      - '@wbnet_🇹🇼_TW_10'
+      - '@wbnet_🇺🇸_US_12'
+      - '@wbnet_🇹🇼_TW_14'
+      - '@wbnet_🇺🇸_US_15'
+      - '@wbnet_🇺🇸_US_16'
+      - '@wbnet_🇺🇸_US_17'
+      - '@wbnet_🇺🇸_US_18'
+      - '@wbnet_🇺🇸_US_19'
+      - '@wbnet_🇺🇸_US_20'
+      - '@wbnet_🇺🇸_US_21'
+      - '@wbnet_🇺🇸_US_22'
+      - '@wbnet_🇭🇰_HK_23'
+      - '@wbnet_🇺🇸_US_24'
+      - '@wbnet_🇺🇸_US_25'
+      - '@wbnet_🇺🇸_US_26'
+      - '@wbnet_🇺🇸_US_27'
+      - '@wbnet_🇭🇰_HK_28'
+      - '@wbnet_🇺🇸_US_29'
+      - '@wbnet_🇺🇸_US_30'
+      - '@wbnet_🇺🇸_US_31'
+      - '@wbnet_🇺🇸_US_32'
+      - '@wbnet_🇺🇸_US_33'
+      - '@wbnet_🇺🇸_US_34'
+      - '@wbnet_🇺🇸_US_35'
+      - '@wbnet_🇺🇸_US_36'
+      - '@wbnet_🇷🇺_RU_37'
+      - '@wbnet_🇺🇸_US_38'
+      - '@wbnet_🇺🇸_US_40'
+      - '@wbnet_🇯🇵_JP_41'
+      - '@wbnet_🇺🇸_US_42'
+      - '@wbnet_🇹🇼_TW_43'
+      - '@wbnet_🇸🇬_SG_45'
+      - '@wbnet_🇺🇸_US_46'
+      - '@wbnet_🇺🇸_US_47'
+      - '@wbnet_🇺🇸_US_48'
+      - '@wbnet_🇯🇵_JP_50'
+      - '@wbnet_🇺🇸_US_51'
+      - '@wbnet_🇺🇸_US_53'
+      - '@wbnet_🇺🇸_US_54'
+      - '@wbnet_🇺🇸_US_56'
+      - '@wbnet_🇺🇸_US_57'
+      - '@wbnet_🇺🇸_US_58'
+      - '@wbnet_59'
+      - '@wbnet_60'
+      - '@wbnet_63'
+      - '@wbnet_64'
+      - '@wbnet_🇺🇸_US_75'
+      - '@wbnet_🇺🇸_US_76'
+      - '@wbnet_🇺🇸_US_201'
+      - '@wbnet_🇺🇸_US_218'
   - name: 📲 电报信息
     type: select
     proxies:
@@ -682,9 +834,8 @@ proxy-groups:
       - CN-高速节点推荐：v2cross.com（浏览器打开）26
       - 🇨🇳_油管：全网最强白嫖_5
       - CN-高速节点推荐：v2cross.com（浏览器打开）133
-      - 🇨🇳_油管：全网最强白嫖_6
       - 翻墙党fanqiangdang.com
-      - 🇨🇳_油管：全网最强白嫖_7
+      - 🇨🇳_油管：全网最强白嫖_6
       - 🇨🇳_youtube：全网最强白嫖
       - 荷兰01
       - 罗马尼亚01
@@ -705,37 +856,20 @@ proxy-groups:
       - 俄罗斯01
       - 回国专线青岛_2
       - 🇨🇳_YouTube：全网最强白嫖_2
-      - 🇭🇰_YouTube：全网最强白嫖
-      - '@SSRSUB-V06-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
-      - 周
       - cumtbno1
       - 🇨🇳CN_260
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - TG:@mfjdpd
       - 🇭🇰_HK_香港
       - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 长期更新节点@mftizi_1
       - 关注电报https://t.me/mftizi_1
-      - 免费梯子https://t.me/mftizi_1
       - 免费节点TG@mftizi_1
       - 长期更新节点@mftizi_2
+      - 免费梯子https://t.me/mftizi_1
       - 免费梯子https://t.me/mftizi_2
-      - 9206@WangCai_1_1
-      - 9206@WangCai_1_2
-      - 9206@WangCai_1_3
-      - 9403@WangCai_1_1
-      - 9405@WangCai_1_1
-      - 9407@WangCai_1_1
-      - 9403@WangCai_1_2
-      - 9405@WangCai_1_2
-      - 9407@WangCai_1_2
-      - 9403@WangCai_1_3
-      - 9407@WangCai_1_3
-      - 免费梯子https://t.me/mftizi_3
       - 关注电报https://t.me/mftizi_2
       - 长期更新节点@mftizi_3
       - 关注电报https://t.me/mftizi_3
@@ -748,7 +882,6 @@ proxy-groups:
       - 🇨🇳_YouTube:全网最强白嫖_5
       - 🇸🇬_YouTube：全网最强白嫖
       - 🇮🇳_YouTube：全网最强白嫖
-      - 🇺🇸_YouTube：全网最强白嫖
       - 🇨🇳_YouTube：全网最强白嫖_3
       - 🇨🇳_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_5
@@ -756,15 +889,9 @@ proxy-groups:
       - 🇨🇳_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_8
       - _40|78.29Mb
-      - 🇺🇸US_1367|22.57Mb
-      - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_4
-      - 免费梯子https://t.me/mftizi_4
+      - 免费梯子https://t.me/mftizi_3
       - 关注电报https://t.me/mftizi_4
       - 免费节点TG@mftizi_4
       - 免费节点TG@mftizi_5
@@ -780,57 +907,120 @@ proxy-groups:
       - 🇨🇳_YouTube：全我那个最强白嫖_10
       - 🇨🇳_YouTube：全我那个最强白嫖_11
       - 🇨🇳_YouTube：全我那个最强白嫖_12
-      - 🇨🇳_YouTube：全我那个最强白嫖_13
-      - 🇨🇳_YouTube：全我那个最强白嫖_14
-      - 🇨🇳_YouTube：全我那个最强白嫖_15
-      - 🇨🇳_YouTube：全我那个最强白嫖_16
-      - 🇨🇳_YouTube：全我那个最强白嫖_17
-      - 🇨🇳_YouTube：全我那个最强白嫖_18
       - 🇺🇸_YouTube：全我那个最强白嫖_1
       - 🇺🇸_YouTube：全我那个最强白嫖_2
       - 🇺🇸_YouTube：全我那个最强白嫖_3
       - 🇺🇸_YouTube：全我那个最强白嫖_4
-      - 🇨🇳_YouTube：全我那个最强白嫖_19
       - 🇺🇸_YouTube：全我那个最强白嫖_5
+      - 🇨🇳_YouTube：全我那个最强白嫖_13
+      - 🇨🇳_YouTube：全我那个最强白嫖_14
+      - 🇨🇳_YouTube：全我那个最强白嫖_15
       - 🇺🇸_YouTube：全我那个最强白嫖_6
+      - 🇺🇸_YouTube：全我那个最强白嫖_7
+      - 🇨🇳_YouTube：全我那个最强白嫖_16
+      - 🇨🇳_YouTube：全我那个最强白嫖_17
+      - 🇨🇳_YouTube：全我那个最强白嫖_18
+      - 🇺🇸_YouTube：全我那个最强白嫖_8
+      - 🇨🇳_YouTube：全我那个最强白嫖_19
+      - 🇺🇸_YouTube：全我那个最强白嫖_9
       - 🇨🇳_YouTube：全我那个最强白嫖_20
       - 🇨🇳_YouTube：全我那个最强白嫖_21
-      - 🇺🇸_YouTube：全我那个最强白嫖_7
-      - 🇨🇳_YouTube：全我那个最强白嫖_22
-      - 🇨🇳_YouTube：全我那个最强白嫖_23
-      - 🇨🇳_YouTube：全我那个最强白嫖_24
-      - 🇨🇳_YouTube：全我那个最强白嫖_25
-      - 🇨🇳_YouTube：全我那个最强白嫖_26
-      - 🇨🇳_YouTube：全我那个最强白嫖_27
-      - 🇺🇸_YouTube：全我那个最强白嫖_8
-      - 🇺🇸_YouTube：全我那个最强白嫖_9
-      - 🇨🇳_YouTube：全我那个最强白嫖_28
-      - 🇨🇳_YouTube：全我那个最强白嫖_29
-      - 🇨🇳_YouTube：全我那个最强白嫖_30
-      - 🇨🇳_YouTube：全我那个最强白嫖_31
-      - 🇺🇸_YouTube：全我那个最强白嫖_10
-      - 🇨🇳_YouTube：全我那个最强白嫖_32
-      - 🇺🇸_YouTube：全我那个最强白嫖_11
-      - 🇺🇸_YouTube：全我那个最强白嫖_12
-      - 🇨🇳_YouTube：全我那个最强白嫖_33
-      - 🇨🇳_YouTube：全我那个最强白嫖_34
-      - default_name_1
-      - 🇺🇸_US_美国_5
+      - default_name
       - 🇩🇪_DE_德国
-      - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_6
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - default_name_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇫🇮_FI_芬兰
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - default_name_3
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇲US_25
+      - 🇺🇲US_26
+      - 🇺🇲US_27
+      - 🇺🇲US_28
+      - 🇺🇲US_29
+      - 🇺🇲US_31
+      - 🇺🇲US_33
+      - 🇺🇲US_34
+      - '@SSRSUB-V01-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V08-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V17-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V19-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V24-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V26-付费推荐:suo.yt/ssrsub'
+      - 免费梯子https://t.me/mftizi_4
+      - 长期更新节点@mftizi_4
+      - 免费梯子https://t.me/mftizi_5
+      - 免费梯子https://t.me/mftizi_6
+      - 免费梯子https://t.me/mftizi_7
+      - 免费梯子https://t.me/mftizi_8
+      - 免费梯子https://t.me/mftizi_9
+      - 关注电报https://t.me/mftizi_5
+      - 免费节点TG@mftizi_6
+      - '@wbnet_🇸🇬_SG_1'
+      - '@wbnet_🇹🇼_TW_2'
+      - '@wbnet_🇺🇸_US_3'
+      - '@wbnet_🇭🇰_HK_4'
+      - '@wbnet_🇺🇸_US_5'
+      - '@wbnet_🇺🇸_US_6'
+      - '@wbnet_🇺🇸_US_7'
+      - '@wbnet_🇺🇸_US_8'
+      - '@wbnet_🇺🇸_US_9'
+      - '@wbnet_🇹🇼_TW_10'
+      - '@wbnet_🇺🇸_US_12'
+      - '@wbnet_🇹🇼_TW_14'
+      - '@wbnet_🇺🇸_US_15'
+      - '@wbnet_🇺🇸_US_16'
+      - '@wbnet_🇺🇸_US_17'
+      - '@wbnet_🇺🇸_US_18'
+      - '@wbnet_🇺🇸_US_19'
+      - '@wbnet_🇺🇸_US_20'
+      - '@wbnet_🇺🇸_US_21'
+      - '@wbnet_🇺🇸_US_22'
+      - '@wbnet_🇭🇰_HK_23'
+      - '@wbnet_🇺🇸_US_24'
+      - '@wbnet_🇺🇸_US_25'
+      - '@wbnet_🇺🇸_US_26'
+      - '@wbnet_🇺🇸_US_27'
+      - '@wbnet_🇭🇰_HK_28'
+      - '@wbnet_🇺🇸_US_29'
+      - '@wbnet_🇺🇸_US_30'
+      - '@wbnet_🇺🇸_US_31'
+      - '@wbnet_🇺🇸_US_32'
+      - '@wbnet_🇺🇸_US_33'
+      - '@wbnet_🇺🇸_US_34'
+      - '@wbnet_🇺🇸_US_35'
+      - '@wbnet_🇺🇸_US_36'
+      - '@wbnet_🇷🇺_RU_37'
+      - '@wbnet_🇺🇸_US_38'
+      - '@wbnet_🇺🇸_US_40'
+      - '@wbnet_🇯🇵_JP_41'
+      - '@wbnet_🇺🇸_US_42'
+      - '@wbnet_🇹🇼_TW_43'
+      - '@wbnet_🇸🇬_SG_45'
+      - '@wbnet_🇺🇸_US_46'
+      - '@wbnet_🇺🇸_US_47'
+      - '@wbnet_🇺🇸_US_48'
+      - '@wbnet_🇯🇵_JP_50'
+      - '@wbnet_🇺🇸_US_51'
+      - '@wbnet_🇺🇸_US_53'
+      - '@wbnet_🇺🇸_US_54'
+      - '@wbnet_🇺🇸_US_56'
+      - '@wbnet_🇺🇸_US_57'
+      - '@wbnet_🇺🇸_US_58'
+      - '@wbnet_59'
+      - '@wbnet_60'
+      - '@wbnet_63'
+      - '@wbnet_64'
+      - '@wbnet_🇺🇸_US_75'
+      - '@wbnet_🇺🇸_US_76'
+      - '@wbnet_🇺🇸_US_201'
+      - '@wbnet_🇺🇸_US_218'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -846,9 +1036,8 @@ proxy-groups:
       - CN-高速节点推荐：v2cross.com（浏览器打开）26
       - 🇨🇳_油管：全网最强白嫖_5
       - CN-高速节点推荐：v2cross.com（浏览器打开）133
-      - 🇨🇳_油管：全网最强白嫖_6
       - 翻墙党fanqiangdang.com
-      - 🇨🇳_油管：全网最强白嫖_7
+      - 🇨🇳_油管：全网最强白嫖_6
       - 🇨🇳_youtube：全网最强白嫖
       - 荷兰01
       - 罗马尼亚01
@@ -869,37 +1058,20 @@ proxy-groups:
       - 俄罗斯01
       - 回国专线青岛_2
       - 🇨🇳_YouTube：全网最强白嫖_2
-      - 🇭🇰_YouTube：全网最强白嫖
-      - '@SSRSUB-V06-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
-      - 周
       - cumtbno1
       - 🇨🇳CN_260
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - TG:@mfjdpd
       - 🇭🇰_HK_香港
       - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 长期更新节点@mftizi_1
       - 关注电报https://t.me/mftizi_1
-      - 免费梯子https://t.me/mftizi_1
       - 免费节点TG@mftizi_1
       - 长期更新节点@mftizi_2
+      - 免费梯子https://t.me/mftizi_1
       - 免费梯子https://t.me/mftizi_2
-      - 9206@WangCai_1_1
-      - 9206@WangCai_1_2
-      - 9206@WangCai_1_3
-      - 9403@WangCai_1_1
-      - 9405@WangCai_1_1
-      - 9407@WangCai_1_1
-      - 9403@WangCai_1_2
-      - 9405@WangCai_1_2
-      - 9407@WangCai_1_2
-      - 9403@WangCai_1_3
-      - 9407@WangCai_1_3
-      - 免费梯子https://t.me/mftizi_3
       - 关注电报https://t.me/mftizi_2
       - 长期更新节点@mftizi_3
       - 关注电报https://t.me/mftizi_3
@@ -912,7 +1084,6 @@ proxy-groups:
       - 🇨🇳_YouTube:全网最强白嫖_5
       - 🇸🇬_YouTube：全网最强白嫖
       - 🇮🇳_YouTube：全网最强白嫖
-      - 🇺🇸_YouTube：全网最强白嫖
       - 🇨🇳_YouTube：全网最强白嫖_3
       - 🇨🇳_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_5
@@ -920,15 +1091,9 @@ proxy-groups:
       - 🇨🇳_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_8
       - _40|78.29Mb
-      - 🇺🇸US_1367|22.57Mb
-      - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_4
-      - 免费梯子https://t.me/mftizi_4
+      - 免费梯子https://t.me/mftizi_3
       - 关注电报https://t.me/mftizi_4
       - 免费节点TG@mftizi_4
       - 免费节点TG@mftizi_5
@@ -944,57 +1109,120 @@ proxy-groups:
       - 🇨🇳_YouTube：全我那个最强白嫖_10
       - 🇨🇳_YouTube：全我那个最强白嫖_11
       - 🇨🇳_YouTube：全我那个最强白嫖_12
-      - 🇨🇳_YouTube：全我那个最强白嫖_13
-      - 🇨🇳_YouTube：全我那个最强白嫖_14
-      - 🇨🇳_YouTube：全我那个最强白嫖_15
-      - 🇨🇳_YouTube：全我那个最强白嫖_16
-      - 🇨🇳_YouTube：全我那个最强白嫖_17
-      - 🇨🇳_YouTube：全我那个最强白嫖_18
       - 🇺🇸_YouTube：全我那个最强白嫖_1
       - 🇺🇸_YouTube：全我那个最强白嫖_2
       - 🇺🇸_YouTube：全我那个最强白嫖_3
       - 🇺🇸_YouTube：全我那个最强白嫖_4
-      - 🇨🇳_YouTube：全我那个最强白嫖_19
       - 🇺🇸_YouTube：全我那个最强白嫖_5
+      - 🇨🇳_YouTube：全我那个最强白嫖_13
+      - 🇨🇳_YouTube：全我那个最强白嫖_14
+      - 🇨🇳_YouTube：全我那个最强白嫖_15
       - 🇺🇸_YouTube：全我那个最强白嫖_6
+      - 🇺🇸_YouTube：全我那个最强白嫖_7
+      - 🇨🇳_YouTube：全我那个最强白嫖_16
+      - 🇨🇳_YouTube：全我那个最强白嫖_17
+      - 🇨🇳_YouTube：全我那个最强白嫖_18
+      - 🇺🇸_YouTube：全我那个最强白嫖_8
+      - 🇨🇳_YouTube：全我那个最强白嫖_19
+      - 🇺🇸_YouTube：全我那个最强白嫖_9
       - 🇨🇳_YouTube：全我那个最强白嫖_20
       - 🇨🇳_YouTube：全我那个最强白嫖_21
-      - 🇺🇸_YouTube：全我那个最强白嫖_7
-      - 🇨🇳_YouTube：全我那个最强白嫖_22
-      - 🇨🇳_YouTube：全我那个最强白嫖_23
-      - 🇨🇳_YouTube：全我那个最强白嫖_24
-      - 🇨🇳_YouTube：全我那个最强白嫖_25
-      - 🇨🇳_YouTube：全我那个最强白嫖_26
-      - 🇨🇳_YouTube：全我那个最强白嫖_27
-      - 🇺🇸_YouTube：全我那个最强白嫖_8
-      - 🇺🇸_YouTube：全我那个最强白嫖_9
-      - 🇨🇳_YouTube：全我那个最强白嫖_28
-      - 🇨🇳_YouTube：全我那个最强白嫖_29
-      - 🇨🇳_YouTube：全我那个最强白嫖_30
-      - 🇨🇳_YouTube：全我那个最强白嫖_31
-      - 🇺🇸_YouTube：全我那个最强白嫖_10
-      - 🇨🇳_YouTube：全我那个最强白嫖_32
-      - 🇺🇸_YouTube：全我那个最强白嫖_11
-      - 🇺🇸_YouTube：全我那个最强白嫖_12
-      - 🇨🇳_YouTube：全我那个最强白嫖_33
-      - 🇨🇳_YouTube：全我那个最强白嫖_34
-      - default_name_1
-      - 🇺🇸_US_美国_5
+      - default_name
       - 🇩🇪_DE_德国
-      - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_6
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - default_name_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇫🇮_FI_芬兰
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - default_name_3
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇲US_25
+      - 🇺🇲US_26
+      - 🇺🇲US_27
+      - 🇺🇲US_28
+      - 🇺🇲US_29
+      - 🇺🇲US_31
+      - 🇺🇲US_33
+      - 🇺🇲US_34
+      - '@SSRSUB-V01-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V08-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V17-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V19-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V24-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V26-付费推荐:suo.yt/ssrsub'
+      - 免费梯子https://t.me/mftizi_4
+      - 长期更新节点@mftizi_4
+      - 免费梯子https://t.me/mftizi_5
+      - 免费梯子https://t.me/mftizi_6
+      - 免费梯子https://t.me/mftizi_7
+      - 免费梯子https://t.me/mftizi_8
+      - 免费梯子https://t.me/mftizi_9
+      - 关注电报https://t.me/mftizi_5
+      - 免费节点TG@mftizi_6
+      - '@wbnet_🇸🇬_SG_1'
+      - '@wbnet_🇹🇼_TW_2'
+      - '@wbnet_🇺🇸_US_3'
+      - '@wbnet_🇭🇰_HK_4'
+      - '@wbnet_🇺🇸_US_5'
+      - '@wbnet_🇺🇸_US_6'
+      - '@wbnet_🇺🇸_US_7'
+      - '@wbnet_🇺🇸_US_8'
+      - '@wbnet_🇺🇸_US_9'
+      - '@wbnet_🇹🇼_TW_10'
+      - '@wbnet_🇺🇸_US_12'
+      - '@wbnet_🇹🇼_TW_14'
+      - '@wbnet_🇺🇸_US_15'
+      - '@wbnet_🇺🇸_US_16'
+      - '@wbnet_🇺🇸_US_17'
+      - '@wbnet_🇺🇸_US_18'
+      - '@wbnet_🇺🇸_US_19'
+      - '@wbnet_🇺🇸_US_20'
+      - '@wbnet_🇺🇸_US_21'
+      - '@wbnet_🇺🇸_US_22'
+      - '@wbnet_🇭🇰_HK_23'
+      - '@wbnet_🇺🇸_US_24'
+      - '@wbnet_🇺🇸_US_25'
+      - '@wbnet_🇺🇸_US_26'
+      - '@wbnet_🇺🇸_US_27'
+      - '@wbnet_🇭🇰_HK_28'
+      - '@wbnet_🇺🇸_US_29'
+      - '@wbnet_🇺🇸_US_30'
+      - '@wbnet_🇺🇸_US_31'
+      - '@wbnet_🇺🇸_US_32'
+      - '@wbnet_🇺🇸_US_33'
+      - '@wbnet_🇺🇸_US_34'
+      - '@wbnet_🇺🇸_US_35'
+      - '@wbnet_🇺🇸_US_36'
+      - '@wbnet_🇷🇺_RU_37'
+      - '@wbnet_🇺🇸_US_38'
+      - '@wbnet_🇺🇸_US_40'
+      - '@wbnet_🇯🇵_JP_41'
+      - '@wbnet_🇺🇸_US_42'
+      - '@wbnet_🇹🇼_TW_43'
+      - '@wbnet_🇸🇬_SG_45'
+      - '@wbnet_🇺🇸_US_46'
+      - '@wbnet_🇺🇸_US_47'
+      - '@wbnet_🇺🇸_US_48'
+      - '@wbnet_🇯🇵_JP_50'
+      - '@wbnet_🇺🇸_US_51'
+      - '@wbnet_🇺🇸_US_53'
+      - '@wbnet_🇺🇸_US_54'
+      - '@wbnet_🇺🇸_US_56'
+      - '@wbnet_🇺🇸_US_57'
+      - '@wbnet_🇺🇸_US_58'
+      - '@wbnet_59'
+      - '@wbnet_60'
+      - '@wbnet_63'
+      - '@wbnet_64'
+      - '@wbnet_🇺🇸_US_75'
+      - '@wbnet_🇺🇸_US_76'
+      - '@wbnet_🇺🇸_US_201'
+      - '@wbnet_🇺🇸_US_218'
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -1010,9 +1238,8 @@ proxy-groups:
       - CN-高速节点推荐：v2cross.com（浏览器打开）26
       - 🇨🇳_油管：全网最强白嫖_5
       - CN-高速节点推荐：v2cross.com（浏览器打开）133
-      - 🇨🇳_油管：全网最强白嫖_6
       - 翻墙党fanqiangdang.com
-      - 🇨🇳_油管：全网最强白嫖_7
+      - 🇨🇳_油管：全网最强白嫖_6
       - 🇨🇳_youtube：全网最强白嫖
       - 荷兰01
       - 罗马尼亚01
@@ -1033,37 +1260,20 @@ proxy-groups:
       - 俄罗斯01
       - 回国专线青岛_2
       - 🇨🇳_YouTube：全网最强白嫖_2
-      - 🇭🇰_YouTube：全网最强白嫖
-      - '@SSRSUB-V06-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
-      - 周
       - cumtbno1
       - 🇨🇳CN_260
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - TG:@mfjdpd
       - 🇭🇰_HK_香港
       - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 长期更新节点@mftizi_1
       - 关注电报https://t.me/mftizi_1
-      - 免费梯子https://t.me/mftizi_1
       - 免费节点TG@mftizi_1
       - 长期更新节点@mftizi_2
+      - 免费梯子https://t.me/mftizi_1
       - 免费梯子https://t.me/mftizi_2
-      - 9206@WangCai_1_1
-      - 9206@WangCai_1_2
-      - 9206@WangCai_1_3
-      - 9403@WangCai_1_1
-      - 9405@WangCai_1_1
-      - 9407@WangCai_1_1
-      - 9403@WangCai_1_2
-      - 9405@WangCai_1_2
-      - 9407@WangCai_1_2
-      - 9403@WangCai_1_3
-      - 9407@WangCai_1_3
-      - 免费梯子https://t.me/mftizi_3
       - 关注电报https://t.me/mftizi_2
       - 长期更新节点@mftizi_3
       - 关注电报https://t.me/mftizi_3
@@ -1076,7 +1286,6 @@ proxy-groups:
       - 🇨🇳_YouTube:全网最强白嫖_5
       - 🇸🇬_YouTube：全网最强白嫖
       - 🇮🇳_YouTube：全网最强白嫖
-      - 🇺🇸_YouTube：全网最强白嫖
       - 🇨🇳_YouTube：全网最强白嫖_3
       - 🇨🇳_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_5
@@ -1084,15 +1293,9 @@ proxy-groups:
       - 🇨🇳_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_8
       - _40|78.29Mb
-      - 🇺🇸US_1367|22.57Mb
-      - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_4
-      - 免费梯子https://t.me/mftizi_4
+      - 免费梯子https://t.me/mftizi_3
       - 关注电报https://t.me/mftizi_4
       - 免费节点TG@mftizi_4
       - 免费节点TG@mftizi_5
@@ -1108,57 +1311,120 @@ proxy-groups:
       - 🇨🇳_YouTube：全我那个最强白嫖_10
       - 🇨🇳_YouTube：全我那个最强白嫖_11
       - 🇨🇳_YouTube：全我那个最强白嫖_12
-      - 🇨🇳_YouTube：全我那个最强白嫖_13
-      - 🇨🇳_YouTube：全我那个最强白嫖_14
-      - 🇨🇳_YouTube：全我那个最强白嫖_15
-      - 🇨🇳_YouTube：全我那个最强白嫖_16
-      - 🇨🇳_YouTube：全我那个最强白嫖_17
-      - 🇨🇳_YouTube：全我那个最强白嫖_18
       - 🇺🇸_YouTube：全我那个最强白嫖_1
       - 🇺🇸_YouTube：全我那个最强白嫖_2
       - 🇺🇸_YouTube：全我那个最强白嫖_3
       - 🇺🇸_YouTube：全我那个最强白嫖_4
-      - 🇨🇳_YouTube：全我那个最强白嫖_19
       - 🇺🇸_YouTube：全我那个最强白嫖_5
+      - 🇨🇳_YouTube：全我那个最强白嫖_13
+      - 🇨🇳_YouTube：全我那个最强白嫖_14
+      - 🇨🇳_YouTube：全我那个最强白嫖_15
       - 🇺🇸_YouTube：全我那个最强白嫖_6
+      - 🇺🇸_YouTube：全我那个最强白嫖_7
+      - 🇨🇳_YouTube：全我那个最强白嫖_16
+      - 🇨🇳_YouTube：全我那个最强白嫖_17
+      - 🇨🇳_YouTube：全我那个最强白嫖_18
+      - 🇺🇸_YouTube：全我那个最强白嫖_8
+      - 🇨🇳_YouTube：全我那个最强白嫖_19
+      - 🇺🇸_YouTube：全我那个最强白嫖_9
       - 🇨🇳_YouTube：全我那个最强白嫖_20
       - 🇨🇳_YouTube：全我那个最强白嫖_21
-      - 🇺🇸_YouTube：全我那个最强白嫖_7
-      - 🇨🇳_YouTube：全我那个最强白嫖_22
-      - 🇨🇳_YouTube：全我那个最强白嫖_23
-      - 🇨🇳_YouTube：全我那个最强白嫖_24
-      - 🇨🇳_YouTube：全我那个最强白嫖_25
-      - 🇨🇳_YouTube：全我那个最强白嫖_26
-      - 🇨🇳_YouTube：全我那个最强白嫖_27
-      - 🇺🇸_YouTube：全我那个最强白嫖_8
-      - 🇺🇸_YouTube：全我那个最强白嫖_9
-      - 🇨🇳_YouTube：全我那个最强白嫖_28
-      - 🇨🇳_YouTube：全我那个最强白嫖_29
-      - 🇨🇳_YouTube：全我那个最强白嫖_30
-      - 🇨🇳_YouTube：全我那个最强白嫖_31
-      - 🇺🇸_YouTube：全我那个最强白嫖_10
-      - 🇨🇳_YouTube：全我那个最强白嫖_32
-      - 🇺🇸_YouTube：全我那个最强白嫖_11
-      - 🇺🇸_YouTube：全我那个最强白嫖_12
-      - 🇨🇳_YouTube：全我那个最强白嫖_33
-      - 🇨🇳_YouTube：全我那个最强白嫖_34
-      - default_name_1
-      - 🇺🇸_US_美国_5
+      - default_name
       - 🇩🇪_DE_德国
-      - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_6
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - default_name_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇫🇮_FI_芬兰
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - default_name_3
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇲US_25
+      - 🇺🇲US_26
+      - 🇺🇲US_27
+      - 🇺🇲US_28
+      - 🇺🇲US_29
+      - 🇺🇲US_31
+      - 🇺🇲US_33
+      - 🇺🇲US_34
+      - '@SSRSUB-V01-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V08-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V17-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V19-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V24-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V26-付费推荐:suo.yt/ssrsub'
+      - 免费梯子https://t.me/mftizi_4
+      - 长期更新节点@mftizi_4
+      - 免费梯子https://t.me/mftizi_5
+      - 免费梯子https://t.me/mftizi_6
+      - 免费梯子https://t.me/mftizi_7
+      - 免费梯子https://t.me/mftizi_8
+      - 免费梯子https://t.me/mftizi_9
+      - 关注电报https://t.me/mftizi_5
+      - 免费节点TG@mftizi_6
+      - '@wbnet_🇸🇬_SG_1'
+      - '@wbnet_🇹🇼_TW_2'
+      - '@wbnet_🇺🇸_US_3'
+      - '@wbnet_🇭🇰_HK_4'
+      - '@wbnet_🇺🇸_US_5'
+      - '@wbnet_🇺🇸_US_6'
+      - '@wbnet_🇺🇸_US_7'
+      - '@wbnet_🇺🇸_US_8'
+      - '@wbnet_🇺🇸_US_9'
+      - '@wbnet_🇹🇼_TW_10'
+      - '@wbnet_🇺🇸_US_12'
+      - '@wbnet_🇹🇼_TW_14'
+      - '@wbnet_🇺🇸_US_15'
+      - '@wbnet_🇺🇸_US_16'
+      - '@wbnet_🇺🇸_US_17'
+      - '@wbnet_🇺🇸_US_18'
+      - '@wbnet_🇺🇸_US_19'
+      - '@wbnet_🇺🇸_US_20'
+      - '@wbnet_🇺🇸_US_21'
+      - '@wbnet_🇺🇸_US_22'
+      - '@wbnet_🇭🇰_HK_23'
+      - '@wbnet_🇺🇸_US_24'
+      - '@wbnet_🇺🇸_US_25'
+      - '@wbnet_🇺🇸_US_26'
+      - '@wbnet_🇺🇸_US_27'
+      - '@wbnet_🇭🇰_HK_28'
+      - '@wbnet_🇺🇸_US_29'
+      - '@wbnet_🇺🇸_US_30'
+      - '@wbnet_🇺🇸_US_31'
+      - '@wbnet_🇺🇸_US_32'
+      - '@wbnet_🇺🇸_US_33'
+      - '@wbnet_🇺🇸_US_34'
+      - '@wbnet_🇺🇸_US_35'
+      - '@wbnet_🇺🇸_US_36'
+      - '@wbnet_🇷🇺_RU_37'
+      - '@wbnet_🇺🇸_US_38'
+      - '@wbnet_🇺🇸_US_40'
+      - '@wbnet_🇯🇵_JP_41'
+      - '@wbnet_🇺🇸_US_42'
+      - '@wbnet_🇹🇼_TW_43'
+      - '@wbnet_🇸🇬_SG_45'
+      - '@wbnet_🇺🇸_US_46'
+      - '@wbnet_🇺🇸_US_47'
+      - '@wbnet_🇺🇸_US_48'
+      - '@wbnet_🇯🇵_JP_50'
+      - '@wbnet_🇺🇸_US_51'
+      - '@wbnet_🇺🇸_US_53'
+      - '@wbnet_🇺🇸_US_54'
+      - '@wbnet_🇺🇸_US_56'
+      - '@wbnet_🇺🇸_US_57'
+      - '@wbnet_🇺🇸_US_58'
+      - '@wbnet_59'
+      - '@wbnet_60'
+      - '@wbnet_63'
+      - '@wbnet_64'
+      - '@wbnet_🇺🇸_US_75'
+      - '@wbnet_🇺🇸_US_76'
+      - '@wbnet_🇺🇸_US_201'
+      - '@wbnet_🇺🇸_US_218'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1191,9 +1457,8 @@ proxy-groups:
       - CN-高速节点推荐：v2cross.com（浏览器打开）26
       - 🇨🇳_油管：全网最强白嫖_5
       - CN-高速节点推荐：v2cross.com（浏览器打开）133
-      - 🇨🇳_油管：全网最强白嫖_6
       - 翻墙党fanqiangdang.com
-      - 🇨🇳_油管：全网最强白嫖_7
+      - 🇨🇳_油管：全网最强白嫖_6
       - 🇨🇳_youtube：全网最强白嫖
       - 荷兰01
       - 罗马尼亚01
@@ -1214,37 +1479,20 @@ proxy-groups:
       - 俄罗斯01
       - 回国专线青岛_2
       - 🇨🇳_YouTube：全网最强白嫖_2
-      - 🇭🇰_YouTube：全网最强白嫖
-      - '@SSRSUB-V06-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
-      - 周
       - cumtbno1
       - 🇨🇳CN_260
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
       - TG:@mfjdpd
       - 🇭🇰_HK_香港
       - 🇰🇷_KR_韩国
-      - 🇺🇸_US_美国_1
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 长期更新节点@mftizi_1
       - 关注电报https://t.me/mftizi_1
-      - 免费梯子https://t.me/mftizi_1
       - 免费节点TG@mftizi_1
       - 长期更新节点@mftizi_2
+      - 免费梯子https://t.me/mftizi_1
       - 免费梯子https://t.me/mftizi_2
-      - 9206@WangCai_1_1
-      - 9206@WangCai_1_2
-      - 9206@WangCai_1_3
-      - 9403@WangCai_1_1
-      - 9405@WangCai_1_1
-      - 9407@WangCai_1_1
-      - 9403@WangCai_1_2
-      - 9405@WangCai_1_2
-      - 9407@WangCai_1_2
-      - 9403@WangCai_1_3
-      - 9407@WangCai_1_3
-      - 免费梯子https://t.me/mftizi_3
       - 关注电报https://t.me/mftizi_2
       - 长期更新节点@mftizi_3
       - 关注电报https://t.me/mftizi_3
@@ -1257,7 +1505,6 @@ proxy-groups:
       - 🇨🇳_YouTube:全网最强白嫖_5
       - 🇸🇬_YouTube：全网最强白嫖
       - 🇮🇳_YouTube：全网最强白嫖
-      - 🇺🇸_YouTube：全网最强白嫖
       - 🇨🇳_YouTube：全网最强白嫖_3
       - 🇨🇳_YouTube：全网最强白嫖_4
       - 🇨🇳_YouTube：全网最强白嫖_5
@@ -1265,15 +1512,9 @@ proxy-groups:
       - 🇨🇳_YouTube：全网最强白嫖_7
       - 🇨🇳_YouTube：全网最强白嫖_8
       - _40|78.29Mb
-      - 🇺🇸US_1367|22.57Mb
-      - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_1
+      - 🇺🇸_US_美国_1
       - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_1
-      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_2
-      - 🇬🇧_GB_英国
-      - 🇺🇸_US_美国_4
-      - 免费梯子https://t.me/mftizi_4
+      - 免费梯子https://t.me/mftizi_3
       - 关注电报https://t.me/mftizi_4
       - 免费节点TG@mftizi_4
       - 免费节点TG@mftizi_5
@@ -1289,57 +1530,120 @@ proxy-groups:
       - 🇨🇳_YouTube：全我那个最强白嫖_10
       - 🇨🇳_YouTube：全我那个最强白嫖_11
       - 🇨🇳_YouTube：全我那个最强白嫖_12
-      - 🇨🇳_YouTube：全我那个最强白嫖_13
-      - 🇨🇳_YouTube：全我那个最强白嫖_14
-      - 🇨🇳_YouTube：全我那个最强白嫖_15
-      - 🇨🇳_YouTube：全我那个最强白嫖_16
-      - 🇨🇳_YouTube：全我那个最强白嫖_17
-      - 🇨🇳_YouTube：全我那个最强白嫖_18
       - 🇺🇸_YouTube：全我那个最强白嫖_1
       - 🇺🇸_YouTube：全我那个最强白嫖_2
       - 🇺🇸_YouTube：全我那个最强白嫖_3
       - 🇺🇸_YouTube：全我那个最强白嫖_4
-      - 🇨🇳_YouTube：全我那个最强白嫖_19
       - 🇺🇸_YouTube：全我那个最强白嫖_5
+      - 🇨🇳_YouTube：全我那个最强白嫖_13
+      - 🇨🇳_YouTube：全我那个最强白嫖_14
+      - 🇨🇳_YouTube：全我那个最强白嫖_15
       - 🇺🇸_YouTube：全我那个最强白嫖_6
+      - 🇺🇸_YouTube：全我那个最强白嫖_7
+      - 🇨🇳_YouTube：全我那个最强白嫖_16
+      - 🇨🇳_YouTube：全我那个最强白嫖_17
+      - 🇨🇳_YouTube：全我那个最强白嫖_18
+      - 🇺🇸_YouTube：全我那个最强白嫖_8
+      - 🇨🇳_YouTube：全我那个最强白嫖_19
+      - 🇺🇸_YouTube：全我那个最强白嫖_9
       - 🇨🇳_YouTube：全我那个最强白嫖_20
       - 🇨🇳_YouTube：全我那个最强白嫖_21
-      - 🇺🇸_YouTube：全我那个最强白嫖_7
-      - 🇨🇳_YouTube：全我那个最强白嫖_22
-      - 🇨🇳_YouTube：全我那个最强白嫖_23
-      - 🇨🇳_YouTube：全我那个最强白嫖_24
-      - 🇨🇳_YouTube：全我那个最强白嫖_25
-      - 🇨🇳_YouTube：全我那个最强白嫖_26
-      - 🇨🇳_YouTube：全我那个最强白嫖_27
-      - 🇺🇸_YouTube：全我那个最强白嫖_8
-      - 🇺🇸_YouTube：全我那个最强白嫖_9
-      - 🇨🇳_YouTube：全我那个最强白嫖_28
-      - 🇨🇳_YouTube：全我那个最强白嫖_29
-      - 🇨🇳_YouTube：全我那个最强白嫖_30
-      - 🇨🇳_YouTube：全我那个最强白嫖_31
-      - 🇺🇸_YouTube：全我那个最强白嫖_10
-      - 🇨🇳_YouTube：全我那个最强白嫖_32
-      - 🇺🇸_YouTube：全我那个最强白嫖_11
-      - 🇺🇸_YouTube：全我那个最强白嫖_12
-      - 🇨🇳_YouTube：全我那个最强白嫖_33
-      - 🇨🇳_YouTube：全我那个最强白嫖_34
-      - default_name_1
-      - 🇺🇸_US_美国_5
+      - default_name
       - 🇩🇪_DE_德国
-      - 🇨🇴_CO_哥伦比亚->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_6
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - default_name_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇫🇮_FI_芬兰
-      - 🇺🇸_US_美国_11
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - default_name_3
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_5
+      - 🇺🇲US_25
+      - 🇺🇲US_26
+      - 🇺🇲US_27
+      - 🇺🇲US_28
+      - 🇺🇲US_29
+      - 🇺🇲US_31
+      - 🇺🇲US_33
+      - 🇺🇲US_34
+      - '@SSRSUB-V01-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V08-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V17-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V19-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V24-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V26-付费推荐:suo.yt/ssrsub'
+      - 免费梯子https://t.me/mftizi_4
+      - 长期更新节点@mftizi_4
+      - 免费梯子https://t.me/mftizi_5
+      - 免费梯子https://t.me/mftizi_6
+      - 免费梯子https://t.me/mftizi_7
+      - 免费梯子https://t.me/mftizi_8
+      - 免费梯子https://t.me/mftizi_9
+      - 关注电报https://t.me/mftizi_5
+      - 免费节点TG@mftizi_6
+      - '@wbnet_🇸🇬_SG_1'
+      - '@wbnet_🇹🇼_TW_2'
+      - '@wbnet_🇺🇸_US_3'
+      - '@wbnet_🇭🇰_HK_4'
+      - '@wbnet_🇺🇸_US_5'
+      - '@wbnet_🇺🇸_US_6'
+      - '@wbnet_🇺🇸_US_7'
+      - '@wbnet_🇺🇸_US_8'
+      - '@wbnet_🇺🇸_US_9'
+      - '@wbnet_🇹🇼_TW_10'
+      - '@wbnet_🇺🇸_US_12'
+      - '@wbnet_🇹🇼_TW_14'
+      - '@wbnet_🇺🇸_US_15'
+      - '@wbnet_🇺🇸_US_16'
+      - '@wbnet_🇺🇸_US_17'
+      - '@wbnet_🇺🇸_US_18'
+      - '@wbnet_🇺🇸_US_19'
+      - '@wbnet_🇺🇸_US_20'
+      - '@wbnet_🇺🇸_US_21'
+      - '@wbnet_🇺🇸_US_22'
+      - '@wbnet_🇭🇰_HK_23'
+      - '@wbnet_🇺🇸_US_24'
+      - '@wbnet_🇺🇸_US_25'
+      - '@wbnet_🇺🇸_US_26'
+      - '@wbnet_🇺🇸_US_27'
+      - '@wbnet_🇭🇰_HK_28'
+      - '@wbnet_🇺🇸_US_29'
+      - '@wbnet_🇺🇸_US_30'
+      - '@wbnet_🇺🇸_US_31'
+      - '@wbnet_🇺🇸_US_32'
+      - '@wbnet_🇺🇸_US_33'
+      - '@wbnet_🇺🇸_US_34'
+      - '@wbnet_🇺🇸_US_35'
+      - '@wbnet_🇺🇸_US_36'
+      - '@wbnet_🇷🇺_RU_37'
+      - '@wbnet_🇺🇸_US_38'
+      - '@wbnet_🇺🇸_US_40'
+      - '@wbnet_🇯🇵_JP_41'
+      - '@wbnet_🇺🇸_US_42'
+      - '@wbnet_🇹🇼_TW_43'
+      - '@wbnet_🇸🇬_SG_45'
+      - '@wbnet_🇺🇸_US_46'
+      - '@wbnet_🇺🇸_US_47'
+      - '@wbnet_🇺🇸_US_48'
+      - '@wbnet_🇯🇵_JP_50'
+      - '@wbnet_🇺🇸_US_51'
+      - '@wbnet_🇺🇸_US_53'
+      - '@wbnet_🇺🇸_US_54'
+      - '@wbnet_🇺🇸_US_56'
+      - '@wbnet_🇺🇸_US_57'
+      - '@wbnet_🇺🇸_US_58'
+      - '@wbnet_59'
+      - '@wbnet_60'
+      - '@wbnet_63'
+      - '@wbnet_64'
+      - '@wbnet_🇺🇸_US_75'
+      - '@wbnet_🇺🇸_US_76'
+      - '@wbnet_🇺🇸_US_201'
+      - '@wbnet_🇺🇸_US_218'
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
