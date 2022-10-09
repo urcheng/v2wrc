@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-10-08 09:43:36
+#  创建时间：2022-10-09 08:51:59
 #  模版：v2rayse默认模版
-#  节点数量：502
+#  节点数量：567
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -16,53 +16,90 @@ proxies:
   - {"type":"ss","name":"default_name_1","server":"191.96.145.108","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
   - {"type":"ss","name":"default_name_2","server":"185.113.140.247","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
   - {"type":"ss","name":"default_name_3","server":"194.26.213.155","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"default_name_4","server":"95.85.89.158","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"default_name_5","server":"45.80.209.143","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"default_name_6","server":"5.188.108.111","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"vmess","name":"@SSRSUB-V01-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/chat"},"server":"172.105.235.163","port":"443","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"@SSRSUB-V03-付费推荐:suo.yt/ssrsub_1","ws-opts":{"path":"/ray","headers":{"host":"sgarm.ptuu.cf"}},"server":"210.75.24.220","port":"443","uuid":"a928a26c-2adb-45fe-e57d-8a27dade309e","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"@SSRSUB-V03-付费推荐:suo.yt/ssrsub_2","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"data-hk-v1.shwjfkw.cn"}},"server":"data-hk-v1.shwjfkw.cn","port":"50207","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"default_name_4","server":"45.80.209.143","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
+  - {"type":"vmess","name":"@SSRSUB-V03-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"data-hk-v1.shwjfkw.cn"}},"server":"data-hk-v1.shwjfkw.cn","port":"50207","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"@SSRSUB-V04-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"tv.cctv.com"}},"server":"data-hk-v1.heisey.cn","port":"50205","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"@SSRSUB-V07-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"data-hk-v2.shwjfkw.cn"}},"server":"data-hk-v2.shwjfkw.cn","port":"50205","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":"1","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"@SSRSUB-V11-付费推荐:suo.yt/ssrsub","server":"47.87.166.143","port":"44443","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"@SSRSUB-V13-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/b26c74ee96d/"},"server":"139.99.117.48","port":"443","uuid":"0aabdcbd-805f-4f4c-ba24-b176e736b37d","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"@SSRSUB-V14-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/b26c74ee96d/","headers":{"host":"ip48.ip-139-99-117.net"}},"server":"sgp.naixii.xyz","port":"443","uuid":"0aabdcbd-805f-4f4c-ba24-b176e736b37d","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"@SSRSUB-V15-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/v2ray","headers":{"host":"paopao.v2.hk02.paopaocloud.cyou"}},"server":"ah.yd01.paopaocloud.cyou","port":"10020","uuid":"d8c5b486-84bb-3887-a1d9-07455ea608f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"@wbnet_🇨🇳_CN_77","server":"106.55.234.95","port":"31372","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"trojan","name":"@wbnet_🇯🇵_JP_66","server":"tw.softbank.mjj-home.com","port":443,"password":"share.mjj-home.com","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"@wbnet_🇺🇸_US_10","server":"api.mjj-home.com","port":443,"password":"share.mjj-home.com","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"@wbnet_🇺🇸_US_18","server":"38.121.43.65","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
   - {"type":"trojan","name":"@wbnet_🇺🇸_US_30","server":"56789.gq","port":443,"password":"dc1453e4-e5c4-4b30-bee3-6ed2adce9ee3","udp":true,"skip-cert-verify":true}
   - {"type":"ss","name":"@wbnet_🇺🇸_US_31","server":"38.68.135.19","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
   - {"type":"ss","name":"@wbnet_🇺🇸_US_45","server":"38.68.135.19","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"@wbnet_🇺🇸_US_46","server":"38.68.135.19","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
   - {"type":"ss","name":"@wbnet_🇺🇸_US_57","server":"38.68.135.19","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"@wbnet_🇺🇸_US_60","server":"38.68.135.19","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
   - {"type":"ss","name":"@wbnet_🇺🇸_US_61","server":"38.68.135.19","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"vmess","name":"【付费推荐：gvip.gq】_12","ws-opts":{"path":"/a3d4f6808291728/","headers":{"host":"jlnt8169.czsx1624.tk"}},"server":"cdn.linil.ml","port":"443","uuid":"7ac0dc7a-0ec5-4b62-ab61-4d0c00fc113a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"[SCP]VPSProvidedbyShirker(AS24400)&V2raybuildbyMokonaModoki","ws-opts":{"path":"/Telegram/ShareCentrePro/mknnix"},"server":"sg.prpr.link","port":"443","uuid":"cea42161-bddc-4230-a9b9-e43187967ffa","alterId":"0","cipher":"chacha20-poly1305","network":"ws","tls":true}
   - {"type":"vmess","name":"【付费推荐：gvip.gq】_3","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"v2ray1.zhujicn2.com"}},"server":"198.41.212.2","port":"443","uuid":"07a63fe3-8a46-4f89-b548-9151c61b9dc8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"Alien_1","server":"111.45.22.151","port":"9009","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_2","server":"111.45.22.152","port":"9009","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_3","server":"111.45.22.152","port":"11902","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_4","server":"111.45.22.151","port":"9008","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_5","server":"111.45.22.151","port":"11907","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_6","server":"111.45.22.151","port":"11904","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_7","server":"111.45.22.152","port":"9000","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_8","server":"116.129.254.6","port":"9015","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_9","server":"111.45.22.151","port":"9032","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_10","server":"111.45.22.152","port":"9032","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_11","server":"111.45.22.152","port":"9013","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_12","server":"111.45.22.151","port":"9003","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_13","server":"111.45.22.152","port":"9007","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_14","server":"111.45.22.151","port":"9002","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"Alien_15","server":"111.45.22.151","port":"9000","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Alien_1","server":"111.45.22.151","port":"9008","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Alien_2","server":"111.45.22.151","port":"11904","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Alien_3","server":"111.45.22.152","port":"9000","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Alien_4","server":"111.45.22.151","port":"11907","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Alien_5","server":"111.45.22.152","port":"11902","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Alien_6","server":"111.45.22.152","port":"9032","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Alien_7","server":"111.45.22.151","port":"9032","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Alien_8","server":"111.45.22.151","port":"9003","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Alien_9","server":"111.45.22.152","port":"9007","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Alien_10","server":"111.45.22.152","port":"9009","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Alien_11","server":"111.45.22.151","port":"9002","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Alien_12","server":"111.45.22.151","port":"9000","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"Alien_13","server":"111.45.22.151","port":"9009","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"AU+133+TJN","server":"jgwxn4.gaox.ml","port":443,"password":"e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"AU+796+TJN","server":"jgwxn4.gaox.ml","port":443,"password":"36ebef7d1b1d62e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"AU+797+TJN","server":"jgwxn4.gaox.ml","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTIlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-123e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"AU+798+TJN","server":"jgwxn4.gaox.ml","port":443,"password":"5c7b33c6-6d83-11eb-b7e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"AU+799+TJN","server":"jgwxn4.gaox.ml","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206lWNFc1RmRBNk5NQU5KSnga3fa58e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"AU+800+TJN","server":"jgwxn4.gaox.ml","port":443,"password":"36ebef7d1b1d6205fd0c55f288e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"AU+802+TJN","server":"jgwxn4.gaox.ml","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"AU+803+TJN","server":"jgwxn4.gaox.ml","port":443,"password":"3e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"AU+804+TJN","server":"jgwxn4.gaox.ml","port":443,"password":"36ebef7d1b1d6205fde8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"AU+805+TJN","server":"jgwxn4.gaox.ml","port":443,"password":"2647cdac-aa5c-4955-a13b-b667e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"AU+807+TJN","server":"jgwxn4.gaox.ml","port":443,"password":"36ebef7d1b1d6205fd0c55f28e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"AU+808+TJN","server":"jgwxn4.gaox.ml","port":443,"password":"e4307a50-9853-11ec-9b4e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+102+TJN","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+103+TJN","server":"ca-trojan.bonds.id","port":443,"password":"ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+104+TJN","server":"ca-trojan.bonds.id","port":443,"password":"YWVzLlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+105+TJN","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTIlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+106+TJN","server":"ca-trojan.bonds.id","port":443,"password":"YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+107+TJN","server":"ca-trojan.bonds.id","port":443,"password":"a3fa58b581353bb375d2ddad0f327938ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+108+TJN","server":"ca-trojan.bonds.id","port":443,"password":"28d98ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+109+TJN","server":"ca-trojan.bonds.id","port":443,"password":"YWVzLTI1Ni1nY206WWlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+110+TJN","server":"ca-trojan.bonds.id","port":443,"password":"TZLajhUSac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+111+TJN","server":"ca-trojan.bonds.id","port":443,"password":"YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ablWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+112+TJN","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+113+TJN","server":"ca-trojan.bonds.id","port":443,"password":"a3fa5lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+114+TJN","server":"ca-trojan.bonds.id","port":443,"password":"a3fa58b581353bb375d2ddad0fac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+115+TJN","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+116+TJN","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+117+TJN","server":"ca-trojan.bonds.id","port":443,"password":"YWVzLTI1NlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+118+TJN","server":"ca-trojan.bonds.id","port":443,"password":"YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+119+TJN","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nYlWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+120+TJN","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTZLajhUac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+121+TJN","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+122+TJN","server":"ca-trojan.bonds.id","port":443,"password":"36ebefac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+123+TJN","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTaclWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+124+TJN","server":"ca-trojan.bonds.id","port":443,"password":"YWVzLTI1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
+  - {"type":"trojan","name":"CA+135+TJN","server":"ca-trojan.bonds.id","port":443,"password":"YWVzLTI1Ni1nY206WWd1c0gyTVdBOFBXYzNwac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CA+272+TJN","server":"170.187.182.212","port":443,"password":"a1e12464-9208-4583-bd21-ab6889fdd242","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CA+3+→+openitsub.com","server":"1002jp.tfzhc.top","port":443,"password":"0a8df927-324d-463c-a349-1a8144078683","udp":true,"skip-cert-verify":true,"sni":"1002jp.tfzhc.top"}
   - {"type":"trojan","name":"CA+642+TJN","server":"cat1.sshocean.net","port":443,"password":"8b6daf15-8342-482d-b894-1239fd98ce7f","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+714+TJN","server":"170.187.182.212","port":443,"password":"ef81a036-1db9-45ed-a3aa-f932a4750066","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+758+TJN","server":"cat-1.opensvr.net","port":443,"password":"opentunnel.net-wd3dzt4j9yoy","udp":true,"skip-cert-verify":true,"sni":"cat-1.opensvr.net"}
+  - {"type":"trojan","name":"CA+813+TJN","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+816+TJN","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+819+TJN","server":"ca-trojan.bonds.id","port":443,"password":"a3fa5-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+820+TJN","server":"ca-trojan.bonds.id","port":443,"password":"YWVzLTI1Ni1nY206WW-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+821+TJN","server":"ca-trojan.bonds.id","port":443,"password":"YWVzLTI1N-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+823+TJN","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0--40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+825+TJN","server":"ca-trojan.bonds.id","port":443,"password":"YWVzLTI1Ni1nY206eHBRd3-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+828+TJN","server":"ca-trojan.bonds.id","port":443,"password":"YWVzLTI1Ni1nY206WWd1c0gyTac5a3ef0-b4ab-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+833+TJN","server":"ca-trojan.bonds.id","port":443,"password":"YWVzL-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+839+TJN","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+844+TJN","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTac-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+845+TJN","server":"ca-trojan.bonds.id","port":443,"password":"bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+846+TJN","server":"ca-trojan.bonds.id","port":443,"password":"YWVzLTI1-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+94+TJN","server":"ca-trojan.bonds.id","port":443,"password":"a3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"ca-trojan.bonds.id"}
   - {"type":"trojan","name":"CH+119+TJN","server":"185.126.116.235","port":443,"password":"28d98f761aca9d636f44db62544628eb","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CH+693+TJN_1","server":"185.126.116.235","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CH+693+TJN_2","server":"185.126.116.235","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+1+→+openitsub.com","server":"shcuac.aag436.ccddn4.icu","port":65523,"password":"7243c2bd-5576-3c2d-aea0-594ff03522a0","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CH+693+TJN_1","server":"185.126.116.235","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CH+693+TJN_2","server":"185.126.116.235","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+10+TJN","server":"14.215.107.23","port":28124,"password":"Mb6124ef","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1012+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"7166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1016+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"b9b55277-010a-48de-8ad9-0fa1bb7de676","udp":true,"skip-cert-verify":true}
@@ -101,7 +138,6 @@ proxies:
   - {"type":"trojan","name":"CN+1074+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"61c52680-e4b9-46f8-9854-a45d6e5859a1","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1075+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"84796b86-42cb-4b384796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"ss","name":"CN+110+SSS","server":"14.29.124.174","port":11039,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN+112+SSS","server":"14.29.124.174","port":11043,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"trojan","name":"CN+1133+TJN","server":"117.164.185.222","port":21005,"password":"623e1900-473d-4b72-8d6b-c3a2e3223e3e","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1134+TJN","server":"117.164.185.222","port":21002,"password":"623e1900-473d-4b72-8d6b-c3a2e3223e3e","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1138+TJN","server":"117.164.185.222","port":21001,"password":"623e1900-473d-4b72-8d6b-c3a2e3223e3e","udp":true,"skip-cert-verify":true}
@@ -117,7 +153,6 @@ proxies:
   - {"type":"trojan","name":"CN+1187+TJN_2","server":"cn2hn.sub-nthu.com","port":35007,"password":"eda8a8e5-1076-4d7b-b1d0-5003a0350073","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1188+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"9771dfe86","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1193+TJN","server":"cn2hn.sub-nthu.com","port":35000,"password":"eda8a8e5-1076-4d7b-b1d0-5003a0350073","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+1194+TJN","server":"cn2hn.sub-nthu.com","port":35003,"password":"eda8a8e5-1076-4d7b-b1d0-5003a0350073","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1195+TJN_1","server":"bauhinia01.abzoones.xyz","port":36401,"password":"bf3a94d3-f87b-44b5-a116-ebf8cb175a8c","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1195+TJN_2","server":"cn2hn.sub-nthu.com","port":35002,"password":"eda8a8e5-1076-4d7b-b1d0-5003a0350073","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1198+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"c6","udp":true,"skip-cert-verify":true}
@@ -140,8 +175,8 @@ proxies:
   - {"type":"trojan","name":"CN+1333+TJN","server":"bauhinia01.abzoones.xyz","port":36601,"password":"8655e4b1-f4c4-40e1-a93c-555ae5b47fbe","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1335+TJN","server":"bauhinia01.abzoones.xyz","port":36601,"password":"313a0a4e-5398-422f-b2c1-8dbc0469645d","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1336+TJN","server":"bauhinia01.abzoones.xyz","port":36601,"password":"bcdbc2d8-cc0a-4760-b61b-d2c9771dfe86","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+141+TJN","server":"183.232.141.154","port":19215,"password":"a992be42-bed4-3037-8788-9e860cd635d3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1434+TJN","server":"120.232.132.120","port":25682,"password":"Md7cc86e","udp":true,"skip-cert-verify":true,"sni":"cdnt24.dt1.fun"}
-  - {"type":"ss","name":"CN+1574+SSS","server":"180.101.193.226","port":10068,"cipher":"aes-256-cfb","password":"RsDk3peCSuo76B68"}
   - {"type":"trojan","name":"CN+1676+TJN","server":"120.232.132.120","port":25682,"password":"Md530834","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+189+TJN","server":"117.164.185.222","port":61002,"password":"623e1900-473d-4b72-8d6b-c3a2e3223e3e","udp":true,"skip-cert-verify":true}
   - {"type":"ss","name":"CN+222+SSS","server":"14.29.124.174","port":11038,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
@@ -205,22 +240,25 @@ proxies:
   - {"type":"ss","name":"CN+36+SSS","server":"14.29.124.174","port":11048,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"ss","name":"CN+37+SSS","server":"14.29.124.174","port":11009,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"trojan","name":"CN+381+TJN","server":"pull-cache-lu01.xyx-xylo.com","port":19701,"password":"79745894-044c-3298-a893-bbfcb6b24a2c","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"CN+416+SSS","server":"14.29.124.174","port":11050,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"trojan","name":"CN+4401+TJN","server":"117.164.185.220","port":61001,"password":"ec3d404b-e7de-44d7-a646-c6b52bdb148c","udp":true,"skip-cert-verify":true,"sni":"103-135-251-39.nhost.00cdn.com"}
+  - {"type":"ss","name":"CN+479+SSS","server":"14.29.124.174","port":11036,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"trojan","name":"CN+488+TJN","server":"116.129.254.29","port":3381,"password":"d4e41ff772c7fd45","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+567+TJN","server":"183.232.141.154","port":19204,"password":"a992be42-bed4-3037-8788-9e860cd635d3","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+593+TJN","server":"139.227.182.124","port":12851,"password":"yQAgQC","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+622+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"7166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+624+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"7166e177166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+626+TJN","server":"bauhinia01.abzoones.xyz","port":36611,"password":"7166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+627+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"7166e17c-286a-4aca-8383-2507166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+628+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"7166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+71+TJN","server":"194.156.99.39","port":443,"password":"xxoo","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"CN+674+SSS","server":"14.29.124.168","port":24007,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"CN+679+SSS","server":"14.29.124.174","port":11007,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"ss","name":"CN+723+SSS","server":"14.29.124.168","port":24008,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"trojan","name":"CN+749+TJN","server":"ygzyd.sub-nthu.com","port":35001,"password":"87d5ee80-9dfa-4cb5-b644-062803bd0c19","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+738+TJN","server":"14.29.230.228","port":13325,"password":"M07fa472","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+755+TJN","server":"ygzyd.sub-nthu.com","port":35000,"password":"eda8a8e5-1076-4d7b-b1d0-5003a0350073","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+766+TJN","server":"ygzyd.sub-nthu.com","port":35003,"password":"87d5ee80-9dfa-4cb5-b644-062803bd0c19","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"CN+853+SSS","server":"14.29.124.168","port":24009,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN+855+SSS","server":"14.29.124.168","port":24003,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"CN+762+SSS","server":"14.29.124.174","port":11003,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ssr","name":"CN84SSR","server":"usstartus2.eucdurl.me","port":567,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"41755:q13433801326"}
+  - {"type":"ssr","name":"CN85SSR","server":"usstartus2.eucdurl.me","port":564,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"41755:q13433801326"}
+  - {"type":"ssr","name":"CN86SSR","server":"cnrefhk2.standurl.xyz","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","protocol-param":"41755:q13433801326"}
   - {"type":"trojan","name":"CN+861+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"7166e17c7166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+862+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"b9b55277-010a-48de-b9b55277-010a-48de-8ad9-0fa1bb7de676","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+864+TJN","server":"sunmoon01.abzoones.xyz","port":36301,"password":"1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb","udp":true,"skip-cert-verify":true}
@@ -234,6 +272,7 @@ proxies:
   - {"type":"trojan","name":"CN+887+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"84796b86-42cb-4b3f84796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+888+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"bcdbc2d8-cc0a-4760-b61b-d2c9771dfbcdbc2d8-cc0a-4760-b61b-d2c9771dfe86","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+889+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"dc83cc1e-7c9f-4e5f-ab73-d7f1520c3cdc83cc1e-7c9f-4e5f-ab73-d7f1520c3cd7","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+89+TJN","server":"116.129.253.134","port":3381,"password":"6222266fcd4ed224","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+890+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"9771dfe86","udp":true,"skip-cert-verify":true}
   - {"type":"ss","name":"CN+891+SSS","server":"14.29.124.174","port":11034,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"trojan","name":"CN+894+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"b9b55277-010a-48de-8ad9b9b55277-010a-48de-8ad9-0fa1bb7de676","udp":true,"skip-cert-verify":true}
@@ -295,39 +334,32 @@ proxies:
   - {"type":"ss","name":"CN+97+SSS","server":"14.29.124.168","port":25254,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"ss","name":"CN+98+SSS","server":"14.29.124.168","port":25280,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"ss","name":"CN+99+SSS","server":"14.29.124.168","port":25222,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"trojan","name":"CZ+210+TJN","server":"v2cross.com.03.v2ce.com","port":443,"password":"ZD4dLSBXiMrmzdLd","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CZ【付费推荐：gvip.gq】","server":"cz.v212.fun","port":443,"password":"9c7a49a2-ddff-4654-925b-baa7913dbc56","udp":true,"skip-cert-verify":true,"sni":"cz.v212.fun"}
-  - {"type":"vmess","name":"default_name_7","ws-opts":{"path":"/b7b1f689-f82e-4ce4-97e7-8a8997370e44-vmess","headers":{"host":"free-godlikeanyone.koyeb.app"}},"server":"free-godlikeanyone.koyeb.app","port":"443","uuid":"b7b1f689-f82e-4ce4-97e7-8a8997370e44","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"default_name_8","ws-opts":{"path":"/ray","headers":{"host":"eu.ptuu.tk"}},"server":"104.21.59.76","port":"443","uuid":"70d9bf20-3e6b-4cd3-ff28-b62567ff5a23","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"FR+1+→+openitsub.com","server":"146.19.230.241","port":443,"password":"xxoo","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"default_name_5","ws-opts":{"path":"/b7b1f689-f82e-4ce4-97e7-8a8997370e44-vmess","headers":{"host":"free-godlikeanyone.koyeb.app"}},"server":"free-godlikeanyone.koyeb.app","port":"443","uuid":"b7b1f689-f82e-4ce4-97e7-8a8997370e44","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"FR+1039+TJN","server":"ukt-2.opensvr.net","port":443,"password":"opentunnel.net-rw8uuv207taq","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"games.missionsec.us:443","server":"games.missionsec.us","port":443,"password":"NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"GB+1131+TJN","server":"scottie.golfland.club","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"github.com/freefq-北京市微软(中国)有限公司3","ws-opts":{"path":"/","headers":{"host":"hkt01.pqs-vds.in168.net"}},"server":"iplc01.my1188.org","port":"3144","uuid":"ca039e98-434d-31a5-9627-051921079ca6","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"github.com/freefq-北美地区6","server":"c90s5.jamjams3.net","port":"19623","uuid":"b03a1e7b-f1ad-4d0e-895d-639354e35ff4","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"github.com/freefq-俄罗斯37","server":"91.243.82.249","port":"20003","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"github.com/freefq-荷兰哈勒姆OnlineS.A.S34","ws-opts":{"path":"/fastssh/sezarhacks/633be1a74319b/"},"server":"163.172.213.74","port":"80","uuid":"45d0eb68-955c-4760-91cd-fa6bf07b693f","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"github.com/freefq-美国12","ws-opts":{"path":"/tech","headers":{"host":"161.35.229.94"}},"server":"161.35.229.94","port":"443","uuid":"27848739-7e62-4138-9fd3-098a63964b6b","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"github.com/freefq-美国33","ws-opts":{"path":"/","headers":{"host":"www.flieswiming.tk"}},"server":"www.flieswiming.tk","port":"443","uuid":"b7519a6f-c1de-4667-e606-b60c65d19078","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"github.com/freefq-美国7","ws-opts":{"path":"/","headers":{"host":"hk-balancer.airport-v2.com"}},"server":"in03.my1188.org","port":"64078","uuid":"ca039e98-434d-31a5-9627-051921079ca6","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"github.com/freefq-美国AmazonEC2服务器40","ws-opts":{"path":"/user","headers":{"host":"pgp-fevhd.run.goorm.io"}},"server":"pgp-fevhd.run.goorm.io","port":"443","uuid":"5A7D8097-2F8D-44C7-BE6B-3D1E09F8415D","alterId":"64","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"GB+152+TJN","server":"jgwld1.gaox.ml","port":443,"password":"02e653c9-7c93-46a9-999d-11834bd0c577","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"GB+255+TJN","server":"132.145.51.172","port":443,"password":"02e653c9-7c93-46a9-999d-11834bd0c577","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"github.com/freefq-美国CloudFlare节点20","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg5.zhujicn2.com"}},"server":"172.64.153.150","port":"443","uuid":"bf4619e4-01dc-48ca-be08-0976b54968ce","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"github.com/freefq-美国CloudFlare节点22","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg4.zhujicn2.com"}},"server":"172.64.153.200","port":"443","uuid":"a8030afd-812a-4afe-a766-9c76ff3eddd4","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"github.com/freefq-美国CloudFlare节点39","ws-opts":{"path":"/b7b1f689-f82e-4ce4-97e7-8a8997370e44-vmess","headers":{"host":"free-godlikeanyone.koyeb.app"}},"server":"free-godlikeanyone.koyeb.app","port":"443","uuid":"b7b1f689-f82e-4ce4-97e7-8a8997370e44","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"github.com/freefq-美国Microsoft数据中心41","ws-opts":{"path":"/v2ray","headers":{"host":"paopao.v2.hk07.paopaocloud.cyou"}},"server":"az.hk01.paopaocloud.cyou","port":"10011","uuid":"d8c5b486-84bb-3887-a1d9-07455ea608f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"github.com/freefq-美国Microsoft数据中心42","ws-opts":{"path":"/v2ray","headers":{"host":"paopao.v2.sgp01.paopaocloud.cyou"}},"server":"ah.yd01.paopaocloud.cyou","port":"10014","uuid":"d8c5b486-84bb-3887-a1d9-07455ea608f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"github.com/freefq-美国加利福尼亚州费利蒙IT7网络5","server":"c90s801.jamjams3.net","port":"19623","uuid":"b03a1e7b-f1ad-4d0e-895d-639354e35ff4","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"github.com/freefq-挪威30","ws-opts":{"path":"/path/051111230910"},"server":"46.29.218.84","port":"443","uuid":"f7a456da-9886-4dd7-b193-4c59a726219c","alterId":"64","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"github.com/freefq-挪威31","ws-opts":{"path":"/a54e284cb6/","headers":{"host":"PL.nexitally.xyz"}},"server":"PL.nexitally.xyz","port":"443","uuid":"54c6c823-4957-4c6c-b10c-359bc51f7cc3","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"github.com/freefq+-+日本++4","server":"924hk.tfzhc.top","port":44393,"password":"0a8df927-324d-463c-a349-1a8144078683","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"github.com/freefq-香港阿里云11","server":"47.87.166.143","port":"44443","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"ss","name":"HongKe+-+日本+18","server":"221.131.165.89","port":59448,"cipher":"chacha20-ietf-poly1305","password":"ecryauxZk3s4e"}
-  - {"type":"ss","name":"HongKe+-+日本+19","server":"221.131.165.89","port":59452,"cipher":"chacha20-ietf-poly1305","password":"jNAtRFep3rD6R"}
-  - {"type":"ss","name":"HongKe+-+日本+20","server":"221.131.165.89","port":59454,"cipher":"chacha20-ietf-poly1305","password":"aQQCKo9v2OLmg"}
-  - {"type":"ss","name":"HongKe+-+香港+07","server":"194.29.186.135","port":8439,"cipher":"chacha20-ietf-poly1305","password":"WOUkp3T89G8jH"}
+  - {"type":"trojan","name":"HK+1045+TJN","server":"103.177.248.160","port":12425,"password":"7rfcbuZdkU","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"HK+154+TJN","server":"hk-gz-hk-hkt-tr-b.cdn.savoy.click","port":889,"password":"kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"HK+251+TJN","server":"realhk-1.tiktokcdn.sbs","port":12425,"password":"7rfcbuZdkU","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"HK+43+TJN","server":"1002hk1326.tfzhc.top","port":443,"password":"c65e5f8b-4e75-4b36-8faa-c6611b278d3f","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"HK+869+TJN","server":"hk-gz-hk-hkt-tr-b.cdn.savoy.click","port":889,"password":"TqGiLGqoqLUssJpiIamJCpkGtxMRVJFV","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"ID+1169+TJN","server":"id5-trojan.bonds.id","port":443,"password":"5ed77350-f8d5-11ec-a990-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"ID+989+TJN","server":"idtj-ikd.bonds.id","port":443,"password":"21887810-2e7d-11ed-918b-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"ID+990+TJN","server":"idtj-ikd.bonds.id","port":443,"password":"e7a0db30-2d2f-11ed-81cc-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"ID+991+TJN","server":"idtj-ikd.bonds.id","port":443,"password":"193ba7c0-2e7d-11ed-a396-1239d0255272","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"ID【付费推荐：gvip.gq】_1","server":"id5-trojan.bonds.id","port":443,"password":"ca0c33d0-1c92-11ed-9a11-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"id5-trojan.bonds.id"}
-  - {"type":"trojan","name":"IN+338+TJN","server":"152.67.162.166","port":443,"password":"e05c749b-7c6b-41b8-9c71-9dcf685edf4a","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"IN+345+TJN","server":"152.67.160.174","port":443,"password":"54080134-2cba-4535-8599-95650bd9aa54","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+1015+TJN","server":"54.250.85.69","port":443,"password":"BXE9notY","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+120+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"b054d1bf-6f82-48a9-ac28-537f6f606721","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+123+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"8655e4b1-f4c4-40e1-a93c-555ae5b47fbe","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+124+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"8655e4b1-f4c4-40e1-a93c-555ae5b47fbe","udp":true,"skip-cert-verify":true}
@@ -340,93 +372,83 @@ proxies:
   - {"type":"trojan","name":"JP+157+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+168+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"bf3a94d3-f87b-44b5-a116-ebf8cb175a8c","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+169+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"bcdbc2d8-cc0a-4760-b61b-d2c9771dfe86","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+175+TJN","server":"jgwdb4.gaox.ml","port":443,"password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+178+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+180+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+181+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+182+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"dabbb6","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+1913+TJN","server":"tky3.ssgnode.ga","port":443,"password":"-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+1920+TJN","server":"tky3.ssgnode.ga","port":443,"password":"82-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+194+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"c6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+195+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"c6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+198+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"74d856d1-1023-4d31-8609-1491ca4fab59","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+212+TJN","server":"www.cjf0423.cf","port":443,"password":"111111","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+235+TJN","server":"share.softbank.mjj-home.com","port":443,"password":"share.mjj-home.com","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+240+TJN","server":"jp.useanlo.cf","port":6523,"password":"77065fa6-b38e-302c-beea-4b047967af01","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+39+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"3c12fbaf-341b-4715-b2ed-6294f6f735d2","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+40+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"61c52680-e4b9-46f8-9854-a45d6e5859a1","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+41+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"7166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+45+TJN","server":"bauhinia01.abzoones.xyz","port":36701,"password":"1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+46+TJN","server":"bauhinia01.abzoones.xyz","port":36701,"password":"ef221ae8-43b2-4fdf-9b52-d0783822ca33","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+47+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"61c52680-e4b9-46f8-9854-a45d6e5859a1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+48+TJN","server":"bauhinia01.abzoones.xyz","port":36701,"password":"61c52680-e4b9-46f8-9854-a45d6e5859a1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+51+TJN","server":"bauhinia01.abzoones.xyz","port":36701,"password":"bf3a94d3-f87b-44b5-a116-ebf8cb175a8c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+53+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"3c12fbaf-341b-4715-b2ed-6294f6f735d2","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+55+TJN","server":"bauhinia01.abzoones.xyz","port":36701,"password":"3c12fbaf-341b-4715-b2ed-6294f6f735d2","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+58+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"089b1ca3-f4f6-4264-a104-696db37306c6","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+59+TJN","server":"bauhinia01.abzoones.xyz","port":36701,"password":"089b1ca3-f4f6-4264-a104-696db37306c6","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+60+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"089b1ca3-f4f6-4264-a104-696db37306c6","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+63+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"b9b55277-010a-48de-8ad9-0fa1bb7de676","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+435+TJN","server":"agroup.node1.t.nodelist-gfwairport.download","port":50001,"password":"ddea4d6b-52f9-4901-8dd6-49bd2e09f2ac","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+51+TJN","server":"nice-jp01.tiktokcdn.buzz","port":443,"password":"BXE9notY","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+654+TJN","server":"106.180.225.69","port":1443,"password":"7x42LetRa0","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+659+TJN","server":"45.66.134.219","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+66+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"7166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+67+TJN","server":"bauhinia01.abzoones.xyz","port":36701,"password":"7166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+68+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"84784796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+680+TJN","server":"45.66.134.219","port":443,"password":"28d98f761aca9d636f44db62544628eb","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+684+TJN","server":"45.66.134.219","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+691+TJN","server":"www.tokyo2023.ga","port":443,"password":"4f7dc540-d244-4e64-af21-4b5bb300add3","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+70+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"8484796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+71+TJN_1","server":"bauhinia01.abzoones.xyz","port":36701,"password":"bcdbc2d8-cc0a-4760-b61b-d2c9771dfe86","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+71+TJN_2","server":"qt26.shenseven.xyz","port":443,"password":"107b0481-8181-47cc-9324-a178047cd8e4","udp":true,"skip-cert-verify":true,"sni":"qt26.shenseven.xyz"}
-  - {"type":"trojan","name":"JP+72+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"313a0a4e-5398-422f-b2c1-8dbc0469645d","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+71+TJN","server":"qt26.shenseven.xyz","port":443,"password":"107b0481-8181-47cc-9324-a178047cd8e4","udp":true,"skip-cert-verify":true,"sni":"qt26.shenseven.xyz"}
   - {"type":"trojan","name":"JP+752+TJN","server":"jp.useanlo.cf","port":6523,"password":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+77+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+78+TJN","server":"fujimount02.abzoones.xyz","port":36106,"password":"1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+79+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"313a0a4e-5398-422f-b2c1-8dbc0469645d","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+83+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"bcdbc2d8-cc0a-4760-b61b-d2c9771dfe86","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+84+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"bcdbc2d8-cc0a-4760-b61b-d2c9771dfe86","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+89+TJN","server":"sunmoon02.abzoones.xyz","port":36306,"password":"1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+93+TJN","server":"168.138.43.89","port":443,"password":"d06a3f01-1ff0-4792-9b8e-a5a604bc74a2","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP【付费推荐：gvip.gq】+11","server":"yokohama.freetrade.link","port":443,"password":"C3YS0KAq8x5jgpNnCeC3aa3DFXw9Aczu8DaeBpy6Fy34xSZEYORDTIZRlSl72O","udp":true,"skip-cert-verify":true,"sni":"yokohama.freetrade.link"}
   - {"type":"trojan","name":"KR+104+TJN","server":"kr1.api-aws.com","port":443,"password":"0d8285f8-33da-4076-bb24-d498bd83f2f9","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"KR+105+TJN","server":"kr1.api-aws.com","port":443,"password":"d30afdba-ca55-463a-b26e-27080698a2a6","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+1059+TJN","server":"kr1.api-aws.com","port":443,"password":"21f204d3-b42e-466a-9cb2-b83d868dcd5f","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+107+TJN","server":"kr1.api-aws.com","port":443,"password":"ffd553fe-7d14-4ab2-acba-e7307d41e4f4","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+1139+TJN","server":"jjkk.usdeth.top","port":443,"password":"6be70201-f063-4284-b751-12dc8c7f2901","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"KR+116+TJN","server":"kr1.api-aws.com","port":443,"password":"5491534e-00b5-42ff-853a-723997aadbdb","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"KR+1287+TJN","server":"kr1.api-aws.com","port":443,"password":"3fe45691-03ac-40a1-8f4e-1317905020db","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+209+TJN","server":"kr1.api-aws.com","port":443,"password":"23103894-eec7-4de1-a05a-c2e11e351287","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+2099+TJN","server":"146.56.176.239","port":443,"password":"a153fb4e-6d1b-4db0-b03d-acb4012b7198","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+221+TJN","server":"kr1.api-aws.com","port":443,"password":"65f7378f-edb8-4f5d-913a-641ecd853cea","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+222+TJN","server":"kr1.api-aws.com","port":443,"password":"61f6271b-5e65-46b8-bc80-c6468a1f185e","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+153+TJN","server":"jgwcc1.gaox.ml","port":443,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+156+TJN","server":"kr1.api-aws.com","port":443,"password":"3753719b-eb37-4f34-ab60-ae3a70486b27","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+159+TJN","server":"kr1.api-aws.com","port":443,"password":"88452dfb-fad4-44b2-b8a1-d230d145848c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+160+TJN","server":"kr1.api-aws.com","port":443,"password":"545034ab-8179-46ea-a7d4-a5c992cce000","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+163+TJN","server":"kr1.api-aws.com","port":443,"password":"cbd08acf-2d47-4065-aafa-4201e5307f67","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+167+TJN","server":"kr1.api-aws.com","port":443,"password":"ec129ab2-3c89-4e25-8b97-aee479ac06f1","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+168+TJN","server":"kr1.api-aws.com","port":443,"password":"84773125-8f79-481c-a80b-e1f4aad86850","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+171+TJN","server":"kr1.api-aws.com","port":443,"password":"83985788-df3e-4b91-8f5e-a9de66a79cca","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+172+TJN","server":"kr1.api-aws.com","port":443,"password":"7f9e51b9-928e-4076-b075-ba7577c36443","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+174+TJN","server":"kr1.api-aws.com","port":443,"password":"205f8ab6-cb17-4480-93a6-aece90b88742","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+180+TJN","server":"kr1.api-aws.com","port":443,"password":"96e08c45-762a-48d2-8b65-0088c3c5e3d4","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+182+TJN","server":"kr1.api-aws.com","port":443,"password":"10f81a15-c7c8-473b-a12a-a09f098b6236","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"KR+226+TJN","server":"jgw3.gaox.ml","port":443,"password":"a1718180-d616-4b71-9bb6-3e96ba20f921","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"KR+239+TJN","server":"144.24.72.126","port":443,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+256+TJN","server":"jgw4.gaox.ml","port":443,"password":"b7e0e71f-070c-437a-9826-6e23caeb0307","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"KR+297+TJN","server":"hg.053111.xyz","port":443,"password":"d4435b69-3d08-d58a-919f-7f1707150ecb","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+349+TJN","server":"kr1.api-aws.com","port":443,"password":"1a74fd5e-50dc-43d2-8119-4bce566d784e","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+353+TJN","server":"kr1.api-aws.com","port":443,"password":"ed9a202f-7871-4a15-a4c1-f3a47c1f5493","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+360+TJN","server":"kr1.api-aws.com","port":443,"password":"3f087c04-44e6-4c96-a917-ca974de1212b","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"KR+387+TJN","server":"138.2.113.84","port":443,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+491+TJN","server":"kr1.api-aws.com","port":443,"password":"edeb6377-0d40-483b-869a-8b3be9d74850","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+398+TJN","server":"kr1.api-aws.com","port":443,"password":"b70b2ed8-6d35-4fe0-8ae7-4e8fa45ff326","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+399+TJN","server":"kr1.api-aws.com","port":443,"password":"ca3a57c6-9bb5-4d19-876d-4552de4bb959","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+400+TJN","server":"kr1.api-aws.com","port":443,"password":"a153fb4e-6d1b-4db0-b03d-acb4012b7198","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+50+TJN","server":"kr1.api-aws.com","port":443,"password":"db9b6698-f01c-4fe1-93ca-d752c956c2d3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"KR+57+TJN","server":"kr1.api-aws.com","port":443,"password":"7e92d33f-6917-4c69-8eca-7fe80be58199","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+664+TJN","server":"kr1.api-aws.com","port":443,"password":"98a68cfb-42c6-4498-ac6e-7e5c203924a7","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+675+TJN","server":"146.56.189.146","port":443,"password":"f2117e99-9b6e-47fd-b0a9-634a0b15b998","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+751+TJN","server":"kr1.api-aws.com","port":443,"password":"1f9e7c79-ce39-44f3-bdbd-90ea117629b3","udp":true,"skip-cert-verify":true,"sni":"kr1.api-aws.com"}
+  - {"type":"trojan","name":"KR+879+TJN","server":"kr1.api-aws.com","port":443,"password":"1988268c-a841-42f2-acac-7a8c0c7e78e5","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+883+TJN","server":"kr1.api-aws.com","port":443,"password":"da647e58-8f85-450f-b123-568c492c297c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+90+TJN","server":"kr1.api-aws.com","port":443,"password":"d66dccd1-90c1-4713-8972-2417a2854df2","udp":true,"skip-cert-verify":true}
   - {"type":"ss","name":"Quark+-++意大利","server":"87.120.237.135","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
   - {"type":"ss","name":"Quark+-+巴基斯坦","server":"103.151.111.34","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"Quark+-+美国+20","server":"88.119.174.197","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"Quark+-+美国+21","server":"2.56.178.201","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"Quark+-+日本+04","server":"194.156.230.167","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"Quark+-+新加坡+09","server":"206.189.86.169","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"Quark+-+新加坡+10","server":"139.99.90.12","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"Quark+-+以色列+29","server":"146.185.219.191","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
   - {"type":"ss","name":"Quark+-+以色列+30","server":"83.229.73.60","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"vmess","name":"Relay_🇺🇸US-🇺🇸US_505","ws-opts":{"path":"/wis","headers":{"host":"aa.houdinix.space"}},"server":"aa.houdinix.space","port":"56656","uuid":"fdb1740c-f246-4f5d-d1ff-87c5b29ae22c","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"RU+83+TJN","server":"ru.p1.gay","port":24114,"password":"69a019dd-617b-449f-9af0-57762a476530","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+204+TJN","server":"trojan3.udpgw.com","port":443,"password":"8db1b560-019d-11ed-8bdf-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+205+TJN","server":"w12.udpgw.com","port":443,"password":"08964210-e7b8-11ec-95aa-1239d0255272","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"SG+2279+TJN","server":"81.90.189.85","port":443,"password":"28d98f761aca9d636f44db62544628eb","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+229+TJN","server":"184.168.127.50","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+233+TJN","server":"singapore.anthoncloud.com","port":3306,"password":"6589ce99-9ff7-3c1b-a744-ca3f4abfe386","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+246+TJN","server":"184.168.127.50","port":443,"password":"28d98f761aca9d636f44db62544628eb","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"SG+378+TJN","server":"trojan1.udpgw.com","port":443,"password":"affae2e0-e84b-11ec-b09f-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+41+TJN","server":"924hk.tfzhc.top","port":44393,"password":"c65e5f8b-4e75-4b36-8faa-c6611b278d3f","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"SG+570+TJN","server":"hk31.ssgnode.ga","port":443,"password":"41742_920c8caa","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"SG+67+TJN","server":"31.s7.gay","port":443,"password":"107b0481-8181-47cc-9324-a178047cd8e4","udp":true,"skip-cert-verify":true,"sni":"31.s7.gay"}
   - {"type":"trojan","name":"SG+730+TJN","server":"www.anloao.cf","port":9053,"password":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"SG+733+TJN","server":"184.168.127.50","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"t.me/wbnet_🇨🇳_CN_115","server":"mapleleaf01.abzoones.xyz","port":36701,"password":"1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb","udp":true,"skip-cert-verify":true,"sni":"mapleleaf01.abzoones.xyz"}
-  - {"type":"trojan","name":"t.me/wbnet_🇨🇳_CN_51","server":"lion01.abzoones.xyz","port":36201,"password":"1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb","udp":true,"skip-cert-verify":true,"sni":"lion01.abzoones.xyz"}
-  - {"type":"trojan","name":"t.me/wbnet_🇨🇳_CN_96","server":"bauhinia01.abzoones.xyz","port":36611,"password":"bf3a94d3-f87b-44b5-a116-ebf8cb175a8c","udp":true,"skip-cert-verify":true}
   - {"type":"ss","name":"t.me/wbnet_🇸🇬_SG_48","server":"139.99.68.21","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
   - {"type":"trojan","name":"Taiwan","server":"pastry.taiwanesefood.link","port":443,"password":"NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ","udp":true,"skip-cert-verify":true,"sni":"pastry.taiwanesefood.link"}
   - {"type":"vmess","name":"TG@hkaa0|法国_1","ws-opts":{"path":"/a54e284cb6/","headers":{"host":"PL.nexitally.xyz"}},"server":"PL.nexitally.xyz","port":"443","uuid":"54c6c823-4957-4c6c-b10c-359bc51f7cc3","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"TG@hkaa0|法国_2","ws-opts":{"path":"/vmess","headers":{"host":"51.68.126.193"}},"server":"51.68.126.193","port":"80","uuid":"d4a79505-dd7f-47e4-98b7-30c9fa77fa66","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"trojan","name":"TG@hkaa0|加拿大_2","server":"149.56.141.11","port":443,"password":"8b6daf15-8342-482d-b894-1239fd98ce7f","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"TG@hkaa0|捷克","server":"185.253.47.79","port":443,"password":"ZD4dLSBXiMrmzdLd","udp":true,"skip-cert-verify":true}
   - {"type":"ss","name":"TG@hkaa0|美国_4","server":"38.54.33.116","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
@@ -436,23 +458,23 @@ proxies:
   - {"type":"ss","name":"TG@hkaa0|中国_13","server":"14.29.124.174","port":11004,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"vmess","name":"TG@hkaa0|中国_2","server":"106.55.234.95","port":"31372","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"TG@hkaa0|中国_3","server":"106.55.234.95","port":"31372","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ssr","name":"TG@hkaa0|中国_4","server":"116.162.120.23","port":560,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"VjJ0V1RrMVhVa2RqUmxKUVZrVndjVlZ1Y0Zka2JHUlhZVVpK","protocol-param":"53923:hjgjuy6t655jjg"}
   - {"type":"ss","name":"TG@hkaa0|中国_7","server":"14.29.124.174","port":11020,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ssr","name":"TG@hkaa0|中国_8","server":"116.162.120.23","port":610,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"VjJ0V1RrMVhVa2RqUmxKUVZrVndjVlZ1Y0Zka2JHUlhZVVpK","protocol-param":"53923:hjgjuy6t655jjg"}
   - {"type":"vmess","name":"TG频道@baipiaoeverything|40","ws-opts":{"path":"/ray","headers":{"host":"m5.v2rayfree1.xyz"}},"server":"190.93.246.145","port":"443","uuid":"94887268-f3cb-48be-ade3-87d42faae3e4","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"Trojan+新加坡SG","server":"sg2.iamnotagoodman.com","port":443,"password":"e680d8cf-07f4-3e06-b29a-06c52b258232","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"TW+145+TJN","server":"165.154.226.108","port":443,"password":"gb8cLR","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"TW+287+TJN","server":"mv-tw05.link","port":443,"password":"s6rIg1Mkke73fwZU","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"TW+716+TJN","server":"pastry.taiwanesefood.link","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TW+926+TJN","server":"tw-oo-01.click","port":443,"password":"q8uTrVmj95aTrFAa","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"TW+927+TJN","server":"tw-oo-01.click","port":443,"password":"s6rIg1Mkke73fwZU","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"United-States+10","server":"music.missionsec.us","port":443,"password":"NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ","udp":true,"skip-cert-verify":true,"sni":"music.missionsec.us"}
   - {"type":"trojan","name":"United-States+8","server":"hacks.missionsec.us","port":443,"password":"NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ","udp":true,"skip-cert-verify":true,"sni":"hacks.missionsec.us"}
-  - {"type":"trojan","name":"US+11+→+openitsub.com","server":"152.67.190.183","port":443,"password":"006baa3f-4bc3-4915-b60d-c8c5dae11a11","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"US+20+→+openitsub.com","server":"150.230.249.42","port":443,"password":"0Y9gOHSdRt","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US+127+TJN","server":"us-trojan.bonds.id","port":443,"password":"38239dd0-902b-11eb-afc1-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"us-trojan.bonds.id"}
+  - {"type":"trojan","name":"US+132+TJN","server":"us-trojan.bonds.id","port":443,"password":"ccf1ee40-b4ab-11eb-b421-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"us-trojan.bonds.id"}
+  - {"type":"trojan","name":"US+237+TJN","server":"fhcamd2.gaox.ml","port":443,"password":"dbf9bf9c-2c3f-474a-8031-d4c00666a989","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"US+250+TJN","server":"209.141.47.137","port":443,"password":"b3d27d09-77fe-431d-9829-6eba7dce20b0","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"US+253+TJN","server":"209.141.47.137","port":443,"password":"03f9d1c7-40f9-475c-bf46-e3883ee7da5f","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"US+349+TJN","server":"upay.com","port":443,"password":"-40f9-475c-bf46-e3883ee7da5c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"US+39+TJN","server":"qt16.shenseven.xyz","port":443,"password":"107b0481-8181-47cc-9324-a178047cd8e4","udp":true,"skip-cert-verify":true,"sni":"qt16.shenseven.xyz"}
-  - {"type":"trojan","name":"US+402+TJN","server":"xioix.gq","port":443,"password":"9b7195ba-f029-4d7d-a728-ece6e0fdc363","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US+413+TJN","server":"129.146.190.42","port":443,"password":"dbf9bf9c-2c3f-474a-8031-d4c00666a989","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"US+4312+TJN","server":"hacks.missionsec.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"US+6+→+openitsub.com","server":"jgwcc3.gaox.ml","port":443,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"US+727+TJN","server":"music.missionsec.us","port":443,"password":"oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw","udp":true,"skip-cert-verify":true}
@@ -461,8 +483,10 @@ proxies:
   - {"type":"trojan","name":"US+775+TJN","server":"72.167.45.6","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"US+776+TJN","server":"72.167.45.6","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"US+782+TJN","server":"72.167.45.6","port":443,"password":"28d98f761aca9d636f44db62544628eb","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"US+876+TJN","server":"129.146.242.130","port":443,"password":"05742120-ce23-4cc8-88f5-6d221ce45bf4","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US+937+TJN","server":"us-trojan.bonds.id","port":443,"password":"fc39ffa0-2040-11ed-a1ff-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US+973+TJN","server":"t03.ssrsub.com.xyz","port":443,"password":"640e3ef0-9c44-49a8-98f6-0895b11eecd6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"US【付费推荐：gvip.gq】+12","server":"v2.justmymiss.com","port":65500,"password":"18062581225","udp":true,"skip-cert-verify":true,"sni":"v2.justmymiss.com"}
+  - {"type":"trojan","name":"VN+248+TJN","server":"103.173.155.72","port":28443,"password":"6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4","udp":true,"skip-cert-verify":true}
   - {"type":"ss","name":"YouTube：全网最强白嫖","server":"fn600mlines008.fnline.vip","port":443,"cipher":"chacha20-ietf-poly1305","password":"fc568c325d09","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines008.fnline.vip"}}
   - {"type":"trojan","name":"🇦🇺+AU【付费推荐：gvip.gq】_2","server":"152.67.98.30","port":443,"password":"e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"🇨🇳+CN_44","server":"jp2.91js.pw","port":10051,"password":"a13820c547fa34c5c45515c12f0cd576","udp":true,"skip-cert-verify":true}
@@ -472,48 +496,89 @@ proxies:
   - {"type":"vmess","name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2","server":"3.sg.zz.xxxxx.x-t-fuckword.network","port":"36679","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"ss","name":"🇨🇳_TG频道@baipiaoeverything_13","server":"14.29.124.174","port":11011,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"trojan","name":"🇯🇵_JP_日本","server":"5.180.76.172","port":28443,"password":"3b3431ac-05bf-44fd-b93c-10db87d4ff5c","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"🇱🇹+LT_288","server":"213.183.63.221","port":9014,"cipher":"aes-256-cfb","password":"KnJGad3FqTvjqbaX"}
-  - {"type":"ss","name":"🇱🇹LT_296","server":"213.183.53.202","port":9042,"cipher":"aes-256-cfb","password":"S7KwUu7yBy58S3Ga"}
-  - {"type":"ss","name":"🇱🇹LT_298","server":"213.183.63.221","port":9094,"cipher":"aes-256-cfb","password":"rpgbNnU9rDDU4aWZ"}
   - {"type":"trojan","name":"🇳🇱|TG频道@baipiaoeverything|34","server":"nlt-1.opensvr.net","port":443,"password":"opentunnel.net-oqtxymz6gjl3","udp":true,"skip-cert-verify":true,"sni":"nlt-1.opensvr.net"}
-  - {"type":"ss","name":"🇳🇱NL_349","server":"213.183.59.185","port":9064,"cipher":"aes-256-cfb","password":"cp8pRSUAyLhTfVWH"}
-  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_1","server":"fn600mliness017.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"8812c0e4e2b0","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness017.fnline.xyz"}}
-  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_2","server":"fn600mlines021.fnline.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"0ac84efef442","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines021.fnline.info"}}
-  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_3","server":"fndx600mtwline010tr.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"d0760c7c21f8","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fndx600mtwline010tr.fnline.xyz"}}
-  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_4","server":"fn600mliness018.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"55011c8548ff","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness018.fnline.xyz"}}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_1","server":"fn600mliness018.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"55011c8548ff","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness018.fnline.xyz"}}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_2","server":"fndx600mtwline010tr.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"d0760c7c21f8","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fndx600mtwline010tr.fnline.xyz"}}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_3","server":"fn600mliness017.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"8812c0e4e2b0","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness017.fnline.xyz"}}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_4","server":"fn600mlines021.fnline.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"0ac84efef442","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines021.fnline.info"}}
   - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_5","server":"fn600mliness019.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"61f301daaf4e","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mliness019.fnline.xyz"}}
-  - {"type":"trojan","name":"🇺🇲+US【付费推荐：gvip.gq】+3","server":"byw.h99xbwg.xyz","port":443,"password":"cf29d373-cf69-4346-b31a-ab9d224f60f2","udp":true,"skip-cert-verify":true,"sni":"byw.h99xbwg.xyz"}
-  - {"type":"ss","name":"🇺🇸_US_美国","server":"138.68.248.130","port":811,"cipher":"chacha20-ietf-poly1305","password":"Ultr@r00t_2017"}
   - {"type":"vmess","name":"🇺🇸_US_美国->🇩🇪_DE_德国","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"lg4.zhujicn2.com"}},"server":"172.64.155.200","port":"443","uuid":"a8030afd-812a-4afe-a766-9c76ff3eddd4","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"ss","name":"🇺🇸US_510","server":"38.68.134.191","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
   - {"type":"ss","name":"🇺🇸US_680","server":"38.68.134.191","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"🇺🇸US_819","server":"38.68.134.191","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"🇺🇸US_828","server":"38.68.135.19","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"type":"ss","name":"🇺🇸US_865","server":"38.68.134.191","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
   - {"type":"ss","name":"🇺🇸US_987","server":"38.68.134.191","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"大萝卜鸡冰岛","server":"37.235.49.146","port":50000,"cipher":"aes-256-cfb","password":"3135771619"}
-  - {"type":"ss","name":"大萝卜鸡美国","server":"104.249.173.156","port":50001,"cipher":"aes-256-cfb","password":"3886060542"}
+  - {"type":"trojan","name":"阿根廷-边缘访问+DonWeb+13","server":"dtar1.bitznet.one","port":33015,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"阿根廷-边缘访问+DonWeb+6","server":"dtar1.bitznet.one","port":33015,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"阿根廷-核心访问+DonWeb+4","server":"traar1.bitznet.one","port":32015,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"阿根廷-核心访问+DonWeb+7","server":"traar1.bitznet.one","port":32015,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"澳大利亚-边缘访问+VUAU+13","server":"dtau1.bitznet.one","port":33012,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"澳大利亚-边缘访问+VUAU+6","server":"dtau1.bitznet.one","port":33012,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"澳大利亚-核心访问+VUAU+4","server":"traau1.bitznet.one","port":32012,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"澳大利亚-核心访问+VUAU+7","server":"traau1.bitznet.one","port":32012,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"巴西-边缘访问+GCore+13","server":"dtbr1.bitznet.one","port":33016,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"巴西-边缘访问+GCore+6","server":"dtbr1.bitznet.one","port":33016,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"巴西-核心访问+GCore+4","server":"trabr1.bitznet.one","port":32016,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"巴西-核心访问+GCore+7","server":"trabr1.bitznet.one","port":32016,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"vmess","name":"不定期抽奖https://t.me/mftizi","server":"111.45.22.152","port":"9040","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"德国-边缘访问+DP+13","server":"dtde1.bitznet.one","port":33011,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"德国-边缘访问+DP+6","server":"dtde1.bitznet.one","port":33011,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"德国-核心访问+DP+4","server":"trade1.bitznet.one","port":32011,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"德国-核心访问+DP+7","server":"trade1.bitznet.one","port":32011,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
   - {"type":"vmess","name":"电信二区(四川)","server":"139.186.153.84","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"电信三区(江苏)","server":"119.45.28.201","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"电信一区(广东)","server":"42.193.191.50","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"关注频道https://t.me/mftizi","server":"111.23.252.218","port":"59902","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"俄罗斯-边缘访问+GCore+13","server":"dtru1.bitznet.one","port":33008,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"俄罗斯-边缘访问+GCore+6","server":"dtru1.bitznet.one","port":33008,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"俄罗斯-核心访问+GCore+4","server":"traru1.bitznet.one","port":32008,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"俄罗斯-核心访问+GCore+7","server":"traru1.bitznet.one","port":32008,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"法国-边缘访问+DP+13","server":"dtfr1.bitznet.one","port":33009,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"法国-边缘访问+DP+6","server":"dtfr1.bitznet.one","port":33009,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"法国-核心访问+DP+4","server":"trafr1.bitznet.one","port":32009,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"法国-核心访问+DP+7","server":"trafr1.bitznet.one","port":32009,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"菲律宾-边缘访问+Comfac+13","server":"dtph1.bitznet.one","port":33013,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"菲律宾-边缘访问+Comfac+6","server":"dtph1.bitznet.one","port":33013,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"菲律宾-核心访问+Comfac+4","server":"traph1.bitznet.one","port":32013,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"菲律宾-核心访问+Comfac+7","server":"traph1.bitznet.one","port":32013,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"vmess","name":"关注频道https://t.me/mftizi","server":"111.45.22.151","port":"9007","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"trojan","name":"韩国+B158+|+IEPL中转、游戏+|+0x","server":"14.215.107.23","port":28157,"password":"M9cf6590","udp":true,"skip-cert-verify":true}
   - {"type":"ssr","name":"韩国_tg+univstar_7","server":"121.0.97.25","port":44002,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"dongtaiwang.com"}
-  - {"type":"trojan","name":"韩国-核心访问+VUKR+3","server":"trask1.bitznet.one","port":32005,"password":"697e81b9-48de-4c95-9ebd-3e75702b9292","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
-  - {"type":"vmess","name":"教育网专区(安徽)_1","server":"112.132.215.189","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"教育网专区(安徽)_2","server":"112.132.215.13","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"韩国-核心访问+VUKR+4","server":"trask1.bitznet.one","port":32005,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"韩国-核心访问+VUKR+7","server":"trask1.bitznet.one","port":32005,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"vmess","name":"教育网专区(安徽)_1","server":"112.132.215.13","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"教育网专区(安徽)_2","server":"112.132.215.189","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"联通二区(北京)","server":"49.232.167.71","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"联通四区(上海)","server":"49.234.84.132","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"联通一区(北京)","server":"39.103.165.178","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"联通一区(山东)","server":"47.104.237.32","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"美国-边缘访问+DP+13","server":"dtus1.bitznet.one","port":33001,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"美国-边缘访问+DP+6","server":"dtus1.bitznet.one","port":33001,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"美国-核心访问+DP+4","server":"traus1.bitznet.one","port":32001,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"美国-核心访问+DP+7","server":"traus1.bitznet.one","port":32001,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
   - {"type":"trojan","name":"日本JP-T","server":"jp.iamnotagoodman.com","port":443,"password":"8aab51da-6b67-4bd2-b6e6-5ab3008cf53e","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"日本-核心访问+DP+3","server":"trajp1.bitznet.one","port":32004,"password":"697e81b9-48de-4c95-9ebd-3e75702b9292","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
-  - {"type":"trojan","name":"台湾-核心访问+BGP+3","server":"tratw1.bitznet.one","port":32003,"password":"697e81b9-48de-4c95-9ebd-3e75702b9292","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"台湾-边缘访问+BGP+13","server":"dttw1.bitznet.one","port":33003,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"台湾-边缘访问+BGP+6","server":"dttw1.bitznet.one","port":33003,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"台湾-核心访问+BGP+4","server":"tratw1.bitznet.one","port":32003,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"台湾-核心访问+BGP+7","server":"tratw1.bitznet.one","port":32003,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"乌克兰-边缘访问+Vik+13","server":"dtua1.bitznet.one","port":33019,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"乌克兰-边缘访问+Vik+6","server":"dtua1.bitznet.one","port":33019,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"乌克兰-核心访问+Vik+4","server":"traua1.bitznet.one","port":32019,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"乌克兰-核心访问+Vik+7","server":"traua1.bitznet.one","port":32019,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
   - {"type":"trojan","name":"香港HGC-T","server":"hgc.iamnotagoodman.com","port":443,"password":"8aab51da-6b67-4bd2-b6e6-5ab3008cf53e","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"香港-核心访问+DP+4","server":"trahk1.bitznet.one","port":32443,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"香港-核心访问+DP+7","server":"trahk1.bitznet.one","port":32443,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"香港-核心访问+HKT+4","server":"trahk5.bitznet.one","port":32000,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"香港-核心访问+HKT+7","server":"trahk5.bitznet.one","port":32000,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
   - {"type":"trojan","name":"新加坡SG-T","server":"sg.iamnotagoodman.com","port":443,"password":"8aab51da-6b67-4bd2-b6e6-5ab3008cf53e","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"新加坡-核心访问+DP+3","server":"trasg1.bitznet.one","port":32007,"password":"697e81b9-48de-4c95-9ebd-3e75702b9292","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
-  - {"type":"vmess","name":"移动专线B","server":"111.23.252.218","port":"59902","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"长期更新节点@mftizi","server":"zfd-moble.gatknqh.cn","port":"16131","uuid":"f1d39fe1-bfa3-34ff-86a2-29250af03183","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"新加坡-核心访问+DP+4","server":"trasg1.bitznet.one","port":32007,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"新加坡-核心访问+DP+7","server":"trasg1.bitznet.one","port":32007,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"印度-边缘访问+DOIN+13","server":"dtin1.bitznet.one","port":33017,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"印度-边缘访问+DOIN+6","server":"dtin1.bitznet.one","port":33017,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"印度-核心访问+DOIN+4","server":"train1.bitznet.one","port":32017,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"印度-核心访问+DOIN+7","server":"train1.bitznet.one","port":32017,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"英国-边缘访问+DP+13","server":"dtuk1.bitznet.one","port":33010,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"英国-边缘访问+DP+6","server":"dtuk1.bitznet.one","port":33010,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"英国-核心访问+DP+4","server":"trauk1.bitznet.one","port":32010,"password":"77aa8b71-5436-4e67-8b7e-db02e956da05","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"trojan","name":"英国-核心访问+DP+7","server":"trauk1.bitznet.one","port":32010,"password":"b623e71a-f669-409e-88dd-fef3919719ff","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"vmess","name":"长期更新节点@mftizi_1","server":"111.45.22.151","port":"9036","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"长期更新节点@mftizi_2","server":"zfd-moble.gatknqh.cn","port":"16131","uuid":"f1d39fe1-bfa3-34ff-86a2-29250af03183","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"专线_tg+univstar_46","ws-opts":{"path":"/","headers":{"host":"119.91.223.167"}},"server":"119.91.223.167","port":"80","uuid":"5087e6ea-b650-443e-923f-b754661b8c47","alterId":"0","cipher":"auto","network":"ws"}
 proxy-groups:
   - name: 🚀 节点选择
@@ -525,29 +590,18 @@ proxy-groups:
       - default_name_2
       - default_name_3
       - default_name_4
-      - default_name_5
-      - default_name_6
-      - '@SSRSUB-V01-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_1'
-      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_2'
+      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub'
       - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
       - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
       - '@wbnet_🇨🇳_CN_77'
       - '@wbnet_🇯🇵_JP_66'
       - '@wbnet_🇺🇸_US_10'
-      - '@wbnet_🇺🇸_US_18'
       - '@wbnet_🇺🇸_US_30'
       - '@wbnet_🇺🇸_US_31'
       - '@wbnet_🇺🇸_US_45'
-      - '@wbnet_🇺🇸_US_46'
       - '@wbnet_🇺🇸_US_57'
-      - '@wbnet_🇺🇸_US_60'
       - '@wbnet_🇺🇸_US_61'
-      - 【付费推荐：gvip.gq】_12
+      - '[SCP]VPSProvidedbyShirker(AS24400)&V2raybuildbyMokonaModoki'
       - 【付费推荐：gvip.gq】_3
       - Alien_1
       - Alien_2
@@ -562,15 +616,63 @@ proxy-groups:
       - Alien_11
       - Alien_12
       - Alien_13
-      - Alien_14
-      - Alien_15
+      - AU+133+TJN
+      - AU+796+TJN
+      - AU+797+TJN
+      - AU+798+TJN
+      - AU+799+TJN
+      - AU+800+TJN
+      - AU+802+TJN
+      - AU+803+TJN
+      - AU+804+TJN
+      - AU+805+TJN
+      - AU+807+TJN
+      - AU+808+TJN
+      - CA+102+TJN
+      - CA+103+TJN
+      - CA+104+TJN
+      - CA+105+TJN
+      - CA+106+TJN
+      - CA+107+TJN
+      - CA+108+TJN
+      - CA+109+TJN
+      - CA+110+TJN
+      - CA+111+TJN
+      - CA+112+TJN
+      - CA+113+TJN
+      - CA+114+TJN
+      - CA+115+TJN
+      - CA+116+TJN
+      - CA+117+TJN
+      - CA+118+TJN
+      - CA+119+TJN
+      - CA+120+TJN
+      - CA+121+TJN
+      - CA+122+TJN
+      - CA+123+TJN
+      - CA+124+TJN
+      - CA+135+TJN
       - CA+272+TJN
-      - CA+3+→+openitsub.com
       - CA+642+TJN
+      - CA+714+TJN
+      - CA+758+TJN
+      - CA+813+TJN
+      - CA+816+TJN
+      - CA+819+TJN
+      - CA+820+TJN
+      - CA+821+TJN
+      - CA+823+TJN
+      - CA+825+TJN
+      - CA+828+TJN
+      - CA+833+TJN
+      - CA+839+TJN
+      - CA+844+TJN
+      - CA+845+TJN
+      - CA+846+TJN
+      - CA+94+TJN
       - CH+119+TJN
       - CH+693+TJN_1
       - CH+693+TJN_2
-      - CN+1+→+openitsub.com
       - CN+10+TJN
       - CN+1012+TJN
       - CN+1016+TJN
@@ -609,7 +711,6 @@ proxy-groups:
       - CN+1074+TJN
       - CN+1075+TJN
       - CN+110+SSS
-      - CN+112+SSS
       - CN+1133+TJN
       - CN+1134+TJN
       - CN+1138+TJN
@@ -625,7 +726,6 @@ proxy-groups:
       - CN+1187+TJN_2
       - CN+1188+TJN
       - CN+1193+TJN
-      - CN+1194+TJN
       - CN+1195+TJN_1
       - CN+1195+TJN_2
       - CN+1198+TJN
@@ -648,8 +748,8 @@ proxy-groups:
       - CN+1333+TJN
       - CN+1335+TJN
       - CN+1336+TJN
+      - CN+141+TJN
       - CN+1434+TJN
-      - CN+1574+SSS
       - CN+1676+TJN
       - CN+189+TJN
       - CN+222+SSS
@@ -713,22 +813,25 @@ proxy-groups:
       - CN+36+SSS
       - CN+37+SSS
       - CN+381+TJN
-      - CN+416+SSS
       - CN+4401+TJN
+      - CN+479+SSS
       - CN+488+TJN
       - CN+567+TJN
+      - CN+593+TJN
       - CN+622+TJN
       - CN+624+TJN
       - CN+626+TJN
       - CN+627+TJN
       - CN+628+TJN
-      - CN+71+TJN
+      - CN+674+SSS
+      - CN+679+SSS
       - CN+723+SSS
-      - CN+749+TJN
+      - CN+738+TJN
       - CN+755+TJN
-      - CN+766+TJN
-      - CN+853+SSS
-      - CN+855+SSS
+      - CN+762+SSS
+      - CN84SSR
+      - CN85SSR
+      - CN86SSR
       - CN+861+TJN
       - CN+862+TJN
       - CN+864+TJN
@@ -742,6 +845,7 @@ proxy-groups:
       - CN+887+TJN
       - CN+888+TJN
       - CN+889+TJN
+      - CN+89+TJN
       - CN+890+TJN
       - CN+891+SSS
       - CN+894+TJN
@@ -803,39 +907,32 @@ proxy-groups:
       - CN+97+SSS
       - CN+98+SSS
       - CN+99+SSS
+      - CZ+210+TJN
       - CZ【付费推荐：gvip.gq】
-      - default_name_7
-      - default_name_8
-      - FR+1+→+openitsub.com
+      - default_name_5
       - FR+1039+TJN
       - games.missionsec.us:443
       - GB+1131+TJN
-      - github.com/freefq-北京市微软(中国)有限公司3
-      - github.com/freefq-北美地区6
-      - github.com/freefq-俄罗斯37
-      - github.com/freefq-荷兰哈勒姆OnlineS.A.S34
-      - github.com/freefq-美国12
-      - github.com/freefq-美国33
-      - github.com/freefq-美国7
-      - github.com/freefq-美国AmazonEC2服务器40
+      - GB+152+TJN
+      - GB+255+TJN
       - github.com/freefq-美国CloudFlare节点20
       - github.com/freefq-美国CloudFlare节点22
       - github.com/freefq-美国CloudFlare节点39
       - github.com/freefq-美国Microsoft数据中心41
       - github.com/freefq-美国Microsoft数据中心42
-      - github.com/freefq-美国加利福尼亚州费利蒙IT7网络5
       - github.com/freefq-挪威30
       - github.com/freefq-挪威31
-      - github.com/freefq+-+日本++4
-      - github.com/freefq-香港阿里云11
-      - HongKe+-+日本+18
-      - HongKe+-+日本+19
-      - HongKe+-+日本+20
-      - HongKe+-+香港+07
+      - HK+1045+TJN
+      - HK+154+TJN
+      - HK+251+TJN
+      - HK+43+TJN
+      - HK+869+TJN
       - ID+1169+TJN
+      - ID+989+TJN
+      - ID+990+TJN
+      - ID+991+TJN
       - ID【付费推荐：gvip.gq】_1
-      - IN+338+TJN
-      - IN+345+TJN
+      - JP+1015+TJN
       - JP+120+TJN
       - JP+123+TJN
       - JP+124+TJN
@@ -848,93 +945,83 @@ proxy-groups:
       - JP+157+TJN
       - JP+168+TJN
       - JP+169+TJN
+      - JP+175+TJN
       - JP+178+TJN
       - JP+180+TJN
       - JP+181+TJN
       - JP+182+TJN
-      - JP+1913+TJN
-      - JP+1920+TJN
       - JP+194+TJN
       - JP+195+TJN
       - JP+198+TJN
+      - JP+212+TJN
+      - JP+235+TJN
+      - JP+240+TJN
       - JP+39+TJN
       - JP+40+TJN
       - JP+41+TJN
-      - JP+45+TJN
-      - JP+46+TJN
-      - JP+47+TJN
-      - JP+48+TJN
+      - JP+435+TJN
       - JP+51+TJN
-      - JP+53+TJN
-      - JP+55+TJN
-      - JP+58+TJN
-      - JP+59+TJN
-      - JP+60+TJN
-      - JP+63+TJN
       - JP+654+TJN
       - JP+659+TJN
-      - JP+66+TJN
-      - JP+67+TJN
-      - JP+68+TJN
       - JP+680+TJN
       - JP+684+TJN
       - JP+691+TJN
-      - JP+70+TJN
-      - JP+71+TJN_1
-      - JP+71+TJN_2
-      - JP+72+TJN
+      - JP+71+TJN
       - JP+752+TJN
-      - JP+77+TJN
       - JP+78+TJN
-      - JP+79+TJN
-      - JP+83+TJN
-      - JP+84+TJN
       - JP+89+TJN
+      - JP+93+TJN
       - JP【付费推荐：gvip.gq】+11
       - KR+104+TJN
       - KR+105+TJN
-      - KR+1059+TJN
-      - KR+107+TJN
+      - KR+1139+TJN
       - KR+116+TJN
       - KR+1287+TJN
-      - KR+209+TJN
-      - KR+2099+TJN
-      - KR+221+TJN
-      - KR+222+TJN
+      - KR+153+TJN
+      - KR+156+TJN
+      - KR+159+TJN
+      - KR+160+TJN
+      - KR+163+TJN
+      - KR+167+TJN
+      - KR+168+TJN
+      - KR+171+TJN
+      - KR+172+TJN
+      - KR+174+TJN
+      - KR+180+TJN
+      - KR+182+TJN
       - KR+226+TJN
       - KR+239+TJN
-      - KR+256+TJN
       - KR+297+TJN
-      - KR+349+TJN
-      - KR+353+TJN
-      - KR+360+TJN
       - KR+387+TJN
-      - KR+491+TJN
+      - KR+398+TJN
+      - KR+399+TJN
+      - KR+400+TJN
+      - KR+50+TJN
       - KR+57+TJN
-      - KR+664+TJN
+      - KR+675+TJN
+      - KR+751+TJN
+      - KR+879+TJN
+      - KR+883+TJN
+      - KR+90+TJN
       - Quark+-++意大利
       - Quark+-+巴基斯坦
-      - Quark+-+美国+20
-      - Quark+-+美国+21
-      - Quark+-+日本+04
-      - Quark+-+新加坡+09
-      - Quark+-+新加坡+10
-      - Quark+-+以色列+29
       - Quark+-+以色列+30
-      - Relay_🇺🇸US-🇺🇸US_505
+      - RU+83+TJN
+      - SG+204+TJN
+      - SG+205+TJN
       - SG+2279+TJN
+      - SG+229+TJN
+      - SG+233+TJN
+      - SG+246+TJN
       - SG+378+TJN
+      - SG+41+TJN
       - SG+570+TJN
       - SG+67+TJN
       - SG+730+TJN
       - SG+733+TJN
-      - t.me/wbnet_🇨🇳_CN_115
-      - t.me/wbnet_🇨🇳_CN_51
-      - t.me/wbnet_🇨🇳_CN_96
       - t.me/wbnet_🇸🇬_SG_48
       - Taiwan
       - TG@hkaa0|法国_1
-      - TG@hkaa0|法国_2
       - TG@hkaa0|加拿大_2
       - TG@hkaa0|捷克
       - TG@hkaa0|美国_4
@@ -944,23 +1031,23 @@ proxy-groups:
       - TG@hkaa0|中国_13
       - TG@hkaa0|中国_2
       - TG@hkaa0|中国_3
-      - TG@hkaa0|中国_4
       - TG@hkaa0|中国_7
-      - TG@hkaa0|中国_8
       - TG频道@baipiaoeverything|40
       - Trojan+新加坡SG
-      - TW+145+TJN
       - TW+287+TJN
       - TW+716+TJN
+      - TW+926+TJN
+      - TW+927+TJN
       - United-States+10
       - United-States+8
-      - US+11+→+openitsub.com
-      - US+20+→+openitsub.com
+      - US+127+TJN
+      - US+132+TJN
+      - US+237+TJN
       - US+250+TJN
       - US+253+TJN
       - US+349+TJN
       - US+39+TJN
-      - US+402+TJN
+      - US+413+TJN
       - US+4312+TJN
       - US+6+→+openitsub.com
       - US+727+TJN
@@ -969,8 +1056,10 @@ proxy-groups:
       - US+775+TJN
       - US+776+TJN
       - US+782+TJN
-      - US+876+TJN
+      - US+937+TJN
+      - US+973+TJN
       - US【付费推荐：gvip.gq】+12
+      - VN+248+TJN
       - YouTube：全网最强白嫖
       - 🇦🇺+AU【付费推荐：gvip.gq】_2
       - 🇨🇳+CN_44
@@ -980,48 +1069,89 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_TG频道@baipiaoeverything_13
       - 🇯🇵_JP_日本
-      - 🇱🇹+LT_288
-      - 🇱🇹LT_296
-      - 🇱🇹LT_298
       - 🇳🇱|TG频道@baipiaoeverything|34
-      - 🇳🇱NL_349
       - 🇹🇼_YouTube：全网最强白嫖_1
       - 🇹🇼_YouTube：全网最强白嫖_2
       - 🇹🇼_YouTube：全网最强白嫖_3
       - 🇹🇼_YouTube：全网最强白嫖_4
       - 🇹🇼_YouTube：全网最强白嫖_5
-      - 🇺🇲+US【付费推荐：gvip.gq】+3
-      - 🇺🇸_US_美国
       - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇺🇸US_510
       - 🇺🇸US_680
-      - 🇺🇸US_819
-      - 🇺🇸US_828
-      - 🇺🇸US_865
       - 🇺🇸US_987
-      - 大萝卜鸡冰岛
-      - 大萝卜鸡美国
+      - 阿根廷-边缘访问+DonWeb+13
+      - 阿根廷-边缘访问+DonWeb+6
+      - 阿根廷-核心访问+DonWeb+4
+      - 阿根廷-核心访问+DonWeb+7
+      - 澳大利亚-边缘访问+VUAU+13
+      - 澳大利亚-边缘访问+VUAU+6
+      - 澳大利亚-核心访问+VUAU+4
+      - 澳大利亚-核心访问+VUAU+7
+      - 巴西-边缘访问+GCore+13
+      - 巴西-边缘访问+GCore+6
+      - 巴西-核心访问+GCore+4
+      - 巴西-核心访问+GCore+7
+      - 不定期抽奖https://t.me/mftizi
+      - 德国-边缘访问+DP+13
+      - 德国-边缘访问+DP+6
+      - 德国-核心访问+DP+4
+      - 德国-核心访问+DP+7
       - 电信二区(四川)
-      - 电信三区(江苏)
       - 电信一区(广东)
+      - 俄罗斯-边缘访问+GCore+13
+      - 俄罗斯-边缘访问+GCore+6
+      - 俄罗斯-核心访问+GCore+4
+      - 俄罗斯-核心访问+GCore+7
+      - 法国-边缘访问+DP+13
+      - 法国-边缘访问+DP+6
+      - 法国-核心访问+DP+4
+      - 法国-核心访问+DP+7
+      - 菲律宾-边缘访问+Comfac+13
+      - 菲律宾-边缘访问+Comfac+6
+      - 菲律宾-核心访问+Comfac+4
+      - 菲律宾-核心访问+Comfac+7
       - 关注频道https://t.me/mftizi
       - 韩国+B158+|+IEPL中转、游戏+|+0x
       - 韩国_tg+univstar_7
-      - 韩国-核心访问+VUKR+3
+      - 韩国-核心访问+VUKR+4
+      - 韩国-核心访问+VUKR+7
       - 教育网专区(安徽)_1
       - 教育网专区(安徽)_2
       - 联通二区(北京)
       - 联通四区(上海)
       - 联通一区(北京)
       - 联通一区(山东)
+      - 美国-边缘访问+DP+13
+      - 美国-边缘访问+DP+6
+      - 美国-核心访问+DP+4
+      - 美国-核心访问+DP+7
       - 日本JP-T
-      - 日本-核心访问+DP+3
-      - 台湾-核心访问+BGP+3
+      - 台湾-边缘访问+BGP+13
+      - 台湾-边缘访问+BGP+6
+      - 台湾-核心访问+BGP+4
+      - 台湾-核心访问+BGP+7
+      - 乌克兰-边缘访问+Vik+13
+      - 乌克兰-边缘访问+Vik+6
+      - 乌克兰-核心访问+Vik+4
+      - 乌克兰-核心访问+Vik+7
       - 香港HGC-T
+      - 香港-核心访问+DP+4
+      - 香港-核心访问+DP+7
+      - 香港-核心访问+HKT+4
+      - 香港-核心访问+HKT+7
       - 新加坡SG-T
-      - 新加坡-核心访问+DP+3
-      - 移动专线B
-      - 长期更新节点@mftizi
+      - 新加坡-核心访问+DP+4
+      - 新加坡-核心访问+DP+7
+      - 印度-边缘访问+DOIN+13
+      - 印度-边缘访问+DOIN+6
+      - 印度-核心访问+DOIN+4
+      - 印度-核心访问+DOIN+7
+      - 英国-边缘访问+DP+13
+      - 英国-边缘访问+DP+6
+      - 英国-核心访问+DP+4
+      - 英国-核心访问+DP+7
+      - 长期更新节点@mftizi_1
+      - 长期更新节点@mftizi_2
       - 专线_tg+univstar_46
   - name: ♻️ 自动选择
     type: url-test
@@ -1033,29 +1163,18 @@ proxy-groups:
       - default_name_2
       - default_name_3
       - default_name_4
-      - default_name_5
-      - default_name_6
-      - '@SSRSUB-V01-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_1'
-      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_2'
+      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub'
       - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
       - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
       - '@wbnet_🇨🇳_CN_77'
       - '@wbnet_🇯🇵_JP_66'
       - '@wbnet_🇺🇸_US_10'
-      - '@wbnet_🇺🇸_US_18'
       - '@wbnet_🇺🇸_US_30'
       - '@wbnet_🇺🇸_US_31'
       - '@wbnet_🇺🇸_US_45'
-      - '@wbnet_🇺🇸_US_46'
       - '@wbnet_🇺🇸_US_57'
-      - '@wbnet_🇺🇸_US_60'
       - '@wbnet_🇺🇸_US_61'
-      - 【付费推荐：gvip.gq】_12
+      - '[SCP]VPSProvidedbyShirker(AS24400)&V2raybuildbyMokonaModoki'
       - 【付费推荐：gvip.gq】_3
       - Alien_1
       - Alien_2
@@ -1070,15 +1189,63 @@ proxy-groups:
       - Alien_11
       - Alien_12
       - Alien_13
-      - Alien_14
-      - Alien_15
+      - AU+133+TJN
+      - AU+796+TJN
+      - AU+797+TJN
+      - AU+798+TJN
+      - AU+799+TJN
+      - AU+800+TJN
+      - AU+802+TJN
+      - AU+803+TJN
+      - AU+804+TJN
+      - AU+805+TJN
+      - AU+807+TJN
+      - AU+808+TJN
+      - CA+102+TJN
+      - CA+103+TJN
+      - CA+104+TJN
+      - CA+105+TJN
+      - CA+106+TJN
+      - CA+107+TJN
+      - CA+108+TJN
+      - CA+109+TJN
+      - CA+110+TJN
+      - CA+111+TJN
+      - CA+112+TJN
+      - CA+113+TJN
+      - CA+114+TJN
+      - CA+115+TJN
+      - CA+116+TJN
+      - CA+117+TJN
+      - CA+118+TJN
+      - CA+119+TJN
+      - CA+120+TJN
+      - CA+121+TJN
+      - CA+122+TJN
+      - CA+123+TJN
+      - CA+124+TJN
+      - CA+135+TJN
       - CA+272+TJN
-      - CA+3+→+openitsub.com
       - CA+642+TJN
+      - CA+714+TJN
+      - CA+758+TJN
+      - CA+813+TJN
+      - CA+816+TJN
+      - CA+819+TJN
+      - CA+820+TJN
+      - CA+821+TJN
+      - CA+823+TJN
+      - CA+825+TJN
+      - CA+828+TJN
+      - CA+833+TJN
+      - CA+839+TJN
+      - CA+844+TJN
+      - CA+845+TJN
+      - CA+846+TJN
+      - CA+94+TJN
       - CH+119+TJN
       - CH+693+TJN_1
       - CH+693+TJN_2
-      - CN+1+→+openitsub.com
       - CN+10+TJN
       - CN+1012+TJN
       - CN+1016+TJN
@@ -1117,7 +1284,6 @@ proxy-groups:
       - CN+1074+TJN
       - CN+1075+TJN
       - CN+110+SSS
-      - CN+112+SSS
       - CN+1133+TJN
       - CN+1134+TJN
       - CN+1138+TJN
@@ -1133,7 +1299,6 @@ proxy-groups:
       - CN+1187+TJN_2
       - CN+1188+TJN
       - CN+1193+TJN
-      - CN+1194+TJN
       - CN+1195+TJN_1
       - CN+1195+TJN_2
       - CN+1198+TJN
@@ -1156,8 +1321,8 @@ proxy-groups:
       - CN+1333+TJN
       - CN+1335+TJN
       - CN+1336+TJN
+      - CN+141+TJN
       - CN+1434+TJN
-      - CN+1574+SSS
       - CN+1676+TJN
       - CN+189+TJN
       - CN+222+SSS
@@ -1221,22 +1386,25 @@ proxy-groups:
       - CN+36+SSS
       - CN+37+SSS
       - CN+381+TJN
-      - CN+416+SSS
       - CN+4401+TJN
+      - CN+479+SSS
       - CN+488+TJN
       - CN+567+TJN
+      - CN+593+TJN
       - CN+622+TJN
       - CN+624+TJN
       - CN+626+TJN
       - CN+627+TJN
       - CN+628+TJN
-      - CN+71+TJN
+      - CN+674+SSS
+      - CN+679+SSS
       - CN+723+SSS
-      - CN+749+TJN
+      - CN+738+TJN
       - CN+755+TJN
-      - CN+766+TJN
-      - CN+853+SSS
-      - CN+855+SSS
+      - CN+762+SSS
+      - CN84SSR
+      - CN85SSR
+      - CN86SSR
       - CN+861+TJN
       - CN+862+TJN
       - CN+864+TJN
@@ -1250,6 +1418,7 @@ proxy-groups:
       - CN+887+TJN
       - CN+888+TJN
       - CN+889+TJN
+      - CN+89+TJN
       - CN+890+TJN
       - CN+891+SSS
       - CN+894+TJN
@@ -1311,39 +1480,32 @@ proxy-groups:
       - CN+97+SSS
       - CN+98+SSS
       - CN+99+SSS
+      - CZ+210+TJN
       - CZ【付费推荐：gvip.gq】
-      - default_name_7
-      - default_name_8
-      - FR+1+→+openitsub.com
+      - default_name_5
       - FR+1039+TJN
       - games.missionsec.us:443
       - GB+1131+TJN
-      - github.com/freefq-北京市微软(中国)有限公司3
-      - github.com/freefq-北美地区6
-      - github.com/freefq-俄罗斯37
-      - github.com/freefq-荷兰哈勒姆OnlineS.A.S34
-      - github.com/freefq-美国12
-      - github.com/freefq-美国33
-      - github.com/freefq-美国7
-      - github.com/freefq-美国AmazonEC2服务器40
+      - GB+152+TJN
+      - GB+255+TJN
       - github.com/freefq-美国CloudFlare节点20
       - github.com/freefq-美国CloudFlare节点22
       - github.com/freefq-美国CloudFlare节点39
       - github.com/freefq-美国Microsoft数据中心41
       - github.com/freefq-美国Microsoft数据中心42
-      - github.com/freefq-美国加利福尼亚州费利蒙IT7网络5
       - github.com/freefq-挪威30
       - github.com/freefq-挪威31
-      - github.com/freefq+-+日本++4
-      - github.com/freefq-香港阿里云11
-      - HongKe+-+日本+18
-      - HongKe+-+日本+19
-      - HongKe+-+日本+20
-      - HongKe+-+香港+07
+      - HK+1045+TJN
+      - HK+154+TJN
+      - HK+251+TJN
+      - HK+43+TJN
+      - HK+869+TJN
       - ID+1169+TJN
+      - ID+989+TJN
+      - ID+990+TJN
+      - ID+991+TJN
       - ID【付费推荐：gvip.gq】_1
-      - IN+338+TJN
-      - IN+345+TJN
+      - JP+1015+TJN
       - JP+120+TJN
       - JP+123+TJN
       - JP+124+TJN
@@ -1356,93 +1518,83 @@ proxy-groups:
       - JP+157+TJN
       - JP+168+TJN
       - JP+169+TJN
+      - JP+175+TJN
       - JP+178+TJN
       - JP+180+TJN
       - JP+181+TJN
       - JP+182+TJN
-      - JP+1913+TJN
-      - JP+1920+TJN
       - JP+194+TJN
       - JP+195+TJN
       - JP+198+TJN
+      - JP+212+TJN
+      - JP+235+TJN
+      - JP+240+TJN
       - JP+39+TJN
       - JP+40+TJN
       - JP+41+TJN
-      - JP+45+TJN
-      - JP+46+TJN
-      - JP+47+TJN
-      - JP+48+TJN
+      - JP+435+TJN
       - JP+51+TJN
-      - JP+53+TJN
-      - JP+55+TJN
-      - JP+58+TJN
-      - JP+59+TJN
-      - JP+60+TJN
-      - JP+63+TJN
       - JP+654+TJN
       - JP+659+TJN
-      - JP+66+TJN
-      - JP+67+TJN
-      - JP+68+TJN
       - JP+680+TJN
       - JP+684+TJN
       - JP+691+TJN
-      - JP+70+TJN
-      - JP+71+TJN_1
-      - JP+71+TJN_2
-      - JP+72+TJN
+      - JP+71+TJN
       - JP+752+TJN
-      - JP+77+TJN
       - JP+78+TJN
-      - JP+79+TJN
-      - JP+83+TJN
-      - JP+84+TJN
       - JP+89+TJN
+      - JP+93+TJN
       - JP【付费推荐：gvip.gq】+11
       - KR+104+TJN
       - KR+105+TJN
-      - KR+1059+TJN
-      - KR+107+TJN
+      - KR+1139+TJN
       - KR+116+TJN
       - KR+1287+TJN
-      - KR+209+TJN
-      - KR+2099+TJN
-      - KR+221+TJN
-      - KR+222+TJN
+      - KR+153+TJN
+      - KR+156+TJN
+      - KR+159+TJN
+      - KR+160+TJN
+      - KR+163+TJN
+      - KR+167+TJN
+      - KR+168+TJN
+      - KR+171+TJN
+      - KR+172+TJN
+      - KR+174+TJN
+      - KR+180+TJN
+      - KR+182+TJN
       - KR+226+TJN
       - KR+239+TJN
-      - KR+256+TJN
       - KR+297+TJN
-      - KR+349+TJN
-      - KR+353+TJN
-      - KR+360+TJN
       - KR+387+TJN
-      - KR+491+TJN
+      - KR+398+TJN
+      - KR+399+TJN
+      - KR+400+TJN
+      - KR+50+TJN
       - KR+57+TJN
-      - KR+664+TJN
+      - KR+675+TJN
+      - KR+751+TJN
+      - KR+879+TJN
+      - KR+883+TJN
+      - KR+90+TJN
       - Quark+-++意大利
       - Quark+-+巴基斯坦
-      - Quark+-+美国+20
-      - Quark+-+美国+21
-      - Quark+-+日本+04
-      - Quark+-+新加坡+09
-      - Quark+-+新加坡+10
-      - Quark+-+以色列+29
       - Quark+-+以色列+30
-      - Relay_🇺🇸US-🇺🇸US_505
+      - RU+83+TJN
+      - SG+204+TJN
+      - SG+205+TJN
       - SG+2279+TJN
+      - SG+229+TJN
+      - SG+233+TJN
+      - SG+246+TJN
       - SG+378+TJN
+      - SG+41+TJN
       - SG+570+TJN
       - SG+67+TJN
       - SG+730+TJN
       - SG+733+TJN
-      - t.me/wbnet_🇨🇳_CN_115
-      - t.me/wbnet_🇨🇳_CN_51
-      - t.me/wbnet_🇨🇳_CN_96
       - t.me/wbnet_🇸🇬_SG_48
       - Taiwan
       - TG@hkaa0|法国_1
-      - TG@hkaa0|法国_2
       - TG@hkaa0|加拿大_2
       - TG@hkaa0|捷克
       - TG@hkaa0|美国_4
@@ -1452,23 +1604,23 @@ proxy-groups:
       - TG@hkaa0|中国_13
       - TG@hkaa0|中国_2
       - TG@hkaa0|中国_3
-      - TG@hkaa0|中国_4
       - TG@hkaa0|中国_7
-      - TG@hkaa0|中国_8
       - TG频道@baipiaoeverything|40
       - Trojan+新加坡SG
-      - TW+145+TJN
       - TW+287+TJN
       - TW+716+TJN
+      - TW+926+TJN
+      - TW+927+TJN
       - United-States+10
       - United-States+8
-      - US+11+→+openitsub.com
-      - US+20+→+openitsub.com
+      - US+127+TJN
+      - US+132+TJN
+      - US+237+TJN
       - US+250+TJN
       - US+253+TJN
       - US+349+TJN
       - US+39+TJN
-      - US+402+TJN
+      - US+413+TJN
       - US+4312+TJN
       - US+6+→+openitsub.com
       - US+727+TJN
@@ -1477,8 +1629,10 @@ proxy-groups:
       - US+775+TJN
       - US+776+TJN
       - US+782+TJN
-      - US+876+TJN
+      - US+937+TJN
+      - US+973+TJN
       - US【付费推荐：gvip.gq】+12
+      - VN+248+TJN
       - YouTube：全网最强白嫖
       - 🇦🇺+AU【付费推荐：gvip.gq】_2
       - 🇨🇳+CN_44
@@ -1488,48 +1642,89 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_TG频道@baipiaoeverything_13
       - 🇯🇵_JP_日本
-      - 🇱🇹+LT_288
-      - 🇱🇹LT_296
-      - 🇱🇹LT_298
       - 🇳🇱|TG频道@baipiaoeverything|34
-      - 🇳🇱NL_349
       - 🇹🇼_YouTube：全网最强白嫖_1
       - 🇹🇼_YouTube：全网最强白嫖_2
       - 🇹🇼_YouTube：全网最强白嫖_3
       - 🇹🇼_YouTube：全网最强白嫖_4
       - 🇹🇼_YouTube：全网最强白嫖_5
-      - 🇺🇲+US【付费推荐：gvip.gq】+3
-      - 🇺🇸_US_美国
       - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇺🇸US_510
       - 🇺🇸US_680
-      - 🇺🇸US_819
-      - 🇺🇸US_828
-      - 🇺🇸US_865
       - 🇺🇸US_987
-      - 大萝卜鸡冰岛
-      - 大萝卜鸡美国
+      - 阿根廷-边缘访问+DonWeb+13
+      - 阿根廷-边缘访问+DonWeb+6
+      - 阿根廷-核心访问+DonWeb+4
+      - 阿根廷-核心访问+DonWeb+7
+      - 澳大利亚-边缘访问+VUAU+13
+      - 澳大利亚-边缘访问+VUAU+6
+      - 澳大利亚-核心访问+VUAU+4
+      - 澳大利亚-核心访问+VUAU+7
+      - 巴西-边缘访问+GCore+13
+      - 巴西-边缘访问+GCore+6
+      - 巴西-核心访问+GCore+4
+      - 巴西-核心访问+GCore+7
+      - 不定期抽奖https://t.me/mftizi
+      - 德国-边缘访问+DP+13
+      - 德国-边缘访问+DP+6
+      - 德国-核心访问+DP+4
+      - 德国-核心访问+DP+7
       - 电信二区(四川)
-      - 电信三区(江苏)
       - 电信一区(广东)
+      - 俄罗斯-边缘访问+GCore+13
+      - 俄罗斯-边缘访问+GCore+6
+      - 俄罗斯-核心访问+GCore+4
+      - 俄罗斯-核心访问+GCore+7
+      - 法国-边缘访问+DP+13
+      - 法国-边缘访问+DP+6
+      - 法国-核心访问+DP+4
+      - 法国-核心访问+DP+7
+      - 菲律宾-边缘访问+Comfac+13
+      - 菲律宾-边缘访问+Comfac+6
+      - 菲律宾-核心访问+Comfac+4
+      - 菲律宾-核心访问+Comfac+7
       - 关注频道https://t.me/mftizi
       - 韩国+B158+|+IEPL中转、游戏+|+0x
       - 韩国_tg+univstar_7
-      - 韩国-核心访问+VUKR+3
+      - 韩国-核心访问+VUKR+4
+      - 韩国-核心访问+VUKR+7
       - 教育网专区(安徽)_1
       - 教育网专区(安徽)_2
       - 联通二区(北京)
       - 联通四区(上海)
       - 联通一区(北京)
       - 联通一区(山东)
+      - 美国-边缘访问+DP+13
+      - 美国-边缘访问+DP+6
+      - 美国-核心访问+DP+4
+      - 美国-核心访问+DP+7
       - 日本JP-T
-      - 日本-核心访问+DP+3
-      - 台湾-核心访问+BGP+3
+      - 台湾-边缘访问+BGP+13
+      - 台湾-边缘访问+BGP+6
+      - 台湾-核心访问+BGP+4
+      - 台湾-核心访问+BGP+7
+      - 乌克兰-边缘访问+Vik+13
+      - 乌克兰-边缘访问+Vik+6
+      - 乌克兰-核心访问+Vik+4
+      - 乌克兰-核心访问+Vik+7
       - 香港HGC-T
+      - 香港-核心访问+DP+4
+      - 香港-核心访问+DP+7
+      - 香港-核心访问+HKT+4
+      - 香港-核心访问+HKT+7
       - 新加坡SG-T
-      - 新加坡-核心访问+DP+3
-      - 移动专线B
-      - 长期更新节点@mftizi
+      - 新加坡-核心访问+DP+4
+      - 新加坡-核心访问+DP+7
+      - 印度-边缘访问+DOIN+13
+      - 印度-边缘访问+DOIN+6
+      - 印度-核心访问+DOIN+4
+      - 印度-核心访问+DOIN+7
+      - 英国-边缘访问+DP+13
+      - 英国-边缘访问+DP+6
+      - 英国-核心访问+DP+4
+      - 英国-核心访问+DP+7
+      - 长期更新节点@mftizi_1
+      - 长期更新节点@mftizi_2
       - 专线_tg+univstar_46
   - name: 🌍 国外媒体
     type: select
@@ -1541,29 +1736,18 @@ proxy-groups:
       - default_name_2
       - default_name_3
       - default_name_4
-      - default_name_5
-      - default_name_6
-      - '@SSRSUB-V01-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_1'
-      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_2'
+      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub'
       - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
       - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
       - '@wbnet_🇨🇳_CN_77'
       - '@wbnet_🇯🇵_JP_66'
       - '@wbnet_🇺🇸_US_10'
-      - '@wbnet_🇺🇸_US_18'
       - '@wbnet_🇺🇸_US_30'
       - '@wbnet_🇺🇸_US_31'
       - '@wbnet_🇺🇸_US_45'
-      - '@wbnet_🇺🇸_US_46'
       - '@wbnet_🇺🇸_US_57'
-      - '@wbnet_🇺🇸_US_60'
       - '@wbnet_🇺🇸_US_61'
-      - 【付费推荐：gvip.gq】_12
+      - '[SCP]VPSProvidedbyShirker(AS24400)&V2raybuildbyMokonaModoki'
       - 【付费推荐：gvip.gq】_3
       - Alien_1
       - Alien_2
@@ -1578,15 +1762,63 @@ proxy-groups:
       - Alien_11
       - Alien_12
       - Alien_13
-      - Alien_14
-      - Alien_15
+      - AU+133+TJN
+      - AU+796+TJN
+      - AU+797+TJN
+      - AU+798+TJN
+      - AU+799+TJN
+      - AU+800+TJN
+      - AU+802+TJN
+      - AU+803+TJN
+      - AU+804+TJN
+      - AU+805+TJN
+      - AU+807+TJN
+      - AU+808+TJN
+      - CA+102+TJN
+      - CA+103+TJN
+      - CA+104+TJN
+      - CA+105+TJN
+      - CA+106+TJN
+      - CA+107+TJN
+      - CA+108+TJN
+      - CA+109+TJN
+      - CA+110+TJN
+      - CA+111+TJN
+      - CA+112+TJN
+      - CA+113+TJN
+      - CA+114+TJN
+      - CA+115+TJN
+      - CA+116+TJN
+      - CA+117+TJN
+      - CA+118+TJN
+      - CA+119+TJN
+      - CA+120+TJN
+      - CA+121+TJN
+      - CA+122+TJN
+      - CA+123+TJN
+      - CA+124+TJN
+      - CA+135+TJN
       - CA+272+TJN
-      - CA+3+→+openitsub.com
       - CA+642+TJN
+      - CA+714+TJN
+      - CA+758+TJN
+      - CA+813+TJN
+      - CA+816+TJN
+      - CA+819+TJN
+      - CA+820+TJN
+      - CA+821+TJN
+      - CA+823+TJN
+      - CA+825+TJN
+      - CA+828+TJN
+      - CA+833+TJN
+      - CA+839+TJN
+      - CA+844+TJN
+      - CA+845+TJN
+      - CA+846+TJN
+      - CA+94+TJN
       - CH+119+TJN
       - CH+693+TJN_1
       - CH+693+TJN_2
-      - CN+1+→+openitsub.com
       - CN+10+TJN
       - CN+1012+TJN
       - CN+1016+TJN
@@ -1625,7 +1857,6 @@ proxy-groups:
       - CN+1074+TJN
       - CN+1075+TJN
       - CN+110+SSS
-      - CN+112+SSS
       - CN+1133+TJN
       - CN+1134+TJN
       - CN+1138+TJN
@@ -1641,7 +1872,6 @@ proxy-groups:
       - CN+1187+TJN_2
       - CN+1188+TJN
       - CN+1193+TJN
-      - CN+1194+TJN
       - CN+1195+TJN_1
       - CN+1195+TJN_2
       - CN+1198+TJN
@@ -1664,8 +1894,8 @@ proxy-groups:
       - CN+1333+TJN
       - CN+1335+TJN
       - CN+1336+TJN
+      - CN+141+TJN
       - CN+1434+TJN
-      - CN+1574+SSS
       - CN+1676+TJN
       - CN+189+TJN
       - CN+222+SSS
@@ -1729,22 +1959,25 @@ proxy-groups:
       - CN+36+SSS
       - CN+37+SSS
       - CN+381+TJN
-      - CN+416+SSS
       - CN+4401+TJN
+      - CN+479+SSS
       - CN+488+TJN
       - CN+567+TJN
+      - CN+593+TJN
       - CN+622+TJN
       - CN+624+TJN
       - CN+626+TJN
       - CN+627+TJN
       - CN+628+TJN
-      - CN+71+TJN
+      - CN+674+SSS
+      - CN+679+SSS
       - CN+723+SSS
-      - CN+749+TJN
+      - CN+738+TJN
       - CN+755+TJN
-      - CN+766+TJN
-      - CN+853+SSS
-      - CN+855+SSS
+      - CN+762+SSS
+      - CN84SSR
+      - CN85SSR
+      - CN86SSR
       - CN+861+TJN
       - CN+862+TJN
       - CN+864+TJN
@@ -1758,6 +1991,7 @@ proxy-groups:
       - CN+887+TJN
       - CN+888+TJN
       - CN+889+TJN
+      - CN+89+TJN
       - CN+890+TJN
       - CN+891+SSS
       - CN+894+TJN
@@ -1819,39 +2053,32 @@ proxy-groups:
       - CN+97+SSS
       - CN+98+SSS
       - CN+99+SSS
+      - CZ+210+TJN
       - CZ【付费推荐：gvip.gq】
-      - default_name_7
-      - default_name_8
-      - FR+1+→+openitsub.com
+      - default_name_5
       - FR+1039+TJN
       - games.missionsec.us:443
       - GB+1131+TJN
-      - github.com/freefq-北京市微软(中国)有限公司3
-      - github.com/freefq-北美地区6
-      - github.com/freefq-俄罗斯37
-      - github.com/freefq-荷兰哈勒姆OnlineS.A.S34
-      - github.com/freefq-美国12
-      - github.com/freefq-美国33
-      - github.com/freefq-美国7
-      - github.com/freefq-美国AmazonEC2服务器40
+      - GB+152+TJN
+      - GB+255+TJN
       - github.com/freefq-美国CloudFlare节点20
       - github.com/freefq-美国CloudFlare节点22
       - github.com/freefq-美国CloudFlare节点39
       - github.com/freefq-美国Microsoft数据中心41
       - github.com/freefq-美国Microsoft数据中心42
-      - github.com/freefq-美国加利福尼亚州费利蒙IT7网络5
       - github.com/freefq-挪威30
       - github.com/freefq-挪威31
-      - github.com/freefq+-+日本++4
-      - github.com/freefq-香港阿里云11
-      - HongKe+-+日本+18
-      - HongKe+-+日本+19
-      - HongKe+-+日本+20
-      - HongKe+-+香港+07
+      - HK+1045+TJN
+      - HK+154+TJN
+      - HK+251+TJN
+      - HK+43+TJN
+      - HK+869+TJN
       - ID+1169+TJN
+      - ID+989+TJN
+      - ID+990+TJN
+      - ID+991+TJN
       - ID【付费推荐：gvip.gq】_1
-      - IN+338+TJN
-      - IN+345+TJN
+      - JP+1015+TJN
       - JP+120+TJN
       - JP+123+TJN
       - JP+124+TJN
@@ -1864,93 +2091,83 @@ proxy-groups:
       - JP+157+TJN
       - JP+168+TJN
       - JP+169+TJN
+      - JP+175+TJN
       - JP+178+TJN
       - JP+180+TJN
       - JP+181+TJN
       - JP+182+TJN
-      - JP+1913+TJN
-      - JP+1920+TJN
       - JP+194+TJN
       - JP+195+TJN
       - JP+198+TJN
+      - JP+212+TJN
+      - JP+235+TJN
+      - JP+240+TJN
       - JP+39+TJN
       - JP+40+TJN
       - JP+41+TJN
-      - JP+45+TJN
-      - JP+46+TJN
-      - JP+47+TJN
-      - JP+48+TJN
+      - JP+435+TJN
       - JP+51+TJN
-      - JP+53+TJN
-      - JP+55+TJN
-      - JP+58+TJN
-      - JP+59+TJN
-      - JP+60+TJN
-      - JP+63+TJN
       - JP+654+TJN
       - JP+659+TJN
-      - JP+66+TJN
-      - JP+67+TJN
-      - JP+68+TJN
       - JP+680+TJN
       - JP+684+TJN
       - JP+691+TJN
-      - JP+70+TJN
-      - JP+71+TJN_1
-      - JP+71+TJN_2
-      - JP+72+TJN
+      - JP+71+TJN
       - JP+752+TJN
-      - JP+77+TJN
       - JP+78+TJN
-      - JP+79+TJN
-      - JP+83+TJN
-      - JP+84+TJN
       - JP+89+TJN
+      - JP+93+TJN
       - JP【付费推荐：gvip.gq】+11
       - KR+104+TJN
       - KR+105+TJN
-      - KR+1059+TJN
-      - KR+107+TJN
+      - KR+1139+TJN
       - KR+116+TJN
       - KR+1287+TJN
-      - KR+209+TJN
-      - KR+2099+TJN
-      - KR+221+TJN
-      - KR+222+TJN
+      - KR+153+TJN
+      - KR+156+TJN
+      - KR+159+TJN
+      - KR+160+TJN
+      - KR+163+TJN
+      - KR+167+TJN
+      - KR+168+TJN
+      - KR+171+TJN
+      - KR+172+TJN
+      - KR+174+TJN
+      - KR+180+TJN
+      - KR+182+TJN
       - KR+226+TJN
       - KR+239+TJN
-      - KR+256+TJN
       - KR+297+TJN
-      - KR+349+TJN
-      - KR+353+TJN
-      - KR+360+TJN
       - KR+387+TJN
-      - KR+491+TJN
+      - KR+398+TJN
+      - KR+399+TJN
+      - KR+400+TJN
+      - KR+50+TJN
       - KR+57+TJN
-      - KR+664+TJN
+      - KR+675+TJN
+      - KR+751+TJN
+      - KR+879+TJN
+      - KR+883+TJN
+      - KR+90+TJN
       - Quark+-++意大利
       - Quark+-+巴基斯坦
-      - Quark+-+美国+20
-      - Quark+-+美国+21
-      - Quark+-+日本+04
-      - Quark+-+新加坡+09
-      - Quark+-+新加坡+10
-      - Quark+-+以色列+29
       - Quark+-+以色列+30
-      - Relay_🇺🇸US-🇺🇸US_505
+      - RU+83+TJN
+      - SG+204+TJN
+      - SG+205+TJN
       - SG+2279+TJN
+      - SG+229+TJN
+      - SG+233+TJN
+      - SG+246+TJN
       - SG+378+TJN
+      - SG+41+TJN
       - SG+570+TJN
       - SG+67+TJN
       - SG+730+TJN
       - SG+733+TJN
-      - t.me/wbnet_🇨🇳_CN_115
-      - t.me/wbnet_🇨🇳_CN_51
-      - t.me/wbnet_🇨🇳_CN_96
       - t.me/wbnet_🇸🇬_SG_48
       - Taiwan
       - TG@hkaa0|法国_1
-      - TG@hkaa0|法国_2
       - TG@hkaa0|加拿大_2
       - TG@hkaa0|捷克
       - TG@hkaa0|美国_4
@@ -1960,23 +2177,23 @@ proxy-groups:
       - TG@hkaa0|中国_13
       - TG@hkaa0|中国_2
       - TG@hkaa0|中国_3
-      - TG@hkaa0|中国_4
       - TG@hkaa0|中国_7
-      - TG@hkaa0|中国_8
       - TG频道@baipiaoeverything|40
       - Trojan+新加坡SG
-      - TW+145+TJN
       - TW+287+TJN
       - TW+716+TJN
+      - TW+926+TJN
+      - TW+927+TJN
       - United-States+10
       - United-States+8
-      - US+11+→+openitsub.com
-      - US+20+→+openitsub.com
+      - US+127+TJN
+      - US+132+TJN
+      - US+237+TJN
       - US+250+TJN
       - US+253+TJN
       - US+349+TJN
       - US+39+TJN
-      - US+402+TJN
+      - US+413+TJN
       - US+4312+TJN
       - US+6+→+openitsub.com
       - US+727+TJN
@@ -1985,8 +2202,10 @@ proxy-groups:
       - US+775+TJN
       - US+776+TJN
       - US+782+TJN
-      - US+876+TJN
+      - US+937+TJN
+      - US+973+TJN
       - US【付费推荐：gvip.gq】+12
+      - VN+248+TJN
       - YouTube：全网最强白嫖
       - 🇦🇺+AU【付费推荐：gvip.gq】_2
       - 🇨🇳+CN_44
@@ -1996,48 +2215,89 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_TG频道@baipiaoeverything_13
       - 🇯🇵_JP_日本
-      - 🇱🇹+LT_288
-      - 🇱🇹LT_296
-      - 🇱🇹LT_298
       - 🇳🇱|TG频道@baipiaoeverything|34
-      - 🇳🇱NL_349
       - 🇹🇼_YouTube：全网最强白嫖_1
       - 🇹🇼_YouTube：全网最强白嫖_2
       - 🇹🇼_YouTube：全网最强白嫖_3
       - 🇹🇼_YouTube：全网最强白嫖_4
       - 🇹🇼_YouTube：全网最强白嫖_5
-      - 🇺🇲+US【付费推荐：gvip.gq】+3
-      - 🇺🇸_US_美国
       - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇺🇸US_510
       - 🇺🇸US_680
-      - 🇺🇸US_819
-      - 🇺🇸US_828
-      - 🇺🇸US_865
       - 🇺🇸US_987
-      - 大萝卜鸡冰岛
-      - 大萝卜鸡美国
+      - 阿根廷-边缘访问+DonWeb+13
+      - 阿根廷-边缘访问+DonWeb+6
+      - 阿根廷-核心访问+DonWeb+4
+      - 阿根廷-核心访问+DonWeb+7
+      - 澳大利亚-边缘访问+VUAU+13
+      - 澳大利亚-边缘访问+VUAU+6
+      - 澳大利亚-核心访问+VUAU+4
+      - 澳大利亚-核心访问+VUAU+7
+      - 巴西-边缘访问+GCore+13
+      - 巴西-边缘访问+GCore+6
+      - 巴西-核心访问+GCore+4
+      - 巴西-核心访问+GCore+7
+      - 不定期抽奖https://t.me/mftizi
+      - 德国-边缘访问+DP+13
+      - 德国-边缘访问+DP+6
+      - 德国-核心访问+DP+4
+      - 德国-核心访问+DP+7
       - 电信二区(四川)
-      - 电信三区(江苏)
       - 电信一区(广东)
+      - 俄罗斯-边缘访问+GCore+13
+      - 俄罗斯-边缘访问+GCore+6
+      - 俄罗斯-核心访问+GCore+4
+      - 俄罗斯-核心访问+GCore+7
+      - 法国-边缘访问+DP+13
+      - 法国-边缘访问+DP+6
+      - 法国-核心访问+DP+4
+      - 法国-核心访问+DP+7
+      - 菲律宾-边缘访问+Comfac+13
+      - 菲律宾-边缘访问+Comfac+6
+      - 菲律宾-核心访问+Comfac+4
+      - 菲律宾-核心访问+Comfac+7
       - 关注频道https://t.me/mftizi
       - 韩国+B158+|+IEPL中转、游戏+|+0x
       - 韩国_tg+univstar_7
-      - 韩国-核心访问+VUKR+3
+      - 韩国-核心访问+VUKR+4
+      - 韩国-核心访问+VUKR+7
       - 教育网专区(安徽)_1
       - 教育网专区(安徽)_2
       - 联通二区(北京)
       - 联通四区(上海)
       - 联通一区(北京)
       - 联通一区(山东)
+      - 美国-边缘访问+DP+13
+      - 美国-边缘访问+DP+6
+      - 美国-核心访问+DP+4
+      - 美国-核心访问+DP+7
       - 日本JP-T
-      - 日本-核心访问+DP+3
-      - 台湾-核心访问+BGP+3
+      - 台湾-边缘访问+BGP+13
+      - 台湾-边缘访问+BGP+6
+      - 台湾-核心访问+BGP+4
+      - 台湾-核心访问+BGP+7
+      - 乌克兰-边缘访问+Vik+13
+      - 乌克兰-边缘访问+Vik+6
+      - 乌克兰-核心访问+Vik+4
+      - 乌克兰-核心访问+Vik+7
       - 香港HGC-T
+      - 香港-核心访问+DP+4
+      - 香港-核心访问+DP+7
+      - 香港-核心访问+HKT+4
+      - 香港-核心访问+HKT+7
       - 新加坡SG-T
-      - 新加坡-核心访问+DP+3
-      - 移动专线B
-      - 长期更新节点@mftizi
+      - 新加坡-核心访问+DP+4
+      - 新加坡-核心访问+DP+7
+      - 印度-边缘访问+DOIN+13
+      - 印度-边缘访问+DOIN+6
+      - 印度-核心访问+DOIN+4
+      - 印度-核心访问+DOIN+7
+      - 英国-边缘访问+DP+13
+      - 英国-边缘访问+DP+6
+      - 英国-核心访问+DP+4
+      - 英国-核心访问+DP+7
+      - 长期更新节点@mftizi_1
+      - 长期更新节点@mftizi_2
       - 专线_tg+univstar_46
   - name: 📲 电报信息
     type: select
@@ -2048,29 +2308,18 @@ proxy-groups:
       - default_name_2
       - default_name_3
       - default_name_4
-      - default_name_5
-      - default_name_6
-      - '@SSRSUB-V01-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_1'
-      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_2'
+      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub'
       - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
       - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
       - '@wbnet_🇨🇳_CN_77'
       - '@wbnet_🇯🇵_JP_66'
       - '@wbnet_🇺🇸_US_10'
-      - '@wbnet_🇺🇸_US_18'
       - '@wbnet_🇺🇸_US_30'
       - '@wbnet_🇺🇸_US_31'
       - '@wbnet_🇺🇸_US_45'
-      - '@wbnet_🇺🇸_US_46'
       - '@wbnet_🇺🇸_US_57'
-      - '@wbnet_🇺🇸_US_60'
       - '@wbnet_🇺🇸_US_61'
-      - 【付费推荐：gvip.gq】_12
+      - '[SCP]VPSProvidedbyShirker(AS24400)&V2raybuildbyMokonaModoki'
       - 【付费推荐：gvip.gq】_3
       - Alien_1
       - Alien_2
@@ -2085,15 +2334,63 @@ proxy-groups:
       - Alien_11
       - Alien_12
       - Alien_13
-      - Alien_14
-      - Alien_15
+      - AU+133+TJN
+      - AU+796+TJN
+      - AU+797+TJN
+      - AU+798+TJN
+      - AU+799+TJN
+      - AU+800+TJN
+      - AU+802+TJN
+      - AU+803+TJN
+      - AU+804+TJN
+      - AU+805+TJN
+      - AU+807+TJN
+      - AU+808+TJN
+      - CA+102+TJN
+      - CA+103+TJN
+      - CA+104+TJN
+      - CA+105+TJN
+      - CA+106+TJN
+      - CA+107+TJN
+      - CA+108+TJN
+      - CA+109+TJN
+      - CA+110+TJN
+      - CA+111+TJN
+      - CA+112+TJN
+      - CA+113+TJN
+      - CA+114+TJN
+      - CA+115+TJN
+      - CA+116+TJN
+      - CA+117+TJN
+      - CA+118+TJN
+      - CA+119+TJN
+      - CA+120+TJN
+      - CA+121+TJN
+      - CA+122+TJN
+      - CA+123+TJN
+      - CA+124+TJN
+      - CA+135+TJN
       - CA+272+TJN
-      - CA+3+→+openitsub.com
       - CA+642+TJN
+      - CA+714+TJN
+      - CA+758+TJN
+      - CA+813+TJN
+      - CA+816+TJN
+      - CA+819+TJN
+      - CA+820+TJN
+      - CA+821+TJN
+      - CA+823+TJN
+      - CA+825+TJN
+      - CA+828+TJN
+      - CA+833+TJN
+      - CA+839+TJN
+      - CA+844+TJN
+      - CA+845+TJN
+      - CA+846+TJN
+      - CA+94+TJN
       - CH+119+TJN
       - CH+693+TJN_1
       - CH+693+TJN_2
-      - CN+1+→+openitsub.com
       - CN+10+TJN
       - CN+1012+TJN
       - CN+1016+TJN
@@ -2132,7 +2429,6 @@ proxy-groups:
       - CN+1074+TJN
       - CN+1075+TJN
       - CN+110+SSS
-      - CN+112+SSS
       - CN+1133+TJN
       - CN+1134+TJN
       - CN+1138+TJN
@@ -2148,7 +2444,6 @@ proxy-groups:
       - CN+1187+TJN_2
       - CN+1188+TJN
       - CN+1193+TJN
-      - CN+1194+TJN
       - CN+1195+TJN_1
       - CN+1195+TJN_2
       - CN+1198+TJN
@@ -2171,8 +2466,8 @@ proxy-groups:
       - CN+1333+TJN
       - CN+1335+TJN
       - CN+1336+TJN
+      - CN+141+TJN
       - CN+1434+TJN
-      - CN+1574+SSS
       - CN+1676+TJN
       - CN+189+TJN
       - CN+222+SSS
@@ -2236,22 +2531,25 @@ proxy-groups:
       - CN+36+SSS
       - CN+37+SSS
       - CN+381+TJN
-      - CN+416+SSS
       - CN+4401+TJN
+      - CN+479+SSS
       - CN+488+TJN
       - CN+567+TJN
+      - CN+593+TJN
       - CN+622+TJN
       - CN+624+TJN
       - CN+626+TJN
       - CN+627+TJN
       - CN+628+TJN
-      - CN+71+TJN
+      - CN+674+SSS
+      - CN+679+SSS
       - CN+723+SSS
-      - CN+749+TJN
+      - CN+738+TJN
       - CN+755+TJN
-      - CN+766+TJN
-      - CN+853+SSS
-      - CN+855+SSS
+      - CN+762+SSS
+      - CN84SSR
+      - CN85SSR
+      - CN86SSR
       - CN+861+TJN
       - CN+862+TJN
       - CN+864+TJN
@@ -2265,6 +2563,7 @@ proxy-groups:
       - CN+887+TJN
       - CN+888+TJN
       - CN+889+TJN
+      - CN+89+TJN
       - CN+890+TJN
       - CN+891+SSS
       - CN+894+TJN
@@ -2326,39 +2625,32 @@ proxy-groups:
       - CN+97+SSS
       - CN+98+SSS
       - CN+99+SSS
+      - CZ+210+TJN
       - CZ【付费推荐：gvip.gq】
-      - default_name_7
-      - default_name_8
-      - FR+1+→+openitsub.com
+      - default_name_5
       - FR+1039+TJN
       - games.missionsec.us:443
       - GB+1131+TJN
-      - github.com/freefq-北京市微软(中国)有限公司3
-      - github.com/freefq-北美地区6
-      - github.com/freefq-俄罗斯37
-      - github.com/freefq-荷兰哈勒姆OnlineS.A.S34
-      - github.com/freefq-美国12
-      - github.com/freefq-美国33
-      - github.com/freefq-美国7
-      - github.com/freefq-美国AmazonEC2服务器40
+      - GB+152+TJN
+      - GB+255+TJN
       - github.com/freefq-美国CloudFlare节点20
       - github.com/freefq-美国CloudFlare节点22
       - github.com/freefq-美国CloudFlare节点39
       - github.com/freefq-美国Microsoft数据中心41
       - github.com/freefq-美国Microsoft数据中心42
-      - github.com/freefq-美国加利福尼亚州费利蒙IT7网络5
       - github.com/freefq-挪威30
       - github.com/freefq-挪威31
-      - github.com/freefq+-+日本++4
-      - github.com/freefq-香港阿里云11
-      - HongKe+-+日本+18
-      - HongKe+-+日本+19
-      - HongKe+-+日本+20
-      - HongKe+-+香港+07
+      - HK+1045+TJN
+      - HK+154+TJN
+      - HK+251+TJN
+      - HK+43+TJN
+      - HK+869+TJN
       - ID+1169+TJN
+      - ID+989+TJN
+      - ID+990+TJN
+      - ID+991+TJN
       - ID【付费推荐：gvip.gq】_1
-      - IN+338+TJN
-      - IN+345+TJN
+      - JP+1015+TJN
       - JP+120+TJN
       - JP+123+TJN
       - JP+124+TJN
@@ -2371,93 +2663,83 @@ proxy-groups:
       - JP+157+TJN
       - JP+168+TJN
       - JP+169+TJN
+      - JP+175+TJN
       - JP+178+TJN
       - JP+180+TJN
       - JP+181+TJN
       - JP+182+TJN
-      - JP+1913+TJN
-      - JP+1920+TJN
       - JP+194+TJN
       - JP+195+TJN
       - JP+198+TJN
+      - JP+212+TJN
+      - JP+235+TJN
+      - JP+240+TJN
       - JP+39+TJN
       - JP+40+TJN
       - JP+41+TJN
-      - JP+45+TJN
-      - JP+46+TJN
-      - JP+47+TJN
-      - JP+48+TJN
+      - JP+435+TJN
       - JP+51+TJN
-      - JP+53+TJN
-      - JP+55+TJN
-      - JP+58+TJN
-      - JP+59+TJN
-      - JP+60+TJN
-      - JP+63+TJN
       - JP+654+TJN
       - JP+659+TJN
-      - JP+66+TJN
-      - JP+67+TJN
-      - JP+68+TJN
       - JP+680+TJN
       - JP+684+TJN
       - JP+691+TJN
-      - JP+70+TJN
-      - JP+71+TJN_1
-      - JP+71+TJN_2
-      - JP+72+TJN
+      - JP+71+TJN
       - JP+752+TJN
-      - JP+77+TJN
       - JP+78+TJN
-      - JP+79+TJN
-      - JP+83+TJN
-      - JP+84+TJN
       - JP+89+TJN
+      - JP+93+TJN
       - JP【付费推荐：gvip.gq】+11
       - KR+104+TJN
       - KR+105+TJN
-      - KR+1059+TJN
-      - KR+107+TJN
+      - KR+1139+TJN
       - KR+116+TJN
       - KR+1287+TJN
-      - KR+209+TJN
-      - KR+2099+TJN
-      - KR+221+TJN
-      - KR+222+TJN
+      - KR+153+TJN
+      - KR+156+TJN
+      - KR+159+TJN
+      - KR+160+TJN
+      - KR+163+TJN
+      - KR+167+TJN
+      - KR+168+TJN
+      - KR+171+TJN
+      - KR+172+TJN
+      - KR+174+TJN
+      - KR+180+TJN
+      - KR+182+TJN
       - KR+226+TJN
       - KR+239+TJN
-      - KR+256+TJN
       - KR+297+TJN
-      - KR+349+TJN
-      - KR+353+TJN
-      - KR+360+TJN
       - KR+387+TJN
-      - KR+491+TJN
+      - KR+398+TJN
+      - KR+399+TJN
+      - KR+400+TJN
+      - KR+50+TJN
       - KR+57+TJN
-      - KR+664+TJN
+      - KR+675+TJN
+      - KR+751+TJN
+      - KR+879+TJN
+      - KR+883+TJN
+      - KR+90+TJN
       - Quark+-++意大利
       - Quark+-+巴基斯坦
-      - Quark+-+美国+20
-      - Quark+-+美国+21
-      - Quark+-+日本+04
-      - Quark+-+新加坡+09
-      - Quark+-+新加坡+10
-      - Quark+-+以色列+29
       - Quark+-+以色列+30
-      - Relay_🇺🇸US-🇺🇸US_505
+      - RU+83+TJN
+      - SG+204+TJN
+      - SG+205+TJN
       - SG+2279+TJN
+      - SG+229+TJN
+      - SG+233+TJN
+      - SG+246+TJN
       - SG+378+TJN
+      - SG+41+TJN
       - SG+570+TJN
       - SG+67+TJN
       - SG+730+TJN
       - SG+733+TJN
-      - t.me/wbnet_🇨🇳_CN_115
-      - t.me/wbnet_🇨🇳_CN_51
-      - t.me/wbnet_🇨🇳_CN_96
       - t.me/wbnet_🇸🇬_SG_48
       - Taiwan
       - TG@hkaa0|法国_1
-      - TG@hkaa0|法国_2
       - TG@hkaa0|加拿大_2
       - TG@hkaa0|捷克
       - TG@hkaa0|美国_4
@@ -2467,23 +2749,23 @@ proxy-groups:
       - TG@hkaa0|中国_13
       - TG@hkaa0|中国_2
       - TG@hkaa0|中国_3
-      - TG@hkaa0|中国_4
       - TG@hkaa0|中国_7
-      - TG@hkaa0|中国_8
       - TG频道@baipiaoeverything|40
       - Trojan+新加坡SG
-      - TW+145+TJN
       - TW+287+TJN
       - TW+716+TJN
+      - TW+926+TJN
+      - TW+927+TJN
       - United-States+10
       - United-States+8
-      - US+11+→+openitsub.com
-      - US+20+→+openitsub.com
+      - US+127+TJN
+      - US+132+TJN
+      - US+237+TJN
       - US+250+TJN
       - US+253+TJN
       - US+349+TJN
       - US+39+TJN
-      - US+402+TJN
+      - US+413+TJN
       - US+4312+TJN
       - US+6+→+openitsub.com
       - US+727+TJN
@@ -2492,8 +2774,10 @@ proxy-groups:
       - US+775+TJN
       - US+776+TJN
       - US+782+TJN
-      - US+876+TJN
+      - US+937+TJN
+      - US+973+TJN
       - US【付费推荐：gvip.gq】+12
+      - VN+248+TJN
       - YouTube：全网最强白嫖
       - 🇦🇺+AU【付费推荐：gvip.gq】_2
       - 🇨🇳+CN_44
@@ -2503,48 +2787,89 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_TG频道@baipiaoeverything_13
       - 🇯🇵_JP_日本
-      - 🇱🇹+LT_288
-      - 🇱🇹LT_296
-      - 🇱🇹LT_298
       - 🇳🇱|TG频道@baipiaoeverything|34
-      - 🇳🇱NL_349
       - 🇹🇼_YouTube：全网最强白嫖_1
       - 🇹🇼_YouTube：全网最强白嫖_2
       - 🇹🇼_YouTube：全网最强白嫖_3
       - 🇹🇼_YouTube：全网最强白嫖_4
       - 🇹🇼_YouTube：全网最强白嫖_5
-      - 🇺🇲+US【付费推荐：gvip.gq】+3
-      - 🇺🇸_US_美国
       - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇺🇸US_510
       - 🇺🇸US_680
-      - 🇺🇸US_819
-      - 🇺🇸US_828
-      - 🇺🇸US_865
       - 🇺🇸US_987
-      - 大萝卜鸡冰岛
-      - 大萝卜鸡美国
+      - 阿根廷-边缘访问+DonWeb+13
+      - 阿根廷-边缘访问+DonWeb+6
+      - 阿根廷-核心访问+DonWeb+4
+      - 阿根廷-核心访问+DonWeb+7
+      - 澳大利亚-边缘访问+VUAU+13
+      - 澳大利亚-边缘访问+VUAU+6
+      - 澳大利亚-核心访问+VUAU+4
+      - 澳大利亚-核心访问+VUAU+7
+      - 巴西-边缘访问+GCore+13
+      - 巴西-边缘访问+GCore+6
+      - 巴西-核心访问+GCore+4
+      - 巴西-核心访问+GCore+7
+      - 不定期抽奖https://t.me/mftizi
+      - 德国-边缘访问+DP+13
+      - 德国-边缘访问+DP+6
+      - 德国-核心访问+DP+4
+      - 德国-核心访问+DP+7
       - 电信二区(四川)
-      - 电信三区(江苏)
       - 电信一区(广东)
+      - 俄罗斯-边缘访问+GCore+13
+      - 俄罗斯-边缘访问+GCore+6
+      - 俄罗斯-核心访问+GCore+4
+      - 俄罗斯-核心访问+GCore+7
+      - 法国-边缘访问+DP+13
+      - 法国-边缘访问+DP+6
+      - 法国-核心访问+DP+4
+      - 法国-核心访问+DP+7
+      - 菲律宾-边缘访问+Comfac+13
+      - 菲律宾-边缘访问+Comfac+6
+      - 菲律宾-核心访问+Comfac+4
+      - 菲律宾-核心访问+Comfac+7
       - 关注频道https://t.me/mftizi
       - 韩国+B158+|+IEPL中转、游戏+|+0x
       - 韩国_tg+univstar_7
-      - 韩国-核心访问+VUKR+3
+      - 韩国-核心访问+VUKR+4
+      - 韩国-核心访问+VUKR+7
       - 教育网专区(安徽)_1
       - 教育网专区(安徽)_2
       - 联通二区(北京)
       - 联通四区(上海)
       - 联通一区(北京)
       - 联通一区(山东)
+      - 美国-边缘访问+DP+13
+      - 美国-边缘访问+DP+6
+      - 美国-核心访问+DP+4
+      - 美国-核心访问+DP+7
       - 日本JP-T
-      - 日本-核心访问+DP+3
-      - 台湾-核心访问+BGP+3
+      - 台湾-边缘访问+BGP+13
+      - 台湾-边缘访问+BGP+6
+      - 台湾-核心访问+BGP+4
+      - 台湾-核心访问+BGP+7
+      - 乌克兰-边缘访问+Vik+13
+      - 乌克兰-边缘访问+Vik+6
+      - 乌克兰-核心访问+Vik+4
+      - 乌克兰-核心访问+Vik+7
       - 香港HGC-T
+      - 香港-核心访问+DP+4
+      - 香港-核心访问+DP+7
+      - 香港-核心访问+HKT+4
+      - 香港-核心访问+HKT+7
       - 新加坡SG-T
-      - 新加坡-核心访问+DP+3
-      - 移动专线B
-      - 长期更新节点@mftizi
+      - 新加坡-核心访问+DP+4
+      - 新加坡-核心访问+DP+7
+      - 印度-边缘访问+DOIN+13
+      - 印度-边缘访问+DOIN+6
+      - 印度-核心访问+DOIN+4
+      - 印度-核心访问+DOIN+7
+      - 英国-边缘访问+DP+13
+      - 英国-边缘访问+DP+6
+      - 英国-核心访问+DP+4
+      - 英国-核心访问+DP+7
+      - 长期更新节点@mftizi_1
+      - 长期更新节点@mftizi_2
       - 专线_tg+univstar_46
   - name: Ⓜ️ 微软服务
     type: select
@@ -2555,29 +2880,18 @@ proxy-groups:
       - default_name_2
       - default_name_3
       - default_name_4
-      - default_name_5
-      - default_name_6
-      - '@SSRSUB-V01-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_1'
-      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_2'
+      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub'
       - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
       - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
       - '@wbnet_🇨🇳_CN_77'
       - '@wbnet_🇯🇵_JP_66'
       - '@wbnet_🇺🇸_US_10'
-      - '@wbnet_🇺🇸_US_18'
       - '@wbnet_🇺🇸_US_30'
       - '@wbnet_🇺🇸_US_31'
       - '@wbnet_🇺🇸_US_45'
-      - '@wbnet_🇺🇸_US_46'
       - '@wbnet_🇺🇸_US_57'
-      - '@wbnet_🇺🇸_US_60'
       - '@wbnet_🇺🇸_US_61'
-      - 【付费推荐：gvip.gq】_12
+      - '[SCP]VPSProvidedbyShirker(AS24400)&V2raybuildbyMokonaModoki'
       - 【付费推荐：gvip.gq】_3
       - Alien_1
       - Alien_2
@@ -2592,15 +2906,63 @@ proxy-groups:
       - Alien_11
       - Alien_12
       - Alien_13
-      - Alien_14
-      - Alien_15
+      - AU+133+TJN
+      - AU+796+TJN
+      - AU+797+TJN
+      - AU+798+TJN
+      - AU+799+TJN
+      - AU+800+TJN
+      - AU+802+TJN
+      - AU+803+TJN
+      - AU+804+TJN
+      - AU+805+TJN
+      - AU+807+TJN
+      - AU+808+TJN
+      - CA+102+TJN
+      - CA+103+TJN
+      - CA+104+TJN
+      - CA+105+TJN
+      - CA+106+TJN
+      - CA+107+TJN
+      - CA+108+TJN
+      - CA+109+TJN
+      - CA+110+TJN
+      - CA+111+TJN
+      - CA+112+TJN
+      - CA+113+TJN
+      - CA+114+TJN
+      - CA+115+TJN
+      - CA+116+TJN
+      - CA+117+TJN
+      - CA+118+TJN
+      - CA+119+TJN
+      - CA+120+TJN
+      - CA+121+TJN
+      - CA+122+TJN
+      - CA+123+TJN
+      - CA+124+TJN
+      - CA+135+TJN
       - CA+272+TJN
-      - CA+3+→+openitsub.com
       - CA+642+TJN
+      - CA+714+TJN
+      - CA+758+TJN
+      - CA+813+TJN
+      - CA+816+TJN
+      - CA+819+TJN
+      - CA+820+TJN
+      - CA+821+TJN
+      - CA+823+TJN
+      - CA+825+TJN
+      - CA+828+TJN
+      - CA+833+TJN
+      - CA+839+TJN
+      - CA+844+TJN
+      - CA+845+TJN
+      - CA+846+TJN
+      - CA+94+TJN
       - CH+119+TJN
       - CH+693+TJN_1
       - CH+693+TJN_2
-      - CN+1+→+openitsub.com
       - CN+10+TJN
       - CN+1012+TJN
       - CN+1016+TJN
@@ -2639,7 +3001,6 @@ proxy-groups:
       - CN+1074+TJN
       - CN+1075+TJN
       - CN+110+SSS
-      - CN+112+SSS
       - CN+1133+TJN
       - CN+1134+TJN
       - CN+1138+TJN
@@ -2655,7 +3016,6 @@ proxy-groups:
       - CN+1187+TJN_2
       - CN+1188+TJN
       - CN+1193+TJN
-      - CN+1194+TJN
       - CN+1195+TJN_1
       - CN+1195+TJN_2
       - CN+1198+TJN
@@ -2678,8 +3038,8 @@ proxy-groups:
       - CN+1333+TJN
       - CN+1335+TJN
       - CN+1336+TJN
+      - CN+141+TJN
       - CN+1434+TJN
-      - CN+1574+SSS
       - CN+1676+TJN
       - CN+189+TJN
       - CN+222+SSS
@@ -2743,22 +3103,25 @@ proxy-groups:
       - CN+36+SSS
       - CN+37+SSS
       - CN+381+TJN
-      - CN+416+SSS
       - CN+4401+TJN
+      - CN+479+SSS
       - CN+488+TJN
       - CN+567+TJN
+      - CN+593+TJN
       - CN+622+TJN
       - CN+624+TJN
       - CN+626+TJN
       - CN+627+TJN
       - CN+628+TJN
-      - CN+71+TJN
+      - CN+674+SSS
+      - CN+679+SSS
       - CN+723+SSS
-      - CN+749+TJN
+      - CN+738+TJN
       - CN+755+TJN
-      - CN+766+TJN
-      - CN+853+SSS
-      - CN+855+SSS
+      - CN+762+SSS
+      - CN84SSR
+      - CN85SSR
+      - CN86SSR
       - CN+861+TJN
       - CN+862+TJN
       - CN+864+TJN
@@ -2772,6 +3135,7 @@ proxy-groups:
       - CN+887+TJN
       - CN+888+TJN
       - CN+889+TJN
+      - CN+89+TJN
       - CN+890+TJN
       - CN+891+SSS
       - CN+894+TJN
@@ -2833,39 +3197,32 @@ proxy-groups:
       - CN+97+SSS
       - CN+98+SSS
       - CN+99+SSS
+      - CZ+210+TJN
       - CZ【付费推荐：gvip.gq】
-      - default_name_7
-      - default_name_8
-      - FR+1+→+openitsub.com
+      - default_name_5
       - FR+1039+TJN
       - games.missionsec.us:443
       - GB+1131+TJN
-      - github.com/freefq-北京市微软(中国)有限公司3
-      - github.com/freefq-北美地区6
-      - github.com/freefq-俄罗斯37
-      - github.com/freefq-荷兰哈勒姆OnlineS.A.S34
-      - github.com/freefq-美国12
-      - github.com/freefq-美国33
-      - github.com/freefq-美国7
-      - github.com/freefq-美国AmazonEC2服务器40
+      - GB+152+TJN
+      - GB+255+TJN
       - github.com/freefq-美国CloudFlare节点20
       - github.com/freefq-美国CloudFlare节点22
       - github.com/freefq-美国CloudFlare节点39
       - github.com/freefq-美国Microsoft数据中心41
       - github.com/freefq-美国Microsoft数据中心42
-      - github.com/freefq-美国加利福尼亚州费利蒙IT7网络5
       - github.com/freefq-挪威30
       - github.com/freefq-挪威31
-      - github.com/freefq+-+日本++4
-      - github.com/freefq-香港阿里云11
-      - HongKe+-+日本+18
-      - HongKe+-+日本+19
-      - HongKe+-+日本+20
-      - HongKe+-+香港+07
+      - HK+1045+TJN
+      - HK+154+TJN
+      - HK+251+TJN
+      - HK+43+TJN
+      - HK+869+TJN
       - ID+1169+TJN
+      - ID+989+TJN
+      - ID+990+TJN
+      - ID+991+TJN
       - ID【付费推荐：gvip.gq】_1
-      - IN+338+TJN
-      - IN+345+TJN
+      - JP+1015+TJN
       - JP+120+TJN
       - JP+123+TJN
       - JP+124+TJN
@@ -2878,93 +3235,83 @@ proxy-groups:
       - JP+157+TJN
       - JP+168+TJN
       - JP+169+TJN
+      - JP+175+TJN
       - JP+178+TJN
       - JP+180+TJN
       - JP+181+TJN
       - JP+182+TJN
-      - JP+1913+TJN
-      - JP+1920+TJN
       - JP+194+TJN
       - JP+195+TJN
       - JP+198+TJN
+      - JP+212+TJN
+      - JP+235+TJN
+      - JP+240+TJN
       - JP+39+TJN
       - JP+40+TJN
       - JP+41+TJN
-      - JP+45+TJN
-      - JP+46+TJN
-      - JP+47+TJN
-      - JP+48+TJN
+      - JP+435+TJN
       - JP+51+TJN
-      - JP+53+TJN
-      - JP+55+TJN
-      - JP+58+TJN
-      - JP+59+TJN
-      - JP+60+TJN
-      - JP+63+TJN
       - JP+654+TJN
       - JP+659+TJN
-      - JP+66+TJN
-      - JP+67+TJN
-      - JP+68+TJN
       - JP+680+TJN
       - JP+684+TJN
       - JP+691+TJN
-      - JP+70+TJN
-      - JP+71+TJN_1
-      - JP+71+TJN_2
-      - JP+72+TJN
+      - JP+71+TJN
       - JP+752+TJN
-      - JP+77+TJN
       - JP+78+TJN
-      - JP+79+TJN
-      - JP+83+TJN
-      - JP+84+TJN
       - JP+89+TJN
+      - JP+93+TJN
       - JP【付费推荐：gvip.gq】+11
       - KR+104+TJN
       - KR+105+TJN
-      - KR+1059+TJN
-      - KR+107+TJN
+      - KR+1139+TJN
       - KR+116+TJN
       - KR+1287+TJN
-      - KR+209+TJN
-      - KR+2099+TJN
-      - KR+221+TJN
-      - KR+222+TJN
+      - KR+153+TJN
+      - KR+156+TJN
+      - KR+159+TJN
+      - KR+160+TJN
+      - KR+163+TJN
+      - KR+167+TJN
+      - KR+168+TJN
+      - KR+171+TJN
+      - KR+172+TJN
+      - KR+174+TJN
+      - KR+180+TJN
+      - KR+182+TJN
       - KR+226+TJN
       - KR+239+TJN
-      - KR+256+TJN
       - KR+297+TJN
-      - KR+349+TJN
-      - KR+353+TJN
-      - KR+360+TJN
       - KR+387+TJN
-      - KR+491+TJN
+      - KR+398+TJN
+      - KR+399+TJN
+      - KR+400+TJN
+      - KR+50+TJN
       - KR+57+TJN
-      - KR+664+TJN
+      - KR+675+TJN
+      - KR+751+TJN
+      - KR+879+TJN
+      - KR+883+TJN
+      - KR+90+TJN
       - Quark+-++意大利
       - Quark+-+巴基斯坦
-      - Quark+-+美国+20
-      - Quark+-+美国+21
-      - Quark+-+日本+04
-      - Quark+-+新加坡+09
-      - Quark+-+新加坡+10
-      - Quark+-+以色列+29
       - Quark+-+以色列+30
-      - Relay_🇺🇸US-🇺🇸US_505
+      - RU+83+TJN
+      - SG+204+TJN
+      - SG+205+TJN
       - SG+2279+TJN
+      - SG+229+TJN
+      - SG+233+TJN
+      - SG+246+TJN
       - SG+378+TJN
+      - SG+41+TJN
       - SG+570+TJN
       - SG+67+TJN
       - SG+730+TJN
       - SG+733+TJN
-      - t.me/wbnet_🇨🇳_CN_115
-      - t.me/wbnet_🇨🇳_CN_51
-      - t.me/wbnet_🇨🇳_CN_96
       - t.me/wbnet_🇸🇬_SG_48
       - Taiwan
       - TG@hkaa0|法国_1
-      - TG@hkaa0|法国_2
       - TG@hkaa0|加拿大_2
       - TG@hkaa0|捷克
       - TG@hkaa0|美国_4
@@ -2974,23 +3321,23 @@ proxy-groups:
       - TG@hkaa0|中国_13
       - TG@hkaa0|中国_2
       - TG@hkaa0|中国_3
-      - TG@hkaa0|中国_4
       - TG@hkaa0|中国_7
-      - TG@hkaa0|中国_8
       - TG频道@baipiaoeverything|40
       - Trojan+新加坡SG
-      - TW+145+TJN
       - TW+287+TJN
       - TW+716+TJN
+      - TW+926+TJN
+      - TW+927+TJN
       - United-States+10
       - United-States+8
-      - US+11+→+openitsub.com
-      - US+20+→+openitsub.com
+      - US+127+TJN
+      - US+132+TJN
+      - US+237+TJN
       - US+250+TJN
       - US+253+TJN
       - US+349+TJN
       - US+39+TJN
-      - US+402+TJN
+      - US+413+TJN
       - US+4312+TJN
       - US+6+→+openitsub.com
       - US+727+TJN
@@ -2999,8 +3346,10 @@ proxy-groups:
       - US+775+TJN
       - US+776+TJN
       - US+782+TJN
-      - US+876+TJN
+      - US+937+TJN
+      - US+973+TJN
       - US【付费推荐：gvip.gq】+12
+      - VN+248+TJN
       - YouTube：全网最强白嫖
       - 🇦🇺+AU【付费推荐：gvip.gq】_2
       - 🇨🇳+CN_44
@@ -3010,48 +3359,89 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_TG频道@baipiaoeverything_13
       - 🇯🇵_JP_日本
-      - 🇱🇹+LT_288
-      - 🇱🇹LT_296
-      - 🇱🇹LT_298
       - 🇳🇱|TG频道@baipiaoeverything|34
-      - 🇳🇱NL_349
       - 🇹🇼_YouTube：全网最强白嫖_1
       - 🇹🇼_YouTube：全网最强白嫖_2
       - 🇹🇼_YouTube：全网最强白嫖_3
       - 🇹🇼_YouTube：全网最强白嫖_4
       - 🇹🇼_YouTube：全网最强白嫖_5
-      - 🇺🇲+US【付费推荐：gvip.gq】+3
-      - 🇺🇸_US_美国
       - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇺🇸US_510
       - 🇺🇸US_680
-      - 🇺🇸US_819
-      - 🇺🇸US_828
-      - 🇺🇸US_865
       - 🇺🇸US_987
-      - 大萝卜鸡冰岛
-      - 大萝卜鸡美国
+      - 阿根廷-边缘访问+DonWeb+13
+      - 阿根廷-边缘访问+DonWeb+6
+      - 阿根廷-核心访问+DonWeb+4
+      - 阿根廷-核心访问+DonWeb+7
+      - 澳大利亚-边缘访问+VUAU+13
+      - 澳大利亚-边缘访问+VUAU+6
+      - 澳大利亚-核心访问+VUAU+4
+      - 澳大利亚-核心访问+VUAU+7
+      - 巴西-边缘访问+GCore+13
+      - 巴西-边缘访问+GCore+6
+      - 巴西-核心访问+GCore+4
+      - 巴西-核心访问+GCore+7
+      - 不定期抽奖https://t.me/mftizi
+      - 德国-边缘访问+DP+13
+      - 德国-边缘访问+DP+6
+      - 德国-核心访问+DP+4
+      - 德国-核心访问+DP+7
       - 电信二区(四川)
-      - 电信三区(江苏)
       - 电信一区(广东)
+      - 俄罗斯-边缘访问+GCore+13
+      - 俄罗斯-边缘访问+GCore+6
+      - 俄罗斯-核心访问+GCore+4
+      - 俄罗斯-核心访问+GCore+7
+      - 法国-边缘访问+DP+13
+      - 法国-边缘访问+DP+6
+      - 法国-核心访问+DP+4
+      - 法国-核心访问+DP+7
+      - 菲律宾-边缘访问+Comfac+13
+      - 菲律宾-边缘访问+Comfac+6
+      - 菲律宾-核心访问+Comfac+4
+      - 菲律宾-核心访问+Comfac+7
       - 关注频道https://t.me/mftizi
       - 韩国+B158+|+IEPL中转、游戏+|+0x
       - 韩国_tg+univstar_7
-      - 韩国-核心访问+VUKR+3
+      - 韩国-核心访问+VUKR+4
+      - 韩国-核心访问+VUKR+7
       - 教育网专区(安徽)_1
       - 教育网专区(安徽)_2
       - 联通二区(北京)
       - 联通四区(上海)
       - 联通一区(北京)
       - 联通一区(山东)
+      - 美国-边缘访问+DP+13
+      - 美国-边缘访问+DP+6
+      - 美国-核心访问+DP+4
+      - 美国-核心访问+DP+7
       - 日本JP-T
-      - 日本-核心访问+DP+3
-      - 台湾-核心访问+BGP+3
+      - 台湾-边缘访问+BGP+13
+      - 台湾-边缘访问+BGP+6
+      - 台湾-核心访问+BGP+4
+      - 台湾-核心访问+BGP+7
+      - 乌克兰-边缘访问+Vik+13
+      - 乌克兰-边缘访问+Vik+6
+      - 乌克兰-核心访问+Vik+4
+      - 乌克兰-核心访问+Vik+7
       - 香港HGC-T
+      - 香港-核心访问+DP+4
+      - 香港-核心访问+DP+7
+      - 香港-核心访问+HKT+4
+      - 香港-核心访问+HKT+7
       - 新加坡SG-T
-      - 新加坡-核心访问+DP+3
-      - 移动专线B
-      - 长期更新节点@mftizi
+      - 新加坡-核心访问+DP+4
+      - 新加坡-核心访问+DP+7
+      - 印度-边缘访问+DOIN+13
+      - 印度-边缘访问+DOIN+6
+      - 印度-核心访问+DOIN+4
+      - 印度-核心访问+DOIN+7
+      - 英国-边缘访问+DP+13
+      - 英国-边缘访问+DP+6
+      - 英国-核心访问+DP+4
+      - 英国-核心访问+DP+7
+      - 长期更新节点@mftizi_1
+      - 长期更新节点@mftizi_2
       - 专线_tg+univstar_46
   - name: 🍎 苹果服务
     type: select
@@ -3062,29 +3452,18 @@ proxy-groups:
       - default_name_2
       - default_name_3
       - default_name_4
-      - default_name_5
-      - default_name_6
-      - '@SSRSUB-V01-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_1'
-      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_2'
+      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub'
       - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
       - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
       - '@wbnet_🇨🇳_CN_77'
       - '@wbnet_🇯🇵_JP_66'
       - '@wbnet_🇺🇸_US_10'
-      - '@wbnet_🇺🇸_US_18'
       - '@wbnet_🇺🇸_US_30'
       - '@wbnet_🇺🇸_US_31'
       - '@wbnet_🇺🇸_US_45'
-      - '@wbnet_🇺🇸_US_46'
       - '@wbnet_🇺🇸_US_57'
-      - '@wbnet_🇺🇸_US_60'
       - '@wbnet_🇺🇸_US_61'
-      - 【付费推荐：gvip.gq】_12
+      - '[SCP]VPSProvidedbyShirker(AS24400)&V2raybuildbyMokonaModoki'
       - 【付费推荐：gvip.gq】_3
       - Alien_1
       - Alien_2
@@ -3099,15 +3478,63 @@ proxy-groups:
       - Alien_11
       - Alien_12
       - Alien_13
-      - Alien_14
-      - Alien_15
+      - AU+133+TJN
+      - AU+796+TJN
+      - AU+797+TJN
+      - AU+798+TJN
+      - AU+799+TJN
+      - AU+800+TJN
+      - AU+802+TJN
+      - AU+803+TJN
+      - AU+804+TJN
+      - AU+805+TJN
+      - AU+807+TJN
+      - AU+808+TJN
+      - CA+102+TJN
+      - CA+103+TJN
+      - CA+104+TJN
+      - CA+105+TJN
+      - CA+106+TJN
+      - CA+107+TJN
+      - CA+108+TJN
+      - CA+109+TJN
+      - CA+110+TJN
+      - CA+111+TJN
+      - CA+112+TJN
+      - CA+113+TJN
+      - CA+114+TJN
+      - CA+115+TJN
+      - CA+116+TJN
+      - CA+117+TJN
+      - CA+118+TJN
+      - CA+119+TJN
+      - CA+120+TJN
+      - CA+121+TJN
+      - CA+122+TJN
+      - CA+123+TJN
+      - CA+124+TJN
+      - CA+135+TJN
       - CA+272+TJN
-      - CA+3+→+openitsub.com
       - CA+642+TJN
+      - CA+714+TJN
+      - CA+758+TJN
+      - CA+813+TJN
+      - CA+816+TJN
+      - CA+819+TJN
+      - CA+820+TJN
+      - CA+821+TJN
+      - CA+823+TJN
+      - CA+825+TJN
+      - CA+828+TJN
+      - CA+833+TJN
+      - CA+839+TJN
+      - CA+844+TJN
+      - CA+845+TJN
+      - CA+846+TJN
+      - CA+94+TJN
       - CH+119+TJN
       - CH+693+TJN_1
       - CH+693+TJN_2
-      - CN+1+→+openitsub.com
       - CN+10+TJN
       - CN+1012+TJN
       - CN+1016+TJN
@@ -3146,7 +3573,6 @@ proxy-groups:
       - CN+1074+TJN
       - CN+1075+TJN
       - CN+110+SSS
-      - CN+112+SSS
       - CN+1133+TJN
       - CN+1134+TJN
       - CN+1138+TJN
@@ -3162,7 +3588,6 @@ proxy-groups:
       - CN+1187+TJN_2
       - CN+1188+TJN
       - CN+1193+TJN
-      - CN+1194+TJN
       - CN+1195+TJN_1
       - CN+1195+TJN_2
       - CN+1198+TJN
@@ -3185,8 +3610,8 @@ proxy-groups:
       - CN+1333+TJN
       - CN+1335+TJN
       - CN+1336+TJN
+      - CN+141+TJN
       - CN+1434+TJN
-      - CN+1574+SSS
       - CN+1676+TJN
       - CN+189+TJN
       - CN+222+SSS
@@ -3250,22 +3675,25 @@ proxy-groups:
       - CN+36+SSS
       - CN+37+SSS
       - CN+381+TJN
-      - CN+416+SSS
       - CN+4401+TJN
+      - CN+479+SSS
       - CN+488+TJN
       - CN+567+TJN
+      - CN+593+TJN
       - CN+622+TJN
       - CN+624+TJN
       - CN+626+TJN
       - CN+627+TJN
       - CN+628+TJN
-      - CN+71+TJN
+      - CN+674+SSS
+      - CN+679+SSS
       - CN+723+SSS
-      - CN+749+TJN
+      - CN+738+TJN
       - CN+755+TJN
-      - CN+766+TJN
-      - CN+853+SSS
-      - CN+855+SSS
+      - CN+762+SSS
+      - CN84SSR
+      - CN85SSR
+      - CN86SSR
       - CN+861+TJN
       - CN+862+TJN
       - CN+864+TJN
@@ -3279,6 +3707,7 @@ proxy-groups:
       - CN+887+TJN
       - CN+888+TJN
       - CN+889+TJN
+      - CN+89+TJN
       - CN+890+TJN
       - CN+891+SSS
       - CN+894+TJN
@@ -3340,39 +3769,32 @@ proxy-groups:
       - CN+97+SSS
       - CN+98+SSS
       - CN+99+SSS
+      - CZ+210+TJN
       - CZ【付费推荐：gvip.gq】
-      - default_name_7
-      - default_name_8
-      - FR+1+→+openitsub.com
+      - default_name_5
       - FR+1039+TJN
       - games.missionsec.us:443
       - GB+1131+TJN
-      - github.com/freefq-北京市微软(中国)有限公司3
-      - github.com/freefq-北美地区6
-      - github.com/freefq-俄罗斯37
-      - github.com/freefq-荷兰哈勒姆OnlineS.A.S34
-      - github.com/freefq-美国12
-      - github.com/freefq-美国33
-      - github.com/freefq-美国7
-      - github.com/freefq-美国AmazonEC2服务器40
+      - GB+152+TJN
+      - GB+255+TJN
       - github.com/freefq-美国CloudFlare节点20
       - github.com/freefq-美国CloudFlare节点22
       - github.com/freefq-美国CloudFlare节点39
       - github.com/freefq-美国Microsoft数据中心41
       - github.com/freefq-美国Microsoft数据中心42
-      - github.com/freefq-美国加利福尼亚州费利蒙IT7网络5
       - github.com/freefq-挪威30
       - github.com/freefq-挪威31
-      - github.com/freefq+-+日本++4
-      - github.com/freefq-香港阿里云11
-      - HongKe+-+日本+18
-      - HongKe+-+日本+19
-      - HongKe+-+日本+20
-      - HongKe+-+香港+07
+      - HK+1045+TJN
+      - HK+154+TJN
+      - HK+251+TJN
+      - HK+43+TJN
+      - HK+869+TJN
       - ID+1169+TJN
+      - ID+989+TJN
+      - ID+990+TJN
+      - ID+991+TJN
       - ID【付费推荐：gvip.gq】_1
-      - IN+338+TJN
-      - IN+345+TJN
+      - JP+1015+TJN
       - JP+120+TJN
       - JP+123+TJN
       - JP+124+TJN
@@ -3385,93 +3807,83 @@ proxy-groups:
       - JP+157+TJN
       - JP+168+TJN
       - JP+169+TJN
+      - JP+175+TJN
       - JP+178+TJN
       - JP+180+TJN
       - JP+181+TJN
       - JP+182+TJN
-      - JP+1913+TJN
-      - JP+1920+TJN
       - JP+194+TJN
       - JP+195+TJN
       - JP+198+TJN
+      - JP+212+TJN
+      - JP+235+TJN
+      - JP+240+TJN
       - JP+39+TJN
       - JP+40+TJN
       - JP+41+TJN
-      - JP+45+TJN
-      - JP+46+TJN
-      - JP+47+TJN
-      - JP+48+TJN
+      - JP+435+TJN
       - JP+51+TJN
-      - JP+53+TJN
-      - JP+55+TJN
-      - JP+58+TJN
-      - JP+59+TJN
-      - JP+60+TJN
-      - JP+63+TJN
       - JP+654+TJN
       - JP+659+TJN
-      - JP+66+TJN
-      - JP+67+TJN
-      - JP+68+TJN
       - JP+680+TJN
       - JP+684+TJN
       - JP+691+TJN
-      - JP+70+TJN
-      - JP+71+TJN_1
-      - JP+71+TJN_2
-      - JP+72+TJN
+      - JP+71+TJN
       - JP+752+TJN
-      - JP+77+TJN
       - JP+78+TJN
-      - JP+79+TJN
-      - JP+83+TJN
-      - JP+84+TJN
       - JP+89+TJN
+      - JP+93+TJN
       - JP【付费推荐：gvip.gq】+11
       - KR+104+TJN
       - KR+105+TJN
-      - KR+1059+TJN
-      - KR+107+TJN
+      - KR+1139+TJN
       - KR+116+TJN
       - KR+1287+TJN
-      - KR+209+TJN
-      - KR+2099+TJN
-      - KR+221+TJN
-      - KR+222+TJN
+      - KR+153+TJN
+      - KR+156+TJN
+      - KR+159+TJN
+      - KR+160+TJN
+      - KR+163+TJN
+      - KR+167+TJN
+      - KR+168+TJN
+      - KR+171+TJN
+      - KR+172+TJN
+      - KR+174+TJN
+      - KR+180+TJN
+      - KR+182+TJN
       - KR+226+TJN
       - KR+239+TJN
-      - KR+256+TJN
       - KR+297+TJN
-      - KR+349+TJN
-      - KR+353+TJN
-      - KR+360+TJN
       - KR+387+TJN
-      - KR+491+TJN
+      - KR+398+TJN
+      - KR+399+TJN
+      - KR+400+TJN
+      - KR+50+TJN
       - KR+57+TJN
-      - KR+664+TJN
+      - KR+675+TJN
+      - KR+751+TJN
+      - KR+879+TJN
+      - KR+883+TJN
+      - KR+90+TJN
       - Quark+-++意大利
       - Quark+-+巴基斯坦
-      - Quark+-+美国+20
-      - Quark+-+美国+21
-      - Quark+-+日本+04
-      - Quark+-+新加坡+09
-      - Quark+-+新加坡+10
-      - Quark+-+以色列+29
       - Quark+-+以色列+30
-      - Relay_🇺🇸US-🇺🇸US_505
+      - RU+83+TJN
+      - SG+204+TJN
+      - SG+205+TJN
       - SG+2279+TJN
+      - SG+229+TJN
+      - SG+233+TJN
+      - SG+246+TJN
       - SG+378+TJN
+      - SG+41+TJN
       - SG+570+TJN
       - SG+67+TJN
       - SG+730+TJN
       - SG+733+TJN
-      - t.me/wbnet_🇨🇳_CN_115
-      - t.me/wbnet_🇨🇳_CN_51
-      - t.me/wbnet_🇨🇳_CN_96
       - t.me/wbnet_🇸🇬_SG_48
       - Taiwan
       - TG@hkaa0|法国_1
-      - TG@hkaa0|法国_2
       - TG@hkaa0|加拿大_2
       - TG@hkaa0|捷克
       - TG@hkaa0|美国_4
@@ -3481,23 +3893,23 @@ proxy-groups:
       - TG@hkaa0|中国_13
       - TG@hkaa0|中国_2
       - TG@hkaa0|中国_3
-      - TG@hkaa0|中国_4
       - TG@hkaa0|中国_7
-      - TG@hkaa0|中国_8
       - TG频道@baipiaoeverything|40
       - Trojan+新加坡SG
-      - TW+145+TJN
       - TW+287+TJN
       - TW+716+TJN
+      - TW+926+TJN
+      - TW+927+TJN
       - United-States+10
       - United-States+8
-      - US+11+→+openitsub.com
-      - US+20+→+openitsub.com
+      - US+127+TJN
+      - US+132+TJN
+      - US+237+TJN
       - US+250+TJN
       - US+253+TJN
       - US+349+TJN
       - US+39+TJN
-      - US+402+TJN
+      - US+413+TJN
       - US+4312+TJN
       - US+6+→+openitsub.com
       - US+727+TJN
@@ -3506,8 +3918,10 @@ proxy-groups:
       - US+775+TJN
       - US+776+TJN
       - US+782+TJN
-      - US+876+TJN
+      - US+937+TJN
+      - US+973+TJN
       - US【付费推荐：gvip.gq】+12
+      - VN+248+TJN
       - YouTube：全网最强白嫖
       - 🇦🇺+AU【付费推荐：gvip.gq】_2
       - 🇨🇳+CN_44
@@ -3517,48 +3931,89 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_TG频道@baipiaoeverything_13
       - 🇯🇵_JP_日本
-      - 🇱🇹+LT_288
-      - 🇱🇹LT_296
-      - 🇱🇹LT_298
       - 🇳🇱|TG频道@baipiaoeverything|34
-      - 🇳🇱NL_349
       - 🇹🇼_YouTube：全网最强白嫖_1
       - 🇹🇼_YouTube：全网最强白嫖_2
       - 🇹🇼_YouTube：全网最强白嫖_3
       - 🇹🇼_YouTube：全网最强白嫖_4
       - 🇹🇼_YouTube：全网最强白嫖_5
-      - 🇺🇲+US【付费推荐：gvip.gq】+3
-      - 🇺🇸_US_美国
       - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇺🇸US_510
       - 🇺🇸US_680
-      - 🇺🇸US_819
-      - 🇺🇸US_828
-      - 🇺🇸US_865
       - 🇺🇸US_987
-      - 大萝卜鸡冰岛
-      - 大萝卜鸡美国
+      - 阿根廷-边缘访问+DonWeb+13
+      - 阿根廷-边缘访问+DonWeb+6
+      - 阿根廷-核心访问+DonWeb+4
+      - 阿根廷-核心访问+DonWeb+7
+      - 澳大利亚-边缘访问+VUAU+13
+      - 澳大利亚-边缘访问+VUAU+6
+      - 澳大利亚-核心访问+VUAU+4
+      - 澳大利亚-核心访问+VUAU+7
+      - 巴西-边缘访问+GCore+13
+      - 巴西-边缘访问+GCore+6
+      - 巴西-核心访问+GCore+4
+      - 巴西-核心访问+GCore+7
+      - 不定期抽奖https://t.me/mftizi
+      - 德国-边缘访问+DP+13
+      - 德国-边缘访问+DP+6
+      - 德国-核心访问+DP+4
+      - 德国-核心访问+DP+7
       - 电信二区(四川)
-      - 电信三区(江苏)
       - 电信一区(广东)
+      - 俄罗斯-边缘访问+GCore+13
+      - 俄罗斯-边缘访问+GCore+6
+      - 俄罗斯-核心访问+GCore+4
+      - 俄罗斯-核心访问+GCore+7
+      - 法国-边缘访问+DP+13
+      - 法国-边缘访问+DP+6
+      - 法国-核心访问+DP+4
+      - 法国-核心访问+DP+7
+      - 菲律宾-边缘访问+Comfac+13
+      - 菲律宾-边缘访问+Comfac+6
+      - 菲律宾-核心访问+Comfac+4
+      - 菲律宾-核心访问+Comfac+7
       - 关注频道https://t.me/mftizi
       - 韩国+B158+|+IEPL中转、游戏+|+0x
       - 韩国_tg+univstar_7
-      - 韩国-核心访问+VUKR+3
+      - 韩国-核心访问+VUKR+4
+      - 韩国-核心访问+VUKR+7
       - 教育网专区(安徽)_1
       - 教育网专区(安徽)_2
       - 联通二区(北京)
       - 联通四区(上海)
       - 联通一区(北京)
       - 联通一区(山东)
+      - 美国-边缘访问+DP+13
+      - 美国-边缘访问+DP+6
+      - 美国-核心访问+DP+4
+      - 美国-核心访问+DP+7
       - 日本JP-T
-      - 日本-核心访问+DP+3
-      - 台湾-核心访问+BGP+3
+      - 台湾-边缘访问+BGP+13
+      - 台湾-边缘访问+BGP+6
+      - 台湾-核心访问+BGP+4
+      - 台湾-核心访问+BGP+7
+      - 乌克兰-边缘访问+Vik+13
+      - 乌克兰-边缘访问+Vik+6
+      - 乌克兰-核心访问+Vik+4
+      - 乌克兰-核心访问+Vik+7
       - 香港HGC-T
+      - 香港-核心访问+DP+4
+      - 香港-核心访问+DP+7
+      - 香港-核心访问+HKT+4
+      - 香港-核心访问+HKT+7
       - 新加坡SG-T
-      - 新加坡-核心访问+DP+3
-      - 移动专线B
-      - 长期更新节点@mftizi
+      - 新加坡-核心访问+DP+4
+      - 新加坡-核心访问+DP+7
+      - 印度-边缘访问+DOIN+13
+      - 印度-边缘访问+DOIN+6
+      - 印度-核心访问+DOIN+4
+      - 印度-核心访问+DOIN+7
+      - 英国-边缘访问+DP+13
+      - 英国-边缘访问+DP+6
+      - 英国-核心访问+DP+4
+      - 英国-核心访问+DP+7
+      - 长期更新节点@mftizi_1
+      - 长期更新节点@mftizi_2
       - 专线_tg+univstar_46
   - name: 🎯 全球直连
     type: select
@@ -3586,29 +4041,18 @@ proxy-groups:
       - default_name_2
       - default_name_3
       - default_name_4
-      - default_name_5
-      - default_name_6
-      - '@SSRSUB-V01-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_1'
-      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub_2'
+      - '@SSRSUB-V03-付费推荐:suo.yt/ssrsub'
       - '@SSRSUB-V04-付费推荐:suo.yt/ssrsub'
       - '@SSRSUB-V07-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V11-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
-      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
       - '@wbnet_🇨🇳_CN_77'
       - '@wbnet_🇯🇵_JP_66'
       - '@wbnet_🇺🇸_US_10'
-      - '@wbnet_🇺🇸_US_18'
       - '@wbnet_🇺🇸_US_30'
       - '@wbnet_🇺🇸_US_31'
       - '@wbnet_🇺🇸_US_45'
-      - '@wbnet_🇺🇸_US_46'
       - '@wbnet_🇺🇸_US_57'
-      - '@wbnet_🇺🇸_US_60'
       - '@wbnet_🇺🇸_US_61'
-      - 【付费推荐：gvip.gq】_12
+      - '[SCP]VPSProvidedbyShirker(AS24400)&V2raybuildbyMokonaModoki'
       - 【付费推荐：gvip.gq】_3
       - Alien_1
       - Alien_2
@@ -3623,15 +4067,63 @@ proxy-groups:
       - Alien_11
       - Alien_12
       - Alien_13
-      - Alien_14
-      - Alien_15
+      - AU+133+TJN
+      - AU+796+TJN
+      - AU+797+TJN
+      - AU+798+TJN
+      - AU+799+TJN
+      - AU+800+TJN
+      - AU+802+TJN
+      - AU+803+TJN
+      - AU+804+TJN
+      - AU+805+TJN
+      - AU+807+TJN
+      - AU+808+TJN
+      - CA+102+TJN
+      - CA+103+TJN
+      - CA+104+TJN
+      - CA+105+TJN
+      - CA+106+TJN
+      - CA+107+TJN
+      - CA+108+TJN
+      - CA+109+TJN
+      - CA+110+TJN
+      - CA+111+TJN
+      - CA+112+TJN
+      - CA+113+TJN
+      - CA+114+TJN
+      - CA+115+TJN
+      - CA+116+TJN
+      - CA+117+TJN
+      - CA+118+TJN
+      - CA+119+TJN
+      - CA+120+TJN
+      - CA+121+TJN
+      - CA+122+TJN
+      - CA+123+TJN
+      - CA+124+TJN
+      - CA+135+TJN
       - CA+272+TJN
-      - CA+3+→+openitsub.com
       - CA+642+TJN
+      - CA+714+TJN
+      - CA+758+TJN
+      - CA+813+TJN
+      - CA+816+TJN
+      - CA+819+TJN
+      - CA+820+TJN
+      - CA+821+TJN
+      - CA+823+TJN
+      - CA+825+TJN
+      - CA+828+TJN
+      - CA+833+TJN
+      - CA+839+TJN
+      - CA+844+TJN
+      - CA+845+TJN
+      - CA+846+TJN
+      - CA+94+TJN
       - CH+119+TJN
       - CH+693+TJN_1
       - CH+693+TJN_2
-      - CN+1+→+openitsub.com
       - CN+10+TJN
       - CN+1012+TJN
       - CN+1016+TJN
@@ -3670,7 +4162,6 @@ proxy-groups:
       - CN+1074+TJN
       - CN+1075+TJN
       - CN+110+SSS
-      - CN+112+SSS
       - CN+1133+TJN
       - CN+1134+TJN
       - CN+1138+TJN
@@ -3686,7 +4177,6 @@ proxy-groups:
       - CN+1187+TJN_2
       - CN+1188+TJN
       - CN+1193+TJN
-      - CN+1194+TJN
       - CN+1195+TJN_1
       - CN+1195+TJN_2
       - CN+1198+TJN
@@ -3709,8 +4199,8 @@ proxy-groups:
       - CN+1333+TJN
       - CN+1335+TJN
       - CN+1336+TJN
+      - CN+141+TJN
       - CN+1434+TJN
-      - CN+1574+SSS
       - CN+1676+TJN
       - CN+189+TJN
       - CN+222+SSS
@@ -3774,22 +4264,25 @@ proxy-groups:
       - CN+36+SSS
       - CN+37+SSS
       - CN+381+TJN
-      - CN+416+SSS
       - CN+4401+TJN
+      - CN+479+SSS
       - CN+488+TJN
       - CN+567+TJN
+      - CN+593+TJN
       - CN+622+TJN
       - CN+624+TJN
       - CN+626+TJN
       - CN+627+TJN
       - CN+628+TJN
-      - CN+71+TJN
+      - CN+674+SSS
+      - CN+679+SSS
       - CN+723+SSS
-      - CN+749+TJN
+      - CN+738+TJN
       - CN+755+TJN
-      - CN+766+TJN
-      - CN+853+SSS
-      - CN+855+SSS
+      - CN+762+SSS
+      - CN84SSR
+      - CN85SSR
+      - CN86SSR
       - CN+861+TJN
       - CN+862+TJN
       - CN+864+TJN
@@ -3803,6 +4296,7 @@ proxy-groups:
       - CN+887+TJN
       - CN+888+TJN
       - CN+889+TJN
+      - CN+89+TJN
       - CN+890+TJN
       - CN+891+SSS
       - CN+894+TJN
@@ -3864,39 +4358,32 @@ proxy-groups:
       - CN+97+SSS
       - CN+98+SSS
       - CN+99+SSS
+      - CZ+210+TJN
       - CZ【付费推荐：gvip.gq】
-      - default_name_7
-      - default_name_8
-      - FR+1+→+openitsub.com
+      - default_name_5
       - FR+1039+TJN
       - games.missionsec.us:443
       - GB+1131+TJN
-      - github.com/freefq-北京市微软(中国)有限公司3
-      - github.com/freefq-北美地区6
-      - github.com/freefq-俄罗斯37
-      - github.com/freefq-荷兰哈勒姆OnlineS.A.S34
-      - github.com/freefq-美国12
-      - github.com/freefq-美国33
-      - github.com/freefq-美国7
-      - github.com/freefq-美国AmazonEC2服务器40
+      - GB+152+TJN
+      - GB+255+TJN
       - github.com/freefq-美国CloudFlare节点20
       - github.com/freefq-美国CloudFlare节点22
       - github.com/freefq-美国CloudFlare节点39
       - github.com/freefq-美国Microsoft数据中心41
       - github.com/freefq-美国Microsoft数据中心42
-      - github.com/freefq-美国加利福尼亚州费利蒙IT7网络5
       - github.com/freefq-挪威30
       - github.com/freefq-挪威31
-      - github.com/freefq+-+日本++4
-      - github.com/freefq-香港阿里云11
-      - HongKe+-+日本+18
-      - HongKe+-+日本+19
-      - HongKe+-+日本+20
-      - HongKe+-+香港+07
+      - HK+1045+TJN
+      - HK+154+TJN
+      - HK+251+TJN
+      - HK+43+TJN
+      - HK+869+TJN
       - ID+1169+TJN
+      - ID+989+TJN
+      - ID+990+TJN
+      - ID+991+TJN
       - ID【付费推荐：gvip.gq】_1
-      - IN+338+TJN
-      - IN+345+TJN
+      - JP+1015+TJN
       - JP+120+TJN
       - JP+123+TJN
       - JP+124+TJN
@@ -3909,93 +4396,83 @@ proxy-groups:
       - JP+157+TJN
       - JP+168+TJN
       - JP+169+TJN
+      - JP+175+TJN
       - JP+178+TJN
       - JP+180+TJN
       - JP+181+TJN
       - JP+182+TJN
-      - JP+1913+TJN
-      - JP+1920+TJN
       - JP+194+TJN
       - JP+195+TJN
       - JP+198+TJN
+      - JP+212+TJN
+      - JP+235+TJN
+      - JP+240+TJN
       - JP+39+TJN
       - JP+40+TJN
       - JP+41+TJN
-      - JP+45+TJN
-      - JP+46+TJN
-      - JP+47+TJN
-      - JP+48+TJN
+      - JP+435+TJN
       - JP+51+TJN
-      - JP+53+TJN
-      - JP+55+TJN
-      - JP+58+TJN
-      - JP+59+TJN
-      - JP+60+TJN
-      - JP+63+TJN
       - JP+654+TJN
       - JP+659+TJN
-      - JP+66+TJN
-      - JP+67+TJN
-      - JP+68+TJN
       - JP+680+TJN
       - JP+684+TJN
       - JP+691+TJN
-      - JP+70+TJN
-      - JP+71+TJN_1
-      - JP+71+TJN_2
-      - JP+72+TJN
+      - JP+71+TJN
       - JP+752+TJN
-      - JP+77+TJN
       - JP+78+TJN
-      - JP+79+TJN
-      - JP+83+TJN
-      - JP+84+TJN
       - JP+89+TJN
+      - JP+93+TJN
       - JP【付费推荐：gvip.gq】+11
       - KR+104+TJN
       - KR+105+TJN
-      - KR+1059+TJN
-      - KR+107+TJN
+      - KR+1139+TJN
       - KR+116+TJN
       - KR+1287+TJN
-      - KR+209+TJN
-      - KR+2099+TJN
-      - KR+221+TJN
-      - KR+222+TJN
+      - KR+153+TJN
+      - KR+156+TJN
+      - KR+159+TJN
+      - KR+160+TJN
+      - KR+163+TJN
+      - KR+167+TJN
+      - KR+168+TJN
+      - KR+171+TJN
+      - KR+172+TJN
+      - KR+174+TJN
+      - KR+180+TJN
+      - KR+182+TJN
       - KR+226+TJN
       - KR+239+TJN
-      - KR+256+TJN
       - KR+297+TJN
-      - KR+349+TJN
-      - KR+353+TJN
-      - KR+360+TJN
       - KR+387+TJN
-      - KR+491+TJN
+      - KR+398+TJN
+      - KR+399+TJN
+      - KR+400+TJN
+      - KR+50+TJN
       - KR+57+TJN
-      - KR+664+TJN
+      - KR+675+TJN
+      - KR+751+TJN
+      - KR+879+TJN
+      - KR+883+TJN
+      - KR+90+TJN
       - Quark+-++意大利
       - Quark+-+巴基斯坦
-      - Quark+-+美国+20
-      - Quark+-+美国+21
-      - Quark+-+日本+04
-      - Quark+-+新加坡+09
-      - Quark+-+新加坡+10
-      - Quark+-+以色列+29
       - Quark+-+以色列+30
-      - Relay_🇺🇸US-🇺🇸US_505
+      - RU+83+TJN
+      - SG+204+TJN
+      - SG+205+TJN
       - SG+2279+TJN
+      - SG+229+TJN
+      - SG+233+TJN
+      - SG+246+TJN
       - SG+378+TJN
+      - SG+41+TJN
       - SG+570+TJN
       - SG+67+TJN
       - SG+730+TJN
       - SG+733+TJN
-      - t.me/wbnet_🇨🇳_CN_115
-      - t.me/wbnet_🇨🇳_CN_51
-      - t.me/wbnet_🇨🇳_CN_96
       - t.me/wbnet_🇸🇬_SG_48
       - Taiwan
       - TG@hkaa0|法国_1
-      - TG@hkaa0|法国_2
       - TG@hkaa0|加拿大_2
       - TG@hkaa0|捷克
       - TG@hkaa0|美国_4
@@ -4005,23 +4482,23 @@ proxy-groups:
       - TG@hkaa0|中国_13
       - TG@hkaa0|中国_2
       - TG@hkaa0|中国_3
-      - TG@hkaa0|中国_4
       - TG@hkaa0|中国_7
-      - TG@hkaa0|中国_8
       - TG频道@baipiaoeverything|40
       - Trojan+新加坡SG
-      - TW+145+TJN
       - TW+287+TJN
       - TW+716+TJN
+      - TW+926+TJN
+      - TW+927+TJN
       - United-States+10
       - United-States+8
-      - US+11+→+openitsub.com
-      - US+20+→+openitsub.com
+      - US+127+TJN
+      - US+132+TJN
+      - US+237+TJN
       - US+250+TJN
       - US+253+TJN
       - US+349+TJN
       - US+39+TJN
-      - US+402+TJN
+      - US+413+TJN
       - US+4312+TJN
       - US+6+→+openitsub.com
       - US+727+TJN
@@ -4030,8 +4507,10 @@ proxy-groups:
       - US+775+TJN
       - US+776+TJN
       - US+782+TJN
-      - US+876+TJN
+      - US+937+TJN
+      - US+973+TJN
       - US【付费推荐：gvip.gq】+12
+      - VN+248+TJN
       - YouTube：全网最强白嫖
       - 🇦🇺+AU【付费推荐：gvip.gq】_2
       - 🇨🇳+CN_44
@@ -4041,48 +4520,89 @@ proxy-groups:
       - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
       - 🇨🇳_TG频道@baipiaoeverything_13
       - 🇯🇵_JP_日本
-      - 🇱🇹+LT_288
-      - 🇱🇹LT_296
-      - 🇱🇹LT_298
       - 🇳🇱|TG频道@baipiaoeverything|34
-      - 🇳🇱NL_349
       - 🇹🇼_YouTube：全网最强白嫖_1
       - 🇹🇼_YouTube：全网最强白嫖_2
       - 🇹🇼_YouTube：全网最强白嫖_3
       - 🇹🇼_YouTube：全网最强白嫖_4
       - 🇹🇼_YouTube：全网最强白嫖_5
-      - 🇺🇲+US【付费推荐：gvip.gq】+3
-      - 🇺🇸_US_美国
       - 🇺🇸_US_美国->🇩🇪_DE_德国
       - 🇺🇸US_510
       - 🇺🇸US_680
-      - 🇺🇸US_819
-      - 🇺🇸US_828
-      - 🇺🇸US_865
       - 🇺🇸US_987
-      - 大萝卜鸡冰岛
-      - 大萝卜鸡美国
+      - 阿根廷-边缘访问+DonWeb+13
+      - 阿根廷-边缘访问+DonWeb+6
+      - 阿根廷-核心访问+DonWeb+4
+      - 阿根廷-核心访问+DonWeb+7
+      - 澳大利亚-边缘访问+VUAU+13
+      - 澳大利亚-边缘访问+VUAU+6
+      - 澳大利亚-核心访问+VUAU+4
+      - 澳大利亚-核心访问+VUAU+7
+      - 巴西-边缘访问+GCore+13
+      - 巴西-边缘访问+GCore+6
+      - 巴西-核心访问+GCore+4
+      - 巴西-核心访问+GCore+7
+      - 不定期抽奖https://t.me/mftizi
+      - 德国-边缘访问+DP+13
+      - 德国-边缘访问+DP+6
+      - 德国-核心访问+DP+4
+      - 德国-核心访问+DP+7
       - 电信二区(四川)
-      - 电信三区(江苏)
       - 电信一区(广东)
+      - 俄罗斯-边缘访问+GCore+13
+      - 俄罗斯-边缘访问+GCore+6
+      - 俄罗斯-核心访问+GCore+4
+      - 俄罗斯-核心访问+GCore+7
+      - 法国-边缘访问+DP+13
+      - 法国-边缘访问+DP+6
+      - 法国-核心访问+DP+4
+      - 法国-核心访问+DP+7
+      - 菲律宾-边缘访问+Comfac+13
+      - 菲律宾-边缘访问+Comfac+6
+      - 菲律宾-核心访问+Comfac+4
+      - 菲律宾-核心访问+Comfac+7
       - 关注频道https://t.me/mftizi
       - 韩国+B158+|+IEPL中转、游戏+|+0x
       - 韩国_tg+univstar_7
-      - 韩国-核心访问+VUKR+3
+      - 韩国-核心访问+VUKR+4
+      - 韩国-核心访问+VUKR+7
       - 教育网专区(安徽)_1
       - 教育网专区(安徽)_2
       - 联通二区(北京)
       - 联通四区(上海)
       - 联通一区(北京)
       - 联通一区(山东)
+      - 美国-边缘访问+DP+13
+      - 美国-边缘访问+DP+6
+      - 美国-核心访问+DP+4
+      - 美国-核心访问+DP+7
       - 日本JP-T
-      - 日本-核心访问+DP+3
-      - 台湾-核心访问+BGP+3
+      - 台湾-边缘访问+BGP+13
+      - 台湾-边缘访问+BGP+6
+      - 台湾-核心访问+BGP+4
+      - 台湾-核心访问+BGP+7
+      - 乌克兰-边缘访问+Vik+13
+      - 乌克兰-边缘访问+Vik+6
+      - 乌克兰-核心访问+Vik+4
+      - 乌克兰-核心访问+Vik+7
       - 香港HGC-T
+      - 香港-核心访问+DP+4
+      - 香港-核心访问+DP+7
+      - 香港-核心访问+HKT+4
+      - 香港-核心访问+HKT+7
       - 新加坡SG-T
-      - 新加坡-核心访问+DP+3
-      - 移动专线B
-      - 长期更新节点@mftizi
+      - 新加坡-核心访问+DP+4
+      - 新加坡-核心访问+DP+7
+      - 印度-边缘访问+DOIN+13
+      - 印度-边缘访问+DOIN+6
+      - 印度-核心访问+DOIN+4
+      - 印度-核心访问+DOIN+7
+      - 英国-边缘访问+DP+13
+      - 英国-边缘访问+DP+6
+      - 英国-核心访问+DP+4
+      - 英国-核心访问+DP+7
+      - 长期更新节点@mftizi_1
+      - 长期更新节点@mftizi_2
       - 专线_tg+univstar_46
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
