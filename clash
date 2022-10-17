@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-10-13 08:58:45
+#  创建时间：2022-10-17 09:03:43
 #  模版：v2rayse默认模版
-#  节点数量：454
+#  节点数量：436
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,17 +13,12 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"长期更新节点@mftizi","server":"116.129.254.6","port":"9028","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"英国-边缘访问+DP+7","server":"dtuk1.bitznet.one","port":33010,"password":"78e05269-3d37-49df-9554-1717a7ff8a61","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
-  - {"type":"trojan","name":"印度-边缘访问+DOIN+7","server":"dtin1.bitznet.one","port":33017,"password":"78e05269-3d37-49df-9554-1717a7ff8a61","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
   - {"type":"trojan","name":"新加坡SG-T","server":"sg.iamnotagoodman.com","port":443,"password":"8aab51da-6b67-4bd2-b6e6-5ab3008cf53e","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"新加坡［ssrcom］","server":"do-sg-01.vvsoga.net","port":1234,"password":"469eb2d7-c86c-3484-ba85-4f26f0645b9b","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"香港HGC-T","server":"hgc.iamnotagoodman.com","port":443,"password":"8aab51da-6b67-4bd2-b6e6-5ab3008cf53e","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"乌克兰-边缘访问+Vik+7","server":"dtua1.bitznet.one","port":33019,"password":"78e05269-3d37-49df-9554-1717a7ff8a61","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
-  - {"type":"trojan","name":"台湾-边缘访问+BGP+7","server":"dttw1.bitznet.one","port":33003,"password":"78e05269-3d37-49df-9554-1717a7ff8a61","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
   - {"type":"trojan","name":"日本JP-T","server":"jp.iamnotagoodman.com","port":443,"password":"8aab51da-6b67-4bd2-b6e6-5ab3008cf53e","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"免费梯子https://t.me/mftizi","server":"221.131.165.72","port":"9036","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"美国-边缘访问+DP+7","server":"dtus1.bitznet.one","port":33001,"password":"78e05269-3d37-49df-9554-1717a7ff8a61","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
+  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_1","ws-opts":{"path":"/1653531","headers":{"host":"er1.mybestjj.com"}},"server":"er2.mybestjj.com","port":"443","uuid":"9c419a53-9a29-4c59-96a7-b052e79e4c37","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_2","ws-opts":{"path":"/graphql","headers":{"host":"mahsaproxy.com"}},"server":"arvancloud.com","port":"80","uuid":"b831381d-6324-4d53-ad4f-8cda48b30811","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"免费梯子https://t.me/mftizi_3","server":"221.131.165.72","port":"9036","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"联通一区(山东)","server":"47.104.237.32","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"联通一区(北京)","server":"39.103.165.178","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"联通二区(北京)","server":"49.232.167.71","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
@@ -33,114 +28,113 @@ proxies:
   - {"type":"vmess","name":"华南2","server":"s4.mine.com.cn","port":"4433","uuid":"77a286f4-0a0b-4ef7-aaef-a4fff60872e9","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"华南1","server":"s1.mine.com.cn","port":"4433","uuid":"77a286f4-0a0b-4ef7-aaef-a4fff60872e9","alterId":"0","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"华北","server":"s3.mine.com.cn","port":"4433","uuid":"77a286f4-0a0b-4ef7-aaef-a4fff60872e9","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"韩国+B158+|+IEPL中转、游戏+|+0x","server":"14.215.107.23","port":28157,"password":"M9cf6590","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"关注频道https://t.me/mftizi_1","server":"us6b31-node.aiqiche123.com","port":"8190","uuid":"a90597c1-bab3-4217-ad6f-0838675c8653","alterId":"10","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"关注频道https://t.me/mftizi_1","ws-opts":{"path":"/down","headers":{"host":"js.adbse.xyz"}},"server":"172.105.239.237","port":"443","uuid":"3706161f-3ee3-48e5-bfcf-0d856cc6f0ab","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"关注频道https://t.me/mftizi_2","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"s3.cjhh.beauty"}},"server":"ecdyd-1049-v2-7.hkg-r-kcd-c.ap.cjhh.beauty","port":"29938","uuid":"caac6285-511c-4a07-b6db-edfbdcfe3889","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"菲律宾-边缘访问+Comfac+7","server":"dtph1.bitznet.one","port":33013,"password":"78e05269-3d37-49df-9554-1717a7ff8a61","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
-  - {"type":"trojan","name":"法国-边缘访问+DP+7","server":"dtfr1.bitznet.one","port":33009,"password":"78e05269-3d37-49df-9554-1717a7ff8a61","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
-  - {"type":"trojan","name":"俄罗斯-边缘访问+GCore+7","server":"dtru1.bitznet.one","port":33008,"password":"78e05269-3d37-49df-9554-1717a7ff8a61","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
   - {"type":"vmess","name":"电信二区(四川)","server":"139.186.153.84","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"德国-边缘访问+DP+7","server":"dtde1.bitznet.one","port":33011,"password":"78e05269-3d37-49df-9554-1717a7ff8a61","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
-  - {"type":"vmess","name":"不定期抽奖https://t.me/mftizi_1","server":"111.45.22.246","port":"16115","uuid":"f1d39fe1-bfa3-34ff-86a2-29250af03183","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"不定期抽奖https://t.me/mftizi_1","ws-opts":{"path":"/","headers":{"host":"haxeu2.zikkcc.ga"}},"server":"172.64.155.30","port":"2053","uuid":"8afc6cdf-4f0a-4725-a44c-5dacdc2b2784","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"不定期抽奖https://t.me/mftizi_2","server":"221.131.165.72","port":"9041","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"trojan","name":"巴西-边缘访问+GCore+7","server":"dtbr1.bitznet.one","port":33016,"password":"78e05269-3d37-49df-9554-1717a7ff8a61","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
-  - {"type":"trojan","name":"澳大利亚-边缘访问+VUAU+7","server":"dtau1.bitznet.one","port":33012,"password":"78e05269-3d37-49df-9554-1717a7ff8a61","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
-  - {"type":"trojan","name":"阿根廷-边缘访问+DonWeb+7","server":"dtar1.bitznet.one","port":33015,"password":"78e05269-3d37-49df-9554-1717a7ff8a61","udp":true,"skip-cert-verify":true,"sni":"cert.bitbyte.one"}
-  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_1","server":"fndx600mtwline010tr.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"d0760c7c21f8","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fndx600mtwline010tr.fnline.xyz"}}
-  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_2","server":"fn600mlines021.fnline.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"0ac84efef442","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines021.fnline.info"}}
+  - {"type":"vmess","name":"不定期抽奖https://t.me/mftizi_3","server":"111.45.22.246","port":"16115","uuid":"f1d39fe1-bfa3-34ff-86a2-29250af03183","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"🇺🇸@SSRSUB-美国V04-付费推荐:dlj.tf/ssrsub","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v02.asuka.buzz"}},"server":"104.16.122.77","port":"8080","uuid":"b1df7e3f-db11-490c-9bc9-c5c1a31f2ec5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸@SSRSUB-美国V03-付费推荐:dlj.tf/ssrsub","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v02.asuka.buzz"}},"server":"www.digitalocean.com","port":"8080","uuid":"b1df7e3f-db11-490c-9bc9-c5c1a31f2ec5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v01.asuka.buzz"}},"server":"104.16.122.77","port":"8080","uuid":"b1df7e3f-db11-490c-9bc9-c5c1a31f2ec5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"🇺🇸@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v01.asuka.buzz"}},"server":"www.digitalocean.com","port":"8080","uuid":"b1df7e3f-db11-490c-9bc9-c5c1a31f2ec5","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_1","server":"fn600mlines021.fnline.info","port":443,"cipher":"chacha20-ietf-poly1305","password":"0ac84efef442","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines021.fnline.info"}}
+  - {"type":"ss","name":"🇹🇼_YouTube：全网最强白嫖_2","server":"fndx600mtwline010tr.fnline.xyz","port":443,"cipher":"chacha20-ietf-poly1305","password":"d0760c7c21f8","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fndx600mtwline010tr.fnline.xyz"}}
   - {"type":"trojan","name":"🇳🇱|TG频道@baipiaoeverything|34","server":"nlt-1.opensvr.net","port":443,"password":"opentunnel.net-oqtxymz6gjl3","udp":true,"skip-cert-verify":true,"sni":"nlt-1.opensvr.net"}
-  - {"type":"vmess","name":"🇨🇳_CN_中国->🇭🇰_HK_香港_1","server":"3.sg.zz.xxxxx.x-t-fuckword.network","port":"36679","uuid":"244effd9-0204-3c4a-8537-0dca4e5fd9b5","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"ss","name":"🇨🇳_CN_中国->🇭🇰_HK_香港_2","server":"14.29.124.174","port":11032,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"vmess","name":"🇮🇷(@Anty_Filter)","ws-opts":{"path":"/graphql","headers":{"host":"mahsaproxy.com"}},"server":"arvancloud.com","port":"80","uuid":"b831381d-6324-4d53-ad4f-8cda48b30811","alterId":"0","cipher":"chacha20-poly1305","network":"ws"}
   - {"type":"ss","name":"YouTube：全网最强白嫖","server":"fn600mlines008.fnline.vip","port":443,"cipher":"chacha20-ietf-poly1305","password":"fc568c325d09","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":true,"skip-cert-verify":true,"path":"/","host":"fn600mlines008.fnline.vip"}}
   - {"type":"trojan","name":"VN+248+TJN","server":"103.173.155.72","port":28443,"password":"6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"US【付费推荐：gvip.gq】+12","server":"v2.justmymiss.com","port":65500,"password":"18062581225","udp":true,"skip-cert-verify":true,"sni":"v2.justmymiss.com"}
   - {"type":"trojan","name":"US+973+TJN","server":"t03.ssrsub.com.xyz","port":443,"password":"640e3ef0-9c44-49a8-98f6-0895b11eecd6","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"US+88+TJN","server":"45.11.92.100","port":8848,"password":"aa12A45bbutassOAm96ahzNlGY","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"US+782+TJN","server":"72.167.45.6","port":443,"password":"28d98f761aca9d636f44db62544628eb","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"US+776+TJN","server":"72.167.45.6","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"US+753+TJN","server":"trus.moonfree.top","port":443,"password":"4863e1b2-ec2f-4c71-b862-ce533028e57e","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"US+741+TJN","server":"ukt-1.opensvr.net","port":443,"password":"opentunnel.net-zdrgvbhjnmhgfx","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"US+727+TJN","server":"music.missionsec.us","port":443,"password":"oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US+504+TJN","server":"fhcamd2.gaox.ml","port":443,"password":"dbf9bf9c-2c3f-474a-8031-d4c00666a989","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"US+4312+TJN","server":"hacks.missionsec.us","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"US+416+TJN","server":"fhcarm1.gaox.ml","port":443,"password":"05742120-ce23-4cc8-88f5-6d221ce45bf4","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US+387+TJN","server":"72.167.45.6","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US+379+TJN","server":"72.167.45.6","port":443,"password":"28d98f761aca9d636f44db62544628eb","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"US+365+TJN","server":"72.167.45.6","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"US+238+TJN","server":"listener.freetrade.link","port":443,"password":"Z9TS0AeB8S5ZlpFNRea3aypDaXISOyzY67xCO33lF4gKq38jw2uDEnDYRCCxAc","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"US+130+TJN","server":"51.81.82.15","port":443,"password":"c2b0a060-44b0-11ed-ad2e-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"us-trojan.bonds.id"}
-  - {"type":"trojan","name":"US+129+TJN","server":"129.146.190.42","port":443,"password":"dbf9bf9c-2c3f-474a-8031-d4c00666a989","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US+364+TJN","server":"trus.moonfree.top","port":443,"password":"4863e1b2-ec2f-4c71-b862-ce533028e57e","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US+258+TJN","server":"listener.freetrade.link","port":443,"password":"Z9TS0AeB8S5ZlpFNRea3aypDaXISOyzY67xCO33lF4gKq38jw2uDEnDYRCCxAc","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US+232+TJN","server":"music.missionsec.us","port":443,"password":"oxcgPpS7rXEGZJ7sQe8BpbQ1LHfIKlDw","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"US+169+TJN","server":"us-trojan.bonds.id","port":443,"password":"ccf1ee40-b4ab-11eb-b421-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"us-trojan.bonds.id"}
+  - {"type":"trojan","name":"US+168+TJN","server":"us-trojan.bonds.id","port":443,"password":"38239dd0-902b-11eb-afc1-1239d0255272","udp":true,"skip-cert-verify":true,"sni":"us-trojan.bonds.id"}
+  - {"type":"trojan","name":"US+121+TJN","server":"51.81.82.15","port":443,"password":"c2b0a060-44b0-11ed-ad2e-1239d0255272","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"United-States+8","server":"hacks.missionsec.us","port":443,"password":"NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ","udp":true,"skip-cert-verify":true,"sni":"hacks.missionsec.us"}
   - {"type":"trojan","name":"United-States+10","server":"music.missionsec.us","port":443,"password":"NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ","udp":true,"skip-cert-verify":true,"sni":"music.missionsec.us"}
+  - {"type":"trojan","name":"United+States+|+08","server":"oss-cn-shanghai.westdatacloud.top","port":20048,"password":"D9821927-C517-BE35-37E5-307412B42936","udp":true,"skip-cert-verify":true,"sni":"v12.kwaicdn.com"}
   - {"type":"trojan","name":"TW+927+TJN","server":"tw-oo-01.click","port":443,"password":"s6rIg1Mkke73fwZU","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"TW+926+TJN","server":"tw-oo-01.click","port":443,"password":"q8uTrVmj95aTrFAa","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"TW+716+TJN","server":"pastry.taiwanesefood.link","port":443,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"Trojan+新加坡SG","server":"sg2.iamnotagoodman.com","port":443,"password":"e680d8cf-07f4-3e06-b29a-06c52b258232","udp":true,"skip-cert-verify":true}
   - {"type":"vmess","name":"TG@hkaa0|中国_11","ws-opts":{"path":"/","headers":{"host":"121.41.86.94"}},"server":"121.41.86.94","port":"5674","uuid":"79ce0633-5bc1-44ab-a47c-119916f2901d","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"trojan","name":"TG@hkaa0|加拿大_2","server":"149.56.141.11","port":443,"password":"8b6daf15-8342-482d-b894-1239fd98ce7f","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"Taiwan","server":"pastry.taiwanesefood.link","port":443,"password":"NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ","udp":true,"skip-cert-verify":true,"sni":"pastry.taiwanesefood.link"}
   - {"type":"trojan","name":"SG+90+TJN","server":"sg-relay.iqyun.zone","port":443,"password":"fbb2cc06-b018-4ad0-bb27-baa4a834807f","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG+733+TJN","server":"184.168.127.50","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG+730+TJN","server":"www.anloao.cf","port":9053,"password":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG+570+TJN","server":"hk31.ssgnode.ga","port":443,"password":"41742_920c8caa","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG+466+TJN","server":"5.44.249.43","port":3389,"password":"6f0a9d0fa39d65fa","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG+464+TJN","server":"5.44.249.43","port":3389,"password":"ca4596fb9bc63cf2","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG+463+TJN","server":"5.44.249.43","port":3389,"password":"9a27800ca7b52ee0","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG+462+TJN","server":"5.44.249.43","port":3389,"password":"d66013c645b93c5c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG+461+TJN","server":"5.44.249.43","port":3389,"password":"ffec9f6ea19e1dd1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG+460+TJN","server":"5.44.249.43","port":3389,"password":"711aabc21e45ae31","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG+459+TJN","server":"5.44.249.43","port":3389,"password":"cd39f62aed7b90f6","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG+417+TJN","server":"w11.udpgw.com","port":443,"password":"f64e69c0-e7b7-11ec-ab81-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG+374+TJN","server":"trojan1.udpgw.com","port":443,"password":"affae2e0-e84b-11ec-b09f-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+401+TJN","server":"5.44.249.43","port":3389,"password":"cd39f62aed7b90f6","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+399+TJN","server":"5.44.249.43","port":3389,"password":"ca4596fb9bc63cf2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+398+TJN","server":"5.44.249.43","port":3389,"password":"9a27800ca7b52ee0","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+397+TJN","server":"5.44.249.43","port":3389,"password":"d66013c645b93c5c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+396+TJN","server":"5.44.249.43","port":3389,"password":"ffec9f6ea19e1dd1","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+395+TJN","server":"5.44.249.43","port":3389,"password":"711aabc21e45ae31","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+394+TJN","server":"5.44.249.43","port":3389,"password":"6f0a9d0fa39d65fa","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+349+TJN","server":"w11.udpgw.com","port":443,"password":"f64e69c0-e7b7-11ec-ab81-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+260+TJN","server":"184.168.127.50","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+257+TJN","server":"www.anloao.cf","port":9053,"password":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"SG+246+TJN","server":"184.168.127.50","port":443,"password":"28d98f761aca9d636f44db62544628eb","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG+233+TJN","server":"singapore.anthoncloud.com","port":3306,"password":"6589ce99-9ff7-3c1b-a744-ca3f4abfe386","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"SG+229+TJN","server":"184.168.127.50","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG+2279+TJN","server":"81.90.189.85","port":443,"password":"28d98f761aca9d636f44db62544628eb","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG+205+TJN","server":"w12.udpgw.com","port":443,"password":"08964210-e7b8-11ec-95aa-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"SG+204+TJN","server":"trojan3.udpgw.com","port":443,"password":"8db1b560-019d-11ed-8bdf-1239d0255272","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"SG+222+TJN","server":"hk31.ssgnode.ga","port":443,"password":"41742_920c8caa","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"NL+233+TJN","server":"185.212.200.75","port":443,"password":"Sp3eDVp","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"NL+130+TJN","server":"content-provider23.cdn-delivery.akamaicd.com","port":443,"password":"Sp3eDVp","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
   - {"type":"trojan","name":"NL+129+TJN","server":"content-provider24.cdn-delivery.akamaicd.com","port":443,"password":"Sp3eDVp","udp":true,"skip-cert-verify":true,"sni":"ip153740813.mobgslb.tbcache.com"}
-  - {"type":"trojan","name":"KR+90+TJN","server":"kr1.api-aws.com","port":443,"password":"d66dccd1-90c1-4713-8972-2417a2854df2","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"KR+80+TJN","server":"kr1.api-aws.com","port":443,"password":"a153fb4e-6d1b-4db0-b03d-acb4012b7198","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+79+TJN","server":"kr1.api-aws.com","port":443,"password":"65f7378f-edb8-4f5d-913a-641ecd853cea","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+738+TJN","server":"kr1.api-aws.com","port":443,"password":"374e524b-834f-4764-93d2-64f9f734f596","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+732+TJN","server":"kr1.api-aws.com","port":443,"password":"1a74fd5e-50dc-43d2-8119-4bce566d784e","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+73+TJN","server":"kr1.api-aws.com","port":443,"password":"10f81a15-c7c8-473b-a12a-a09f098b6236","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+728+TJN","server":"kr1.api-aws.com","port":443,"password":"205f8ab6-cb17-4480-93a6-aece90b88742","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+474+TJN","server":"kr1.api-aws.com","port":443,"password":"edeb6377-0d40-483b-869a-8b3be9d74850","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+433+TJN","server":"kr1.api-aws.com","port":443,"password":"036ba5aa-fcb7-4e6f-95b5-a857cb354aa8","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+413+TJN","server":"kr1.api-aws.com","port":443,"password":"b70b2ed8-6d35-4fe0-8ae7-4e8fa45ff326","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+387+TJN","server":"138.2.113.84","port":443,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+261+TJN","server":"jgw4.gaox.ml","port":443,"password":"b7e0e71f-070c-437a-9826-6e23caeb0307","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+239+TJN","server":"144.24.72.126","port":443,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+226+TJN","server":"jgw3.gaox.ml","port":443,"password":"a1718180-d616-4b71-9bb6-3e96ba20f921","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+221+TJN","server":"kr1.api-aws.com","port":443,"password":"80b07539-c253-4526-8a80-424708ff2ced","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+200+TJN","server":"kr1.api-aws.com","port":443,"password":"2e4c54a0-a780-4994-97c0-44eb92857d76","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+196+TJN","server":"kr1.api-aws.com","port":443,"password":"7e92d33f-6917-4c69-8eca-7fe80be58199","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+195+TJN","server":"kr1.api-aws.com","port":443,"password":"33073a7c-e6d5-4271-9b19-4416afcc25b5","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+192+TJN","server":"kr1.api-aws.com","port":443,"password":"8c20177e-d245-4ec6-9610-34c20500d10b","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+191+TJN","server":"kr1.api-aws.com","port":443,"password":"6c383778-a50e-4292-8e2b-13b4184363e0","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+168+TJN","server":"jgwcc1.gaox.ml","port":443,"password":"7118b5f4-0ea4-4c11-be7f-11471cb91e4a","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+150+TJN","server":"kr1.api-aws.com","port":443,"password":"23103894-eec7-4de1-a05a-c2e11e351287","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+66+TJN","server":"kr1.api-aws.com","port":443,"password":"5491534e-00b5-42ff-853a-723997aadbdb","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+63+TJN","server":"kr1.api-aws.com","port":443,"password":"3753719b-eb37-4f34-ab60-ae3a70486b27","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+506+TJN","server":"146.56.189.146","port":443,"password":"f2117e99-9b6e-47fd-b0a9-634a0b15b998","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+465+TJN","server":"kr1.api-aws.com","port":443,"password":"33073a7c-e6d5-4271-9b19-4416afcc25b5","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+460+TJN","server":"kr1.api-aws.com","port":443,"password":"d30afdba-ca55-463a-b26e-27080698a2a6","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+455+TJN","server":"kr1.api-aws.com","port":443,"password":"f2239c58-4684-4747-8985-fbca693f352b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+426+TJN","server":"kr1.api-aws.com","port":443,"password":"7f9e51b9-928e-4076-b075-ba7577c36443","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+369+TJN","server":"kr1.api-aws.com","port":443,"password":"374e524b-834f-4764-93d2-64f9f734f596","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+368+TJN","server":"kr1.api-aws.com","port":443,"password":"10f81a15-c7c8-473b-a12a-a09f098b6236","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+362+TJN","server":"kr1.api-aws.com","port":443,"password":"1a74fd5e-50dc-43d2-8119-4bce566d784e","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+352+TJN","server":"kr1.api-aws.com","port":443,"password":"84773125-8f79-481c-a80b-e1f4aad86850","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+298+TJN","server":"kr1.api-aws.com","port":443,"password":"23103894-eec7-4de1-a05a-c2e11e351287","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+296+TJN","server":"kr1.api-aws.com","port":443,"password":"36443c4f-4487-48a6-8438-57bd7700b916","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+294+TJN","server":"kr1.api-aws.com","port":443,"password":"0d8285f8-33da-4076-bb24-d498bd83f2f9","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+293+TJN","server":"kr1.api-aws.com","port":443,"password":"aa7d24e0-b60c-44bb-bcd1-8b74a297cdbc","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+292+TJN","server":"kr1.api-aws.com","port":443,"password":"ca3a57c6-9bb5-4d19-876d-4552de4bb959","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+290+TJN","server":"kr1.api-aws.com","port":443,"password":"96e08c45-762a-48d2-8b65-0088c3c5e3d4","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+289+TJN","server":"kr1.api-aws.com","port":443,"password":"7c953fab-2d79-4320-b208-59e07b6033fd","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+287+TJN","server":"kr1.api-aws.com","port":443,"password":"cbd08acf-2d47-4065-aafa-4201e5307f67","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+276+TJN","server":"kr1.api-aws.com","port":443,"password":"da647e58-8f85-450f-b123-568c492c297c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+245+TJN","server":"jgw4.gaox.ml","port":443,"password":"b7e0e71f-070c-437a-9826-6e23caeb0307","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+231+TJN","server":"kr1.api-aws.com","port":443,"password":"ec129ab2-3c89-4e25-8b97-aee479ac06f1","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+218+TJN","server":"kr1.api-aws.com","port":443,"password":"1bacde9b-3a1a-43eb-b091-287824dc91d3","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+211+TJN","server":"jgw3.gaox.ml","port":443,"password":"a1718180-d616-4b71-9bb6-3e96ba20f921","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+204+TJN","server":"kr1.api-aws.com","port":443,"password":"61f6271b-5e65-46b8-bc80-c6468a1f185e","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+164+TJN","server":"kr1.api-aws.com","port":443,"password":"2e4c54a0-a780-4994-97c0-44eb92857d76","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+160+TJN","server":"kr1.api-aws.com","port":443,"password":"edeb6377-0d40-483b-869a-8b3be9d74850","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+159+TJN","server":"kr1.api-aws.com","port":443,"password":"db9b6698-f01c-4fe1-93ca-d752c956c2d3","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+158+TJN","server":"kr1.api-aws.com","port":443,"password":"036ba5aa-fcb7-4e6f-95b5-a857cb354aa8","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+157+TJN","server":"kr1.api-aws.com","port":443,"password":"dc26913c-a31c-4b3f-9c03-28a6b4283a89","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+147+TJN","server":"kr1.api-aws.com","port":443,"password":"205f8ab6-cb17-4480-93a6-aece90b88742","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+146+TJN","server":"kr1.api-aws.com","port":443,"password":"98a68cfb-42c6-4498-ac6e-7e5c203924a7","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"KR+141+TJN","server":"kr1.api-aws.com","port":443,"password":"88452dfb-fad4-44b2-b8a1-d230d145848c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+134+TJN","server":"kr1.api-aws.com","port":443,"password":"db9b6698-f01c-4fe1-93ca-d752c956c2d3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"KR+123+TJN","server":"kr1.api-aws.com","port":443,"password":"881091b5-4172-4329-a0e7-17fca1e72292","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+111+TJN","server":"kr1.api-aws.com","port":443,"password":"3f087c04-44e6-4c96-a917-ca974de1212b","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"KR+105+TJN","server":"kr1.api-aws.com","port":443,"password":"d30afdba-ca55-463a-b26e-27080698a2a6","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+99+TJN","server":"jp.iamnotagoodman.com","port":443,"password":"2ac7fc8a-68b5-4809-8bd2-73a593bae292","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"KR+101+TJN","server":"138.2.113.84","port":443,"password":"b291d129-ee55-4801-a9b8-b5316e5c37b7","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+89+TJN","server":"sunmoon02.abzoones.xyz","port":36306,"password":"1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+78+TJN","server":"fujimount02.abzoones.xyz","port":36106,"password":"1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+752+TJN","server":"jp.useanlo.cf","port":6523,"password":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+71+TJN","server":"qt26.shenseven.xyz","port":443,"password":"107b0481-8181-47cc-9324-a178047cd8e4","udp":true,"skip-cert-verify":true,"sni":"qt26.shenseven.xyz"}
-  - {"type":"trojan","name":"JP+691+TJN","server":"www.tokyo2023.ga","port":443,"password":"4f7dc540-d244-4e64-af21-4b5bb300add3","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+684+TJN","server":"45.66.134.219","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+680+TJN","server":"45.66.134.219","port":443,"password":"28d98f761aca9d636f44db62544628eb","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+659+TJN","server":"45.66.134.219","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+654+TJN","server":"106.180.225.69","port":1443,"password":"7x42LetRa0","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+41+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"7166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+40+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"61c52680-e4b9-46f8-9854-a45d6e5859a1","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+39+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"3c12fbaf-341b-4715-b2ed-6294f6f735d2","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+276+TJN","server":"jgwdb3.gaox.ml","port":443,"password":"8d2d5953-d649-4034-94f2-72f2df2623da","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+37+TJN","server":"tky3.ssgnode.ga","port":443,"password":"23115_5a451f03","udp":true,"skip-cert-verify":true,"sni":"tky3.ssgnode.ga"}
+  - {"type":"trojan","name":"JP+35+TJN","server":"tky3.ssgnode.ga","port":443,"password":"bcYWVzLTI1Ni1nY206Q1VuZFNabll23115_5a451f03","udp":true,"skip-cert-verify":true,"sni":"tky3.ssgnode.ga"}
+  - {"type":"trojan","name":"JP+243+TJN","server":"jp.useanlo.cf","port":6523,"password":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+240+TJN","server":"jp.useanlo.cf","port":6523,"password":"77065fa6-b38e-302c-beea-4b047967af01","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+235+TJN","server":"share.softbank.mjj-home.com","port":443,"password":"share.mjj-home.com","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+214+TJN","server":"www.tokyo2023.ga","port":443,"password":"4f7dc540-d244-4e64-af21-4b5bb300add3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+212+TJN","server":"www.cjf0423.cf","port":443,"password":"111111","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+208+TJN","server":"45.66.134.219","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+201+TJN","server":"45.66.134.219","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+200+TJN","server":"45.66.134.219","port":443,"password":"28d98f761aca9d636f44db62544628eb","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+199+TJN","server":"106.180.225.69","port":1443,"password":"7x42LetRa0","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+198+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"74d856d1-1023-4d31-8609-1491ca4fab59","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+195+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"c6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+194+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"c6","udp":true,"skip-cert-verify":true}
@@ -150,46 +144,34 @@ proxies:
   - {"type":"trojan","name":"JP+178+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+169+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"bcdbc2d8-cc0a-4760-b61b-d2c9771dfe86","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+168+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"bf3a94d3-f87b-44b5-a116-ebf8cb175a8c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+162+TJN","server":"54.178.46.155","port":43857,"password":"P9qGW38zz7","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+157+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+146+TJN","server":"168.138.44.176","port":443,"password":"8d2d5953-d649-4034-94f2-72f2df2623da","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+143+TJN","server":"bauhinia01.abzoones.xyz","port":36701,"password":"a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+138+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"d7","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+137+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"d7","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+134+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"84796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"JP+132+TJN","server":"trs11.bolab.net","port":443,"password":"7a566d21dfcd0f12490275fd3dd3cfc4","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+129+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"003dd06f-f1fd-43bd-9c89-00fd31d742b1","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+128+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"003dd06f-f1fd-43bd-9c89-00fd31d742b1","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+124+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"8655e4b1-f4c4-40e1-a93c-555ae5b47fbe","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+123+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"8655e4b1-f4c4-40e1-a93c-555ae5b47fbe","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+120+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"b054d1bf-6f82-48a9-ac28-537f6f606721","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"JP+110+TJN","server":"jp.iamnotagoodman.com","port":443,"password":"2ac7fc8a-68b5-4809-8bd2-73a593bae292","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+103+TJN","server":"hgc.iamnotagoodman.com","port":443,"password":"2ac7fc8a-68b5-4809-8bd2-73a593bae292","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"JP+102+TJN","server":"lux.iamnotagoodman.com","port":443,"password":"2ac7fc8a-68b5-4809-8bd2-73a593bae292","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"HK+98+TJN","server":"45.11.104.94","port":3389,"password":"d4e41ff772c7fd45","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"HK+190+TJN","server":"hk-gz-hk-hkt-tr-b.cdn.savoy.click","port":889,"password":"kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"HK+197+TJN","server":"hk-gz-hk-hkt-tr-b.cdn.savoy.click","port":889,"password":"kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"HK+134+TJN","server":"45.11.104.94","port":3389,"password":"d02058f4f819dced","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"HK+115+TJN","server":"hk-satellite.iqyun.zone","port":12225,"password":"fbb2cc06-b018-4ad0-bb27-baa4a834807f","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"github.com/freefq-美国Microsoft数据中心41","ws-opts":{"path":"/v2ray","headers":{"host":"paopao.v2.hk07.paopaocloud.cyou"}},"server":"az.hk01.paopaocloud.cyou","port":"10011","uuid":"d8c5b486-84bb-3887-a1d9-07455ea608f2","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"GetAFreeNode-Vienna","server":"91.243.82.187","port":"20005","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"GetAFreeNode-Moscow","server":"91.243.82.187","port":"20003","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"vmess","name":"GetAFreeNode-Amsterdam","server":"91.243.82.187","port":"20001","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
-  - {"type":"trojan","name":"GB+410+TJN","server":"content-provider13.cdn-delivery.akamaicd.com","port":443,"password":"Sp3eDVp","udp":true,"skip-cert-verify":true,"sni":"hk2.plxs-u95s-h62a-xs1f.paolu.pics"}
-  - {"type":"trojan","name":"GB+405+TJN","server":"content-provider22.cdn-delivery.akamaicd.com","port":443,"password":"shefelnak","udp":true,"skip-cert-verify":true,"sni":"jp2-5s4d-sjf9-xaf1-sl99.paolu.pics"}
-  - {"type":"trojan","name":"GB+401+TJN","server":"content-provider3.cdn-delivery.akamaicd.com","port":443,"password":"shefelnak","udp":true,"skip-cert-verify":true,"sni":"jp.iamnotagoodman.com"}
+  - {"type":"trojan","name":"HK+122+TJN","server":"45.11.104.94","port":3389,"password":"d4e41ff772c7fd45","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"GB+55+TJN","server":"jgwld1.gaox.ml","port":443,"password":"02e653c9-7c93-46a9-999d-11834bd0c577","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"GB+400+TJN","server":"content-provider4.cdn-delivery.akamaicd.com","port":443,"password":"shefelnak","udp":true,"skip-cert-verify":true,"sni":"trs04.bolab.net"}
-  - {"type":"trojan","name":"GB+255+TJN","server":"132.145.51.172","port":443,"password":"02e653c9-7c93-46a9-999d-11834bd0c577","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"GB+189+TJN","server":"jgwld1.gaox.ml","port":443,"password":"02e653c9-7c93-46a9-999d-11834bd0c577","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"GB+140+TJN","server":"content-provider20.cdn-delivery.akamaicd.com","port":443,"password":"shefelnak","udp":true,"skip-cert-verify":true,"sni":"kr1.api-aws.com"}
+  - {"type":"trojan","name":"GB+228+TJN","server":"uk-do.cloudfast.one","port":443,"password":"efd30354-baf5-4508-afa0-91ef8e59c5ec","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"games.missionsec.us:443","server":"games.missionsec.us","port":443,"password":"NnvKNoUu3uaud9Sp6ugzYvX92bwr6emJ","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"FR+399+TJN","server":"content-provider12.cdn-delivery.akamaicd.com","port":443,"password":"origin","udp":true,"skip-cert-verify":true,"sni":"ip153740813.mobgslb.tbcache.com"}
-  - {"type":"trojan","name":"FR+126+TJN","server":"content-provider6.cdn-delivery.akamaicd.com","port":443,"password":"Sp3eDVp","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
+  - {"type":"trojan","name":"FR+145+TJN","server":"51.77.71.131","port":443,"password":"Sp3eDVp","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"FR+124+TJN","server":"content-provider26.cdn-delivery.akamaicd.com","port":443,"password":"origin","udp":true,"skip-cert-verify":true,"sni":"hk2.plxs-u95s-h62a-xs1f.paolu.pics"}
   - {"type":"trojan","name":"FR+123+TJN","server":"content-provider5.cdn-delivery.akamaicd.com","port":443,"password":"Sp3eDVp","udp":true,"skip-cert-verify":true,"sni":"ip153740813.mobgslb.tbcache.com"}
-  - {"type":"trojan","name":"FR+116+TJN","server":"ukt1.sshocean.net","port":443,"password":"0f5e6d9a-49af-4bc0-b04b-503102382144","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"FR+1039+TJN","server":"ukt-2.opensvr.net","port":443,"password":"opentunnel.net-rw8uuv207taq","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"EE+41+TJN","server":"hk-tj.superyuluo.asia","port":30002,"password":"7b30dbe2-5fd9-4f87-a733-facef379632b","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"DE+407+TJN","server":"content-provider28.cdn-delivery.akamaicd.com","port":443,"password":"origin","udp":true,"skip-cert-verify":true,"sni":"sg3-xhsa-45as-92js-ht8s.paolu.pics"}
-  - {"type":"trojan","name":"DE+125+TJN","server":"content-provider29.cdn-delivery.akamaicd.com","port":443,"password":"origin","udp":true,"skip-cert-verify":true,"sni":"1009jp.tfzhc.top"}
   - {"type":"trojan","name":"CZ【付费推荐：gvip.gq】","server":"cz.v212.fun","port":443,"password":"9c7a49a2-ddff-4654-925b-baa7913dbc56","udp":true,"skip-cert-verify":true,"sni":"cz.v212.fun"}
+  - {"type":"trojan","name":"CZ+437+TJN","server":"185.253.47.79","port":443,"password":"ZD4dLSBXiMrmzdLd","udp":true,"skip-cert-verify":true}
   - {"type":"ss","name":"CN+99+SSS","server":"14.29.124.168","port":25222,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"ss","name":"CN+98+SSS","server":"14.29.124.168","port":25280,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"ss","name":"CN+97+SSS","server":"14.29.124.168","port":25254,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
@@ -197,7 +179,6 @@ proxies:
   - {"type":"ss","name":"CN+925+SSS","server":"14.29.124.168","port":25283,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"ss","name":"CN+91+SSS","server":"14.29.124.168","port":25268,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"ss","name":"CN+90+SSS","server":"14.29.124.168","port":25251,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN+897+SSS","server":"14.29.124.174","port":11035,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"ss","name":"CN+88+SSS","server":"14.29.124.168","port":25279,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"ss","name":"CN+87+SSS","server":"14.29.124.168","port":25241,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"ss","name":"CN+85+SSS","server":"14.29.124.168","port":25271,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
@@ -228,7 +209,7 @@ proxies:
   - {"type":"ss","name":"CN+103+SSS","server":"14.29.124.168","port":25210,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"ss","name":"CN+102+SSS","server":"14.29.124.168","port":25245,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"ss","name":"CN+101+SSS","server":"14.29.124.168","port":25267,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN+100+SSS_1","server":"14.29.124.168","port":25207,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"CN+100+SSS","server":"14.29.124.168","port":25207,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"trojan","name":"CN【付费推荐：gvip.gq】+31","server":"bauhinia02.abzoones.xyz","port":36606,"password":"1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb","udp":true,"skip-cert-verify":true,"sni":"bauhinia02.abzoones.xyz"}
   - {"type":"trojan","name":"CN+996+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"dc83cc1e-7c9f-4e5f-ab73-d7f1520c3cd7","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+995+TJN","server":"bauhinia01.abzoones.xyz","port":36701,"password":"dc83cc1e-7c9f-4e5f-ab73-d7f1520c3cd7","udp":true,"skip-cert-verify":true}
@@ -240,19 +221,14 @@ proxies:
   - {"type":"trojan","name":"CN+981+TJN","server":"bauhinia01.abzoones.xyz","port":36601,"password":"bf3a94d3-f87b-44b5-a116-ebf8cb175a8c","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+980+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"bf3a94d3-f87b-44b5-a116-ebf8cb175a8c","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+974+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"bf3a94d3-f87b-44b5-a116-ebf8cb175a8c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+92+TJN","server":"14.215.107.16","port":17003,"password":"LcsTs0","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+914+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+913+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"b9b55277-010a-48de-8ad9-0fa1bb7de676","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+908+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+906+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"1b5eff5a-f36b-4149-8001-7c8c0c4ed21b5eff5a-f36b-4149-8001-7c8c0c4ed2eb","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+905+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"b054d1bf-6f82-48a9-ac28-537f6f606721b054d1bf-6f82-48a9-ac28-537f6f606721","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+90+TJN","server":"14.215.107.22","port":10443,"password":"289xWT","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"CN+899+SSS","server":"14.29.124.174","port":11044,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"trojan","name":"CN+896+TJN","server":"ygzyd.sub-nthu.com","port":35002,"password":"87d5ee80-9dfa-4cb5-b644-062803bd0c19","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+894+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"b9b55277-010a-48de-8ad9b9b55277-010a-48de-8ad9-0fa1bb7de676","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"CN+891+SSS","server":"14.29.124.174","port":11034,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"trojan","name":"CN+890+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"9771dfe86","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+89+TJN","server":"116.129.253.134","port":3381,"password":"6222266fcd4ed224","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+889+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"dc83cc1e-7c9f-4e5f-ab73-d7f1520c3cdc83cc1e-7c9f-4e5f-ab73-d7f1520c3cd7","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+888+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"bcdbc2d8-cc0a-4760-b61b-d2c9771dfbcdbc2d8-cc0a-4760-b61b-d2c9771dfe86","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+887+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"84796b86-42cb-4b3f84796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
@@ -261,75 +237,68 @@ proxies:
   - {"type":"trojan","name":"CN+882+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"74d856d1-1023-4d31-8609-14974d856d1-1023-4d31-8609-1491ca4fab59","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+881+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"d06f-f1fd-43bd-9c89-00fd31d742b1","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+880+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"d06f-f1fd-43bd-9c89-00fd31d742b1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+87+TJN","server":"14.215.107.16","port":17002,"password":"eJ8cHw","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+866+TJN","server":"fujimount01.abzoones.xyz","port":36116,"password":"1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+864+TJN","server":"sunmoon01.abzoones.xyz","port":36301,"password":"1b5eff5a-f36b-4149-8001-7c8c0c4ed2eb","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+862+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"b9b55277-010a-48de-b9b55277-010a-48de-8ad9-0fa1bb7de676","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+861+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"7166e17c7166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+85+TJN","server":"14.215.107.23","port":28130,"password":"289xWT","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+76+TJN","server":"14.215.107.16","port":28123,"password":"ZdvXEG","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+755+TJN","server":"ygzyd.sub-nthu.com","port":35000,"password":"eda8a8e5-1076-4d7b-b1d0-5003a0350073","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+709+TJN","server":"14.215.107.16","port":28162,"password":"m3aIAW","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+68+TJN","server":"14.215.107.16","port":28136,"password":"289xWT","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+67+TJN","server":"14.215.107.16","port":17002,"password":"PGp7fn","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+66+TJN","server":"14.215.107.22","port":10443,"password":"eJ8cHw","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+64+TJN","server":"14.215.107.16","port":28119,"password":"289xWT","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+628+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"7166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+627+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"7166e17c-286a-4aca-8383-2507166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+626+TJN","server":"bauhinia01.abzoones.xyz","port":36611,"password":"7166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+624+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"7166e177166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+622+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"7166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+593+TJN","server":"139.227.182.124","port":12851,"password":"yQAgQC","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+589+TJN","server":"139.227.182.124","port":28158,"password":"M469de9d","udp":true,"skip-cert-verify":true,"sni":"if2d.ft3.us"}
   - {"type":"ss","name":"CN+581+SSS","server":"180.101.193.226","port":10068,"cipher":"aes-256-cfb","password":"RsDk3peCSuo76B68"}
-  - {"type":"trojan","name":"CN+58+TJN","server":"14.215.107.16","port":28162,"password":"289xWT","udp":true,"skip-cert-verify":true}
   - {"type":"ss","name":"CN+579+SSS","server":"14.29.124.174","port":11043,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN+559+SSS","server":"14.29.124.174","port":11050,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"trojan","name":"CN+53+TJN","server":"14.215.107.16","port":28114,"password":"PGp7fn","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+51+TJN_1","server":"14.215.107.16","port":17003,"password":"289xWT","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+51+TJN_2","server":"14.215.107.23","port":28179,"password":"289xWT","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+50+TJN","server":"14.215.107.23","port":28179,"password":"PGp7fn","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+49+TJN","server":"14.215.107.23","port":28120,"password":"PGp7fn","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+48+TJN","server":"14.215.107.16","port":28118,"password":"PGp7fn","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+56+TJN","server":"14.215.107.22","port":10443,"password":"eJ8cHw","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"CN+519+SSS","server":"14.29.124.168","port":24000,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"CN+496+SSS","server":"14.29.124.174","port":11034,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"CN+489+SSS","server":"14.29.124.174","port":11038,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"ss","name":"CN+479+SSS","server":"14.29.124.174","port":11036,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"trojan","name":"CN+47+TJN","server":"14.215.107.23","port":28123,"password":"289xWT","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+46+TJN","server":"14.215.107.23","port":28136,"password":"PGp7fn","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+454+TJN","server":"116.129.253.134","port":3385,"password":"9a27800ca7b52ee0","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+4401+TJN","server":"117.164.185.220","port":61001,"password":"ec3d404b-e7de-44d7-a646-c6b52bdb148c","udp":true,"skip-cert-verify":true,"sni":"103-135-251-39.nhost.00cdn.com"}
-  - {"type":"trojan","name":"CN+42+TJN","server":"116.129.253.134","port":3381,"password":"d02058f4f819dced","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"CN+37+SSS","server":"14.29.124.174","port":11009,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"trojan","name":"CN+360+TJN","server":"116.129.253.191","port":3389,"password":"d66013c645b93c5c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+356+TJN","server":"116.129.253.245","port":3389,"password":"9a27800ca7b52ee0","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+355+TJN","server":"116.129.253.191","port":3389,"password":"9a27800ca7b52ee0","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+353+TJN","server":"116.129.253.201","port":3389,"password":"f6f2072a2e4cfc91","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+44+TJN","server":"14.215.107.22","port":10443,"password":"289xWT","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"CN+37+SSS","server":"14.29.124.174","port":11044,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"CN+36+SSS","server":"14.29.124.174","port":11009,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"ss","name":"CN+35+SSS","server":"14.29.124.174","port":11020,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"trojan","name":"CN+344+TJN","server":"116.129.253.201","port":3389,"password":"a170b44c2dfac9e6","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+329+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"8655e4b1-f4c4-40e1-a93c-555ae5b47fbe","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+341+TJN","server":"116.129.253.245","port":3389,"password":"9a27800ca7b52ee0","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+336+TJN","server":"116.129.253.134","port":3389,"password":"9a27800ca7b52ee0","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+335+TJN","server":"116.129.253.245","port":3389,"password":"d66013c645b93c5c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+333+TJN","server":"116.129.253.245","port":3389,"password":"f6f2072a2e4cfc91","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+332+TJN","server":"116.129.253.245","port":3389,"password":"ca4596fb9bc63cf2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+331+TJN","server":"116.129.253.134","port":3389,"password":"ca4596fb9bc63cf2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+329+TJN_1","server":"116.129.253.134","port":3386,"password":"d66013c645b93c5c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+329+TJN_2","server":"bauhinia01.abzoones.xyz","port":36301,"password":"8655e4b1-f4c4-40e1-a93c-555ae5b47fbe","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+327+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"8c0c4ed2eb","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+326+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"ef221ae8-43b2-4fdf-9b52-d0783822ca33","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+324+TJN","server":"bauhinia01.abzoones.xyz","port":36701,"password":"8c0c4ed2eb","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+323+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"dc83cc1e-7c9f-4e5f-ab73-d7f1520c3cd7","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+326+TJN_1","server":"bauhinia01.abzoones.xyz","port":36501,"password":"ef221ae8-43b2-4fdf-9b52-d0783822ca33","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+326+TJN_2","server":"116.129.253.134","port":3389,"password":"d66013c645b93c5c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+324+TJN_1","server":"bauhinia01.abzoones.xyz","port":36701,"password":"8c0c4ed2eb","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+324+TJN_2","server":"116.129.253.134","port":3386,"password":"ca4596fb9bc63cf2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+323+TJN_1","server":"116.129.253.134","port":3386,"password":"9a27800ca7b52ee0","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+323+TJN_2","server":"bauhinia01.abzoones.xyz","port":36116,"password":"dc83cc1e-7c9f-4e5f-ab73-d7f1520c3cd7","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+322+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"bcdbc2d8-cc0a-4760-b6bcdbc2d8-cc0a-4760-b61b-d2c9771dfe86","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+321+TJN","server":"bauhinia01.abzoones.xyz","port":36601,"password":"74d856d1-1023-4d31-8609-1491ca4fab59","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+321+TJN_1","server":"bauhinia01.abzoones.xyz","port":36601,"password":"74d856d1-1023-4d31-8609-1491ca4fab59","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+321+TJN_2","server":"116.129.253.134","port":3389,"password":"e37c6d7efa845d60","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+320+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"74d856d74d856d1-1023-4d31-8609-1491ca4fab59","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+319+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"74d856d1-1023-4d31-8609-1491ca4fab59","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+316+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"74d856d1-1023-4d31-8609-1491ca4fab59","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+315+TJN","server":"bauhinia01.abzoones.xyz","port":36701,"password":"74d856d1-1023-4d31-8609-1491ca4fab59","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+314+TJN_1","server":"bauhinia01.abzoones.xyz","port":36116,"password":"84796b86-42cb-84796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+314+TJN_2","server":"116.129.253.191","port":3389,"password":"ca4596fb9bc63cf2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+314+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"84796b86-42cb-84796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+313+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"c6","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+312+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"c6","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+312+TJN_1","server":"116.129.253.134","port":3385,"password":"ca4596fb9bc63cf2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+312+TJN_2","server":"bauhinia01.abzoones.xyz","port":36301,"password":"c6","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+308+TJN","server":"116.129.253.191","port":3389,"password":"e37c6d7efa845d60","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+307+TJN","server":"bauhinia01.abzoones.xyz","port":36601,"password":"ef221ae8-43b2-4fdf-9b52-d0783822ca33","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+306+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"ef221ae8-43b2-4fdf-9b52-d0783822ca33","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+305+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"ef221ae8-43b2-4fdf-9b52-d0783822ca33","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+304+TJN","server":"116.129.253.191","port":3389,"password":"e37c6d7efa845d60","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+304+TJN","server":"116.129.253.201","port":3389,"password":"a170b44c2dfac9e6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+303+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"ef221ae8-43b2-4fdf-9b52-d0783822ca33","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+302+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"8655e4b1-f4c4-40e1-a93c-555ae5b47fbe","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+301+TJN","server":"bauhinia01.abzoones.xyz","port":36601,"password":"b054d1bf-6f82-48a9-ac28-537f6f606721","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+3+→+openitsub.com","server":"139.227.182.124","port":28158,"password":"M288fab2","udp":true,"skip-cert-verify":true,"sni":"if2d.ft3.us"}
+  - {"type":"trojan","name":"CN+300+TJN","server":"116.129.253.177","port":3389,"password":"e37c6d7efa845d60","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+299+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"b054d1bf-6f82-48a9-ac28-537f6f606721","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+298+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"313a0a4e-5398-422f-b2c1-8dbc0469645d","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+297+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"313a0a4e-5398-422f-b2c1-8dbc0469645d","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+298+TJN_1","server":"116.129.253.134","port":3385,"password":"9a27800ca7b52ee0","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+298+TJN_2","server":"bauhinia01.abzoones.xyz","port":36116,"password":"313a0a4e-5398-422f-b2c1-8dbc0469645d","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+297+TJN_1","server":"bauhinia01.abzoones.xyz","port":36301,"password":"313a0a4e-5398-422f-b2c1-8dbc0469645d","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+297+TJN_2","server":"116.129.253.134","port":3385,"password":"d66013c645b93c5c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+295+TJN","server":"116.129.253.201","port":3389,"password":"f6f2072a2e4cfc91","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+293+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"bcdbc2d8-cc0a-4760-b61b-d2c9771dfe86","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+290+TJN","server":"bauhinia01.abzoones.xyz","port":36601,"password":"dc83cc1e-7c9f-4e5f-ab73-d7f1520c3cd7","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+289+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"8c0c4ed2eb","udp":true,"skip-cert-verify":true}
@@ -348,33 +317,45 @@ proxies:
   - {"type":"trojan","name":"CN+273+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"3c12fbaf-341b-4715-b2ed-6294f6f7353c12fbaf-341b-4715-b2ed-6294f6f735d2","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+272+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"003dd06f-f1fd-003dd06f-f1fd-43bd-9c89-00fd31d742b1","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+271+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"84796b86-42cb-4b3f-a42b-d74c84796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"CN+271+SSS","server":"14.29.124.174","port":11008,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"trojan","name":"CN+270+TJN","server":"bauhinia01.abzoones.xyz","port":36701,"password":"d7","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"CN+270+SSS","server":"14.29.124.174","port":11019,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"CN+268+SSS","server":"14.29.124.174","port":11015,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"CN+268+SSS","server":"14.29.124.174","port":11050,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"CN+267+SSS","server":"14.29.124.174","port":11011,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"CN+261+SSS","server":"14.29.124.174","port":11004,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"trojan","name":"CN+259+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"d7","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"CN+259+SSS","server":"14.29.124.174","port":11003,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"trojan","name":"CN+258+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"84796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+255+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"d7","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+252+TJN","server":"117.164.185.222","port":11002,"password":"623e1900-473d-4b72-8d6b-c3a2e3223e3e","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"CN+252+SSS","server":"14.29.124.174","port":11015,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"trojan","name":"CN+251+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"8655e4b1-f4c4-40e1-a93c-555ae5b47fbe","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"CN+251+SSS","server":"14.29.124.174","port":11035,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
   - {"type":"trojan","name":"CN+250+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"84796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+248+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"84796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+247+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"84796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+246+TJN","server":"bauhinia01.abzoones.xyz","port":36701,"password":"84796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"CN+248+SSS","server":"14.29.124.174","port":11019,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"trojan","name":"CN+247+TJN_1","server":"bauhinia01.abzoones.xyz","port":36501,"password":"84796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+247+TJN_2","server":"112.6.212.141","port":49005,"password":"2c895be3-4dd2-4443-b586-cce567532660","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+246+TJN_1","server":"bauhinia01.abzoones.xyz","port":36701,"password":"84796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+246+TJN_2","server":"112.6.212.141","port":49003,"password":"2c895be3-4dd2-4443-b586-cce567532660","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+245+TJN","server":"bauhinia01.abzoones.xyz","port":36601,"password":"003dd06f-f1fd-43bd-9c89-00fd31d742b1","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+244+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"003dd06f-f1fd-43bd-9c89-00fd31d742b1","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+243+TJN","server":"112.6.212.141","port":49002,"password":"2c895be3-4dd2-4443-b586-cce567532660","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+241+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"003dd06f-f1fd-43bd-9c89-00fd31d742b1","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+240+TJN","server":"bauhinia01.abzoones.xyz","port":36701,"password":"003dd06f-f1fd-43bd-9c89-00fd31d742b1","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+240+TJN_1","server":"bauhinia01.abzoones.xyz","port":36701,"password":"003dd06f-f1fd-43bd-9c89-00fd31d742b1","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+240+TJN_2","server":"pull-cache-lu01.xyx-xylo.com","port":19701,"password":"79745894-044c-3298-a893-bbfcb6b24a2c","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+239+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"8c0c4ed2eb","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+189+TJN","server":"117.164.185.222","port":61002,"password":"623e1900-473d-4b72-8d6b-c3a2e3223e3e","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+180+TJN","server":"116.129.253.134","port":3384,"password":"d4e41ff772c7fd45","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"CN+237+SSS","server":"14.29.124.168","port":24008,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"trojan","name":"CN+191+TJN","server":"shlt.sub-nthu.com","port":35003,"password":"eda8a8e5-1076-4d7b-b1d0-5003a0350073","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+189+TJN","server":"117.164.185.222","port":11002,"password":"623e1900-473d-4b72-8d6b-c3a2e3223e3e","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+185+TJN","server":"117.164.185.222","port":61002,"password":"623e1900-473d-4b72-8d6b-c3a2e3223e3e","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+179+TJN","server":"183.232.141.154","port":19202,"password":"a992be42-bed4-3037-8788-9e860cd635d3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+173+TJN","server":"183.232.141.154","port":19205,"password":"a992be42-bed4-3037-8788-9e860cd635d3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1676+TJN","server":"120.232.132.120","port":25682,"password":"Md530834","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1434+TJN","server":"120.232.132.120","port":25682,"password":"Md7cc86e","udp":true,"skip-cert-verify":true,"sni":"cdnt24.dt1.fun"}
   - {"type":"trojan","name":"CN+141+TJN","server":"183.232.141.154","port":19215,"password":"a992be42-bed4-3037-8788-9e860cd635d3","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CN+138+TJN","server":"116.129.253.134","port":3384,"password":"d4e41ff772c7fd45","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1336+TJN","server":"bauhinia01.abzoones.xyz","port":36601,"password":"bcdbc2d8-cc0a-4760-b61b-d2c9771dfe86","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1335+TJN","server":"bauhinia01.abzoones.xyz","port":36601,"password":"313a0a4e-5398-422f-b2c1-8dbc0469645d","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1333+TJN","server":"bauhinia01.abzoones.xyz","port":36601,"password":"8655e4b1-f4c4-40e1-a93c-555ae5b47fbe","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"CN+133+SSS","server":"114.132.155.154","port":57529,"cipher":"aes-256-gcm","password":"CpCY1MJV4I"}
   - {"type":"trojan","name":"CN+1329+TJN","server":"bauhinia01.abzoones.xyz","port":36601,"password":"84796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1312+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"089b1ca3-f4f6-4264-a104-696db37306c6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1307+TJN","server":"bauhinia01.abzoones.xyz","port":36201,"password":"b9b55277-010a-48de-8ad9-0fa1bb7de676","udp":true,"skip-cert-verify":true}
@@ -408,9 +389,7 @@ proxies:
   - {"type":"trojan","name":"CN+1138+TJN","server":"117.164.185.222","port":21001,"password":"623e1900-473d-4b72-8d6b-c3a2e3223e3e","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1134+TJN","server":"117.164.185.222","port":21002,"password":"623e1900-473d-4b72-8d6b-c3a2e3223e3e","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1133+TJN","server":"117.164.185.222","port":21005,"password":"623e1900-473d-4b72-8d6b-c3a2e3223e3e","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+112+TJN","server":"14.215.107.16","port":28114,"password":"289xWT","udp":true,"skip-cert-verify":true}
   - {"type":"ss","name":"CN+110+SSS","server":"14.29.124.174","port":11039,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"trojan","name":"CN+109+TJN","server":"14.215.107.16","port":28118,"password":"289xWT","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1075+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"84796b86-42cb-4b384796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1074+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"61c52680-e4b9-46f8-9854-a45d6e5859a1","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1073+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"84796b86-42cb-484796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
@@ -426,18 +405,15 @@ proxies:
   - {"type":"trojan","name":"CN+1062+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"61c52680-e4b9-46f8-9854-a45d6e5859a1","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1061+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"b054d1bf-6f82-48a9-ac28-53b054d1bf-6f82-48a9-ac28-537f6f606721","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1060+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"b054d1bf-6f82-48a9-ac28-5b054d1bf-6f82-48a9-ac28-537f6f606721","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+106+TJN","server":"14.215.107.23","port":28120,"password":"289xWT","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1055+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"bcdbc2d8-cc0a-4760-b61b-d2c9771dfe86","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1051+TJN","server":"bauhinia01.abzoones.xyz","port":36701,"password":"b054d1bf-6f82-48a9-ac28-537f6f606721","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1050+TJN","server":"bauhinia01.abzoones.xyz","port":36501,"password":"b054d1bf-6f82-48a9-ac28-537f6f606721","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+105+TJN","server":"14.215.107.16","port":28121,"password":"289xWT","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1049+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"b054d1bf-6f82-48a9-ac28-537f6f606721","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1046+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"003dd06f-f1fd-43bd-9c89-00fd31d742b1","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1045+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"003dd06f-f1fd-43bd-9c89-00fd31d742003dd06f-f1fd-43bd-9c89-00fd31d742b1","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1044+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"84796b86-42cb-4b3f-a42b-d784796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1041+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"74d856d1-1023-4d31-8609-1491ca4fab59","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1040+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"bcdbc2d8-cc0a-4760-b61b-d2c9771dfe86bcdbc2d8-cc0a-4760-b61b-d2c9771dfe86","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CN+104+TJN","server":"14.215.107.23","port":17003,"password":"i7AerC","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1039+TJN","server":"bauhinia01.abzoones.xyz","port":36701,"password":"dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1035+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"84796b84796b86-42cb-4b3f-a42b-d74ce2dabbb6","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1033+TJN","server":"bauhinia01.abzoones.xyz","port":36601,"password":"3c12fbaf-341b-4715-b2ed-6294f6f735d2","udp":true,"skip-cert-verify":true}
@@ -450,40 +426,41 @@ proxies:
   - {"type":"trojan","name":"CN+1018+TJN","server":"bauhinia01.abzoones.xyz","port":36301,"password":"b9b55277-010a-48de-8ad9-0fa1bb7de676","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1016+TJN","server":"bauhinia01.abzoones.xyz","port":36401,"password":"b9b55277-010a-48de-8ad9-0fa1bb7de676","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CN+1012+TJN","server":"bauhinia01.abzoones.xyz","port":36116,"password":"7166e17c-286a-4aca-8383-250506f4e1d3","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"CN+100+SSS_2","server":"14.29.124.174","port":11048,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"trojan","name":"CN+10+TJN","server":"14.215.107.23","port":28124,"password":"Mb6124ef","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CH+693+TJN_1","server":"185.126.116.235","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CH+693+TJN_2","server":"185.126.116.235","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CH+219+TJN","server":"185.126.116.235","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CH+217+TJN","server":"185.126.116.235","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CH+197+TJN","server":"185.126.116.235","port":443,"password":"28d98f761aca9d636f44db62544628eb","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"CA+758+TJN","server":"cat-1.opensvr.net","port":443,"password":"opentunnel.net-wd3dzt4j9yoy","udp":true,"skip-cert-verify":true,"sni":"cat-1.opensvr.net"}
   - {"type":"trojan","name":"CA+714+TJN","server":"170.187.182.212","port":443,"password":"ef81a036-1db9-45ed-a3aa-f932a4750066","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CA+642+TJN","server":"cat1.sshocean.net","port":443,"password":"8b6daf15-8342-482d-b894-1239fd98ce7f","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"CA+272+TJN","server":"170.187.182.212","port":443,"password":"a1e12464-9208-4583-bd21-ab6889fdd242","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"AU+40+TJN","server":"jgwxn4.gaox.ml","port":443,"password":"e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"AU+39+TJN","server":"152.67.98.30","port":443,"password":"e8c1ab3c-89b3-4933-92df-682e6dce7819","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"[SCP]VPSProvidedbyShirker(AS24400)&V2raybuildbyMokonaModoki","ws-opts":{"path":"/Telegram/ShareCentrePro/mknnix"},"server":"sg.prpr.link","port":"443","uuid":"cea42161-bddc-4230-a9b9-e43187967ffa","alterId":"0","cipher":"chacha20-poly1305","network":"ws","tls":true}
-  - {"type":"vmess","name":"[SCP]SGOVH","ws-opts":{"path":"/Telegram/ShareCentrePro/mknnix","headers":{"host":"sg.prpr.link"}},"server":"sg.prpr.link","port":"443","uuid":"cea42161-bddc-4230-a9b9-e43187967ffa","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"[SCP]PLOVH","ws-opts":{"path":"/a54e284cb6/","headers":{"host":"PL.nexitally.xyz"}},"server":"PL.nexitally.xyz","port":"443","uuid":"54c6c823-4957-4c6c-b10c-359bc51f7cc3","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"CA+256+TJN","server":"170.187.182.212","port":443,"password":"a1e12464-9208-4583-bd21-ab6889fdd242","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+229+TJN","server":"149.56.141.11","port":443,"password":"67960bfb-00de-4a6b-9a7a-e74fc9e8b158","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+209+TJN","server":"cat1.sshocean.net","port":443,"password":"67960bfb-00de-4a6b-9a7a-e74fc9e8b158","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"CA+175+TJN","server":"cat1.sshocean.net","port":443,"password":"8b6daf15-8342-482d-b894-1239fd98ce7f","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"@wbnet_🇺🇸_US_30","server":"56789.gq","port":443,"password":"dc1453e4-e5c4-4b30-bee3-6ed2adce9ee3","udp":true,"skip-cert-verify":true}
   - {"type":"trojan","name":"@wbnet_🇺🇸_US_10","server":"api.mjj-home.com","port":443,"password":"share.mjj-home.com","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"@wbnet_🇺🇦_66_🇺🇦_66","server":"130.0.233.20","port":31675,"cipher":"aes-256-cfb","password":"m7pZhBG"}
   - {"type":"trojan","name":"@wbnet_🇯🇵_JP_66","server":"tw.softbank.mjj-home.com","port":443,"password":"share.mjj-home.com","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"@wbnet_🇮🇳_99_🇮🇳_99","server":"134.209.158.149","port":28260,"cipher":"aes-256-cfb","password":"d3b8321945c24105ae485662024620f6"}
+  - {"type":"ss","name":"@wbnet_🇫🇮_91_🇫🇮_91","server":"135.181.114.242","port":8478,"cipher":"chacha20-ietf-poly1305","password":"siF98xBL2v1i"}
+  - {"type":"ss","name":"@wbnet_🇫🇮_365_🇫🇮_365","server":"185.77.217.217","port":443,"cipher":"chacha20-ietf-poly1305","password":"qYAt85SFGV56"}
+  - {"type":"ss","name":"@wbnet_🇦🇪_211_🇦🇪_211","server":"176.97.67.103","port":444,"cipher":"chacha20-ietf-poly1305","password":"shwozEjWey"}
+  - {"type":"vmess","name":"@SSRSUB-V25-付费推荐:suo.yt/ssrsub","server":"168.138.171.65","port":"443","uuid":"4af6fd9a-e8b4-46f2-da3a-207f4577656c","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"@SSRSUB-V15-付费推荐:suo.yt/ssrsub","server":"116.129.254.6","port":"9016","uuid":"2cc15326-cd0f-34da-bbfb-f8cdc9b71eb2","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"@SSRSUB-V14-付费推荐:suo.yt/ssrsub","server":"128.1.134.126","port":"6666","uuid":"7fb3b571-cda8-40f6-c9e6-db9765ea8faa","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"@SSRSUB-V13-付费推荐:suo.yt/ssrsub","server":"206.119.112.6","port":"8189","uuid":"a90597c1-bab3-4217-ad6f-0838675c8638","alterId":"10","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"vmess","name":"@SSRSUB-V12-付费推荐:suo.yt/ssrsub","ws-opts":{"path":"/je5x3pBN1vez3NQudNkB","headers":{"host":"s3.cjhh.beauty"}},"server":"kwdod-1056-v2-1.hkg-r-kcd-e.ap.cjhh.beauty","port":"29988","uuid":"caac6285-511c-4a07-b6db-edfbdcfe3889","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"@SSRSUB-V10-付费推荐:suo.yt/ssrsub","server":"hk1vdf-node.aiqiche123.com","port":"8189","uuid":"a90597c1-bab3-4217-ad6f-0838675c8638","alterId":"10","cipher":"auto","network":"tcp","tls":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 长期更新节点@mftizi
-      - 英国-边缘访问+DP+7
-      - 印度-边缘访问+DOIN+7
       - 新加坡SG-T
-      - 新加坡［ssrcom］
       - 香港HGC-T
-      - 乌克兰-边缘访问+Vik+7
-      - 台湾-边缘访问+BGP+7
       - 日本JP-T
-      - 免费梯子https://t.me/mftizi
-      - 美国-边缘访问+DP+7
+      - 免费梯子https://t.me/mftizi_1
+      - 免费梯子https://t.me/mftizi_2
+      - 免费梯子https://t.me/mftizi_3
       - 联通一区(山东)
       - 联通一区(北京)
       - 联通二区(北京)
@@ -493,114 +470,113 @@ proxy-groups:
       - 华南2
       - 华南1
       - 华北
-      - 韩国+B158+|+IEPL中转、游戏+|+0x
       - 关注频道https://t.me/mftizi_1
       - 关注频道https://t.me/mftizi_2
-      - 菲律宾-边缘访问+Comfac+7
-      - 法国-边缘访问+DP+7
-      - 俄罗斯-边缘访问+GCore+7
       - 电信二区(四川)
-      - 德国-边缘访问+DP+7
       - 不定期抽奖https://t.me/mftizi_1
       - 不定期抽奖https://t.me/mftizi_2
-      - 巴西-边缘访问+GCore+7
-      - 澳大利亚-边缘访问+VUAU+7
-      - 阿根廷-边缘访问+DonWeb+7
+      - 不定期抽奖https://t.me/mftizi_3
+      - 🇺🇸@SSRSUB-美国V04-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-美国V03-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub
       - 🇹🇼_YouTube：全网最强白嫖_1
       - 🇹🇼_YouTube：全网最强白嫖_2
       - 🇳🇱|TG频道@baipiaoeverything|34
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇮🇷(@Anty_Filter)
       - YouTube：全网最强白嫖
       - VN+248+TJN
       - US【付费推荐：gvip.gq】+12
       - US+973+TJN
-      - US+88+TJN
-      - US+782+TJN
-      - US+776+TJN
-      - US+753+TJN
-      - US+741+TJN
-      - US+727+TJN
+      - US+504+TJN
       - US+4312+TJN
-      - US+416+TJN
+      - US+387+TJN
+      - US+379+TJN
       - US+365+TJN
-      - US+238+TJN
-      - US+130+TJN
-      - US+129+TJN
+      - US+364+TJN
+      - US+258+TJN
+      - US+232+TJN
+      - US+169+TJN
+      - US+168+TJN
+      - US+121+TJN
       - United-States+8
       - United-States+10
+      - United+States+|+08
       - TW+927+TJN
       - TW+926+TJN
-      - TW+716+TJN
       - Trojan+新加坡SG
       - TG@hkaa0|中国_11
       - TG@hkaa0|加拿大_2
-      - Taiwan
       - SG+90+TJN
-      - SG+733+TJN
-      - SG+730+TJN
-      - SG+570+TJN
-      - SG+466+TJN
-      - SG+464+TJN
-      - SG+463+TJN
-      - SG+462+TJN
-      - SG+461+TJN
-      - SG+460+TJN
-      - SG+459+TJN
-      - SG+417+TJN
-      - SG+374+TJN
+      - SG+401+TJN
+      - SG+399+TJN
+      - SG+398+TJN
+      - SG+397+TJN
+      - SG+396+TJN
+      - SG+395+TJN
+      - SG+394+TJN
+      - SG+349+TJN
+      - SG+260+TJN
+      - SG+257+TJN
       - SG+246+TJN
-      - SG+233+TJN
       - SG+229+TJN
-      - SG+2279+TJN
-      - SG+205+TJN
-      - SG+204+TJN
+      - SG+222+TJN
+      - NL+233+TJN
       - NL+130+TJN
       - NL+129+TJN
-      - KR+90+TJN
       - KR+80+TJN
-      - KR+79+TJN
-      - KR+738+TJN
-      - KR+732+TJN
-      - KR+73+TJN
-      - KR+728+TJN
-      - KR+474+TJN
-      - KR+433+TJN
-      - KR+413+TJN
-      - KR+387+TJN
-      - KR+261+TJN
-      - KR+239+TJN
-      - KR+226+TJN
-      - KR+221+TJN
-      - KR+200+TJN
-      - KR+196+TJN
-      - KR+195+TJN
-      - KR+192+TJN
-      - KR+191+TJN
-      - KR+168+TJN
-      - KR+150+TJN
+      - KR+66+TJN
+      - KR+63+TJN
+      - KR+506+TJN
+      - KR+465+TJN
+      - KR+460+TJN
+      - KR+455+TJN
+      - KR+426+TJN
+      - KR+369+TJN
+      - KR+368+TJN
+      - KR+362+TJN
+      - KR+352+TJN
+      - KR+298+TJN
+      - KR+296+TJN
+      - KR+294+TJN
+      - KR+293+TJN
+      - KR+292+TJN
+      - KR+290+TJN
+      - KR+289+TJN
+      - KR+287+TJN
+      - KR+276+TJN
+      - KR+245+TJN
+      - KR+231+TJN
+      - KR+218+TJN
+      - KR+211+TJN
+      - KR+204+TJN
+      - KR+164+TJN
+      - KR+160+TJN
+      - KR+159+TJN
+      - KR+158+TJN
+      - KR+157+TJN
+      - KR+147+TJN
+      - KR+146+TJN
       - KR+141+TJN
-      - KR+134+TJN
       - KR+123+TJN
-      - KR+111+TJN
-      - KR+105+TJN
-      - JP+99+TJN
+      - KR+101+TJN
       - JP+89+TJN
       - JP+78+TJN
-      - JP+752+TJN
       - JP+71+TJN
-      - JP+691+TJN
-      - JP+684+TJN
-      - JP+680+TJN
-      - JP+659+TJN
-      - JP+654+TJN
       - JP+41+TJN
       - JP+40+TJN
       - JP+39+TJN
-      - JP+276+TJN
+      - JP+37+TJN
+      - JP+35+TJN
+      - JP+243+TJN
       - JP+240+TJN
       - JP+235+TJN
+      - JP+214+TJN
       - JP+212+TJN
+      - JP+208+TJN
+      - JP+201+TJN
+      - JP+200+TJN
+      - JP+199+TJN
       - JP+198+TJN
       - JP+195+TJN
       - JP+194+TJN
@@ -610,46 +586,34 @@ proxy-groups:
       - JP+178+TJN
       - JP+169+TJN
       - JP+168+TJN
+      - JP+162+TJN
       - JP+157+TJN
-      - JP+146+TJN
       - JP+143+TJN
       - JP+138+TJN
       - JP+137+TJN
       - JP+134+TJN
-      - JP+132+TJN
       - JP+129+TJN
       - JP+128+TJN
       - JP+124+TJN
       - JP+123+TJN
       - JP+120+TJN
+      - JP+110+TJN
       - JP+103+TJN
       - JP+102+TJN
-      - HK+98+TJN
-      - HK+190+TJN
+      - HK+197+TJN
       - HK+134+TJN
-      - HK+115+TJN
-      - github.com/freefq-美国Microsoft数据中心41
-      - GetAFreeNode-Vienna
-      - GetAFreeNode-Moscow
-      - GetAFreeNode-Amsterdam
-      - GB+410+TJN
-      - GB+405+TJN
-      - GB+401+TJN
+      - HK+122+TJN
+      - GB+55+TJN
       - GB+400+TJN
-      - GB+255+TJN
-      - GB+189+TJN
-      - GB+140+TJN
+      - GB+228+TJN
       - games.missionsec.us:443
       - FR+399+TJN
-      - FR+126+TJN
+      - FR+145+TJN
       - FR+124+TJN
       - FR+123+TJN
-      - FR+116+TJN
       - FR+1039+TJN
-      - EE+41+TJN
-      - DE+407+TJN
-      - DE+125+TJN
       - CZ【付费推荐：gvip.gq】
+      - CZ+437+TJN
       - CN+99+SSS
       - CN+98+SSS
       - CN+97+SSS
@@ -657,7 +621,6 @@ proxy-groups:
       - CN+925+SSS
       - CN+91+SSS
       - CN+90+SSS
-      - CN+897+SSS
       - CN+88+SSS
       - CN+87+SSS
       - CN+85+SSS
@@ -688,7 +651,7 @@ proxy-groups:
       - CN+103+SSS
       - CN+102+SSS
       - CN+101+SSS
-      - CN+100+SSS_1
+      - CN+100+SSS
       - CN【付费推荐：gvip.gq】+31
       - CN+996+TJN
       - CN+995+TJN
@@ -700,19 +663,14 @@ proxy-groups:
       - CN+981+TJN
       - CN+980+TJN
       - CN+974+TJN
-      - CN+92+TJN
       - CN+914+TJN
       - CN+913+TJN
       - CN+908+TJN
       - CN+906+TJN
       - CN+905+TJN
-      - CN+90+TJN
-      - CN+899+SSS
       - CN+896+TJN
       - CN+894+TJN
-      - CN+891+SSS
       - CN+890+TJN
-      - CN+89+TJN
       - CN+889+TJN
       - CN+888+TJN
       - CN+887+TJN
@@ -721,64 +679,54 @@ proxy-groups:
       - CN+882+TJN
       - CN+881+TJN
       - CN+880+TJN
-      - CN+87+TJN
       - CN+866+TJN
       - CN+864+TJN
       - CN+862+TJN
       - CN+861+TJN
-      - CN+85+TJN
-      - CN+76+TJN
       - CN+755+TJN
-      - CN+709+TJN
-      - CN+68+TJN
-      - CN+67+TJN
-      - CN+66+TJN
-      - CN+64+TJN
       - CN+628+TJN
       - CN+627+TJN
       - CN+626+TJN
       - CN+624+TJN
       - CN+622+TJN
-      - CN+593+TJN
-      - CN+589+TJN
       - CN+581+SSS
-      - CN+58+TJN
       - CN+579+SSS
-      - CN+559+SSS
-      - CN+53+TJN
-      - CN+51+TJN_1
-      - CN+51+TJN_2
-      - CN+50+TJN
-      - CN+49+TJN
-      - CN+48+TJN
+      - CN+56+TJN
+      - CN+519+SSS
+      - CN+496+SSS
+      - CN+489+SSS
       - CN+479+SSS
-      - CN+47+TJN
-      - CN+46+TJN
-      - CN+454+TJN
-      - CN+4401+TJN
-      - CN+42+TJN
+      - CN+44+TJN
       - CN+37+SSS
-      - CN+360+TJN
-      - CN+356+TJN
-      - CN+355+TJN
-      - CN+353+TJN
+      - CN+36+SSS
       - CN+35+SSS
-      - CN+344+TJN
-      - CN+329+TJN
+      - CN+341+TJN
+      - CN+336+TJN
+      - CN+335+TJN
+      - CN+333+TJN
+      - CN+332+TJN
+      - CN+331+TJN
+      - CN+329+TJN_1
+      - CN+329+TJN_2
       - CN+327+TJN
-      - CN+326+TJN
-      - CN+324+TJN
-      - CN+323+TJN
+      - CN+326+TJN_1
+      - CN+326+TJN_2
+      - CN+324+TJN_1
+      - CN+324+TJN_2
+      - CN+323+TJN_1
+      - CN+323+TJN_2
       - CN+322+TJN
-      - CN+321+TJN
+      - CN+321+TJN_1
+      - CN+321+TJN_2
       - CN+320+TJN
       - CN+319+TJN
       - CN+316+TJN
       - CN+315+TJN
-      - CN+314+TJN_1
-      - CN+314+TJN_2
+      - CN+314+TJN
       - CN+313+TJN
-      - CN+312+TJN
+      - CN+312+TJN_1
+      - CN+312+TJN_2
+      - CN+308+TJN
       - CN+307+TJN
       - CN+306+TJN
       - CN+305+TJN
@@ -786,10 +734,13 @@ proxy-groups:
       - CN+303+TJN
       - CN+302+TJN
       - CN+301+TJN
-      - CN+3+→+openitsub.com
+      - CN+300+TJN
       - CN+299+TJN
-      - CN+298+TJN
-      - CN+297+TJN
+      - CN+298+TJN_1
+      - CN+298+TJN_2
+      - CN+297+TJN_1
+      - CN+297+TJN_2
+      - CN+295+TJN
       - CN+293+TJN
       - CN+290+TJN
       - CN+289+TJN
@@ -808,33 +759,45 @@ proxy-groups:
       - CN+273+TJN
       - CN+272+TJN
       - CN+271+TJN
-      - CN+271+SSS
       - CN+270+TJN
-      - CN+270+SSS
       - CN+268+SSS
+      - CN+267+SSS
+      - CN+261+SSS
       - CN+259+TJN
+      - CN+259+SSS
       - CN+258+TJN
       - CN+255+TJN
-      - CN+252+TJN
+      - CN+252+SSS
       - CN+251+TJN
+      - CN+251+SSS
       - CN+250+TJN
       - CN+248+TJN
-      - CN+247+TJN
-      - CN+246+TJN
+      - CN+248+SSS
+      - CN+247+TJN_1
+      - CN+247+TJN_2
+      - CN+246+TJN_1
+      - CN+246+TJN_2
       - CN+245+TJN
       - CN+244+TJN
+      - CN+243+TJN
       - CN+241+TJN
-      - CN+240+TJN
+      - CN+240+TJN_1
+      - CN+240+TJN_2
       - CN+239+TJN
+      - CN+237+SSS
+      - CN+191+TJN
       - CN+189+TJN
-      - CN+180+TJN
+      - CN+185+TJN
+      - CN+179+TJN
       - CN+173+TJN
       - CN+1676+TJN
       - CN+1434+TJN
       - CN+141+TJN
+      - CN+138+TJN
       - CN+1336+TJN
       - CN+1335+TJN
       - CN+1333+TJN
+      - CN+133+SSS
       - CN+1329+TJN
       - CN+1312+TJN
       - CN+1307+TJN
@@ -868,9 +831,7 @@ proxy-groups:
       - CN+1138+TJN
       - CN+1134+TJN
       - CN+1133+TJN
-      - CN+112+TJN
       - CN+110+SSS
-      - CN+109+TJN
       - CN+1075+TJN
       - CN+1074+TJN
       - CN+1073+TJN
@@ -886,18 +847,15 @@ proxy-groups:
       - CN+1062+TJN
       - CN+1061+TJN
       - CN+1060+TJN
-      - CN+106+TJN
       - CN+1055+TJN
       - CN+1051+TJN
       - CN+1050+TJN
-      - CN+105+TJN
       - CN+1049+TJN
       - CN+1046+TJN
       - CN+1045+TJN
       - CN+1044+TJN
       - CN+1041+TJN
       - CN+1040+TJN
-      - CN+104+TJN
       - CN+1039+TJN
       - CN+1035+TJN
       - CN+1033+TJN
@@ -910,40 +868,41 @@ proxy-groups:
       - CN+1018+TJN
       - CN+1016+TJN
       - CN+1012+TJN
-      - CN+100+SSS_2
-      - CN+10+TJN
-      - CH+693+TJN_1
-      - CH+693+TJN_2
+      - CH+219+TJN
+      - CH+217+TJN
       - CH+197+TJN
       - CA+758+TJN
       - CA+714+TJN
-      - CA+642+TJN
-      - CA+272+TJN
-      - AU+40+TJN
-      - AU+39+TJN
-      - '[SCP]VPSProvidedbyShirker(AS24400)&V2raybuildbyMokonaModoki'
-      - '[SCP]SGOVH'
-      - '[SCP]PLOVH'
+      - CA+256+TJN
+      - CA+229+TJN
+      - CA+209+TJN
+      - CA+175+TJN
       - '@wbnet_🇺🇸_US_30'
       - '@wbnet_🇺🇸_US_10'
+      - '@wbnet_🇺🇦_66_🇺🇦_66'
       - '@wbnet_🇯🇵_JP_66'
+      - '@wbnet_🇮🇳_99_🇮🇳_99'
+      - '@wbnet_🇫🇮_91_🇫🇮_91'
+      - '@wbnet_🇫🇮_365_🇫🇮_365'
+      - '@wbnet_🇦🇪_211_🇦🇪_211'
+      - '@SSRSUB-V25-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 长期更新节点@mftizi
-      - 英国-边缘访问+DP+7
-      - 印度-边缘访问+DOIN+7
       - 新加坡SG-T
-      - 新加坡［ssrcom］
       - 香港HGC-T
-      - 乌克兰-边缘访问+Vik+7
-      - 台湾-边缘访问+BGP+7
       - 日本JP-T
-      - 免费梯子https://t.me/mftizi
-      - 美国-边缘访问+DP+7
+      - 免费梯子https://t.me/mftizi_1
+      - 免费梯子https://t.me/mftizi_2
+      - 免费梯子https://t.me/mftizi_3
       - 联通一区(山东)
       - 联通一区(北京)
       - 联通二区(北京)
@@ -953,114 +912,113 @@ proxy-groups:
       - 华南2
       - 华南1
       - 华北
-      - 韩国+B158+|+IEPL中转、游戏+|+0x
       - 关注频道https://t.me/mftizi_1
       - 关注频道https://t.me/mftizi_2
-      - 菲律宾-边缘访问+Comfac+7
-      - 法国-边缘访问+DP+7
-      - 俄罗斯-边缘访问+GCore+7
       - 电信二区(四川)
-      - 德国-边缘访问+DP+7
       - 不定期抽奖https://t.me/mftizi_1
       - 不定期抽奖https://t.me/mftizi_2
-      - 巴西-边缘访问+GCore+7
-      - 澳大利亚-边缘访问+VUAU+7
-      - 阿根廷-边缘访问+DonWeb+7
+      - 不定期抽奖https://t.me/mftizi_3
+      - 🇺🇸@SSRSUB-美国V04-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-美国V03-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub
       - 🇹🇼_YouTube：全网最强白嫖_1
       - 🇹🇼_YouTube：全网最强白嫖_2
       - 🇳🇱|TG频道@baipiaoeverything|34
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇮🇷(@Anty_Filter)
       - YouTube：全网最强白嫖
       - VN+248+TJN
       - US【付费推荐：gvip.gq】+12
       - US+973+TJN
-      - US+88+TJN
-      - US+782+TJN
-      - US+776+TJN
-      - US+753+TJN
-      - US+741+TJN
-      - US+727+TJN
+      - US+504+TJN
       - US+4312+TJN
-      - US+416+TJN
+      - US+387+TJN
+      - US+379+TJN
       - US+365+TJN
-      - US+238+TJN
-      - US+130+TJN
-      - US+129+TJN
+      - US+364+TJN
+      - US+258+TJN
+      - US+232+TJN
+      - US+169+TJN
+      - US+168+TJN
+      - US+121+TJN
       - United-States+8
       - United-States+10
+      - United+States+|+08
       - TW+927+TJN
       - TW+926+TJN
-      - TW+716+TJN
       - Trojan+新加坡SG
       - TG@hkaa0|中国_11
       - TG@hkaa0|加拿大_2
-      - Taiwan
       - SG+90+TJN
-      - SG+733+TJN
-      - SG+730+TJN
-      - SG+570+TJN
-      - SG+466+TJN
-      - SG+464+TJN
-      - SG+463+TJN
-      - SG+462+TJN
-      - SG+461+TJN
-      - SG+460+TJN
-      - SG+459+TJN
-      - SG+417+TJN
-      - SG+374+TJN
+      - SG+401+TJN
+      - SG+399+TJN
+      - SG+398+TJN
+      - SG+397+TJN
+      - SG+396+TJN
+      - SG+395+TJN
+      - SG+394+TJN
+      - SG+349+TJN
+      - SG+260+TJN
+      - SG+257+TJN
       - SG+246+TJN
-      - SG+233+TJN
       - SG+229+TJN
-      - SG+2279+TJN
-      - SG+205+TJN
-      - SG+204+TJN
+      - SG+222+TJN
+      - NL+233+TJN
       - NL+130+TJN
       - NL+129+TJN
-      - KR+90+TJN
       - KR+80+TJN
-      - KR+79+TJN
-      - KR+738+TJN
-      - KR+732+TJN
-      - KR+73+TJN
-      - KR+728+TJN
-      - KR+474+TJN
-      - KR+433+TJN
-      - KR+413+TJN
-      - KR+387+TJN
-      - KR+261+TJN
-      - KR+239+TJN
-      - KR+226+TJN
-      - KR+221+TJN
-      - KR+200+TJN
-      - KR+196+TJN
-      - KR+195+TJN
-      - KR+192+TJN
-      - KR+191+TJN
-      - KR+168+TJN
-      - KR+150+TJN
+      - KR+66+TJN
+      - KR+63+TJN
+      - KR+506+TJN
+      - KR+465+TJN
+      - KR+460+TJN
+      - KR+455+TJN
+      - KR+426+TJN
+      - KR+369+TJN
+      - KR+368+TJN
+      - KR+362+TJN
+      - KR+352+TJN
+      - KR+298+TJN
+      - KR+296+TJN
+      - KR+294+TJN
+      - KR+293+TJN
+      - KR+292+TJN
+      - KR+290+TJN
+      - KR+289+TJN
+      - KR+287+TJN
+      - KR+276+TJN
+      - KR+245+TJN
+      - KR+231+TJN
+      - KR+218+TJN
+      - KR+211+TJN
+      - KR+204+TJN
+      - KR+164+TJN
+      - KR+160+TJN
+      - KR+159+TJN
+      - KR+158+TJN
+      - KR+157+TJN
+      - KR+147+TJN
+      - KR+146+TJN
       - KR+141+TJN
-      - KR+134+TJN
       - KR+123+TJN
-      - KR+111+TJN
-      - KR+105+TJN
-      - JP+99+TJN
+      - KR+101+TJN
       - JP+89+TJN
       - JP+78+TJN
-      - JP+752+TJN
       - JP+71+TJN
-      - JP+691+TJN
-      - JP+684+TJN
-      - JP+680+TJN
-      - JP+659+TJN
-      - JP+654+TJN
       - JP+41+TJN
       - JP+40+TJN
       - JP+39+TJN
-      - JP+276+TJN
+      - JP+37+TJN
+      - JP+35+TJN
+      - JP+243+TJN
       - JP+240+TJN
       - JP+235+TJN
+      - JP+214+TJN
       - JP+212+TJN
+      - JP+208+TJN
+      - JP+201+TJN
+      - JP+200+TJN
+      - JP+199+TJN
       - JP+198+TJN
       - JP+195+TJN
       - JP+194+TJN
@@ -1070,46 +1028,34 @@ proxy-groups:
       - JP+178+TJN
       - JP+169+TJN
       - JP+168+TJN
+      - JP+162+TJN
       - JP+157+TJN
-      - JP+146+TJN
       - JP+143+TJN
       - JP+138+TJN
       - JP+137+TJN
       - JP+134+TJN
-      - JP+132+TJN
       - JP+129+TJN
       - JP+128+TJN
       - JP+124+TJN
       - JP+123+TJN
       - JP+120+TJN
+      - JP+110+TJN
       - JP+103+TJN
       - JP+102+TJN
-      - HK+98+TJN
-      - HK+190+TJN
+      - HK+197+TJN
       - HK+134+TJN
-      - HK+115+TJN
-      - github.com/freefq-美国Microsoft数据中心41
-      - GetAFreeNode-Vienna
-      - GetAFreeNode-Moscow
-      - GetAFreeNode-Amsterdam
-      - GB+410+TJN
-      - GB+405+TJN
-      - GB+401+TJN
+      - HK+122+TJN
+      - GB+55+TJN
       - GB+400+TJN
-      - GB+255+TJN
-      - GB+189+TJN
-      - GB+140+TJN
+      - GB+228+TJN
       - games.missionsec.us:443
       - FR+399+TJN
-      - FR+126+TJN
+      - FR+145+TJN
       - FR+124+TJN
       - FR+123+TJN
-      - FR+116+TJN
       - FR+1039+TJN
-      - EE+41+TJN
-      - DE+407+TJN
-      - DE+125+TJN
       - CZ【付费推荐：gvip.gq】
+      - CZ+437+TJN
       - CN+99+SSS
       - CN+98+SSS
       - CN+97+SSS
@@ -1117,7 +1063,6 @@ proxy-groups:
       - CN+925+SSS
       - CN+91+SSS
       - CN+90+SSS
-      - CN+897+SSS
       - CN+88+SSS
       - CN+87+SSS
       - CN+85+SSS
@@ -1148,7 +1093,7 @@ proxy-groups:
       - CN+103+SSS
       - CN+102+SSS
       - CN+101+SSS
-      - CN+100+SSS_1
+      - CN+100+SSS
       - CN【付费推荐：gvip.gq】+31
       - CN+996+TJN
       - CN+995+TJN
@@ -1160,19 +1105,14 @@ proxy-groups:
       - CN+981+TJN
       - CN+980+TJN
       - CN+974+TJN
-      - CN+92+TJN
       - CN+914+TJN
       - CN+913+TJN
       - CN+908+TJN
       - CN+906+TJN
       - CN+905+TJN
-      - CN+90+TJN
-      - CN+899+SSS
       - CN+896+TJN
       - CN+894+TJN
-      - CN+891+SSS
       - CN+890+TJN
-      - CN+89+TJN
       - CN+889+TJN
       - CN+888+TJN
       - CN+887+TJN
@@ -1181,64 +1121,54 @@ proxy-groups:
       - CN+882+TJN
       - CN+881+TJN
       - CN+880+TJN
-      - CN+87+TJN
       - CN+866+TJN
       - CN+864+TJN
       - CN+862+TJN
       - CN+861+TJN
-      - CN+85+TJN
-      - CN+76+TJN
       - CN+755+TJN
-      - CN+709+TJN
-      - CN+68+TJN
-      - CN+67+TJN
-      - CN+66+TJN
-      - CN+64+TJN
       - CN+628+TJN
       - CN+627+TJN
       - CN+626+TJN
       - CN+624+TJN
       - CN+622+TJN
-      - CN+593+TJN
-      - CN+589+TJN
       - CN+581+SSS
-      - CN+58+TJN
       - CN+579+SSS
-      - CN+559+SSS
-      - CN+53+TJN
-      - CN+51+TJN_1
-      - CN+51+TJN_2
-      - CN+50+TJN
-      - CN+49+TJN
-      - CN+48+TJN
+      - CN+56+TJN
+      - CN+519+SSS
+      - CN+496+SSS
+      - CN+489+SSS
       - CN+479+SSS
-      - CN+47+TJN
-      - CN+46+TJN
-      - CN+454+TJN
-      - CN+4401+TJN
-      - CN+42+TJN
+      - CN+44+TJN
       - CN+37+SSS
-      - CN+360+TJN
-      - CN+356+TJN
-      - CN+355+TJN
-      - CN+353+TJN
+      - CN+36+SSS
       - CN+35+SSS
-      - CN+344+TJN
-      - CN+329+TJN
+      - CN+341+TJN
+      - CN+336+TJN
+      - CN+335+TJN
+      - CN+333+TJN
+      - CN+332+TJN
+      - CN+331+TJN
+      - CN+329+TJN_1
+      - CN+329+TJN_2
       - CN+327+TJN
-      - CN+326+TJN
-      - CN+324+TJN
-      - CN+323+TJN
+      - CN+326+TJN_1
+      - CN+326+TJN_2
+      - CN+324+TJN_1
+      - CN+324+TJN_2
+      - CN+323+TJN_1
+      - CN+323+TJN_2
       - CN+322+TJN
-      - CN+321+TJN
+      - CN+321+TJN_1
+      - CN+321+TJN_2
       - CN+320+TJN
       - CN+319+TJN
       - CN+316+TJN
       - CN+315+TJN
-      - CN+314+TJN_1
-      - CN+314+TJN_2
+      - CN+314+TJN
       - CN+313+TJN
-      - CN+312+TJN
+      - CN+312+TJN_1
+      - CN+312+TJN_2
+      - CN+308+TJN
       - CN+307+TJN
       - CN+306+TJN
       - CN+305+TJN
@@ -1246,10 +1176,13 @@ proxy-groups:
       - CN+303+TJN
       - CN+302+TJN
       - CN+301+TJN
-      - CN+3+→+openitsub.com
+      - CN+300+TJN
       - CN+299+TJN
-      - CN+298+TJN
-      - CN+297+TJN
+      - CN+298+TJN_1
+      - CN+298+TJN_2
+      - CN+297+TJN_1
+      - CN+297+TJN_2
+      - CN+295+TJN
       - CN+293+TJN
       - CN+290+TJN
       - CN+289+TJN
@@ -1268,33 +1201,45 @@ proxy-groups:
       - CN+273+TJN
       - CN+272+TJN
       - CN+271+TJN
-      - CN+271+SSS
       - CN+270+TJN
-      - CN+270+SSS
       - CN+268+SSS
+      - CN+267+SSS
+      - CN+261+SSS
       - CN+259+TJN
+      - CN+259+SSS
       - CN+258+TJN
       - CN+255+TJN
-      - CN+252+TJN
+      - CN+252+SSS
       - CN+251+TJN
+      - CN+251+SSS
       - CN+250+TJN
       - CN+248+TJN
-      - CN+247+TJN
-      - CN+246+TJN
+      - CN+248+SSS
+      - CN+247+TJN_1
+      - CN+247+TJN_2
+      - CN+246+TJN_1
+      - CN+246+TJN_2
       - CN+245+TJN
       - CN+244+TJN
+      - CN+243+TJN
       - CN+241+TJN
-      - CN+240+TJN
+      - CN+240+TJN_1
+      - CN+240+TJN_2
       - CN+239+TJN
+      - CN+237+SSS
+      - CN+191+TJN
       - CN+189+TJN
-      - CN+180+TJN
+      - CN+185+TJN
+      - CN+179+TJN
       - CN+173+TJN
       - CN+1676+TJN
       - CN+1434+TJN
       - CN+141+TJN
+      - CN+138+TJN
       - CN+1336+TJN
       - CN+1335+TJN
       - CN+1333+TJN
+      - CN+133+SSS
       - CN+1329+TJN
       - CN+1312+TJN
       - CN+1307+TJN
@@ -1328,9 +1273,7 @@ proxy-groups:
       - CN+1138+TJN
       - CN+1134+TJN
       - CN+1133+TJN
-      - CN+112+TJN
       - CN+110+SSS
-      - CN+109+TJN
       - CN+1075+TJN
       - CN+1074+TJN
       - CN+1073+TJN
@@ -1346,18 +1289,15 @@ proxy-groups:
       - CN+1062+TJN
       - CN+1061+TJN
       - CN+1060+TJN
-      - CN+106+TJN
       - CN+1055+TJN
       - CN+1051+TJN
       - CN+1050+TJN
-      - CN+105+TJN
       - CN+1049+TJN
       - CN+1046+TJN
       - CN+1045+TJN
       - CN+1044+TJN
       - CN+1041+TJN
       - CN+1040+TJN
-      - CN+104+TJN
       - CN+1039+TJN
       - CN+1035+TJN
       - CN+1033+TJN
@@ -1370,40 +1310,41 @@ proxy-groups:
       - CN+1018+TJN
       - CN+1016+TJN
       - CN+1012+TJN
-      - CN+100+SSS_2
-      - CN+10+TJN
-      - CH+693+TJN_1
-      - CH+693+TJN_2
+      - CH+219+TJN
+      - CH+217+TJN
       - CH+197+TJN
       - CA+758+TJN
       - CA+714+TJN
-      - CA+642+TJN
-      - CA+272+TJN
-      - AU+40+TJN
-      - AU+39+TJN
-      - '[SCP]VPSProvidedbyShirker(AS24400)&V2raybuildbyMokonaModoki'
-      - '[SCP]SGOVH'
-      - '[SCP]PLOVH'
+      - CA+256+TJN
+      - CA+229+TJN
+      - CA+209+TJN
+      - CA+175+TJN
       - '@wbnet_🇺🇸_US_30'
       - '@wbnet_🇺🇸_US_10'
+      - '@wbnet_🇺🇦_66_🇺🇦_66'
       - '@wbnet_🇯🇵_JP_66'
+      - '@wbnet_🇮🇳_99_🇮🇳_99'
+      - '@wbnet_🇫🇮_91_🇫🇮_91'
+      - '@wbnet_🇫🇮_365_🇫🇮_365'
+      - '@wbnet_🇦🇪_211_🇦🇪_211'
+      - '@SSRSUB-V25-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 长期更新节点@mftizi
-      - 英国-边缘访问+DP+7
-      - 印度-边缘访问+DOIN+7
       - 新加坡SG-T
-      - 新加坡［ssrcom］
       - 香港HGC-T
-      - 乌克兰-边缘访问+Vik+7
-      - 台湾-边缘访问+BGP+7
       - 日本JP-T
-      - 免费梯子https://t.me/mftizi
-      - 美国-边缘访问+DP+7
+      - 免费梯子https://t.me/mftizi_1
+      - 免费梯子https://t.me/mftizi_2
+      - 免费梯子https://t.me/mftizi_3
       - 联通一区(山东)
       - 联通一区(北京)
       - 联通二区(北京)
@@ -1413,114 +1354,113 @@ proxy-groups:
       - 华南2
       - 华南1
       - 华北
-      - 韩国+B158+|+IEPL中转、游戏+|+0x
       - 关注频道https://t.me/mftizi_1
       - 关注频道https://t.me/mftizi_2
-      - 菲律宾-边缘访问+Comfac+7
-      - 法国-边缘访问+DP+7
-      - 俄罗斯-边缘访问+GCore+7
       - 电信二区(四川)
-      - 德国-边缘访问+DP+7
       - 不定期抽奖https://t.me/mftizi_1
       - 不定期抽奖https://t.me/mftizi_2
-      - 巴西-边缘访问+GCore+7
-      - 澳大利亚-边缘访问+VUAU+7
-      - 阿根廷-边缘访问+DonWeb+7
+      - 不定期抽奖https://t.me/mftizi_3
+      - 🇺🇸@SSRSUB-美国V04-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-美国V03-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub
       - 🇹🇼_YouTube：全网最强白嫖_1
       - 🇹🇼_YouTube：全网最强白嫖_2
       - 🇳🇱|TG频道@baipiaoeverything|34
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇮🇷(@Anty_Filter)
       - YouTube：全网最强白嫖
       - VN+248+TJN
       - US【付费推荐：gvip.gq】+12
       - US+973+TJN
-      - US+88+TJN
-      - US+782+TJN
-      - US+776+TJN
-      - US+753+TJN
-      - US+741+TJN
-      - US+727+TJN
+      - US+504+TJN
       - US+4312+TJN
-      - US+416+TJN
+      - US+387+TJN
+      - US+379+TJN
       - US+365+TJN
-      - US+238+TJN
-      - US+130+TJN
-      - US+129+TJN
+      - US+364+TJN
+      - US+258+TJN
+      - US+232+TJN
+      - US+169+TJN
+      - US+168+TJN
+      - US+121+TJN
       - United-States+8
       - United-States+10
+      - United+States+|+08
       - TW+927+TJN
       - TW+926+TJN
-      - TW+716+TJN
       - Trojan+新加坡SG
       - TG@hkaa0|中国_11
       - TG@hkaa0|加拿大_2
-      - Taiwan
       - SG+90+TJN
-      - SG+733+TJN
-      - SG+730+TJN
-      - SG+570+TJN
-      - SG+466+TJN
-      - SG+464+TJN
-      - SG+463+TJN
-      - SG+462+TJN
-      - SG+461+TJN
-      - SG+460+TJN
-      - SG+459+TJN
-      - SG+417+TJN
-      - SG+374+TJN
+      - SG+401+TJN
+      - SG+399+TJN
+      - SG+398+TJN
+      - SG+397+TJN
+      - SG+396+TJN
+      - SG+395+TJN
+      - SG+394+TJN
+      - SG+349+TJN
+      - SG+260+TJN
+      - SG+257+TJN
       - SG+246+TJN
-      - SG+233+TJN
       - SG+229+TJN
-      - SG+2279+TJN
-      - SG+205+TJN
-      - SG+204+TJN
+      - SG+222+TJN
+      - NL+233+TJN
       - NL+130+TJN
       - NL+129+TJN
-      - KR+90+TJN
       - KR+80+TJN
-      - KR+79+TJN
-      - KR+738+TJN
-      - KR+732+TJN
-      - KR+73+TJN
-      - KR+728+TJN
-      - KR+474+TJN
-      - KR+433+TJN
-      - KR+413+TJN
-      - KR+387+TJN
-      - KR+261+TJN
-      - KR+239+TJN
-      - KR+226+TJN
-      - KR+221+TJN
-      - KR+200+TJN
-      - KR+196+TJN
-      - KR+195+TJN
-      - KR+192+TJN
-      - KR+191+TJN
-      - KR+168+TJN
-      - KR+150+TJN
+      - KR+66+TJN
+      - KR+63+TJN
+      - KR+506+TJN
+      - KR+465+TJN
+      - KR+460+TJN
+      - KR+455+TJN
+      - KR+426+TJN
+      - KR+369+TJN
+      - KR+368+TJN
+      - KR+362+TJN
+      - KR+352+TJN
+      - KR+298+TJN
+      - KR+296+TJN
+      - KR+294+TJN
+      - KR+293+TJN
+      - KR+292+TJN
+      - KR+290+TJN
+      - KR+289+TJN
+      - KR+287+TJN
+      - KR+276+TJN
+      - KR+245+TJN
+      - KR+231+TJN
+      - KR+218+TJN
+      - KR+211+TJN
+      - KR+204+TJN
+      - KR+164+TJN
+      - KR+160+TJN
+      - KR+159+TJN
+      - KR+158+TJN
+      - KR+157+TJN
+      - KR+147+TJN
+      - KR+146+TJN
       - KR+141+TJN
-      - KR+134+TJN
       - KR+123+TJN
-      - KR+111+TJN
-      - KR+105+TJN
-      - JP+99+TJN
+      - KR+101+TJN
       - JP+89+TJN
       - JP+78+TJN
-      - JP+752+TJN
       - JP+71+TJN
-      - JP+691+TJN
-      - JP+684+TJN
-      - JP+680+TJN
-      - JP+659+TJN
-      - JP+654+TJN
       - JP+41+TJN
       - JP+40+TJN
       - JP+39+TJN
-      - JP+276+TJN
+      - JP+37+TJN
+      - JP+35+TJN
+      - JP+243+TJN
       - JP+240+TJN
       - JP+235+TJN
+      - JP+214+TJN
       - JP+212+TJN
+      - JP+208+TJN
+      - JP+201+TJN
+      - JP+200+TJN
+      - JP+199+TJN
       - JP+198+TJN
       - JP+195+TJN
       - JP+194+TJN
@@ -1530,46 +1470,34 @@ proxy-groups:
       - JP+178+TJN
       - JP+169+TJN
       - JP+168+TJN
+      - JP+162+TJN
       - JP+157+TJN
-      - JP+146+TJN
       - JP+143+TJN
       - JP+138+TJN
       - JP+137+TJN
       - JP+134+TJN
-      - JP+132+TJN
       - JP+129+TJN
       - JP+128+TJN
       - JP+124+TJN
       - JP+123+TJN
       - JP+120+TJN
+      - JP+110+TJN
       - JP+103+TJN
       - JP+102+TJN
-      - HK+98+TJN
-      - HK+190+TJN
+      - HK+197+TJN
       - HK+134+TJN
-      - HK+115+TJN
-      - github.com/freefq-美国Microsoft数据中心41
-      - GetAFreeNode-Vienna
-      - GetAFreeNode-Moscow
-      - GetAFreeNode-Amsterdam
-      - GB+410+TJN
-      - GB+405+TJN
-      - GB+401+TJN
+      - HK+122+TJN
+      - GB+55+TJN
       - GB+400+TJN
-      - GB+255+TJN
-      - GB+189+TJN
-      - GB+140+TJN
+      - GB+228+TJN
       - games.missionsec.us:443
       - FR+399+TJN
-      - FR+126+TJN
+      - FR+145+TJN
       - FR+124+TJN
       - FR+123+TJN
-      - FR+116+TJN
       - FR+1039+TJN
-      - EE+41+TJN
-      - DE+407+TJN
-      - DE+125+TJN
       - CZ【付费推荐：gvip.gq】
+      - CZ+437+TJN
       - CN+99+SSS
       - CN+98+SSS
       - CN+97+SSS
@@ -1577,7 +1505,6 @@ proxy-groups:
       - CN+925+SSS
       - CN+91+SSS
       - CN+90+SSS
-      - CN+897+SSS
       - CN+88+SSS
       - CN+87+SSS
       - CN+85+SSS
@@ -1608,7 +1535,7 @@ proxy-groups:
       - CN+103+SSS
       - CN+102+SSS
       - CN+101+SSS
-      - CN+100+SSS_1
+      - CN+100+SSS
       - CN【付费推荐：gvip.gq】+31
       - CN+996+TJN
       - CN+995+TJN
@@ -1620,19 +1547,14 @@ proxy-groups:
       - CN+981+TJN
       - CN+980+TJN
       - CN+974+TJN
-      - CN+92+TJN
       - CN+914+TJN
       - CN+913+TJN
       - CN+908+TJN
       - CN+906+TJN
       - CN+905+TJN
-      - CN+90+TJN
-      - CN+899+SSS
       - CN+896+TJN
       - CN+894+TJN
-      - CN+891+SSS
       - CN+890+TJN
-      - CN+89+TJN
       - CN+889+TJN
       - CN+888+TJN
       - CN+887+TJN
@@ -1641,64 +1563,54 @@ proxy-groups:
       - CN+882+TJN
       - CN+881+TJN
       - CN+880+TJN
-      - CN+87+TJN
       - CN+866+TJN
       - CN+864+TJN
       - CN+862+TJN
       - CN+861+TJN
-      - CN+85+TJN
-      - CN+76+TJN
       - CN+755+TJN
-      - CN+709+TJN
-      - CN+68+TJN
-      - CN+67+TJN
-      - CN+66+TJN
-      - CN+64+TJN
       - CN+628+TJN
       - CN+627+TJN
       - CN+626+TJN
       - CN+624+TJN
       - CN+622+TJN
-      - CN+593+TJN
-      - CN+589+TJN
       - CN+581+SSS
-      - CN+58+TJN
       - CN+579+SSS
-      - CN+559+SSS
-      - CN+53+TJN
-      - CN+51+TJN_1
-      - CN+51+TJN_2
-      - CN+50+TJN
-      - CN+49+TJN
-      - CN+48+TJN
+      - CN+56+TJN
+      - CN+519+SSS
+      - CN+496+SSS
+      - CN+489+SSS
       - CN+479+SSS
-      - CN+47+TJN
-      - CN+46+TJN
-      - CN+454+TJN
-      - CN+4401+TJN
-      - CN+42+TJN
+      - CN+44+TJN
       - CN+37+SSS
-      - CN+360+TJN
-      - CN+356+TJN
-      - CN+355+TJN
-      - CN+353+TJN
+      - CN+36+SSS
       - CN+35+SSS
-      - CN+344+TJN
-      - CN+329+TJN
+      - CN+341+TJN
+      - CN+336+TJN
+      - CN+335+TJN
+      - CN+333+TJN
+      - CN+332+TJN
+      - CN+331+TJN
+      - CN+329+TJN_1
+      - CN+329+TJN_2
       - CN+327+TJN
-      - CN+326+TJN
-      - CN+324+TJN
-      - CN+323+TJN
+      - CN+326+TJN_1
+      - CN+326+TJN_2
+      - CN+324+TJN_1
+      - CN+324+TJN_2
+      - CN+323+TJN_1
+      - CN+323+TJN_2
       - CN+322+TJN
-      - CN+321+TJN
+      - CN+321+TJN_1
+      - CN+321+TJN_2
       - CN+320+TJN
       - CN+319+TJN
       - CN+316+TJN
       - CN+315+TJN
-      - CN+314+TJN_1
-      - CN+314+TJN_2
+      - CN+314+TJN
       - CN+313+TJN
-      - CN+312+TJN
+      - CN+312+TJN_1
+      - CN+312+TJN_2
+      - CN+308+TJN
       - CN+307+TJN
       - CN+306+TJN
       - CN+305+TJN
@@ -1706,10 +1618,13 @@ proxy-groups:
       - CN+303+TJN
       - CN+302+TJN
       - CN+301+TJN
-      - CN+3+→+openitsub.com
+      - CN+300+TJN
       - CN+299+TJN
-      - CN+298+TJN
-      - CN+297+TJN
+      - CN+298+TJN_1
+      - CN+298+TJN_2
+      - CN+297+TJN_1
+      - CN+297+TJN_2
+      - CN+295+TJN
       - CN+293+TJN
       - CN+290+TJN
       - CN+289+TJN
@@ -1728,33 +1643,45 @@ proxy-groups:
       - CN+273+TJN
       - CN+272+TJN
       - CN+271+TJN
-      - CN+271+SSS
       - CN+270+TJN
-      - CN+270+SSS
       - CN+268+SSS
+      - CN+267+SSS
+      - CN+261+SSS
       - CN+259+TJN
+      - CN+259+SSS
       - CN+258+TJN
       - CN+255+TJN
-      - CN+252+TJN
+      - CN+252+SSS
       - CN+251+TJN
+      - CN+251+SSS
       - CN+250+TJN
       - CN+248+TJN
-      - CN+247+TJN
-      - CN+246+TJN
+      - CN+248+SSS
+      - CN+247+TJN_1
+      - CN+247+TJN_2
+      - CN+246+TJN_1
+      - CN+246+TJN_2
       - CN+245+TJN
       - CN+244+TJN
+      - CN+243+TJN
       - CN+241+TJN
-      - CN+240+TJN
+      - CN+240+TJN_1
+      - CN+240+TJN_2
       - CN+239+TJN
+      - CN+237+SSS
+      - CN+191+TJN
       - CN+189+TJN
-      - CN+180+TJN
+      - CN+185+TJN
+      - CN+179+TJN
       - CN+173+TJN
       - CN+1676+TJN
       - CN+1434+TJN
       - CN+141+TJN
+      - CN+138+TJN
       - CN+1336+TJN
       - CN+1335+TJN
       - CN+1333+TJN
+      - CN+133+SSS
       - CN+1329+TJN
       - CN+1312+TJN
       - CN+1307+TJN
@@ -1788,9 +1715,7 @@ proxy-groups:
       - CN+1138+TJN
       - CN+1134+TJN
       - CN+1133+TJN
-      - CN+112+TJN
       - CN+110+SSS
-      - CN+109+TJN
       - CN+1075+TJN
       - CN+1074+TJN
       - CN+1073+TJN
@@ -1806,18 +1731,15 @@ proxy-groups:
       - CN+1062+TJN
       - CN+1061+TJN
       - CN+1060+TJN
-      - CN+106+TJN
       - CN+1055+TJN
       - CN+1051+TJN
       - CN+1050+TJN
-      - CN+105+TJN
       - CN+1049+TJN
       - CN+1046+TJN
       - CN+1045+TJN
       - CN+1044+TJN
       - CN+1041+TJN
       - CN+1040+TJN
-      - CN+104+TJN
       - CN+1039+TJN
       - CN+1035+TJN
       - CN+1033+TJN
@@ -1830,39 +1752,40 @@ proxy-groups:
       - CN+1018+TJN
       - CN+1016+TJN
       - CN+1012+TJN
-      - CN+100+SSS_2
-      - CN+10+TJN
-      - CH+693+TJN_1
-      - CH+693+TJN_2
+      - CH+219+TJN
+      - CH+217+TJN
       - CH+197+TJN
       - CA+758+TJN
       - CA+714+TJN
-      - CA+642+TJN
-      - CA+272+TJN
-      - AU+40+TJN
-      - AU+39+TJN
-      - '[SCP]VPSProvidedbyShirker(AS24400)&V2raybuildbyMokonaModoki'
-      - '[SCP]SGOVH'
-      - '[SCP]PLOVH'
+      - CA+256+TJN
+      - CA+229+TJN
+      - CA+209+TJN
+      - CA+175+TJN
       - '@wbnet_🇺🇸_US_30'
       - '@wbnet_🇺🇸_US_10'
+      - '@wbnet_🇺🇦_66_🇺🇦_66'
       - '@wbnet_🇯🇵_JP_66'
+      - '@wbnet_🇮🇳_99_🇮🇳_99'
+      - '@wbnet_🇫🇮_91_🇫🇮_91'
+      - '@wbnet_🇫🇮_365_🇫🇮_365'
+      - '@wbnet_🇦🇪_211_🇦🇪_211'
+      - '@SSRSUB-V25-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 长期更新节点@mftizi
-      - 英国-边缘访问+DP+7
-      - 印度-边缘访问+DOIN+7
       - 新加坡SG-T
-      - 新加坡［ssrcom］
       - 香港HGC-T
-      - 乌克兰-边缘访问+Vik+7
-      - 台湾-边缘访问+BGP+7
       - 日本JP-T
-      - 免费梯子https://t.me/mftizi
-      - 美国-边缘访问+DP+7
+      - 免费梯子https://t.me/mftizi_1
+      - 免费梯子https://t.me/mftizi_2
+      - 免费梯子https://t.me/mftizi_3
       - 联通一区(山东)
       - 联通一区(北京)
       - 联通二区(北京)
@@ -1872,114 +1795,113 @@ proxy-groups:
       - 华南2
       - 华南1
       - 华北
-      - 韩国+B158+|+IEPL中转、游戏+|+0x
       - 关注频道https://t.me/mftizi_1
       - 关注频道https://t.me/mftizi_2
-      - 菲律宾-边缘访问+Comfac+7
-      - 法国-边缘访问+DP+7
-      - 俄罗斯-边缘访问+GCore+7
       - 电信二区(四川)
-      - 德国-边缘访问+DP+7
       - 不定期抽奖https://t.me/mftizi_1
       - 不定期抽奖https://t.me/mftizi_2
-      - 巴西-边缘访问+GCore+7
-      - 澳大利亚-边缘访问+VUAU+7
-      - 阿根廷-边缘访问+DonWeb+7
+      - 不定期抽奖https://t.me/mftizi_3
+      - 🇺🇸@SSRSUB-美国V04-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-美国V03-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub
       - 🇹🇼_YouTube：全网最强白嫖_1
       - 🇹🇼_YouTube：全网最强白嫖_2
       - 🇳🇱|TG频道@baipiaoeverything|34
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇮🇷(@Anty_Filter)
       - YouTube：全网最强白嫖
       - VN+248+TJN
       - US【付费推荐：gvip.gq】+12
       - US+973+TJN
-      - US+88+TJN
-      - US+782+TJN
-      - US+776+TJN
-      - US+753+TJN
-      - US+741+TJN
-      - US+727+TJN
+      - US+504+TJN
       - US+4312+TJN
-      - US+416+TJN
+      - US+387+TJN
+      - US+379+TJN
       - US+365+TJN
-      - US+238+TJN
-      - US+130+TJN
-      - US+129+TJN
+      - US+364+TJN
+      - US+258+TJN
+      - US+232+TJN
+      - US+169+TJN
+      - US+168+TJN
+      - US+121+TJN
       - United-States+8
       - United-States+10
+      - United+States+|+08
       - TW+927+TJN
       - TW+926+TJN
-      - TW+716+TJN
       - Trojan+新加坡SG
       - TG@hkaa0|中国_11
       - TG@hkaa0|加拿大_2
-      - Taiwan
       - SG+90+TJN
-      - SG+733+TJN
-      - SG+730+TJN
-      - SG+570+TJN
-      - SG+466+TJN
-      - SG+464+TJN
-      - SG+463+TJN
-      - SG+462+TJN
-      - SG+461+TJN
-      - SG+460+TJN
-      - SG+459+TJN
-      - SG+417+TJN
-      - SG+374+TJN
+      - SG+401+TJN
+      - SG+399+TJN
+      - SG+398+TJN
+      - SG+397+TJN
+      - SG+396+TJN
+      - SG+395+TJN
+      - SG+394+TJN
+      - SG+349+TJN
+      - SG+260+TJN
+      - SG+257+TJN
       - SG+246+TJN
-      - SG+233+TJN
       - SG+229+TJN
-      - SG+2279+TJN
-      - SG+205+TJN
-      - SG+204+TJN
+      - SG+222+TJN
+      - NL+233+TJN
       - NL+130+TJN
       - NL+129+TJN
-      - KR+90+TJN
       - KR+80+TJN
-      - KR+79+TJN
-      - KR+738+TJN
-      - KR+732+TJN
-      - KR+73+TJN
-      - KR+728+TJN
-      - KR+474+TJN
-      - KR+433+TJN
-      - KR+413+TJN
-      - KR+387+TJN
-      - KR+261+TJN
-      - KR+239+TJN
-      - KR+226+TJN
-      - KR+221+TJN
-      - KR+200+TJN
-      - KR+196+TJN
-      - KR+195+TJN
-      - KR+192+TJN
-      - KR+191+TJN
-      - KR+168+TJN
-      - KR+150+TJN
+      - KR+66+TJN
+      - KR+63+TJN
+      - KR+506+TJN
+      - KR+465+TJN
+      - KR+460+TJN
+      - KR+455+TJN
+      - KR+426+TJN
+      - KR+369+TJN
+      - KR+368+TJN
+      - KR+362+TJN
+      - KR+352+TJN
+      - KR+298+TJN
+      - KR+296+TJN
+      - KR+294+TJN
+      - KR+293+TJN
+      - KR+292+TJN
+      - KR+290+TJN
+      - KR+289+TJN
+      - KR+287+TJN
+      - KR+276+TJN
+      - KR+245+TJN
+      - KR+231+TJN
+      - KR+218+TJN
+      - KR+211+TJN
+      - KR+204+TJN
+      - KR+164+TJN
+      - KR+160+TJN
+      - KR+159+TJN
+      - KR+158+TJN
+      - KR+157+TJN
+      - KR+147+TJN
+      - KR+146+TJN
       - KR+141+TJN
-      - KR+134+TJN
       - KR+123+TJN
-      - KR+111+TJN
-      - KR+105+TJN
-      - JP+99+TJN
+      - KR+101+TJN
       - JP+89+TJN
       - JP+78+TJN
-      - JP+752+TJN
       - JP+71+TJN
-      - JP+691+TJN
-      - JP+684+TJN
-      - JP+680+TJN
-      - JP+659+TJN
-      - JP+654+TJN
       - JP+41+TJN
       - JP+40+TJN
       - JP+39+TJN
-      - JP+276+TJN
+      - JP+37+TJN
+      - JP+35+TJN
+      - JP+243+TJN
       - JP+240+TJN
       - JP+235+TJN
+      - JP+214+TJN
       - JP+212+TJN
+      - JP+208+TJN
+      - JP+201+TJN
+      - JP+200+TJN
+      - JP+199+TJN
       - JP+198+TJN
       - JP+195+TJN
       - JP+194+TJN
@@ -1989,46 +1911,34 @@ proxy-groups:
       - JP+178+TJN
       - JP+169+TJN
       - JP+168+TJN
+      - JP+162+TJN
       - JP+157+TJN
-      - JP+146+TJN
       - JP+143+TJN
       - JP+138+TJN
       - JP+137+TJN
       - JP+134+TJN
-      - JP+132+TJN
       - JP+129+TJN
       - JP+128+TJN
       - JP+124+TJN
       - JP+123+TJN
       - JP+120+TJN
+      - JP+110+TJN
       - JP+103+TJN
       - JP+102+TJN
-      - HK+98+TJN
-      - HK+190+TJN
+      - HK+197+TJN
       - HK+134+TJN
-      - HK+115+TJN
-      - github.com/freefq-美国Microsoft数据中心41
-      - GetAFreeNode-Vienna
-      - GetAFreeNode-Moscow
-      - GetAFreeNode-Amsterdam
-      - GB+410+TJN
-      - GB+405+TJN
-      - GB+401+TJN
+      - HK+122+TJN
+      - GB+55+TJN
       - GB+400+TJN
-      - GB+255+TJN
-      - GB+189+TJN
-      - GB+140+TJN
+      - GB+228+TJN
       - games.missionsec.us:443
       - FR+399+TJN
-      - FR+126+TJN
+      - FR+145+TJN
       - FR+124+TJN
       - FR+123+TJN
-      - FR+116+TJN
       - FR+1039+TJN
-      - EE+41+TJN
-      - DE+407+TJN
-      - DE+125+TJN
       - CZ【付费推荐：gvip.gq】
+      - CZ+437+TJN
       - CN+99+SSS
       - CN+98+SSS
       - CN+97+SSS
@@ -2036,7 +1946,6 @@ proxy-groups:
       - CN+925+SSS
       - CN+91+SSS
       - CN+90+SSS
-      - CN+897+SSS
       - CN+88+SSS
       - CN+87+SSS
       - CN+85+SSS
@@ -2067,7 +1976,7 @@ proxy-groups:
       - CN+103+SSS
       - CN+102+SSS
       - CN+101+SSS
-      - CN+100+SSS_1
+      - CN+100+SSS
       - CN【付费推荐：gvip.gq】+31
       - CN+996+TJN
       - CN+995+TJN
@@ -2079,19 +1988,14 @@ proxy-groups:
       - CN+981+TJN
       - CN+980+TJN
       - CN+974+TJN
-      - CN+92+TJN
       - CN+914+TJN
       - CN+913+TJN
       - CN+908+TJN
       - CN+906+TJN
       - CN+905+TJN
-      - CN+90+TJN
-      - CN+899+SSS
       - CN+896+TJN
       - CN+894+TJN
-      - CN+891+SSS
       - CN+890+TJN
-      - CN+89+TJN
       - CN+889+TJN
       - CN+888+TJN
       - CN+887+TJN
@@ -2100,64 +2004,54 @@ proxy-groups:
       - CN+882+TJN
       - CN+881+TJN
       - CN+880+TJN
-      - CN+87+TJN
       - CN+866+TJN
       - CN+864+TJN
       - CN+862+TJN
       - CN+861+TJN
-      - CN+85+TJN
-      - CN+76+TJN
       - CN+755+TJN
-      - CN+709+TJN
-      - CN+68+TJN
-      - CN+67+TJN
-      - CN+66+TJN
-      - CN+64+TJN
       - CN+628+TJN
       - CN+627+TJN
       - CN+626+TJN
       - CN+624+TJN
       - CN+622+TJN
-      - CN+593+TJN
-      - CN+589+TJN
       - CN+581+SSS
-      - CN+58+TJN
       - CN+579+SSS
-      - CN+559+SSS
-      - CN+53+TJN
-      - CN+51+TJN_1
-      - CN+51+TJN_2
-      - CN+50+TJN
-      - CN+49+TJN
-      - CN+48+TJN
+      - CN+56+TJN
+      - CN+519+SSS
+      - CN+496+SSS
+      - CN+489+SSS
       - CN+479+SSS
-      - CN+47+TJN
-      - CN+46+TJN
-      - CN+454+TJN
-      - CN+4401+TJN
-      - CN+42+TJN
+      - CN+44+TJN
       - CN+37+SSS
-      - CN+360+TJN
-      - CN+356+TJN
-      - CN+355+TJN
-      - CN+353+TJN
+      - CN+36+SSS
       - CN+35+SSS
-      - CN+344+TJN
-      - CN+329+TJN
+      - CN+341+TJN
+      - CN+336+TJN
+      - CN+335+TJN
+      - CN+333+TJN
+      - CN+332+TJN
+      - CN+331+TJN
+      - CN+329+TJN_1
+      - CN+329+TJN_2
       - CN+327+TJN
-      - CN+326+TJN
-      - CN+324+TJN
-      - CN+323+TJN
+      - CN+326+TJN_1
+      - CN+326+TJN_2
+      - CN+324+TJN_1
+      - CN+324+TJN_2
+      - CN+323+TJN_1
+      - CN+323+TJN_2
       - CN+322+TJN
-      - CN+321+TJN
+      - CN+321+TJN_1
+      - CN+321+TJN_2
       - CN+320+TJN
       - CN+319+TJN
       - CN+316+TJN
       - CN+315+TJN
-      - CN+314+TJN_1
-      - CN+314+TJN_2
+      - CN+314+TJN
       - CN+313+TJN
-      - CN+312+TJN
+      - CN+312+TJN_1
+      - CN+312+TJN_2
+      - CN+308+TJN
       - CN+307+TJN
       - CN+306+TJN
       - CN+305+TJN
@@ -2165,10 +2059,13 @@ proxy-groups:
       - CN+303+TJN
       - CN+302+TJN
       - CN+301+TJN
-      - CN+3+→+openitsub.com
+      - CN+300+TJN
       - CN+299+TJN
-      - CN+298+TJN
-      - CN+297+TJN
+      - CN+298+TJN_1
+      - CN+298+TJN_2
+      - CN+297+TJN_1
+      - CN+297+TJN_2
+      - CN+295+TJN
       - CN+293+TJN
       - CN+290+TJN
       - CN+289+TJN
@@ -2187,33 +2084,45 @@ proxy-groups:
       - CN+273+TJN
       - CN+272+TJN
       - CN+271+TJN
-      - CN+271+SSS
       - CN+270+TJN
-      - CN+270+SSS
       - CN+268+SSS
+      - CN+267+SSS
+      - CN+261+SSS
       - CN+259+TJN
+      - CN+259+SSS
       - CN+258+TJN
       - CN+255+TJN
-      - CN+252+TJN
+      - CN+252+SSS
       - CN+251+TJN
+      - CN+251+SSS
       - CN+250+TJN
       - CN+248+TJN
-      - CN+247+TJN
-      - CN+246+TJN
+      - CN+248+SSS
+      - CN+247+TJN_1
+      - CN+247+TJN_2
+      - CN+246+TJN_1
+      - CN+246+TJN_2
       - CN+245+TJN
       - CN+244+TJN
+      - CN+243+TJN
       - CN+241+TJN
-      - CN+240+TJN
+      - CN+240+TJN_1
+      - CN+240+TJN_2
       - CN+239+TJN
+      - CN+237+SSS
+      - CN+191+TJN
       - CN+189+TJN
-      - CN+180+TJN
+      - CN+185+TJN
+      - CN+179+TJN
       - CN+173+TJN
       - CN+1676+TJN
       - CN+1434+TJN
       - CN+141+TJN
+      - CN+138+TJN
       - CN+1336+TJN
       - CN+1335+TJN
       - CN+1333+TJN
+      - CN+133+SSS
       - CN+1329+TJN
       - CN+1312+TJN
       - CN+1307+TJN
@@ -2247,9 +2156,7 @@ proxy-groups:
       - CN+1138+TJN
       - CN+1134+TJN
       - CN+1133+TJN
-      - CN+112+TJN
       - CN+110+SSS
-      - CN+109+TJN
       - CN+1075+TJN
       - CN+1074+TJN
       - CN+1073+TJN
@@ -2265,18 +2172,15 @@ proxy-groups:
       - CN+1062+TJN
       - CN+1061+TJN
       - CN+1060+TJN
-      - CN+106+TJN
       - CN+1055+TJN
       - CN+1051+TJN
       - CN+1050+TJN
-      - CN+105+TJN
       - CN+1049+TJN
       - CN+1046+TJN
       - CN+1045+TJN
       - CN+1044+TJN
       - CN+1041+TJN
       - CN+1040+TJN
-      - CN+104+TJN
       - CN+1039+TJN
       - CN+1035+TJN
       - CN+1033+TJN
@@ -2289,39 +2193,40 @@ proxy-groups:
       - CN+1018+TJN
       - CN+1016+TJN
       - CN+1012+TJN
-      - CN+100+SSS_2
-      - CN+10+TJN
-      - CH+693+TJN_1
-      - CH+693+TJN_2
+      - CH+219+TJN
+      - CH+217+TJN
       - CH+197+TJN
       - CA+758+TJN
       - CA+714+TJN
-      - CA+642+TJN
-      - CA+272+TJN
-      - AU+40+TJN
-      - AU+39+TJN
-      - '[SCP]VPSProvidedbyShirker(AS24400)&V2raybuildbyMokonaModoki'
-      - '[SCP]SGOVH'
-      - '[SCP]PLOVH'
+      - CA+256+TJN
+      - CA+229+TJN
+      - CA+209+TJN
+      - CA+175+TJN
       - '@wbnet_🇺🇸_US_30'
       - '@wbnet_🇺🇸_US_10'
+      - '@wbnet_🇺🇦_66_🇺🇦_66'
       - '@wbnet_🇯🇵_JP_66'
+      - '@wbnet_🇮🇳_99_🇮🇳_99'
+      - '@wbnet_🇫🇮_91_🇫🇮_91'
+      - '@wbnet_🇫🇮_365_🇫🇮_365'
+      - '@wbnet_🇦🇪_211_🇦🇪_211'
+      - '@SSRSUB-V25-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 长期更新节点@mftizi
-      - 英国-边缘访问+DP+7
-      - 印度-边缘访问+DOIN+7
       - 新加坡SG-T
-      - 新加坡［ssrcom］
       - 香港HGC-T
-      - 乌克兰-边缘访问+Vik+7
-      - 台湾-边缘访问+BGP+7
       - 日本JP-T
-      - 免费梯子https://t.me/mftizi
-      - 美国-边缘访问+DP+7
+      - 免费梯子https://t.me/mftizi_1
+      - 免费梯子https://t.me/mftizi_2
+      - 免费梯子https://t.me/mftizi_3
       - 联通一区(山东)
       - 联通一区(北京)
       - 联通二区(北京)
@@ -2331,114 +2236,113 @@ proxy-groups:
       - 华南2
       - 华南1
       - 华北
-      - 韩国+B158+|+IEPL中转、游戏+|+0x
       - 关注频道https://t.me/mftizi_1
       - 关注频道https://t.me/mftizi_2
-      - 菲律宾-边缘访问+Comfac+7
-      - 法国-边缘访问+DP+7
-      - 俄罗斯-边缘访问+GCore+7
       - 电信二区(四川)
-      - 德国-边缘访问+DP+7
       - 不定期抽奖https://t.me/mftizi_1
       - 不定期抽奖https://t.me/mftizi_2
-      - 巴西-边缘访问+GCore+7
-      - 澳大利亚-边缘访问+VUAU+7
-      - 阿根廷-边缘访问+DonWeb+7
+      - 不定期抽奖https://t.me/mftizi_3
+      - 🇺🇸@SSRSUB-美国V04-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-美国V03-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub
       - 🇹🇼_YouTube：全网最强白嫖_1
       - 🇹🇼_YouTube：全网最强白嫖_2
       - 🇳🇱|TG频道@baipiaoeverything|34
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇮🇷(@Anty_Filter)
       - YouTube：全网最强白嫖
       - VN+248+TJN
       - US【付费推荐：gvip.gq】+12
       - US+973+TJN
-      - US+88+TJN
-      - US+782+TJN
-      - US+776+TJN
-      - US+753+TJN
-      - US+741+TJN
-      - US+727+TJN
+      - US+504+TJN
       - US+4312+TJN
-      - US+416+TJN
+      - US+387+TJN
+      - US+379+TJN
       - US+365+TJN
-      - US+238+TJN
-      - US+130+TJN
-      - US+129+TJN
+      - US+364+TJN
+      - US+258+TJN
+      - US+232+TJN
+      - US+169+TJN
+      - US+168+TJN
+      - US+121+TJN
       - United-States+8
       - United-States+10
+      - United+States+|+08
       - TW+927+TJN
       - TW+926+TJN
-      - TW+716+TJN
       - Trojan+新加坡SG
       - TG@hkaa0|中国_11
       - TG@hkaa0|加拿大_2
-      - Taiwan
       - SG+90+TJN
-      - SG+733+TJN
-      - SG+730+TJN
-      - SG+570+TJN
-      - SG+466+TJN
-      - SG+464+TJN
-      - SG+463+TJN
-      - SG+462+TJN
-      - SG+461+TJN
-      - SG+460+TJN
-      - SG+459+TJN
-      - SG+417+TJN
-      - SG+374+TJN
+      - SG+401+TJN
+      - SG+399+TJN
+      - SG+398+TJN
+      - SG+397+TJN
+      - SG+396+TJN
+      - SG+395+TJN
+      - SG+394+TJN
+      - SG+349+TJN
+      - SG+260+TJN
+      - SG+257+TJN
       - SG+246+TJN
-      - SG+233+TJN
       - SG+229+TJN
-      - SG+2279+TJN
-      - SG+205+TJN
-      - SG+204+TJN
+      - SG+222+TJN
+      - NL+233+TJN
       - NL+130+TJN
       - NL+129+TJN
-      - KR+90+TJN
       - KR+80+TJN
-      - KR+79+TJN
-      - KR+738+TJN
-      - KR+732+TJN
-      - KR+73+TJN
-      - KR+728+TJN
-      - KR+474+TJN
-      - KR+433+TJN
-      - KR+413+TJN
-      - KR+387+TJN
-      - KR+261+TJN
-      - KR+239+TJN
-      - KR+226+TJN
-      - KR+221+TJN
-      - KR+200+TJN
-      - KR+196+TJN
-      - KR+195+TJN
-      - KR+192+TJN
-      - KR+191+TJN
-      - KR+168+TJN
-      - KR+150+TJN
+      - KR+66+TJN
+      - KR+63+TJN
+      - KR+506+TJN
+      - KR+465+TJN
+      - KR+460+TJN
+      - KR+455+TJN
+      - KR+426+TJN
+      - KR+369+TJN
+      - KR+368+TJN
+      - KR+362+TJN
+      - KR+352+TJN
+      - KR+298+TJN
+      - KR+296+TJN
+      - KR+294+TJN
+      - KR+293+TJN
+      - KR+292+TJN
+      - KR+290+TJN
+      - KR+289+TJN
+      - KR+287+TJN
+      - KR+276+TJN
+      - KR+245+TJN
+      - KR+231+TJN
+      - KR+218+TJN
+      - KR+211+TJN
+      - KR+204+TJN
+      - KR+164+TJN
+      - KR+160+TJN
+      - KR+159+TJN
+      - KR+158+TJN
+      - KR+157+TJN
+      - KR+147+TJN
+      - KR+146+TJN
       - KR+141+TJN
-      - KR+134+TJN
       - KR+123+TJN
-      - KR+111+TJN
-      - KR+105+TJN
-      - JP+99+TJN
+      - KR+101+TJN
       - JP+89+TJN
       - JP+78+TJN
-      - JP+752+TJN
       - JP+71+TJN
-      - JP+691+TJN
-      - JP+684+TJN
-      - JP+680+TJN
-      - JP+659+TJN
-      - JP+654+TJN
       - JP+41+TJN
       - JP+40+TJN
       - JP+39+TJN
-      - JP+276+TJN
+      - JP+37+TJN
+      - JP+35+TJN
+      - JP+243+TJN
       - JP+240+TJN
       - JP+235+TJN
+      - JP+214+TJN
       - JP+212+TJN
+      - JP+208+TJN
+      - JP+201+TJN
+      - JP+200+TJN
+      - JP+199+TJN
       - JP+198+TJN
       - JP+195+TJN
       - JP+194+TJN
@@ -2448,46 +2352,34 @@ proxy-groups:
       - JP+178+TJN
       - JP+169+TJN
       - JP+168+TJN
+      - JP+162+TJN
       - JP+157+TJN
-      - JP+146+TJN
       - JP+143+TJN
       - JP+138+TJN
       - JP+137+TJN
       - JP+134+TJN
-      - JP+132+TJN
       - JP+129+TJN
       - JP+128+TJN
       - JP+124+TJN
       - JP+123+TJN
       - JP+120+TJN
+      - JP+110+TJN
       - JP+103+TJN
       - JP+102+TJN
-      - HK+98+TJN
-      - HK+190+TJN
+      - HK+197+TJN
       - HK+134+TJN
-      - HK+115+TJN
-      - github.com/freefq-美国Microsoft数据中心41
-      - GetAFreeNode-Vienna
-      - GetAFreeNode-Moscow
-      - GetAFreeNode-Amsterdam
-      - GB+410+TJN
-      - GB+405+TJN
-      - GB+401+TJN
+      - HK+122+TJN
+      - GB+55+TJN
       - GB+400+TJN
-      - GB+255+TJN
-      - GB+189+TJN
-      - GB+140+TJN
+      - GB+228+TJN
       - games.missionsec.us:443
       - FR+399+TJN
-      - FR+126+TJN
+      - FR+145+TJN
       - FR+124+TJN
       - FR+123+TJN
-      - FR+116+TJN
       - FR+1039+TJN
-      - EE+41+TJN
-      - DE+407+TJN
-      - DE+125+TJN
       - CZ【付费推荐：gvip.gq】
+      - CZ+437+TJN
       - CN+99+SSS
       - CN+98+SSS
       - CN+97+SSS
@@ -2495,7 +2387,6 @@ proxy-groups:
       - CN+925+SSS
       - CN+91+SSS
       - CN+90+SSS
-      - CN+897+SSS
       - CN+88+SSS
       - CN+87+SSS
       - CN+85+SSS
@@ -2526,7 +2417,7 @@ proxy-groups:
       - CN+103+SSS
       - CN+102+SSS
       - CN+101+SSS
-      - CN+100+SSS_1
+      - CN+100+SSS
       - CN【付费推荐：gvip.gq】+31
       - CN+996+TJN
       - CN+995+TJN
@@ -2538,19 +2429,14 @@ proxy-groups:
       - CN+981+TJN
       - CN+980+TJN
       - CN+974+TJN
-      - CN+92+TJN
       - CN+914+TJN
       - CN+913+TJN
       - CN+908+TJN
       - CN+906+TJN
       - CN+905+TJN
-      - CN+90+TJN
-      - CN+899+SSS
       - CN+896+TJN
       - CN+894+TJN
-      - CN+891+SSS
       - CN+890+TJN
-      - CN+89+TJN
       - CN+889+TJN
       - CN+888+TJN
       - CN+887+TJN
@@ -2559,64 +2445,54 @@ proxy-groups:
       - CN+882+TJN
       - CN+881+TJN
       - CN+880+TJN
-      - CN+87+TJN
       - CN+866+TJN
       - CN+864+TJN
       - CN+862+TJN
       - CN+861+TJN
-      - CN+85+TJN
-      - CN+76+TJN
       - CN+755+TJN
-      - CN+709+TJN
-      - CN+68+TJN
-      - CN+67+TJN
-      - CN+66+TJN
-      - CN+64+TJN
       - CN+628+TJN
       - CN+627+TJN
       - CN+626+TJN
       - CN+624+TJN
       - CN+622+TJN
-      - CN+593+TJN
-      - CN+589+TJN
       - CN+581+SSS
-      - CN+58+TJN
       - CN+579+SSS
-      - CN+559+SSS
-      - CN+53+TJN
-      - CN+51+TJN_1
-      - CN+51+TJN_2
-      - CN+50+TJN
-      - CN+49+TJN
-      - CN+48+TJN
+      - CN+56+TJN
+      - CN+519+SSS
+      - CN+496+SSS
+      - CN+489+SSS
       - CN+479+SSS
-      - CN+47+TJN
-      - CN+46+TJN
-      - CN+454+TJN
-      - CN+4401+TJN
-      - CN+42+TJN
+      - CN+44+TJN
       - CN+37+SSS
-      - CN+360+TJN
-      - CN+356+TJN
-      - CN+355+TJN
-      - CN+353+TJN
+      - CN+36+SSS
       - CN+35+SSS
-      - CN+344+TJN
-      - CN+329+TJN
+      - CN+341+TJN
+      - CN+336+TJN
+      - CN+335+TJN
+      - CN+333+TJN
+      - CN+332+TJN
+      - CN+331+TJN
+      - CN+329+TJN_1
+      - CN+329+TJN_2
       - CN+327+TJN
-      - CN+326+TJN
-      - CN+324+TJN
-      - CN+323+TJN
+      - CN+326+TJN_1
+      - CN+326+TJN_2
+      - CN+324+TJN_1
+      - CN+324+TJN_2
+      - CN+323+TJN_1
+      - CN+323+TJN_2
       - CN+322+TJN
-      - CN+321+TJN
+      - CN+321+TJN_1
+      - CN+321+TJN_2
       - CN+320+TJN
       - CN+319+TJN
       - CN+316+TJN
       - CN+315+TJN
-      - CN+314+TJN_1
-      - CN+314+TJN_2
+      - CN+314+TJN
       - CN+313+TJN
-      - CN+312+TJN
+      - CN+312+TJN_1
+      - CN+312+TJN_2
+      - CN+308+TJN
       - CN+307+TJN
       - CN+306+TJN
       - CN+305+TJN
@@ -2624,10 +2500,13 @@ proxy-groups:
       - CN+303+TJN
       - CN+302+TJN
       - CN+301+TJN
-      - CN+3+→+openitsub.com
+      - CN+300+TJN
       - CN+299+TJN
-      - CN+298+TJN
-      - CN+297+TJN
+      - CN+298+TJN_1
+      - CN+298+TJN_2
+      - CN+297+TJN_1
+      - CN+297+TJN_2
+      - CN+295+TJN
       - CN+293+TJN
       - CN+290+TJN
       - CN+289+TJN
@@ -2646,33 +2525,45 @@ proxy-groups:
       - CN+273+TJN
       - CN+272+TJN
       - CN+271+TJN
-      - CN+271+SSS
       - CN+270+TJN
-      - CN+270+SSS
       - CN+268+SSS
+      - CN+267+SSS
+      - CN+261+SSS
       - CN+259+TJN
+      - CN+259+SSS
       - CN+258+TJN
       - CN+255+TJN
-      - CN+252+TJN
+      - CN+252+SSS
       - CN+251+TJN
+      - CN+251+SSS
       - CN+250+TJN
       - CN+248+TJN
-      - CN+247+TJN
-      - CN+246+TJN
+      - CN+248+SSS
+      - CN+247+TJN_1
+      - CN+247+TJN_2
+      - CN+246+TJN_1
+      - CN+246+TJN_2
       - CN+245+TJN
       - CN+244+TJN
+      - CN+243+TJN
       - CN+241+TJN
-      - CN+240+TJN
+      - CN+240+TJN_1
+      - CN+240+TJN_2
       - CN+239+TJN
+      - CN+237+SSS
+      - CN+191+TJN
       - CN+189+TJN
-      - CN+180+TJN
+      - CN+185+TJN
+      - CN+179+TJN
       - CN+173+TJN
       - CN+1676+TJN
       - CN+1434+TJN
       - CN+141+TJN
+      - CN+138+TJN
       - CN+1336+TJN
       - CN+1335+TJN
       - CN+1333+TJN
+      - CN+133+SSS
       - CN+1329+TJN
       - CN+1312+TJN
       - CN+1307+TJN
@@ -2706,9 +2597,7 @@ proxy-groups:
       - CN+1138+TJN
       - CN+1134+TJN
       - CN+1133+TJN
-      - CN+112+TJN
       - CN+110+SSS
-      - CN+109+TJN
       - CN+1075+TJN
       - CN+1074+TJN
       - CN+1073+TJN
@@ -2724,18 +2613,15 @@ proxy-groups:
       - CN+1062+TJN
       - CN+1061+TJN
       - CN+1060+TJN
-      - CN+106+TJN
       - CN+1055+TJN
       - CN+1051+TJN
       - CN+1050+TJN
-      - CN+105+TJN
       - CN+1049+TJN
       - CN+1046+TJN
       - CN+1045+TJN
       - CN+1044+TJN
       - CN+1041+TJN
       - CN+1040+TJN
-      - CN+104+TJN
       - CN+1039+TJN
       - CN+1035+TJN
       - CN+1033+TJN
@@ -2748,39 +2634,40 @@ proxy-groups:
       - CN+1018+TJN
       - CN+1016+TJN
       - CN+1012+TJN
-      - CN+100+SSS_2
-      - CN+10+TJN
-      - CH+693+TJN_1
-      - CH+693+TJN_2
+      - CH+219+TJN
+      - CH+217+TJN
       - CH+197+TJN
       - CA+758+TJN
       - CA+714+TJN
-      - CA+642+TJN
-      - CA+272+TJN
-      - AU+40+TJN
-      - AU+39+TJN
-      - '[SCP]VPSProvidedbyShirker(AS24400)&V2raybuildbyMokonaModoki'
-      - '[SCP]SGOVH'
-      - '[SCP]PLOVH'
+      - CA+256+TJN
+      - CA+229+TJN
+      - CA+209+TJN
+      - CA+175+TJN
       - '@wbnet_🇺🇸_US_30'
       - '@wbnet_🇺🇸_US_10'
+      - '@wbnet_🇺🇦_66_🇺🇦_66'
       - '@wbnet_🇯🇵_JP_66'
+      - '@wbnet_🇮🇳_99_🇮🇳_99'
+      - '@wbnet_🇫🇮_91_🇫🇮_91'
+      - '@wbnet_🇫🇮_365_🇫🇮_365'
+      - '@wbnet_🇦🇪_211_🇦🇪_211'
+      - '@SSRSUB-V25-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 长期更新节点@mftizi
-      - 英国-边缘访问+DP+7
-      - 印度-边缘访问+DOIN+7
       - 新加坡SG-T
-      - 新加坡［ssrcom］
       - 香港HGC-T
-      - 乌克兰-边缘访问+Vik+7
-      - 台湾-边缘访问+BGP+7
       - 日本JP-T
-      - 免费梯子https://t.me/mftizi
-      - 美国-边缘访问+DP+7
+      - 免费梯子https://t.me/mftizi_1
+      - 免费梯子https://t.me/mftizi_2
+      - 免费梯子https://t.me/mftizi_3
       - 联通一区(山东)
       - 联通一区(北京)
       - 联通二区(北京)
@@ -2790,114 +2677,113 @@ proxy-groups:
       - 华南2
       - 华南1
       - 华北
-      - 韩国+B158+|+IEPL中转、游戏+|+0x
       - 关注频道https://t.me/mftizi_1
       - 关注频道https://t.me/mftizi_2
-      - 菲律宾-边缘访问+Comfac+7
-      - 法国-边缘访问+DP+7
-      - 俄罗斯-边缘访问+GCore+7
       - 电信二区(四川)
-      - 德国-边缘访问+DP+7
       - 不定期抽奖https://t.me/mftizi_1
       - 不定期抽奖https://t.me/mftizi_2
-      - 巴西-边缘访问+GCore+7
-      - 澳大利亚-边缘访问+VUAU+7
-      - 阿根廷-边缘访问+DonWeb+7
+      - 不定期抽奖https://t.me/mftizi_3
+      - 🇺🇸@SSRSUB-美国V04-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-美国V03-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub
       - 🇹🇼_YouTube：全网最强白嫖_1
       - 🇹🇼_YouTube：全网最强白嫖_2
       - 🇳🇱|TG频道@baipiaoeverything|34
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇮🇷(@Anty_Filter)
       - YouTube：全网最强白嫖
       - VN+248+TJN
       - US【付费推荐：gvip.gq】+12
       - US+973+TJN
-      - US+88+TJN
-      - US+782+TJN
-      - US+776+TJN
-      - US+753+TJN
-      - US+741+TJN
-      - US+727+TJN
+      - US+504+TJN
       - US+4312+TJN
-      - US+416+TJN
+      - US+387+TJN
+      - US+379+TJN
       - US+365+TJN
-      - US+238+TJN
-      - US+130+TJN
-      - US+129+TJN
+      - US+364+TJN
+      - US+258+TJN
+      - US+232+TJN
+      - US+169+TJN
+      - US+168+TJN
+      - US+121+TJN
       - United-States+8
       - United-States+10
+      - United+States+|+08
       - TW+927+TJN
       - TW+926+TJN
-      - TW+716+TJN
       - Trojan+新加坡SG
       - TG@hkaa0|中国_11
       - TG@hkaa0|加拿大_2
-      - Taiwan
       - SG+90+TJN
-      - SG+733+TJN
-      - SG+730+TJN
-      - SG+570+TJN
-      - SG+466+TJN
-      - SG+464+TJN
-      - SG+463+TJN
-      - SG+462+TJN
-      - SG+461+TJN
-      - SG+460+TJN
-      - SG+459+TJN
-      - SG+417+TJN
-      - SG+374+TJN
+      - SG+401+TJN
+      - SG+399+TJN
+      - SG+398+TJN
+      - SG+397+TJN
+      - SG+396+TJN
+      - SG+395+TJN
+      - SG+394+TJN
+      - SG+349+TJN
+      - SG+260+TJN
+      - SG+257+TJN
       - SG+246+TJN
-      - SG+233+TJN
       - SG+229+TJN
-      - SG+2279+TJN
-      - SG+205+TJN
-      - SG+204+TJN
+      - SG+222+TJN
+      - NL+233+TJN
       - NL+130+TJN
       - NL+129+TJN
-      - KR+90+TJN
       - KR+80+TJN
-      - KR+79+TJN
-      - KR+738+TJN
-      - KR+732+TJN
-      - KR+73+TJN
-      - KR+728+TJN
-      - KR+474+TJN
-      - KR+433+TJN
-      - KR+413+TJN
-      - KR+387+TJN
-      - KR+261+TJN
-      - KR+239+TJN
-      - KR+226+TJN
-      - KR+221+TJN
-      - KR+200+TJN
-      - KR+196+TJN
-      - KR+195+TJN
-      - KR+192+TJN
-      - KR+191+TJN
-      - KR+168+TJN
-      - KR+150+TJN
+      - KR+66+TJN
+      - KR+63+TJN
+      - KR+506+TJN
+      - KR+465+TJN
+      - KR+460+TJN
+      - KR+455+TJN
+      - KR+426+TJN
+      - KR+369+TJN
+      - KR+368+TJN
+      - KR+362+TJN
+      - KR+352+TJN
+      - KR+298+TJN
+      - KR+296+TJN
+      - KR+294+TJN
+      - KR+293+TJN
+      - KR+292+TJN
+      - KR+290+TJN
+      - KR+289+TJN
+      - KR+287+TJN
+      - KR+276+TJN
+      - KR+245+TJN
+      - KR+231+TJN
+      - KR+218+TJN
+      - KR+211+TJN
+      - KR+204+TJN
+      - KR+164+TJN
+      - KR+160+TJN
+      - KR+159+TJN
+      - KR+158+TJN
+      - KR+157+TJN
+      - KR+147+TJN
+      - KR+146+TJN
       - KR+141+TJN
-      - KR+134+TJN
       - KR+123+TJN
-      - KR+111+TJN
-      - KR+105+TJN
-      - JP+99+TJN
+      - KR+101+TJN
       - JP+89+TJN
       - JP+78+TJN
-      - JP+752+TJN
       - JP+71+TJN
-      - JP+691+TJN
-      - JP+684+TJN
-      - JP+680+TJN
-      - JP+659+TJN
-      - JP+654+TJN
       - JP+41+TJN
       - JP+40+TJN
       - JP+39+TJN
-      - JP+276+TJN
+      - JP+37+TJN
+      - JP+35+TJN
+      - JP+243+TJN
       - JP+240+TJN
       - JP+235+TJN
+      - JP+214+TJN
       - JP+212+TJN
+      - JP+208+TJN
+      - JP+201+TJN
+      - JP+200+TJN
+      - JP+199+TJN
       - JP+198+TJN
       - JP+195+TJN
       - JP+194+TJN
@@ -2907,46 +2793,34 @@ proxy-groups:
       - JP+178+TJN
       - JP+169+TJN
       - JP+168+TJN
+      - JP+162+TJN
       - JP+157+TJN
-      - JP+146+TJN
       - JP+143+TJN
       - JP+138+TJN
       - JP+137+TJN
       - JP+134+TJN
-      - JP+132+TJN
       - JP+129+TJN
       - JP+128+TJN
       - JP+124+TJN
       - JP+123+TJN
       - JP+120+TJN
+      - JP+110+TJN
       - JP+103+TJN
       - JP+102+TJN
-      - HK+98+TJN
-      - HK+190+TJN
+      - HK+197+TJN
       - HK+134+TJN
-      - HK+115+TJN
-      - github.com/freefq-美国Microsoft数据中心41
-      - GetAFreeNode-Vienna
-      - GetAFreeNode-Moscow
-      - GetAFreeNode-Amsterdam
-      - GB+410+TJN
-      - GB+405+TJN
-      - GB+401+TJN
+      - HK+122+TJN
+      - GB+55+TJN
       - GB+400+TJN
-      - GB+255+TJN
-      - GB+189+TJN
-      - GB+140+TJN
+      - GB+228+TJN
       - games.missionsec.us:443
       - FR+399+TJN
-      - FR+126+TJN
+      - FR+145+TJN
       - FR+124+TJN
       - FR+123+TJN
-      - FR+116+TJN
       - FR+1039+TJN
-      - EE+41+TJN
-      - DE+407+TJN
-      - DE+125+TJN
       - CZ【付费推荐：gvip.gq】
+      - CZ+437+TJN
       - CN+99+SSS
       - CN+98+SSS
       - CN+97+SSS
@@ -2954,7 +2828,6 @@ proxy-groups:
       - CN+925+SSS
       - CN+91+SSS
       - CN+90+SSS
-      - CN+897+SSS
       - CN+88+SSS
       - CN+87+SSS
       - CN+85+SSS
@@ -2985,7 +2858,7 @@ proxy-groups:
       - CN+103+SSS
       - CN+102+SSS
       - CN+101+SSS
-      - CN+100+SSS_1
+      - CN+100+SSS
       - CN【付费推荐：gvip.gq】+31
       - CN+996+TJN
       - CN+995+TJN
@@ -2997,19 +2870,14 @@ proxy-groups:
       - CN+981+TJN
       - CN+980+TJN
       - CN+974+TJN
-      - CN+92+TJN
       - CN+914+TJN
       - CN+913+TJN
       - CN+908+TJN
       - CN+906+TJN
       - CN+905+TJN
-      - CN+90+TJN
-      - CN+899+SSS
       - CN+896+TJN
       - CN+894+TJN
-      - CN+891+SSS
       - CN+890+TJN
-      - CN+89+TJN
       - CN+889+TJN
       - CN+888+TJN
       - CN+887+TJN
@@ -3018,64 +2886,54 @@ proxy-groups:
       - CN+882+TJN
       - CN+881+TJN
       - CN+880+TJN
-      - CN+87+TJN
       - CN+866+TJN
       - CN+864+TJN
       - CN+862+TJN
       - CN+861+TJN
-      - CN+85+TJN
-      - CN+76+TJN
       - CN+755+TJN
-      - CN+709+TJN
-      - CN+68+TJN
-      - CN+67+TJN
-      - CN+66+TJN
-      - CN+64+TJN
       - CN+628+TJN
       - CN+627+TJN
       - CN+626+TJN
       - CN+624+TJN
       - CN+622+TJN
-      - CN+593+TJN
-      - CN+589+TJN
       - CN+581+SSS
-      - CN+58+TJN
       - CN+579+SSS
-      - CN+559+SSS
-      - CN+53+TJN
-      - CN+51+TJN_1
-      - CN+51+TJN_2
-      - CN+50+TJN
-      - CN+49+TJN
-      - CN+48+TJN
+      - CN+56+TJN
+      - CN+519+SSS
+      - CN+496+SSS
+      - CN+489+SSS
       - CN+479+SSS
-      - CN+47+TJN
-      - CN+46+TJN
-      - CN+454+TJN
-      - CN+4401+TJN
-      - CN+42+TJN
+      - CN+44+TJN
       - CN+37+SSS
-      - CN+360+TJN
-      - CN+356+TJN
-      - CN+355+TJN
-      - CN+353+TJN
+      - CN+36+SSS
       - CN+35+SSS
-      - CN+344+TJN
-      - CN+329+TJN
+      - CN+341+TJN
+      - CN+336+TJN
+      - CN+335+TJN
+      - CN+333+TJN
+      - CN+332+TJN
+      - CN+331+TJN
+      - CN+329+TJN_1
+      - CN+329+TJN_2
       - CN+327+TJN
-      - CN+326+TJN
-      - CN+324+TJN
-      - CN+323+TJN
+      - CN+326+TJN_1
+      - CN+326+TJN_2
+      - CN+324+TJN_1
+      - CN+324+TJN_2
+      - CN+323+TJN_1
+      - CN+323+TJN_2
       - CN+322+TJN
-      - CN+321+TJN
+      - CN+321+TJN_1
+      - CN+321+TJN_2
       - CN+320+TJN
       - CN+319+TJN
       - CN+316+TJN
       - CN+315+TJN
-      - CN+314+TJN_1
-      - CN+314+TJN_2
+      - CN+314+TJN
       - CN+313+TJN
-      - CN+312+TJN
+      - CN+312+TJN_1
+      - CN+312+TJN_2
+      - CN+308+TJN
       - CN+307+TJN
       - CN+306+TJN
       - CN+305+TJN
@@ -3083,10 +2941,13 @@ proxy-groups:
       - CN+303+TJN
       - CN+302+TJN
       - CN+301+TJN
-      - CN+3+→+openitsub.com
+      - CN+300+TJN
       - CN+299+TJN
-      - CN+298+TJN
-      - CN+297+TJN
+      - CN+298+TJN_1
+      - CN+298+TJN_2
+      - CN+297+TJN_1
+      - CN+297+TJN_2
+      - CN+295+TJN
       - CN+293+TJN
       - CN+290+TJN
       - CN+289+TJN
@@ -3105,33 +2966,45 @@ proxy-groups:
       - CN+273+TJN
       - CN+272+TJN
       - CN+271+TJN
-      - CN+271+SSS
       - CN+270+TJN
-      - CN+270+SSS
       - CN+268+SSS
+      - CN+267+SSS
+      - CN+261+SSS
       - CN+259+TJN
+      - CN+259+SSS
       - CN+258+TJN
       - CN+255+TJN
-      - CN+252+TJN
+      - CN+252+SSS
       - CN+251+TJN
+      - CN+251+SSS
       - CN+250+TJN
       - CN+248+TJN
-      - CN+247+TJN
-      - CN+246+TJN
+      - CN+248+SSS
+      - CN+247+TJN_1
+      - CN+247+TJN_2
+      - CN+246+TJN_1
+      - CN+246+TJN_2
       - CN+245+TJN
       - CN+244+TJN
+      - CN+243+TJN
       - CN+241+TJN
-      - CN+240+TJN
+      - CN+240+TJN_1
+      - CN+240+TJN_2
       - CN+239+TJN
+      - CN+237+SSS
+      - CN+191+TJN
       - CN+189+TJN
-      - CN+180+TJN
+      - CN+185+TJN
+      - CN+179+TJN
       - CN+173+TJN
       - CN+1676+TJN
       - CN+1434+TJN
       - CN+141+TJN
+      - CN+138+TJN
       - CN+1336+TJN
       - CN+1335+TJN
       - CN+1333+TJN
+      - CN+133+SSS
       - CN+1329+TJN
       - CN+1312+TJN
       - CN+1307+TJN
@@ -3165,9 +3038,7 @@ proxy-groups:
       - CN+1138+TJN
       - CN+1134+TJN
       - CN+1133+TJN
-      - CN+112+TJN
       - CN+110+SSS
-      - CN+109+TJN
       - CN+1075+TJN
       - CN+1074+TJN
       - CN+1073+TJN
@@ -3183,18 +3054,15 @@ proxy-groups:
       - CN+1062+TJN
       - CN+1061+TJN
       - CN+1060+TJN
-      - CN+106+TJN
       - CN+1055+TJN
       - CN+1051+TJN
       - CN+1050+TJN
-      - CN+105+TJN
       - CN+1049+TJN
       - CN+1046+TJN
       - CN+1045+TJN
       - CN+1044+TJN
       - CN+1041+TJN
       - CN+1040+TJN
-      - CN+104+TJN
       - CN+1039+TJN
       - CN+1035+TJN
       - CN+1033+TJN
@@ -3207,23 +3075,29 @@ proxy-groups:
       - CN+1018+TJN
       - CN+1016+TJN
       - CN+1012+TJN
-      - CN+100+SSS_2
-      - CN+10+TJN
-      - CH+693+TJN_1
-      - CH+693+TJN_2
+      - CH+219+TJN
+      - CH+217+TJN
       - CH+197+TJN
       - CA+758+TJN
       - CA+714+TJN
-      - CA+642+TJN
-      - CA+272+TJN
-      - AU+40+TJN
-      - AU+39+TJN
-      - '[SCP]VPSProvidedbyShirker(AS24400)&V2raybuildbyMokonaModoki'
-      - '[SCP]SGOVH'
-      - '[SCP]PLOVH'
+      - CA+256+TJN
+      - CA+229+TJN
+      - CA+209+TJN
+      - CA+175+TJN
       - '@wbnet_🇺🇸_US_30'
       - '@wbnet_🇺🇸_US_10'
+      - '@wbnet_🇺🇦_66_🇺🇦_66'
       - '@wbnet_🇯🇵_JP_66'
+      - '@wbnet_🇮🇳_99_🇮🇳_99'
+      - '@wbnet_🇫🇮_91_🇫🇮_91'
+      - '@wbnet_🇫🇮_365_🇫🇮_365'
+      - '@wbnet_🇦🇪_211_🇦🇪_211'
+      - '@SSRSUB-V25-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3246,17 +3120,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 长期更新节点@mftizi
-      - 英国-边缘访问+DP+7
-      - 印度-边缘访问+DOIN+7
       - 新加坡SG-T
-      - 新加坡［ssrcom］
       - 香港HGC-T
-      - 乌克兰-边缘访问+Vik+7
-      - 台湾-边缘访问+BGP+7
       - 日本JP-T
-      - 免费梯子https://t.me/mftizi
-      - 美国-边缘访问+DP+7
+      - 免费梯子https://t.me/mftizi_1
+      - 免费梯子https://t.me/mftizi_2
+      - 免费梯子https://t.me/mftizi_3
       - 联通一区(山东)
       - 联通一区(北京)
       - 联通二区(北京)
@@ -3266,114 +3135,113 @@ proxy-groups:
       - 华南2
       - 华南1
       - 华北
-      - 韩国+B158+|+IEPL中转、游戏+|+0x
       - 关注频道https://t.me/mftizi_1
       - 关注频道https://t.me/mftizi_2
-      - 菲律宾-边缘访问+Comfac+7
-      - 法国-边缘访问+DP+7
-      - 俄罗斯-边缘访问+GCore+7
       - 电信二区(四川)
-      - 德国-边缘访问+DP+7
       - 不定期抽奖https://t.me/mftizi_1
       - 不定期抽奖https://t.me/mftizi_2
-      - 巴西-边缘访问+GCore+7
-      - 澳大利亚-边缘访问+VUAU+7
-      - 阿根廷-边缘访问+DonWeb+7
+      - 不定期抽奖https://t.me/mftizi_3
+      - 🇺🇸@SSRSUB-美国V04-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-美国V03-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-俄罗斯V02-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸@SSRSUB-俄罗斯V01-付费推荐:dlj.tf/ssrsub
       - 🇹🇼_YouTube：全网最强白嫖_1
       - 🇹🇼_YouTube：全网最强白嫖_2
       - 🇳🇱|TG频道@baipiaoeverything|34
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_1
-      - 🇨🇳_CN_中国->🇭🇰_HK_香港_2
+      - 🇮🇷(@Anty_Filter)
       - YouTube：全网最强白嫖
       - VN+248+TJN
       - US【付费推荐：gvip.gq】+12
       - US+973+TJN
-      - US+88+TJN
-      - US+782+TJN
-      - US+776+TJN
-      - US+753+TJN
-      - US+741+TJN
-      - US+727+TJN
+      - US+504+TJN
       - US+4312+TJN
-      - US+416+TJN
+      - US+387+TJN
+      - US+379+TJN
       - US+365+TJN
-      - US+238+TJN
-      - US+130+TJN
-      - US+129+TJN
+      - US+364+TJN
+      - US+258+TJN
+      - US+232+TJN
+      - US+169+TJN
+      - US+168+TJN
+      - US+121+TJN
       - United-States+8
       - United-States+10
+      - United+States+|+08
       - TW+927+TJN
       - TW+926+TJN
-      - TW+716+TJN
       - Trojan+新加坡SG
       - TG@hkaa0|中国_11
       - TG@hkaa0|加拿大_2
-      - Taiwan
       - SG+90+TJN
-      - SG+733+TJN
-      - SG+730+TJN
-      - SG+570+TJN
-      - SG+466+TJN
-      - SG+464+TJN
-      - SG+463+TJN
-      - SG+462+TJN
-      - SG+461+TJN
-      - SG+460+TJN
-      - SG+459+TJN
-      - SG+417+TJN
-      - SG+374+TJN
+      - SG+401+TJN
+      - SG+399+TJN
+      - SG+398+TJN
+      - SG+397+TJN
+      - SG+396+TJN
+      - SG+395+TJN
+      - SG+394+TJN
+      - SG+349+TJN
+      - SG+260+TJN
+      - SG+257+TJN
       - SG+246+TJN
-      - SG+233+TJN
       - SG+229+TJN
-      - SG+2279+TJN
-      - SG+205+TJN
-      - SG+204+TJN
+      - SG+222+TJN
+      - NL+233+TJN
       - NL+130+TJN
       - NL+129+TJN
-      - KR+90+TJN
       - KR+80+TJN
-      - KR+79+TJN
-      - KR+738+TJN
-      - KR+732+TJN
-      - KR+73+TJN
-      - KR+728+TJN
-      - KR+474+TJN
-      - KR+433+TJN
-      - KR+413+TJN
-      - KR+387+TJN
-      - KR+261+TJN
-      - KR+239+TJN
-      - KR+226+TJN
-      - KR+221+TJN
-      - KR+200+TJN
-      - KR+196+TJN
-      - KR+195+TJN
-      - KR+192+TJN
-      - KR+191+TJN
-      - KR+168+TJN
-      - KR+150+TJN
+      - KR+66+TJN
+      - KR+63+TJN
+      - KR+506+TJN
+      - KR+465+TJN
+      - KR+460+TJN
+      - KR+455+TJN
+      - KR+426+TJN
+      - KR+369+TJN
+      - KR+368+TJN
+      - KR+362+TJN
+      - KR+352+TJN
+      - KR+298+TJN
+      - KR+296+TJN
+      - KR+294+TJN
+      - KR+293+TJN
+      - KR+292+TJN
+      - KR+290+TJN
+      - KR+289+TJN
+      - KR+287+TJN
+      - KR+276+TJN
+      - KR+245+TJN
+      - KR+231+TJN
+      - KR+218+TJN
+      - KR+211+TJN
+      - KR+204+TJN
+      - KR+164+TJN
+      - KR+160+TJN
+      - KR+159+TJN
+      - KR+158+TJN
+      - KR+157+TJN
+      - KR+147+TJN
+      - KR+146+TJN
       - KR+141+TJN
-      - KR+134+TJN
       - KR+123+TJN
-      - KR+111+TJN
-      - KR+105+TJN
-      - JP+99+TJN
+      - KR+101+TJN
       - JP+89+TJN
       - JP+78+TJN
-      - JP+752+TJN
       - JP+71+TJN
-      - JP+691+TJN
-      - JP+684+TJN
-      - JP+680+TJN
-      - JP+659+TJN
-      - JP+654+TJN
       - JP+41+TJN
       - JP+40+TJN
       - JP+39+TJN
-      - JP+276+TJN
+      - JP+37+TJN
+      - JP+35+TJN
+      - JP+243+TJN
       - JP+240+TJN
       - JP+235+TJN
+      - JP+214+TJN
       - JP+212+TJN
+      - JP+208+TJN
+      - JP+201+TJN
+      - JP+200+TJN
+      - JP+199+TJN
       - JP+198+TJN
       - JP+195+TJN
       - JP+194+TJN
@@ -3383,46 +3251,34 @@ proxy-groups:
       - JP+178+TJN
       - JP+169+TJN
       - JP+168+TJN
+      - JP+162+TJN
       - JP+157+TJN
-      - JP+146+TJN
       - JP+143+TJN
       - JP+138+TJN
       - JP+137+TJN
       - JP+134+TJN
-      - JP+132+TJN
       - JP+129+TJN
       - JP+128+TJN
       - JP+124+TJN
       - JP+123+TJN
       - JP+120+TJN
+      - JP+110+TJN
       - JP+103+TJN
       - JP+102+TJN
-      - HK+98+TJN
-      - HK+190+TJN
+      - HK+197+TJN
       - HK+134+TJN
-      - HK+115+TJN
-      - github.com/freefq-美国Microsoft数据中心41
-      - GetAFreeNode-Vienna
-      - GetAFreeNode-Moscow
-      - GetAFreeNode-Amsterdam
-      - GB+410+TJN
-      - GB+405+TJN
-      - GB+401+TJN
+      - HK+122+TJN
+      - GB+55+TJN
       - GB+400+TJN
-      - GB+255+TJN
-      - GB+189+TJN
-      - GB+140+TJN
+      - GB+228+TJN
       - games.missionsec.us:443
       - FR+399+TJN
-      - FR+126+TJN
+      - FR+145+TJN
       - FR+124+TJN
       - FR+123+TJN
-      - FR+116+TJN
       - FR+1039+TJN
-      - EE+41+TJN
-      - DE+407+TJN
-      - DE+125+TJN
       - CZ【付费推荐：gvip.gq】
+      - CZ+437+TJN
       - CN+99+SSS
       - CN+98+SSS
       - CN+97+SSS
@@ -3430,7 +3286,6 @@ proxy-groups:
       - CN+925+SSS
       - CN+91+SSS
       - CN+90+SSS
-      - CN+897+SSS
       - CN+88+SSS
       - CN+87+SSS
       - CN+85+SSS
@@ -3461,7 +3316,7 @@ proxy-groups:
       - CN+103+SSS
       - CN+102+SSS
       - CN+101+SSS
-      - CN+100+SSS_1
+      - CN+100+SSS
       - CN【付费推荐：gvip.gq】+31
       - CN+996+TJN
       - CN+995+TJN
@@ -3473,19 +3328,14 @@ proxy-groups:
       - CN+981+TJN
       - CN+980+TJN
       - CN+974+TJN
-      - CN+92+TJN
       - CN+914+TJN
       - CN+913+TJN
       - CN+908+TJN
       - CN+906+TJN
       - CN+905+TJN
-      - CN+90+TJN
-      - CN+899+SSS
       - CN+896+TJN
       - CN+894+TJN
-      - CN+891+SSS
       - CN+890+TJN
-      - CN+89+TJN
       - CN+889+TJN
       - CN+888+TJN
       - CN+887+TJN
@@ -3494,64 +3344,54 @@ proxy-groups:
       - CN+882+TJN
       - CN+881+TJN
       - CN+880+TJN
-      - CN+87+TJN
       - CN+866+TJN
       - CN+864+TJN
       - CN+862+TJN
       - CN+861+TJN
-      - CN+85+TJN
-      - CN+76+TJN
       - CN+755+TJN
-      - CN+709+TJN
-      - CN+68+TJN
-      - CN+67+TJN
-      - CN+66+TJN
-      - CN+64+TJN
       - CN+628+TJN
       - CN+627+TJN
       - CN+626+TJN
       - CN+624+TJN
       - CN+622+TJN
-      - CN+593+TJN
-      - CN+589+TJN
       - CN+581+SSS
-      - CN+58+TJN
       - CN+579+SSS
-      - CN+559+SSS
-      - CN+53+TJN
-      - CN+51+TJN_1
-      - CN+51+TJN_2
-      - CN+50+TJN
-      - CN+49+TJN
-      - CN+48+TJN
+      - CN+56+TJN
+      - CN+519+SSS
+      - CN+496+SSS
+      - CN+489+SSS
       - CN+479+SSS
-      - CN+47+TJN
-      - CN+46+TJN
-      - CN+454+TJN
-      - CN+4401+TJN
-      - CN+42+TJN
+      - CN+44+TJN
       - CN+37+SSS
-      - CN+360+TJN
-      - CN+356+TJN
-      - CN+355+TJN
-      - CN+353+TJN
+      - CN+36+SSS
       - CN+35+SSS
-      - CN+344+TJN
-      - CN+329+TJN
+      - CN+341+TJN
+      - CN+336+TJN
+      - CN+335+TJN
+      - CN+333+TJN
+      - CN+332+TJN
+      - CN+331+TJN
+      - CN+329+TJN_1
+      - CN+329+TJN_2
       - CN+327+TJN
-      - CN+326+TJN
-      - CN+324+TJN
-      - CN+323+TJN
+      - CN+326+TJN_1
+      - CN+326+TJN_2
+      - CN+324+TJN_1
+      - CN+324+TJN_2
+      - CN+323+TJN_1
+      - CN+323+TJN_2
       - CN+322+TJN
-      - CN+321+TJN
+      - CN+321+TJN_1
+      - CN+321+TJN_2
       - CN+320+TJN
       - CN+319+TJN
       - CN+316+TJN
       - CN+315+TJN
-      - CN+314+TJN_1
-      - CN+314+TJN_2
+      - CN+314+TJN
       - CN+313+TJN
-      - CN+312+TJN
+      - CN+312+TJN_1
+      - CN+312+TJN_2
+      - CN+308+TJN
       - CN+307+TJN
       - CN+306+TJN
       - CN+305+TJN
@@ -3559,10 +3399,13 @@ proxy-groups:
       - CN+303+TJN
       - CN+302+TJN
       - CN+301+TJN
-      - CN+3+→+openitsub.com
+      - CN+300+TJN
       - CN+299+TJN
-      - CN+298+TJN
-      - CN+297+TJN
+      - CN+298+TJN_1
+      - CN+298+TJN_2
+      - CN+297+TJN_1
+      - CN+297+TJN_2
+      - CN+295+TJN
       - CN+293+TJN
       - CN+290+TJN
       - CN+289+TJN
@@ -3581,33 +3424,45 @@ proxy-groups:
       - CN+273+TJN
       - CN+272+TJN
       - CN+271+TJN
-      - CN+271+SSS
       - CN+270+TJN
-      - CN+270+SSS
       - CN+268+SSS
+      - CN+267+SSS
+      - CN+261+SSS
       - CN+259+TJN
+      - CN+259+SSS
       - CN+258+TJN
       - CN+255+TJN
-      - CN+252+TJN
+      - CN+252+SSS
       - CN+251+TJN
+      - CN+251+SSS
       - CN+250+TJN
       - CN+248+TJN
-      - CN+247+TJN
-      - CN+246+TJN
+      - CN+248+SSS
+      - CN+247+TJN_1
+      - CN+247+TJN_2
+      - CN+246+TJN_1
+      - CN+246+TJN_2
       - CN+245+TJN
       - CN+244+TJN
+      - CN+243+TJN
       - CN+241+TJN
-      - CN+240+TJN
+      - CN+240+TJN_1
+      - CN+240+TJN_2
       - CN+239+TJN
+      - CN+237+SSS
+      - CN+191+TJN
       - CN+189+TJN
-      - CN+180+TJN
+      - CN+185+TJN
+      - CN+179+TJN
       - CN+173+TJN
       - CN+1676+TJN
       - CN+1434+TJN
       - CN+141+TJN
+      - CN+138+TJN
       - CN+1336+TJN
       - CN+1335+TJN
       - CN+1333+TJN
+      - CN+133+SSS
       - CN+1329+TJN
       - CN+1312+TJN
       - CN+1307+TJN
@@ -3641,9 +3496,7 @@ proxy-groups:
       - CN+1138+TJN
       - CN+1134+TJN
       - CN+1133+TJN
-      - CN+112+TJN
       - CN+110+SSS
-      - CN+109+TJN
       - CN+1075+TJN
       - CN+1074+TJN
       - CN+1073+TJN
@@ -3659,18 +3512,15 @@ proxy-groups:
       - CN+1062+TJN
       - CN+1061+TJN
       - CN+1060+TJN
-      - CN+106+TJN
       - CN+1055+TJN
       - CN+1051+TJN
       - CN+1050+TJN
-      - CN+105+TJN
       - CN+1049+TJN
       - CN+1046+TJN
       - CN+1045+TJN
       - CN+1044+TJN
       - CN+1041+TJN
       - CN+1040+TJN
-      - CN+104+TJN
       - CN+1039+TJN
       - CN+1035+TJN
       - CN+1033+TJN
@@ -3683,23 +3533,29 @@ proxy-groups:
       - CN+1018+TJN
       - CN+1016+TJN
       - CN+1012+TJN
-      - CN+100+SSS_2
-      - CN+10+TJN
-      - CH+693+TJN_1
-      - CH+693+TJN_2
+      - CH+219+TJN
+      - CH+217+TJN
       - CH+197+TJN
       - CA+758+TJN
       - CA+714+TJN
-      - CA+642+TJN
-      - CA+272+TJN
-      - AU+40+TJN
-      - AU+39+TJN
-      - '[SCP]VPSProvidedbyShirker(AS24400)&V2raybuildbyMokonaModoki'
-      - '[SCP]SGOVH'
-      - '[SCP]PLOVH'
+      - CA+256+TJN
+      - CA+229+TJN
+      - CA+209+TJN
+      - CA+175+TJN
       - '@wbnet_🇺🇸_US_30'
       - '@wbnet_🇺🇸_US_10'
+      - '@wbnet_🇺🇦_66_🇺🇦_66'
       - '@wbnet_🇯🇵_JP_66'
+      - '@wbnet_🇮🇳_99_🇮🇳_99'
+      - '@wbnet_🇫🇮_91_🇫🇮_91'
+      - '@wbnet_🇫🇮_365_🇫🇮_365'
+      - '@wbnet_🇦🇪_211_🇦🇪_211'
+      - '@SSRSUB-V25-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V15-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V14-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V13-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V12-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V10-付费推荐:suo.yt/ssrsub'
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
