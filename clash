@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-12-19 09:41:05
+#  创建时间：2022-12-20 09:35:04
 #  模版：v2rayse默认模版
-#  节点数量：61
+#  节点数量：74
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,466 +13,557 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"NONE_1","server":"103.81.85.238","port":443,"password":"8078dd51-d4d9-4024-89df-50e358a00a54","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_2","server":"60.249.3.227","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_3","server":"211.72.35.152","port":3389,"password":"0cc6b4268dea0ba8","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_4","server":"60.249.3.227","port":3389,"password":"7ac49a893e0bd10c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_5","server":"103.81.85.238","port":443,"password":"5623be5f-c9da-4511-81a9-b4b39b16edae","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"香港AZ2+|+解锁流媒体-推荐","server":"20.187.78.206","port":443,"password":"5d1846d2-1f0c-486d-9eca-0b7934284855","udp":true,"skip-cert-verify":true,"sni":"glc.windowsupdate1.com"}
-  - {"type":"trojan","name":"NONE_6","server":"211.72.35.155","port":3389,"password":"8b475d9e868e43e0","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_7","server":"60.249.3.228","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_8","server":"60.249.3.125","port":3389,"password":"3febb05ea76a940f","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_9","server":"211.72.35.157","port":3389,"password":"26a663656e575c0b","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_10","server":"lqoo.xyz","port":60006,"password":"QkxJPTkWg3","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_11","server":"in01.trojanyyds.xyz","port":443,"password":"cd41b9d7-df15-46ad-a778-257b0851525a","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_12","server":"210.0.158.220","port":28443,"password":"750a29bf-0a40-437f-b120-38de74ae7eaf","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_13","server":"trs17.bolab.net","port":22,"password":"40c89b10235c40321e7a3cef82b53a03","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"越南-3号","server":"103.81.85.238","port":443,"password":"5d1846d2-1f0c-486d-9eca-0b7934284855","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
-  - {"type":"trojan","name":"香港AZ+|+解锁流媒体-推荐","server":"20.205.4.127","port":443,"password":"5d1846d2-1f0c-486d-9eca-0b7934284855","udp":true,"skip-cert-verify":true,"sni":"glc.windowsupdate1.com"}
-  - {"type":"trojan","name":"越南-2号","server":"103.173.255.127","port":443,"password":"5d1846d2-1f0c-486d-9eca-0b7934284855","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
-  - {"type":"trojan","name":"NONE_14","server":"jp01.trojanyyds.xyz","port":443,"password":"cd41b9d7-df15-46ad-a778-257b0851525a","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_15","server":"103.195.236.24","port":443,"password":"52171d41-9367-429f-baa6-43660a6c84e4","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_16","server":"103.195.236.24","port":443,"password":"8078dd51-d4d9-4024-89df-50e358a00a54","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"github.com/mehdimoghaddam-cell_1","server":"103.167.34.206","port":443,"password":"60d47bb6-47d1-45b1-b67b-4d236a4a5957","udp":true,"skip-cert-verify":true,"sni":"idt3.sshocean.net"}
-  - {"type":"trojan","name":"NONE_17","server":"211.72.35.157","port":3389,"password":"7b06d22a8a7c764f","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_18","server":"us01.trojanyyds.xyz","port":443,"password":"cd41b9d7-df15-46ad-a778-257b0851525a","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_19","server":"103.195.236.24","port":443,"password":"5623be5f-c9da-4511-81a9-b4b39b16edae","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_20","server":"211.72.35.152","port":3389,"password":"7ac49a893e0bd10c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_21","server":"211.72.35.152","port":3389,"password":"7b06d22a8a7c764f","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_22","server":"uk1.trojanvh.xyz","port":80,"password":"b640d791-ff83-4300-b509-c2a02f97f167","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_23","server":"51.81.82.15","port":443,"password":"c2b0a060-44b0-11ed-ad2e-1239d0255272","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_24","server":"103.195.236.24","port":443,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_25","server":"official.taipeicitygovernment.net.ua","port":8443,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_26","server":"de.tjvpn.org","port":443,"password":"c60fbf90-4b55-11ed-b935-225401db9d57","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_27","server":"103.173.255.21","port":443,"password":"5623be5f-c9da-4511-81a9-b4b39b16edae","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_28","server":"211.72.35.155","port":3389,"password":"7b06d22a8a7c764f","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_29","server":"103.81.85.238","port":443,"password":"b874173c-dfc6-40f4-9542-d973997f9659","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"vpnclub_21","server":"sg02.trojanyyds.xyz","port":443,"password":"cd41b9d7-df15-46ad-a778-257b0851525a","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"18844@os-tr-2.cats22.net:443","server":"os-tr-2.cats22.net","port":443,"password":"18844%40zxcvbn","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_30","server":"103.81.85.238","port":443,"password":"52171d41-9367-429f-baa6-43660a6c84e4","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_31","server":"89.163.220.99","port":28443,"password":"6b4ced5e-835a-4a7a-9d03-6a46e94668cb","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"越南-1号","server":"103.173.255.21","port":443,"password":"5d1846d2-1f0c-486d-9eca-0b7934284855","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
-  - {"type":"trojan","name":"NONE_32","server":"211.72.35.155","port":3389,"password":"b84d16a244460e09","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_33","server":"211.72.35.152","port":3389,"password":"faf42aa0a9ad4c1e","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_34","server":"92.118.149.85","port":443,"password":"3gLlCYBipVwr6Y5F","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"github.com/mehdimoghaddam-cell_2","server":"212.24.103.3","port":443,"password":"4f9ca636-5195-406a-b48c-0388689dd9a7","udp":true,"skip-cert-verify":true,"sni":"ltt1.sshocean.net"}
-  - {"type":"trojan","name":"NONE_35","server":"xray.tawanaclub.tk","port":14302,"password":"rk95RrXpt2","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"越南1G+|+解锁流媒体","server":"103.195.236.24","port":443,"password":"5d1846d2-1f0c-486d-9eca-0b7934284855","udp":true,"skip-cert-verify":true,"sni":"glc.hruqoaw.cn"}
-  - {"type":"trojan","name":"NONE_36","server":"v2cross.com.04.v2ce.com","port":443,"password":"vGWCNNfBHwSY6m6M","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"18844@os13.cats22.net:443","server":"os13.cats22.net","port":443,"password":"18844%40zxcvbn","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"vpnclub++اینترنت+بدون+مرز_25","server":"us2.trojanvh.xyz","port":80,"password":"011eb011-c68e-4f92-80eb-f9bbef707bef","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_37","server":"211.72.35.155","port":3389,"password":"b09d2aaa443af97a","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"日本AZ+|+解锁流媒体-推荐","server":"20.210.237.81","port":443,"password":"5d1846d2-1f0c-486d-9eca-0b7934284855","udp":true,"skip-cert-verify":true,"sni":"glc.windowsupdate1.com"}
-  - {"type":"trojan","name":"NONE_38","server":"official.taipeicitygovernment.org.ua","port":8443,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_39","server":"211.72.35.157","port":3389,"password":"6c8b18adb11737af","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"18844@os-tr-5.cats22.net:443","server":"os-tr-5.cats22.net","port":443,"password":"18844%40zxcvbn","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_40","server":"211.72.35.154","port":3389,"password":"7b06d22a8a7c764f","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"NONE_41","server":"211.72.35.152","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"18844@os1.cats22.net:443","server":"os1.cats22.net","port":443,"password":"18844%40zxcvbn","udp":true,"skip-cert-verify":true}
-  - {"type":"ss","name":"github.com/mehdimoghaddam-cell_195","server":"158.58.173.240","port":801,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"trojan","name":"@wbnet+اینترنت+بدون+مرز_46","server":"135.148.148.4","port":80,"password":"76fcac80-9943-4eab-8717-0ebebea94b70","udp":true,"skip-cert-verify":true,"sni":"us3.trojanvh.xyz"}
+  - {"type":"vmess","name":"github.com/mehdimoghaddam-cell_1","ws-opts":{"path":"/"},"server":"103.167.196.8","port":"80","uuid":"56716a96-a265-448c-8969-03e626889580","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"HoChiMinh-VNPT@univstar_5","server":"222.84.250.35","port":15667,"password":"5ea2e450-9ccc-3bf8-a41e-540368e0c358","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Portland-Scloud-dip@univstar_9","server":"222.84.250.35","port":15654,"password":"5ea2e450-9ccc-3bf8-a41e-540368e0c358","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"Relay_Relay_🇺🇦UA-🇺🇦UA_353🇺🇦UA-🇺🇦UA_343","server":"130.0.233.20","port":31675,"cipher":"aes-256-cfb","password":"m7pZhBG"}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_308🇹🇼TW-🇱🇹LT_309","server":"211.72.35.152","port":3389,"password":"8b475d9e868e43e0","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇧🇭BH-🇱🇹LT_23🇧🇭BH-🇱🇹LT_22","server":"23.247.137.70","port":3389,"password":"d4e41ff772c7fd45","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Atlanta-BlueVPS-dip@univstar_5","server":"222.84.250.35","port":15665,"password":"5ea2e450-9ccc-3bf8-a41e-540368e0c358","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Seoul-Oracle@univstar_9","server":"222.84.250.35","port":15602,"password":"5ea2e450-9ccc-3bf8-a41e-540368e0c358","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"🇺🇸US_446🇺🇸US_432","server":"172.99.188.99","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"trojan","name":"🇹🇼TW_325🇹🇼TW_312","server":"60.249.3.226","port":3389,"password":"7ac49a893e0bd10c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇩🇪DE_65🇩🇪DE_66","server":"89.163.220.99","port":28443,"password":"750a29bf-0a40-437f-b120-38de74ae7eaf","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_315🇹🇼TW-🇱🇹LT_303","server":"211.72.35.157","port":3389,"password":"0cc6b4268dea0ba8","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"LAX-Krypt@univstar_22","server":"222.84.250.35","port":19232,"password":"089c4166-e466-35cf-ba65-7ebcdfb71ee5","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"@wbnetاینترنتبدونمرز_42","ws-opts":{"path":"/graphql"},"server":"65.109.161.166","port":"80","uuid":"7fd87ddb-ff61-4aca-a40c-73f5cd4d2178","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"Portland-Scloud-dip@univstar_10","server":"222.84.250.35","port":15655,"password":"5ea2e450-9ccc-3bf8-a41e-540368e0c358","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"Relay_Relay_🇨🇳CN-🇺🇸US_31🇨🇳CN-🇺🇸US_29","server":"AZHK-NODE-01.PL2020.XYZ","port":"10025","uuid":"7bb78d3e-c1ce-430d-b0ab-cd85fabd09c5","alterId":"1","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"trojan","name":"Relay_Relay_🇨🇿CZ-🇨🇿CZ_38🇨🇿CZ-🇨🇿CZ_37","server":"v2cross.com.02.v2ce.com","port":443,"password":"3gLlCYBipVwr6Y5F","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"@wbnet+اینترنت+بدون+مرز_37","server":"135.148.148.4","port":80,"password":"ee2bccd3-0f30-42d4-86d6-3d393ad230bd","udp":true,"skip-cert-verify":true,"sni":"us3.trojanvh.xyz"}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_349🇹🇼TW-🇱🇹LT_310","server":"211.72.35.155","port":3389,"password":"3febb05ea76a940f","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_321🇹🇼TW-🇱🇹LT_302","server":"60.249.3.226","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"@wbnet+اینترنت+بدون+مرز_36","server":"135.148.148.4","port":80,"password":"892c4f6e-732b-4f71-ad04-6e77344f2d0e","udp":true,"skip-cert-verify":true,"sni":"us3.trojanvh.xyz"}
+  - {"type":"trojan","name":"Singapore-M247@univstar_30","server":"222.84.250.35","port":19226,"password":"089c4166-e466-35cf-ba65-7ebcdfb71ee5","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇫🇷FR_108🇫🇷FR_103","server":"51.68.89.16","port":443,"password":"814b6e9a-805a-4bda-b15a-a321c96092e1","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_318🇹🇼TW-🇱🇹LT_306","server":"60.249.3.226","port":3389,"password":"36fe28a331638747","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"vpnclub_30","server":"135.148.148.4","port":80,"password":"92346756-284e-4de6-904b-16510c38e8b7","udp":true,"skip-cert-verify":true,"sni":"us3.trojanvh.xyz"}
+  - {"type":"trojan","name":"@wbnet+اینترنت+بدون+مرز_26","server":"135.148.148.4","port":80,"password":"800eb26c-cd0c-4269-aae7-e63d75de4edd","udp":true,"skip-cert-verify":true,"sni":"us3.trojanvh.xyz"}
   - {"type":"ss","name":"github.com/mehdimoghaddam-cell_72","server":"158.58.173.240","port":806,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"default_name","server":"13.213.2.160","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
   - {"type":"ss","name":"github.com/mehdimoghaddam-cell_649","server":"158.58.173.240","port":804,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"github.com/mehdimoghaddam-cell_159","server":"158.58.173.240","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_332🇹🇼TW-🇱🇹LT_322","server":"211.72.35.157","port":3389,"password":"b09d2aaa443af97a","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇭🇰HK_159🇭🇰HK_154","server":"sg01.trojanyyds.xyz","port":443,"password":"cd41b9d7-df15-46ad-a778-257b0851525a","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Singapore-M247@univstar_29","server":"222.84.250.35","port":19225,"password":"089c4166-e466-35cf-ba65-7ebcdfb71ee5","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🌍+(@Anty_Filter)_1","server":"51.83.186.142","port":80,"password":"2959e4f7-7589-4a40-9b96-1be750ac7845","udp":true,"skip-cert-verify":true,"sni":"pl1.trojanvh.xyz"}
+  - {"type":"vmess","name":"vpnclubاینترنتبدونمرز_62","ws-opts":{"path":"/"},"server":"185.242.161.206","port":"25212","uuid":"43a988d1-8c8c-4303-9e03-8d651de6f376","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"ss","name":"github.com/mehdimoghaddam-cell_86","server":"158.58.173.240","port":808,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"github.com/mehdimoghaddam-cell_159","server":"158.58.173.240","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_330🇹🇼TW-🇱🇹LT_319","server":"211.72.35.152","port":3389,"password":"6c8b18adb11737af","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Frankfurt-Oracle@univstar_10","server":"222.84.250.35","port":15614,"password":"5ea2e450-9ccc-3bf8-a41e-540368e0c358","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_331🇹🇼TW-🇱🇹LT_321","server":"211.72.35.152","port":3389,"password":"b09d2aaa443af97a","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Singapore-M247@univstar_26","server":"222.84.250.35","port":19222,"password":"089c4166-e466-35cf-ba65-7ebcdfb71ee5","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Singapore-M247@univstar_27","server":"222.84.250.35","port":19223,"password":"089c4166-e466-35cf-ba65-7ebcdfb71ee5","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇭🇰HK_139🇭🇰HK_129","server":"de01.trojanyyds.xyz","port":443,"password":"cd41b9d7-df15-46ad-a778-257b0851525a","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🏁ZZ_322🇹🇼TW-🏁ZZ_314","server":"211.72.35.158","port":3389,"password":"7b06d22a8a7c764f","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇫🇷FR_107🇫🇷FR_100","server":"51.75.76.22","port":443,"password":"c60fbf90-4b55-11ed-b935-225401db9d57","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_345🇹🇼TW-🇱🇹LT_342","server":"211.72.35.152","port":3389,"password":"3c4e10af98c30972","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"github.com/mehdimoghaddam-cell_195","server":"158.58.173.240","port":801,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"trojan","name":"🌍+(@Anty_Filter)_2","server":"51.91.11.29","port":80,"password":"e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad","udp":true,"skip-cert-verify":true,"sni":"fr1.trojanvh.xyz"}
+  - {"type":"trojan","name":"NONE_1","server":"official.taipeicitygovernment.org.ua","port":8443,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"NONE_2","server":"211.72.35.157","port":3389,"password":"6c8b18adb11737af","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_313🇹🇼TW-🇱🇹LT_341","server":"60.249.3.228","port":3389,"password":"7ac49a893e0bd10c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"NONE_3","server":"211.72.35.152","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"卢森堡_aries_1","ws-opts":{"path":"/aries","headers":{"host":"BuyVM.CLOUDFLARE.QUEST"}},"server":"8.218.156.91","port":"2086","uuid":"e91c45c9-2c0f-46a9-c56d-21663b9e2c18","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"NONE_4","server":"211.72.35.154","port":3389,"password":"7b06d22a8a7c764f","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"github.com/mehdimoghaddam-cell_2","ws-opts":{"path":"/jhndsmlanj11223","headers":{"host":"129.150.44.64"}},"server":"129.150.44.64","port":"46075","uuid":"da257e73-f02b-45ab-9916-7baf154c47a3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"卢森堡_aries_3","ws-opts":{"path":"/aries","headers":{"host":"BuyVM.CLOUDFLARE.QUEST"}},"server":"47.243.107.181","port":"2086","uuid":"e91c45c9-2c0f-46a9-c56d-21663b9e2c18","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"🇭🇰HK_140🇭🇰HK_128","server":"uk01.trojanyyds.xyz","port":443,"password":"cd41b9d7-df15-46ad-a778-257b0851525a","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_319🇹🇼TW-🇱🇹LT_340","server":"211.72.35.157","port":3389,"password":"7ac49a893e0bd10c","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_350🇹🇼TW-🇱🇹LT_339","server":"211.72.35.152","port":3389,"password":"b84d16a244460e09","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇹🇼TW_352🇹🇼TW-🇹🇼TW_338","server":"60.249.3.125","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_346🇹🇼TW-🇱🇹LT_332","server":"211.72.35.155","port":3389,"password":"0cc6b4268dea0ba8","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_333🇹🇼TW-🇱🇹LT_323","server":"211.72.35.155","port":3389,"password":"26a663656e575c0b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇹🇼TW_347🇹🇼TW-🇹🇼TW_336","server":"60.249.3.230","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"NONE_5","server":"211.72.35.155","port":3389,"password":"b09d2aaa443af97a","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_338🇹🇼TW-🇱🇹LT_333","server":"211.72.35.152","port":3389,"password":"4bacb8f1a089763b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_339🇹🇼TW-🇱🇹LT_334","server":"211.72.35.157","port":3389,"password":"8b475d9e868e43e0","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"卢森堡_aries_2","ws-opts":{"path":"/aries","headers":{"host":"BuyVM.CLOUDFLARE.QUEST"}},"server":"47.243.162.49","port":"2086","uuid":"e91c45c9-2c0f-46a9-c56d-21663b9e2c18","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_336🇹🇼TW-🇱🇹LT_329","server":"211.72.35.152","port":3389,"password":"26a663656e575c0b","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_334🇹🇼TW-🇱🇹LT_325","server":"211.72.35.152","port":3389,"password":"3febb05ea76a940f","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_341🇹🇼TW-🇱🇹LT_324","server":"211.72.35.155","port":3389,"password":"6c8b18adb11737af","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇹🇼TW_311🇹🇼TW-🇹🇼TW_331","server":"60.249.3.231","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"Relay_Relay_🇹🇼TW-🇱🇹LT_344🇹🇼TW-🇱🇹LT_330","server":"60.249.3.229","port":3389,"password":"182228812d1e0f23","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"vpnclub++اینترنت+بدون+مرز_25","server":"us2.trojanvh.xyz","port":80,"password":"011eb011-c68e-4f92-80eb-f9bbef707bef","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"NONE_6","server":"uk1.trojanvh.xyz","port":80,"password":"b640d791-ff83-4300-b509-c2a02f97f167","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - '@wbnet+اینترنت+بدون+مرز_46'
+      - github.com/mehdimoghaddam-cell_1
+      - HoChiMinh-VNPT@univstar_5
+      - Portland-Scloud-dip@univstar_9
+      - Relay_Relay_🇺🇦UA-🇺🇦UA_353🇺🇦UA-🇺🇦UA_343
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_308🇹🇼TW-🇱🇹LT_309
+      - Relay_Relay_🇧🇭BH-🇱🇹LT_23🇧🇭BH-🇱🇹LT_22
+      - Atlanta-BlueVPS-dip@univstar_5
+      - Seoul-Oracle@univstar_9
+      - 🇺🇸US_446🇺🇸US_432
+      - 🇹🇼TW_325🇹🇼TW_312
+      - 🇩🇪DE_65🇩🇪DE_66
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_315🇹🇼TW-🇱🇹LT_303
+      - LAX-Krypt@univstar_22
+      - '@wbnetاینترنتبدونمرز_42'
+      - Portland-Scloud-dip@univstar_10
+      - Relay_Relay_🇨🇳CN-🇺🇸US_31🇨🇳CN-🇺🇸US_29
+      - Relay_Relay_🇨🇿CZ-🇨🇿CZ_38🇨🇿CZ-🇨🇿CZ_37
+      - '@wbnet+اینترنت+بدون+مرز_37'
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_349🇹🇼TW-🇱🇹LT_310
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_321🇹🇼TW-🇱🇹LT_302
+      - '@wbnet+اینترنت+بدون+مرز_36'
+      - Singapore-M247@univstar_30
+      - 🇫🇷FR_108🇫🇷FR_103
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_318🇹🇼TW-🇱🇹LT_306
+      - vpnclub_30
+      - '@wbnet+اینترنت+بدون+مرز_26'
+      - github.com/mehdimoghaddam-cell_72
+      - default_name
+      - github.com/mehdimoghaddam-cell_649
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_332🇹🇼TW-🇱🇹LT_322
+      - 🇭🇰HK_159🇭🇰HK_154
+      - Singapore-M247@univstar_29
+      - 🌍+(@Anty_Filter)_1
+      - vpnclubاینترنتبدونمرز_62
+      - github.com/mehdimoghaddam-cell_86
+      - github.com/mehdimoghaddam-cell_159
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_330🇹🇼TW-🇱🇹LT_319
+      - Frankfurt-Oracle@univstar_10
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_331🇹🇼TW-🇱🇹LT_321
+      - Singapore-M247@univstar_26
+      - Singapore-M247@univstar_27
+      - 🇭🇰HK_139🇭🇰HK_129
+      - Relay_Relay_🇹🇼TW-🏁ZZ_322🇹🇼TW-🏁ZZ_314
+      - 🇫🇷FR_107🇫🇷FR_100
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_345🇹🇼TW-🇱🇹LT_342
+      - github.com/mehdimoghaddam-cell_195
+      - 🌍+(@Anty_Filter)_2
       - NONE_1
       - NONE_2
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_313🇹🇼TW-🇱🇹LT_341
       - NONE_3
+      - 卢森堡_aries_1
       - NONE_4
-      - NONE_5
-      - 香港AZ2+|+解锁流媒体-推荐
-      - NONE_6
-      - NONE_7
-      - NONE_8
-      - NONE_9
-      - NONE_10
-      - NONE_11
-      - NONE_12
-      - NONE_13
-      - 越南-3号
-      - 香港AZ+|+解锁流媒体-推荐
-      - 越南-2号
-      - NONE_14
-      - NONE_15
-      - NONE_16
-      - github.com/mehdimoghaddam-cell_1
-      - NONE_17
-      - NONE_18
-      - NONE_19
-      - NONE_20
-      - NONE_21
-      - NONE_22
-      - NONE_23
-      - NONE_24
-      - NONE_25
-      - NONE_26
-      - NONE_27
-      - NONE_28
-      - NONE_29
-      - vpnclub_21
-      - 18844@os-tr-2.cats22.net:443
-      - NONE_30
-      - NONE_31
-      - 越南-1号
-      - NONE_32
-      - NONE_33
-      - NONE_34
       - github.com/mehdimoghaddam-cell_2
-      - NONE_35
-      - 越南1G+|+解锁流媒体
-      - NONE_36
-      - 18844@os13.cats22.net:443
+      - 卢森堡_aries_3
+      - 🇭🇰HK_140🇭🇰HK_128
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_319🇹🇼TW-🇱🇹LT_340
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_350🇹🇼TW-🇱🇹LT_339
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_352🇹🇼TW-🇹🇼TW_338
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_346🇹🇼TW-🇱🇹LT_332
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_333🇹🇼TW-🇱🇹LT_323
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_347🇹🇼TW-🇹🇼TW_336
+      - NONE_5
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_338🇹🇼TW-🇱🇹LT_333
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_339🇹🇼TW-🇱🇹LT_334
+      - 卢森堡_aries_2
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_336🇹🇼TW-🇱🇹LT_329
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_334🇹🇼TW-🇱🇹LT_325
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_341🇹🇼TW-🇱🇹LT_324
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_311🇹🇼TW-🇹🇼TW_331
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_344🇹🇼TW-🇱🇹LT_330
       - vpnclub++اینترنت+بدون+مرز_25
-      - NONE_37
-      - 日本AZ+|+解锁流媒体-推荐
-      - NONE_38
-      - NONE_39
-      - 18844@os-tr-5.cats22.net:443
-      - NONE_40
-      - NONE_41
-      - 18844@os1.cats22.net:443
-      - github.com/mehdimoghaddam-cell_195
-      - github.com/mehdimoghaddam-cell_72
-      - github.com/mehdimoghaddam-cell_649
-      - github.com/mehdimoghaddam-cell_159
-      - github.com/mehdimoghaddam-cell_86
+      - NONE_6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - '@wbnet+اینترنت+بدون+مرز_46'
+      - github.com/mehdimoghaddam-cell_1
+      - HoChiMinh-VNPT@univstar_5
+      - Portland-Scloud-dip@univstar_9
+      - Relay_Relay_🇺🇦UA-🇺🇦UA_353🇺🇦UA-🇺🇦UA_343
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_308🇹🇼TW-🇱🇹LT_309
+      - Relay_Relay_🇧🇭BH-🇱🇹LT_23🇧🇭BH-🇱🇹LT_22
+      - Atlanta-BlueVPS-dip@univstar_5
+      - Seoul-Oracle@univstar_9
+      - 🇺🇸US_446🇺🇸US_432
+      - 🇹🇼TW_325🇹🇼TW_312
+      - 🇩🇪DE_65🇩🇪DE_66
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_315🇹🇼TW-🇱🇹LT_303
+      - LAX-Krypt@univstar_22
+      - '@wbnetاینترنتبدونمرز_42'
+      - Portland-Scloud-dip@univstar_10
+      - Relay_Relay_🇨🇳CN-🇺🇸US_31🇨🇳CN-🇺🇸US_29
+      - Relay_Relay_🇨🇿CZ-🇨🇿CZ_38🇨🇿CZ-🇨🇿CZ_37
+      - '@wbnet+اینترنت+بدون+مرز_37'
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_349🇹🇼TW-🇱🇹LT_310
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_321🇹🇼TW-🇱🇹LT_302
+      - '@wbnet+اینترنت+بدون+مرز_36'
+      - Singapore-M247@univstar_30
+      - 🇫🇷FR_108🇫🇷FR_103
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_318🇹🇼TW-🇱🇹LT_306
+      - vpnclub_30
+      - '@wbnet+اینترنت+بدون+مرز_26'
+      - github.com/mehdimoghaddam-cell_72
+      - default_name
+      - github.com/mehdimoghaddam-cell_649
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_332🇹🇼TW-🇱🇹LT_322
+      - 🇭🇰HK_159🇭🇰HK_154
+      - Singapore-M247@univstar_29
+      - 🌍+(@Anty_Filter)_1
+      - vpnclubاینترنتبدونمرز_62
+      - github.com/mehdimoghaddam-cell_86
+      - github.com/mehdimoghaddam-cell_159
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_330🇹🇼TW-🇱🇹LT_319
+      - Frankfurt-Oracle@univstar_10
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_331🇹🇼TW-🇱🇹LT_321
+      - Singapore-M247@univstar_26
+      - Singapore-M247@univstar_27
+      - 🇭🇰HK_139🇭🇰HK_129
+      - Relay_Relay_🇹🇼TW-🏁ZZ_322🇹🇼TW-🏁ZZ_314
+      - 🇫🇷FR_107🇫🇷FR_100
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_345🇹🇼TW-🇱🇹LT_342
+      - github.com/mehdimoghaddam-cell_195
+      - 🌍+(@Anty_Filter)_2
       - NONE_1
       - NONE_2
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_313🇹🇼TW-🇱🇹LT_341
       - NONE_3
+      - 卢森堡_aries_1
       - NONE_4
-      - NONE_5
-      - 香港AZ2+|+解锁流媒体-推荐
-      - NONE_6
-      - NONE_7
-      - NONE_8
-      - NONE_9
-      - NONE_10
-      - NONE_11
-      - NONE_12
-      - NONE_13
-      - 越南-3号
-      - 香港AZ+|+解锁流媒体-推荐
-      - 越南-2号
-      - NONE_14
-      - NONE_15
-      - NONE_16
-      - github.com/mehdimoghaddam-cell_1
-      - NONE_17
-      - NONE_18
-      - NONE_19
-      - NONE_20
-      - NONE_21
-      - NONE_22
-      - NONE_23
-      - NONE_24
-      - NONE_25
-      - NONE_26
-      - NONE_27
-      - NONE_28
-      - NONE_29
-      - vpnclub_21
-      - 18844@os-tr-2.cats22.net:443
-      - NONE_30
-      - NONE_31
-      - 越南-1号
-      - NONE_32
-      - NONE_33
-      - NONE_34
       - github.com/mehdimoghaddam-cell_2
-      - NONE_35
-      - 越南1G+|+解锁流媒体
-      - NONE_36
-      - 18844@os13.cats22.net:443
+      - 卢森堡_aries_3
+      - 🇭🇰HK_140🇭🇰HK_128
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_319🇹🇼TW-🇱🇹LT_340
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_350🇹🇼TW-🇱🇹LT_339
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_352🇹🇼TW-🇹🇼TW_338
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_346🇹🇼TW-🇱🇹LT_332
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_333🇹🇼TW-🇱🇹LT_323
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_347🇹🇼TW-🇹🇼TW_336
+      - NONE_5
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_338🇹🇼TW-🇱🇹LT_333
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_339🇹🇼TW-🇱🇹LT_334
+      - 卢森堡_aries_2
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_336🇹🇼TW-🇱🇹LT_329
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_334🇹🇼TW-🇱🇹LT_325
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_341🇹🇼TW-🇱🇹LT_324
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_311🇹🇼TW-🇹🇼TW_331
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_344🇹🇼TW-🇱🇹LT_330
       - vpnclub++اینترنت+بدون+مرز_25
-      - NONE_37
-      - 日本AZ+|+解锁流媒体-推荐
-      - NONE_38
-      - NONE_39
-      - 18844@os-tr-5.cats22.net:443
-      - NONE_40
-      - NONE_41
-      - 18844@os1.cats22.net:443
-      - github.com/mehdimoghaddam-cell_195
-      - github.com/mehdimoghaddam-cell_72
-      - github.com/mehdimoghaddam-cell_649
-      - github.com/mehdimoghaddam-cell_159
-      - github.com/mehdimoghaddam-cell_86
+      - NONE_6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - '@wbnet+اینترنت+بدون+مرز_46'
+      - github.com/mehdimoghaddam-cell_1
+      - HoChiMinh-VNPT@univstar_5
+      - Portland-Scloud-dip@univstar_9
+      - Relay_Relay_🇺🇦UA-🇺🇦UA_353🇺🇦UA-🇺🇦UA_343
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_308🇹🇼TW-🇱🇹LT_309
+      - Relay_Relay_🇧🇭BH-🇱🇹LT_23🇧🇭BH-🇱🇹LT_22
+      - Atlanta-BlueVPS-dip@univstar_5
+      - Seoul-Oracle@univstar_9
+      - 🇺🇸US_446🇺🇸US_432
+      - 🇹🇼TW_325🇹🇼TW_312
+      - 🇩🇪DE_65🇩🇪DE_66
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_315🇹🇼TW-🇱🇹LT_303
+      - LAX-Krypt@univstar_22
+      - '@wbnetاینترنتبدونمرز_42'
+      - Portland-Scloud-dip@univstar_10
+      - Relay_Relay_🇨🇳CN-🇺🇸US_31🇨🇳CN-🇺🇸US_29
+      - Relay_Relay_🇨🇿CZ-🇨🇿CZ_38🇨🇿CZ-🇨🇿CZ_37
+      - '@wbnet+اینترنت+بدون+مرز_37'
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_349🇹🇼TW-🇱🇹LT_310
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_321🇹🇼TW-🇱🇹LT_302
+      - '@wbnet+اینترنت+بدون+مرز_36'
+      - Singapore-M247@univstar_30
+      - 🇫🇷FR_108🇫🇷FR_103
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_318🇹🇼TW-🇱🇹LT_306
+      - vpnclub_30
+      - '@wbnet+اینترنت+بدون+مرز_26'
+      - github.com/mehdimoghaddam-cell_72
+      - default_name
+      - github.com/mehdimoghaddam-cell_649
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_332🇹🇼TW-🇱🇹LT_322
+      - 🇭🇰HK_159🇭🇰HK_154
+      - Singapore-M247@univstar_29
+      - 🌍+(@Anty_Filter)_1
+      - vpnclubاینترنتبدونمرز_62
+      - github.com/mehdimoghaddam-cell_86
+      - github.com/mehdimoghaddam-cell_159
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_330🇹🇼TW-🇱🇹LT_319
+      - Frankfurt-Oracle@univstar_10
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_331🇹🇼TW-🇱🇹LT_321
+      - Singapore-M247@univstar_26
+      - Singapore-M247@univstar_27
+      - 🇭🇰HK_139🇭🇰HK_129
+      - Relay_Relay_🇹🇼TW-🏁ZZ_322🇹🇼TW-🏁ZZ_314
+      - 🇫🇷FR_107🇫🇷FR_100
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_345🇹🇼TW-🇱🇹LT_342
+      - github.com/mehdimoghaddam-cell_195
+      - 🌍+(@Anty_Filter)_2
       - NONE_1
       - NONE_2
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_313🇹🇼TW-🇱🇹LT_341
       - NONE_3
+      - 卢森堡_aries_1
       - NONE_4
-      - NONE_5
-      - 香港AZ2+|+解锁流媒体-推荐
-      - NONE_6
-      - NONE_7
-      - NONE_8
-      - NONE_9
-      - NONE_10
-      - NONE_11
-      - NONE_12
-      - NONE_13
-      - 越南-3号
-      - 香港AZ+|+解锁流媒体-推荐
-      - 越南-2号
-      - NONE_14
-      - NONE_15
-      - NONE_16
-      - github.com/mehdimoghaddam-cell_1
-      - NONE_17
-      - NONE_18
-      - NONE_19
-      - NONE_20
-      - NONE_21
-      - NONE_22
-      - NONE_23
-      - NONE_24
-      - NONE_25
-      - NONE_26
-      - NONE_27
-      - NONE_28
-      - NONE_29
-      - vpnclub_21
-      - 18844@os-tr-2.cats22.net:443
-      - NONE_30
-      - NONE_31
-      - 越南-1号
-      - NONE_32
-      - NONE_33
-      - NONE_34
       - github.com/mehdimoghaddam-cell_2
-      - NONE_35
-      - 越南1G+|+解锁流媒体
-      - NONE_36
-      - 18844@os13.cats22.net:443
+      - 卢森堡_aries_3
+      - 🇭🇰HK_140🇭🇰HK_128
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_319🇹🇼TW-🇱🇹LT_340
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_350🇹🇼TW-🇱🇹LT_339
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_352🇹🇼TW-🇹🇼TW_338
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_346🇹🇼TW-🇱🇹LT_332
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_333🇹🇼TW-🇱🇹LT_323
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_347🇹🇼TW-🇹🇼TW_336
+      - NONE_5
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_338🇹🇼TW-🇱🇹LT_333
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_339🇹🇼TW-🇱🇹LT_334
+      - 卢森堡_aries_2
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_336🇹🇼TW-🇱🇹LT_329
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_334🇹🇼TW-🇱🇹LT_325
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_341🇹🇼TW-🇱🇹LT_324
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_311🇹🇼TW-🇹🇼TW_331
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_344🇹🇼TW-🇱🇹LT_330
       - vpnclub++اینترنت+بدون+مرز_25
-      - NONE_37
-      - 日本AZ+|+解锁流媒体-推荐
-      - NONE_38
-      - NONE_39
-      - 18844@os-tr-5.cats22.net:443
-      - NONE_40
-      - NONE_41
-      - 18844@os1.cats22.net:443
-      - github.com/mehdimoghaddam-cell_195
-      - github.com/mehdimoghaddam-cell_72
-      - github.com/mehdimoghaddam-cell_649
-      - github.com/mehdimoghaddam-cell_159
-      - github.com/mehdimoghaddam-cell_86
+      - NONE_6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - '@wbnet+اینترنت+بدون+مرز_46'
+      - github.com/mehdimoghaddam-cell_1
+      - HoChiMinh-VNPT@univstar_5
+      - Portland-Scloud-dip@univstar_9
+      - Relay_Relay_🇺🇦UA-🇺🇦UA_353🇺🇦UA-🇺🇦UA_343
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_308🇹🇼TW-🇱🇹LT_309
+      - Relay_Relay_🇧🇭BH-🇱🇹LT_23🇧🇭BH-🇱🇹LT_22
+      - Atlanta-BlueVPS-dip@univstar_5
+      - Seoul-Oracle@univstar_9
+      - 🇺🇸US_446🇺🇸US_432
+      - 🇹🇼TW_325🇹🇼TW_312
+      - 🇩🇪DE_65🇩🇪DE_66
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_315🇹🇼TW-🇱🇹LT_303
+      - LAX-Krypt@univstar_22
+      - '@wbnetاینترنتبدونمرز_42'
+      - Portland-Scloud-dip@univstar_10
+      - Relay_Relay_🇨🇳CN-🇺🇸US_31🇨🇳CN-🇺🇸US_29
+      - Relay_Relay_🇨🇿CZ-🇨🇿CZ_38🇨🇿CZ-🇨🇿CZ_37
+      - '@wbnet+اینترنت+بدون+مرز_37'
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_349🇹🇼TW-🇱🇹LT_310
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_321🇹🇼TW-🇱🇹LT_302
+      - '@wbnet+اینترنت+بدون+مرز_36'
+      - Singapore-M247@univstar_30
+      - 🇫🇷FR_108🇫🇷FR_103
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_318🇹🇼TW-🇱🇹LT_306
+      - vpnclub_30
+      - '@wbnet+اینترنت+بدون+مرز_26'
+      - github.com/mehdimoghaddam-cell_72
+      - default_name
+      - github.com/mehdimoghaddam-cell_649
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_332🇹🇼TW-🇱🇹LT_322
+      - 🇭🇰HK_159🇭🇰HK_154
+      - Singapore-M247@univstar_29
+      - 🌍+(@Anty_Filter)_1
+      - vpnclubاینترنتبدونمرز_62
+      - github.com/mehdimoghaddam-cell_86
+      - github.com/mehdimoghaddam-cell_159
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_330🇹🇼TW-🇱🇹LT_319
+      - Frankfurt-Oracle@univstar_10
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_331🇹🇼TW-🇱🇹LT_321
+      - Singapore-M247@univstar_26
+      - Singapore-M247@univstar_27
+      - 🇭🇰HK_139🇭🇰HK_129
+      - Relay_Relay_🇹🇼TW-🏁ZZ_322🇹🇼TW-🏁ZZ_314
+      - 🇫🇷FR_107🇫🇷FR_100
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_345🇹🇼TW-🇱🇹LT_342
+      - github.com/mehdimoghaddam-cell_195
+      - 🌍+(@Anty_Filter)_2
       - NONE_1
       - NONE_2
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_313🇹🇼TW-🇱🇹LT_341
       - NONE_3
+      - 卢森堡_aries_1
       - NONE_4
-      - NONE_5
-      - 香港AZ2+|+解锁流媒体-推荐
-      - NONE_6
-      - NONE_7
-      - NONE_8
-      - NONE_9
-      - NONE_10
-      - NONE_11
-      - NONE_12
-      - NONE_13
-      - 越南-3号
-      - 香港AZ+|+解锁流媒体-推荐
-      - 越南-2号
-      - NONE_14
-      - NONE_15
-      - NONE_16
-      - github.com/mehdimoghaddam-cell_1
-      - NONE_17
-      - NONE_18
-      - NONE_19
-      - NONE_20
-      - NONE_21
-      - NONE_22
-      - NONE_23
-      - NONE_24
-      - NONE_25
-      - NONE_26
-      - NONE_27
-      - NONE_28
-      - NONE_29
-      - vpnclub_21
-      - 18844@os-tr-2.cats22.net:443
-      - NONE_30
-      - NONE_31
-      - 越南-1号
-      - NONE_32
-      - NONE_33
-      - NONE_34
       - github.com/mehdimoghaddam-cell_2
-      - NONE_35
-      - 越南1G+|+解锁流媒体
-      - NONE_36
-      - 18844@os13.cats22.net:443
+      - 卢森堡_aries_3
+      - 🇭🇰HK_140🇭🇰HK_128
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_319🇹🇼TW-🇱🇹LT_340
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_350🇹🇼TW-🇱🇹LT_339
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_352🇹🇼TW-🇹🇼TW_338
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_346🇹🇼TW-🇱🇹LT_332
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_333🇹🇼TW-🇱🇹LT_323
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_347🇹🇼TW-🇹🇼TW_336
+      - NONE_5
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_338🇹🇼TW-🇱🇹LT_333
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_339🇹🇼TW-🇱🇹LT_334
+      - 卢森堡_aries_2
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_336🇹🇼TW-🇱🇹LT_329
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_334🇹🇼TW-🇱🇹LT_325
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_341🇹🇼TW-🇱🇹LT_324
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_311🇹🇼TW-🇹🇼TW_331
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_344🇹🇼TW-🇱🇹LT_330
       - vpnclub++اینترنت+بدون+مرز_25
-      - NONE_37
-      - 日本AZ+|+解锁流媒体-推荐
-      - NONE_38
-      - NONE_39
-      - 18844@os-tr-5.cats22.net:443
-      - NONE_40
-      - NONE_41
-      - 18844@os1.cats22.net:443
-      - github.com/mehdimoghaddam-cell_195
-      - github.com/mehdimoghaddam-cell_72
-      - github.com/mehdimoghaddam-cell_649
-      - github.com/mehdimoghaddam-cell_159
-      - github.com/mehdimoghaddam-cell_86
+      - NONE_6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - '@wbnet+اینترنت+بدون+مرز_46'
+      - github.com/mehdimoghaddam-cell_1
+      - HoChiMinh-VNPT@univstar_5
+      - Portland-Scloud-dip@univstar_9
+      - Relay_Relay_🇺🇦UA-🇺🇦UA_353🇺🇦UA-🇺🇦UA_343
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_308🇹🇼TW-🇱🇹LT_309
+      - Relay_Relay_🇧🇭BH-🇱🇹LT_23🇧🇭BH-🇱🇹LT_22
+      - Atlanta-BlueVPS-dip@univstar_5
+      - Seoul-Oracle@univstar_9
+      - 🇺🇸US_446🇺🇸US_432
+      - 🇹🇼TW_325🇹🇼TW_312
+      - 🇩🇪DE_65🇩🇪DE_66
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_315🇹🇼TW-🇱🇹LT_303
+      - LAX-Krypt@univstar_22
+      - '@wbnetاینترنتبدونمرز_42'
+      - Portland-Scloud-dip@univstar_10
+      - Relay_Relay_🇨🇳CN-🇺🇸US_31🇨🇳CN-🇺🇸US_29
+      - Relay_Relay_🇨🇿CZ-🇨🇿CZ_38🇨🇿CZ-🇨🇿CZ_37
+      - '@wbnet+اینترنت+بدون+مرز_37'
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_349🇹🇼TW-🇱🇹LT_310
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_321🇹🇼TW-🇱🇹LT_302
+      - '@wbnet+اینترنت+بدون+مرز_36'
+      - Singapore-M247@univstar_30
+      - 🇫🇷FR_108🇫🇷FR_103
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_318🇹🇼TW-🇱🇹LT_306
+      - vpnclub_30
+      - '@wbnet+اینترنت+بدون+مرز_26'
+      - github.com/mehdimoghaddam-cell_72
+      - default_name
+      - github.com/mehdimoghaddam-cell_649
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_332🇹🇼TW-🇱🇹LT_322
+      - 🇭🇰HK_159🇭🇰HK_154
+      - Singapore-M247@univstar_29
+      - 🌍+(@Anty_Filter)_1
+      - vpnclubاینترنتبدونمرز_62
+      - github.com/mehdimoghaddam-cell_86
+      - github.com/mehdimoghaddam-cell_159
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_330🇹🇼TW-🇱🇹LT_319
+      - Frankfurt-Oracle@univstar_10
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_331🇹🇼TW-🇱🇹LT_321
+      - Singapore-M247@univstar_26
+      - Singapore-M247@univstar_27
+      - 🇭🇰HK_139🇭🇰HK_129
+      - Relay_Relay_🇹🇼TW-🏁ZZ_322🇹🇼TW-🏁ZZ_314
+      - 🇫🇷FR_107🇫🇷FR_100
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_345🇹🇼TW-🇱🇹LT_342
+      - github.com/mehdimoghaddam-cell_195
+      - 🌍+(@Anty_Filter)_2
       - NONE_1
       - NONE_2
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_313🇹🇼TW-🇱🇹LT_341
       - NONE_3
+      - 卢森堡_aries_1
       - NONE_4
-      - NONE_5
-      - 香港AZ2+|+解锁流媒体-推荐
-      - NONE_6
-      - NONE_7
-      - NONE_8
-      - NONE_9
-      - NONE_10
-      - NONE_11
-      - NONE_12
-      - NONE_13
-      - 越南-3号
-      - 香港AZ+|+解锁流媒体-推荐
-      - 越南-2号
-      - NONE_14
-      - NONE_15
-      - NONE_16
-      - github.com/mehdimoghaddam-cell_1
-      - NONE_17
-      - NONE_18
-      - NONE_19
-      - NONE_20
-      - NONE_21
-      - NONE_22
-      - NONE_23
-      - NONE_24
-      - NONE_25
-      - NONE_26
-      - NONE_27
-      - NONE_28
-      - NONE_29
-      - vpnclub_21
-      - 18844@os-tr-2.cats22.net:443
-      - NONE_30
-      - NONE_31
-      - 越南-1号
-      - NONE_32
-      - NONE_33
-      - NONE_34
       - github.com/mehdimoghaddam-cell_2
-      - NONE_35
-      - 越南1G+|+解锁流媒体
-      - NONE_36
-      - 18844@os13.cats22.net:443
+      - 卢森堡_aries_3
+      - 🇭🇰HK_140🇭🇰HK_128
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_319🇹🇼TW-🇱🇹LT_340
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_350🇹🇼TW-🇱🇹LT_339
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_352🇹🇼TW-🇹🇼TW_338
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_346🇹🇼TW-🇱🇹LT_332
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_333🇹🇼TW-🇱🇹LT_323
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_347🇹🇼TW-🇹🇼TW_336
+      - NONE_5
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_338🇹🇼TW-🇱🇹LT_333
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_339🇹🇼TW-🇱🇹LT_334
+      - 卢森堡_aries_2
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_336🇹🇼TW-🇱🇹LT_329
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_334🇹🇼TW-🇱🇹LT_325
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_341🇹🇼TW-🇱🇹LT_324
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_311🇹🇼TW-🇹🇼TW_331
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_344🇹🇼TW-🇱🇹LT_330
       - vpnclub++اینترنت+بدون+مرز_25
-      - NONE_37
-      - 日本AZ+|+解锁流媒体-推荐
-      - NONE_38
-      - NONE_39
-      - 18844@os-tr-5.cats22.net:443
-      - NONE_40
-      - NONE_41
-      - 18844@os1.cats22.net:443
-      - github.com/mehdimoghaddam-cell_195
-      - github.com/mehdimoghaddam-cell_72
-      - github.com/mehdimoghaddam-cell_649
-      - github.com/mehdimoghaddam-cell_159
-      - github.com/mehdimoghaddam-cell_86
+      - NONE_6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - '@wbnet+اینترنت+بدون+مرز_46'
+      - github.com/mehdimoghaddam-cell_1
+      - HoChiMinh-VNPT@univstar_5
+      - Portland-Scloud-dip@univstar_9
+      - Relay_Relay_🇺🇦UA-🇺🇦UA_353🇺🇦UA-🇺🇦UA_343
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_308🇹🇼TW-🇱🇹LT_309
+      - Relay_Relay_🇧🇭BH-🇱🇹LT_23🇧🇭BH-🇱🇹LT_22
+      - Atlanta-BlueVPS-dip@univstar_5
+      - Seoul-Oracle@univstar_9
+      - 🇺🇸US_446🇺🇸US_432
+      - 🇹🇼TW_325🇹🇼TW_312
+      - 🇩🇪DE_65🇩🇪DE_66
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_315🇹🇼TW-🇱🇹LT_303
+      - LAX-Krypt@univstar_22
+      - '@wbnetاینترنتبدونمرز_42'
+      - Portland-Scloud-dip@univstar_10
+      - Relay_Relay_🇨🇳CN-🇺🇸US_31🇨🇳CN-🇺🇸US_29
+      - Relay_Relay_🇨🇿CZ-🇨🇿CZ_38🇨🇿CZ-🇨🇿CZ_37
+      - '@wbnet+اینترنت+بدون+مرز_37'
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_349🇹🇼TW-🇱🇹LT_310
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_321🇹🇼TW-🇱🇹LT_302
+      - '@wbnet+اینترنت+بدون+مرز_36'
+      - Singapore-M247@univstar_30
+      - 🇫🇷FR_108🇫🇷FR_103
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_318🇹🇼TW-🇱🇹LT_306
+      - vpnclub_30
+      - '@wbnet+اینترنت+بدون+مرز_26'
+      - github.com/mehdimoghaddam-cell_72
+      - default_name
+      - github.com/mehdimoghaddam-cell_649
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_332🇹🇼TW-🇱🇹LT_322
+      - 🇭🇰HK_159🇭🇰HK_154
+      - Singapore-M247@univstar_29
+      - 🌍+(@Anty_Filter)_1
+      - vpnclubاینترنتبدونمرز_62
+      - github.com/mehdimoghaddam-cell_86
+      - github.com/mehdimoghaddam-cell_159
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_330🇹🇼TW-🇱🇹LT_319
+      - Frankfurt-Oracle@univstar_10
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_331🇹🇼TW-🇱🇹LT_321
+      - Singapore-M247@univstar_26
+      - Singapore-M247@univstar_27
+      - 🇭🇰HK_139🇭🇰HK_129
+      - Relay_Relay_🇹🇼TW-🏁ZZ_322🇹🇼TW-🏁ZZ_314
+      - 🇫🇷FR_107🇫🇷FR_100
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_345🇹🇼TW-🇱🇹LT_342
+      - github.com/mehdimoghaddam-cell_195
+      - 🌍+(@Anty_Filter)_2
       - NONE_1
       - NONE_2
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_313🇹🇼TW-🇱🇹LT_341
       - NONE_3
+      - 卢森堡_aries_1
       - NONE_4
-      - NONE_5
-      - 香港AZ2+|+解锁流媒体-推荐
-      - NONE_6
-      - NONE_7
-      - NONE_8
-      - NONE_9
-      - NONE_10
-      - NONE_11
-      - NONE_12
-      - NONE_13
-      - 越南-3号
-      - 香港AZ+|+解锁流媒体-推荐
-      - 越南-2号
-      - NONE_14
-      - NONE_15
-      - NONE_16
-      - github.com/mehdimoghaddam-cell_1
-      - NONE_17
-      - NONE_18
-      - NONE_19
-      - NONE_20
-      - NONE_21
-      - NONE_22
-      - NONE_23
-      - NONE_24
-      - NONE_25
-      - NONE_26
-      - NONE_27
-      - NONE_28
-      - NONE_29
-      - vpnclub_21
-      - 18844@os-tr-2.cats22.net:443
-      - NONE_30
-      - NONE_31
-      - 越南-1号
-      - NONE_32
-      - NONE_33
-      - NONE_34
       - github.com/mehdimoghaddam-cell_2
-      - NONE_35
-      - 越南1G+|+解锁流媒体
-      - NONE_36
-      - 18844@os13.cats22.net:443
+      - 卢森堡_aries_3
+      - 🇭🇰HK_140🇭🇰HK_128
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_319🇹🇼TW-🇱🇹LT_340
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_350🇹🇼TW-🇱🇹LT_339
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_352🇹🇼TW-🇹🇼TW_338
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_346🇹🇼TW-🇱🇹LT_332
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_333🇹🇼TW-🇱🇹LT_323
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_347🇹🇼TW-🇹🇼TW_336
+      - NONE_5
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_338🇹🇼TW-🇱🇹LT_333
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_339🇹🇼TW-🇱🇹LT_334
+      - 卢森堡_aries_2
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_336🇹🇼TW-🇱🇹LT_329
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_334🇹🇼TW-🇱🇹LT_325
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_341🇹🇼TW-🇱🇹LT_324
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_311🇹🇼TW-🇹🇼TW_331
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_344🇹🇼TW-🇱🇹LT_330
       - vpnclub++اینترنت+بدون+مرز_25
-      - NONE_37
-      - 日本AZ+|+解锁流媒体-推荐
-      - NONE_38
-      - NONE_39
-      - 18844@os-tr-5.cats22.net:443
-      - NONE_40
-      - NONE_41
-      - 18844@os1.cats22.net:443
-      - github.com/mehdimoghaddam-cell_195
-      - github.com/mehdimoghaddam-cell_72
-      - github.com/mehdimoghaddam-cell_649
-      - github.com/mehdimoghaddam-cell_159
-      - github.com/mehdimoghaddam-cell_86
+      - NONE_6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -495,67 +586,80 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - '@wbnet+اینترنت+بدون+مرز_46'
+      - github.com/mehdimoghaddam-cell_1
+      - HoChiMinh-VNPT@univstar_5
+      - Portland-Scloud-dip@univstar_9
+      - Relay_Relay_🇺🇦UA-🇺🇦UA_353🇺🇦UA-🇺🇦UA_343
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_308🇹🇼TW-🇱🇹LT_309
+      - Relay_Relay_🇧🇭BH-🇱🇹LT_23🇧🇭BH-🇱🇹LT_22
+      - Atlanta-BlueVPS-dip@univstar_5
+      - Seoul-Oracle@univstar_9
+      - 🇺🇸US_446🇺🇸US_432
+      - 🇹🇼TW_325🇹🇼TW_312
+      - 🇩🇪DE_65🇩🇪DE_66
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_315🇹🇼TW-🇱🇹LT_303
+      - LAX-Krypt@univstar_22
+      - '@wbnetاینترنتبدونمرز_42'
+      - Portland-Scloud-dip@univstar_10
+      - Relay_Relay_🇨🇳CN-🇺🇸US_31🇨🇳CN-🇺🇸US_29
+      - Relay_Relay_🇨🇿CZ-🇨🇿CZ_38🇨🇿CZ-🇨🇿CZ_37
+      - '@wbnet+اینترنت+بدون+مرز_37'
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_349🇹🇼TW-🇱🇹LT_310
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_321🇹🇼TW-🇱🇹LT_302
+      - '@wbnet+اینترنت+بدون+مرز_36'
+      - Singapore-M247@univstar_30
+      - 🇫🇷FR_108🇫🇷FR_103
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_318🇹🇼TW-🇱🇹LT_306
+      - vpnclub_30
+      - '@wbnet+اینترنت+بدون+مرز_26'
+      - github.com/mehdimoghaddam-cell_72
+      - default_name
+      - github.com/mehdimoghaddam-cell_649
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_332🇹🇼TW-🇱🇹LT_322
+      - 🇭🇰HK_159🇭🇰HK_154
+      - Singapore-M247@univstar_29
+      - 🌍+(@Anty_Filter)_1
+      - vpnclubاینترنتبدونمرز_62
+      - github.com/mehdimoghaddam-cell_86
+      - github.com/mehdimoghaddam-cell_159
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_330🇹🇼TW-🇱🇹LT_319
+      - Frankfurt-Oracle@univstar_10
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_331🇹🇼TW-🇱🇹LT_321
+      - Singapore-M247@univstar_26
+      - Singapore-M247@univstar_27
+      - 🇭🇰HK_139🇭🇰HK_129
+      - Relay_Relay_🇹🇼TW-🏁ZZ_322🇹🇼TW-🏁ZZ_314
+      - 🇫🇷FR_107🇫🇷FR_100
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_345🇹🇼TW-🇱🇹LT_342
+      - github.com/mehdimoghaddam-cell_195
+      - 🌍+(@Anty_Filter)_2
       - NONE_1
       - NONE_2
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_313🇹🇼TW-🇱🇹LT_341
       - NONE_3
+      - 卢森堡_aries_1
       - NONE_4
-      - NONE_5
-      - 香港AZ2+|+解锁流媒体-推荐
-      - NONE_6
-      - NONE_7
-      - NONE_8
-      - NONE_9
-      - NONE_10
-      - NONE_11
-      - NONE_12
-      - NONE_13
-      - 越南-3号
-      - 香港AZ+|+解锁流媒体-推荐
-      - 越南-2号
-      - NONE_14
-      - NONE_15
-      - NONE_16
-      - github.com/mehdimoghaddam-cell_1
-      - NONE_17
-      - NONE_18
-      - NONE_19
-      - NONE_20
-      - NONE_21
-      - NONE_22
-      - NONE_23
-      - NONE_24
-      - NONE_25
-      - NONE_26
-      - NONE_27
-      - NONE_28
-      - NONE_29
-      - vpnclub_21
-      - 18844@os-tr-2.cats22.net:443
-      - NONE_30
-      - NONE_31
-      - 越南-1号
-      - NONE_32
-      - NONE_33
-      - NONE_34
       - github.com/mehdimoghaddam-cell_2
-      - NONE_35
-      - 越南1G+|+解锁流媒体
-      - NONE_36
-      - 18844@os13.cats22.net:443
+      - 卢森堡_aries_3
+      - 🇭🇰HK_140🇭🇰HK_128
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_319🇹🇼TW-🇱🇹LT_340
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_350🇹🇼TW-🇱🇹LT_339
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_352🇹🇼TW-🇹🇼TW_338
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_346🇹🇼TW-🇱🇹LT_332
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_333🇹🇼TW-🇱🇹LT_323
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_347🇹🇼TW-🇹🇼TW_336
+      - NONE_5
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_338🇹🇼TW-🇱🇹LT_333
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_339🇹🇼TW-🇱🇹LT_334
+      - 卢森堡_aries_2
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_336🇹🇼TW-🇱🇹LT_329
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_334🇹🇼TW-🇱🇹LT_325
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_341🇹🇼TW-🇱🇹LT_324
+      - Relay_Relay_🇹🇼TW-🇹🇼TW_311🇹🇼TW-🇹🇼TW_331
+      - Relay_Relay_🇹🇼TW-🇱🇹LT_344🇹🇼TW-🇱🇹LT_330
       - vpnclub++اینترنت+بدون+مرز_25
-      - NONE_37
-      - 日本AZ+|+解锁流媒体-推荐
-      - NONE_38
-      - NONE_39
-      - 18844@os-tr-5.cats22.net:443
-      - NONE_40
-      - NONE_41
-      - 18844@os1.cats22.net:443
-      - github.com/mehdimoghaddam-cell_195
-      - github.com/mehdimoghaddam-cell_72
-      - github.com/mehdimoghaddam-cell_649
-      - github.com/mehdimoghaddam-cell_159
-      - github.com/mehdimoghaddam-cell_86
+      - NONE_6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
