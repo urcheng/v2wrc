@@ -1,7 +1,7 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-12-21 09:31:52
+#  创建时间：2022-12-22 09:51:09
 #  模版：v2rayse默认模版
 #  节点数量：23
 #-------------------------------------------------------------#
@@ -13,200 +13,200 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"trojan","name":"Relay_🇺🇸US-🇦🇺AU_549","server":"jk.jkk.mkitty.top","port":443,"password":"71354f48-e8c8-4c4c-a967-47d7ac5e953c","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"Portland-Scloud-dip@univstar_9","server":"222.84.250.35","port":15654,"password":"5ea2e450-9ccc-3bf8-a41e-540368e0c358","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇯🇵JP_173","ws-opts":{"path":"/v2ray"},"server":"153.122.173.53","port":"32407","uuid":"26c5fdc7-b3be-3482-9a45-d97b958a889a","alterId":"2","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"github.com/mehdimoghaddam-cell_1","ws-opts":{"path":"/shirker","headers":{"host":"sg-gcore.sharecentre.online"}},"server":"162.159.128.7","port":"443","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"github.com/mehdimoghaddam-cell_2","server":"ap-northeast-1.openssl3.com","port":443,"password":"tune7jerky7HAYRICK","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"vpnclub_48","server":"51.83.186.142","port":80,"password":"9ca1f2e4-0d7b-440b-a261-109c35270dda","udp":true,"skip-cert-verify":true,"sni":"pl1.trojanvh.xyz"}
+  - {"type":"trojan","name":"vpnclub_65","server":"51.83.186.142","port":80,"password":"1d096053-5f92-4b0d-80f5-ebaaef97544f","udp":true,"skip-cert-verify":true,"sni":"pl1.trojanvh.xyz"}
   - {"type":"trojan","name":"🌍+(@Anty_Filter)_1","server":"51.91.11.29","port":80,"password":"e0d44ae7-cb7d-4acc-a8c0-9861a6f5eaad","udp":true,"skip-cert-verify":true,"sni":"fr1.trojanvh.xyz"}
-  - {"type":"trojan","name":"@wbnet_84","server":"51.83.186.142","port":80,"password":"fa0e4e7a-db70-4aeb-8104-e3120d9259cd","udp":true,"skip-cert-verify":true,"sni":"pl1.trojanvh.xyz"}
-  - {"type":"trojan","name":"NONE","server":"uk1.trojanvh.xyz","port":80,"password":"b640d791-ff83-4300-b509-c2a02f97f167","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇺🇸US_500","ws-opts":{"path":"/v2ray"},"server":"205.185.123.36","port":"32409","uuid":"26c5fdc7-b3be-3482-9a45-d97b958a889a","alterId":"2","cipher":"auto","network":"ws"}
   - {"type":"trojan","name":"🌍+(@Anty_Filter)_2","server":"51.83.186.142","port":80,"password":"2959e4f7-7589-4a40-9b96-1be750ac7845","udp":true,"skip-cert-verify":true,"sni":"pl1.trojanvh.xyz"}
-  - {"type":"ss","name":"@wbnet_68","server":"de2-ss.sshstores.net","port":8388,"cipher":"chacha20-ietf-poly1305","password":"9hS0A"}
-  - {"type":"ss","name":"@wbnet_64","server":"172.99.188.99","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"type":"trojan","name":"vpnclub_32","server":"uk1.trojanvh.xyz","port":80,"password":"b44579e1-f803-4981-86bc-aa8c783daa04","udp":true,"skip-cert-verify":true,"sni":"uk1.trojanvh.xyz"}
+  - {"type":"trojan","name":"vpnclub_49","server":"51.83.186.142","port":80,"password":"555034c8-6420-45d0-893c-905c02342150","udp":true,"skip-cert-verify":true,"sni":"pl1.trojanvh.xyz"}
+  - {"type":"vmess","name":"vpnclub_30","ws-opts":{"path":"/in-vpn-majanist-vws","headers":{"host":"resonance-vpn.net"}},"server":"18.196.228.65","port":"443","uuid":"3bfc99c0-a816-4286-813c-6731a1ba8c78","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"@wbnet_84","server":"51.83.186.142","port":80,"password":"fa0e4e7a-db70-4aeb-8104-e3120d9259cd","udp":true,"skip-cert-verify":true,"sni":"pl1.trojanvh.xyz"}
+  - {"type":"trojan","name":"vpnclub_41","server":"51.83.186.142","port":80,"password":"0100b239-7400-440f-bf9f-3d631f46e15a","udp":true,"skip-cert-verify":true,"sni":"pl1.trojanvh.xyz"}
+  - {"type":"vmess","name":"vpnclub_51","ws-opts":{"path":"/in-vpn-majanist-vws","headers":{"host":"resonance-vpn.net"}},"server":"resonance-vpn.net","port":"443","uuid":"3bfc99c0-a816-4286-813c-6731a1ba8c78","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"@wbnet+اینترنت+بدون+مرز_37","server":"135.148.148.4","port":80,"password":"ee2bccd3-0f30-42d4-86d6-3d393ad230bd","udp":true,"skip-cert-verify":true,"sni":"us3.trojanvh.xyz"}
   - {"type":"ss","name":"Relay_Relay_🇺🇦UA-🇺🇦UA_353🇺🇦UA-🇺🇦UA_343","server":"130.0.233.20","port":31675,"cipher":"aes-256-cfb","password":"m7pZhBG"}
   - {"type":"ss","name":"🇺🇸US_486","server":"172.99.190.7","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"trojan","name":"@wbnet+اینترنت+بدون+مرز_37","server":"135.148.148.4","port":80,"password":"ee2bccd3-0f30-42d4-86d6-3d393ad230bd","udp":true,"skip-cert-verify":true,"sni":"us3.trojanvh.xyz"}
-  - {"type":"ss","name":"🇺🇸US_368","server":"172.99.190.7","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"trojan","name":"@wbnet+اینترنت+بدون+مرز_46","server":"135.148.148.4","port":80,"password":"76fcac80-9943-4eab-8717-0ebebea94b70","udp":true,"skip-cert-verify":true,"sni":"us3.trojanvh.xyz"}
+  - {"type":"vmess","name":"github.com/mehdimoghaddam-cell_3","ws-opts":{"path":"/sir2ersvws","headers":{"host":"api.sira.ml"}},"server":"api.sira.ml","port":"443","uuid":"3580321e-0bce-494e-bc71-e797c0a5b125","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"trojan","name":"@wbnet+اینترنت+بدون+مرز_36","server":"135.148.148.4","port":80,"password":"892c4f6e-732b-4f71-ad04-6e77344f2d0e","udp":true,"skip-cert-verify":true,"sni":"us3.trojanvh.xyz"}
-  - {"type":"vmess","name":"github.com/mehdimoghaddam-cell_354","ws-opts":{"path":"/sshkit/Ertusg86/635014638c264/","headers":{"host":"15.235.147.186"}},"server":"15.235.147.186","port":"80","uuid":"6fea1649-425b-4092-bf53-29792152c925","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"trojan","name":"@wbnet+اینترنت+بدون+مرز_26","server":"135.148.148.4","port":80,"password":"800eb26c-cd0c-4269-aae7-e63d75de4edd","udp":true,"skip-cert-verify":true,"sni":"us3.trojanvh.xyz"}
+  - {"type":"ssr","name":"🇸🇬_SG_新加坡_3","server":"sg-am3.eqsunshine.com","port":32001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"3g0dHlKME"}
   - {"type":"ss","name":"github.com/mehdimoghaddam-cell_86","server":"158.58.173.240","port":808,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"ss","name":"github.com/mehdimoghaddam-cell_649","server":"158.58.173.240","port":804,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"ss","name":"github.com/mehdimoghaddam-cell_159","server":"158.58.173.240","port":802,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"github.com/mehdimoghaddam-cell_195","server":"158.58.173.240","port":801,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"ss","name":"github.com/mehdimoghaddam-cell_72","server":"158.58.173.240","port":806,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"trojan","name":"@wbnet+اینترنت+بدون+مرز_46","server":"135.148.148.4","port":80,"password":"76fcac80-9943-4eab-8717-0ebebea94b70","udp":true,"skip-cert-verify":true,"sni":"us3.trojanvh.xyz"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Relay_🇺🇸US-🇦🇺AU_549
-      - Portland-Scloud-dip@univstar_9
-      - 🇯🇵JP_173
+      - github.com/mehdimoghaddam-cell_1
+      - github.com/mehdimoghaddam-cell_2
+      - vpnclub_48
+      - vpnclub_65
       - 🌍+(@Anty_Filter)_1
-      - '@wbnet_84'
-      - NONE
-      - 🇺🇸US_500
       - 🌍+(@Anty_Filter)_2
-      - '@wbnet_68'
-      - '@wbnet_64'
+      - vpnclub_32
+      - vpnclub_49
+      - vpnclub_30
+      - '@wbnet_84'
+      - vpnclub_41
+      - vpnclub_51
+      - '@wbnet+اینترنت+بدون+مرز_37'
       - Relay_Relay_🇺🇦UA-🇺🇦UA_353🇺🇦UA-🇺🇦UA_343
       - 🇺🇸US_486
-      - '@wbnet+اینترنت+بدون+مرز_37'
-      - 🇺🇸US_368
-      - '@wbnet+اینترنت+بدون+مرز_46'
+      - github.com/mehdimoghaddam-cell_3
       - '@wbnet+اینترنت+بدون+مرز_36'
-      - github.com/mehdimoghaddam-cell_354
-      - '@wbnet+اینترنت+بدون+مرز_26'
+      - 🇸🇬_SG_新加坡_3
       - github.com/mehdimoghaddam-cell_86
       - github.com/mehdimoghaddam-cell_649
       - github.com/mehdimoghaddam-cell_159
-      - github.com/mehdimoghaddam-cell_195
       - github.com/mehdimoghaddam-cell_72
+      - '@wbnet+اینترنت+بدون+مرز_46'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_🇺🇸US-🇦🇺AU_549
-      - Portland-Scloud-dip@univstar_9
-      - 🇯🇵JP_173
+      - github.com/mehdimoghaddam-cell_1
+      - github.com/mehdimoghaddam-cell_2
+      - vpnclub_48
+      - vpnclub_65
       - 🌍+(@Anty_Filter)_1
-      - '@wbnet_84'
-      - NONE
-      - 🇺🇸US_500
       - 🌍+(@Anty_Filter)_2
-      - '@wbnet_68'
-      - '@wbnet_64'
+      - vpnclub_32
+      - vpnclub_49
+      - vpnclub_30
+      - '@wbnet_84'
+      - vpnclub_41
+      - vpnclub_51
+      - '@wbnet+اینترنت+بدون+مرز_37'
       - Relay_Relay_🇺🇦UA-🇺🇦UA_353🇺🇦UA-🇺🇦UA_343
       - 🇺🇸US_486
-      - '@wbnet+اینترنت+بدون+مرز_37'
-      - 🇺🇸US_368
-      - '@wbnet+اینترنت+بدون+مرز_46'
+      - github.com/mehdimoghaddam-cell_3
       - '@wbnet+اینترنت+بدون+مرز_36'
-      - github.com/mehdimoghaddam-cell_354
-      - '@wbnet+اینترنت+بدون+مرز_26'
+      - 🇸🇬_SG_新加坡_3
       - github.com/mehdimoghaddam-cell_86
       - github.com/mehdimoghaddam-cell_649
       - github.com/mehdimoghaddam-cell_159
-      - github.com/mehdimoghaddam-cell_195
       - github.com/mehdimoghaddam-cell_72
+      - '@wbnet+اینترنت+بدون+مرز_46'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇦🇺AU_549
-      - Portland-Scloud-dip@univstar_9
-      - 🇯🇵JP_173
+      - github.com/mehdimoghaddam-cell_1
+      - github.com/mehdimoghaddam-cell_2
+      - vpnclub_48
+      - vpnclub_65
       - 🌍+(@Anty_Filter)_1
-      - '@wbnet_84'
-      - NONE
-      - 🇺🇸US_500
       - 🌍+(@Anty_Filter)_2
-      - '@wbnet_68'
-      - '@wbnet_64'
+      - vpnclub_32
+      - vpnclub_49
+      - vpnclub_30
+      - '@wbnet_84'
+      - vpnclub_41
+      - vpnclub_51
+      - '@wbnet+اینترنت+بدون+مرز_37'
       - Relay_Relay_🇺🇦UA-🇺🇦UA_353🇺🇦UA-🇺🇦UA_343
       - 🇺🇸US_486
-      - '@wbnet+اینترنت+بدون+مرز_37'
-      - 🇺🇸US_368
-      - '@wbnet+اینترنت+بدون+مرز_46'
+      - github.com/mehdimoghaddam-cell_3
       - '@wbnet+اینترنت+بدون+مرز_36'
-      - github.com/mehdimoghaddam-cell_354
-      - '@wbnet+اینترنت+بدون+مرز_26'
+      - 🇸🇬_SG_新加坡_3
       - github.com/mehdimoghaddam-cell_86
       - github.com/mehdimoghaddam-cell_649
       - github.com/mehdimoghaddam-cell_159
-      - github.com/mehdimoghaddam-cell_195
       - github.com/mehdimoghaddam-cell_72
+      - '@wbnet+اینترنت+بدون+مرز_46'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇦🇺AU_549
-      - Portland-Scloud-dip@univstar_9
-      - 🇯🇵JP_173
+      - github.com/mehdimoghaddam-cell_1
+      - github.com/mehdimoghaddam-cell_2
+      - vpnclub_48
+      - vpnclub_65
       - 🌍+(@Anty_Filter)_1
-      - '@wbnet_84'
-      - NONE
-      - 🇺🇸US_500
       - 🌍+(@Anty_Filter)_2
-      - '@wbnet_68'
-      - '@wbnet_64'
+      - vpnclub_32
+      - vpnclub_49
+      - vpnclub_30
+      - '@wbnet_84'
+      - vpnclub_41
+      - vpnclub_51
+      - '@wbnet+اینترنت+بدون+مرز_37'
       - Relay_Relay_🇺🇦UA-🇺🇦UA_353🇺🇦UA-🇺🇦UA_343
       - 🇺🇸US_486
-      - '@wbnet+اینترنت+بدون+مرز_37'
-      - 🇺🇸US_368
-      - '@wbnet+اینترنت+بدون+مرز_46'
+      - github.com/mehdimoghaddam-cell_3
       - '@wbnet+اینترنت+بدون+مرز_36'
-      - github.com/mehdimoghaddam-cell_354
-      - '@wbnet+اینترنت+بدون+مرز_26'
+      - 🇸🇬_SG_新加坡_3
       - github.com/mehdimoghaddam-cell_86
       - github.com/mehdimoghaddam-cell_649
       - github.com/mehdimoghaddam-cell_159
-      - github.com/mehdimoghaddam-cell_195
       - github.com/mehdimoghaddam-cell_72
+      - '@wbnet+اینترنت+بدون+مرز_46'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Relay_🇺🇸US-🇦🇺AU_549
-      - Portland-Scloud-dip@univstar_9
-      - 🇯🇵JP_173
+      - github.com/mehdimoghaddam-cell_1
+      - github.com/mehdimoghaddam-cell_2
+      - vpnclub_48
+      - vpnclub_65
       - 🌍+(@Anty_Filter)_1
-      - '@wbnet_84'
-      - NONE
-      - 🇺🇸US_500
       - 🌍+(@Anty_Filter)_2
-      - '@wbnet_68'
-      - '@wbnet_64'
+      - vpnclub_32
+      - vpnclub_49
+      - vpnclub_30
+      - '@wbnet_84'
+      - vpnclub_41
+      - vpnclub_51
+      - '@wbnet+اینترنت+بدون+مرز_37'
       - Relay_Relay_🇺🇦UA-🇺🇦UA_353🇺🇦UA-🇺🇦UA_343
       - 🇺🇸US_486
-      - '@wbnet+اینترنت+بدون+مرز_37'
-      - 🇺🇸US_368
-      - '@wbnet+اینترنت+بدون+مرز_46'
+      - github.com/mehdimoghaddam-cell_3
       - '@wbnet+اینترنت+بدون+مرز_36'
-      - github.com/mehdimoghaddam-cell_354
-      - '@wbnet+اینترنت+بدون+مرز_26'
+      - 🇸🇬_SG_新加坡_3
       - github.com/mehdimoghaddam-cell_86
       - github.com/mehdimoghaddam-cell_649
       - github.com/mehdimoghaddam-cell_159
-      - github.com/mehdimoghaddam-cell_195
       - github.com/mehdimoghaddam-cell_72
+      - '@wbnet+اینترنت+بدون+مرز_46'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_🇺🇸US-🇦🇺AU_549
-      - Portland-Scloud-dip@univstar_9
-      - 🇯🇵JP_173
+      - github.com/mehdimoghaddam-cell_1
+      - github.com/mehdimoghaddam-cell_2
+      - vpnclub_48
+      - vpnclub_65
       - 🌍+(@Anty_Filter)_1
-      - '@wbnet_84'
-      - NONE
-      - 🇺🇸US_500
       - 🌍+(@Anty_Filter)_2
-      - '@wbnet_68'
-      - '@wbnet_64'
+      - vpnclub_32
+      - vpnclub_49
+      - vpnclub_30
+      - '@wbnet_84'
+      - vpnclub_41
+      - vpnclub_51
+      - '@wbnet+اینترنت+بدون+مرز_37'
       - Relay_Relay_🇺🇦UA-🇺🇦UA_353🇺🇦UA-🇺🇦UA_343
       - 🇺🇸US_486
-      - '@wbnet+اینترنت+بدون+مرز_37'
-      - 🇺🇸US_368
-      - '@wbnet+اینترنت+بدون+مرز_46'
+      - github.com/mehdimoghaddam-cell_3
       - '@wbnet+اینترنت+بدون+مرز_36'
-      - github.com/mehdimoghaddam-cell_354
-      - '@wbnet+اینترنت+بدون+مرز_26'
+      - 🇸🇬_SG_新加坡_3
       - github.com/mehdimoghaddam-cell_86
       - github.com/mehdimoghaddam-cell_649
       - github.com/mehdimoghaddam-cell_159
-      - github.com/mehdimoghaddam-cell_195
       - github.com/mehdimoghaddam-cell_72
+      - '@wbnet+اینترنت+بدون+مرز_46'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -229,29 +229,29 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇺🇸US-🇦🇺AU_549
-      - Portland-Scloud-dip@univstar_9
-      - 🇯🇵JP_173
+      - github.com/mehdimoghaddam-cell_1
+      - github.com/mehdimoghaddam-cell_2
+      - vpnclub_48
+      - vpnclub_65
       - 🌍+(@Anty_Filter)_1
-      - '@wbnet_84'
-      - NONE
-      - 🇺🇸US_500
       - 🌍+(@Anty_Filter)_2
-      - '@wbnet_68'
-      - '@wbnet_64'
+      - vpnclub_32
+      - vpnclub_49
+      - vpnclub_30
+      - '@wbnet_84'
+      - vpnclub_41
+      - vpnclub_51
+      - '@wbnet+اینترنت+بدون+مرز_37'
       - Relay_Relay_🇺🇦UA-🇺🇦UA_353🇺🇦UA-🇺🇦UA_343
       - 🇺🇸US_486
-      - '@wbnet+اینترنت+بدون+مرز_37'
-      - 🇺🇸US_368
-      - '@wbnet+اینترنت+بدون+مرز_46'
+      - github.com/mehdimoghaddam-cell_3
       - '@wbnet+اینترنت+بدون+مرز_36'
-      - github.com/mehdimoghaddam-cell_354
-      - '@wbnet+اینترنت+بدون+مرز_26'
+      - 🇸🇬_SG_新加坡_3
       - github.com/mehdimoghaddam-cell_86
       - github.com/mehdimoghaddam-cell_649
       - github.com/mehdimoghaddam-cell_159
-      - github.com/mehdimoghaddam-cell_195
       - github.com/mehdimoghaddam-cell_72
+      - '@wbnet+اینترنت+بدون+مرز_46'
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
