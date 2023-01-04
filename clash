@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2023-01-03 10:25:32
+#  创建时间：2023-01-04 13:36:38
 #  模版：v2rayse默认模版
-#  节点数量：23
+#  节点数量：7
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,200 +13,88 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"🇧🇬BG1→tg@nicevpn123","ws-opts":{"path":"/Falling42gcsplnode","headers":{"host":"gcspl.sylu.cyou"}},"server":"gcspl.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"香港有线-dip_2","server":"27.185.204.53","port":19201,"password":"0736ddb4-62c2-39a3-bdd7-8824cbc53ecf","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇦🇺AU3→tg@nicevpn123","ws-opts":{"path":"/65fe4644-da7c-4c41-bb44-c4ea7a30be22","headers":{"host":"dongjingamd1.easonfan.online"}},"server":"dongjingamd1.easonfan.online","port":"443","uuid":"65fe4644-da7c-4c41-bb44-c4ea7a30be22","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇩🇪DE+3+→+tg@nicevpn123","server":"141.95.61.209","port":1145,"password":"55e51cd3-cf98-4cb3-aaab-a72044437df3","udp":true,"skip-cert-verify":true,"sni":"mci.ir"}
-  - {"type":"vmess","name":"🇷🇺RU3→tg@nicevpn123","ws-opts":{"path":"/Falling42gcsdenode","headers":{"host":"gcsde.sylu.cyou"}},"server":"gcsde.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇩🇪DE+4+→+tg@nicevpn123","server":"141.95.61.209","port":1145,"password":"23a044ef-1f8e-44ec-92be-78395a09f15c","udp":true,"skip-cert-verify":true,"sni":"wx.qq.com"}
-  - {"type":"trojan","name":"🇩🇪DE+5+→+tg@nicevpn123","server":"141.95.61.209","port":1145,"password":"414583b6-1d14-49f4-9988-9d6849efb420","udp":true,"skip-cert-verify":true,"sni":"mci.ir"}
+  - {"type":"ssr","name":"郴州联通-香港EDCL@univstar_1","server":"116.162.120.60","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"51733:SVIPTIZ8"}
+  - {"type":"trojan","name":"🇺🇸US+58+→+tg@nicevpn123","server":"15.235.197.5","port":80,"password":"bedae0a3-a7dc-4ff0-9013-be459839b5b7","udp":true,"skip-cert-verify":true,"sni":"sg2.trojanvh.xyz"}
+  - {"type":"ssr","name":"广州电信-Chuncheon-Oracle@univstar_2","server":"125.94.215.234","port":565,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"51733:SVIPTIZ8"}
+  - {"type":"trojan","name":"🇺🇸US+59+→+tg@nicevpn123","server":"15.235.197.4","port":80,"password":"16bcc187-a1a0-4b8a-8b69-627f38b7cc0d","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"","http-opts":{"path":["/"],"headers":{"Host":["apple.com"]}},"server":"176.119.159.245","port":"37672","uuid":"86b4e35c-1061-47b3-8c6c-811d1853a477","alterId":"64","cipher":"auto","network":"http"}
   - {"type":"vmess","name":"剩余流量：1000943.9GB","ws-opts":{"path":"/Falling42scwfrrnode","headers":{"host":"scwfrr.sylu.cyou"}},"server":"scwfrr.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🇺🇸US+1+→+tg@nicevpn123","server":"tj2.dalazhi.cyou","port":443,"password":"8f70fde3-a04c-4f6a-b705-aef7406f6ac1","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"🇳🇱NL_CF","ws-opts":{"path":"/Falling42hosmaticnode","headers":{"host":"hosmatic.sylu.cyou"}},"server":"cm.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"🌍+(@Anty_Filter)","server":"51.83.186.142","port":80,"password":"2959e4f7-7589-4a40-9b96-1be750ac7845","udp":true,"skip-cert-verify":true,"sni":"pl1.trojanvh.xyz"}
-  - {"type":"vmess","name":"🇸🇬SG_G1_CF","ws-opts":{"path":"/Falling42gcoresgnode","headers":{"host":"gcoresg.sylu.cyou"}},"server":"cm.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"vmess","name":"🇸🇬SG_G3_CF","ws-opts":{"path":"/Falling42gcsssgnode","headers":{"host":"gcsssg.sylu.cyou"}},"server":"cm.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"@wbnet+اینترنت+بدون+مرز_37","server":"135.148.148.4","port":80,"password":"ee2bccd3-0f30-42d4-86d6-3d393ad230bd","udp":true,"skip-cert-verify":true,"sni":"us3.trojanvh.xyz"}
-  - {"type":"vmess","name":"🇭🇰HK_G3_CF","ws-opts":{"path":"/Falling42gcsshknode","headers":{"host":"gcsshk.sylu.cyou"}},"server":"cm.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"trojan","name":"@wbnet+اینترنت+بدون+مرز_36","server":"135.148.148.4","port":80,"password":"892c4f6e-732b-4f71-ad04-6e77344f2d0e","udp":true,"skip-cert-verify":true,"sni":"us3.trojanvh.xyz"}
-  - {"type":"trojan","name":"Singapore-DigitalOcean_5","server":"27.185.204.53","port":19228,"password":"0736ddb4-62c2-39a3-bdd7-8824cbc53ecf","udp":true,"skip-cert-verify":true}
-  - {"type":"ssr","name":"郴州联通-香港EDCL@univstar_2","server":"116.162.120.60","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"21805:gujgjjg8686LL"}
-  - {"type":"trojan","name":"@wbnet+اینترنت+بدون+مرز_46","server":"135.148.148.4","port":80,"password":"76fcac80-9943-4eab-8717-0ebebea94b70","udp":true,"skip-cert-verify":true,"sni":"us3.trojanvh.xyz"}
-  - {"type":"trojan","name":"t.me/wbnet_22","server":"us2.trojanvh.xyz","port":80,"password":"255c924c-1314-4084-9a9e-1d1a82a5cf49","udp":true,"skip-cert-verify":true}
-  - {"type":"trojan","name":"@wbnet_30","server":"us2.trojanvh.xyz","port":80,"password":"aa6eb272-1d8d-4461-9687-85ddbab1adb0","udp":true,"skip-cert-verify":true,"sni":"us2.trojanvh.xyz"}
-  - {"type":"ss","name":"🇨🇳CN+2+→+tg@nicevpn123","server":"14.29.124.168","port":25256,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"🇨🇳CN+25+→+tg@nicevpn123","server":"14.29.124.168","port":25218,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"🇨🇳CN+30+→+tg@nicevpn123","server":"14.29.124.168","port":25219,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇧🇬BG1→tg@nicevpn123
-      - 香港有线-dip_2
-      - 🇦🇺AU3→tg@nicevpn123
-      - 🇩🇪DE+3+→+tg@nicevpn123
-      - 🇷🇺RU3→tg@nicevpn123
-      - 🇩🇪DE+4+→+tg@nicevpn123
-      - 🇩🇪DE+5+→+tg@nicevpn123
+      - 郴州联通-香港EDCL@univstar_1
+      - 🇺🇸US+58+→+tg@nicevpn123
+      - 广州电信-Chuncheon-Oracle@univstar_2
+      - 🇺🇸US+59+→+tg@nicevpn123
+      - ''
       - 剩余流量：1000943.9GB
-      - 🇺🇸US+1+→+tg@nicevpn123
-      - 🇳🇱NL_CF
-      - 🌍+(@Anty_Filter)
-      - 🇸🇬SG_G1_CF
-      - 🇸🇬SG_G3_CF
-      - '@wbnet+اینترنت+بدون+مرز_37'
-      - 🇭🇰HK_G3_CF
-      - '@wbnet+اینترنت+بدون+مرز_36'
-      - Singapore-DigitalOcean_5
-      - 郴州联通-香港EDCL@univstar_2
-      - '@wbnet+اینترنت+بدون+مرز_46'
-      - t.me/wbnet_22
-      - '@wbnet_30'
-      - 🇨🇳CN+2+→+tg@nicevpn123
-      - 🇨🇳CN+25+→+tg@nicevpn123
+      - 🇨🇳CN+30+→+tg@nicevpn123
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇧🇬BG1→tg@nicevpn123
-      - 香港有线-dip_2
-      - 🇦🇺AU3→tg@nicevpn123
-      - 🇩🇪DE+3+→+tg@nicevpn123
-      - 🇷🇺RU3→tg@nicevpn123
-      - 🇩🇪DE+4+→+tg@nicevpn123
-      - 🇩🇪DE+5+→+tg@nicevpn123
+      - 郴州联通-香港EDCL@univstar_1
+      - 🇺🇸US+58+→+tg@nicevpn123
+      - 广州电信-Chuncheon-Oracle@univstar_2
+      - 🇺🇸US+59+→+tg@nicevpn123
+      - ''
       - 剩余流量：1000943.9GB
-      - 🇺🇸US+1+→+tg@nicevpn123
-      - 🇳🇱NL_CF
-      - 🌍+(@Anty_Filter)
-      - 🇸🇬SG_G1_CF
-      - 🇸🇬SG_G3_CF
-      - '@wbnet+اینترنت+بدون+مرز_37'
-      - 🇭🇰HK_G3_CF
-      - '@wbnet+اینترنت+بدون+مرز_36'
-      - Singapore-DigitalOcean_5
-      - 郴州联通-香港EDCL@univstar_2
-      - '@wbnet+اینترنت+بدون+مرز_46'
-      - t.me/wbnet_22
-      - '@wbnet_30'
-      - 🇨🇳CN+2+→+tg@nicevpn123
-      - 🇨🇳CN+25+→+tg@nicevpn123
+      - 🇨🇳CN+30+→+tg@nicevpn123
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇧🇬BG1→tg@nicevpn123
-      - 香港有线-dip_2
-      - 🇦🇺AU3→tg@nicevpn123
-      - 🇩🇪DE+3+→+tg@nicevpn123
-      - 🇷🇺RU3→tg@nicevpn123
-      - 🇩🇪DE+4+→+tg@nicevpn123
-      - 🇩🇪DE+5+→+tg@nicevpn123
+      - 郴州联通-香港EDCL@univstar_1
+      - 🇺🇸US+58+→+tg@nicevpn123
+      - 广州电信-Chuncheon-Oracle@univstar_2
+      - 🇺🇸US+59+→+tg@nicevpn123
+      - ''
       - 剩余流量：1000943.9GB
-      - 🇺🇸US+1+→+tg@nicevpn123
-      - 🇳🇱NL_CF
-      - 🌍+(@Anty_Filter)
-      - 🇸🇬SG_G1_CF
-      - 🇸🇬SG_G3_CF
-      - '@wbnet+اینترنت+بدون+مرز_37'
-      - 🇭🇰HK_G3_CF
-      - '@wbnet+اینترنت+بدون+مرز_36'
-      - Singapore-DigitalOcean_5
-      - 郴州联通-香港EDCL@univstar_2
-      - '@wbnet+اینترنت+بدون+مرز_46'
-      - t.me/wbnet_22
-      - '@wbnet_30'
-      - 🇨🇳CN+2+→+tg@nicevpn123
-      - 🇨🇳CN+25+→+tg@nicevpn123
+      - 🇨🇳CN+30+→+tg@nicevpn123
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇧🇬BG1→tg@nicevpn123
-      - 香港有线-dip_2
-      - 🇦🇺AU3→tg@nicevpn123
-      - 🇩🇪DE+3+→+tg@nicevpn123
-      - 🇷🇺RU3→tg@nicevpn123
-      - 🇩🇪DE+4+→+tg@nicevpn123
-      - 🇩🇪DE+5+→+tg@nicevpn123
+      - 郴州联通-香港EDCL@univstar_1
+      - 🇺🇸US+58+→+tg@nicevpn123
+      - 广州电信-Chuncheon-Oracle@univstar_2
+      - 🇺🇸US+59+→+tg@nicevpn123
+      - ''
       - 剩余流量：1000943.9GB
-      - 🇺🇸US+1+→+tg@nicevpn123
-      - 🇳🇱NL_CF
-      - 🌍+(@Anty_Filter)
-      - 🇸🇬SG_G1_CF
-      - 🇸🇬SG_G3_CF
-      - '@wbnet+اینترنت+بدون+مرز_37'
-      - 🇭🇰HK_G3_CF
-      - '@wbnet+اینترنت+بدون+مرز_36'
-      - Singapore-DigitalOcean_5
-      - 郴州联通-香港EDCL@univstar_2
-      - '@wbnet+اینترنت+بدون+مرز_46'
-      - t.me/wbnet_22
-      - '@wbnet_30'
-      - 🇨🇳CN+2+→+tg@nicevpn123
-      - 🇨🇳CN+25+→+tg@nicevpn123
+      - 🇨🇳CN+30+→+tg@nicevpn123
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇧🇬BG1→tg@nicevpn123
-      - 香港有线-dip_2
-      - 🇦🇺AU3→tg@nicevpn123
-      - 🇩🇪DE+3+→+tg@nicevpn123
-      - 🇷🇺RU3→tg@nicevpn123
-      - 🇩🇪DE+4+→+tg@nicevpn123
-      - 🇩🇪DE+5+→+tg@nicevpn123
+      - 郴州联通-香港EDCL@univstar_1
+      - 🇺🇸US+58+→+tg@nicevpn123
+      - 广州电信-Chuncheon-Oracle@univstar_2
+      - 🇺🇸US+59+→+tg@nicevpn123
+      - ''
       - 剩余流量：1000943.9GB
-      - 🇺🇸US+1+→+tg@nicevpn123
-      - 🇳🇱NL_CF
-      - 🌍+(@Anty_Filter)
-      - 🇸🇬SG_G1_CF
-      - 🇸🇬SG_G3_CF
-      - '@wbnet+اینترنت+بدون+مرز_37'
-      - 🇭🇰HK_G3_CF
-      - '@wbnet+اینترنت+بدون+مرز_36'
-      - Singapore-DigitalOcean_5
-      - 郴州联通-香港EDCL@univstar_2
-      - '@wbnet+اینترنت+بدون+مرز_46'
-      - t.me/wbnet_22
-      - '@wbnet_30'
-      - 🇨🇳CN+2+→+tg@nicevpn123
-      - 🇨🇳CN+25+→+tg@nicevpn123
+      - 🇨🇳CN+30+→+tg@nicevpn123
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇧🇬BG1→tg@nicevpn123
-      - 香港有线-dip_2
-      - 🇦🇺AU3→tg@nicevpn123
-      - 🇩🇪DE+3+→+tg@nicevpn123
-      - 🇷🇺RU3→tg@nicevpn123
-      - 🇩🇪DE+4+→+tg@nicevpn123
-      - 🇩🇪DE+5+→+tg@nicevpn123
+      - 郴州联通-香港EDCL@univstar_1
+      - 🇺🇸US+58+→+tg@nicevpn123
+      - 广州电信-Chuncheon-Oracle@univstar_2
+      - 🇺🇸US+59+→+tg@nicevpn123
+      - ''
       - 剩余流量：1000943.9GB
-      - 🇺🇸US+1+→+tg@nicevpn123
-      - 🇳🇱NL_CF
-      - 🌍+(@Anty_Filter)
-      - 🇸🇬SG_G1_CF
-      - 🇸🇬SG_G3_CF
-      - '@wbnet+اینترنت+بدون+مرز_37'
-      - 🇭🇰HK_G3_CF
-      - '@wbnet+اینترنت+بدون+مرز_36'
-      - Singapore-DigitalOcean_5
-      - 郴州联通-香港EDCL@univstar_2
-      - '@wbnet+اینترنت+بدون+مرز_46'
-      - t.me/wbnet_22
-      - '@wbnet_30'
-      - 🇨🇳CN+2+→+tg@nicevpn123
-      - 🇨🇳CN+25+→+tg@nicevpn123
+      - 🇨🇳CN+30+→+tg@nicevpn123
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -229,29 +117,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇧🇬BG1→tg@nicevpn123
-      - 香港有线-dip_2
-      - 🇦🇺AU3→tg@nicevpn123
-      - 🇩🇪DE+3+→+tg@nicevpn123
-      - 🇷🇺RU3→tg@nicevpn123
-      - 🇩🇪DE+4+→+tg@nicevpn123
-      - 🇩🇪DE+5+→+tg@nicevpn123
+      - 郴州联通-香港EDCL@univstar_1
+      - 🇺🇸US+58+→+tg@nicevpn123
+      - 广州电信-Chuncheon-Oracle@univstar_2
+      - 🇺🇸US+59+→+tg@nicevpn123
+      - ''
       - 剩余流量：1000943.9GB
-      - 🇺🇸US+1+→+tg@nicevpn123
-      - 🇳🇱NL_CF
-      - 🌍+(@Anty_Filter)
-      - 🇸🇬SG_G1_CF
-      - 🇸🇬SG_G3_CF
-      - '@wbnet+اینترنت+بدون+مرز_37'
-      - 🇭🇰HK_G3_CF
-      - '@wbnet+اینترنت+بدون+مرز_36'
-      - Singapore-DigitalOcean_5
-      - 郴州联通-香港EDCL@univstar_2
-      - '@wbnet+اینترنت+بدون+مرز_46'
-      - t.me/wbnet_22
-      - '@wbnet_30'
-      - 🇨🇳CN+2+→+tg@nicevpn123
-      - 🇨🇳CN+25+→+tg@nicevpn123
+      - 🇨🇳CN+30+→+tg@nicevpn123
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
