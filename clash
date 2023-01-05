@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2023-01-04 13:36:38
+#  创建时间：2023-01-05 09:57:53
 #  模版：v2rayse默认模版
-#  节点数量：7
+#  节点数量：23
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,88 +13,200 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ssr","name":"郴州联通-香港EDCL@univstar_1","server":"116.162.120.60","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"51733:SVIPTIZ8"}
-  - {"type":"trojan","name":"🇺🇸US+58+→+tg@nicevpn123","server":"15.235.197.5","port":80,"password":"bedae0a3-a7dc-4ff0-9013-be459839b5b7","udp":true,"skip-cert-verify":true,"sni":"sg2.trojanvh.xyz"}
-  - {"type":"ssr","name":"广州电信-Chuncheon-Oracle@univstar_2","server":"125.94.215.234","port":565,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"51733:SVIPTIZ8"}
-  - {"type":"trojan","name":"🇺🇸US+59+→+tg@nicevpn123","server":"15.235.197.4","port":80,"password":"16bcc187-a1a0-4b8a-8b69-627f38b7cc0d","udp":true,"skip-cert-verify":true}
-  - {"type":"vmess","name":"","http-opts":{"path":["/"],"headers":{"Host":["apple.com"]}},"server":"176.119.159.245","port":"37672","uuid":"86b4e35c-1061-47b3-8c6c-811d1853a477","alterId":"64","cipher":"auto","network":"http"}
-  - {"type":"vmess","name":"剩余流量：1000943.9GB","ws-opts":{"path":"/Falling42scwfrrnode","headers":{"host":"scwfrr.sylu.cyou"}},"server":"scwfrr.sylu.cyou","port":"443","uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇨🇳CN+30+→+tg@nicevpn123","server":"14.29.124.168","port":25219,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"trojan","name":"github.com/mehdimoghaddam-cell_1","server":"135.148.148.4","port":80,"password":"800eb26c-cd0c-4269-aae7-e63d75de4edd","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"github.com/mehdimoghaddam-cell_2","server":"135.148.148.4","port":80,"password":"ee2bccd3-0f30-42d4-86d6-3d393ad230bd","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸US+58+→+tg@nicevpn123","server":"170-187-134-190.ipv4.rush.ml","port":8443,"password":"cf4295378e209e70d12c5bdd017144dfd1c772d3","udp":true,"skip-cert-verify":true,"sni":"170-187-134-190.ipv4.rush.ml"}
+  - {"type":"trojan","name":"🇺🇸US+72+→+tg@nicevpn123","server":"135.148.148.4","port":80,"password":"892c4f6e-732b-4f71-ad04-6e77344f2d0e","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸US+760+→+tg@nicevpn123","server":"www.anloao.cf","port":9053,"password":"b64b0f9c-23df-3112-a790-d8aa068aa2fe","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸US+761+→+tg@nicevpn123","server":"72.167.45.6","port":443,"password":"36ebef7d1b1d6205fd0c55f28800e674","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸US+763+→+tg@nicevpn123","server":"72.167.45.6","port":443,"password":"a3fa58b581353bb375d2ddad0f327938","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸US+773+→+tg@nicevpn123","server":"72.167.45.6","port":443,"password":"28d98f761aca9d636f44db62544628eb","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸US+779+→+tg@nicevpn123","server":"cd.rutracker-cn.com","port":443,"password":"ukMzuFSmIXDvgW0h","udp":true,"skip-cert-verify":true}
+  - {"type":"ssr","name":"郴州联通-Seattle-Dedicated@univstar_1","server":"116.162.120.59","port":569,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"10463:SVIPTIZ8"}
+  - {"type":"ssr","name":"郴州联通-Seattle-Dedicated@univstar_10","server":"116.162.120.59","port":568,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"36498:ytytty8778g"}
+  - {"type":"ssr","name":"郴州联通-Seattle-Dedicated@univstar_11","server":"116.162.120.59","port":569,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"36498:ytytty8778g"}
+  - {"type":"ssr","name":"郴州联通-Seattle-Dedicated@univstar_3","server":"116.162.120.59","port":567,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"10463:SVIPTIZ8"}
+  - {"type":"ssr","name":"郴州联通-Seattle-Dedicated@univstar_4","server":"116.162.120.59","port":566,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"10463:SVIPTIZ8"}
+  - {"type":"ssr","name":"郴州联通-Seattle-Dedicated@univstar_6","server":"116.162.120.59","port":564,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"10463:SVIPTIZ8"}
+  - {"type":"ssr","name":"郴州联通-Seattle-Dedicated@univstar_8","server":"116.162.120.59","port":565,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"36498:ytytty8778g"}
+  - {"type":"ssr","name":"郴州联通-Seattle-Dedicated@univstar_9","server":"116.162.120.59","port":566,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"36498:ytytty8778g"}
+  - {"type":"ssr","name":"郴州联通-香港EDCL@univstar_1","server":"116.162.120.60","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"10463:SVIPTIZ8"}
+  - {"type":"ssr","name":"郴州联通-香港EDCL@univstar_2","server":"116.162.120.60","port":561,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"36498:ytytty8778g"}
+  - {"type":"ssr","name":"广州电信-Chuncheon-Oracle@univstar_1","server":"125.94.215.234","port":565,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"10463:SVIPTIZ8"}
+  - {"type":"ssr","name":"广州电信-Chuncheon-Oracle@univstar_2","server":"125.94.215.234","port":564,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"10463:SVIPTIZ8"}
+  - {"type":"ssr","name":"广州电信-Chuncheon-Oracle@univstar_3","server":"125.94.215.234","port":564,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"36498:ytytty8778g"}
+  - {"type":"ssr","name":"广州电信-Chuncheon-Oracle@univstar_4","server":"125.94.215.234","port":565,"protocol":"auth_aes128_md5","cipher":"chacha20-ietf","obfs":"plain","password":"mblank1port","obfs-param":"t.me/vpnhat","protocol-param":"36498:ytytty8778g"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 郴州联通-香港EDCL@univstar_1
+      - github.com/mehdimoghaddam-cell_1
+      - github.com/mehdimoghaddam-cell_2
       - 🇺🇸US+58+→+tg@nicevpn123
+      - 🇺🇸US+72+→+tg@nicevpn123
+      - 🇺🇸US+760+→+tg@nicevpn123
+      - 🇺🇸US+761+→+tg@nicevpn123
+      - 🇺🇸US+763+→+tg@nicevpn123
+      - 🇺🇸US+773+→+tg@nicevpn123
+      - 🇺🇸US+779+→+tg@nicevpn123
+      - 郴州联通-Seattle-Dedicated@univstar_1
+      - 郴州联通-Seattle-Dedicated@univstar_10
+      - 郴州联通-Seattle-Dedicated@univstar_11
+      - 郴州联通-Seattle-Dedicated@univstar_3
+      - 郴州联通-Seattle-Dedicated@univstar_4
+      - 郴州联通-Seattle-Dedicated@univstar_6
+      - 郴州联通-Seattle-Dedicated@univstar_8
+      - 郴州联通-Seattle-Dedicated@univstar_9
+      - 郴州联通-香港EDCL@univstar_1
+      - 郴州联通-香港EDCL@univstar_2
+      - 广州电信-Chuncheon-Oracle@univstar_1
       - 广州电信-Chuncheon-Oracle@univstar_2
-      - 🇺🇸US+59+→+tg@nicevpn123
-      - ''
-      - 剩余流量：1000943.9GB
-      - 🇨🇳CN+30+→+tg@nicevpn123
+      - 广州电信-Chuncheon-Oracle@univstar_3
+      - 广州电信-Chuncheon-Oracle@univstar_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 郴州联通-香港EDCL@univstar_1
+      - github.com/mehdimoghaddam-cell_1
+      - github.com/mehdimoghaddam-cell_2
       - 🇺🇸US+58+→+tg@nicevpn123
+      - 🇺🇸US+72+→+tg@nicevpn123
+      - 🇺🇸US+760+→+tg@nicevpn123
+      - 🇺🇸US+761+→+tg@nicevpn123
+      - 🇺🇸US+763+→+tg@nicevpn123
+      - 🇺🇸US+773+→+tg@nicevpn123
+      - 🇺🇸US+779+→+tg@nicevpn123
+      - 郴州联通-Seattle-Dedicated@univstar_1
+      - 郴州联通-Seattle-Dedicated@univstar_10
+      - 郴州联通-Seattle-Dedicated@univstar_11
+      - 郴州联通-Seattle-Dedicated@univstar_3
+      - 郴州联通-Seattle-Dedicated@univstar_4
+      - 郴州联通-Seattle-Dedicated@univstar_6
+      - 郴州联通-Seattle-Dedicated@univstar_8
+      - 郴州联通-Seattle-Dedicated@univstar_9
+      - 郴州联通-香港EDCL@univstar_1
+      - 郴州联通-香港EDCL@univstar_2
+      - 广州电信-Chuncheon-Oracle@univstar_1
       - 广州电信-Chuncheon-Oracle@univstar_2
-      - 🇺🇸US+59+→+tg@nicevpn123
-      - ''
-      - 剩余流量：1000943.9GB
-      - 🇨🇳CN+30+→+tg@nicevpn123
+      - 广州电信-Chuncheon-Oracle@univstar_3
+      - 广州电信-Chuncheon-Oracle@univstar_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 郴州联通-香港EDCL@univstar_1
+      - github.com/mehdimoghaddam-cell_1
+      - github.com/mehdimoghaddam-cell_2
       - 🇺🇸US+58+→+tg@nicevpn123
+      - 🇺🇸US+72+→+tg@nicevpn123
+      - 🇺🇸US+760+→+tg@nicevpn123
+      - 🇺🇸US+761+→+tg@nicevpn123
+      - 🇺🇸US+763+→+tg@nicevpn123
+      - 🇺🇸US+773+→+tg@nicevpn123
+      - 🇺🇸US+779+→+tg@nicevpn123
+      - 郴州联通-Seattle-Dedicated@univstar_1
+      - 郴州联通-Seattle-Dedicated@univstar_10
+      - 郴州联通-Seattle-Dedicated@univstar_11
+      - 郴州联通-Seattle-Dedicated@univstar_3
+      - 郴州联通-Seattle-Dedicated@univstar_4
+      - 郴州联通-Seattle-Dedicated@univstar_6
+      - 郴州联通-Seattle-Dedicated@univstar_8
+      - 郴州联通-Seattle-Dedicated@univstar_9
+      - 郴州联通-香港EDCL@univstar_1
+      - 郴州联通-香港EDCL@univstar_2
+      - 广州电信-Chuncheon-Oracle@univstar_1
       - 广州电信-Chuncheon-Oracle@univstar_2
-      - 🇺🇸US+59+→+tg@nicevpn123
-      - ''
-      - 剩余流量：1000943.9GB
-      - 🇨🇳CN+30+→+tg@nicevpn123
+      - 广州电信-Chuncheon-Oracle@univstar_3
+      - 广州电信-Chuncheon-Oracle@univstar_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 郴州联通-香港EDCL@univstar_1
+      - github.com/mehdimoghaddam-cell_1
+      - github.com/mehdimoghaddam-cell_2
       - 🇺🇸US+58+→+tg@nicevpn123
+      - 🇺🇸US+72+→+tg@nicevpn123
+      - 🇺🇸US+760+→+tg@nicevpn123
+      - 🇺🇸US+761+→+tg@nicevpn123
+      - 🇺🇸US+763+→+tg@nicevpn123
+      - 🇺🇸US+773+→+tg@nicevpn123
+      - 🇺🇸US+779+→+tg@nicevpn123
+      - 郴州联通-Seattle-Dedicated@univstar_1
+      - 郴州联通-Seattle-Dedicated@univstar_10
+      - 郴州联通-Seattle-Dedicated@univstar_11
+      - 郴州联通-Seattle-Dedicated@univstar_3
+      - 郴州联通-Seattle-Dedicated@univstar_4
+      - 郴州联通-Seattle-Dedicated@univstar_6
+      - 郴州联通-Seattle-Dedicated@univstar_8
+      - 郴州联通-Seattle-Dedicated@univstar_9
+      - 郴州联通-香港EDCL@univstar_1
+      - 郴州联通-香港EDCL@univstar_2
+      - 广州电信-Chuncheon-Oracle@univstar_1
       - 广州电信-Chuncheon-Oracle@univstar_2
-      - 🇺🇸US+59+→+tg@nicevpn123
-      - ''
-      - 剩余流量：1000943.9GB
-      - 🇨🇳CN+30+→+tg@nicevpn123
+      - 广州电信-Chuncheon-Oracle@univstar_3
+      - 广州电信-Chuncheon-Oracle@univstar_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 郴州联通-香港EDCL@univstar_1
+      - github.com/mehdimoghaddam-cell_1
+      - github.com/mehdimoghaddam-cell_2
       - 🇺🇸US+58+→+tg@nicevpn123
+      - 🇺🇸US+72+→+tg@nicevpn123
+      - 🇺🇸US+760+→+tg@nicevpn123
+      - 🇺🇸US+761+→+tg@nicevpn123
+      - 🇺🇸US+763+→+tg@nicevpn123
+      - 🇺🇸US+773+→+tg@nicevpn123
+      - 🇺🇸US+779+→+tg@nicevpn123
+      - 郴州联通-Seattle-Dedicated@univstar_1
+      - 郴州联通-Seattle-Dedicated@univstar_10
+      - 郴州联通-Seattle-Dedicated@univstar_11
+      - 郴州联通-Seattle-Dedicated@univstar_3
+      - 郴州联通-Seattle-Dedicated@univstar_4
+      - 郴州联通-Seattle-Dedicated@univstar_6
+      - 郴州联通-Seattle-Dedicated@univstar_8
+      - 郴州联通-Seattle-Dedicated@univstar_9
+      - 郴州联通-香港EDCL@univstar_1
+      - 郴州联通-香港EDCL@univstar_2
+      - 广州电信-Chuncheon-Oracle@univstar_1
       - 广州电信-Chuncheon-Oracle@univstar_2
-      - 🇺🇸US+59+→+tg@nicevpn123
-      - ''
-      - 剩余流量：1000943.9GB
-      - 🇨🇳CN+30+→+tg@nicevpn123
+      - 广州电信-Chuncheon-Oracle@univstar_3
+      - 广州电信-Chuncheon-Oracle@univstar_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 郴州联通-香港EDCL@univstar_1
+      - github.com/mehdimoghaddam-cell_1
+      - github.com/mehdimoghaddam-cell_2
       - 🇺🇸US+58+→+tg@nicevpn123
+      - 🇺🇸US+72+→+tg@nicevpn123
+      - 🇺🇸US+760+→+tg@nicevpn123
+      - 🇺🇸US+761+→+tg@nicevpn123
+      - 🇺🇸US+763+→+tg@nicevpn123
+      - 🇺🇸US+773+→+tg@nicevpn123
+      - 🇺🇸US+779+→+tg@nicevpn123
+      - 郴州联通-Seattle-Dedicated@univstar_1
+      - 郴州联通-Seattle-Dedicated@univstar_10
+      - 郴州联通-Seattle-Dedicated@univstar_11
+      - 郴州联通-Seattle-Dedicated@univstar_3
+      - 郴州联通-Seattle-Dedicated@univstar_4
+      - 郴州联通-Seattle-Dedicated@univstar_6
+      - 郴州联通-Seattle-Dedicated@univstar_8
+      - 郴州联通-Seattle-Dedicated@univstar_9
+      - 郴州联通-香港EDCL@univstar_1
+      - 郴州联通-香港EDCL@univstar_2
+      - 广州电信-Chuncheon-Oracle@univstar_1
       - 广州电信-Chuncheon-Oracle@univstar_2
-      - 🇺🇸US+59+→+tg@nicevpn123
-      - ''
-      - 剩余流量：1000943.9GB
-      - 🇨🇳CN+30+→+tg@nicevpn123
+      - 广州电信-Chuncheon-Oracle@univstar_3
+      - 广州电信-Chuncheon-Oracle@univstar_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -117,13 +229,29 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 郴州联通-香港EDCL@univstar_1
+      - github.com/mehdimoghaddam-cell_1
+      - github.com/mehdimoghaddam-cell_2
       - 🇺🇸US+58+→+tg@nicevpn123
+      - 🇺🇸US+72+→+tg@nicevpn123
+      - 🇺🇸US+760+→+tg@nicevpn123
+      - 🇺🇸US+761+→+tg@nicevpn123
+      - 🇺🇸US+763+→+tg@nicevpn123
+      - 🇺🇸US+773+→+tg@nicevpn123
+      - 🇺🇸US+779+→+tg@nicevpn123
+      - 郴州联通-Seattle-Dedicated@univstar_1
+      - 郴州联通-Seattle-Dedicated@univstar_10
+      - 郴州联通-Seattle-Dedicated@univstar_11
+      - 郴州联通-Seattle-Dedicated@univstar_3
+      - 郴州联通-Seattle-Dedicated@univstar_4
+      - 郴州联通-Seattle-Dedicated@univstar_6
+      - 郴州联通-Seattle-Dedicated@univstar_8
+      - 郴州联通-Seattle-Dedicated@univstar_9
+      - 郴州联通-香港EDCL@univstar_1
+      - 郴州联通-香港EDCL@univstar_2
+      - 广州电信-Chuncheon-Oracle@univstar_1
       - 广州电信-Chuncheon-Oracle@univstar_2
-      - 🇺🇸US+59+→+tg@nicevpn123
-      - ''
-      - 剩余流量：1000943.9GB
-      - 🇨🇳CN+30+→+tg@nicevpn123
+      - 广州电信-Chuncheon-Oracle@univstar_3
+      - 广州电信-Chuncheon-Oracle@univstar_4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
