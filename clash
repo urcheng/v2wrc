@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2023-01-12 17:55:27
+#  创建时间：2023-01-13 11:42:15
 #  模版：v2rayse默认模版
-#  节点数量：5
+#  节点数量：4
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,74 +13,67 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"🇺🇸US15→tg@nicevpn123","ws-opts":{"path":"/vmess"},"server":"162.19.224.176","port":"80","uuid":"32a919f6-f41f-4874-a559-cd914d8840a2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"🇨🇳CN+5+→+tg@nicevpn123","server":"14.29.124.168","port":25230,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"ss","name":"Hong+Kong+3","server":"yd-07.paofunlink.com","port":5988,"cipher":"rc4-md5","password":"Paofu","plugin":"obfs","plugin-opts":{"mode":"http","host":"37f7e180722.microsoft.com"}}
+  - {"type":"vmess","name":"🇺🇸US35→tg@nicevpn123","http-opts":{"path":["/"]},"server":"96.43.86.4","port":"17129","uuid":"e67d0104-9de3-4a5a-9141-be673fbf094e","alterId":"0","cipher":"auto","network":"http"}
   - {"type":"ss","name":"🇨🇳CN+10+→+tg@nicevpn123","server":"14.29.124.168","port":25226,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"ss","name":"🇨🇳CN+16+→+tg@nicevpn123","server":"14.29.124.168","port":25254,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
-  - {"type":"vmess","name":"🇨🇳CN28→tg@nicevpn123","server":"47.104.237.32","port":"50002","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"Hong+Kong+2","server":"yd-01.paofunlink.com","port":5981,"cipher":"rc4-md5","password":"Paofu","plugin":"obfs","plugin-opts":{"mode":"http","host":"37f7e180722.microsoft.com"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸US15→tg@nicevpn123
-      - 🇨🇳CN+5+→+tg@nicevpn123
+      - Hong+Kong+3
+      - 🇺🇸US35→tg@nicevpn123
       - 🇨🇳CN+10+→+tg@nicevpn123
-      - 🇨🇳CN+16+→+tg@nicevpn123
-      - 🇨🇳CN28→tg@nicevpn123
+      - Hong+Kong+2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸US15→tg@nicevpn123
-      - 🇨🇳CN+5+→+tg@nicevpn123
+      - Hong+Kong+3
+      - 🇺🇸US35→tg@nicevpn123
       - 🇨🇳CN+10+→+tg@nicevpn123
-      - 🇨🇳CN+16+→+tg@nicevpn123
-      - 🇨🇳CN28→tg@nicevpn123
+      - Hong+Kong+2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸US15→tg@nicevpn123
-      - 🇨🇳CN+5+→+tg@nicevpn123
+      - Hong+Kong+3
+      - 🇺🇸US35→tg@nicevpn123
       - 🇨🇳CN+10+→+tg@nicevpn123
-      - 🇨🇳CN+16+→+tg@nicevpn123
-      - 🇨🇳CN28→tg@nicevpn123
+      - Hong+Kong+2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸US15→tg@nicevpn123
-      - 🇨🇳CN+5+→+tg@nicevpn123
+      - Hong+Kong+3
+      - 🇺🇸US35→tg@nicevpn123
       - 🇨🇳CN+10+→+tg@nicevpn123
-      - 🇨🇳CN+16+→+tg@nicevpn123
-      - 🇨🇳CN28→tg@nicevpn123
+      - Hong+Kong+2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸US15→tg@nicevpn123
-      - 🇨🇳CN+5+→+tg@nicevpn123
+      - Hong+Kong+3
+      - 🇺🇸US35→tg@nicevpn123
       - 🇨🇳CN+10+→+tg@nicevpn123
-      - 🇨🇳CN+16+→+tg@nicevpn123
-      - 🇨🇳CN28→tg@nicevpn123
+      - Hong+Kong+2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸US15→tg@nicevpn123
-      - 🇨🇳CN+5+→+tg@nicevpn123
+      - Hong+Kong+3
+      - 🇺🇸US35→tg@nicevpn123
       - 🇨🇳CN+10+→+tg@nicevpn123
-      - 🇨🇳CN+16+→+tg@nicevpn123
-      - 🇨🇳CN28→tg@nicevpn123
+      - Hong+Kong+2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -103,11 +96,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸US15→tg@nicevpn123
-      - 🇨🇳CN+5+→+tg@nicevpn123
+      - Hong+Kong+3
+      - 🇺🇸US35→tg@nicevpn123
       - 🇨🇳CN+10+→+tg@nicevpn123
-      - 🇨🇳CN+16+→+tg@nicevpn123
-      - 🇨🇳CN28→tg@nicevpn123
+      - Hong+Kong+2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
