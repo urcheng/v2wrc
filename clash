@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2023-01-16 16:52:50
+#  创建时间：2023-01-29 14:02:04
 #  模版：v2rayse默认模版
-#  节点数量：2
+#  节点数量：1
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,53 +13,46 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"Hong+Kong+3","server":"yd-07.paofunlink.com","port":5988,"cipher":"rc4-md5","password":"Paofu","plugin":"obfs","plugin-opts":{"mode":"http","host":"37f7e180722.microsoft.com"}}
-  - {"type":"ss","name":"Hong+Kong+2","server":"yd-01.paofunlink.com","port":5981,"cipher":"rc4-md5","password":"Paofu","plugin":"obfs","plugin-opts":{"mode":"http","host":"37f7e180722.microsoft.com"}}
+  - {"type":"vmess","name":"_DE_德国_3@30","http-opts":{"path":["/"],"headers":{"Host":["167.235.28.157"]}},"server":"167.235.28.157","port":"63456","uuid":"31f1f8ea-fd38-4e63-b818-a49d416820bd","alterId":"0","cipher":"auto","network":"http"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Hong+Kong+3
-      - Hong+Kong+2
+      - _DE_德国_3@30
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Hong+Kong+3
-      - Hong+Kong+2
+      - _DE_德国_3@30
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Hong+Kong+3
-      - Hong+Kong+2
+      - _DE_德国_3@30
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Hong+Kong+3
-      - Hong+Kong+2
+      - _DE_德国_3@30
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Hong+Kong+3
-      - Hong+Kong+2
+      - _DE_德国_3@30
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Hong+Kong+3
-      - Hong+Kong+2
+      - _DE_德国_3@30
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,8 +75,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Hong+Kong+3
-      - Hong+Kong+2
+      - _DE_德国_3@30
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
