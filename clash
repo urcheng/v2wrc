@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2023-01-31 13:48:38
+#  创建时间：2023-02-01 10:44:36
 #  模版：v2rayse默认模版
-#  节点数量：3
+#  节点数量：9
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,60 +13,102 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"��墖��袝SouthKorea06TG:@nodpai","server":"3.38.190.4","port":"42996","uuid":"8b3daaee-f4a9-4579-e26a-72a0f64cd3ba","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"KR_483","server":"13.209.72.87","port":"36145","uuid":"16a3bc5a-a22c-4091-bd90-314e87175f0a","alterId":"0","cipher":"auto","network":"tcp"}
-  - {"type":"vmess","name":"��蘓��晠Japan01TG:@nodpai","server":"iplc-jp.19991314.xyz","port":"27722","uuid":"65d4bf7f-1c82-45d9-ac9f-b4f3d5409948","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"KR_509","server":"13.125.10.194","port":"31730","uuid":"4cb1084e-d81f-47b5-e554-1448aab08912","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"AU_154","server":"140.83.63.38","port":"24445","uuid":"94c5ef37-4d82-49f9-c624-f01259374a17","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"vmess","name":"SG_850","server":"103.131.189.212","port":"56967","uuid":"8110ebd2-5ab8-4dfc-8776-94bc377c6be6","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"CN_58+|+0.38Mb","server":"14.29.124.168","port":25280,"cipher":"aes-128-cfb","password":"QazEdcTgb159@$*"}
+  - {"type":"vmess","name":"DE_301","http-opts":{"path":["/"],"headers":{"Host":["167.235.28.157"]}},"server":"167.235.28.157","port":"63456","uuid":"31f1f8ea-fd38-4e63-b818-a49d416820bd","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"ss","name":"CA_13+|+5.65Mb","server":"51.161.118.38","port":812,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"DE_2616+|+8.29Mb","server":"193.108.118.34","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"vmess","name":"AU_162","server":"140.83.53.240","port":"49805","uuid":"65de0639-2f64-4c9c-e8f4-efbd49b3231f","alterId":"0","cipher":"auto","network":"tcp"}
+  - {"type":"ss","name":"Relay_🇨🇦CA-🇨🇦CA_181","server":"ak1416.free.www.outline.network","port":812,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ��墖��袝SouthKorea06TG:@nodpai
-      - KR_483
-      - ��蘓��晠Japan01TG:@nodpai
+      - KR_509
+      - AU_154
+      - SG_850
+      - CN_58+|+0.38Mb
+      - DE_301
+      - CA_13+|+5.65Mb
+      - DE_2616+|+8.29Mb
+      - AU_162
+      - Relay_🇨🇦CA-🇨🇦CA_181
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ��墖��袝SouthKorea06TG:@nodpai
-      - KR_483
-      - ��蘓��晠Japan01TG:@nodpai
+      - KR_509
+      - AU_154
+      - SG_850
+      - CN_58+|+0.38Mb
+      - DE_301
+      - CA_13+|+5.65Mb
+      - DE_2616+|+8.29Mb
+      - AU_162
+      - Relay_🇨🇦CA-🇨🇦CA_181
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ��墖��袝SouthKorea06TG:@nodpai
-      - KR_483
-      - ��蘓��晠Japan01TG:@nodpai
+      - KR_509
+      - AU_154
+      - SG_850
+      - CN_58+|+0.38Mb
+      - DE_301
+      - CA_13+|+5.65Mb
+      - DE_2616+|+8.29Mb
+      - AU_162
+      - Relay_🇨🇦CA-🇨🇦CA_181
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ��墖��袝SouthKorea06TG:@nodpai
-      - KR_483
-      - ��蘓��晠Japan01TG:@nodpai
+      - KR_509
+      - AU_154
+      - SG_850
+      - CN_58+|+0.38Mb
+      - DE_301
+      - CA_13+|+5.65Mb
+      - DE_2616+|+8.29Mb
+      - AU_162
+      - Relay_🇨🇦CA-🇨🇦CA_181
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ��墖��袝SouthKorea06TG:@nodpai
-      - KR_483
-      - ��蘓��晠Japan01TG:@nodpai
+      - KR_509
+      - AU_154
+      - SG_850
+      - CN_58+|+0.38Mb
+      - DE_301
+      - CA_13+|+5.65Mb
+      - DE_2616+|+8.29Mb
+      - AU_162
+      - Relay_🇨🇦CA-🇨🇦CA_181
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ��墖��袝SouthKorea06TG:@nodpai
-      - KR_483
-      - ��蘓��晠Japan01TG:@nodpai
+      - KR_509
+      - AU_154
+      - SG_850
+      - CN_58+|+0.38Mb
+      - DE_301
+      - CA_13+|+5.65Mb
+      - DE_2616+|+8.29Mb
+      - AU_162
+      - Relay_🇨🇦CA-🇨🇦CA_181
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -89,9 +131,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ��墖��袝SouthKorea06TG:@nodpai
-      - KR_483
-      - ��蘓��晠Japan01TG:@nodpai
+      - KR_509
+      - AU_154
+      - SG_850
+      - CN_58+|+0.38Mb
+      - DE_301
+      - CA_13+|+5.65Mb
+      - DE_2616+|+8.29Mb
+      - AU_162
+      - Relay_🇨🇦CA-🇨🇦CA_181
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
