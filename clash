@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-02-07 09:04:54
+# 创建时间：2023-02-08 10:23:52
 # 使用模版：V2RaySE 默认模版
-# 节点数量：28
+# 节点数量：10
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,235 +21,109 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"「SCP」DE-CF1","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"de-1.sharecentre.online","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"de-1.sharecentre.online"}}}
-  - {"name":"US_561+|+9.14Mb","type":"ss","server":"167.88.62.62","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"US_584+|+8.80Mb","type":"ss","server":"167.88.62.62","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"_CN_中国_2_1@28","type":"ss","server":"14.29.124.168","port":25252,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"_JP_日本_19@35","type":"vmess","server":"suzhihan.eu.org","port":443,"cipher":"auto","uuid":"0b873cff-11ab-4716-c41a-04f886135091","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/roewesu","headers":{"host":"suzhihan.eu.org"}}}
-  - {"name":"_CN_中国_8_0@13","type":"ss","server":"14.29.124.168","port":25279,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"_US_美国_4_2@22","type":"vmess","server":"24.199.119.135","port":443,"cipher":"auto","uuid":"e6da31cb-6c97-4699-c412-124d5ab80856","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"24.199.119.135"}}}
-  - {"name":"🇺🇸US 46 → tg@nicevpn123","type":"vmess","server":"us-2.0rd.net","port":443,"cipher":"auto","uuid":"597888c0-a318-11ed-b536-205c6d5f5d78","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/tq98e0yk","headers":{"host":"us-2.0rd.net"}}}
-  - {"name":"_CN_中国_12_5@35","type":"ss","server":"14.29.124.168","port":25267,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"_KR_韩国_2_19@27","type":"vmess","server":"surongwei.eu.org","port":443,"cipher":"auto","uuid":"6093eefb-7ab6-41df-aba0-d5fa58147e10","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/reffs7y26g0ua","headers":{"host":"surongwei.eu.org"}}}
-  - {"name":"🇺🇸US 6 → tg@nicevpn123","type":"ssr","server":"z0115.security-cloudfront-cdn.com","port":42833,"password":"YpX2opBbrfqJzzMs","cipher":"aes-256-cfb","obfs":"http_simple","protocol":"origin","group":"SSRProvider"}
-  - {"name":"🇫🇷FR+4+→+tg@nicevpn123","type":"ss","server":"ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":802,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US 311 → tg@nicevpn123","type":"vmess","server":"in-ls03.nb1.fr","port":64443,"cipher":"auto","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/clientarea","headers":{"host":"in-ls03.nb1.fr"}}}
-  - {"name":"_DE_德国_1_9@9","type":"ss","server":"msmo.cenjy.com","port":810,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"「SCP」UK-CF2","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"uk-2.sharecentre.online","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk-2.sharecentre.online"}}}
-  - {"name":"🇺🇸US 41 → tg@nicevpn123","type":"vmess","server":"146.190.138.21","port":443,"cipher":"auto","uuid":"dc822f4e-cd60-4174-a93e-c1d3865976aa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/us"}}
-  - {"name":"🇺🇸US 11 → tg@nicevpn123","type":"vmess","server":"de-ls03.nb1.fr","port":64443,"cipher":"auto","uuid":"cb7001c7-e495-41ac-b942-f25f60523414","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/clientarea","headers":{"host":"de-ls03.nb1.fr"}}}
-  - {"name":"_CN_中国_5_0@6","type":"ss","server":"14.29.124.168","port":25286,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"_US_美国_2_22@25","type":"trojan","server":"135.148.149.209","port":80,"udp":true,"password":"255c924c-1314-4084-9a9e-1d1a82a5cf49","sni":"us2.trojanvh.xyz","skip-cert-verify":true}
-  - {"name":"🇺🇸US 53 → tg@nicevpn123","type":"vmess","server":"eu4.hax.yuji2022.gq","port":80,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/WKtzeN11GLqwVNBTp9mX","headers":{"host":"eu4.hax.yuji2022.gq"}}}
-  - {"name":"_CN_中国_4_3@16","type":"ss","server":"14.29.124.168","port":25287,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"「SCP」SG-CF","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"sg-1.sharecentre.online","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"sg-1.sharecentre.online"}}}
-  - {"name":"_CN_中国_7_11@20","type":"ss","server":"14.29.124.168","port":25297,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"��蘓��晠 Japan 10 TG:@nodpai","type":"vmess","server":"lop.janp2.gfwcaonimanmsl.ml","port":80,"cipher":"auto","uuid":"2539595c-71b5-47ec-9060-532b6264e20a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/name","headers":{"host":"lop.janp2.gfwcaonimanmsl.ml"}}}
+  - {"name":"��枂��瑌+United+States+21+TG:@nodpai","type":"trojan","server":"1205.htvviru.top","port":2131,"udp":true,"password":"3d81e6fb-c7f0-4791-af2e-82c93d149483","sni":"1205.htvviru.top","skip-cert-verify":true}
+  - {"name":"Relay+��墖��袝+South+Korea+10+TG:@nodpai","type":"trojan","server":"v02.gutingting.com","port":30057,"udp":true,"password":"c6863000-cf1d-420f-8db8-2ba58e5d0a63","sni":"v1kr02.fuqiangren.com","skip-cert-verify":true}
+  - {"name":"Relay+��枂��瑌+United+States+37+TG:@nodpai","type":"trojan","server":"v02.gutingting.com","port":20225,"udp":true,"password":"c6863000-cf1d-420f-8db8-2ba58e5d0a63","sni":"v2usa01.fuqiangren.com","skip-cert-verify":true}
   - {"name":"CA_31+|+6.28Mb","type":"ss","server":"51.161.118.38","port":801,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇷FR+2+→+tg@nicevpn123","type":"ss","server":"51.161.118.38","port":804,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"��稬��秐 Viet Nam 03 TG:@nodpai","type":"vmess","server":"103.166.184.157","port":80,"cipher":"auto","uuid":"8886bc65-e61d-41f3-922a-8f1b25b499bf","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/tandung288.click","headers":{"host":"dl.kgvn.garenanow.com"}}}
+  - {"name":"��稬��秐 Viet Nam 04 TG:@nodpai","type":"vmess","server":"103.82.24.174","port":80,"cipher":"auto","uuid":"8886bc65-e61d-41f3-922a-8f1b25b499bf","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/tandung288.click","headers":{"host":"dl.kgvn.garenanow.com"}}}
+  - {"name":"🇫🇷FR+4+→+tg@nicevpn123","type":"ss","server":"ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":802,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷FR+1+→+tg@nicevpn123","type":"ss","server":"51.161.118.38","port":810,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"AU_14+|14.18Mb","type":"trojan","server":"air-chuncheon24.900513.xyz","port":7758,"udp":true,"password":"4cfb5b98-5a9d-4c6d-8911-25deca297fa1","skip-cert-verify":true}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_1790","type":"vmess","server":"gb.woiden.yuji2022.gq","port":80,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/Eynyyo4kJfl2fkJfl2f","headers":{"host":"gb.woiden.yuji2022.gq"}}}
+  - {"name":"Relay+��墖��袝+South+Korea+12+TG:@nodpai","type":"trojan","server":"v01.gutingting.com","port":30056,"udp":true,"password":"c6863000-cf1d-420f-8db8-2ba58e5d0a63","sni":"v1kr01.fuqiangren.com","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 「SCP」DE-CF1
-      - US_561+|+9.14Mb
-      - US_584+|+8.80Mb
-      - _CN_中国_2_1@28
-      - _JP_日本_19@35
-      - _CN_中国_8_0@13
-      - _US_美国_4_2@22
-      - 🇺🇸US 46 → tg@nicevpn123
-      - _CN_中国_12_5@35
-      - _KR_韩国_2_19@27
-      - 🇺🇸US 6 → tg@nicevpn123
-      - 🇫🇷FR+4+→+tg@nicevpn123
-      - 🇺🇸US 311 → tg@nicevpn123
-      - _DE_德国_1_9@9
-      - 「SCP」UK-CF2
-      - 🇺🇸US 41 → tg@nicevpn123
-      - 🇺🇸US 11 → tg@nicevpn123
-      - _CN_中国_5_0@6
-      - _US_美国_2_22@25
-      - 🇺🇸US 53 → tg@nicevpn123
-      - _CN_中国_4_3@16
-      - 「SCP」SG-CF
-      - _CN_中国_7_11@20
+      - ��蘓��晠 Japan 10 TG:@nodpai
+      - ��枂��瑌+United+States+21+TG:@nodpai
+      - Relay+��墖��袝+South+Korea+10+TG:@nodpai
+      - Relay+��枂��瑌+United+States+37+TG:@nodpai
       - CA_31+|+6.28Mb
-      - 🇫🇷FR+2+→+tg@nicevpn123
+      - ��稬��秐 Viet Nam 03 TG:@nodpai
+      - ��稬��秐 Viet Nam 04 TG:@nodpai
+      - 🇫🇷FR+4+→+tg@nicevpn123
       - 🇫🇷FR+1+→+tg@nicevpn123
-      - AU_14+|14.18Mb
-      - Relay_🇺🇸US-🇺🇸US_1790
+      - Relay+��墖��袝+South+Korea+12+TG:@nodpai
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 「SCP」DE-CF1
-      - US_561+|+9.14Mb
-      - US_584+|+8.80Mb
-      - _CN_中国_2_1@28
-      - _JP_日本_19@35
-      - _CN_中国_8_0@13
-      - _US_美国_4_2@22
-      - 🇺🇸US 46 → tg@nicevpn123
-      - _CN_中国_12_5@35
-      - _KR_韩国_2_19@27
-      - 🇺🇸US 6 → tg@nicevpn123
-      - 🇫🇷FR+4+→+tg@nicevpn123
-      - 🇺🇸US 311 → tg@nicevpn123
-      - _DE_德国_1_9@9
-      - 「SCP」UK-CF2
-      - 🇺🇸US 41 → tg@nicevpn123
-      - 🇺🇸US 11 → tg@nicevpn123
-      - _CN_中国_5_0@6
-      - _US_美国_2_22@25
-      - 🇺🇸US 53 → tg@nicevpn123
-      - _CN_中国_4_3@16
-      - 「SCP」SG-CF
-      - _CN_中国_7_11@20
+      - ��蘓��晠 Japan 10 TG:@nodpai
+      - ��枂��瑌+United+States+21+TG:@nodpai
+      - Relay+��墖��袝+South+Korea+10+TG:@nodpai
+      - Relay+��枂��瑌+United+States+37+TG:@nodpai
       - CA_31+|+6.28Mb
-      - 🇫🇷FR+2+→+tg@nicevpn123
+      - ��稬��秐 Viet Nam 03 TG:@nodpai
+      - ��稬��秐 Viet Nam 04 TG:@nodpai
+      - 🇫🇷FR+4+→+tg@nicevpn123
       - 🇫🇷FR+1+→+tg@nicevpn123
-      - AU_14+|14.18Mb
-      - Relay_🇺🇸US-🇺🇸US_1790
+      - Relay+��墖��袝+South+Korea+12+TG:@nodpai
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 「SCP」DE-CF1
-      - US_561+|+9.14Mb
-      - US_584+|+8.80Mb
-      - _CN_中国_2_1@28
-      - _JP_日本_19@35
-      - _CN_中国_8_0@13
-      - _US_美国_4_2@22
-      - 🇺🇸US 46 → tg@nicevpn123
-      - _CN_中国_12_5@35
-      - _KR_韩国_2_19@27
-      - 🇺🇸US 6 → tg@nicevpn123
-      - 🇫🇷FR+4+→+tg@nicevpn123
-      - 🇺🇸US 311 → tg@nicevpn123
-      - _DE_德国_1_9@9
-      - 「SCP」UK-CF2
-      - 🇺🇸US 41 → tg@nicevpn123
-      - 🇺🇸US 11 → tg@nicevpn123
-      - _CN_中国_5_0@6
-      - _US_美国_2_22@25
-      - 🇺🇸US 53 → tg@nicevpn123
-      - _CN_中国_4_3@16
-      - 「SCP」SG-CF
-      - _CN_中国_7_11@20
+      - ��蘓��晠 Japan 10 TG:@nodpai
+      - ��枂��瑌+United+States+21+TG:@nodpai
+      - Relay+��墖��袝+South+Korea+10+TG:@nodpai
+      - Relay+��枂��瑌+United+States+37+TG:@nodpai
       - CA_31+|+6.28Mb
-      - 🇫🇷FR+2+→+tg@nicevpn123
+      - ��稬��秐 Viet Nam 03 TG:@nodpai
+      - ��稬��秐 Viet Nam 04 TG:@nodpai
+      - 🇫🇷FR+4+→+tg@nicevpn123
       - 🇫🇷FR+1+→+tg@nicevpn123
-      - AU_14+|14.18Mb
-      - Relay_🇺🇸US-🇺🇸US_1790
+      - Relay+��墖��袝+South+Korea+12+TG:@nodpai
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 「SCP」DE-CF1
-      - US_561+|+9.14Mb
-      - US_584+|+8.80Mb
-      - _CN_中国_2_1@28
-      - _JP_日本_19@35
-      - _CN_中国_8_0@13
-      - _US_美国_4_2@22
-      - 🇺🇸US 46 → tg@nicevpn123
-      - _CN_中国_12_5@35
-      - _KR_韩国_2_19@27
-      - 🇺🇸US 6 → tg@nicevpn123
-      - 🇫🇷FR+4+→+tg@nicevpn123
-      - 🇺🇸US 311 → tg@nicevpn123
-      - _DE_德国_1_9@9
-      - 「SCP」UK-CF2
-      - 🇺🇸US 41 → tg@nicevpn123
-      - 🇺🇸US 11 → tg@nicevpn123
-      - _CN_中国_5_0@6
-      - _US_美国_2_22@25
-      - 🇺🇸US 53 → tg@nicevpn123
-      - _CN_中国_4_3@16
-      - 「SCP」SG-CF
-      - _CN_中国_7_11@20
+      - ��蘓��晠 Japan 10 TG:@nodpai
+      - ��枂��瑌+United+States+21+TG:@nodpai
+      - Relay+��墖��袝+South+Korea+10+TG:@nodpai
+      - Relay+��枂��瑌+United+States+37+TG:@nodpai
       - CA_31+|+6.28Mb
-      - 🇫🇷FR+2+→+tg@nicevpn123
+      - ��稬��秐 Viet Nam 03 TG:@nodpai
+      - ��稬��秐 Viet Nam 04 TG:@nodpai
+      - 🇫🇷FR+4+→+tg@nicevpn123
       - 🇫🇷FR+1+→+tg@nicevpn123
-      - AU_14+|14.18Mb
-      - Relay_🇺🇸US-🇺🇸US_1790
+      - Relay+��墖��袝+South+Korea+12+TG:@nodpai
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 「SCP」DE-CF1
-      - US_561+|+9.14Mb
-      - US_584+|+8.80Mb
-      - _CN_中国_2_1@28
-      - _JP_日本_19@35
-      - _CN_中国_8_0@13
-      - _US_美国_4_2@22
-      - 🇺🇸US 46 → tg@nicevpn123
-      - _CN_中国_12_5@35
-      - _KR_韩国_2_19@27
-      - 🇺🇸US 6 → tg@nicevpn123
-      - 🇫🇷FR+4+→+tg@nicevpn123
-      - 🇺🇸US 311 → tg@nicevpn123
-      - _DE_德国_1_9@9
-      - 「SCP」UK-CF2
-      - 🇺🇸US 41 → tg@nicevpn123
-      - 🇺🇸US 11 → tg@nicevpn123
-      - _CN_中国_5_0@6
-      - _US_美国_2_22@25
-      - 🇺🇸US 53 → tg@nicevpn123
-      - _CN_中国_4_3@16
-      - 「SCP」SG-CF
-      - _CN_中国_7_11@20
+      - ��蘓��晠 Japan 10 TG:@nodpai
+      - ��枂��瑌+United+States+21+TG:@nodpai
+      - Relay+��墖��袝+South+Korea+10+TG:@nodpai
+      - Relay+��枂��瑌+United+States+37+TG:@nodpai
       - CA_31+|+6.28Mb
-      - 🇫🇷FR+2+→+tg@nicevpn123
+      - ��稬��秐 Viet Nam 03 TG:@nodpai
+      - ��稬��秐 Viet Nam 04 TG:@nodpai
+      - 🇫🇷FR+4+→+tg@nicevpn123
       - 🇫🇷FR+1+→+tg@nicevpn123
-      - AU_14+|14.18Mb
-      - Relay_🇺🇸US-🇺🇸US_1790
+      - Relay+��墖��袝+South+Korea+12+TG:@nodpai
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 「SCP」DE-CF1
-      - US_561+|+9.14Mb
-      - US_584+|+8.80Mb
-      - _CN_中国_2_1@28
-      - _JP_日本_19@35
-      - _CN_中国_8_0@13
-      - _US_美国_4_2@22
-      - 🇺🇸US 46 → tg@nicevpn123
-      - _CN_中国_12_5@35
-      - _KR_韩国_2_19@27
-      - 🇺🇸US 6 → tg@nicevpn123
-      - 🇫🇷FR+4+→+tg@nicevpn123
-      - 🇺🇸US 311 → tg@nicevpn123
-      - _DE_德国_1_9@9
-      - 「SCP」UK-CF2
-      - 🇺🇸US 41 → tg@nicevpn123
-      - 🇺🇸US 11 → tg@nicevpn123
-      - _CN_中国_5_0@6
-      - _US_美国_2_22@25
-      - 🇺🇸US 53 → tg@nicevpn123
-      - _CN_中国_4_3@16
-      - 「SCP」SG-CF
-      - _CN_中国_7_11@20
+      - ��蘓��晠 Japan 10 TG:@nodpai
+      - ��枂��瑌+United+States+21+TG:@nodpai
+      - Relay+��墖��袝+South+Korea+10+TG:@nodpai
+      - Relay+��枂��瑌+United+States+37+TG:@nodpai
       - CA_31+|+6.28Mb
-      - 🇫🇷FR+2+→+tg@nicevpn123
+      - ��稬��秐 Viet Nam 03 TG:@nodpai
+      - ��稬��秐 Viet Nam 04 TG:@nodpai
+      - 🇫🇷FR+4+→+tg@nicevpn123
       - 🇫🇷FR+1+→+tg@nicevpn123
-      - AU_14+|14.18Mb
-      - Relay_🇺🇸US-🇺🇸US_1790
+      - Relay+��墖��袝+South+Korea+12+TG:@nodpai
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -272,34 +146,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 「SCP」DE-CF1
-      - US_561+|+9.14Mb
-      - US_584+|+8.80Mb
-      - _CN_中国_2_1@28
-      - _JP_日本_19@35
-      - _CN_中国_8_0@13
-      - _US_美国_4_2@22
-      - 🇺🇸US 46 → tg@nicevpn123
-      - _CN_中国_12_5@35
-      - _KR_韩国_2_19@27
-      - 🇺🇸US 6 → tg@nicevpn123
-      - 🇫🇷FR+4+→+tg@nicevpn123
-      - 🇺🇸US 311 → tg@nicevpn123
-      - _DE_德国_1_9@9
-      - 「SCP」UK-CF2
-      - 🇺🇸US 41 → tg@nicevpn123
-      - 🇺🇸US 11 → tg@nicevpn123
-      - _CN_中国_5_0@6
-      - _US_美国_2_22@25
-      - 🇺🇸US 53 → tg@nicevpn123
-      - _CN_中国_4_3@16
-      - 「SCP」SG-CF
-      - _CN_中国_7_11@20
+      - ��蘓��晠 Japan 10 TG:@nodpai
+      - ��枂��瑌+United+States+21+TG:@nodpai
+      - Relay+��墖��袝+South+Korea+10+TG:@nodpai
+      - Relay+��枂��瑌+United+States+37+TG:@nodpai
       - CA_31+|+6.28Mb
-      - 🇫🇷FR+2+→+tg@nicevpn123
+      - ��稬��秐 Viet Nam 03 TG:@nodpai
+      - ��稬��秐 Viet Nam 04 TG:@nodpai
+      - 🇫🇷FR+4+→+tg@nicevpn123
       - 🇫🇷FR+1+→+tg@nicevpn123
-      - AU_14+|14.18Mb
-      - Relay_🇺🇸US-🇺🇸US_1790
+      - Relay+��墖��袝+South+Korea+12+TG:@nodpai
 
 rules:
 # 本地/局域网地址
