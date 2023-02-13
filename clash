@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-02-10 09:47:56
+# 创建时间：2023-02-13 09:06:24
 # 使用模版：V2RaySE 默认模版
-# 节点数量：38
+# 节点数量：14
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,305 +21,137 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"��墖��袝+South+Korea+07+TG:@nodpai","type":"trojan","server":"op.en.usdeth.top","port":443,"udp":true,"password":"1fd1f2fb-4faa-4bde-8ecd-85831d38832b","sni":"op.en.usdeth.top","skip-cert-verify":true}
-  - {"name":"��墖��袝+South+Korea+06+TG:@nodpai","type":"trojan","server":"zi.you.usdtvfk.top","port":443,"udp":true,"password":"1fd1f2fb-4faa-4bde-8ecd-85831d38832b","sni":"zi.you.usdtvfk.top","skip-cert-verify":true}
-  - {"name":"FR_138+|10.25Mb","type":"ss","server":"149.202.82.172","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"FR_137+|+9.51Mb","type":"ss","server":"149.202.82.172","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
-  - {"name":"FR_133+|10.72Mb","type":"ss","server":"149.202.82.172","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"FR_176+|10.70Mb","type":"ss","server":"149.202.82.172","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"免费梯子https://t.me/mftizi","type":"vmess","server":"43.155.102.33","port":58071,"cipher":"auto","uuid":"4592247e-1528-4943-8bf3-cd9bb58b31c0","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"hk6.linkeden.co","network":"ws","ws-opts":{"path":"/hk6/getData","headers":{"host":"hk6.linkeden.co"}}}
-  - {"name":"CA_17+|+3.98Mb","type":"ss","server":"51.161.118.38","port":801,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"FR_159+|10.00Mb","type":"ss","server":"149.202.82.172","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"FR_139+|10.00Mb","type":"ss","server":"149.202.82.172","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"FR_177+|+9.84Mb","type":"ss","server":"149.202.82.172","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"FR_160+|+9.65Mb","type":"ss","server":"149.202.82.172","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
-  - {"name":"CA_15+|+5.30Mb","type":"ss","server":"51.161.118.38","port":800,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"FR_173+|+9.90Mb","type":"ss","server":"149.202.82.172","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"FR_180+|10.47Mb","type":"ss","server":"149.202.82.172","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"FR_178+|10.67Mb","type":"ss","server":"149.202.82.172","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"FR_164+|10.47Mb","type":"ss","server":"149.202.82.172","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"CA_20+|+2.88Mb","type":"ss","server":"51.161.118.38","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CA_22+|+3.55Mb","type":"ss","server":"51.161.118.38","port":808,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"FR_157+|10.23Mb","type":"ss","server":"149.202.82.172","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"CN_98 | 0.72Mb","type":"vmess","server":"106.55.187.139","port":8448,"cipher":"auto","uuid":"5a464707-3162-4a09-e9e2-d70a6b892267","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"106.55.187.139"}}}
-  - {"name":"FR_158+|10.00Mb","type":"ss","server":"149.202.82.172","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"_CA_加拿大_8@25","type":"ss","server":"51.161.118.38","port":810,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"FR_156+|10.55Mb","type":"ss","server":"149.202.82.172","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"FR_141+|+9.43Mb","type":"ss","server":"149.202.82.172","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"FR_153+|+9.97Mb","type":"ss","server":"149.202.82.172","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"FR_183+|+9.92Mb","type":"ss","server":"149.202.82.172","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"FR_145+|10.45Mb","type":"ss","server":"149.202.82.172","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
-  - {"name":"FR_172+|10.33Mb","type":"ss","server":"149.202.82.172","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"CN_60+|+0.38Mb","type":"ss","server":"14.29.124.168","port":25280,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"FR_154+|10.03Mb","type":"ss","server":"149.202.82.172","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷","type":"vmess","server":"95.179.223.154","port":51141,"cipher":"auto","uuid":"fc784a94-9c6f-449a-a9cc-4926a710ebe4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"SG_906+|11.36Mb","type":"ss","server":"54.169.145.188","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"JP_653+|31.39Mb","type":"ss","server":"175.41.205.247","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇯🇵JP 2 → tg@nicevpn123","type":"vmess","server":"43.159.45.221","port":36618,"cipher":"auto","uuid":"8cc5b072-dea6-45b8-f8de-eb00e6012421","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"_CN_中国_4_17@19","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"FR_152+|10.27Mb","type":"ss","server":"149.202.82.172","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"🇫🇷FR+4+→+tg@nicevpn123","type":"ss","server":"51.161.118.38","port":804,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"CA_20+|+2.88Mb","type":"ss","server":"51.161.118.38","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷FR 16 → tg@nicevpn123","type":"vmess","server":"51.195.210.169","port":45221,"cipher":"auto","uuid":"090c29e8-173b-4c69-c201-4cc583499b02","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"CA_15+|+5.30Mb","type":"ss","server":"51.161.118.38","port":800,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"CA_22+|+3.55Mb","type":"ss","server":"51.161.118.38","port":808,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"CA_22+|+6.81Mb","type":"ss","server":"51.161.118.38","port":811,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"CA_15+|+5.17Mb","type":"ss","server":"51.161.118.38","port":812,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"CA_17+|+3.98Mb","type":"ss","server":"51.161.118.38","port":801,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"_CA_加拿大_8@25","type":"ss","server":"51.161.118.38","port":810,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"CA_18+|28.37Mb","type":"ss","server":"ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":802,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CN_64+|+1.18Mb","type":"ss","server":"14.29.124.168","port":25251,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"FR_155+|10.42Mb","type":"ss","server":"149.202.82.172","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"@SSRSUB-V02-付费推荐:suo.yt/ssrsub","type":"vmess","server":"106.55.187.139","port":8448,"cipher":"auto","uuid":"5a464707-3162-4a09-e9e2-d70a6b892267","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"download.cloud.189.cn"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ��墖��袝+South+Korea+07+TG:@nodpai
-      - ��墖��袝+South+Korea+06+TG:@nodpai
-      - FR_138+|10.25Mb
-      - FR_137+|+9.51Mb
-      - FR_133+|10.72Mb
-      - FR_176+|10.70Mb
-      - 免费梯子https://t.me/mftizi
-      - CA_17+|+3.98Mb
-      - FR_159+|10.00Mb
-      - FR_139+|10.00Mb
-      - FR_177+|+9.84Mb
-      - FR_160+|+9.65Mb
-      - CA_15+|+5.30Mb
-      - FR_173+|+9.90Mb
-      - FR_180+|10.47Mb
-      - FR_178+|10.67Mb
-      - FR_164+|10.47Mb
-      - CA_20+|+2.88Mb
-      - CA_22+|+3.55Mb
-      - FR_157+|10.23Mb
-      - CN_98 | 0.72Mb
-      - FR_158+|10.00Mb
-      - _CA_加拿大_8@25
-      - FR_156+|10.55Mb
-      - FR_141+|+9.43Mb
-      - FR_153+|+9.97Mb
-      - FR_183+|+9.92Mb
-      - FR_145+|10.45Mb
-      - FR_172+|10.33Mb
-      - CN_60+|+0.38Mb
-      - FR_154+|10.03Mb
-      - 🇫🇷
+      - SG_906+|11.36Mb
+      - JP_653+|31.39Mb
+      - 🇯🇵JP 2 → tg@nicevpn123
       - _CN_中国_4_17@19
-      - FR_152+|10.27Mb
-      - 🇫🇷FR+4+→+tg@nicevpn123
+      - CA_20+|+2.88Mb
+      - 🇫🇷FR 16 → tg@nicevpn123
+      - CA_15+|+5.30Mb
+      - CA_22+|+3.55Mb
+      - CA_22+|+6.81Mb
+      - CA_15+|+5.17Mb
+      - CA_17+|+3.98Mb
+      - _CA_加拿大_8@25
       - CA_18+|28.37Mb
-      - CN_64+|+1.18Mb
-      - FR_155+|10.42Mb
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ��墖��袝+South+Korea+07+TG:@nodpai
-      - ��墖��袝+South+Korea+06+TG:@nodpai
-      - FR_138+|10.25Mb
-      - FR_137+|+9.51Mb
-      - FR_133+|10.72Mb
-      - FR_176+|10.70Mb
-      - 免费梯子https://t.me/mftizi
-      - CA_17+|+3.98Mb
-      - FR_159+|10.00Mb
-      - FR_139+|10.00Mb
-      - FR_177+|+9.84Mb
-      - FR_160+|+9.65Mb
-      - CA_15+|+5.30Mb
-      - FR_173+|+9.90Mb
-      - FR_180+|10.47Mb
-      - FR_178+|10.67Mb
-      - FR_164+|10.47Mb
-      - CA_20+|+2.88Mb
-      - CA_22+|+3.55Mb
-      - FR_157+|10.23Mb
-      - CN_98 | 0.72Mb
-      - FR_158+|10.00Mb
-      - _CA_加拿大_8@25
-      - FR_156+|10.55Mb
-      - FR_141+|+9.43Mb
-      - FR_153+|+9.97Mb
-      - FR_183+|+9.92Mb
-      - FR_145+|10.45Mb
-      - FR_172+|10.33Mb
-      - CN_60+|+0.38Mb
-      - FR_154+|10.03Mb
-      - 🇫🇷
+      - SG_906+|11.36Mb
+      - JP_653+|31.39Mb
+      - 🇯🇵JP 2 → tg@nicevpn123
       - _CN_中国_4_17@19
-      - FR_152+|10.27Mb
-      - 🇫🇷FR+4+→+tg@nicevpn123
+      - CA_20+|+2.88Mb
+      - 🇫🇷FR 16 → tg@nicevpn123
+      - CA_15+|+5.30Mb
+      - CA_22+|+3.55Mb
+      - CA_22+|+6.81Mb
+      - CA_15+|+5.17Mb
+      - CA_17+|+3.98Mb
+      - _CA_加拿大_8@25
       - CA_18+|28.37Mb
-      - CN_64+|+1.18Mb
-      - FR_155+|10.42Mb
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ��墖��袝+South+Korea+07+TG:@nodpai
-      - ��墖��袝+South+Korea+06+TG:@nodpai
-      - FR_138+|10.25Mb
-      - FR_137+|+9.51Mb
-      - FR_133+|10.72Mb
-      - FR_176+|10.70Mb
-      - 免费梯子https://t.me/mftizi
-      - CA_17+|+3.98Mb
-      - FR_159+|10.00Mb
-      - FR_139+|10.00Mb
-      - FR_177+|+9.84Mb
-      - FR_160+|+9.65Mb
-      - CA_15+|+5.30Mb
-      - FR_173+|+9.90Mb
-      - FR_180+|10.47Mb
-      - FR_178+|10.67Mb
-      - FR_164+|10.47Mb
-      - CA_20+|+2.88Mb
-      - CA_22+|+3.55Mb
-      - FR_157+|10.23Mb
-      - CN_98 | 0.72Mb
-      - FR_158+|10.00Mb
-      - _CA_加拿大_8@25
-      - FR_156+|10.55Mb
-      - FR_141+|+9.43Mb
-      - FR_153+|+9.97Mb
-      - FR_183+|+9.92Mb
-      - FR_145+|10.45Mb
-      - FR_172+|10.33Mb
-      - CN_60+|+0.38Mb
-      - FR_154+|10.03Mb
-      - 🇫🇷
+      - SG_906+|11.36Mb
+      - JP_653+|31.39Mb
+      - 🇯🇵JP 2 → tg@nicevpn123
       - _CN_中国_4_17@19
-      - FR_152+|10.27Mb
-      - 🇫🇷FR+4+→+tg@nicevpn123
+      - CA_20+|+2.88Mb
+      - 🇫🇷FR 16 → tg@nicevpn123
+      - CA_15+|+5.30Mb
+      - CA_22+|+3.55Mb
+      - CA_22+|+6.81Mb
+      - CA_15+|+5.17Mb
+      - CA_17+|+3.98Mb
+      - _CA_加拿大_8@25
       - CA_18+|28.37Mb
-      - CN_64+|+1.18Mb
-      - FR_155+|10.42Mb
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ��墖��袝+South+Korea+07+TG:@nodpai
-      - ��墖��袝+South+Korea+06+TG:@nodpai
-      - FR_138+|10.25Mb
-      - FR_137+|+9.51Mb
-      - FR_133+|10.72Mb
-      - FR_176+|10.70Mb
-      - 免费梯子https://t.me/mftizi
-      - CA_17+|+3.98Mb
-      - FR_159+|10.00Mb
-      - FR_139+|10.00Mb
-      - FR_177+|+9.84Mb
-      - FR_160+|+9.65Mb
-      - CA_15+|+5.30Mb
-      - FR_173+|+9.90Mb
-      - FR_180+|10.47Mb
-      - FR_178+|10.67Mb
-      - FR_164+|10.47Mb
-      - CA_20+|+2.88Mb
-      - CA_22+|+3.55Mb
-      - FR_157+|10.23Mb
-      - CN_98 | 0.72Mb
-      - FR_158+|10.00Mb
-      - _CA_加拿大_8@25
-      - FR_156+|10.55Mb
-      - FR_141+|+9.43Mb
-      - FR_153+|+9.97Mb
-      - FR_183+|+9.92Mb
-      - FR_145+|10.45Mb
-      - FR_172+|10.33Mb
-      - CN_60+|+0.38Mb
-      - FR_154+|10.03Mb
-      - 🇫🇷
+      - SG_906+|11.36Mb
+      - JP_653+|31.39Mb
+      - 🇯🇵JP 2 → tg@nicevpn123
       - _CN_中国_4_17@19
-      - FR_152+|10.27Mb
-      - 🇫🇷FR+4+→+tg@nicevpn123
+      - CA_20+|+2.88Mb
+      - 🇫🇷FR 16 → tg@nicevpn123
+      - CA_15+|+5.30Mb
+      - CA_22+|+3.55Mb
+      - CA_22+|+6.81Mb
+      - CA_15+|+5.17Mb
+      - CA_17+|+3.98Mb
+      - _CA_加拿大_8@25
       - CA_18+|28.37Mb
-      - CN_64+|+1.18Mb
-      - FR_155+|10.42Mb
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ��墖��袝+South+Korea+07+TG:@nodpai
-      - ��墖��袝+South+Korea+06+TG:@nodpai
-      - FR_138+|10.25Mb
-      - FR_137+|+9.51Mb
-      - FR_133+|10.72Mb
-      - FR_176+|10.70Mb
-      - 免费梯子https://t.me/mftizi
-      - CA_17+|+3.98Mb
-      - FR_159+|10.00Mb
-      - FR_139+|10.00Mb
-      - FR_177+|+9.84Mb
-      - FR_160+|+9.65Mb
-      - CA_15+|+5.30Mb
-      - FR_173+|+9.90Mb
-      - FR_180+|10.47Mb
-      - FR_178+|10.67Mb
-      - FR_164+|10.47Mb
-      - CA_20+|+2.88Mb
-      - CA_22+|+3.55Mb
-      - FR_157+|10.23Mb
-      - CN_98 | 0.72Mb
-      - FR_158+|10.00Mb
-      - _CA_加拿大_8@25
-      - FR_156+|10.55Mb
-      - FR_141+|+9.43Mb
-      - FR_153+|+9.97Mb
-      - FR_183+|+9.92Mb
-      - FR_145+|10.45Mb
-      - FR_172+|10.33Mb
-      - CN_60+|+0.38Mb
-      - FR_154+|10.03Mb
-      - 🇫🇷
+      - SG_906+|11.36Mb
+      - JP_653+|31.39Mb
+      - 🇯🇵JP 2 → tg@nicevpn123
       - _CN_中国_4_17@19
-      - FR_152+|10.27Mb
-      - 🇫🇷FR+4+→+tg@nicevpn123
+      - CA_20+|+2.88Mb
+      - 🇫🇷FR 16 → tg@nicevpn123
+      - CA_15+|+5.30Mb
+      - CA_22+|+3.55Mb
+      - CA_22+|+6.81Mb
+      - CA_15+|+5.17Mb
+      - CA_17+|+3.98Mb
+      - _CA_加拿大_8@25
       - CA_18+|28.37Mb
-      - CN_64+|+1.18Mb
-      - FR_155+|10.42Mb
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ��墖��袝+South+Korea+07+TG:@nodpai
-      - ��墖��袝+South+Korea+06+TG:@nodpai
-      - FR_138+|10.25Mb
-      - FR_137+|+9.51Mb
-      - FR_133+|10.72Mb
-      - FR_176+|10.70Mb
-      - 免费梯子https://t.me/mftizi
-      - CA_17+|+3.98Mb
-      - FR_159+|10.00Mb
-      - FR_139+|10.00Mb
-      - FR_177+|+9.84Mb
-      - FR_160+|+9.65Mb
-      - CA_15+|+5.30Mb
-      - FR_173+|+9.90Mb
-      - FR_180+|10.47Mb
-      - FR_178+|10.67Mb
-      - FR_164+|10.47Mb
-      - CA_20+|+2.88Mb
-      - CA_22+|+3.55Mb
-      - FR_157+|10.23Mb
-      - CN_98 | 0.72Mb
-      - FR_158+|10.00Mb
-      - _CA_加拿大_8@25
-      - FR_156+|10.55Mb
-      - FR_141+|+9.43Mb
-      - FR_153+|+9.97Mb
-      - FR_183+|+9.92Mb
-      - FR_145+|10.45Mb
-      - FR_172+|10.33Mb
-      - CN_60+|+0.38Mb
-      - FR_154+|10.03Mb
-      - 🇫🇷
+      - SG_906+|11.36Mb
+      - JP_653+|31.39Mb
+      - 🇯🇵JP 2 → tg@nicevpn123
       - _CN_中国_4_17@19
-      - FR_152+|10.27Mb
-      - 🇫🇷FR+4+→+tg@nicevpn123
+      - CA_20+|+2.88Mb
+      - 🇫🇷FR 16 → tg@nicevpn123
+      - CA_15+|+5.30Mb
+      - CA_22+|+3.55Mb
+      - CA_22+|+6.81Mb
+      - CA_15+|+5.17Mb
+      - CA_17+|+3.98Mb
+      - _CA_加拿大_8@25
       - CA_18+|28.37Mb
-      - CN_64+|+1.18Mb
-      - FR_155+|10.42Mb
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -342,44 +174,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ��墖��袝+South+Korea+07+TG:@nodpai
-      - ��墖��袝+South+Korea+06+TG:@nodpai
-      - FR_138+|10.25Mb
-      - FR_137+|+9.51Mb
-      - FR_133+|10.72Mb
-      - FR_176+|10.70Mb
-      - 免费梯子https://t.me/mftizi
-      - CA_17+|+3.98Mb
-      - FR_159+|10.00Mb
-      - FR_139+|10.00Mb
-      - FR_177+|+9.84Mb
-      - FR_160+|+9.65Mb
-      - CA_15+|+5.30Mb
-      - FR_173+|+9.90Mb
-      - FR_180+|10.47Mb
-      - FR_178+|10.67Mb
-      - FR_164+|10.47Mb
-      - CA_20+|+2.88Mb
-      - CA_22+|+3.55Mb
-      - FR_157+|10.23Mb
-      - CN_98 | 0.72Mb
-      - FR_158+|10.00Mb
-      - _CA_加拿大_8@25
-      - FR_156+|10.55Mb
-      - FR_141+|+9.43Mb
-      - FR_153+|+9.97Mb
-      - FR_183+|+9.92Mb
-      - FR_145+|10.45Mb
-      - FR_172+|10.33Mb
-      - CN_60+|+0.38Mb
-      - FR_154+|10.03Mb
-      - 🇫🇷
+      - SG_906+|11.36Mb
+      - JP_653+|31.39Mb
+      - 🇯🇵JP 2 → tg@nicevpn123
       - _CN_中国_4_17@19
-      - FR_152+|10.27Mb
-      - 🇫🇷FR+4+→+tg@nicevpn123
+      - CA_20+|+2.88Mb
+      - 🇫🇷FR 16 → tg@nicevpn123
+      - CA_15+|+5.30Mb
+      - CA_22+|+3.55Mb
+      - CA_22+|+6.81Mb
+      - CA_15+|+5.17Mb
+      - CA_17+|+3.98Mb
+      - _CA_加拿大_8@25
       - CA_18+|28.37Mb
-      - CN_64+|+1.18Mb
-      - FR_155+|10.42Mb
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
 
 rules:
 # 本地/局域网地址
