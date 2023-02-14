@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-02-13 09:06:24
+# 创建时间：2023-02-14 09:11:52
 # 使用模版：V2RaySE 默认模版
-# 节点数量：14
+# 节点数量：3
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,137 +21,60 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"SG_906+|11.36Mb","type":"ss","server":"54.169.145.188","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"JP_653+|31.39Mb","type":"ss","server":"175.41.205.247","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇯🇵JP 2 → tg@nicevpn123","type":"vmess","server":"43.159.45.221","port":36618,"cipher":"auto","uuid":"8cc5b072-dea6-45b8-f8de-eb00e6012421","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"_CN_中国_4_17@19","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"CA_20+|+2.88Mb","type":"ss","server":"51.161.118.38","port":805,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇫🇷FR 16 → tg@nicevpn123","type":"vmess","server":"51.195.210.169","port":45221,"cipher":"auto","uuid":"090c29e8-173b-4c69-c201-4cc583499b02","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"CA_15+|+5.30Mb","type":"ss","server":"51.161.118.38","port":800,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CA_22+|+3.55Mb","type":"ss","server":"51.161.118.38","port":808,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CA_22+|+6.81Mb","type":"ss","server":"51.161.118.38","port":811,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CA_15+|+5.17Mb","type":"ss","server":"51.161.118.38","port":812,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"CA_17+|+3.98Mb","type":"ss","server":"51.161.118.38","port":801,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"_CA_加拿大_8@25","type":"ss","server":"51.161.118.38","port":810,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"HK_563 | 7.82Mb","type":"vmess","server":"zebra2.2022.2025.mlinuu.top","port":778,"cipher":"auto","uuid":"0136f633-8f20-3e15-9853-226fb53ec965","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇯🇵JP+3+→+tg@nicevpn123","type":"ss","server":"43.159.47.137","port":9001,"password":"chanchanchan","cipher":"aes-256-cfb"}
   - {"name":"CA_18+|28.37Mb","type":"ss","server":"ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":802,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"@SSRSUB-V02-付费推荐:suo.yt/ssrsub","type":"vmess","server":"106.55.187.139","port":8448,"cipher":"auto","uuid":"5a464707-3162-4a09-e9e2-d70a6b892267","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"download.cloud.189.cn"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - SG_906+|11.36Mb
-      - JP_653+|31.39Mb
-      - 🇯🇵JP 2 → tg@nicevpn123
-      - _CN_中国_4_17@19
-      - CA_20+|+2.88Mb
-      - 🇫🇷FR 16 → tg@nicevpn123
-      - CA_15+|+5.30Mb
-      - CA_22+|+3.55Mb
-      - CA_22+|+6.81Mb
-      - CA_15+|+5.17Mb
-      - CA_17+|+3.98Mb
-      - _CA_加拿大_8@25
+      - HK_563 | 7.82Mb
+      - 🇯🇵JP+3+→+tg@nicevpn123
       - CA_18+|28.37Mb
-      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - SG_906+|11.36Mb
-      - JP_653+|31.39Mb
-      - 🇯🇵JP 2 → tg@nicevpn123
-      - _CN_中国_4_17@19
-      - CA_20+|+2.88Mb
-      - 🇫🇷FR 16 → tg@nicevpn123
-      - CA_15+|+5.30Mb
-      - CA_22+|+3.55Mb
-      - CA_22+|+6.81Mb
-      - CA_15+|+5.17Mb
-      - CA_17+|+3.98Mb
-      - _CA_加拿大_8@25
+      - HK_563 | 7.82Mb
+      - 🇯🇵JP+3+→+tg@nicevpn123
       - CA_18+|28.37Mb
-      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG_906+|11.36Mb
-      - JP_653+|31.39Mb
-      - 🇯🇵JP 2 → tg@nicevpn123
-      - _CN_中国_4_17@19
-      - CA_20+|+2.88Mb
-      - 🇫🇷FR 16 → tg@nicevpn123
-      - CA_15+|+5.30Mb
-      - CA_22+|+3.55Mb
-      - CA_22+|+6.81Mb
-      - CA_15+|+5.17Mb
-      - CA_17+|+3.98Mb
-      - _CA_加拿大_8@25
+      - HK_563 | 7.82Mb
+      - 🇯🇵JP+3+→+tg@nicevpn123
       - CA_18+|28.37Mb
-      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - SG_906+|11.36Mb
-      - JP_653+|31.39Mb
-      - 🇯🇵JP 2 → tg@nicevpn123
-      - _CN_中国_4_17@19
-      - CA_20+|+2.88Mb
-      - 🇫🇷FR 16 → tg@nicevpn123
-      - CA_15+|+5.30Mb
-      - CA_22+|+3.55Mb
-      - CA_22+|+6.81Mb
-      - CA_15+|+5.17Mb
-      - CA_17+|+3.98Mb
-      - _CA_加拿大_8@25
+      - HK_563 | 7.82Mb
+      - 🇯🇵JP+3+→+tg@nicevpn123
       - CA_18+|28.37Mb
-      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - SG_906+|11.36Mb
-      - JP_653+|31.39Mb
-      - 🇯🇵JP 2 → tg@nicevpn123
-      - _CN_中国_4_17@19
-      - CA_20+|+2.88Mb
-      - 🇫🇷FR 16 → tg@nicevpn123
-      - CA_15+|+5.30Mb
-      - CA_22+|+3.55Mb
-      - CA_22+|+6.81Mb
-      - CA_15+|+5.17Mb
-      - CA_17+|+3.98Mb
-      - _CA_加拿大_8@25
+      - HK_563 | 7.82Mb
+      - 🇯🇵JP+3+→+tg@nicevpn123
       - CA_18+|28.37Mb
-      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - SG_906+|11.36Mb
-      - JP_653+|31.39Mb
-      - 🇯🇵JP 2 → tg@nicevpn123
-      - _CN_中国_4_17@19
-      - CA_20+|+2.88Mb
-      - 🇫🇷FR 16 → tg@nicevpn123
-      - CA_15+|+5.30Mb
-      - CA_22+|+3.55Mb
-      - CA_22+|+6.81Mb
-      - CA_15+|+5.17Mb
-      - CA_17+|+3.98Mb
-      - _CA_加拿大_8@25
+      - HK_563 | 7.82Mb
+      - 🇯🇵JP+3+→+tg@nicevpn123
       - CA_18+|28.37Mb
-      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -174,20 +97,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - SG_906+|11.36Mb
-      - JP_653+|31.39Mb
-      - 🇯🇵JP 2 → tg@nicevpn123
-      - _CN_中国_4_17@19
-      - CA_20+|+2.88Mb
-      - 🇫🇷FR 16 → tg@nicevpn123
-      - CA_15+|+5.30Mb
-      - CA_22+|+3.55Mb
-      - CA_22+|+6.81Mb
-      - CA_15+|+5.17Mb
-      - CA_17+|+3.98Mb
-      - _CA_加拿大_8@25
+      - HK_563 | 7.82Mb
+      - 🇯🇵JP+3+→+tg@nicevpn123
       - CA_18+|28.37Mb
-      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
 
 rules:
 # 本地/局域网地址
