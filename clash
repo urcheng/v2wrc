@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-02-14 09:11:52
+# 创建时间：2023-02-15 09:11:59
 # 使用模版：V2RaySE 默认模版
-# 节点数量：3
+# 节点数量：5
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,60 +21,74 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"HK_563 | 7.82Mb","type":"vmess","server":"zebra2.2022.2025.mlinuu.top","port":778,"cipher":"auto","uuid":"0136f633-8f20-3e15-9853-226fb53ec965","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇯🇵JP+3+→+tg@nicevpn123","type":"ss","server":"43.159.47.137","port":9001,"password":"chanchanchan","cipher":"aes-256-cfb"}
+  - {"name":"CA_10+|+7.86Mb","type":"ss","server":"51.161.118.38","port":800,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰_GCORE","type":"vmess","server":"no.aries.ovh","port":2052,"cipher":"auto","uuid":"c6f7bae0-36d9-41a6-9962-e79156c899c6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"gcore-hk.cloudflare.quest"}}}
   - {"name":"CA_18+|28.37Mb","type":"ss","server":"ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":802,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵JP+3+→+tg@nicevpn123","type":"ss","server":"43.159.47.137","port":9001,"password":"chanchanchan","cipher":"aes-256-cfb"}
+  - {"name":"CA_11+|+8.44Mb","type":"ss","server":"51.161.118.38","port":812,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - HK_563 | 7.82Mb
-      - 🇯🇵JP+3+→+tg@nicevpn123
+      - CA_10+|+7.86Mb
+      - 🇭🇰_GCORE
       - CA_18+|28.37Mb
+      - 🇯🇵JP+3+→+tg@nicevpn123
+      - CA_11+|+8.44Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - HK_563 | 7.82Mb
-      - 🇯🇵JP+3+→+tg@nicevpn123
+      - CA_10+|+7.86Mb
+      - 🇭🇰_GCORE
       - CA_18+|28.37Mb
+      - 🇯🇵JP+3+→+tg@nicevpn123
+      - CA_11+|+8.44Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - HK_563 | 7.82Mb
-      - 🇯🇵JP+3+→+tg@nicevpn123
+      - CA_10+|+7.86Mb
+      - 🇭🇰_GCORE
       - CA_18+|28.37Mb
+      - 🇯🇵JP+3+→+tg@nicevpn123
+      - CA_11+|+8.44Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - HK_563 | 7.82Mb
-      - 🇯🇵JP+3+→+tg@nicevpn123
+      - CA_10+|+7.86Mb
+      - 🇭🇰_GCORE
       - CA_18+|28.37Mb
+      - 🇯🇵JP+3+→+tg@nicevpn123
+      - CA_11+|+8.44Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - HK_563 | 7.82Mb
-      - 🇯🇵JP+3+→+tg@nicevpn123
+      - CA_10+|+7.86Mb
+      - 🇭🇰_GCORE
       - CA_18+|28.37Mb
+      - 🇯🇵JP+3+→+tg@nicevpn123
+      - CA_11+|+8.44Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - HK_563 | 7.82Mb
-      - 🇯🇵JP+3+→+tg@nicevpn123
+      - CA_10+|+7.86Mb
+      - 🇭🇰_GCORE
       - CA_18+|28.37Mb
+      - 🇯🇵JP+3+→+tg@nicevpn123
+      - CA_11+|+8.44Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -97,9 +111,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - HK_563 | 7.82Mb
-      - 🇯🇵JP+3+→+tg@nicevpn123
+      - CA_10+|+7.86Mb
+      - 🇭🇰_GCORE
       - CA_18+|28.37Mb
+      - 🇯🇵JP+3+→+tg@nicevpn123
+      - CA_11+|+8.44Mb
 
 rules:
 # 本地/局域网地址
