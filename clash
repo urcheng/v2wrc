@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-02-15 09:11:59
+# 创建时间：2023-02-17 13:46:05
 # 使用模版：V2RaySE 默认模版
-# 节点数量：5
+# 节点数量：8
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,74 +21,95 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"CA_10+|+7.86Mb","type":"ss","server":"51.161.118.38","port":800,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰_GCORE","type":"vmess","server":"no.aries.ovh","port":2052,"cipher":"auto","uuid":"c6f7bae0-36d9-41a6-9962-e79156c899c6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aries?ed=2048","headers":{"host":"gcore-hk.cloudflare.quest"}}}
-  - {"name":"CA_18+|28.37Mb","type":"ss","server":"ak1617.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou","port":802,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵JP+3+→+tg@nicevpn123","type":"ss","server":"43.159.47.137","port":9001,"password":"chanchanchan","cipher":"aes-256-cfb"}
-  - {"name":"CA_11+|+8.44Mb","type":"ss","server":"51.161.118.38","port":812,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US 303 → tg@nicevpn123","type":"vmess","server":"jp1.6577617.xyz","port":443,"cipher":"auto","uuid":"c1319920-7be7-4768-bdd9-6d0623f0e772","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"jp1.6577617.xyz"}}}
+  - {"name":"🇫🇷FR+42+→+tg@nicevpn123","type":"ss","server":"51.161.118.38","port":804,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷FR+40+→+tg@nicevpn123","type":"ss","server":"51.161.118.38","port":802,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"��枂��瑌 United States 07 TG:@nodpai","type":"vmess","server":"146.190.170.158","port":443,"cipher":"auto","uuid":"0d7a6424-5a34-3147-bac8-e301ee60ce50","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/msi","headers":{"host":"msc.aohi.buzz"}}}
+  - {"name":"🇺🇸US 291 → tg@nicevpn123","type":"vmess","server":"146.190.170.158","port":443,"cipher":"auto","uuid":"0d7a6424-5a34-3147-bac8-e301ee60ce50","alterId":1,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/msi"}}
+  - {"name":"🇺🇸US 279 → tg@nicevpn123","type":"vmess","server":"jp1.6577617.xyz","port":443,"cipher":"auto","uuid":"13f893bf-8bf6-4b4b-a7bd-678d310ef374","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"jp1.6577617.xyz"}}}
+  - {"name":"🇺🇸US+375+→+tg@nicevpn123","type":"trojan","server":"13.51.186.118","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true}
+  - {"name":"🇫🇷FR+38+→+tg@nicevpn123","type":"ss","server":"51.161.118.38","port":810,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CA_10+|+7.86Mb
-      - 🇭🇰_GCORE
-      - CA_18+|28.37Mb
-      - 🇯🇵JP+3+→+tg@nicevpn123
-      - CA_11+|+8.44Mb
+      - 🇺🇸US 303 → tg@nicevpn123
+      - 🇫🇷FR+42+→+tg@nicevpn123
+      - 🇫🇷FR+40+→+tg@nicevpn123
+      - ��枂��瑌 United States 07 TG:@nodpai
+      - 🇺🇸US 291 → tg@nicevpn123
+      - 🇺🇸US 279 → tg@nicevpn123
+      - 🇺🇸US+375+→+tg@nicevpn123
+      - 🇫🇷FR+38+→+tg@nicevpn123
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CA_10+|+7.86Mb
-      - 🇭🇰_GCORE
-      - CA_18+|28.37Mb
-      - 🇯🇵JP+3+→+tg@nicevpn123
-      - CA_11+|+8.44Mb
+      - 🇺🇸US 303 → tg@nicevpn123
+      - 🇫🇷FR+42+→+tg@nicevpn123
+      - 🇫🇷FR+40+→+tg@nicevpn123
+      - ��枂��瑌 United States 07 TG:@nodpai
+      - 🇺🇸US 291 → tg@nicevpn123
+      - 🇺🇸US 279 → tg@nicevpn123
+      - 🇺🇸US+375+→+tg@nicevpn123
+      - 🇫🇷FR+38+→+tg@nicevpn123
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CA_10+|+7.86Mb
-      - 🇭🇰_GCORE
-      - CA_18+|28.37Mb
-      - 🇯🇵JP+3+→+tg@nicevpn123
-      - CA_11+|+8.44Mb
+      - 🇺🇸US 303 → tg@nicevpn123
+      - 🇫🇷FR+42+→+tg@nicevpn123
+      - 🇫🇷FR+40+→+tg@nicevpn123
+      - ��枂��瑌 United States 07 TG:@nodpai
+      - 🇺🇸US 291 → tg@nicevpn123
+      - 🇺🇸US 279 → tg@nicevpn123
+      - 🇺🇸US+375+→+tg@nicevpn123
+      - 🇫🇷FR+38+→+tg@nicevpn123
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CA_10+|+7.86Mb
-      - 🇭🇰_GCORE
-      - CA_18+|28.37Mb
-      - 🇯🇵JP+3+→+tg@nicevpn123
-      - CA_11+|+8.44Mb
+      - 🇺🇸US 303 → tg@nicevpn123
+      - 🇫🇷FR+42+→+tg@nicevpn123
+      - 🇫🇷FR+40+→+tg@nicevpn123
+      - ��枂��瑌 United States 07 TG:@nodpai
+      - 🇺🇸US 291 → tg@nicevpn123
+      - 🇺🇸US 279 → tg@nicevpn123
+      - 🇺🇸US+375+→+tg@nicevpn123
+      - 🇫🇷FR+38+→+tg@nicevpn123
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - CA_10+|+7.86Mb
-      - 🇭🇰_GCORE
-      - CA_18+|28.37Mb
-      - 🇯🇵JP+3+→+tg@nicevpn123
-      - CA_11+|+8.44Mb
+      - 🇺🇸US 303 → tg@nicevpn123
+      - 🇫🇷FR+42+→+tg@nicevpn123
+      - 🇫🇷FR+40+→+tg@nicevpn123
+      - ��枂��瑌 United States 07 TG:@nodpai
+      - 🇺🇸US 291 → tg@nicevpn123
+      - 🇺🇸US 279 → tg@nicevpn123
+      - 🇺🇸US+375+→+tg@nicevpn123
+      - 🇫🇷FR+38+→+tg@nicevpn123
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CA_10+|+7.86Mb
-      - 🇭🇰_GCORE
-      - CA_18+|28.37Mb
-      - 🇯🇵JP+3+→+tg@nicevpn123
-      - CA_11+|+8.44Mb
+      - 🇺🇸US 303 → tg@nicevpn123
+      - 🇫🇷FR+42+→+tg@nicevpn123
+      - 🇫🇷FR+40+→+tg@nicevpn123
+      - ��枂��瑌 United States 07 TG:@nodpai
+      - 🇺🇸US 291 → tg@nicevpn123
+      - 🇺🇸US 279 → tg@nicevpn123
+      - 🇺🇸US+375+→+tg@nicevpn123
+      - 🇫🇷FR+38+→+tg@nicevpn123
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -111,11 +132,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CA_10+|+7.86Mb
-      - 🇭🇰_GCORE
-      - CA_18+|28.37Mb
-      - 🇯🇵JP+3+→+tg@nicevpn123
-      - CA_11+|+8.44Mb
+      - 🇺🇸US 303 → tg@nicevpn123
+      - 🇫🇷FR+42+→+tg@nicevpn123
+      - 🇫🇷FR+40+→+tg@nicevpn123
+      - ��枂��瑌 United States 07 TG:@nodpai
+      - 🇺🇸US 291 → tg@nicevpn123
+      - 🇺🇸US 279 → tg@nicevpn123
+      - 🇺🇸US+375+→+tg@nicevpn123
+      - 🇫🇷FR+38+→+tg@nicevpn123
 
 rules:
 # 本地/局域网地址
