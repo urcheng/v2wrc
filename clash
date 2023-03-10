@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-03-09 09:38:38
+# 创建时间：2023-03-10 08:58:11
 # 使用模版：V2RaySE 默认模版
-# 节点数量：31
+# 节点数量：28
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,256 +21,235 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"defaultName_1","type":"ss","server":"18.183.109.71","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"defaultName_2","type":"ss","server":"3.39.224.127","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"defaultName_3","type":"ss","server":"13.125.176.172","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"defaultName_4","type":"ss","server":"52.38.68.255","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"_CN_中国_3_4@23","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"_CN_中国_4_0@27","type":"vmess","server":"36.133.171.209","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"_US_美国_1_24@0","type":"vmess","server":"USG.fljsm.com","port":443,"cipher":"auto","uuid":"e5543efd-5400-3760-9bb6-02767728e888","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video","headers":{"host":"USG.fljsm.com"}}}
-  - {"name":"_US_美国_2_2@23","type":"vmess","server":"173.249.199.27","port":443,"cipher":"auto","uuid":"e5543efd-5400-3760-9bb6-02767728e888","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video","headers":{"host":"173.249.199.27"}}}
-  - {"name":"AU_02","type":"ss","server":"43.201.146.250","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"CN_08","type":"ss","server":"36.139.166.252","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"CN_09","type":"ss","server":"36.137.106.45","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"CN_10","type":"ss","server":"36.138.140.208","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"CN_11+|+6.78Mb","type":"ss","server":"36.137.106.115","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"🇨🇳CN+1+→+tg@nicevpn123_1","type":"ss","server":"out.jijifun.com","port":30033,"password":"114514","cipher":"aes-256-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳CN+1+→+tg@nicevpn123_2","type":"ss","server":"out.jijifun.com","port":30067,"password":"114514","cipher":"aes-256-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇨🇳CN+2+→+tg@nicevpn123","type":"trojan","server":"oss-cn-shanghai.westdatacloud.top","port":20048,"udp":true,"password":"626351FA-3CA6-8118-FADF-CCDBCD620871","sni":"v12.kwaicdn.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN+4+→+tg@nicevpn123","type":"trojan","server":"106.225.132.4","port":19219,"udp":true,"password":"0b86d368-f585-3c89-b8b5-30630f54cf15","skip-cert-verify":true}
-  - {"name":"🇮🇹IT+3+→+tg@nicevpn123","type":"ss","server":"212.102.53.197","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
-  - {"name":"🇯🇵JP+2+→+tg@nicevpn123","type":"ss","server":"43.207.225.151","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬SG+1+→+tg@nicevpn123_1","type":"ss","server":"54.169.144.122","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇰🇷KR+1+→+tg@nicevpn123","type":"ss","server":"13.124.9.229","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇬SG+1+→+tg@nicevpn123","type":"ss","server":"54.255.227.184","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇸🇬SG 11 → tg@nicevpn123","type":"vmess","server":"8.218.184.30","port":25800,"cipher":"auto","uuid":"af6d7eb3-c0e5-4bd8-b650-5ffd299be97c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"]}}
-  - {"name":"🇸🇬SG 14 → tg@nicevpn123","type":"vmess","server":"8.218.183.217","port":64098,"cipher":"auto","uuid":"7243a003-b59a-4686-b460-950fdf61819b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"]}}
-  - {"name":"🇸🇬SG 5 → tg@nicevpn123","type":"vmess","server":"8.218.79.213","port":34569,"cipher":"auto","uuid":"d91d9883-c37b-41f7-a2ca-ea5a2a05247c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"]}}
-  - {"name":"🇸🇬SG 8 → tg@nicevpn123","type":"vmess","server":"8.218.168.163","port":42675,"cipher":"auto","uuid":"6f532e4c-1ea2-4e1d-a18a-af34c766ea02","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"]}}
-  - {"name":"🇸🇬SG 9 → tg@nicevpn123","type":"vmess","server":"8.218.183.204","port":59544,"cipher":"auto","uuid":"ed617ad5-803e-4dc6-b475-babead4c83e5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"]}}
-  - {"name":"🇹🇼TW 11 → tg@nicevpn123","type":"vmess","server":"45.121.51.103","port":20715,"cipher":"auto","uuid":"f6406b6d-5487-46da-f793-46611269a306","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"]}}
-  - {"name":"🇺🇸US 12 → tg@nicevpn123","type":"vmess","server":"47.243.55.80","port":26900,"cipher":"auto","uuid":"ce3fac76-3d8e-4cac-a16d-41d186637442","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"]}}
-  - {"name":"🇺🇸US+12+→+tg@nicevpn123","type":"ss","server":"3.34.40.140","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇳CN+1+→+tg@nicevpn123","type":"ss","server":"out.jijifun.com","port":30033,"password":"114514","cipher":"aes-256-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇸🇬SG+1+→+tg@nicevpn123_2","type":"ss","server":"54.255.227.184","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"🇺🇸US 14 → tg@nicevpn123","type":"vmess","server":"23.224.191.6","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/220128071100","headers":{"host":"23.224.191.6"}}}
-  - {"name":"🇺🇸US 56 → tg@nicevpn123","type":"vmess","server":"amsterdam.sbzpl.space","port":443,"cipher":"auto","uuid":"20ebe1dc-7f8e-449b-fa52-ee585e112789","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"amsterdam.sbzpl.space"}}}
+  - {"name":"🇸🇬SG 6 → tg@nicevpn123","type":"vmess","server":"8.218.184.220","port":52214,"cipher":"auto","uuid":"3b776f57-8b04-498e-89d7-cb5c640eede8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"]}}
+  - {"name":"🇸🇬SG 11 → tg@nicevpn123","type":"vmess","server":"8.218.184.30","port":25800,"cipher":"auto","uuid":"af6d7eb3-c0e5-4bd8-b650-5ffd299be97c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"]}}
+  - {"name":"🇺🇸_US_1","type":"vmess","server":"america2.yj2022.ga","port":443,"cipher":"auto","uuid":"4b5e4565-322f-4223-a891-78a84f189726","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/SRhXKZqggNrPMELA525Kw","headers":{"host":"america2.yj2022.ga"}}}
+  - {"name":"🇺🇸_US_2","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"kh1.scproxy.top"}}}
+  - {"name":"🇸🇬SG 14 → tg@nicevpn123","type":"vmess","server":"8.218.183.217","port":64098,"cipher":"auto","uuid":"7243a003-b59a-4686-b460-950fdf61819b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"]}}
+  - {"name":"🇸🇬SG 8 → tg@nicevpn123","type":"vmess","server":"8.218.168.163","port":42675,"cipher":"auto","uuid":"6f532e4c-1ea2-4e1d-a18a-af34c766ea02","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"]}}
+  - {"name":"🇺🇸US 12 → tg@nicevpn123","type":"vmess","server":"47.243.55.80","port":26900,"cipher":"auto","uuid":"ce3fac76-3d8e-4cac-a16d-41d186637442","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"]}}
+  - {"name":"🇳🇱_NL","type":"trojan","server":"185.212.200.76","port":443,"udp":true,"password":"Sp3eDVp","skip-cert-verify":true}
+  - {"name":"🇹🇷TR+1+→+tg@nicevpn123","type":"ss","server":"85.208.108.22","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
+  - {"name":"_US_美国_8_0@20","type":"vmess","server":"vus5.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vus5.0bad.com"}}}
+  - {"name":"🇨🇳_CN","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"_JP_日本_4_0@17","type":"vmess","server":"vjp2.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vjp2.0bad.com"}}}
+  - {"name":"_US_美国_6_0@18","type":"vmess","server":"170.187.206.48","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"170.187.206.48"}}}
+  - {"name":"🇸🇬SG 9 → tg@nicevpn123","type":"vmess","server":"8.218.183.204","port":59544,"cipher":"auto","uuid":"ed617ad5-803e-4dc6-b475-babead4c83e5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"]}}
+  - {"name":"_DE_德国_0@24","type":"vmess","server":"vde2.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vde2.0bad.com"}}}
+  - {"name":"_US_美国_3_2@11","type":"vmess","server":"vsg1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vsg1.0bad.com"}}}
+  - {"name":"_DE_德国_2@38","type":"vmess","server":"vde1.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vde1.0bad.com"}}}
+  - {"name":"🇸🇬SG 4 → tg@nicevpn123","type":"vmess","server":"8.218.178.58","port":53207,"cipher":"auto","uuid":"9930e472-959f-4649-aa19-09354073fabc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"]}}
+  - {"name":"🇮🇹IT+3+→+tg@nicevpn123","type":"ss","server":"212.102.53.79","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"_CN_中国_4_0@27","type":"vmess","server":"36.133.171.209","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"_CN_中国_3_4@23","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"CN_10","type":"ss","server":"36.138.140.208","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"CN_08","type":"ss","server":"36.139.166.252","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - _CN_中国_3_4@23
-      - _CN_中国_4_0@27
-      - _US_美国_1_24@0
-      - _US_美国_2_2@23
-      - AU_02
-      - CN_08
-      - CN_09
-      - CN_10
-      - CN_11+|+6.78Mb
-      - 🇨🇳CN+1+→+tg@nicevpn123_1
-      - 🇨🇳CN+1+→+tg@nicevpn123_2
-      - 🇨🇳CN+2+→+tg@nicevpn123
-      - 🇨🇳CN+4+→+tg@nicevpn123
-      - 🇮🇹IT+3+→+tg@nicevpn123
-      - 🇯🇵JP+2+→+tg@nicevpn123
+      - 🇸🇬SG+1+→+tg@nicevpn123_1
       - 🇰🇷KR+1+→+tg@nicevpn123
-      - 🇸🇬SG+1+→+tg@nicevpn123
-      - 🇸🇬SG 11 → tg@nicevpn123
-      - 🇸🇬SG 14 → tg@nicevpn123
-      - 🇸🇬SG 5 → tg@nicevpn123
-      - 🇸🇬SG 8 → tg@nicevpn123
-      - 🇸🇬SG 9 → tg@nicevpn123
-      - 🇹🇼TW 11 → tg@nicevpn123
-      - 🇺🇸US 12 → tg@nicevpn123
-      - 🇺🇸US+12+→+tg@nicevpn123
+      - 🇨🇳CN+1+→+tg@nicevpn123
+      - 🇸🇬SG+1+→+tg@nicevpn123_2
       - 🇺🇸US 14 → tg@nicevpn123
-      - 🇺🇸US 56 → tg@nicevpn123
+      - 🇸🇬SG 6 → tg@nicevpn123
+      - 🇸🇬SG 11 → tg@nicevpn123
+      - 🇺🇸_US_1
+      - 🇺🇸_US_2
+      - 🇸🇬SG 14 → tg@nicevpn123
+      - 🇸🇬SG 8 → tg@nicevpn123
+      - 🇺🇸US 12 → tg@nicevpn123
+      - 🇳🇱_NL
+      - 🇹🇷TR+1+→+tg@nicevpn123
+      - _US_美国_8_0@20
+      - 🇨🇳_CN
+      - _JP_日本_4_0@17
+      - _US_美国_6_0@18
+      - 🇸🇬SG 9 → tg@nicevpn123
+      - _DE_德国_0@24
+      - _US_美国_3_2@11
+      - _DE_德国_2@38
+      - 🇸🇬SG 4 → tg@nicevpn123
+      - 🇮🇹IT+3+→+tg@nicevpn123
+      - _CN_中国_4_0@27
+      - _CN_中国_3_4@23
+      - CN_10
+      - CN_08
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - _CN_中国_3_4@23
-      - _CN_中国_4_0@27
-      - _US_美国_1_24@0
-      - _US_美国_2_2@23
-      - AU_02
-      - CN_08
-      - CN_09
-      - CN_10
-      - CN_11+|+6.78Mb
-      - 🇨🇳CN+1+→+tg@nicevpn123_1
-      - 🇨🇳CN+1+→+tg@nicevpn123_2
-      - 🇨🇳CN+2+→+tg@nicevpn123
-      - 🇨🇳CN+4+→+tg@nicevpn123
-      - 🇮🇹IT+3+→+tg@nicevpn123
-      - 🇯🇵JP+2+→+tg@nicevpn123
+      - 🇸🇬SG+1+→+tg@nicevpn123_1
       - 🇰🇷KR+1+→+tg@nicevpn123
-      - 🇸🇬SG+1+→+tg@nicevpn123
-      - 🇸🇬SG 11 → tg@nicevpn123
-      - 🇸🇬SG 14 → tg@nicevpn123
-      - 🇸🇬SG 5 → tg@nicevpn123
-      - 🇸🇬SG 8 → tg@nicevpn123
-      - 🇸🇬SG 9 → tg@nicevpn123
-      - 🇹🇼TW 11 → tg@nicevpn123
-      - 🇺🇸US 12 → tg@nicevpn123
-      - 🇺🇸US+12+→+tg@nicevpn123
+      - 🇨🇳CN+1+→+tg@nicevpn123
+      - 🇸🇬SG+1+→+tg@nicevpn123_2
       - 🇺🇸US 14 → tg@nicevpn123
-      - 🇺🇸US 56 → tg@nicevpn123
+      - 🇸🇬SG 6 → tg@nicevpn123
+      - 🇸🇬SG 11 → tg@nicevpn123
+      - 🇺🇸_US_1
+      - 🇺🇸_US_2
+      - 🇸🇬SG 14 → tg@nicevpn123
+      - 🇸🇬SG 8 → tg@nicevpn123
+      - 🇺🇸US 12 → tg@nicevpn123
+      - 🇳🇱_NL
+      - 🇹🇷TR+1+→+tg@nicevpn123
+      - _US_美国_8_0@20
+      - 🇨🇳_CN
+      - _JP_日本_4_0@17
+      - _US_美国_6_0@18
+      - 🇸🇬SG 9 → tg@nicevpn123
+      - _DE_德国_0@24
+      - _US_美国_3_2@11
+      - _DE_德国_2@38
+      - 🇸🇬SG 4 → tg@nicevpn123
+      - 🇮🇹IT+3+→+tg@nicevpn123
+      - _CN_中国_4_0@27
+      - _CN_中国_3_4@23
+      - CN_10
+      - CN_08
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - _CN_中国_3_4@23
-      - _CN_中国_4_0@27
-      - _US_美国_1_24@0
-      - _US_美国_2_2@23
-      - AU_02
-      - CN_08
-      - CN_09
-      - CN_10
-      - CN_11+|+6.78Mb
-      - 🇨🇳CN+1+→+tg@nicevpn123_1
-      - 🇨🇳CN+1+→+tg@nicevpn123_2
-      - 🇨🇳CN+2+→+tg@nicevpn123
-      - 🇨🇳CN+4+→+tg@nicevpn123
-      - 🇮🇹IT+3+→+tg@nicevpn123
-      - 🇯🇵JP+2+→+tg@nicevpn123
+      - 🇸🇬SG+1+→+tg@nicevpn123_1
       - 🇰🇷KR+1+→+tg@nicevpn123
-      - 🇸🇬SG+1+→+tg@nicevpn123
-      - 🇸🇬SG 11 → tg@nicevpn123
-      - 🇸🇬SG 14 → tg@nicevpn123
-      - 🇸🇬SG 5 → tg@nicevpn123
-      - 🇸🇬SG 8 → tg@nicevpn123
-      - 🇸🇬SG 9 → tg@nicevpn123
-      - 🇹🇼TW 11 → tg@nicevpn123
-      - 🇺🇸US 12 → tg@nicevpn123
-      - 🇺🇸US+12+→+tg@nicevpn123
+      - 🇨🇳CN+1+→+tg@nicevpn123
+      - 🇸🇬SG+1+→+tg@nicevpn123_2
       - 🇺🇸US 14 → tg@nicevpn123
-      - 🇺🇸US 56 → tg@nicevpn123
+      - 🇸🇬SG 6 → tg@nicevpn123
+      - 🇸🇬SG 11 → tg@nicevpn123
+      - 🇺🇸_US_1
+      - 🇺🇸_US_2
+      - 🇸🇬SG 14 → tg@nicevpn123
+      - 🇸🇬SG 8 → tg@nicevpn123
+      - 🇺🇸US 12 → tg@nicevpn123
+      - 🇳🇱_NL
+      - 🇹🇷TR+1+→+tg@nicevpn123
+      - _US_美国_8_0@20
+      - 🇨🇳_CN
+      - _JP_日本_4_0@17
+      - _US_美国_6_0@18
+      - 🇸🇬SG 9 → tg@nicevpn123
+      - _DE_德国_0@24
+      - _US_美国_3_2@11
+      - _DE_德国_2@38
+      - 🇸🇬SG 4 → tg@nicevpn123
+      - 🇮🇹IT+3+→+tg@nicevpn123
+      - _CN_中国_4_0@27
+      - _CN_中国_3_4@23
+      - CN_10
+      - CN_08
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - _CN_中国_3_4@23
-      - _CN_中国_4_0@27
-      - _US_美国_1_24@0
-      - _US_美国_2_2@23
-      - AU_02
-      - CN_08
-      - CN_09
-      - CN_10
-      - CN_11+|+6.78Mb
-      - 🇨🇳CN+1+→+tg@nicevpn123_1
-      - 🇨🇳CN+1+→+tg@nicevpn123_2
-      - 🇨🇳CN+2+→+tg@nicevpn123
-      - 🇨🇳CN+4+→+tg@nicevpn123
-      - 🇮🇹IT+3+→+tg@nicevpn123
-      - 🇯🇵JP+2+→+tg@nicevpn123
+      - 🇸🇬SG+1+→+tg@nicevpn123_1
       - 🇰🇷KR+1+→+tg@nicevpn123
-      - 🇸🇬SG+1+→+tg@nicevpn123
-      - 🇸🇬SG 11 → tg@nicevpn123
-      - 🇸🇬SG 14 → tg@nicevpn123
-      - 🇸🇬SG 5 → tg@nicevpn123
-      - 🇸🇬SG 8 → tg@nicevpn123
-      - 🇸🇬SG 9 → tg@nicevpn123
-      - 🇹🇼TW 11 → tg@nicevpn123
-      - 🇺🇸US 12 → tg@nicevpn123
-      - 🇺🇸US+12+→+tg@nicevpn123
+      - 🇨🇳CN+1+→+tg@nicevpn123
+      - 🇸🇬SG+1+→+tg@nicevpn123_2
       - 🇺🇸US 14 → tg@nicevpn123
-      - 🇺🇸US 56 → tg@nicevpn123
+      - 🇸🇬SG 6 → tg@nicevpn123
+      - 🇸🇬SG 11 → tg@nicevpn123
+      - 🇺🇸_US_1
+      - 🇺🇸_US_2
+      - 🇸🇬SG 14 → tg@nicevpn123
+      - 🇸🇬SG 8 → tg@nicevpn123
+      - 🇺🇸US 12 → tg@nicevpn123
+      - 🇳🇱_NL
+      - 🇹🇷TR+1+→+tg@nicevpn123
+      - _US_美国_8_0@20
+      - 🇨🇳_CN
+      - _JP_日本_4_0@17
+      - _US_美国_6_0@18
+      - 🇸🇬SG 9 → tg@nicevpn123
+      - _DE_德国_0@24
+      - _US_美国_3_2@11
+      - _DE_德国_2@38
+      - 🇸🇬SG 4 → tg@nicevpn123
+      - 🇮🇹IT+3+→+tg@nicevpn123
+      - _CN_中国_4_0@27
+      - _CN_中国_3_4@23
+      - CN_10
+      - CN_08
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - _CN_中国_3_4@23
-      - _CN_中国_4_0@27
-      - _US_美国_1_24@0
-      - _US_美国_2_2@23
-      - AU_02
-      - CN_08
-      - CN_09
-      - CN_10
-      - CN_11+|+6.78Mb
-      - 🇨🇳CN+1+→+tg@nicevpn123_1
-      - 🇨🇳CN+1+→+tg@nicevpn123_2
-      - 🇨🇳CN+2+→+tg@nicevpn123
-      - 🇨🇳CN+4+→+tg@nicevpn123
-      - 🇮🇹IT+3+→+tg@nicevpn123
-      - 🇯🇵JP+2+→+tg@nicevpn123
+      - 🇸🇬SG+1+→+tg@nicevpn123_1
       - 🇰🇷KR+1+→+tg@nicevpn123
-      - 🇸🇬SG+1+→+tg@nicevpn123
-      - 🇸🇬SG 11 → tg@nicevpn123
-      - 🇸🇬SG 14 → tg@nicevpn123
-      - 🇸🇬SG 5 → tg@nicevpn123
-      - 🇸🇬SG 8 → tg@nicevpn123
-      - 🇸🇬SG 9 → tg@nicevpn123
-      - 🇹🇼TW 11 → tg@nicevpn123
-      - 🇺🇸US 12 → tg@nicevpn123
-      - 🇺🇸US+12+→+tg@nicevpn123
+      - 🇨🇳CN+1+→+tg@nicevpn123
+      - 🇸🇬SG+1+→+tg@nicevpn123_2
       - 🇺🇸US 14 → tg@nicevpn123
-      - 🇺🇸US 56 → tg@nicevpn123
+      - 🇸🇬SG 6 → tg@nicevpn123
+      - 🇸🇬SG 11 → tg@nicevpn123
+      - 🇺🇸_US_1
+      - 🇺🇸_US_2
+      - 🇸🇬SG 14 → tg@nicevpn123
+      - 🇸🇬SG 8 → tg@nicevpn123
+      - 🇺🇸US 12 → tg@nicevpn123
+      - 🇳🇱_NL
+      - 🇹🇷TR+1+→+tg@nicevpn123
+      - _US_美国_8_0@20
+      - 🇨🇳_CN
+      - _JP_日本_4_0@17
+      - _US_美国_6_0@18
+      - 🇸🇬SG 9 → tg@nicevpn123
+      - _DE_德国_0@24
+      - _US_美国_3_2@11
+      - _DE_德国_2@38
+      - 🇸🇬SG 4 → tg@nicevpn123
+      - 🇮🇹IT+3+→+tg@nicevpn123
+      - _CN_中国_4_0@27
+      - _CN_中国_3_4@23
+      - CN_10
+      - CN_08
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - _CN_中国_3_4@23
-      - _CN_中国_4_0@27
-      - _US_美国_1_24@0
-      - _US_美国_2_2@23
-      - AU_02
-      - CN_08
-      - CN_09
-      - CN_10
-      - CN_11+|+6.78Mb
-      - 🇨🇳CN+1+→+tg@nicevpn123_1
-      - 🇨🇳CN+1+→+tg@nicevpn123_2
-      - 🇨🇳CN+2+→+tg@nicevpn123
-      - 🇨🇳CN+4+→+tg@nicevpn123
-      - 🇮🇹IT+3+→+tg@nicevpn123
-      - 🇯🇵JP+2+→+tg@nicevpn123
+      - 🇸🇬SG+1+→+tg@nicevpn123_1
       - 🇰🇷KR+1+→+tg@nicevpn123
-      - 🇸🇬SG+1+→+tg@nicevpn123
-      - 🇸🇬SG 11 → tg@nicevpn123
-      - 🇸🇬SG 14 → tg@nicevpn123
-      - 🇸🇬SG 5 → tg@nicevpn123
-      - 🇸🇬SG 8 → tg@nicevpn123
-      - 🇸🇬SG 9 → tg@nicevpn123
-      - 🇹🇼TW 11 → tg@nicevpn123
-      - 🇺🇸US 12 → tg@nicevpn123
-      - 🇺🇸US+12+→+tg@nicevpn123
+      - 🇨🇳CN+1+→+tg@nicevpn123
+      - 🇸🇬SG+1+→+tg@nicevpn123_2
       - 🇺🇸US 14 → tg@nicevpn123
-      - 🇺🇸US 56 → tg@nicevpn123
+      - 🇸🇬SG 6 → tg@nicevpn123
+      - 🇸🇬SG 11 → tg@nicevpn123
+      - 🇺🇸_US_1
+      - 🇺🇸_US_2
+      - 🇸🇬SG 14 → tg@nicevpn123
+      - 🇸🇬SG 8 → tg@nicevpn123
+      - 🇺🇸US 12 → tg@nicevpn123
+      - 🇳🇱_NL
+      - 🇹🇷TR+1+→+tg@nicevpn123
+      - _US_美国_8_0@20
+      - 🇨🇳_CN
+      - _JP_日本_4_0@17
+      - _US_美国_6_0@18
+      - 🇸🇬SG 9 → tg@nicevpn123
+      - _DE_德国_0@24
+      - _US_美国_3_2@11
+      - _DE_德国_2@38
+      - 🇸🇬SG 4 → tg@nicevpn123
+      - 🇮🇹IT+3+→+tg@nicevpn123
+      - _CN_中国_4_0@27
+      - _CN_中国_3_4@23
+      - CN_10
+      - CN_08
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -293,37 +272,34 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - _CN_中国_3_4@23
-      - _CN_中国_4_0@27
-      - _US_美国_1_24@0
-      - _US_美国_2_2@23
-      - AU_02
-      - CN_08
-      - CN_09
-      - CN_10
-      - CN_11+|+6.78Mb
-      - 🇨🇳CN+1+→+tg@nicevpn123_1
-      - 🇨🇳CN+1+→+tg@nicevpn123_2
-      - 🇨🇳CN+2+→+tg@nicevpn123
-      - 🇨🇳CN+4+→+tg@nicevpn123
-      - 🇮🇹IT+3+→+tg@nicevpn123
-      - 🇯🇵JP+2+→+tg@nicevpn123
+      - 🇸🇬SG+1+→+tg@nicevpn123_1
       - 🇰🇷KR+1+→+tg@nicevpn123
-      - 🇸🇬SG+1+→+tg@nicevpn123
-      - 🇸🇬SG 11 → tg@nicevpn123
-      - 🇸🇬SG 14 → tg@nicevpn123
-      - 🇸🇬SG 5 → tg@nicevpn123
-      - 🇸🇬SG 8 → tg@nicevpn123
-      - 🇸🇬SG 9 → tg@nicevpn123
-      - 🇹🇼TW 11 → tg@nicevpn123
-      - 🇺🇸US 12 → tg@nicevpn123
-      - 🇺🇸US+12+→+tg@nicevpn123
+      - 🇨🇳CN+1+→+tg@nicevpn123
+      - 🇸🇬SG+1+→+tg@nicevpn123_2
       - 🇺🇸US 14 → tg@nicevpn123
-      - 🇺🇸US 56 → tg@nicevpn123
+      - 🇸🇬SG 6 → tg@nicevpn123
+      - 🇸🇬SG 11 → tg@nicevpn123
+      - 🇺🇸_US_1
+      - 🇺🇸_US_2
+      - 🇸🇬SG 14 → tg@nicevpn123
+      - 🇸🇬SG 8 → tg@nicevpn123
+      - 🇺🇸US 12 → tg@nicevpn123
+      - 🇳🇱_NL
+      - 🇹🇷TR+1+→+tg@nicevpn123
+      - _US_美国_8_0@20
+      - 🇨🇳_CN
+      - _JP_日本_4_0@17
+      - _US_美国_6_0@18
+      - 🇸🇬SG 9 → tg@nicevpn123
+      - _DE_德国_0@24
+      - _US_美国_3_2@11
+      - _DE_德国_2@38
+      - 🇸🇬SG 4 → tg@nicevpn123
+      - 🇮🇹IT+3+→+tg@nicevpn123
+      - _CN_中国_4_0@27
+      - _CN_中国_3_4@23
+      - CN_10
+      - CN_08
 
 rules:
 # 本地/局域网地址
