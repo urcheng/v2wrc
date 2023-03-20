@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-03-17 08:57:21
+# 创建时间：2023-03-20 09:00:16
 # 使用模版：V2RaySE 默认模版
-# 节点数量：50
+# 节点数量：30
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,55 +21,35 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"defaultName","type":"ss","server":"212.102.53.78","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
-  - {"name":"_CN_中国_5_2@34","type":"vmess","server":"36.134.16.171","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"_JP_日本_1_2@5","type":"vmess","server":"vjp3.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vjp3.0bad.com"}}}
+  - {"name":"@SSRSUB-V02-付费推荐:suo.yt/ssrsub","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"uk1.scproxy.top","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk1.scproxy.top"}}}
+  - {"name":"@SSRSUB-V05-付费推荐:suo.yt/ssrsub","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk-hytron.ilovescp.com","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
+  - {"name":"@SSRSUB-V09-付费推荐:suo.yt/ssrsub","type":"vmess","server":"172.67.199.34","port":443,"cipher":"auto","uuid":"2b214122-1906-428a-bbb7-a039cbb7cd5c","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/9JZFDTKE","headers":{"host":"fr1.trump2023.org"}}}
+  - {"name":"@SSRSUB-V21-付费推荐:suo.yt/ssrsub","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"dp2.scproxy.top","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"dp2.scproxy.top"}}}
+  - {"name":"@SSRSUB-V39-付费推荐:suo.yt/ssrsub","type":"vmess","server":"203.30.190.1","port":443,"cipher":"auto","uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"154.v2ray3.xyz"}}}
+  - {"name":"_CN_中国->🇺🇸_US_美国_3@25","type":"trojan","server":"oss-cn-shanghai.westdatacloud.top","port":20048,"udp":true,"password":"626351FA-3CA6-8118-FADF-CCDBCD620871","sni":"oss-cn-shanghai.westdatacloud.top","skip-cert-verify":true}
+  - {"name":"_JP_日本_3@11","type":"ss","server":"43.206.194.133","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"_JP_日本_3_3@33","type":"ss","server":"43.207.117.53","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"_KR_韩国_2_0@12","type":"ss","server":"43.201.70.114","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"CN_08+|+5.59Mb","type":"ss","server":"36.139.166.231","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"CN_11+|+3.19Mb","type":"ss","server":"36.139.166.244","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"CN_13+|+5.93Mb","type":"ss","server":"36.138.140.208","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"GB_29+|34.46Mb","type":"trojan","server":"zzus01.gutingting.com","port":20220,"udp":true,"password":"dd19029a-bc94-4ebc-969a-b55776afd76c","skip-cert-verify":true}
-  - {"name":"NL_37+|29.87Mb","type":"ss","server":"85.208.108.60","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"NL_39+|27.22Mb","type":"ss","server":"85.208.108.60","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"NL_40+|20.61Mb","type":"ss","server":"85.208.108.60","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"NL_42+|26.46Mb","type":"ss","server":"85.208.108.60","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
-  - {"name":"NL_43+|29.26Mb","type":"ss","server":"85.208.108.60","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"NL_44+|29.00Mb","type":"ss","server":"85.208.108.60","port":8119,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"NL_46+|27.67Mb","type":"ss","server":"85.208.108.60","port":6379,"password":"zDNVedRFPQexG9v","cipher":"aes-256-gcm"}
-  - {"name":"NL_47+|32.22Mb","type":"ss","server":"85.208.108.60","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"NL_48+|27.89Mb","type":"ss","server":"85.208.108.60","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"NL_51+|27.61Mb","type":"ss","server":"85.208.108.60","port":7306,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"NL_53+|26.55Mb","type":"ss","server":"85.208.108.60","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"NL_55+|26.77Mb","type":"ss","server":"85.208.108.60","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"NL_56+|30.37Mb","type":"ss","server":"85.208.108.60","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"NL_57+|27.95Mb","type":"ss","server":"85.208.108.60","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"NL_59+|21.81Mb","type":"ss","server":"85.208.108.60","port":2376,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"NL_59+|29.59Mb","type":"ss","server":"85.208.108.60","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"Pool__1","type":"ss","server":"85.208.108.60","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"Pool__2","type":"ss","server":"85.208.108.60","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"Pool_Pool__1","type":"ss","server":"85.208.108.60","port":6697,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"Pool_Pool__2","type":"ss","server":"85.208.108.60","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"Pool_Pool__3","type":"ss","server":"85.208.108.60","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"Pool_Pool__4","type":"ss","server":"85.208.108.60","port":8080,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"Pool_Pool__5","type":"ss","server":"85.208.108.60","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"Pool_Pool__6","type":"ss","server":"85.208.108.60","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"Pool_Pool__7","type":"ss","server":"85.208.108.60","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"Pool_Pool__8","type":"ss","server":"85.208.108.60","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"Pool_Pool__9","type":"ss","server":"85.208.108.60","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"Pool_Pool__10","type":"ss","server":"85.208.108.60","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"Relay ��蘓��晠 Japan 05 TG:@nodpai","type":"vmess","server":"ns01.gutingting.com","port":30009,"cipher":"auto","uuid":"9f3ed660-e405-4625-b45b-28a4fdee2302","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"ns01.gutingting.com"}}}
-  - {"name":"Relay+��墖��袝+South+Korea+01+TG:@nodpai","type":"ss","server":"sa.unlimitedtraffic.top","port":25881,"password":"19323732-d371-43f0-a6c1-1833dc68a137","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay+��墖��袝+South+Korea(ChatGPT)+02+TG:@nodpai","type":"trojan","server":"v01.gutingting.com","port":30056,"udp":true,"password":"bd79c899-1a52-430f-837c-c8149683afe7","skip-cert-verify":true}
-  - {"name":"Relay ��䤰��秐 India 02 TG:@nodpai","type":"vmess","server":"v01.gutingting.com","port":30027,"cipher":"auto","uuid":"09c47125-3195-419c-a215-7791cba27b7b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"v01.gutingting.com"}}}
-  - {"name":"Relay ��枂��瑌 United States 05 TG:@nodpai","type":"vmess","server":"v01.gutingting.com","port":30023,"cipher":"auto","uuid":"2e6df86c-09bb-4459-8683-5c849675785b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"v01.gutingting.com"}}}
-  - {"name":"Relay ��枂��瑌 United States 06 TG:@nodpai","type":"vmess","server":"v01.gutingting.com","port":30048,"cipher":"auto","uuid":"9f3ed660-e405-4625-b45b-28a4fdee2302","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aceamedv","headers":{"host":"v01.gutingting.com"}}}
-  - {"name":"Relay ��枂��瑌 United States(ChatGPT) 08 TG:@nodpai","type":"vmess","server":"bb29cs.cdn.node.a.tddns-ounk.com","port":13663,"cipher":"auto","uuid":"faccc7f6-0707-3659-89d7-55db18054cfa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/6f8e-4a63-8f5f-1bd99437b151.v3..live02.m3u8","headers":{"host":"bb29cs.cdn.node.a.tddns-ounk.com"}}}
-  - {"name":"Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai","type":"trojan","server":"120.241.255.196","port":25462,"udp":true,"password":"74341a38-c634-492e-9385-50eb01dd59e4","skip-cert-verify":true}
-  - {"name":"Relay+��鐯��墖+Hong+Kong+10+TG:@nodpai","type":"trojan","server":"v01.gutingting.com","port":30017,"udp":true,"password":"cfd24115-b781-484f-8b6a-bca6b4ea847c","sni":"v2hgc01.fuqiangren.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN+4+→+tg@nicevpn123","type":"ss","server":"36.139.166.247","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"🇱🇺卢森堡cf无限流量","type":"vmess","server":"173.245.49.7","port":443,"cipher":"auto","uuid":"847a92a6-f7f1-42ef-8277-02cf6e379797","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"lsb.jiegebuyao.top","network":"ws","ws-opts":{"path":"/","headers":{"host":"lsb.jiegebuyao.top"}}}
-  - {"name":"��龖��𣇪+United+Kingdom+01+TG:@nodpai","type":"ss","server":"212.102.53.194","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
+  - {"name":"_KR_韩国_1_0@6","type":"vmess","server":"130.162.134.218","port":80,"cipher":"auto","uuid":"bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ww","headers":{"host":"130.162.134.218"}}}
+  - {"name":"_KR_韩国_2_0@12_1","type":"ss","server":"43.201.70.114","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"_KR_韩国_2_0@12_2","type":"ss","server":"43.201.37.176","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"_KR_韩国_2_21@18","type":"vmess","server":"surongwei.eu.org","port":443,"cipher":"auto","uuid":"6093eefb-7ab6-41df-aba0-d5fa58147e10","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/reffs7y26g0ua","headers":{"host":"surongwei.eu.org"}}}
+  - {"name":"_US_美国_1_8@0","type":"vmess","server":"4bb4ced4.ikunxiao.top","port":2096,"cipher":"auto","uuid":"72fd33d5-5c1a-4193-96c6-665fc20b71c1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/index","headers":{"host":"4bb4ced4.ikunxiao.top"}}}
+  - {"name":"_US_美国_14_6@31","type":"vmess","server":"vus5.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vus5.0bad.com"}}}
+  - {"name":"_US_美国_8_0@19","type":"vmess","server":"lv2.sharecentrepro.org","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv2.sharecentrepro.org"}}}
+  - {"name":"_US_美国->🇬🇧_GB_英国_2@32","type":"vmess","server":"uk1.scproxy.top","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"uk1.scproxy.top"}}}
+  - {"name":"_US_美国->🇯🇵_JP_日本_0@7","type":"vmess","server":"jp1.scproxy.top","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"jp1.scproxy.top"}}}
+  - {"name":"「SCP」DE-CF","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"de1.sharecentrepro.org","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"de1.sharecentrepro.org"}}}
+  - {"name":"「SCP」JP-LN-CF","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp1.scproxy.top","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"jp1.scproxy.top"}}}
+  - {"name":"「SCP」US-DO","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"823c31da-701f-483d-b36e-896e5cf0987a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"us1.sharecentrepro.com","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"us1.sharecentrepro.com"}}}
+  - {"name":"-clone","type":"vmess","server":"162.159.128.1","port":8880,"cipher":"auto","uuid":"b09be280-8693-47f0-dac9-e5833f12605d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"cs.llaqqccjj.top"}}}
+  - {"name":"v2rayfree.eu.org - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2","type":"vmess","server":"23.224.191.5","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/220128071100"}}
+  - {"name":"🇯🇵JP-172.104.107.158-0051","type":"vmess","server":"vjp3.0bad.com","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/chat","headers":{"host":"vjp3.0bad.com"}}}
+  - {"name":"🇰🇷KR-130.162.134.218-3026","type":"vmess","server":"130.162.134.218","port":80,"cipher":"auto","uuid":"bb2f7a4e-97f2-4d21-dba1-b0699c5cdfa2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ww"}}
+  - {"name":"��蒄��袝 France 01 TG:@nodpai","type":"vmess","server":"188.165.170.83","port":80,"cipher":"auto","uuid":"860a862a-2798-4037-8513-b060e310e7fc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"188.165.170.83"}}}
+  - {"name":"��𣉞��䌊 Germany(ChatGPT) 01 TG:@nodpai","type":"vmess","server":"168.119.58.112","port":80,"cipher":"auto","uuid":"e42d68db-4297-4c17-b5cf-44d421aef400","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"168.119.58.112"}}}
+  - {"name":"��瑌��龖 Singapore 06 TG:@nodpai","type":"vmess","server":"103.21.244.173","port":80,"cipher":"auto","uuid":"f7738290-ba04-4dd1-b4f3-e6863a9e1c8a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"zzsg.nmsl.pics"}}}
+  - {"name":"��䤰��篅+Italy+01+TG:@nodpai","type":"trojan","server":"204.216.214.102","port":44386,"udp":true,"password":"C931CWacy8","skip-cert-verify":true}
+  - {"name":"��䤰��秐+India+01+TG:@nodpai","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
   - {"name":"��鐯��墖 Hong Kong 03 TG:@nodpai","type":"vmess","server":"petal.ga","port":443,"cipher":"auto","uuid":"b744f5cc-eab2-d2cd-f477-76646d17987f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/petalvws","headers":{"host":"petal.ga"}}}
 proxy-groups:
   - name: 🚀 节点选择
@@ -77,55 +57,35 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - defaultName
-      - _CN_中国_5_2@34
-      - _JP_日本_1_2@5
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V05-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V21-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V39-付费推荐:suo.yt/ssrsub'
+      - _CN_中国->🇺🇸_US_美国_3@25
+      - _JP_日本_3@11
       - _JP_日本_3_3@33
-      - _KR_韩国_2_0@12
-      - CN_08+|+5.59Mb
-      - CN_11+|+3.19Mb
-      - CN_13+|+5.93Mb
-      - GB_29+|34.46Mb
-      - NL_37+|29.87Mb
-      - NL_39+|27.22Mb
-      - NL_40+|20.61Mb
-      - NL_42+|26.46Mb
-      - NL_43+|29.26Mb
-      - NL_44+|29.00Mb
-      - NL_46+|27.67Mb
-      - NL_47+|32.22Mb
-      - NL_48+|27.89Mb
-      - NL_51+|27.61Mb
-      - NL_53+|26.55Mb
-      - NL_55+|26.77Mb
-      - NL_56+|30.37Mb
-      - NL_57+|27.95Mb
-      - NL_59+|21.81Mb
-      - NL_59+|29.59Mb
-      - Pool__1
-      - Pool__2
-      - Pool_Pool__1
-      - Pool_Pool__2
-      - Pool_Pool__3
-      - Pool_Pool__4
-      - Pool_Pool__5
-      - Pool_Pool__6
-      - Pool_Pool__7
-      - Pool_Pool__8
-      - Pool_Pool__9
-      - Pool_Pool__10
-      - Relay ��蘓��晠 Japan 05 TG:@nodpai
-      - Relay+��墖��袝+South+Korea+01+TG:@nodpai
-      - Relay+��墖��袝+South+Korea(ChatGPT)+02+TG:@nodpai
-      - Relay ��䤰��秐 India 02 TG:@nodpai
-      - Relay ��枂��瑌 United States 05 TG:@nodpai
-      - Relay ��枂��瑌 United States 06 TG:@nodpai
-      - Relay ��枂��瑌 United States(ChatGPT) 08 TG:@nodpai
-      - Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai
-      - Relay+��鐯��墖+Hong+Kong+10+TG:@nodpai
-      - 🇨🇳CN+4+→+tg@nicevpn123
-      - 🇱🇺卢森堡cf无限流量
-      - ��龖��𣇪+United+Kingdom+01+TG:@nodpai
+      - _KR_韩国_1_0@6
+      - _KR_韩国_2_0@12_1
+      - _KR_韩国_2_0@12_2
+      - _KR_韩国_2_21@18
+      - _US_美国_1_8@0
+      - _US_美国_14_6@31
+      - _US_美国_8_0@19
+      - _US_美国->🇬🇧_GB_英国_2@32
+      - _US_美国->🇯🇵_JP_日本_0@7
+      - 「SCP」DE-CF
+      - 「SCP」JP-LN-CF
+      - 「SCP」US-DO
+      - '-clone'
+      - v2rayfree.eu.org - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2
+      - 🇯🇵JP-172.104.107.158-0051
+      - 🇰🇷KR-130.162.134.218-3026
+      - ��蒄��袝 France 01 TG:@nodpai
+      - ��𣉞��䌊 Germany(ChatGPT) 01 TG:@nodpai
+      - ��瑌��龖 Singapore 06 TG:@nodpai
+      - ��䤰��篅+Italy+01+TG:@nodpai
+      - ��䤰��秐+India+01+TG:@nodpai
       - ��鐯��墖 Hong Kong 03 TG:@nodpai
   - name: ♻️ 自动选择
     type: url-test
@@ -133,55 +93,35 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName
-      - _CN_中国_5_2@34
-      - _JP_日本_1_2@5
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V05-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V21-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V39-付费推荐:suo.yt/ssrsub'
+      - _CN_中国->🇺🇸_US_美国_3@25
+      - _JP_日本_3@11
       - _JP_日本_3_3@33
-      - _KR_韩国_2_0@12
-      - CN_08+|+5.59Mb
-      - CN_11+|+3.19Mb
-      - CN_13+|+5.93Mb
-      - GB_29+|34.46Mb
-      - NL_37+|29.87Mb
-      - NL_39+|27.22Mb
-      - NL_40+|20.61Mb
-      - NL_42+|26.46Mb
-      - NL_43+|29.26Mb
-      - NL_44+|29.00Mb
-      - NL_46+|27.67Mb
-      - NL_47+|32.22Mb
-      - NL_48+|27.89Mb
-      - NL_51+|27.61Mb
-      - NL_53+|26.55Mb
-      - NL_55+|26.77Mb
-      - NL_56+|30.37Mb
-      - NL_57+|27.95Mb
-      - NL_59+|21.81Mb
-      - NL_59+|29.59Mb
-      - Pool__1
-      - Pool__2
-      - Pool_Pool__1
-      - Pool_Pool__2
-      - Pool_Pool__3
-      - Pool_Pool__4
-      - Pool_Pool__5
-      - Pool_Pool__6
-      - Pool_Pool__7
-      - Pool_Pool__8
-      - Pool_Pool__9
-      - Pool_Pool__10
-      - Relay ��蘓��晠 Japan 05 TG:@nodpai
-      - Relay+��墖��袝+South+Korea+01+TG:@nodpai
-      - Relay+��墖��袝+South+Korea(ChatGPT)+02+TG:@nodpai
-      - Relay ��䤰��秐 India 02 TG:@nodpai
-      - Relay ��枂��瑌 United States 05 TG:@nodpai
-      - Relay ��枂��瑌 United States 06 TG:@nodpai
-      - Relay ��枂��瑌 United States(ChatGPT) 08 TG:@nodpai
-      - Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai
-      - Relay+��鐯��墖+Hong+Kong+10+TG:@nodpai
-      - 🇨🇳CN+4+→+tg@nicevpn123
-      - 🇱🇺卢森堡cf无限流量
-      - ��龖��𣇪+United+Kingdom+01+TG:@nodpai
+      - _KR_韩国_1_0@6
+      - _KR_韩国_2_0@12_1
+      - _KR_韩国_2_0@12_2
+      - _KR_韩国_2_21@18
+      - _US_美国_1_8@0
+      - _US_美国_14_6@31
+      - _US_美国_8_0@19
+      - _US_美国->🇬🇧_GB_英国_2@32
+      - _US_美国->🇯🇵_JP_日本_0@7
+      - 「SCP」DE-CF
+      - 「SCP」JP-LN-CF
+      - 「SCP」US-DO
+      - '-clone'
+      - v2rayfree.eu.org - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2
+      - 🇯🇵JP-172.104.107.158-0051
+      - 🇰🇷KR-130.162.134.218-3026
+      - ��蒄��袝 France 01 TG:@nodpai
+      - ��𣉞��䌊 Germany(ChatGPT) 01 TG:@nodpai
+      - ��瑌��龖 Singapore 06 TG:@nodpai
+      - ��䤰��篅+Italy+01+TG:@nodpai
+      - ��䤰��秐+India+01+TG:@nodpai
       - ��鐯��墖 Hong Kong 03 TG:@nodpai
   - name: 🌍 国外媒体
     type: select
@@ -189,220 +129,140 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - defaultName
-      - _CN_中国_5_2@34
-      - _JP_日本_1_2@5
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V05-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V21-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V39-付费推荐:suo.yt/ssrsub'
+      - _CN_中国->🇺🇸_US_美国_3@25
+      - _JP_日本_3@11
       - _JP_日本_3_3@33
-      - _KR_韩国_2_0@12
-      - CN_08+|+5.59Mb
-      - CN_11+|+3.19Mb
-      - CN_13+|+5.93Mb
-      - GB_29+|34.46Mb
-      - NL_37+|29.87Mb
-      - NL_39+|27.22Mb
-      - NL_40+|20.61Mb
-      - NL_42+|26.46Mb
-      - NL_43+|29.26Mb
-      - NL_44+|29.00Mb
-      - NL_46+|27.67Mb
-      - NL_47+|32.22Mb
-      - NL_48+|27.89Mb
-      - NL_51+|27.61Mb
-      - NL_53+|26.55Mb
-      - NL_55+|26.77Mb
-      - NL_56+|30.37Mb
-      - NL_57+|27.95Mb
-      - NL_59+|21.81Mb
-      - NL_59+|29.59Mb
-      - Pool__1
-      - Pool__2
-      - Pool_Pool__1
-      - Pool_Pool__2
-      - Pool_Pool__3
-      - Pool_Pool__4
-      - Pool_Pool__5
-      - Pool_Pool__6
-      - Pool_Pool__7
-      - Pool_Pool__8
-      - Pool_Pool__9
-      - Pool_Pool__10
-      - Relay ��蘓��晠 Japan 05 TG:@nodpai
-      - Relay+��墖��袝+South+Korea+01+TG:@nodpai
-      - Relay+��墖��袝+South+Korea(ChatGPT)+02+TG:@nodpai
-      - Relay ��䤰��秐 India 02 TG:@nodpai
-      - Relay ��枂��瑌 United States 05 TG:@nodpai
-      - Relay ��枂��瑌 United States 06 TG:@nodpai
-      - Relay ��枂��瑌 United States(ChatGPT) 08 TG:@nodpai
-      - Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai
-      - Relay+��鐯��墖+Hong+Kong+10+TG:@nodpai
-      - 🇨🇳CN+4+→+tg@nicevpn123
-      - 🇱🇺卢森堡cf无限流量
-      - ��龖��𣇪+United+Kingdom+01+TG:@nodpai
+      - _KR_韩国_1_0@6
+      - _KR_韩国_2_0@12_1
+      - _KR_韩国_2_0@12_2
+      - _KR_韩国_2_21@18
+      - _US_美国_1_8@0
+      - _US_美国_14_6@31
+      - _US_美国_8_0@19
+      - _US_美国->🇬🇧_GB_英国_2@32
+      - _US_美国->🇯🇵_JP_日本_0@7
+      - 「SCP」DE-CF
+      - 「SCP」JP-LN-CF
+      - 「SCP」US-DO
+      - '-clone'
+      - v2rayfree.eu.org - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2
+      - 🇯🇵JP-172.104.107.158-0051
+      - 🇰🇷KR-130.162.134.218-3026
+      - ��蒄��袝 France 01 TG:@nodpai
+      - ��𣉞��䌊 Germany(ChatGPT) 01 TG:@nodpai
+      - ��瑌��龖 Singapore 06 TG:@nodpai
+      - ��䤰��篅+Italy+01+TG:@nodpai
+      - ��䤰��秐+India+01+TG:@nodpai
       - ��鐯��墖 Hong Kong 03 TG:@nodpai
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName
-      - _CN_中国_5_2@34
-      - _JP_日本_1_2@5
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V05-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V21-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V39-付费推荐:suo.yt/ssrsub'
+      - _CN_中国->🇺🇸_US_美国_3@25
+      - _JP_日本_3@11
       - _JP_日本_3_3@33
-      - _KR_韩国_2_0@12
-      - CN_08+|+5.59Mb
-      - CN_11+|+3.19Mb
-      - CN_13+|+5.93Mb
-      - GB_29+|34.46Mb
-      - NL_37+|29.87Mb
-      - NL_39+|27.22Mb
-      - NL_40+|20.61Mb
-      - NL_42+|26.46Mb
-      - NL_43+|29.26Mb
-      - NL_44+|29.00Mb
-      - NL_46+|27.67Mb
-      - NL_47+|32.22Mb
-      - NL_48+|27.89Mb
-      - NL_51+|27.61Mb
-      - NL_53+|26.55Mb
-      - NL_55+|26.77Mb
-      - NL_56+|30.37Mb
-      - NL_57+|27.95Mb
-      - NL_59+|21.81Mb
-      - NL_59+|29.59Mb
-      - Pool__1
-      - Pool__2
-      - Pool_Pool__1
-      - Pool_Pool__2
-      - Pool_Pool__3
-      - Pool_Pool__4
-      - Pool_Pool__5
-      - Pool_Pool__6
-      - Pool_Pool__7
-      - Pool_Pool__8
-      - Pool_Pool__9
-      - Pool_Pool__10
-      - Relay ��蘓��晠 Japan 05 TG:@nodpai
-      - Relay+��墖��袝+South+Korea+01+TG:@nodpai
-      - Relay+��墖��袝+South+Korea(ChatGPT)+02+TG:@nodpai
-      - Relay ��䤰��秐 India 02 TG:@nodpai
-      - Relay ��枂��瑌 United States 05 TG:@nodpai
-      - Relay ��枂��瑌 United States 06 TG:@nodpai
-      - Relay ��枂��瑌 United States(ChatGPT) 08 TG:@nodpai
-      - Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai
-      - Relay+��鐯��墖+Hong+Kong+10+TG:@nodpai
-      - 🇨🇳CN+4+→+tg@nicevpn123
-      - 🇱🇺卢森堡cf无限流量
-      - ��龖��𣇪+United+Kingdom+01+TG:@nodpai
+      - _KR_韩国_1_0@6
+      - _KR_韩国_2_0@12_1
+      - _KR_韩国_2_0@12_2
+      - _KR_韩国_2_21@18
+      - _US_美国_1_8@0
+      - _US_美国_14_6@31
+      - _US_美国_8_0@19
+      - _US_美国->🇬🇧_GB_英国_2@32
+      - _US_美国->🇯🇵_JP_日本_0@7
+      - 「SCP」DE-CF
+      - 「SCP」JP-LN-CF
+      - 「SCP」US-DO
+      - '-clone'
+      - v2rayfree.eu.org - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2
+      - 🇯🇵JP-172.104.107.158-0051
+      - 🇰🇷KR-130.162.134.218-3026
+      - ��蒄��袝 France 01 TG:@nodpai
+      - ��𣉞��䌊 Germany(ChatGPT) 01 TG:@nodpai
+      - ��瑌��龖 Singapore 06 TG:@nodpai
+      - ��䤰��篅+Italy+01+TG:@nodpai
+      - ��䤰��秐+India+01+TG:@nodpai
       - ��鐯��墖 Hong Kong 03 TG:@nodpai
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - defaultName
-      - _CN_中国_5_2@34
-      - _JP_日本_1_2@5
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V05-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V21-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V39-付费推荐:suo.yt/ssrsub'
+      - _CN_中国->🇺🇸_US_美国_3@25
+      - _JP_日本_3@11
       - _JP_日本_3_3@33
-      - _KR_韩国_2_0@12
-      - CN_08+|+5.59Mb
-      - CN_11+|+3.19Mb
-      - CN_13+|+5.93Mb
-      - GB_29+|34.46Mb
-      - NL_37+|29.87Mb
-      - NL_39+|27.22Mb
-      - NL_40+|20.61Mb
-      - NL_42+|26.46Mb
-      - NL_43+|29.26Mb
-      - NL_44+|29.00Mb
-      - NL_46+|27.67Mb
-      - NL_47+|32.22Mb
-      - NL_48+|27.89Mb
-      - NL_51+|27.61Mb
-      - NL_53+|26.55Mb
-      - NL_55+|26.77Mb
-      - NL_56+|30.37Mb
-      - NL_57+|27.95Mb
-      - NL_59+|21.81Mb
-      - NL_59+|29.59Mb
-      - Pool__1
-      - Pool__2
-      - Pool_Pool__1
-      - Pool_Pool__2
-      - Pool_Pool__3
-      - Pool_Pool__4
-      - Pool_Pool__5
-      - Pool_Pool__6
-      - Pool_Pool__7
-      - Pool_Pool__8
-      - Pool_Pool__9
-      - Pool_Pool__10
-      - Relay ��蘓��晠 Japan 05 TG:@nodpai
-      - Relay+��墖��袝+South+Korea+01+TG:@nodpai
-      - Relay+��墖��袝+South+Korea(ChatGPT)+02+TG:@nodpai
-      - Relay ��䤰��秐 India 02 TG:@nodpai
-      - Relay ��枂��瑌 United States 05 TG:@nodpai
-      - Relay ��枂��瑌 United States 06 TG:@nodpai
-      - Relay ��枂��瑌 United States(ChatGPT) 08 TG:@nodpai
-      - Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai
-      - Relay+��鐯��墖+Hong+Kong+10+TG:@nodpai
-      - 🇨🇳CN+4+→+tg@nicevpn123
-      - 🇱🇺卢森堡cf无限流量
-      - ��龖��𣇪+United+Kingdom+01+TG:@nodpai
+      - _KR_韩国_1_0@6
+      - _KR_韩国_2_0@12_1
+      - _KR_韩国_2_0@12_2
+      - _KR_韩国_2_21@18
+      - _US_美国_1_8@0
+      - _US_美国_14_6@31
+      - _US_美国_8_0@19
+      - _US_美国->🇬🇧_GB_英国_2@32
+      - _US_美国->🇯🇵_JP_日本_0@7
+      - 「SCP」DE-CF
+      - 「SCP」JP-LN-CF
+      - 「SCP」US-DO
+      - '-clone'
+      - v2rayfree.eu.org - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2
+      - 🇯🇵JP-172.104.107.158-0051
+      - 🇰🇷KR-130.162.134.218-3026
+      - ��蒄��袝 France 01 TG:@nodpai
+      - ��𣉞��䌊 Germany(ChatGPT) 01 TG:@nodpai
+      - ��瑌��龖 Singapore 06 TG:@nodpai
+      - ��䤰��篅+Italy+01+TG:@nodpai
+      - ��䤰��秐+India+01+TG:@nodpai
       - ��鐯��墖 Hong Kong 03 TG:@nodpai
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName
-      - _CN_中国_5_2@34
-      - _JP_日本_1_2@5
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V05-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V21-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V39-付费推荐:suo.yt/ssrsub'
+      - _CN_中国->🇺🇸_US_美国_3@25
+      - _JP_日本_3@11
       - _JP_日本_3_3@33
-      - _KR_韩国_2_0@12
-      - CN_08+|+5.59Mb
-      - CN_11+|+3.19Mb
-      - CN_13+|+5.93Mb
-      - GB_29+|34.46Mb
-      - NL_37+|29.87Mb
-      - NL_39+|27.22Mb
-      - NL_40+|20.61Mb
-      - NL_42+|26.46Mb
-      - NL_43+|29.26Mb
-      - NL_44+|29.00Mb
-      - NL_46+|27.67Mb
-      - NL_47+|32.22Mb
-      - NL_48+|27.89Mb
-      - NL_51+|27.61Mb
-      - NL_53+|26.55Mb
-      - NL_55+|26.77Mb
-      - NL_56+|30.37Mb
-      - NL_57+|27.95Mb
-      - NL_59+|21.81Mb
-      - NL_59+|29.59Mb
-      - Pool__1
-      - Pool__2
-      - Pool_Pool__1
-      - Pool_Pool__2
-      - Pool_Pool__3
-      - Pool_Pool__4
-      - Pool_Pool__5
-      - Pool_Pool__6
-      - Pool_Pool__7
-      - Pool_Pool__8
-      - Pool_Pool__9
-      - Pool_Pool__10
-      - Relay ��蘓��晠 Japan 05 TG:@nodpai
-      - Relay+��墖��袝+South+Korea+01+TG:@nodpai
-      - Relay+��墖��袝+South+Korea(ChatGPT)+02+TG:@nodpai
-      - Relay ��䤰��秐 India 02 TG:@nodpai
-      - Relay ��枂��瑌 United States 05 TG:@nodpai
-      - Relay ��枂��瑌 United States 06 TG:@nodpai
-      - Relay ��枂��瑌 United States(ChatGPT) 08 TG:@nodpai
-      - Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai
-      - Relay+��鐯��墖+Hong+Kong+10+TG:@nodpai
-      - 🇨🇳CN+4+→+tg@nicevpn123
-      - 🇱🇺卢森堡cf无限流量
-      - ��龖��𣇪+United+Kingdom+01+TG:@nodpai
+      - _KR_韩国_1_0@6
+      - _KR_韩国_2_0@12_1
+      - _KR_韩国_2_0@12_2
+      - _KR_韩国_2_21@18
+      - _US_美国_1_8@0
+      - _US_美国_14_6@31
+      - _US_美国_8_0@19
+      - _US_美国->🇬🇧_GB_英国_2@32
+      - _US_美国->🇯🇵_JP_日本_0@7
+      - 「SCP」DE-CF
+      - 「SCP」JP-LN-CF
+      - 「SCP」US-DO
+      - '-clone'
+      - v2rayfree.eu.org - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2
+      - 🇯🇵JP-172.104.107.158-0051
+      - 🇰🇷KR-130.162.134.218-3026
+      - ��蒄��袝 France 01 TG:@nodpai
+      - ��𣉞��䌊 Germany(ChatGPT) 01 TG:@nodpai
+      - ��瑌��龖 Singapore 06 TG:@nodpai
+      - ��䤰��篅+Italy+01+TG:@nodpai
+      - ��䤰��秐+India+01+TG:@nodpai
       - ��鐯��墖 Hong Kong 03 TG:@nodpai
   - name: 🎯 全球直连
     type: select
@@ -426,55 +286,35 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - defaultName
-      - _CN_中国_5_2@34
-      - _JP_日本_1_2@5
+      - '@SSRSUB-V02-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V05-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V09-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V21-付费推荐:suo.yt/ssrsub'
+      - '@SSRSUB-V39-付费推荐:suo.yt/ssrsub'
+      - _CN_中国->🇺🇸_US_美国_3@25
+      - _JP_日本_3@11
       - _JP_日本_3_3@33
-      - _KR_韩国_2_0@12
-      - CN_08+|+5.59Mb
-      - CN_11+|+3.19Mb
-      - CN_13+|+5.93Mb
-      - GB_29+|34.46Mb
-      - NL_37+|29.87Mb
-      - NL_39+|27.22Mb
-      - NL_40+|20.61Mb
-      - NL_42+|26.46Mb
-      - NL_43+|29.26Mb
-      - NL_44+|29.00Mb
-      - NL_46+|27.67Mb
-      - NL_47+|32.22Mb
-      - NL_48+|27.89Mb
-      - NL_51+|27.61Mb
-      - NL_53+|26.55Mb
-      - NL_55+|26.77Mb
-      - NL_56+|30.37Mb
-      - NL_57+|27.95Mb
-      - NL_59+|21.81Mb
-      - NL_59+|29.59Mb
-      - Pool__1
-      - Pool__2
-      - Pool_Pool__1
-      - Pool_Pool__2
-      - Pool_Pool__3
-      - Pool_Pool__4
-      - Pool_Pool__5
-      - Pool_Pool__6
-      - Pool_Pool__7
-      - Pool_Pool__8
-      - Pool_Pool__9
-      - Pool_Pool__10
-      - Relay ��蘓��晠 Japan 05 TG:@nodpai
-      - Relay+��墖��袝+South+Korea+01+TG:@nodpai
-      - Relay+��墖��袝+South+Korea(ChatGPT)+02+TG:@nodpai
-      - Relay ��䤰��秐 India 02 TG:@nodpai
-      - Relay ��枂��瑌 United States 05 TG:@nodpai
-      - Relay ��枂��瑌 United States 06 TG:@nodpai
-      - Relay ��枂��瑌 United States(ChatGPT) 08 TG:@nodpai
-      - Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai
-      - Relay+��鐯��墖+Hong+Kong+10+TG:@nodpai
-      - 🇨🇳CN+4+→+tg@nicevpn123
-      - 🇱🇺卢森堡cf无限流量
-      - ��龖��𣇪+United+Kingdom+01+TG:@nodpai
+      - _KR_韩国_1_0@6
+      - _KR_韩国_2_0@12_1
+      - _KR_韩国_2_0@12_2
+      - _KR_韩国_2_21@18
+      - _US_美国_1_8@0
+      - _US_美国_14_6@31
+      - _US_美国_8_0@19
+      - _US_美国->🇬🇧_GB_英国_2@32
+      - _US_美国->🇯🇵_JP_日本_0@7
+      - 「SCP」DE-CF
+      - 「SCP」JP-LN-CF
+      - 「SCP」US-DO
+      - '-clone'
+      - v2rayfree.eu.org - 美国加利福尼亚州洛杉矶Coperation Coloction数据中心 2
+      - 🇯🇵JP-172.104.107.158-0051
+      - 🇰🇷KR-130.162.134.218-3026
+      - ��蒄��袝 France 01 TG:@nodpai
+      - ��𣉞��䌊 Germany(ChatGPT) 01 TG:@nodpai
+      - ��瑌��龖 Singapore 06 TG:@nodpai
+      - ��䤰��篅+Italy+01+TG:@nodpai
+      - ��䤰��秐+India+01+TG:@nodpai
       - ��鐯��墖 Hong Kong 03 TG:@nodpai
 
 rules:
