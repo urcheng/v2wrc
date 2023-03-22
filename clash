@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-03-21 15:05:23
+# 创建时间：2023-03-22 10:13:13
 # 使用模版：V2RaySE 默认模版
-# 节点数量：17
+# 节点数量：12
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,158 +21,123 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"defaultName","type":"ss","server":"167.88.63.79","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"|+4.17Mb","type":"ss","server":"212.102.53.79","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
-  - {"name":"|+9.85Mb","type":"ss","server":"172.105.97.80","port":31711,"password":"5898836955","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"|18.96Mb","type":"vmess","server":"172.93.47.4","port":10512,"cipher":"auto","uuid":"58781eee-baba-6666-baba-2ca0ada6568b","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"|39.14Mb","type":"vmess","server":"8.210.47.216","port":43469,"cipher":"auto","uuid":"163cc2ef-a4c8-4f48-9898-f8a7074d1947","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"],"headers":{"host":"8.210.47.216"}}}
-  - {"name":"CN_17 | 4.36Mb","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"GB_30+|28.52Mb","type":"ss","server":"212.102.53.195","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
-  - {"name":"github.com/freefq - 美国惠普HP 6","type":"vmess","server":"hk1.b.bd6b6c503c93.sanfen001.pics","port":443,"cipher":"auto","uuid":"da9d5c74-a572-4cf4-a375-19b886f5ffc4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"Relay_🇭🇰HK-🇭🇰HK_211 |11.92Mb","type":"vmess","server":"gy01.flydog.pro","port":10000,"cipher":"auto","uuid":"ba5f0928-14b9-4fc8-a03b-be6cee7306b7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US_174 |17.75Mb","type":"vmess","server":"hk1.b.bd6b6c503c93.sanfen001.pics","port":443,"cipher":"auto","uuid":"da9d5c74-a572-4cf4-a375-19b886f5ffc4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"hk1.b.bd6b6c503c93.sanfen001.pics"}}}
-  - {"name":"美国 惠普HP","type":"vmess","server":"hk1.b.bd6b6c503c93.sanfen001.pics","port":443,"cipher":"auto","uuid":"da9d5c74-a572-4cf4-a375-19b886f5ffc4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"台北|tg频道:@ripaojiedian","type":"vmess","server":"tw2.sanfen001.pics","port":443,"cipher":"auto","uuid":"da9d5c74-a572-4cf4-a375-19b886f5ffc4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"香港02|tg频道:@ripaojiedian","type":"trojan","server":"cn-hk-30.fnhffffe4.cc","port":50110,"udp":true,"password":"656aeb77-1cee-4900-b412-f9cbb6df9b5f","sni":"cn-hk-30.fnhffffe4.cc","skip-cert-verify":true}
-  - {"name":"香港Az|@ripaojiedian","type":"vmess","server":"t.cccao.cyou","port":16627,"cipher":"auto","uuid":"416a9067-3d65-4f31-832d-51f44b63aebb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"t.cccao.cyou"}}}
-  - {"name":"��䌊��瑌 Spain 01 TG:@nodpai","type":"vmess","server":"5.188.183.10","port":43976,"cipher":"auto","uuid":"c7c72515-4d9a-4efa-cc84-fd799d378a19","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"CN_22 | 4.36Mb","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Alien_1","type":"vmess","server":"130.61.179.77","port":20574,"cipher":"auto","uuid":"87e3048a-5932-457a-84b9-deb51b5c91cd","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"_FR_法国_2_11@22","type":"vmess","server":"51.75.226.83","port":39152,"cipher":"auto","uuid":"dd716574-789e-4153-ea8d-2251b46c2299","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"],"headers":{"host":"51.75.226.83"}}}
+  - {"name":"Alien_2","type":"vmess","server":"129.146.46.181","port":52408,"cipher":"auto","uuid":"a797ff7b-8161-40a6-d577-1b2c213b3885","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"��䤰��秐+India+01+TG:@nodpai","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
-  - {"name":"��鐯��墖 Hong Kong 03 TG:@nodpai","type":"vmess","server":"gy01.flydog.pro","port":10000,"cipher":"auto","uuid":"ba5f0928-14b9-4fc8-a03b-be6cee7306b7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Alien_3","type":"vmess","server":"129.146.177.163","port":46718,"cipher":"auto","uuid":"5eb5c3b7-880e-4dc5-8a1f-e637a3882626","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"|39.14Mb","type":"vmess","server":"8.210.47.216","port":43469,"cipher":"auto","uuid":"163cc2ef-a4c8-4f48-9898-f8a7074d1947","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"],"headers":{"host":"8.210.47.216"}}}
+  - {"name":"v2rayfree.eu.org - 日本  1","type":"vmess","server":"43.154.90.134","port":38906,"cipher":"auto","uuid":"6b6dd11a-798c-401e-ba46-d6272e29aca3","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"hk4.verichains.co","network":"ws","ws-opts":{"path":"/hk4/getData","headers":{"host":"hk4.verichains.co"}}}
+  - {"name":"Alien_4","type":"vmess","server":"132.226.162.128","port":39564,"cipher":"auto","uuid":"1b1190ea-f2f9-415b-bbe3-5d80baa30f6f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"|+5.76Mb","type":"ss","server":"14.29.124.168","port":25238,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"_CN_中国_1_0@24","type":"ss","server":"36.139.166.231","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"CN_14+|+3.85Mb","type":"ss","server":"36.138.140.208","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - defaultName
-      - '|+4.17Mb'
-      - '|+9.85Mb'
-      - '|18.96Mb'
-      - '|39.14Mb'
-      - CN_17 | 4.36Mb
-      - GB_30+|28.52Mb
-      - github.com/freefq - 美国惠普HP 6
-      - Relay_🇭🇰HK-🇭🇰HK_211 |11.92Mb
-      - US_174 |17.75Mb
-      - 美国 惠普HP
-      - 台北|tg频道:@ripaojiedian
-      - 香港02|tg频道:@ripaojiedian
-      - 香港Az|@ripaojiedian
-      - ��䌊��瑌 Spain 01 TG:@nodpai
+      - CN_22 | 4.36Mb
+      - Alien_1
+      - _FR_法国_2_11@22
+      - Alien_2
       - ��䤰��秐+India+01+TG:@nodpai
-      - ��鐯��墖 Hong Kong 03 TG:@nodpai
+      - Alien_3
+      - '|39.14Mb'
+      - v2rayfree.eu.org - 日本  1
+      - Alien_4
+      - '|+5.76Mb'
+      - _CN_中国_1_0@24
+      - CN_14+|+3.85Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName
-      - '|+4.17Mb'
-      - '|+9.85Mb'
-      - '|18.96Mb'
-      - '|39.14Mb'
-      - CN_17 | 4.36Mb
-      - GB_30+|28.52Mb
-      - github.com/freefq - 美国惠普HP 6
-      - Relay_🇭🇰HK-🇭🇰HK_211 |11.92Mb
-      - US_174 |17.75Mb
-      - 美国 惠普HP
-      - 台北|tg频道:@ripaojiedian
-      - 香港02|tg频道:@ripaojiedian
-      - 香港Az|@ripaojiedian
-      - ��䌊��瑌 Spain 01 TG:@nodpai
+      - CN_22 | 4.36Mb
+      - Alien_1
+      - _FR_法国_2_11@22
+      - Alien_2
       - ��䤰��秐+India+01+TG:@nodpai
-      - ��鐯��墖 Hong Kong 03 TG:@nodpai
+      - Alien_3
+      - '|39.14Mb'
+      - v2rayfree.eu.org - 日本  1
+      - Alien_4
+      - '|+5.76Mb'
+      - _CN_中国_1_0@24
+      - CN_14+|+3.85Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - defaultName
-      - '|+4.17Mb'
-      - '|+9.85Mb'
-      - '|18.96Mb'
-      - '|39.14Mb'
-      - CN_17 | 4.36Mb
-      - GB_30+|28.52Mb
-      - github.com/freefq - 美国惠普HP 6
-      - Relay_🇭🇰HK-🇭🇰HK_211 |11.92Mb
-      - US_174 |17.75Mb
-      - 美国 惠普HP
-      - 台北|tg频道:@ripaojiedian
-      - 香港02|tg频道:@ripaojiedian
-      - 香港Az|@ripaojiedian
-      - ��䌊��瑌 Spain 01 TG:@nodpai
+      - CN_22 | 4.36Mb
+      - Alien_1
+      - _FR_法国_2_11@22
+      - Alien_2
       - ��䤰��秐+India+01+TG:@nodpai
-      - ��鐯��墖 Hong Kong 03 TG:@nodpai
+      - Alien_3
+      - '|39.14Mb'
+      - v2rayfree.eu.org - 日本  1
+      - Alien_4
+      - '|+5.76Mb'
+      - _CN_中国_1_0@24
+      - CN_14+|+3.85Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName
-      - '|+4.17Mb'
-      - '|+9.85Mb'
-      - '|18.96Mb'
-      - '|39.14Mb'
-      - CN_17 | 4.36Mb
-      - GB_30+|28.52Mb
-      - github.com/freefq - 美国惠普HP 6
-      - Relay_🇭🇰HK-🇭🇰HK_211 |11.92Mb
-      - US_174 |17.75Mb
-      - 美国 惠普HP
-      - 台北|tg频道:@ripaojiedian
-      - 香港02|tg频道:@ripaojiedian
-      - 香港Az|@ripaojiedian
-      - ��䌊��瑌 Spain 01 TG:@nodpai
+      - CN_22 | 4.36Mb
+      - Alien_1
+      - _FR_法国_2_11@22
+      - Alien_2
       - ��䤰��秐+India+01+TG:@nodpai
-      - ��鐯��墖 Hong Kong 03 TG:@nodpai
+      - Alien_3
+      - '|39.14Mb'
+      - v2rayfree.eu.org - 日本  1
+      - Alien_4
+      - '|+5.76Mb'
+      - _CN_中国_1_0@24
+      - CN_14+|+3.85Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - defaultName
-      - '|+4.17Mb'
-      - '|+9.85Mb'
-      - '|18.96Mb'
-      - '|39.14Mb'
-      - CN_17 | 4.36Mb
-      - GB_30+|28.52Mb
-      - github.com/freefq - 美国惠普HP 6
-      - Relay_🇭🇰HK-🇭🇰HK_211 |11.92Mb
-      - US_174 |17.75Mb
-      - 美国 惠普HP
-      - 台北|tg频道:@ripaojiedian
-      - 香港02|tg频道:@ripaojiedian
-      - 香港Az|@ripaojiedian
-      - ��䌊��瑌 Spain 01 TG:@nodpai
+      - CN_22 | 4.36Mb
+      - Alien_1
+      - _FR_法国_2_11@22
+      - Alien_2
       - ��䤰��秐+India+01+TG:@nodpai
-      - ��鐯��墖 Hong Kong 03 TG:@nodpai
+      - Alien_3
+      - '|39.14Mb'
+      - v2rayfree.eu.org - 日本  1
+      - Alien_4
+      - '|+5.76Mb'
+      - _CN_中国_1_0@24
+      - CN_14+|+3.85Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName
-      - '|+4.17Mb'
-      - '|+9.85Mb'
-      - '|18.96Mb'
-      - '|39.14Mb'
-      - CN_17 | 4.36Mb
-      - GB_30+|28.52Mb
-      - github.com/freefq - 美国惠普HP 6
-      - Relay_🇭🇰HK-🇭🇰HK_211 |11.92Mb
-      - US_174 |17.75Mb
-      - 美国 惠普HP
-      - 台北|tg频道:@ripaojiedian
-      - 香港02|tg频道:@ripaojiedian
-      - 香港Az|@ripaojiedian
-      - ��䌊��瑌 Spain 01 TG:@nodpai
+      - CN_22 | 4.36Mb
+      - Alien_1
+      - _FR_法国_2_11@22
+      - Alien_2
       - ��䤰��秐+India+01+TG:@nodpai
-      - ��鐯��墖 Hong Kong 03 TG:@nodpai
+      - Alien_3
+      - '|39.14Mb'
+      - v2rayfree.eu.org - 日本  1
+      - Alien_4
+      - '|+5.76Mb'
+      - _CN_中国_1_0@24
+      - CN_14+|+3.85Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -195,23 +160,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - defaultName
-      - '|+4.17Mb'
-      - '|+9.85Mb'
-      - '|18.96Mb'
-      - '|39.14Mb'
-      - CN_17 | 4.36Mb
-      - GB_30+|28.52Mb
-      - github.com/freefq - 美国惠普HP 6
-      - Relay_🇭🇰HK-🇭🇰HK_211 |11.92Mb
-      - US_174 |17.75Mb
-      - 美国 惠普HP
-      - 台北|tg频道:@ripaojiedian
-      - 香港02|tg频道:@ripaojiedian
-      - 香港Az|@ripaojiedian
-      - ��䌊��瑌 Spain 01 TG:@nodpai
+      - CN_22 | 4.36Mb
+      - Alien_1
+      - _FR_法国_2_11@22
+      - Alien_2
       - ��䤰��秐+India+01+TG:@nodpai
-      - ��鐯��墖 Hong Kong 03 TG:@nodpai
+      - Alien_3
+      - '|39.14Mb'
+      - v2rayfree.eu.org - 日本  1
+      - Alien_4
+      - '|+5.76Mb'
+      - _CN_中国_1_0@24
+      - CN_14+|+3.85Mb
 
 rules:
 # 本地/局域网地址
