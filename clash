@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-03-27 09:25:00
+# 创建时间：2023-03-28 09:06:17
 # 使用模版：V2RaySE 默认模版
 # 节点数量：41
 ####################################
@@ -21,326 +21,326 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇯🇵日本02｜2x","type":"vmess","server":"jp2.zzk8.me","port":49566,"cipher":"auto","uuid":"745011f3-3ca6-4ab8-90e6-7ba401427e62","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"SG_109+|10.44Mb","type":"ss","server":"52.221.242.53","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇹🇼台湾03｜原生｜3x","type":"vmess","server":"tw3.zzk8.me","port":49348,"cipher":"auto","uuid":"745011f3-3ca6-4ab8-90e6-7ba401427e62","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇯🇵日本｜实验性｜0.8x","type":"vmess","server":"jpxx.zzk8.me","port":33113,"cipher":"auto","uuid":"745011f3-3ca6-4ab8-90e6-7ba401427e62","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰香港06｜BGP｜2.4x","type":"vmess","server":"hk6.zzk8.me","port":49266,"cipher":"auto","uuid":"745011f3-3ca6-4ab8-90e6-7ba401427e62","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"香港高速接入点-05","type":"vmess","server":"hk5.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"ae63c769-7b4f-4916-b575-9214639fcb8b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"HK 5","type":"vmess","server":"18.162.56.13","port":50005,"cipher":"auto","uuid":"c8dc97a8-697b-4abe-9a72-2adc249bb1b4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hneko"}}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_193 | 5.04Mb","type":"vmess","server":"hk3.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"2d506805-626a-4669-8c8b-23f383e371ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"香港高速接入点-03","type":"vmess","server":"hk3.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"ae63c769-7b4f-4916-b575-9214639fcb8b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_158 | 8.10Mb","type":"vmess","server":"hk3.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"6de268e0-7c43-4fbe-8644-2f418ace887a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"hk3.af49c4e4c2ef.sanfen001.pics"}}}
-  - {"name":"HK 3","type":"vmess","server":"18.162.114.82","port":50003,"cipher":"auto","uuid":"c8dc97a8-697b-4abe-9a72-2adc249bb1b4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hneko"}}
-  - {"name":"HK 6","type":"vmess","server":"18.162.56.13","port":50006,"cipher":"auto","uuid":"c8dc97a8-697b-4abe-9a72-2adc249bb1b4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hneko"}}
-  - {"name":"AU_04 | 4.40Mb","type":"vmess","server":"hk6.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"da9d5c74-a572-4cf4-a375-19b886f5ffc4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"hk6.af49c4e4c2ef.sanfen001.pics"}}}
-  - {"name":"🇺🇸美国02｜1x","type":"vmess","server":"us2.zzk8.me","port":49867,"cipher":"auto","uuid":"745011f3-3ca6-4ab8-90e6-7ba401427e62","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"_CN_中国_1_0@6","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"关注电报https://t.me/mftizi","type":"vmess","server":"hk3.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"6de268e0-7c43-4fbe-8644-2f418ace887a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"www.microsoft.com","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"🇯🇵日本03｜2x","type":"vmess","server":"jp3.zzk8.me","port":49588,"cipher":"auto","uuid":"745011f3-3ca6-4ab8-90e6-7ba401427e62","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_166 |22.98Mb","type":"vmess","server":"hk1.b.bd6b6c503c93.sanfen001.pics","port":443,"cipher":"auto","uuid":"da9d5c74-a572-4cf4-a375-19b886f5ffc4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"hk1.b.bd6b6c503c93.sanfen001.pics"}}}
-  - {"name":"KR 3","type":"vmess","server":"52.79.89.48","port":51456,"cipher":"auto","uuid":"c8dc97a8-697b-4abe-9a72-2adc249bb1b4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hneko"}}
-  - {"name":"日本高速接入点-02","type":"vmess","server":"jp2.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"ae63c769-7b4f-4916-b575-9214639fcb8b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"香港高速接入点-06","type":"vmess","server":"hk6.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"ae63c769-7b4f-4916-b575-9214639fcb8b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"🇨🇳_CN_中国","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"_53 |11.11Mb","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"US_245+|14.29Mb","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
-  - {"name":"🇺🇸美国02｜频道@Cnb38","type":"ss","server":"54.212.3.91","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸美国01｜1x","type":"vmess","server":"us1.zzk8.me","port":49855,"cipher":"auto","uuid":"745011f3-3ca6-4ab8-90e6-7ba401427e62","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇫🇷法国07｜频道@Cnb38","type":"trojan","server":"tj666.37927.online","port":443,"udp":true,"password":"I9ZoY","skip-cert-verify":true}
-  - {"name":"defaultName_1","type":"ss","server":"85.208.108.60","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_2","type":"ss","server":"85.208.108.60","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"_SG_新加坡_2_10@8","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
-  - {"name":"_CN_中国->🇺🇸_US_美国_2_1@41","type":"trojan","server":"oss-cn-shanghai.westdatacloud.top","port":20048,"udp":true,"password":"626351FA-3CA6-8118-FADF-CCDBCD620871","sni":"oss-cn-shanghai.westdatacloud.top","skip-cert-verify":true}
-  - {"name":"🇷🇺俄罗斯｜实验性｜0.5x","type":"vmess","server":"ruxx.zzk8.me","port":33222,"cipher":"auto","uuid":"745011f3-3ca6-4ab8-90e6-7ba401427e62","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"AU_03 | 6.36Mb","type":"vmess","server":"hk6.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"2d506805-626a-4669-8c8b-23f383e371ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"🇯🇵日本01｜2x","type":"vmess","server":"jp1.zzk8.me","port":49555,"cipher":"auto","uuid":"745011f3-3ca6-4ab8-90e6-7ba401427e62","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_194 | 9.06Mb","type":"vmess","server":"hk5.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"2d506805-626a-4669-8c8b-23f383e371ca","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"🇻🇳越南｜原生｜1.2x","type":"vmess","server":"vn1.zzk8.me","port":47111,"cipher":"auto","uuid":"745011f3-3ca6-4ab8-90e6-7ba401427e62","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇸🇬新加坡03｜2x","type":"vmess","server":"sg3.zzk8.me","port":49779,"cipher":"auto","uuid":"745011f3-3ca6-4ab8-90e6-7ba401427e62","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"_CN_中国_1_0@6","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"proxy_1","type":"vmess","server":"156.225.67.107","port":51234,"cipher":"auto","uuid":"29a5d48e-24f1-48fd-a5e1-9a46cb31032f","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"proxy_2","type":"vmess","server":"198.2.208.179","port":35402,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"proxy_3","type":"vmess","server":"156.225.67.73","port":41008,"cipher":"auto","uuid":"21155efd-8e29-43d2-95bc-fe3190ecb1c6","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"proxy_4","type":"vmess","server":"142.4.99.68","port":41169,"cipher":"auto","uuid":"b65da4af-a12a-4a59-9316-4549e12ba62c","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"proxy_5","type":"vmess","server":"156.225.67.126","port":443,"cipher":"auto","uuid":"3a3c8a9c-334e-4360-adb8-a80a57ddcbbf","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.16046626.xyz","network":"ws","ws-opts":{"path":"/path/130632252334","headers":{"host":"www.16046626.xyz"}}}
+  - {"name":"proxy_6","type":"vmess","server":"156.225.67.15","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.84938863.xyz","network":"ws","ws-opts":{"path":"/path/130632252334","headers":{"host":"www.84938863.xyz"}}}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_213 |15.25Mb","type":"vmess","server":"d210.clco.in","port":58839,"cipher":"auto","uuid":"21d31a6c-309e-49ba-d20a-4124849009df","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"d210.clco.in"}}}
+  - {"name":"🇨🇳_CN_中国","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇨🇳CN 4 → tg@nicevpn123","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"_CN_中国_1_2@4","type":"ss","server":"36.139.166.247","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_3","type":"ss","server":"14.29.124.168","port":25222,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"_JP_日本_1_6@11","type":"ssr","server":"jp-am48-6.eqnode.net","port":8081,"password":"eAokbaDN6","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
+  - {"name":"🇺🇸US-74.211.96.238-2187","type":"vmess","server":"d210.clco.in","port":58839,"cipher":"auto","uuid":"21d31a6c-309e-49ba-d20a-4124849009df","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"d210.clco.in","network":"ws","ws-opts":{"path":"/","headers":{"host":"d210.clco.in"}}}
+  - {"name":"美国【付费推荐：https://tt.vg/vip】298","type":"vmess","server":"143.42.110.81","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"143.42.110.81"}}}
+  - {"name":"香港高速接入点-05","type":"vmess","server":"hk5.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"ae63c769-7b4f-4916-b575-9214639fcb8b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
+  - {"name":"香港高速接入点-06","type":"vmess","server":"hk6.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"ae63c769-7b4f-4916-b575-9214639fcb8b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
+  - {"name":"defaultName_1","type":"ss","server":"14.29.124.168","port":25297,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_2","type":"ss","server":"14.29.124.168","port":25279,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_3","type":"ss","server":"14.29.124.168","port":25254,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_4","type":"ss","server":"14.29.124.168","port":25222,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_5","type":"ss","server":"14.29.124.168","port":25218,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_6","type":"ss","server":"14.29.124.168","port":25247,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_7","type":"ss","server":"14.29.124.168","port":25287,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_8","type":"ss","server":"14.29.124.168","port":25259,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_9","type":"ss","server":"14.29.124.168","port":25251,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_10","type":"ss","server":"14.29.124.168","port":25220,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_11","type":"ss","server":"14.29.124.168","port":25226,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_12","type":"ss","server":"14.29.124.168","port":25286,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_13","type":"ss","server":"14.29.124.168","port":25231,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_14","type":"ss","server":"14.29.124.168","port":25268,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_15","type":"ss","server":"14.29.124.168","port":25295,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_16","type":"ss","server":"14.29.124.168","port":25230,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_17","type":"ss","server":"14.29.124.168","port":25256,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"defaultName_18","type":"ss","server":"14.29.124.168","port":25284,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"|+5.94Mb","type":"ss","server":"18.143.187.111","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"|+7.40Mb","type":"ss","server":"14.29.124.168","port":25296,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"|+8.15Mb","type":"ss","server":"36.138.140.208","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"|28.02Mb","type":"ss","server":"13.213.41.142","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"|31.12Mb","type":"ss","server":"13.213.17.169","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"|35.03Mb","type":"ss","server":"18.141.236.127","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"_CN_中国->🇺🇸_US_美国_2_1@41","type":"trojan","server":"oss-cn-shanghai.westdatacloud.top","port":20048,"udp":true,"password":"626351FA-3CA6-8118-FADF-CCDBCD620871","sni":"oss-cn-shanghai.westdatacloud.top","skip-cert-verify":true}
+  - {"name":"US_217+|11.02Mb","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵日本02｜2x
-      - SG_109+|10.44Mb
-      - 🇹🇼台湾03｜原生｜3x
-      - 🇯🇵日本｜实验性｜0.8x
-      - 🇭🇰香港06｜BGP｜2.4x
-      - 香港高速接入点-05
-      - HK 5
-      - Relay_🇺🇸US-🇺🇸US_193 | 5.04Mb
-      - 香港高速接入点-03
-      - Relay_🇺🇸US-🇺🇸US_158 | 8.10Mb
-      - HK 3
-      - HK 6
-      - AU_04 | 4.40Mb
-      - 🇺🇸美国02｜1x
-      - _CN_中国_1_0@6
-      - 关注电报https://t.me/mftizi
-      - 🇯🇵日本03｜2x
-      - Relay_🇺🇸US-🇺🇸US_166 |22.98Mb
-      - KR 3
-      - 日本高速接入点-02
-      - 香港高速接入点-06
-      - 🇨🇳_CN_中国
       - _53 |11.11Mb
-      - US_245+|14.29Mb
-      - 🇺🇸美国02｜频道@Cnb38
-      - 🇺🇸美国01｜1x
-      - 🇫🇷法国07｜频道@Cnb38
+      - _CN_中国_1_0@6
+      - proxy_1
+      - proxy_2
+      - proxy_3
+      - proxy_4
+      - proxy_5
+      - proxy_6
+      - Relay_🇺🇸US-🇺🇸US_213 |15.25Mb
+      - 🇨🇳_CN_中国
+      - 🇨🇳CN 4 → tg@nicevpn123
+      - 🇺🇸US-74.211.96.238-2187
+      - 美国【付费推荐：https://tt.vg/vip】298
+      - 香港高速接入点-05
+      - 香港高速接入点-06
       - defaultName_1
       - defaultName_2
-      - _SG_新加坡_2_10@8
-      - _CN_中国->🇺🇸_US_美国_2_1@41
-      - 🇷🇺俄罗斯｜实验性｜0.5x
-      - AU_03 | 6.36Mb
-      - 🇯🇵日本01｜2x
-      - Relay_🇺🇸US-🇺🇸US_194 | 9.06Mb
-      - 🇻🇳越南｜原生｜1.2x
-      - 🇸🇬新加坡03｜2x
-      - 🇨🇳CN 4 → tg@nicevpn123
-      - _CN_中国_1_2@4
       - defaultName_3
-      - _JP_日本_1_6@11
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - '|+5.94Mb'
+      - '|+7.40Mb'
+      - '|+8.15Mb'
+      - '|28.02Mb'
+      - '|31.12Mb'
+      - '|35.03Mb'
+      - _CN_中国->🇺🇸_US_美国_2_1@41
+      - US_217+|11.02Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵日本02｜2x
-      - SG_109+|10.44Mb
-      - 🇹🇼台湾03｜原生｜3x
-      - 🇯🇵日本｜实验性｜0.8x
-      - 🇭🇰香港06｜BGP｜2.4x
-      - 香港高速接入点-05
-      - HK 5
-      - Relay_🇺🇸US-🇺🇸US_193 | 5.04Mb
-      - 香港高速接入点-03
-      - Relay_🇺🇸US-🇺🇸US_158 | 8.10Mb
-      - HK 3
-      - HK 6
-      - AU_04 | 4.40Mb
-      - 🇺🇸美国02｜1x
-      - _CN_中国_1_0@6
-      - 关注电报https://t.me/mftizi
-      - 🇯🇵日本03｜2x
-      - Relay_🇺🇸US-🇺🇸US_166 |22.98Mb
-      - KR 3
-      - 日本高速接入点-02
-      - 香港高速接入点-06
-      - 🇨🇳_CN_中国
       - _53 |11.11Mb
-      - US_245+|14.29Mb
-      - 🇺🇸美国02｜频道@Cnb38
-      - 🇺🇸美国01｜1x
-      - 🇫🇷法国07｜频道@Cnb38
+      - _CN_中国_1_0@6
+      - proxy_1
+      - proxy_2
+      - proxy_3
+      - proxy_4
+      - proxy_5
+      - proxy_6
+      - Relay_🇺🇸US-🇺🇸US_213 |15.25Mb
+      - 🇨🇳_CN_中国
+      - 🇨🇳CN 4 → tg@nicevpn123
+      - 🇺🇸US-74.211.96.238-2187
+      - 美国【付费推荐：https://tt.vg/vip】298
+      - 香港高速接入点-05
+      - 香港高速接入点-06
       - defaultName_1
       - defaultName_2
-      - _SG_新加坡_2_10@8
-      - _CN_中国->🇺🇸_US_美国_2_1@41
-      - 🇷🇺俄罗斯｜实验性｜0.5x
-      - AU_03 | 6.36Mb
-      - 🇯🇵日本01｜2x
-      - Relay_🇺🇸US-🇺🇸US_194 | 9.06Mb
-      - 🇻🇳越南｜原生｜1.2x
-      - 🇸🇬新加坡03｜2x
-      - 🇨🇳CN 4 → tg@nicevpn123
-      - _CN_中国_1_2@4
       - defaultName_3
-      - _JP_日本_1_6@11
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - '|+5.94Mb'
+      - '|+7.40Mb'
+      - '|+8.15Mb'
+      - '|28.02Mb'
+      - '|31.12Mb'
+      - '|35.03Mb'
+      - _CN_中国->🇺🇸_US_美国_2_1@41
+      - US_217+|11.02Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵日本02｜2x
-      - SG_109+|10.44Mb
-      - 🇹🇼台湾03｜原生｜3x
-      - 🇯🇵日本｜实验性｜0.8x
-      - 🇭🇰香港06｜BGP｜2.4x
-      - 香港高速接入点-05
-      - HK 5
-      - Relay_🇺🇸US-🇺🇸US_193 | 5.04Mb
-      - 香港高速接入点-03
-      - Relay_🇺🇸US-🇺🇸US_158 | 8.10Mb
-      - HK 3
-      - HK 6
-      - AU_04 | 4.40Mb
-      - 🇺🇸美国02｜1x
-      - _CN_中国_1_0@6
-      - 关注电报https://t.me/mftizi
-      - 🇯🇵日本03｜2x
-      - Relay_🇺🇸US-🇺🇸US_166 |22.98Mb
-      - KR 3
-      - 日本高速接入点-02
-      - 香港高速接入点-06
-      - 🇨🇳_CN_中国
       - _53 |11.11Mb
-      - US_245+|14.29Mb
-      - 🇺🇸美国02｜频道@Cnb38
-      - 🇺🇸美国01｜1x
-      - 🇫🇷法国07｜频道@Cnb38
+      - _CN_中国_1_0@6
+      - proxy_1
+      - proxy_2
+      - proxy_3
+      - proxy_4
+      - proxy_5
+      - proxy_6
+      - Relay_🇺🇸US-🇺🇸US_213 |15.25Mb
+      - 🇨🇳_CN_中国
+      - 🇨🇳CN 4 → tg@nicevpn123
+      - 🇺🇸US-74.211.96.238-2187
+      - 美国【付费推荐：https://tt.vg/vip】298
+      - 香港高速接入点-05
+      - 香港高速接入点-06
       - defaultName_1
       - defaultName_2
-      - _SG_新加坡_2_10@8
-      - _CN_中国->🇺🇸_US_美国_2_1@41
-      - 🇷🇺俄罗斯｜实验性｜0.5x
-      - AU_03 | 6.36Mb
-      - 🇯🇵日本01｜2x
-      - Relay_🇺🇸US-🇺🇸US_194 | 9.06Mb
-      - 🇻🇳越南｜原生｜1.2x
-      - 🇸🇬新加坡03｜2x
-      - 🇨🇳CN 4 → tg@nicevpn123
-      - _CN_中国_1_2@4
       - defaultName_3
-      - _JP_日本_1_6@11
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - '|+5.94Mb'
+      - '|+7.40Mb'
+      - '|+8.15Mb'
+      - '|28.02Mb'
+      - '|31.12Mb'
+      - '|35.03Mb'
+      - _CN_中国->🇺🇸_US_美国_2_1@41
+      - US_217+|11.02Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵日本02｜2x
-      - SG_109+|10.44Mb
-      - 🇹🇼台湾03｜原生｜3x
-      - 🇯🇵日本｜实验性｜0.8x
-      - 🇭🇰香港06｜BGP｜2.4x
-      - 香港高速接入点-05
-      - HK 5
-      - Relay_🇺🇸US-🇺🇸US_193 | 5.04Mb
-      - 香港高速接入点-03
-      - Relay_🇺🇸US-🇺🇸US_158 | 8.10Mb
-      - HK 3
-      - HK 6
-      - AU_04 | 4.40Mb
-      - 🇺🇸美国02｜1x
-      - _CN_中国_1_0@6
-      - 关注电报https://t.me/mftizi
-      - 🇯🇵日本03｜2x
-      - Relay_🇺🇸US-🇺🇸US_166 |22.98Mb
-      - KR 3
-      - 日本高速接入点-02
-      - 香港高速接入点-06
-      - 🇨🇳_CN_中国
       - _53 |11.11Mb
-      - US_245+|14.29Mb
-      - 🇺🇸美国02｜频道@Cnb38
-      - 🇺🇸美国01｜1x
-      - 🇫🇷法国07｜频道@Cnb38
+      - _CN_中国_1_0@6
+      - proxy_1
+      - proxy_2
+      - proxy_3
+      - proxy_4
+      - proxy_5
+      - proxy_6
+      - Relay_🇺🇸US-🇺🇸US_213 |15.25Mb
+      - 🇨🇳_CN_中国
+      - 🇨🇳CN 4 → tg@nicevpn123
+      - 🇺🇸US-74.211.96.238-2187
+      - 美国【付费推荐：https://tt.vg/vip】298
+      - 香港高速接入点-05
+      - 香港高速接入点-06
       - defaultName_1
       - defaultName_2
-      - _SG_新加坡_2_10@8
-      - _CN_中国->🇺🇸_US_美国_2_1@41
-      - 🇷🇺俄罗斯｜实验性｜0.5x
-      - AU_03 | 6.36Mb
-      - 🇯🇵日本01｜2x
-      - Relay_🇺🇸US-🇺🇸US_194 | 9.06Mb
-      - 🇻🇳越南｜原生｜1.2x
-      - 🇸🇬新加坡03｜2x
-      - 🇨🇳CN 4 → tg@nicevpn123
-      - _CN_中国_1_2@4
       - defaultName_3
-      - _JP_日本_1_6@11
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - '|+5.94Mb'
+      - '|+7.40Mb'
+      - '|+8.15Mb'
+      - '|28.02Mb'
+      - '|31.12Mb'
+      - '|35.03Mb'
+      - _CN_中国->🇺🇸_US_美国_2_1@41
+      - US_217+|11.02Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵日本02｜2x
-      - SG_109+|10.44Mb
-      - 🇹🇼台湾03｜原生｜3x
-      - 🇯🇵日本｜实验性｜0.8x
-      - 🇭🇰香港06｜BGP｜2.4x
-      - 香港高速接入点-05
-      - HK 5
-      - Relay_🇺🇸US-🇺🇸US_193 | 5.04Mb
-      - 香港高速接入点-03
-      - Relay_🇺🇸US-🇺🇸US_158 | 8.10Mb
-      - HK 3
-      - HK 6
-      - AU_04 | 4.40Mb
-      - 🇺🇸美国02｜1x
-      - _CN_中国_1_0@6
-      - 关注电报https://t.me/mftizi
-      - 🇯🇵日本03｜2x
-      - Relay_🇺🇸US-🇺🇸US_166 |22.98Mb
-      - KR 3
-      - 日本高速接入点-02
-      - 香港高速接入点-06
-      - 🇨🇳_CN_中国
       - _53 |11.11Mb
-      - US_245+|14.29Mb
-      - 🇺🇸美国02｜频道@Cnb38
-      - 🇺🇸美国01｜1x
-      - 🇫🇷法国07｜频道@Cnb38
+      - _CN_中国_1_0@6
+      - proxy_1
+      - proxy_2
+      - proxy_3
+      - proxy_4
+      - proxy_5
+      - proxy_6
+      - Relay_🇺🇸US-🇺🇸US_213 |15.25Mb
+      - 🇨🇳_CN_中国
+      - 🇨🇳CN 4 → tg@nicevpn123
+      - 🇺🇸US-74.211.96.238-2187
+      - 美国【付费推荐：https://tt.vg/vip】298
+      - 香港高速接入点-05
+      - 香港高速接入点-06
       - defaultName_1
       - defaultName_2
-      - _SG_新加坡_2_10@8
-      - _CN_中国->🇺🇸_US_美国_2_1@41
-      - 🇷🇺俄罗斯｜实验性｜0.5x
-      - AU_03 | 6.36Mb
-      - 🇯🇵日本01｜2x
-      - Relay_🇺🇸US-🇺🇸US_194 | 9.06Mb
-      - 🇻🇳越南｜原生｜1.2x
-      - 🇸🇬新加坡03｜2x
-      - 🇨🇳CN 4 → tg@nicevpn123
-      - _CN_中国_1_2@4
       - defaultName_3
-      - _JP_日本_1_6@11
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - '|+5.94Mb'
+      - '|+7.40Mb'
+      - '|+8.15Mb'
+      - '|28.02Mb'
+      - '|31.12Mb'
+      - '|35.03Mb'
+      - _CN_中国->🇺🇸_US_美国_2_1@41
+      - US_217+|11.02Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵日本02｜2x
-      - SG_109+|10.44Mb
-      - 🇹🇼台湾03｜原生｜3x
-      - 🇯🇵日本｜实验性｜0.8x
-      - 🇭🇰香港06｜BGP｜2.4x
-      - 香港高速接入点-05
-      - HK 5
-      - Relay_🇺🇸US-🇺🇸US_193 | 5.04Mb
-      - 香港高速接入点-03
-      - Relay_🇺🇸US-🇺🇸US_158 | 8.10Mb
-      - HK 3
-      - HK 6
-      - AU_04 | 4.40Mb
-      - 🇺🇸美国02｜1x
-      - _CN_中国_1_0@6
-      - 关注电报https://t.me/mftizi
-      - 🇯🇵日本03｜2x
-      - Relay_🇺🇸US-🇺🇸US_166 |22.98Mb
-      - KR 3
-      - 日本高速接入点-02
-      - 香港高速接入点-06
-      - 🇨🇳_CN_中国
       - _53 |11.11Mb
-      - US_245+|14.29Mb
-      - 🇺🇸美国02｜频道@Cnb38
-      - 🇺🇸美国01｜1x
-      - 🇫🇷法国07｜频道@Cnb38
+      - _CN_中国_1_0@6
+      - proxy_1
+      - proxy_2
+      - proxy_3
+      - proxy_4
+      - proxy_5
+      - proxy_6
+      - Relay_🇺🇸US-🇺🇸US_213 |15.25Mb
+      - 🇨🇳_CN_中国
+      - 🇨🇳CN 4 → tg@nicevpn123
+      - 🇺🇸US-74.211.96.238-2187
+      - 美国【付费推荐：https://tt.vg/vip】298
+      - 香港高速接入点-05
+      - 香港高速接入点-06
       - defaultName_1
       - defaultName_2
-      - _SG_新加坡_2_10@8
-      - _CN_中国->🇺🇸_US_美国_2_1@41
-      - 🇷🇺俄罗斯｜实验性｜0.5x
-      - AU_03 | 6.36Mb
-      - 🇯🇵日本01｜2x
-      - Relay_🇺🇸US-🇺🇸US_194 | 9.06Mb
-      - 🇻🇳越南｜原生｜1.2x
-      - 🇸🇬新加坡03｜2x
-      - 🇨🇳CN 4 → tg@nicevpn123
-      - _CN_中国_1_2@4
       - defaultName_3
-      - _JP_日本_1_6@11
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - '|+5.94Mb'
+      - '|+7.40Mb'
+      - '|+8.15Mb'
+      - '|28.02Mb'
+      - '|31.12Mb'
+      - '|35.03Mb'
+      - _CN_中国->🇺🇸_US_美国_2_1@41
+      - US_217+|11.02Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -363,47 +363,47 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵日本02｜2x
-      - SG_109+|10.44Mb
-      - 🇹🇼台湾03｜原生｜3x
-      - 🇯🇵日本｜实验性｜0.8x
-      - 🇭🇰香港06｜BGP｜2.4x
-      - 香港高速接入点-05
-      - HK 5
-      - Relay_🇺🇸US-🇺🇸US_193 | 5.04Mb
-      - 香港高速接入点-03
-      - Relay_🇺🇸US-🇺🇸US_158 | 8.10Mb
-      - HK 3
-      - HK 6
-      - AU_04 | 4.40Mb
-      - 🇺🇸美国02｜1x
-      - _CN_中国_1_0@6
-      - 关注电报https://t.me/mftizi
-      - 🇯🇵日本03｜2x
-      - Relay_🇺🇸US-🇺🇸US_166 |22.98Mb
-      - KR 3
-      - 日本高速接入点-02
-      - 香港高速接入点-06
-      - 🇨🇳_CN_中国
       - _53 |11.11Mb
-      - US_245+|14.29Mb
-      - 🇺🇸美国02｜频道@Cnb38
-      - 🇺🇸美国01｜1x
-      - 🇫🇷法国07｜频道@Cnb38
+      - _CN_中国_1_0@6
+      - proxy_1
+      - proxy_2
+      - proxy_3
+      - proxy_4
+      - proxy_5
+      - proxy_6
+      - Relay_🇺🇸US-🇺🇸US_213 |15.25Mb
+      - 🇨🇳_CN_中国
+      - 🇨🇳CN 4 → tg@nicevpn123
+      - 🇺🇸US-74.211.96.238-2187
+      - 美国【付费推荐：https://tt.vg/vip】298
+      - 香港高速接入点-05
+      - 香港高速接入点-06
       - defaultName_1
       - defaultName_2
-      - _SG_新加坡_2_10@8
-      - _CN_中国->🇺🇸_US_美国_2_1@41
-      - 🇷🇺俄罗斯｜实验性｜0.5x
-      - AU_03 | 6.36Mb
-      - 🇯🇵日本01｜2x
-      - Relay_🇺🇸US-🇺🇸US_194 | 9.06Mb
-      - 🇻🇳越南｜原生｜1.2x
-      - 🇸🇬新加坡03｜2x
-      - 🇨🇳CN 4 → tg@nicevpn123
-      - _CN_中国_1_2@4
       - defaultName_3
-      - _JP_日本_1_6@11
+      - defaultName_4
+      - defaultName_5
+      - defaultName_6
+      - defaultName_7
+      - defaultName_8
+      - defaultName_9
+      - defaultName_10
+      - defaultName_11
+      - defaultName_12
+      - defaultName_13
+      - defaultName_14
+      - defaultName_15
+      - defaultName_16
+      - defaultName_17
+      - defaultName_18
+      - '|+5.94Mb'
+      - '|+7.40Mb'
+      - '|+8.15Mb'
+      - '|28.02Mb'
+      - '|31.12Mb'
+      - '|35.03Mb'
+      - _CN_中国->🇺🇸_US_美国_2_1@41
+      - US_217+|11.02Mb
 
 rules:
 # 本地/局域网地址
