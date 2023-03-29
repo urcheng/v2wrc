@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-03-28 09:06:17
+# 创建时间：2023-03-29 09:57:07
 # 使用模版：V2RaySE 默认模版
-# 节点数量：41
+# 节点数量：42
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,326 +21,333 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"_53 |11.11Mb","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"_CN_中国_1_0@6","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"proxy_1","type":"vmess","server":"156.225.67.107","port":51234,"cipher":"auto","uuid":"29a5d48e-24f1-48fd-a5e1-9a46cb31032f","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"proxy_2","type":"vmess","server":"198.2.208.179","port":35402,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"defaultName_1","type":"ss","server":"13.250.25.173","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"defaultName_2","type":"ss","server":"14.29.124.168","port":25222,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"_60 | 3.19Mb","type":"vmess","server":"36.134.16.171","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"_CN_中国_1_4@4","type":"ss","server":"36.139.166.247","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"_CN_中国_1_9@4","type":"ss","server":"36.137.106.115","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"_CN_中国_3_0@45","type":"ss","server":"14.29.124.168","port":25294,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"_CN_中国_5_4@12","type":"ss","server":"14.29.124.168","port":25238,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"_CN_中国_6_1@39","type":"ss","server":"14.29.124.168","port":25235,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"_CN_中国_7_1@40","type":"ss","server":"14.29.124.168","port":25217,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"_CN_中国_9_6@37","type":"ss","server":"36.138.193.128","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"_JP_日本_2_0@52","type":"vmess","server":"jp4.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"6de268e0-7c43-4fbe-8644-2f418ace887a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"|76.63Mb","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"CN_118 | 8.52Mb","type":"vmess","server":"36.134.16.190","port":11023,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"proxy_1","type":"vmess","server":"198.2.208.179","port":35402,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"proxy_2","type":"vmess","server":"156.225.67.107","port":51234,"cipher":"auto","uuid":"29a5d48e-24f1-48fd-a5e1-9a46cb31032f","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"proxy_3","type":"vmess","server":"156.225.67.73","port":41008,"cipher":"auto","uuid":"21155efd-8e29-43d2-95bc-fe3190ecb1c6","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"proxy_4","type":"vmess","server":"142.4.99.68","port":41169,"cipher":"auto","uuid":"b65da4af-a12a-4a59-9316-4549e12ba62c","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"proxy_5","type":"vmess","server":"156.225.67.126","port":443,"cipher":"auto","uuid":"3a3c8a9c-334e-4360-adb8-a80a57ddcbbf","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.16046626.xyz","network":"ws","ws-opts":{"path":"/path/130632252334","headers":{"host":"www.16046626.xyz"}}}
-  - {"name":"proxy_6","type":"vmess","server":"156.225.67.15","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.84938863.xyz","network":"ws","ws-opts":{"path":"/path/130632252334","headers":{"host":"www.84938863.xyz"}}}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_213 |15.25Mb","type":"vmess","server":"d210.clco.in","port":58839,"cipher":"auto","uuid":"21d31a6c-309e-49ba-d20a-4124849009df","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"d210.clco.in"}}}
-  - {"name":"🇨🇳_CN_中国","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay_🇦🇺AU-🇨🇳CN_91 | 2.95Mb","type":"vmess","server":"b1.ss1011.top","port":1507,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay_🇦🇺AU-🇨🇳CN_92 | 5.96Mb","type":"vmess","server":"b1.ss1011.top","port":1506,"cipher":"auto","uuid":"8c042a38-71c1-1dcb-00df-54880236e0dc","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_236 |17.98Mb","type":"vmess","server":"blog.itzjx.top","port":3306,"cipher":"auto","uuid":"fdf7dcdc-96f0-4d36-a412-1866c737c3fe","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"blog.itzjx.top"}}}
+  - {"name":"TG频道+t.me/Cnb38","type":"ss","server":"13.230.54.194","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"US_143+|19.28Mb","type":"ss","server":"13.212.250.149","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"US_165+|15.61Mb","type":"ss","server":"13.212.38.125","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"US_168+|19.80Mb","type":"ss","server":"13.213.17.234","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"US_217+|11.02Mb","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
   - {"name":"🇨🇳CN 4 → tg@nicevpn123","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US-74.211.96.238-2187","type":"vmess","server":"d210.clco.in","port":58839,"cipher":"auto","uuid":"21d31a6c-309e-49ba-d20a-4124849009df","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"d210.clco.in","network":"ws","ws-opts":{"path":"/","headers":{"host":"d210.clco.in"}}}
-  - {"name":"美国【付费推荐：https://tt.vg/vip】298","type":"vmess","server":"143.42.110.81","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"143.42.110.81"}}}
+  - {"name":"🇯🇵日本08｜频道@Cnb38","type":"ss","server":"13.115.133.207","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇰🇷韩国KR｜频道@Cnb38","type":"ss","server":"52.78.129.254","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇳🇱 Netherlands 02 TG:@nodpai","type":"vmess","server":"156.225.67.73","port":41008,"cipher":"auto","uuid":"21155efd-8e29-43d2-95bc-fe3190ecb1c6","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇳🇱 Netherlands 03 TG:@nodpai","type":"vmess","server":"154.84.1.80","port":42902,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇳🇱 Netherlands 04 TG:@nodpai","type":"vmess","server":"156.225.67.102","port":44331,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇸🇬关注频道获取新的订阅链接","type":"ss","server":"54.169.201.129","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬新加坡04｜频道@Cnb38","type":"ss","server":"3.38.101.181","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬新加坡09｜频道@Cnb38","type":"ss","server":"43.207.221.161","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇸🇬新加坡11｜频道@Cnb38","type":"ss","server":"43.200.6.15","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸美国02｜频道@Cnb38","type":"ss","server":"54.185.52.218","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇺🇸美国03｜频道@Cnb38","type":"ss","server":"34.217.91.163","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"��蒄��袝+France+01+TG:@nodpai","type":"trojan","server":"54.37.185.148","port":32894,"udp":true,"password":"HchlVCfnXB","sni":"jamaran.ir","skip-cert-verify":true}
+  - {"name":"��蒄��䤰 Finland 05 TG:@nodpai","type":"vmess","server":"aliyun.imnibaba.app","port":2052,"cipher":"auto","uuid":"19527dac-7e92-4d18-b29d-70fd890f5741","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"woiden-uk-1.imnibaba.wiki"}}}
+  - {"name":"��蒄��䤰 Finland(ChatGPT) 08 TG:@nodpai","type":"vmess","server":"aliyun.imnibaba.app","port":2052,"cipher":"auto","uuid":"1a16b9dd-5ca3-488b-c5a6-abfc04e1f9a2","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/tg@sudoxin","headers":{"host":"hax-us-1.imnibaba.wiki"}}}
   - {"name":"香港高速接入点-05","type":"vmess","server":"hk5.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"ae63c769-7b4f-4916-b575-9214639fcb8b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
   - {"name":"香港高速接入点-06","type":"vmess","server":"hk6.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"ae63c769-7b4f-4916-b575-9214639fcb8b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"defaultName_1","type":"ss","server":"14.29.124.168","port":25297,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_2","type":"ss","server":"14.29.124.168","port":25279,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_3","type":"ss","server":"14.29.124.168","port":25254,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_4","type":"ss","server":"14.29.124.168","port":25222,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_5","type":"ss","server":"14.29.124.168","port":25218,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_6","type":"ss","server":"14.29.124.168","port":25247,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_7","type":"ss","server":"14.29.124.168","port":25287,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_8","type":"ss","server":"14.29.124.168","port":25259,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_9","type":"ss","server":"14.29.124.168","port":25251,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_10","type":"ss","server":"14.29.124.168","port":25220,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_11","type":"ss","server":"14.29.124.168","port":25226,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_12","type":"ss","server":"14.29.124.168","port":25286,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_13","type":"ss","server":"14.29.124.168","port":25231,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_14","type":"ss","server":"14.29.124.168","port":25268,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_15","type":"ss","server":"14.29.124.168","port":25295,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_16","type":"ss","server":"14.29.124.168","port":25230,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_17","type":"ss","server":"14.29.124.168","port":25256,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"defaultName_18","type":"ss","server":"14.29.124.168","port":25284,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"|+5.94Mb","type":"ss","server":"18.143.187.111","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"|+7.40Mb","type":"ss","server":"14.29.124.168","port":25296,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"|+8.15Mb","type":"ss","server":"36.138.140.208","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"|28.02Mb","type":"ss","server":"13.213.41.142","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"|31.12Mb","type":"ss","server":"13.213.17.169","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"|35.03Mb","type":"ss","server":"18.141.236.127","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"_CN_中国->🇺🇸_US_美国_2_1@41","type":"trojan","server":"oss-cn-shanghai.westdatacloud.top","port":20048,"udp":true,"password":"626351FA-3CA6-8118-FADF-CCDBCD620871","sni":"oss-cn-shanghai.westdatacloud.top","skip-cert-verify":true}
-  - {"name":"US_217+|11.02Mb","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
+  - {"name":"��鐯��墖+Hong+Kong+06+TG:@nodpai","type":"trojan","server":"hk11.microsoftjs.top","port":443,"udp":true,"password":"2c0da31c-026e-48ea-9c5a-9e018ad019bb","sni":"tls.microsoftjs.top","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _53 |11.11Mb
-      - _CN_中国_1_0@6
+      - defaultName_1
+      - defaultName_2
+      - _60 | 3.19Mb
+      - _CN_中国_1_4@4
+      - _CN_中国_1_9@4
+      - _CN_中国_3_0@45
+      - _CN_中国_5_4@12
+      - _CN_中国_6_1@39
+      - _CN_中国_7_1@40
+      - _CN_中国_9_6@37
+      - _JP_日本_2_0@52
+      - '|76.63Mb'
+      - CN_118 | 8.52Mb
       - proxy_1
       - proxy_2
       - proxy_3
-      - proxy_4
-      - proxy_5
-      - proxy_6
-      - Relay_🇺🇸US-🇺🇸US_213 |15.25Mb
-      - 🇨🇳_CN_中国
+      - Relay_🇦🇺AU-🇨🇳CN_91 | 2.95Mb
+      - Relay_🇦🇺AU-🇨🇳CN_92 | 5.96Mb
+      - Relay_🇺🇸US-🇺🇸US_236 |17.98Mb
+      - TG频道+t.me/Cnb38
+      - US_143+|19.28Mb
+      - US_165+|15.61Mb
+      - US_168+|19.80Mb
+      - US_217+|11.02Mb
       - 🇨🇳CN 4 → tg@nicevpn123
-      - 🇺🇸US-74.211.96.238-2187
-      - 美国【付费推荐：https://tt.vg/vip】298
+      - 🇯🇵日本08｜频道@Cnb38
+      - 🇰🇷韩国KR｜频道@Cnb38
+      - 🇳🇱 Netherlands 02 TG:@nodpai
+      - 🇳🇱 Netherlands 03 TG:@nodpai
+      - 🇳🇱 Netherlands 04 TG:@nodpai
+      - 🇸🇬关注频道获取新的订阅链接
+      - 🇸🇬新加坡04｜频道@Cnb38
+      - 🇸🇬新加坡09｜频道@Cnb38
+      - 🇸🇬新加坡11｜频道@Cnb38
+      - 🇺🇸美国02｜频道@Cnb38
+      - 🇺🇸美国03｜频道@Cnb38
+      - ��蒄��袝+France+01+TG:@nodpai
+      - ��蒄��䤰 Finland 05 TG:@nodpai
+      - ��蒄��䤰 Finland(ChatGPT) 08 TG:@nodpai
       - 香港高速接入点-05
       - 香港高速接入点-06
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - '|+5.94Mb'
-      - '|+7.40Mb'
-      - '|+8.15Mb'
-      - '|28.02Mb'
-      - '|31.12Mb'
-      - '|35.03Mb'
-      - _CN_中国->🇺🇸_US_美国_2_1@41
-      - US_217+|11.02Mb
+      - ��鐯��墖+Hong+Kong+06+TG:@nodpai
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - _53 |11.11Mb
-      - _CN_中国_1_0@6
+      - defaultName_1
+      - defaultName_2
+      - _60 | 3.19Mb
+      - _CN_中国_1_4@4
+      - _CN_中国_1_9@4
+      - _CN_中国_3_0@45
+      - _CN_中国_5_4@12
+      - _CN_中国_6_1@39
+      - _CN_中国_7_1@40
+      - _CN_中国_9_6@37
+      - _JP_日本_2_0@52
+      - '|76.63Mb'
+      - CN_118 | 8.52Mb
       - proxy_1
       - proxy_2
       - proxy_3
-      - proxy_4
-      - proxy_5
-      - proxy_6
-      - Relay_🇺🇸US-🇺🇸US_213 |15.25Mb
-      - 🇨🇳_CN_中国
+      - Relay_🇦🇺AU-🇨🇳CN_91 | 2.95Mb
+      - Relay_🇦🇺AU-🇨🇳CN_92 | 5.96Mb
+      - Relay_🇺🇸US-🇺🇸US_236 |17.98Mb
+      - TG频道+t.me/Cnb38
+      - US_143+|19.28Mb
+      - US_165+|15.61Mb
+      - US_168+|19.80Mb
+      - US_217+|11.02Mb
       - 🇨🇳CN 4 → tg@nicevpn123
-      - 🇺🇸US-74.211.96.238-2187
-      - 美国【付费推荐：https://tt.vg/vip】298
+      - 🇯🇵日本08｜频道@Cnb38
+      - 🇰🇷韩国KR｜频道@Cnb38
+      - 🇳🇱 Netherlands 02 TG:@nodpai
+      - 🇳🇱 Netherlands 03 TG:@nodpai
+      - 🇳🇱 Netherlands 04 TG:@nodpai
+      - 🇸🇬关注频道获取新的订阅链接
+      - 🇸🇬新加坡04｜频道@Cnb38
+      - 🇸🇬新加坡09｜频道@Cnb38
+      - 🇸🇬新加坡11｜频道@Cnb38
+      - 🇺🇸美国02｜频道@Cnb38
+      - 🇺🇸美国03｜频道@Cnb38
+      - ��蒄��袝+France+01+TG:@nodpai
+      - ��蒄��䤰 Finland 05 TG:@nodpai
+      - ��蒄��䤰 Finland(ChatGPT) 08 TG:@nodpai
       - 香港高速接入点-05
       - 香港高速接入点-06
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - '|+5.94Mb'
-      - '|+7.40Mb'
-      - '|+8.15Mb'
-      - '|28.02Mb'
-      - '|31.12Mb'
-      - '|35.03Mb'
-      - _CN_中国->🇺🇸_US_美国_2_1@41
-      - US_217+|11.02Mb
+      - ��鐯��墖+Hong+Kong+06+TG:@nodpai
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _53 |11.11Mb
-      - _CN_中国_1_0@6
+      - defaultName_1
+      - defaultName_2
+      - _60 | 3.19Mb
+      - _CN_中国_1_4@4
+      - _CN_中国_1_9@4
+      - _CN_中国_3_0@45
+      - _CN_中国_5_4@12
+      - _CN_中国_6_1@39
+      - _CN_中国_7_1@40
+      - _CN_中国_9_6@37
+      - _JP_日本_2_0@52
+      - '|76.63Mb'
+      - CN_118 | 8.52Mb
       - proxy_1
       - proxy_2
       - proxy_3
-      - proxy_4
-      - proxy_5
-      - proxy_6
-      - Relay_🇺🇸US-🇺🇸US_213 |15.25Mb
-      - 🇨🇳_CN_中国
+      - Relay_🇦🇺AU-🇨🇳CN_91 | 2.95Mb
+      - Relay_🇦🇺AU-🇨🇳CN_92 | 5.96Mb
+      - Relay_🇺🇸US-🇺🇸US_236 |17.98Mb
+      - TG频道+t.me/Cnb38
+      - US_143+|19.28Mb
+      - US_165+|15.61Mb
+      - US_168+|19.80Mb
+      - US_217+|11.02Mb
       - 🇨🇳CN 4 → tg@nicevpn123
-      - 🇺🇸US-74.211.96.238-2187
-      - 美国【付费推荐：https://tt.vg/vip】298
+      - 🇯🇵日本08｜频道@Cnb38
+      - 🇰🇷韩国KR｜频道@Cnb38
+      - 🇳🇱 Netherlands 02 TG:@nodpai
+      - 🇳🇱 Netherlands 03 TG:@nodpai
+      - 🇳🇱 Netherlands 04 TG:@nodpai
+      - 🇸🇬关注频道获取新的订阅链接
+      - 🇸🇬新加坡04｜频道@Cnb38
+      - 🇸🇬新加坡09｜频道@Cnb38
+      - 🇸🇬新加坡11｜频道@Cnb38
+      - 🇺🇸美国02｜频道@Cnb38
+      - 🇺🇸美国03｜频道@Cnb38
+      - ��蒄��袝+France+01+TG:@nodpai
+      - ��蒄��䤰 Finland 05 TG:@nodpai
+      - ��蒄��䤰 Finland(ChatGPT) 08 TG:@nodpai
       - 香港高速接入点-05
       - 香港高速接入点-06
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - '|+5.94Mb'
-      - '|+7.40Mb'
-      - '|+8.15Mb'
-      - '|28.02Mb'
-      - '|31.12Mb'
-      - '|35.03Mb'
-      - _CN_中国->🇺🇸_US_美国_2_1@41
-      - US_217+|11.02Mb
+      - ��鐯��墖+Hong+Kong+06+TG:@nodpai
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _53 |11.11Mb
-      - _CN_中国_1_0@6
+      - defaultName_1
+      - defaultName_2
+      - _60 | 3.19Mb
+      - _CN_中国_1_4@4
+      - _CN_中国_1_9@4
+      - _CN_中国_3_0@45
+      - _CN_中国_5_4@12
+      - _CN_中国_6_1@39
+      - _CN_中国_7_1@40
+      - _CN_中国_9_6@37
+      - _JP_日本_2_0@52
+      - '|76.63Mb'
+      - CN_118 | 8.52Mb
       - proxy_1
       - proxy_2
       - proxy_3
-      - proxy_4
-      - proxy_5
-      - proxy_6
-      - Relay_🇺🇸US-🇺🇸US_213 |15.25Mb
-      - 🇨🇳_CN_中国
+      - Relay_🇦🇺AU-🇨🇳CN_91 | 2.95Mb
+      - Relay_🇦🇺AU-🇨🇳CN_92 | 5.96Mb
+      - Relay_🇺🇸US-🇺🇸US_236 |17.98Mb
+      - TG频道+t.me/Cnb38
+      - US_143+|19.28Mb
+      - US_165+|15.61Mb
+      - US_168+|19.80Mb
+      - US_217+|11.02Mb
       - 🇨🇳CN 4 → tg@nicevpn123
-      - 🇺🇸US-74.211.96.238-2187
-      - 美国【付费推荐：https://tt.vg/vip】298
+      - 🇯🇵日本08｜频道@Cnb38
+      - 🇰🇷韩国KR｜频道@Cnb38
+      - 🇳🇱 Netherlands 02 TG:@nodpai
+      - 🇳🇱 Netherlands 03 TG:@nodpai
+      - 🇳🇱 Netherlands 04 TG:@nodpai
+      - 🇸🇬关注频道获取新的订阅链接
+      - 🇸🇬新加坡04｜频道@Cnb38
+      - 🇸🇬新加坡09｜频道@Cnb38
+      - 🇸🇬新加坡11｜频道@Cnb38
+      - 🇺🇸美国02｜频道@Cnb38
+      - 🇺🇸美国03｜频道@Cnb38
+      - ��蒄��袝+France+01+TG:@nodpai
+      - ��蒄��䤰 Finland 05 TG:@nodpai
+      - ��蒄��䤰 Finland(ChatGPT) 08 TG:@nodpai
       - 香港高速接入点-05
       - 香港高速接入点-06
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - '|+5.94Mb'
-      - '|+7.40Mb'
-      - '|+8.15Mb'
-      - '|28.02Mb'
-      - '|31.12Mb'
-      - '|35.03Mb'
-      - _CN_中国->🇺🇸_US_美国_2_1@41
-      - US_217+|11.02Mb
+      - ��鐯��墖+Hong+Kong+06+TG:@nodpai
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _53 |11.11Mb
-      - _CN_中国_1_0@6
+      - defaultName_1
+      - defaultName_2
+      - _60 | 3.19Mb
+      - _CN_中国_1_4@4
+      - _CN_中国_1_9@4
+      - _CN_中国_3_0@45
+      - _CN_中国_5_4@12
+      - _CN_中国_6_1@39
+      - _CN_中国_7_1@40
+      - _CN_中国_9_6@37
+      - _JP_日本_2_0@52
+      - '|76.63Mb'
+      - CN_118 | 8.52Mb
       - proxy_1
       - proxy_2
       - proxy_3
-      - proxy_4
-      - proxy_5
-      - proxy_6
-      - Relay_🇺🇸US-🇺🇸US_213 |15.25Mb
-      - 🇨🇳_CN_中国
+      - Relay_🇦🇺AU-🇨🇳CN_91 | 2.95Mb
+      - Relay_🇦🇺AU-🇨🇳CN_92 | 5.96Mb
+      - Relay_🇺🇸US-🇺🇸US_236 |17.98Mb
+      - TG频道+t.me/Cnb38
+      - US_143+|19.28Mb
+      - US_165+|15.61Mb
+      - US_168+|19.80Mb
+      - US_217+|11.02Mb
       - 🇨🇳CN 4 → tg@nicevpn123
-      - 🇺🇸US-74.211.96.238-2187
-      - 美国【付费推荐：https://tt.vg/vip】298
+      - 🇯🇵日本08｜频道@Cnb38
+      - 🇰🇷韩国KR｜频道@Cnb38
+      - 🇳🇱 Netherlands 02 TG:@nodpai
+      - 🇳🇱 Netherlands 03 TG:@nodpai
+      - 🇳🇱 Netherlands 04 TG:@nodpai
+      - 🇸🇬关注频道获取新的订阅链接
+      - 🇸🇬新加坡04｜频道@Cnb38
+      - 🇸🇬新加坡09｜频道@Cnb38
+      - 🇸🇬新加坡11｜频道@Cnb38
+      - 🇺🇸美国02｜频道@Cnb38
+      - 🇺🇸美国03｜频道@Cnb38
+      - ��蒄��袝+France+01+TG:@nodpai
+      - ��蒄��䤰 Finland 05 TG:@nodpai
+      - ��蒄��䤰 Finland(ChatGPT) 08 TG:@nodpai
       - 香港高速接入点-05
       - 香港高速接入点-06
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - '|+5.94Mb'
-      - '|+7.40Mb'
-      - '|+8.15Mb'
-      - '|28.02Mb'
-      - '|31.12Mb'
-      - '|35.03Mb'
-      - _CN_中国->🇺🇸_US_美国_2_1@41
-      - US_217+|11.02Mb
+      - ��鐯��墖+Hong+Kong+06+TG:@nodpai
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _53 |11.11Mb
-      - _CN_中国_1_0@6
+      - defaultName_1
+      - defaultName_2
+      - _60 | 3.19Mb
+      - _CN_中国_1_4@4
+      - _CN_中国_1_9@4
+      - _CN_中国_3_0@45
+      - _CN_中国_5_4@12
+      - _CN_中国_6_1@39
+      - _CN_中国_7_1@40
+      - _CN_中国_9_6@37
+      - _JP_日本_2_0@52
+      - '|76.63Mb'
+      - CN_118 | 8.52Mb
       - proxy_1
       - proxy_2
       - proxy_3
-      - proxy_4
-      - proxy_5
-      - proxy_6
-      - Relay_🇺🇸US-🇺🇸US_213 |15.25Mb
-      - 🇨🇳_CN_中国
+      - Relay_🇦🇺AU-🇨🇳CN_91 | 2.95Mb
+      - Relay_🇦🇺AU-🇨🇳CN_92 | 5.96Mb
+      - Relay_🇺🇸US-🇺🇸US_236 |17.98Mb
+      - TG频道+t.me/Cnb38
+      - US_143+|19.28Mb
+      - US_165+|15.61Mb
+      - US_168+|19.80Mb
+      - US_217+|11.02Mb
       - 🇨🇳CN 4 → tg@nicevpn123
-      - 🇺🇸US-74.211.96.238-2187
-      - 美国【付费推荐：https://tt.vg/vip】298
+      - 🇯🇵日本08｜频道@Cnb38
+      - 🇰🇷韩国KR｜频道@Cnb38
+      - 🇳🇱 Netherlands 02 TG:@nodpai
+      - 🇳🇱 Netherlands 03 TG:@nodpai
+      - 🇳🇱 Netherlands 04 TG:@nodpai
+      - 🇸🇬关注频道获取新的订阅链接
+      - 🇸🇬新加坡04｜频道@Cnb38
+      - 🇸🇬新加坡09｜频道@Cnb38
+      - 🇸🇬新加坡11｜频道@Cnb38
+      - 🇺🇸美国02｜频道@Cnb38
+      - 🇺🇸美国03｜频道@Cnb38
+      - ��蒄��袝+France+01+TG:@nodpai
+      - ��蒄��䤰 Finland 05 TG:@nodpai
+      - ��蒄��䤰 Finland(ChatGPT) 08 TG:@nodpai
       - 香港高速接入点-05
       - 香港高速接入点-06
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - '|+5.94Mb'
-      - '|+7.40Mb'
-      - '|+8.15Mb'
-      - '|28.02Mb'
-      - '|31.12Mb'
-      - '|35.03Mb'
-      - _CN_中国->🇺🇸_US_美国_2_1@41
-      - US_217+|11.02Mb
+      - ��鐯��墖+Hong+Kong+06+TG:@nodpai
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -363,47 +370,48 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _53 |11.11Mb
-      - _CN_中国_1_0@6
+      - defaultName_1
+      - defaultName_2
+      - _60 | 3.19Mb
+      - _CN_中国_1_4@4
+      - _CN_中国_1_9@4
+      - _CN_中国_3_0@45
+      - _CN_中国_5_4@12
+      - _CN_中国_6_1@39
+      - _CN_中国_7_1@40
+      - _CN_中国_9_6@37
+      - _JP_日本_2_0@52
+      - '|76.63Mb'
+      - CN_118 | 8.52Mb
       - proxy_1
       - proxy_2
       - proxy_3
-      - proxy_4
-      - proxy_5
-      - proxy_6
-      - Relay_🇺🇸US-🇺🇸US_213 |15.25Mb
-      - 🇨🇳_CN_中国
+      - Relay_🇦🇺AU-🇨🇳CN_91 | 2.95Mb
+      - Relay_🇦🇺AU-🇨🇳CN_92 | 5.96Mb
+      - Relay_🇺🇸US-🇺🇸US_236 |17.98Mb
+      - TG频道+t.me/Cnb38
+      - US_143+|19.28Mb
+      - US_165+|15.61Mb
+      - US_168+|19.80Mb
+      - US_217+|11.02Mb
       - 🇨🇳CN 4 → tg@nicevpn123
-      - 🇺🇸US-74.211.96.238-2187
-      - 美国【付费推荐：https://tt.vg/vip】298
+      - 🇯🇵日本08｜频道@Cnb38
+      - 🇰🇷韩国KR｜频道@Cnb38
+      - 🇳🇱 Netherlands 02 TG:@nodpai
+      - 🇳🇱 Netherlands 03 TG:@nodpai
+      - 🇳🇱 Netherlands 04 TG:@nodpai
+      - 🇸🇬关注频道获取新的订阅链接
+      - 🇸🇬新加坡04｜频道@Cnb38
+      - 🇸🇬新加坡09｜频道@Cnb38
+      - 🇸🇬新加坡11｜频道@Cnb38
+      - 🇺🇸美国02｜频道@Cnb38
+      - 🇺🇸美国03｜频道@Cnb38
+      - ��蒄��袝+France+01+TG:@nodpai
+      - ��蒄��䤰 Finland 05 TG:@nodpai
+      - ��蒄��䤰 Finland(ChatGPT) 08 TG:@nodpai
       - 香港高速接入点-05
       - 香港高速接入点-06
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - defaultName_14
-      - defaultName_15
-      - defaultName_16
-      - defaultName_17
-      - defaultName_18
-      - '|+5.94Mb'
-      - '|+7.40Mb'
-      - '|+8.15Mb'
-      - '|28.02Mb'
-      - '|31.12Mb'
-      - '|35.03Mb'
-      - _CN_中国->🇺🇸_US_美国_2_1@41
-      - US_217+|11.02Mb
+      - ��鐯��墖+Hong+Kong+06+TG:@nodpai
 
 rules:
 # 本地/局域网地址
