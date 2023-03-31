@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-03-30 10:20:58
+# 创建时间：2023-03-31 09:05:57
 # 使用模版：V2RaySE 默认模版
-# 节点数量：21
+# 节点数量：34
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,186 +21,277 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"_CN_中国_1_4@4","type":"ss","server":"36.139.166.247","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"_CN_中国_1_6@6","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"_CN_中国_7_0@35","type":"ss","server":"14.29.124.168","port":25241,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"proxy","type":"vmess","server":"156.225.67.73","port":41008,"cipher":"auto","uuid":"21155efd-8e29-43d2-95bc-fe3190ecb1c6","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"_CN_中国_5_2@47","type":"ss","server":"14.29.124.168","port":25218,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"|+7.40Mb","type":"ss","server":"14.29.124.168","port":25296,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"|71.49Mb","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"AU_06+|16.66Mb","type":"ss","server":"43.206.194.235","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"CN_130+|+7.42Mb","type":"ss","server":"14.29.124.168","port":25226,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"CN_165+|+7.57Mb","type":"ss","server":"14.29.124.168","port":25266,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"Pool_🇳🇱NL_432+|26.81Mb","type":"ss","server":"85.208.108.60","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
+  - {"name":"Relay+��𠪊��𨤍+Canada+01+TG:@nodpai","type":"ss","server":"ahyd.pangupy.com","port":57408,"password":"ae493623-3da7-455a-9057-954d93181523","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"Relay_+|+3.53Mb","type":"ss","server":"172.105.251.205","port":443,"password":"0r91Aj1MeFRSvoy6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"Relay_🇨🇳CN-🇦🇺AU_131","type":"vmess","server":"in06.my1188.org","port":63005,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay_🇨🇳CN-🇯🇵JP_142","type":"vmess","server":"in04.my1188.org","port":63086,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay_🇨🇳CN-🇸🇬SG_134","type":"vmess","server":"in02.my1188.org","port":63087,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay_🇨🇳CN-🇸🇬SG_152","type":"vmess","server":"in04.my1188.org","port":63087,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"US_205 | 2.22Mb","type":"vmess","server":"143.42.110.81","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/current_time","headers":{"host":"143.42.110.81"}}}
-  - {"name":"🇨🇳 China 03 TG:@nodpai","type":"vmess","server":"142.4.108.22","port":55102,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳CN 4 → tg@nicevpn123","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇳🇱 Netherlands 02 TG:@nodpai","type":"vmess","server":"156.225.67.73","port":41008,"cipher":"auto","uuid":"21155efd-8e29-43d2-95bc-fe3190ecb1c6","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_1","type":"vmess","server":"in06.my1188.org","port":62072,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_2","type":"vmess","server":"in06.my1188.org","port":63094,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_3","type":"vmess","server":"in02.my1188.org","port":63078,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk-balancer.airport-v2.com"}}}
+  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_4","type":"vmess","server":"in06.my1188.org","port":63090,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_5","type":"vmess","server":"in05.my1188.org","port":63071,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_6","type":"vmess","server":"in04.my1188.org","port":63086,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_7","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_8","type":"vmess","server":"in04.my1188.org","port":63078,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"hk-balancer.airport-v2.com"}}}
+  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_9","type":"vmess","server":"in04.my1188.org","port":63087,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇳🇱 Netherlands 04 TG:@nodpai","type":"vmess","server":"156.225.67.102","port":44331,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"🇳🇱 Netherlands 05 TG:@nodpai","type":"vmess","server":"156.225.67.102","port":44331,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇹🇼 Taiwan 02 TG:@nodpai","type":"vmess","server":"polotw1.applebench.tech","port":56568,"cipher":"auto","uuid":"6af76bfd-b5bf-4646-8f8d-14ed3e044b22","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 United States 17 TG:@nodpai","type":"vmess","server":"142.4.97.71","port":44942,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_1","type":"vmess","server":"142.4.97.71","port":44942,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_2","type":"vmess","server":"142.4.108.22","port":55102,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_3","type":"vmess","server":"142.4.99.68","port":41169,"cipher":"auto","uuid":"b65da4af-a12a-4a59-9316-4549e12ba62c","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸_US_电报频道： @pjrjzy_4","type":"vmess","server":"143.42.110.81","port":443,"cipher":"auto","uuid":"8bbd91fe-a30b-4e29-bfc7-c28a44c0cb8f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/current_time"}}
-  - {"name":"��篅��剏 Taiwan 02 TG:@nodpai","type":"vmess","server":"polotw1.applebench.tech","port":56568,"cipher":"auto","uuid":"6af76bfd-b5bf-4646-8f8d-14ed3e044b22","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"��篅��剏+Taiwan(ChatGPT)+03+TG:@nodpai","type":"trojan","server":"805tw.ljydw.top","port":443,"udp":true,"password":"7650c981-f94f-4716-b969-eb8f74b4780a","sni":"805tw.ljydw.top","skip-cert-verify":true}
-  - {"name":"��篅��剏+Taiwan(ChatGPT)+06+TG:@nodpai","type":"trojan","server":"625tw.ljydw.top","port":80,"udp":true,"password":"7650c981-f94f-4716-b969-eb8f74b4780a","sni":"625tw.ljydw.top","skip-cert-verify":true}
-  - {"name":"��𨤍��䌊+United+Arab+Emirates(ChatGPT)+01+TG:@nodpai","type":"trojan","server":"jp1117.ljydw.top","port":80,"udp":true,"password":"7650c981-f94f-4716-b969-eb8f74b4780a","sni":"jp1117.ljydw.top","skip-cert-verify":true}
-  - {"name":"��枂��瑌+United+States(ChatGPT)+07+TG:@nodpai","type":"trojan","server":"us226.ljydw.top","port":443,"udp":true,"password":"7650c981-f94f-4716-b969-eb8f74b4780a","sni":"us226.ljydw.top","skip-cert-verify":true}
+  - {"name":"🇺🇸_US_电报频道： @pjrjzy_1","type":"vmess","server":"156.225.67.102","port":44331,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸_US_电报频道： @pjrjzy_2","type":"vmess","server":"142.4.97.71","port":44942,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸_US_电报频道： @pjrjzy_3","type":"vmess","server":"156.225.67.107","port":51234,"cipher":"auto","uuid":"29a5d48e-24f1-48fd-a5e1-9a46cb31032f","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"��䤰��秐+India+01+TG:@nodpai","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
+  - {"name":"中国【付费推荐：https://tt.vg/vip】269","type":"vmess","server":"in05.my1188.org","port":63087,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"中国【付费推荐：https://tt.vg/vip】270","type":"vmess","server":"in02.my1188.org","port":63087,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"中国【付费推荐：https://tt.vg/vip】276","type":"vmess","server":"in05.my1188.org","port":63086,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"中国【付费推荐：https://tt.vg/vip】299","type":"vmess","server":"in05.my1188.org","port":63071,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"中国【付费推荐：https://tt.vg/vip】301","type":"vmess","server":"in04.my1188.org","port":63087,"cipher":"auto","uuid":"e150c7fc-4297-3a40-a9d8-ff7e38bc1c63","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _CN_中国_1_4@4
-      - _CN_中国_1_6@6
-      - _CN_中国_7_0@35
-      - proxy
+      - _CN_中国_5_2@47
+      - '|+7.40Mb'
+      - '|71.49Mb'
+      - AU_06+|16.66Mb
+      - CN_130+|+7.42Mb
+      - CN_165+|+7.57Mb
+      - Pool_🇳🇱NL_432+|26.81Mb
+      - Relay+��𠪊��𨤍+Canada+01+TG:@nodpai
+      - Relay_+|+3.53Mb
+      - Relay_🇨🇳CN-🇦🇺AU_131
+      - Relay_🇨🇳CN-🇯🇵JP_142
+      - Relay_🇨🇳CN-🇸🇬SG_134
+      - Relay_🇨🇳CN-🇸🇬SG_152
       - US_205 | 2.22Mb
-      - 🇨🇳 China 03 TG:@nodpai
-      - 🇨🇳CN 4 → tg@nicevpn123
-      - 🇳🇱 Netherlands 02 TG:@nodpai
+      - 🇨🇳_CN_电报频道： @pjrjzy_1
+      - 🇨🇳_CN_电报频道： @pjrjzy_2
+      - 🇨🇳_CN_电报频道： @pjrjzy_3
+      - 🇨🇳_CN_电报频道： @pjrjzy_4
+      - 🇨🇳_CN_电报频道： @pjrjzy_5
+      - 🇨🇳_CN_电报频道： @pjrjzy_6
+      - 🇨🇳_CN_电报频道： @pjrjzy_7
+      - 🇨🇳_CN_电报频道： @pjrjzy_8
+      - 🇨🇳_CN_电报频道： @pjrjzy_9
       - 🇳🇱 Netherlands 04 TG:@nodpai
       - 🇳🇱 Netherlands 05 TG:@nodpai
-      - 🇹🇼 Taiwan 02 TG:@nodpai
-      - 🇺🇸 United States 17 TG:@nodpai
       - 🇺🇸_US_电报频道： @pjrjzy_1
       - 🇺🇸_US_电报频道： @pjrjzy_2
       - 🇺🇸_US_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_4
-      - ��篅��剏 Taiwan 02 TG:@nodpai
-      - ��篅��剏+Taiwan(ChatGPT)+03+TG:@nodpai
-      - ��篅��剏+Taiwan(ChatGPT)+06+TG:@nodpai
-      - ��𨤍��䌊+United+Arab+Emirates(ChatGPT)+01+TG:@nodpai
-      - ��枂��瑌+United+States(ChatGPT)+07+TG:@nodpai
+      - ��䤰��秐+India+01+TG:@nodpai
+      - 中国【付费推荐：https://tt.vg/vip】269
+      - 中国【付费推荐：https://tt.vg/vip】270
+      - 中国【付费推荐：https://tt.vg/vip】276
+      - 中国【付费推荐：https://tt.vg/vip】299
+      - 中国【付费推荐：https://tt.vg/vip】301
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - _CN_中国_1_4@4
-      - _CN_中国_1_6@6
-      - _CN_中国_7_0@35
-      - proxy
+      - _CN_中国_5_2@47
+      - '|+7.40Mb'
+      - '|71.49Mb'
+      - AU_06+|16.66Mb
+      - CN_130+|+7.42Mb
+      - CN_165+|+7.57Mb
+      - Pool_🇳🇱NL_432+|26.81Mb
+      - Relay+��𠪊��𨤍+Canada+01+TG:@nodpai
+      - Relay_+|+3.53Mb
+      - Relay_🇨🇳CN-🇦🇺AU_131
+      - Relay_🇨🇳CN-🇯🇵JP_142
+      - Relay_🇨🇳CN-🇸🇬SG_134
+      - Relay_🇨🇳CN-🇸🇬SG_152
       - US_205 | 2.22Mb
-      - 🇨🇳 China 03 TG:@nodpai
-      - 🇨🇳CN 4 → tg@nicevpn123
-      - 🇳🇱 Netherlands 02 TG:@nodpai
+      - 🇨🇳_CN_电报频道： @pjrjzy_1
+      - 🇨🇳_CN_电报频道： @pjrjzy_2
+      - 🇨🇳_CN_电报频道： @pjrjzy_3
+      - 🇨🇳_CN_电报频道： @pjrjzy_4
+      - 🇨🇳_CN_电报频道： @pjrjzy_5
+      - 🇨🇳_CN_电报频道： @pjrjzy_6
+      - 🇨🇳_CN_电报频道： @pjrjzy_7
+      - 🇨🇳_CN_电报频道： @pjrjzy_8
+      - 🇨🇳_CN_电报频道： @pjrjzy_9
       - 🇳🇱 Netherlands 04 TG:@nodpai
       - 🇳🇱 Netherlands 05 TG:@nodpai
-      - 🇹🇼 Taiwan 02 TG:@nodpai
-      - 🇺🇸 United States 17 TG:@nodpai
       - 🇺🇸_US_电报频道： @pjrjzy_1
       - 🇺🇸_US_电报频道： @pjrjzy_2
       - 🇺🇸_US_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_4
-      - ��篅��剏 Taiwan 02 TG:@nodpai
-      - ��篅��剏+Taiwan(ChatGPT)+03+TG:@nodpai
-      - ��篅��剏+Taiwan(ChatGPT)+06+TG:@nodpai
-      - ��𨤍��䌊+United+Arab+Emirates(ChatGPT)+01+TG:@nodpai
-      - ��枂��瑌+United+States(ChatGPT)+07+TG:@nodpai
+      - ��䤰��秐+India+01+TG:@nodpai
+      - 中国【付费推荐：https://tt.vg/vip】269
+      - 中国【付费推荐：https://tt.vg/vip】270
+      - 中国【付费推荐：https://tt.vg/vip】276
+      - 中国【付费推荐：https://tt.vg/vip】299
+      - 中国【付费推荐：https://tt.vg/vip】301
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国_1_4@4
-      - _CN_中国_1_6@6
-      - _CN_中国_7_0@35
-      - proxy
+      - _CN_中国_5_2@47
+      - '|+7.40Mb'
+      - '|71.49Mb'
+      - AU_06+|16.66Mb
+      - CN_130+|+7.42Mb
+      - CN_165+|+7.57Mb
+      - Pool_🇳🇱NL_432+|26.81Mb
+      - Relay+��𠪊��𨤍+Canada+01+TG:@nodpai
+      - Relay_+|+3.53Mb
+      - Relay_🇨🇳CN-🇦🇺AU_131
+      - Relay_🇨🇳CN-🇯🇵JP_142
+      - Relay_🇨🇳CN-🇸🇬SG_134
+      - Relay_🇨🇳CN-🇸🇬SG_152
       - US_205 | 2.22Mb
-      - 🇨🇳 China 03 TG:@nodpai
-      - 🇨🇳CN 4 → tg@nicevpn123
-      - 🇳🇱 Netherlands 02 TG:@nodpai
+      - 🇨🇳_CN_电报频道： @pjrjzy_1
+      - 🇨🇳_CN_电报频道： @pjrjzy_2
+      - 🇨🇳_CN_电报频道： @pjrjzy_3
+      - 🇨🇳_CN_电报频道： @pjrjzy_4
+      - 🇨🇳_CN_电报频道： @pjrjzy_5
+      - 🇨🇳_CN_电报频道： @pjrjzy_6
+      - 🇨🇳_CN_电报频道： @pjrjzy_7
+      - 🇨🇳_CN_电报频道： @pjrjzy_8
+      - 🇨🇳_CN_电报频道： @pjrjzy_9
       - 🇳🇱 Netherlands 04 TG:@nodpai
       - 🇳🇱 Netherlands 05 TG:@nodpai
-      - 🇹🇼 Taiwan 02 TG:@nodpai
-      - 🇺🇸 United States 17 TG:@nodpai
       - 🇺🇸_US_电报频道： @pjrjzy_1
       - 🇺🇸_US_电报频道： @pjrjzy_2
       - 🇺🇸_US_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_4
-      - ��篅��剏 Taiwan 02 TG:@nodpai
-      - ��篅��剏+Taiwan(ChatGPT)+03+TG:@nodpai
-      - ��篅��剏+Taiwan(ChatGPT)+06+TG:@nodpai
-      - ��𨤍��䌊+United+Arab+Emirates(ChatGPT)+01+TG:@nodpai
-      - ��枂��瑌+United+States(ChatGPT)+07+TG:@nodpai
+      - ��䤰��秐+India+01+TG:@nodpai
+      - 中国【付费推荐：https://tt.vg/vip】269
+      - 中国【付费推荐：https://tt.vg/vip】270
+      - 中国【付费推荐：https://tt.vg/vip】276
+      - 中国【付费推荐：https://tt.vg/vip】299
+      - 中国【付费推荐：https://tt.vg/vip】301
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _CN_中国_1_4@4
-      - _CN_中国_1_6@6
-      - _CN_中国_7_0@35
-      - proxy
+      - _CN_中国_5_2@47
+      - '|+7.40Mb'
+      - '|71.49Mb'
+      - AU_06+|16.66Mb
+      - CN_130+|+7.42Mb
+      - CN_165+|+7.57Mb
+      - Pool_🇳🇱NL_432+|26.81Mb
+      - Relay+��𠪊��𨤍+Canada+01+TG:@nodpai
+      - Relay_+|+3.53Mb
+      - Relay_🇨🇳CN-🇦🇺AU_131
+      - Relay_🇨🇳CN-🇯🇵JP_142
+      - Relay_🇨🇳CN-🇸🇬SG_134
+      - Relay_🇨🇳CN-🇸🇬SG_152
       - US_205 | 2.22Mb
-      - 🇨🇳 China 03 TG:@nodpai
-      - 🇨🇳CN 4 → tg@nicevpn123
-      - 🇳🇱 Netherlands 02 TG:@nodpai
+      - 🇨🇳_CN_电报频道： @pjrjzy_1
+      - 🇨🇳_CN_电报频道： @pjrjzy_2
+      - 🇨🇳_CN_电报频道： @pjrjzy_3
+      - 🇨🇳_CN_电报频道： @pjrjzy_4
+      - 🇨🇳_CN_电报频道： @pjrjzy_5
+      - 🇨🇳_CN_电报频道： @pjrjzy_6
+      - 🇨🇳_CN_电报频道： @pjrjzy_7
+      - 🇨🇳_CN_电报频道： @pjrjzy_8
+      - 🇨🇳_CN_电报频道： @pjrjzy_9
       - 🇳🇱 Netherlands 04 TG:@nodpai
       - 🇳🇱 Netherlands 05 TG:@nodpai
-      - 🇹🇼 Taiwan 02 TG:@nodpai
-      - 🇺🇸 United States 17 TG:@nodpai
       - 🇺🇸_US_电报频道： @pjrjzy_1
       - 🇺🇸_US_电报频道： @pjrjzy_2
       - 🇺🇸_US_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_4
-      - ��篅��剏 Taiwan 02 TG:@nodpai
-      - ��篅��剏+Taiwan(ChatGPT)+03+TG:@nodpai
-      - ��篅��剏+Taiwan(ChatGPT)+06+TG:@nodpai
-      - ��𨤍��䌊+United+Arab+Emirates(ChatGPT)+01+TG:@nodpai
-      - ��枂��瑌+United+States(ChatGPT)+07+TG:@nodpai
+      - ��䤰��秐+India+01+TG:@nodpai
+      - 中国【付费推荐：https://tt.vg/vip】269
+      - 中国【付费推荐：https://tt.vg/vip】270
+      - 中国【付费推荐：https://tt.vg/vip】276
+      - 中国【付费推荐：https://tt.vg/vip】299
+      - 中国【付费推荐：https://tt.vg/vip】301
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _CN_中国_1_4@4
-      - _CN_中国_1_6@6
-      - _CN_中国_7_0@35
-      - proxy
+      - _CN_中国_5_2@47
+      - '|+7.40Mb'
+      - '|71.49Mb'
+      - AU_06+|16.66Mb
+      - CN_130+|+7.42Mb
+      - CN_165+|+7.57Mb
+      - Pool_🇳🇱NL_432+|26.81Mb
+      - Relay+��𠪊��𨤍+Canada+01+TG:@nodpai
+      - Relay_+|+3.53Mb
+      - Relay_🇨🇳CN-🇦🇺AU_131
+      - Relay_🇨🇳CN-🇯🇵JP_142
+      - Relay_🇨🇳CN-🇸🇬SG_134
+      - Relay_🇨🇳CN-🇸🇬SG_152
       - US_205 | 2.22Mb
-      - 🇨🇳 China 03 TG:@nodpai
-      - 🇨🇳CN 4 → tg@nicevpn123
-      - 🇳🇱 Netherlands 02 TG:@nodpai
+      - 🇨🇳_CN_电报频道： @pjrjzy_1
+      - 🇨🇳_CN_电报频道： @pjrjzy_2
+      - 🇨🇳_CN_电报频道： @pjrjzy_3
+      - 🇨🇳_CN_电报频道： @pjrjzy_4
+      - 🇨🇳_CN_电报频道： @pjrjzy_5
+      - 🇨🇳_CN_电报频道： @pjrjzy_6
+      - 🇨🇳_CN_电报频道： @pjrjzy_7
+      - 🇨🇳_CN_电报频道： @pjrjzy_8
+      - 🇨🇳_CN_电报频道： @pjrjzy_9
       - 🇳🇱 Netherlands 04 TG:@nodpai
       - 🇳🇱 Netherlands 05 TG:@nodpai
-      - 🇹🇼 Taiwan 02 TG:@nodpai
-      - 🇺🇸 United States 17 TG:@nodpai
       - 🇺🇸_US_电报频道： @pjrjzy_1
       - 🇺🇸_US_电报频道： @pjrjzy_2
       - 🇺🇸_US_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_4
-      - ��篅��剏 Taiwan 02 TG:@nodpai
-      - ��篅��剏+Taiwan(ChatGPT)+03+TG:@nodpai
-      - ��篅��剏+Taiwan(ChatGPT)+06+TG:@nodpai
-      - ��𨤍��䌊+United+Arab+Emirates(ChatGPT)+01+TG:@nodpai
-      - ��枂��瑌+United+States(ChatGPT)+07+TG:@nodpai
+      - ��䤰��秐+India+01+TG:@nodpai
+      - 中国【付费推荐：https://tt.vg/vip】269
+      - 中国【付费推荐：https://tt.vg/vip】270
+      - 中国【付费推荐：https://tt.vg/vip】276
+      - 中国【付费推荐：https://tt.vg/vip】299
+      - 中国【付费推荐：https://tt.vg/vip】301
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _CN_中国_1_4@4
-      - _CN_中国_1_6@6
-      - _CN_中国_7_0@35
-      - proxy
+      - _CN_中国_5_2@47
+      - '|+7.40Mb'
+      - '|71.49Mb'
+      - AU_06+|16.66Mb
+      - CN_130+|+7.42Mb
+      - CN_165+|+7.57Mb
+      - Pool_🇳🇱NL_432+|26.81Mb
+      - Relay+��𠪊��𨤍+Canada+01+TG:@nodpai
+      - Relay_+|+3.53Mb
+      - Relay_🇨🇳CN-🇦🇺AU_131
+      - Relay_🇨🇳CN-🇯🇵JP_142
+      - Relay_🇨🇳CN-🇸🇬SG_134
+      - Relay_🇨🇳CN-🇸🇬SG_152
       - US_205 | 2.22Mb
-      - 🇨🇳 China 03 TG:@nodpai
-      - 🇨🇳CN 4 → tg@nicevpn123
-      - 🇳🇱 Netherlands 02 TG:@nodpai
+      - 🇨🇳_CN_电报频道： @pjrjzy_1
+      - 🇨🇳_CN_电报频道： @pjrjzy_2
+      - 🇨🇳_CN_电报频道： @pjrjzy_3
+      - 🇨🇳_CN_电报频道： @pjrjzy_4
+      - 🇨🇳_CN_电报频道： @pjrjzy_5
+      - 🇨🇳_CN_电报频道： @pjrjzy_6
+      - 🇨🇳_CN_电报频道： @pjrjzy_7
+      - 🇨🇳_CN_电报频道： @pjrjzy_8
+      - 🇨🇳_CN_电报频道： @pjrjzy_9
       - 🇳🇱 Netherlands 04 TG:@nodpai
       - 🇳🇱 Netherlands 05 TG:@nodpai
-      - 🇹🇼 Taiwan 02 TG:@nodpai
-      - 🇺🇸 United States 17 TG:@nodpai
       - 🇺🇸_US_电报频道： @pjrjzy_1
       - 🇺🇸_US_电报频道： @pjrjzy_2
       - 🇺🇸_US_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_4
-      - ��篅��剏 Taiwan 02 TG:@nodpai
-      - ��篅��剏+Taiwan(ChatGPT)+03+TG:@nodpai
-      - ��篅��剏+Taiwan(ChatGPT)+06+TG:@nodpai
-      - ��𨤍��䌊+United+Arab+Emirates(ChatGPT)+01+TG:@nodpai
-      - ��枂��瑌+United+States(ChatGPT)+07+TG:@nodpai
+      - ��䤰��秐+India+01+TG:@nodpai
+      - 中国【付费推荐：https://tt.vg/vip】269
+      - 中国【付费推荐：https://tt.vg/vip】270
+      - 中国【付费推荐：https://tt.vg/vip】276
+      - 中国【付费推荐：https://tt.vg/vip】299
+      - 中国【付费推荐：https://tt.vg/vip】301
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -223,27 +314,40 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国_1_4@4
-      - _CN_中国_1_6@6
-      - _CN_中国_7_0@35
-      - proxy
+      - _CN_中国_5_2@47
+      - '|+7.40Mb'
+      - '|71.49Mb'
+      - AU_06+|16.66Mb
+      - CN_130+|+7.42Mb
+      - CN_165+|+7.57Mb
+      - Pool_🇳🇱NL_432+|26.81Mb
+      - Relay+��𠪊��𨤍+Canada+01+TG:@nodpai
+      - Relay_+|+3.53Mb
+      - Relay_🇨🇳CN-🇦🇺AU_131
+      - Relay_🇨🇳CN-🇯🇵JP_142
+      - Relay_🇨🇳CN-🇸🇬SG_134
+      - Relay_🇨🇳CN-🇸🇬SG_152
       - US_205 | 2.22Mb
-      - 🇨🇳 China 03 TG:@nodpai
-      - 🇨🇳CN 4 → tg@nicevpn123
-      - 🇳🇱 Netherlands 02 TG:@nodpai
+      - 🇨🇳_CN_电报频道： @pjrjzy_1
+      - 🇨🇳_CN_电报频道： @pjrjzy_2
+      - 🇨🇳_CN_电报频道： @pjrjzy_3
+      - 🇨🇳_CN_电报频道： @pjrjzy_4
+      - 🇨🇳_CN_电报频道： @pjrjzy_5
+      - 🇨🇳_CN_电报频道： @pjrjzy_6
+      - 🇨🇳_CN_电报频道： @pjrjzy_7
+      - 🇨🇳_CN_电报频道： @pjrjzy_8
+      - 🇨🇳_CN_电报频道： @pjrjzy_9
       - 🇳🇱 Netherlands 04 TG:@nodpai
       - 🇳🇱 Netherlands 05 TG:@nodpai
-      - 🇹🇼 Taiwan 02 TG:@nodpai
-      - 🇺🇸 United States 17 TG:@nodpai
       - 🇺🇸_US_电报频道： @pjrjzy_1
       - 🇺🇸_US_电报频道： @pjrjzy_2
       - 🇺🇸_US_电报频道： @pjrjzy_3
-      - 🇺🇸_US_电报频道： @pjrjzy_4
-      - ��篅��剏 Taiwan 02 TG:@nodpai
-      - ��篅��剏+Taiwan(ChatGPT)+03+TG:@nodpai
-      - ��篅��剏+Taiwan(ChatGPT)+06+TG:@nodpai
-      - ��𨤍��䌊+United+Arab+Emirates(ChatGPT)+01+TG:@nodpai
-      - ��枂��瑌+United+States(ChatGPT)+07+TG:@nodpai
+      - ��䤰��秐+India+01+TG:@nodpai
+      - 中国【付费推荐：https://tt.vg/vip】269
+      - 中国【付费推荐：https://tt.vg/vip】270
+      - 中国【付费推荐：https://tt.vg/vip】276
+      - 中国【付费推荐：https://tt.vg/vip】299
+      - 中国【付费推荐：https://tt.vg/vip】301
 
 rules:
 # 本地/局域网地址
