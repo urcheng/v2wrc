@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-04-04 10:28:16
+# 创建时间：2023-04-06 09:09:26
 # 使用模版：V2RaySE 默认模版
-# 节点数量：49
+# 节点数量：16
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,382 +21,151 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"越南68 - Mrli加速器","type":"vmess","server":"rk1.mrlizhuanfa.com","port":14214,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"印度05 - Mrli加速器","type":"vmess","server":"rk1.mrlizhuanfa.com","port":33222,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"意大利40 - Mrli加速器","type":"vmess","server":"rk1.mrlizhuanfa.com","port":13215,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"新加坡48 - Mrli加速器","type":"vmess","server":"rk1.mrlizhuanfa.com","port":52221,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"新加坡47 - Mrli加速器","type":"vmess","server":"rk1.mrlizhuanfa.com","port":62222,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"香港1+-+giao云","type":"trojan","server":"316sg01.ljydw.top","port":443,"udp":true,"password":"a4f3cdcc-a90c-4ebd-8ac4-3b0dd9e4d4ea","sni":"316sg01.ljydw.top","skip-cert-verify":false}
-  - {"name":"西班牙44 - Mrli加速器","type":"vmess","server":"rk1.mrlizhuanfa.com","port":12040,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"泰国57 - Mrli加速器","type":"vmess","server":"rk1.mrlizhuanfa.com","port":12356,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"台湾3+-+giao云","type":"trojan","server":"625tw.ljydw.top","port":80,"udp":true,"password":"a4f3cdcc-a90c-4ebd-8ac4-3b0dd9e4d4ea","sni":"625tw.ljydw.top","skip-cert-verify":false}
-  - {"name":"台湾2+-+giao云","type":"trojan","server":"805tw.ljydw.top","port":443,"udp":true,"password":"a4f3cdcc-a90c-4ebd-8ac4-3b0dd9e4d4ea","sni":"805tw.ljydw.top","skip-cert-verify":false}
-  - {"name":"台湾1+-+giao云","type":"trojan","server":"0309tw.ljydw.top","port":443,"udp":true,"password":"a4f3cdcc-a90c-4ebd-8ac4-3b0dd9e4d4ea","sni":"0309tw.ljydw.top","skip-cert-verify":false}
-  - {"name":"��墖��袝+South+Korea+01+TG:@nodpai","type":"trojan","server":"kr-s-1.fuckjdieng.uk","port":50186,"udp":true,"password":"cab121ab-da8a-435f-bc51-959a79c956da","sni":"kr-s-1.fuckjdieng.uk","skip-cert-verify":true}
-  - {"name":"狮城|TV|1x+-+TTK","type":"trojan","server":"lv2.ttkcloud.xyz","port":51350,"udp":true,"password":"c54b8b12-f1fb-4544-a7d0-75860f600713","sni":"74.120.175.243","skip-cert-verify":false}
-  - {"name":"日本|TV|1x+-+TTK","type":"trojan","server":"lv2.ttkcloud.xyz","port":12333,"udp":true,"password":"c54b8b12-f1fb-4544-a7d0-75860f600713","sni":"74.120.175.243","skip-cert-verify":false}
-  - {"name":"日本+-+giao云","type":"trojan","server":"jp1117.ljydw.top","port":80,"udp":true,"password":"a4f3cdcc-a90c-4ebd-8ac4-3b0dd9e4d4ea","sni":"jp1117.ljydw.top","skip-cert-verify":false}
-  - {"name":"美国17 - Mrli加速器","type":"vmess","server":"rk1.mrlizhuanfa.com","port":30114,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国11 SSR - Mrli加速器","type":"ssr","server":"rk1.mrlizhuanfa.com","port":10081,"password":"aD7kWU","cipher":"aes-128-ctr","obfs":"plain","protocol":"auth_aes128_md5","obfs-param":"cdfa16524.microsoft.com","protocol-param":"6524:iwEi3pr8uvTbVcRc","group":"SSRProvider"}
-  - {"name":"美国|TV|1x+-+TTK","type":"trojan","server":"lv2.ttkcloud.xyz","port":59021,"udp":true,"password":"c54b8b12-f1fb-4544-a7d0-75860f600713","sni":"74.120.175.243","skip-cert-verify":false}
-  - {"name":"马来西亚03 - Mrli加速器","type":"vmess","server":"rk1.mrlizhuanfa.com","port":20156,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"公网|日本|1x+-+TTK","type":"trojan","server":"cs.ttkcloud.xyz","port":12333,"udp":true,"password":"c54b8b12-f1fb-4544-a7d0-75860f600713","sni":"74.120.175.243","skip-cert-verify":false}
-  - {"name":"��袝��枂+Russia+02+TG:@nodpai","type":"trojan","server":"1.hk1997.pro","port":443,"udp":true,"password":"2703fdad-d9fd-4884-a16d-00f0fd4a061c","skip-cert-verify":true}
-  - {"name":"俄罗斯16 - Mrli加速器","type":"vmess","server":"rk1.mrlizhuanfa.com","port":30113,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳_CN_电报频道 @pjrjzy_1","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳_CN_电报频道 @pjrjzy_2","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay ��鐯��墖 Hong Kong 10 TG:@nodpai","type":"vmess","server":"rk1.mrlizhuanfa.com","port":20011,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay ��鐯��墖 Hong Kong 09 TG:@nodpai","type":"vmess","server":"rk1.mrlizhuanfa.com","port":21111,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay ��鐯��墖 Hong Kong 08 TG:@nodpai","type":"vmess","server":"rk1.mrlizhuanfa.com","port":28261,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay ��鐯��墖 Hong Kong 06 TG:@nodpai","type":"vmess","server":"rk1.mrlizhuanfa.com","port":10145,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay ��鐯��墖 Hong Kong 04 TG:@nodpai","type":"vmess","server":"rk1.mrlizhuanfa.com","port":12441,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay ��枂��瑌 United States 03 TG:@nodpai","type":"vmess","server":"rk1.mrlizhuanfa.com","port":30114,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay ��䤰��秐 India 02 TG:@nodpai","type":"vmess","server":"rk1.mrlizhuanfa.com","port":33222,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay ��䤰��篅 Italy(ChatGPT) 01 TG:@nodpai","type":"vmess","server":"rk1.mrlizhuanfa.com","port":13215,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay ��鈘��遆 Mexico 01 TG:@nodpai","type":"vmess","server":"rk1.mrlizhuanfa.com","port":15423,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay ��鈘��㓦 Malaysia(ChatGPT) 01 TG:@nodpai","type":"vmess","server":"rk1.mrlizhuanfa.com","port":20156,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay ��蘓��晠 Japan 03 TG:@nodpai","type":"vmess","server":"rk1.mrlizhuanfa.com","port":10000,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay ��蘓��晠 Japan 02 TG:@nodpai","type":"vmess","server":"rk1.mrlizhuanfa.com","port":11122,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay ��瑌��龖 Singapore(ChatGPT) 02 TG:@nodpai","type":"vmess","server":"rk1.mrlizhuanfa.com","port":11386,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay ��𣉞��䌊 Germany 01 TG:@nodpai","type":"vmess","server":"rk1.mrlizhuanfa.com","port":12383,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Pool_🇧🇭BH_109+|12.18Mb","type":"ss","server":"23.247.137.71","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"simple-obfs","plugin-opts":{"mode":"websocket"}}
-  - {"name":"ChatGPT-04|1x+-+TTK","type":"trojan","server":"cs.ttkcloud.xyz","port":14239,"udp":true,"password":"c54b8b12-f1fb-4544-a7d0-75860f600713","sni":"74.120.175.243","skip-cert-verify":false}
-  - {"name":"A10 香港26 AZ - Mrli加速器","type":"vmess","server":"rk1.mrlizhuanfa.com","port":28261,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"A07 香港71 GCP - Mrli加速器","type":"vmess","server":"rk1.mrlizhuanfa.com","port":20011,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"A05 香港69 AZ - Mrli加速器","type":"vmess","server":"rk1.mrlizhuanfa.com","port":10145,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"A04 香港41 AZ - Mrli加速器","type":"vmess","server":"rk1.mrlizhuanfa.com","port":10105,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"A02 香港63 CMI - Mrli加速器","type":"vmess","server":"rk1.mrlizhuanfa.com","port":11122,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"A01 香港52 CMI - Mrli加速器","type":"vmess","server":"rk1.mrlizhuanfa.com","port":33333,"cipher":"auto","uuid":"6350d136-fd5d-31ff-94c2-faa2dc4ba195","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"|71.49Mb_1","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"|71.49Mb_2","type":"vmess","server":"106.55.234.95","port":31372,"cipher":"auto","uuid":"374d3519-455c-45b8-e3b1-0e2e9fcf4411","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"_CN_中国_15_1@38","type":"ss","server":"14.29.124.168","port":25272,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"Relay 🇭🇰 Hong Kong 02 TG:@nodpai","type":"vmess","server":"hncu.donghui.tech","port":61126,"cipher":"auto","uuid":"1591890d-ec33-4158-843e-8c67708ca92d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ty","headers":{"host":"hncu.donghui.tech"}}}
+  - {"name":"US_187 |15.99Mb","type":"vmess","server":"hk1.b.bd6b6c503c93.sanfen001.pics","port":443,"cipher":"auto","uuid":"da9d5c74-a572-4cf4-a375-19b886f5ffc4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"hk1.b.bd6b6c503c93.sanfen001.pics"}}}
+  - {"name":"US_233+|24.55Mb","type":"trojan","server":"hk5.microsoftjs.top","port":443,"udp":true,"password":"58dabbd0-1380-4d64-8375-ace16d95bc19","skip-cert-verify":true}
+  - {"name":"🇨🇳_CN_电报频道 @pjrjzy","type":"vmess","server":"47.104.237.32","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇳🇱 Netherlands(ChatGPT) 02 TG:@nodpai","type":"vmess","server":"156.225.67.145","port":51948,"cipher":"auto","uuid":"93503dd5-245a-4eb1-ae2a-57ab9f2b3c29","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇳🇱 Netherlands(ChatGPT) 04 TG:@nodpai","type":"vmess","server":"156.225.67.205","port":47717,"cipher":"auto","uuid":"d7735058-1dac-4618-99ff-0aa0441ec2d7","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 United States 07 TG:@nodpai","type":"vmess","server":"142.4.108.57","port":59109,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 United States 20 TG:@nodpai","type":"vmess","server":"198.2.204.245","port":40802,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"测试A组2-V2gRpc","type":"vmess","server":"xy003.tiktok00001.win","port":40204,"cipher":"auto","uuid":"ea045a28-23c5-4006-9a92-efd02d4aa633","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xy003.tiktok00001.win","network":"grpc","grpc-opts":{"grpc-service-name":"xy003.tiktok00001.win","grpc-mode":"none"}}
+  - {"name":"测试C组3-V2gRpc","type":"vmess","server":"xy012.tiktok00001.win","port":20213,"cipher":"auto","uuid":"ea045a28-23c5-4006-9a92-efd02d4aa633","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xy012.tiktok00001.win","network":"grpc","grpc-opts":{"grpc-service-name":"xy012.tiktok00001.win","grpc-mode":"none"}}
+  - {"name":"测试C组4-V2gRpc","type":"vmess","server":"xy013.tiktok00001.win","port":20214,"cipher":"auto","uuid":"ea045a28-23c5-4006-9a92-efd02d4aa633","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xy013.tiktok00001.win","network":"grpc","grpc-opts":{"grpc-service-name":"xy013.tiktok00001.win","grpc-mode":"none"}}
+  - {"name":"测试D组1-V2gRpc","type":"vmess","server":"xy014.tiktok00001.win","port":20215,"cipher":"auto","uuid":"ea045a28-23c5-4006-9a92-efd02d4aa633","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xy014.tiktok00001.win","network":"grpc","grpc-opts":{"grpc-service-name":"xy014.tiktok00001.win","grpc-mode":"none"}}
+  - {"name":"测试D组4-V2gRpc","type":"vmess","server":"xy017.tiktok00001.win","port":20218,"cipher":"auto","uuid":"ea045a28-23c5-4006-9a92-efd02d4aa633","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xy017.tiktok00001.win","network":"grpc","grpc-opts":{"grpc-service-name":"xy017.tiktok00001.win","grpc-mode":"none"}}
+  - {"name":"测试E组1-V2gRpc","type":"vmess","server":"xy018.tiktok00001.win","port":20219,"cipher":"auto","uuid":"ea045a28-23c5-4006-9a92-efd02d4aa633","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xy018.tiktok00001.win","network":"grpc","grpc-opts":{"grpc-service-name":"xy018.tiktok00001.win","grpc-mode":"none"}}
+  - {"name":"测试E组2-V2gRpc","type":"vmess","server":"xy019.tiktok00001.win","port":20220,"cipher":"auto","uuid":"ea045a28-23c5-4006-9a92-efd02d4aa633","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xy019.tiktok00001.win","network":"grpc","grpc-opts":{"grpc-service-name":"xy019.tiktok00001.win","grpc-mode":"none"}}
+  - {"name":"测试G组1-V2gRpc","type":"vmess","server":"xy026.tiktok00001.win","port":20227,"cipher":"auto","uuid":"ea045a28-23c5-4006-9a92-efd02d4aa633","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"xy026.tiktok00001.win","network":"grpc","grpc-opts":{"grpc-service-name":"xy026.tiktok00001.win","grpc-mode":"none"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 越南68 - Mrli加速器
-      - 印度05 - Mrli加速器
-      - 意大利40 - Mrli加速器
-      - 新加坡48 - Mrli加速器
-      - 新加坡47 - Mrli加速器
-      - 香港1+-+giao云
-      - 西班牙44 - Mrli加速器
-      - 泰国57 - Mrli加速器
-      - 台湾3+-+giao云
-      - 台湾2+-+giao云
-      - 台湾1+-+giao云
-      - ��墖��袝+South+Korea+01+TG:@nodpai
-      - 狮城|TV|1x+-+TTK
-      - 日本|TV|1x+-+TTK
-      - 日本+-+giao云
-      - 美国17 - Mrli加速器
-      - 美国11 SSR - Mrli加速器
-      - 美国|TV|1x+-+TTK
-      - 马来西亚03 - Mrli加速器
-      - 公网|日本|1x+-+TTK
-      - ��袝��枂+Russia+02+TG:@nodpai
-      - 俄罗斯16 - Mrli加速器
-      - 🇨🇳_CN_电报频道 @pjrjzy_1
-      - 🇨🇳_CN_电报频道 @pjrjzy_2
-      - Relay ��鐯��墖 Hong Kong 10 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 09 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 08 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 06 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 04 TG:@nodpai
-      - Relay ��枂��瑌 United States 03 TG:@nodpai
-      - Relay ��䤰��秐 India 02 TG:@nodpai
-      - Relay ��䤰��篅 Italy(ChatGPT) 01 TG:@nodpai
-      - Relay ��鈘��遆 Mexico 01 TG:@nodpai
-      - Relay ��鈘��㓦 Malaysia(ChatGPT) 01 TG:@nodpai
-      - Relay ��蘓��晠 Japan 03 TG:@nodpai
-      - Relay ��蘓��晠 Japan 02 TG:@nodpai
-      - Relay ��瑌��龖 Singapore(ChatGPT) 02 TG:@nodpai
-      - Relay ��𣉞��䌊 Germany 01 TG:@nodpai
-      - Pool_🇧🇭BH_109+|12.18Mb
-      - ChatGPT-04|1x+-+TTK
-      - A10 香港26 AZ - Mrli加速器
-      - A07 香港71 GCP - Mrli加速器
-      - A05 香港69 AZ - Mrli加速器
-      - A04 香港41 AZ - Mrli加速器
-      - A02 香港63 CMI - Mrli加速器
-      - A01 香港52 CMI - Mrli加速器
-      - '|71.49Mb_1'
-      - '|71.49Mb_2'
-      - _CN_中国_15_1@38
+      - Relay 🇭🇰 Hong Kong 02 TG:@nodpai
+      - US_187 |15.99Mb
+      - US_233+|24.55Mb
+      - 🇨🇳_CN_电报频道 @pjrjzy
+      - 🇳🇱 Netherlands(ChatGPT) 02 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 04 TG:@nodpai
+      - 🇺🇸 United States 07 TG:@nodpai
+      - 🇺🇸 United States 20 TG:@nodpai
+      - 测试A组2-V2gRpc
+      - 测试C组3-V2gRpc
+      - 测试C组4-V2gRpc
+      - 测试D组1-V2gRpc
+      - 测试D组4-V2gRpc
+      - 测试E组1-V2gRpc
+      - 测试E组2-V2gRpc
+      - 测试G组1-V2gRpc
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 越南68 - Mrli加速器
-      - 印度05 - Mrli加速器
-      - 意大利40 - Mrli加速器
-      - 新加坡48 - Mrli加速器
-      - 新加坡47 - Mrli加速器
-      - 香港1+-+giao云
-      - 西班牙44 - Mrli加速器
-      - 泰国57 - Mrli加速器
-      - 台湾3+-+giao云
-      - 台湾2+-+giao云
-      - 台湾1+-+giao云
-      - ��墖��袝+South+Korea+01+TG:@nodpai
-      - 狮城|TV|1x+-+TTK
-      - 日本|TV|1x+-+TTK
-      - 日本+-+giao云
-      - 美国17 - Mrli加速器
-      - 美国11 SSR - Mrli加速器
-      - 美国|TV|1x+-+TTK
-      - 马来西亚03 - Mrli加速器
-      - 公网|日本|1x+-+TTK
-      - ��袝��枂+Russia+02+TG:@nodpai
-      - 俄罗斯16 - Mrli加速器
-      - 🇨🇳_CN_电报频道 @pjrjzy_1
-      - 🇨🇳_CN_电报频道 @pjrjzy_2
-      - Relay ��鐯��墖 Hong Kong 10 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 09 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 08 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 06 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 04 TG:@nodpai
-      - Relay ��枂��瑌 United States 03 TG:@nodpai
-      - Relay ��䤰��秐 India 02 TG:@nodpai
-      - Relay ��䤰��篅 Italy(ChatGPT) 01 TG:@nodpai
-      - Relay ��鈘��遆 Mexico 01 TG:@nodpai
-      - Relay ��鈘��㓦 Malaysia(ChatGPT) 01 TG:@nodpai
-      - Relay ��蘓��晠 Japan 03 TG:@nodpai
-      - Relay ��蘓��晠 Japan 02 TG:@nodpai
-      - Relay ��瑌��龖 Singapore(ChatGPT) 02 TG:@nodpai
-      - Relay ��𣉞��䌊 Germany 01 TG:@nodpai
-      - Pool_🇧🇭BH_109+|12.18Mb
-      - ChatGPT-04|1x+-+TTK
-      - A10 香港26 AZ - Mrli加速器
-      - A07 香港71 GCP - Mrli加速器
-      - A05 香港69 AZ - Mrli加速器
-      - A04 香港41 AZ - Mrli加速器
-      - A02 香港63 CMI - Mrli加速器
-      - A01 香港52 CMI - Mrli加速器
-      - '|71.49Mb_1'
-      - '|71.49Mb_2'
-      - _CN_中国_15_1@38
+      - Relay 🇭🇰 Hong Kong 02 TG:@nodpai
+      - US_187 |15.99Mb
+      - US_233+|24.55Mb
+      - 🇨🇳_CN_电报频道 @pjrjzy
+      - 🇳🇱 Netherlands(ChatGPT) 02 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 04 TG:@nodpai
+      - 🇺🇸 United States 07 TG:@nodpai
+      - 🇺🇸 United States 20 TG:@nodpai
+      - 测试A组2-V2gRpc
+      - 测试C组3-V2gRpc
+      - 测试C组4-V2gRpc
+      - 测试D组1-V2gRpc
+      - 测试D组4-V2gRpc
+      - 测试E组1-V2gRpc
+      - 测试E组2-V2gRpc
+      - 测试G组1-V2gRpc
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 越南68 - Mrli加速器
-      - 印度05 - Mrli加速器
-      - 意大利40 - Mrli加速器
-      - 新加坡48 - Mrli加速器
-      - 新加坡47 - Mrli加速器
-      - 香港1+-+giao云
-      - 西班牙44 - Mrli加速器
-      - 泰国57 - Mrli加速器
-      - 台湾3+-+giao云
-      - 台湾2+-+giao云
-      - 台湾1+-+giao云
-      - ��墖��袝+South+Korea+01+TG:@nodpai
-      - 狮城|TV|1x+-+TTK
-      - 日本|TV|1x+-+TTK
-      - 日本+-+giao云
-      - 美国17 - Mrli加速器
-      - 美国11 SSR - Mrli加速器
-      - 美国|TV|1x+-+TTK
-      - 马来西亚03 - Mrli加速器
-      - 公网|日本|1x+-+TTK
-      - ��袝��枂+Russia+02+TG:@nodpai
-      - 俄罗斯16 - Mrli加速器
-      - 🇨🇳_CN_电报频道 @pjrjzy_1
-      - 🇨🇳_CN_电报频道 @pjrjzy_2
-      - Relay ��鐯��墖 Hong Kong 10 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 09 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 08 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 06 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 04 TG:@nodpai
-      - Relay ��枂��瑌 United States 03 TG:@nodpai
-      - Relay ��䤰��秐 India 02 TG:@nodpai
-      - Relay ��䤰��篅 Italy(ChatGPT) 01 TG:@nodpai
-      - Relay ��鈘��遆 Mexico 01 TG:@nodpai
-      - Relay ��鈘��㓦 Malaysia(ChatGPT) 01 TG:@nodpai
-      - Relay ��蘓��晠 Japan 03 TG:@nodpai
-      - Relay ��蘓��晠 Japan 02 TG:@nodpai
-      - Relay ��瑌��龖 Singapore(ChatGPT) 02 TG:@nodpai
-      - Relay ��𣉞��䌊 Germany 01 TG:@nodpai
-      - Pool_🇧🇭BH_109+|12.18Mb
-      - ChatGPT-04|1x+-+TTK
-      - A10 香港26 AZ - Mrli加速器
-      - A07 香港71 GCP - Mrli加速器
-      - A05 香港69 AZ - Mrli加速器
-      - A04 香港41 AZ - Mrli加速器
-      - A02 香港63 CMI - Mrli加速器
-      - A01 香港52 CMI - Mrli加速器
-      - '|71.49Mb_1'
-      - '|71.49Mb_2'
-      - _CN_中国_15_1@38
+      - Relay 🇭🇰 Hong Kong 02 TG:@nodpai
+      - US_187 |15.99Mb
+      - US_233+|24.55Mb
+      - 🇨🇳_CN_电报频道 @pjrjzy
+      - 🇳🇱 Netherlands(ChatGPT) 02 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 04 TG:@nodpai
+      - 🇺🇸 United States 07 TG:@nodpai
+      - 🇺🇸 United States 20 TG:@nodpai
+      - 测试A组2-V2gRpc
+      - 测试C组3-V2gRpc
+      - 测试C组4-V2gRpc
+      - 测试D组1-V2gRpc
+      - 测试D组4-V2gRpc
+      - 测试E组1-V2gRpc
+      - 测试E组2-V2gRpc
+      - 测试G组1-V2gRpc
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 越南68 - Mrli加速器
-      - 印度05 - Mrli加速器
-      - 意大利40 - Mrli加速器
-      - 新加坡48 - Mrli加速器
-      - 新加坡47 - Mrli加速器
-      - 香港1+-+giao云
-      - 西班牙44 - Mrli加速器
-      - 泰国57 - Mrli加速器
-      - 台湾3+-+giao云
-      - 台湾2+-+giao云
-      - 台湾1+-+giao云
-      - ��墖��袝+South+Korea+01+TG:@nodpai
-      - 狮城|TV|1x+-+TTK
-      - 日本|TV|1x+-+TTK
-      - 日本+-+giao云
-      - 美国17 - Mrli加速器
-      - 美国11 SSR - Mrli加速器
-      - 美国|TV|1x+-+TTK
-      - 马来西亚03 - Mrli加速器
-      - 公网|日本|1x+-+TTK
-      - ��袝��枂+Russia+02+TG:@nodpai
-      - 俄罗斯16 - Mrli加速器
-      - 🇨🇳_CN_电报频道 @pjrjzy_1
-      - 🇨🇳_CN_电报频道 @pjrjzy_2
-      - Relay ��鐯��墖 Hong Kong 10 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 09 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 08 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 06 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 04 TG:@nodpai
-      - Relay ��枂��瑌 United States 03 TG:@nodpai
-      - Relay ��䤰��秐 India 02 TG:@nodpai
-      - Relay ��䤰��篅 Italy(ChatGPT) 01 TG:@nodpai
-      - Relay ��鈘��遆 Mexico 01 TG:@nodpai
-      - Relay ��鈘��㓦 Malaysia(ChatGPT) 01 TG:@nodpai
-      - Relay ��蘓��晠 Japan 03 TG:@nodpai
-      - Relay ��蘓��晠 Japan 02 TG:@nodpai
-      - Relay ��瑌��龖 Singapore(ChatGPT) 02 TG:@nodpai
-      - Relay ��𣉞��䌊 Germany 01 TG:@nodpai
-      - Pool_🇧🇭BH_109+|12.18Mb
-      - ChatGPT-04|1x+-+TTK
-      - A10 香港26 AZ - Mrli加速器
-      - A07 香港71 GCP - Mrli加速器
-      - A05 香港69 AZ - Mrli加速器
-      - A04 香港41 AZ - Mrli加速器
-      - A02 香港63 CMI - Mrli加速器
-      - A01 香港52 CMI - Mrli加速器
-      - '|71.49Mb_1'
-      - '|71.49Mb_2'
-      - _CN_中国_15_1@38
+      - Relay 🇭🇰 Hong Kong 02 TG:@nodpai
+      - US_187 |15.99Mb
+      - US_233+|24.55Mb
+      - 🇨🇳_CN_电报频道 @pjrjzy
+      - 🇳🇱 Netherlands(ChatGPT) 02 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 04 TG:@nodpai
+      - 🇺🇸 United States 07 TG:@nodpai
+      - 🇺🇸 United States 20 TG:@nodpai
+      - 测试A组2-V2gRpc
+      - 测试C组3-V2gRpc
+      - 测试C组4-V2gRpc
+      - 测试D组1-V2gRpc
+      - 测试D组4-V2gRpc
+      - 测试E组1-V2gRpc
+      - 测试E组2-V2gRpc
+      - 测试G组1-V2gRpc
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 越南68 - Mrli加速器
-      - 印度05 - Mrli加速器
-      - 意大利40 - Mrli加速器
-      - 新加坡48 - Mrli加速器
-      - 新加坡47 - Mrli加速器
-      - 香港1+-+giao云
-      - 西班牙44 - Mrli加速器
-      - 泰国57 - Mrli加速器
-      - 台湾3+-+giao云
-      - 台湾2+-+giao云
-      - 台湾1+-+giao云
-      - ��墖��袝+South+Korea+01+TG:@nodpai
-      - 狮城|TV|1x+-+TTK
-      - 日本|TV|1x+-+TTK
-      - 日本+-+giao云
-      - 美国17 - Mrli加速器
-      - 美国11 SSR - Mrli加速器
-      - 美国|TV|1x+-+TTK
-      - 马来西亚03 - Mrli加速器
-      - 公网|日本|1x+-+TTK
-      - ��袝��枂+Russia+02+TG:@nodpai
-      - 俄罗斯16 - Mrli加速器
-      - 🇨🇳_CN_电报频道 @pjrjzy_1
-      - 🇨🇳_CN_电报频道 @pjrjzy_2
-      - Relay ��鐯��墖 Hong Kong 10 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 09 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 08 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 06 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 04 TG:@nodpai
-      - Relay ��枂��瑌 United States 03 TG:@nodpai
-      - Relay ��䤰��秐 India 02 TG:@nodpai
-      - Relay ��䤰��篅 Italy(ChatGPT) 01 TG:@nodpai
-      - Relay ��鈘��遆 Mexico 01 TG:@nodpai
-      - Relay ��鈘��㓦 Malaysia(ChatGPT) 01 TG:@nodpai
-      - Relay ��蘓��晠 Japan 03 TG:@nodpai
-      - Relay ��蘓��晠 Japan 02 TG:@nodpai
-      - Relay ��瑌��龖 Singapore(ChatGPT) 02 TG:@nodpai
-      - Relay ��𣉞��䌊 Germany 01 TG:@nodpai
-      - Pool_🇧🇭BH_109+|12.18Mb
-      - ChatGPT-04|1x+-+TTK
-      - A10 香港26 AZ - Mrli加速器
-      - A07 香港71 GCP - Mrli加速器
-      - A05 香港69 AZ - Mrli加速器
-      - A04 香港41 AZ - Mrli加速器
-      - A02 香港63 CMI - Mrli加速器
-      - A01 香港52 CMI - Mrli加速器
-      - '|71.49Mb_1'
-      - '|71.49Mb_2'
-      - _CN_中国_15_1@38
+      - Relay 🇭🇰 Hong Kong 02 TG:@nodpai
+      - US_187 |15.99Mb
+      - US_233+|24.55Mb
+      - 🇨🇳_CN_电报频道 @pjrjzy
+      - 🇳🇱 Netherlands(ChatGPT) 02 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 04 TG:@nodpai
+      - 🇺🇸 United States 07 TG:@nodpai
+      - 🇺🇸 United States 20 TG:@nodpai
+      - 测试A组2-V2gRpc
+      - 测试C组3-V2gRpc
+      - 测试C组4-V2gRpc
+      - 测试D组1-V2gRpc
+      - 测试D组4-V2gRpc
+      - 测试E组1-V2gRpc
+      - 测试E组2-V2gRpc
+      - 测试G组1-V2gRpc
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 越南68 - Mrli加速器
-      - 印度05 - Mrli加速器
-      - 意大利40 - Mrli加速器
-      - 新加坡48 - Mrli加速器
-      - 新加坡47 - Mrli加速器
-      - 香港1+-+giao云
-      - 西班牙44 - Mrli加速器
-      - 泰国57 - Mrli加速器
-      - 台湾3+-+giao云
-      - 台湾2+-+giao云
-      - 台湾1+-+giao云
-      - ��墖��袝+South+Korea+01+TG:@nodpai
-      - 狮城|TV|1x+-+TTK
-      - 日本|TV|1x+-+TTK
-      - 日本+-+giao云
-      - 美国17 - Mrli加速器
-      - 美国11 SSR - Mrli加速器
-      - 美国|TV|1x+-+TTK
-      - 马来西亚03 - Mrli加速器
-      - 公网|日本|1x+-+TTK
-      - ��袝��枂+Russia+02+TG:@nodpai
-      - 俄罗斯16 - Mrli加速器
-      - 🇨🇳_CN_电报频道 @pjrjzy_1
-      - 🇨🇳_CN_电报频道 @pjrjzy_2
-      - Relay ��鐯��墖 Hong Kong 10 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 09 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 08 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 06 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 04 TG:@nodpai
-      - Relay ��枂��瑌 United States 03 TG:@nodpai
-      - Relay ��䤰��秐 India 02 TG:@nodpai
-      - Relay ��䤰��篅 Italy(ChatGPT) 01 TG:@nodpai
-      - Relay ��鈘��遆 Mexico 01 TG:@nodpai
-      - Relay ��鈘��㓦 Malaysia(ChatGPT) 01 TG:@nodpai
-      - Relay ��蘓��晠 Japan 03 TG:@nodpai
-      - Relay ��蘓��晠 Japan 02 TG:@nodpai
-      - Relay ��瑌��龖 Singapore(ChatGPT) 02 TG:@nodpai
-      - Relay ��𣉞��䌊 Germany 01 TG:@nodpai
-      - Pool_🇧🇭BH_109+|12.18Mb
-      - ChatGPT-04|1x+-+TTK
-      - A10 香港26 AZ - Mrli加速器
-      - A07 香港71 GCP - Mrli加速器
-      - A05 香港69 AZ - Mrli加速器
-      - A04 香港41 AZ - Mrli加速器
-      - A02 香港63 CMI - Mrli加速器
-      - A01 香港52 CMI - Mrli加速器
-      - '|71.49Mb_1'
-      - '|71.49Mb_2'
-      - _CN_中国_15_1@38
+      - Relay 🇭🇰 Hong Kong 02 TG:@nodpai
+      - US_187 |15.99Mb
+      - US_233+|24.55Mb
+      - 🇨🇳_CN_电报频道 @pjrjzy
+      - 🇳🇱 Netherlands(ChatGPT) 02 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 04 TG:@nodpai
+      - 🇺🇸 United States 07 TG:@nodpai
+      - 🇺🇸 United States 20 TG:@nodpai
+      - 测试A组2-V2gRpc
+      - 测试C组3-V2gRpc
+      - 测试C组4-V2gRpc
+      - 测试D组1-V2gRpc
+      - 测试D组4-V2gRpc
+      - 测试E组1-V2gRpc
+      - 测试E组2-V2gRpc
+      - 测试G组1-V2gRpc
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -419,55 +188,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 越南68 - Mrli加速器
-      - 印度05 - Mrli加速器
-      - 意大利40 - Mrli加速器
-      - 新加坡48 - Mrli加速器
-      - 新加坡47 - Mrli加速器
-      - 香港1+-+giao云
-      - 西班牙44 - Mrli加速器
-      - 泰国57 - Mrli加速器
-      - 台湾3+-+giao云
-      - 台湾2+-+giao云
-      - 台湾1+-+giao云
-      - ��墖��袝+South+Korea+01+TG:@nodpai
-      - 狮城|TV|1x+-+TTK
-      - 日本|TV|1x+-+TTK
-      - 日本+-+giao云
-      - 美国17 - Mrli加速器
-      - 美国11 SSR - Mrli加速器
-      - 美国|TV|1x+-+TTK
-      - 马来西亚03 - Mrli加速器
-      - 公网|日本|1x+-+TTK
-      - ��袝��枂+Russia+02+TG:@nodpai
-      - 俄罗斯16 - Mrli加速器
-      - 🇨🇳_CN_电报频道 @pjrjzy_1
-      - 🇨🇳_CN_电报频道 @pjrjzy_2
-      - Relay ��鐯��墖 Hong Kong 10 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 09 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 08 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 06 TG:@nodpai
-      - Relay ��鐯��墖 Hong Kong 04 TG:@nodpai
-      - Relay ��枂��瑌 United States 03 TG:@nodpai
-      - Relay ��䤰��秐 India 02 TG:@nodpai
-      - Relay ��䤰��篅 Italy(ChatGPT) 01 TG:@nodpai
-      - Relay ��鈘��遆 Mexico 01 TG:@nodpai
-      - Relay ��鈘��㓦 Malaysia(ChatGPT) 01 TG:@nodpai
-      - Relay ��蘓��晠 Japan 03 TG:@nodpai
-      - Relay ��蘓��晠 Japan 02 TG:@nodpai
-      - Relay ��瑌��龖 Singapore(ChatGPT) 02 TG:@nodpai
-      - Relay ��𣉞��䌊 Germany 01 TG:@nodpai
-      - Pool_🇧🇭BH_109+|12.18Mb
-      - ChatGPT-04|1x+-+TTK
-      - A10 香港26 AZ - Mrli加速器
-      - A07 香港71 GCP - Mrli加速器
-      - A05 香港69 AZ - Mrli加速器
-      - A04 香港41 AZ - Mrli加速器
-      - A02 香港63 CMI - Mrli加速器
-      - A01 香港52 CMI - Mrli加速器
-      - '|71.49Mb_1'
-      - '|71.49Mb_2'
-      - _CN_中国_15_1@38
+      - Relay 🇭🇰 Hong Kong 02 TG:@nodpai
+      - US_187 |15.99Mb
+      - US_233+|24.55Mb
+      - 🇨🇳_CN_电报频道 @pjrjzy
+      - 🇳🇱 Netherlands(ChatGPT) 02 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 04 TG:@nodpai
+      - 🇺🇸 United States 07 TG:@nodpai
+      - 🇺🇸 United States 20 TG:@nodpai
+      - 测试A组2-V2gRpc
+      - 测试C组3-V2gRpc
+      - 测试C组4-V2gRpc
+      - 测试D组1-V2gRpc
+      - 测试D组4-V2gRpc
+      - 测试E组1-V2gRpc
+      - 测试E组2-V2gRpc
+      - 测试G组1-V2gRpc
 
 rules:
 # 本地/局域网地址
