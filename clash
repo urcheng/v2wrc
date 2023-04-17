@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-04-12 10:12:00
+# 创建时间：2023-04-17 09:55:01
 # 使用模版：V2RaySE 默认模版
-# 节点数量：23
+# 节点数量：21
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,200 +21,186 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"_CN_中国_1_2@6","type":"ss","server":"36.137.106.45","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"_TW_台湾_1@5","type":"vmess","server":"tw2.sanfen001.pics","port":443,"cipher":"auto","uuid":"da9d5c74-a572-4cf4-a375-19b886f5ffc4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"|+8.51Mb","type":"ss","server":"14.29.124.168","port":25252,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"|91.33Mb","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
-  - {"name":"AU_05 | 0.62Mb","type":"vmess","server":"hk6.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"da9d5c74-a572-4cf4-a375-19b886f5ffc4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"hk6.af49c4e4c2ef.sanfen001.pics"}}}
-  - {"name":"Relay_+|18.45Mb","type":"ss","server":"120.233.31.72","port":39330,"password":"294b8d95-2302-4b95-8595-d1870305cedb","cipher":"aes-256-gcm"}
-  - {"name":"Relay_Relay_+|65.50Mb","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"6f0a9d0fa39d65fa","skip-cert-verify":true}
-  - {"name":"Relay_Relay_+|72.81Mb","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"cd39f62aed7b90f6","skip-cert-verify":true}
-  - {"name":"Relay_Relay_+|76.29Mb","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"d66013c645b93c5c","skip-cert-verify":true}
-  - {"name":"Relay_Relay_+|84.66Mb","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"ffec9f6ea19e1dd1","skip-cert-verify":true}
-  - {"name":"Relay_-🇷🇺RU_53 | 6.15Mb","type":"ssr","server":"t3.freegradely.xyz","port":20022,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","obfs-param":"====","protocol-param":"====","group":"SSRProvider"}
-  - {"name":"RU_114 | 6.53Mb","type":"ssr","server":"46.17.44.111","port":20022,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
-  - {"name":"US_176 |12.02Mb","type":"ssr","server":"t3.freegradely.xyz","port":20022,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
-  - {"name":"🇺🇸 United States 24 TG:@nodpai","type":"vmess","server":"192.74.232.246","port":51802,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"德国｜隧道 01 - 爱猫论坛","type":"vmess","server":"42.7.24.12","port":36016,"cipher":"auto","uuid":"c6edbaf2-bbc7-31ee-8100-075308ed7a0a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国 洛杉矶｜隧道 01 - 爱猫论坛","type":"vmess","server":"42.7.24.12","port":36014,"cipher":"auto","uuid":"c6edbaf2-bbc7-31ee-8100-075308ed7a0a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国 洛杉矶｜隧道 02 - 爱猫论坛","type":"vmess","server":"42.7.24.12","port":36015,"cipher":"auto","uuid":"c6edbaf2-bbc7-31ee-8100-075308ed7a0a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国【付费推荐：https://tt.vg/vip】17","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"2e496758-950e-4549-8842-d5eec98d9fde","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv3.sharecentrepro.org"}}}
-  - {"name":"日本 东京｜隧道 02 GBT - 爱猫论坛","type":"vmess","server":"42.7.24.12","port":36012,"cipher":"auto","uuid":"c6edbaf2-bbc7-31ee-8100-075308ed7a0a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"新加坡 直连1 - 爱猫论坛","type":"vmess","server":"sg1.netflix6.com","port":443,"cipher":"auto","uuid":"c6edbaf2-bbc7-31ee-8100-075308ed7a0a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hls/us8.m3u8","headers":{"host":"sg1.netflix6.com"}}}
-  - {"name":"新加坡 直连2 - 爱猫论坛","type":"vmess","server":"sg2.netflix6.com","port":443,"cipher":"auto","uuid":"c6edbaf2-bbc7-31ee-8100-075308ed7a0a","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hls/us8.m3u8","headers":{"host":"sg2.netflix6.com"}}}
-  - {"name":"新加坡｜隧道 02 - 爱猫论坛","type":"vmess","server":"115.223.28.253","port":36008,"cipher":"auto","uuid":"c6edbaf2-bbc7-31ee-8100-075308ed7a0a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"��枂��瑌 United States(ChatGPT) 01 TG:@nodpai","type":"vmess","server":"5.78.96.204","port":21,"cipher":"auto","uuid":"0da1d372-ec60-4b89-8a3f-79159438c6f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"_1593+|10.02Mb","type":"trojan","server":"195.15.243.26","port":443,"udp":true,"password":"4478","skip-cert-verify":true}
+  - {"name":"_164+|+4.61Mb","type":"ss","server":"36.138.193.128","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"| 5.60Mb","type":"ssr","server":"46.29.163.244","port":20022,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","obfs-param":"====","protocol-param":"====","group":"SSRProvider"}
+  - {"name":"|+6.78Mb","type":"trojan","server":"51.81.82.15","port":443,"udp":true,"password":"29e2e220-d93c-11ed-8901-1239d0255272","skip-cert-verify":true}
+  - {"name":"|+7.25Mb","type":"ss","server":"36.138.140.208","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"|+8.33Mb","type":"ss","server":"14.29.124.168","port":25268,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"|12.61Mb","type":"ssr","server":"46.29.163.244","port":20022,"password":"dongtaiwang.com","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","obfs-param":"===%%�","protocol-param":"===%%�","group":"SSRProvider"}
+  - {"name":"Relay_+|+8.33Mb","type":"trojan","server":"625tw.ljydw.top","port":80,"udp":true,"password":"e6a7b263-073c-4067-b7dd-296ddfae48bd","sni":"625tw.ljydw.top","skip-cert-verify":true}
+  - {"name":"US_276+|+7.73Mb","type":"trojan","server":"51.81.82.15","port":443,"udp":true,"password":"421d1380-d93c-11ed-8934-1239d0255272","skip-cert-verify":true}
+  - {"name":"US_283+|+3.43Mb","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
+  - {"name":"🇳🇱 Netherlands(ChatGPT) 01 TG:@nodpai","type":"vmess","server":"156.225.67.142","port":51417,"cipher":"auto","uuid":"990006bd-cb20-482f-9c97-f5fc65359605","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇳🇱 Netherlands(ChatGPT) 02 TG:@nodpai","type":"vmess","server":"156.225.67.106","port":49920,"cipher":"auto","uuid":"29a5d48e-24f1-48fd-a5e1-9a46cb31032f","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇳🇱 Netherlands(ChatGPT) 03 TG:@nodpai","type":"vmess","server":"154.85.0.7","port":42220,"cipher":"auto","uuid":"4ec0ae62-de09-4029-904a-0313d4628ecf","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 United States 26 TG:@nodpai","type":"vmess","server":"38.40.219.187","port":50462,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 United States 51 TG:@nodpai","type":"vmess","server":"170.178.167.140","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 United States 54 TG:@nodpai","type":"vmess","server":"172.247.148.82","port":53302,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"��篅��剏+Taiwan(ChatGPT)+10+TG:@nodpai","type":"trojan","server":"0309tw.ljydw.top","port":443,"udp":true,"password":"e6a7b263-073c-4067-b7dd-296ddfae48bd","sni":"0309tw.ljydw.top","skip-cert-verify":true}
+  - {"name":"��蒄��䤰+Finland(ChatGPT)+01+TG:@nodpai","type":"ss","server":"135.181.114.242","port":8478,"password":"siF98xBL2v1i","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"��𨤍��䌊+United+Arab+Emirates(ChatGPT)+01+TG:@nodpai","type":"trojan","server":"jp1117.ljydw.top","port":80,"udp":true,"password":"e6a7b263-073c-4067-b7dd-296ddfae48bd","sni":"jp1117.ljydw.top","skip-cert-verify":true}
+  - {"name":"��枂��瑌+United+States+36+TG:@nodpai","type":"trojan","server":"51.81.82.15","port":443,"udp":true,"password":"72e45020-d546-11ed-8076-1239d0255272","skip-cert-verify":true}
+  - {"name":"中国【付费推荐：tt.vg/vip】127","type":"ss","server":"36.139.166.244","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _CN_中国_1_2@6
-      - _TW_台湾_1@5
-      - '|+8.51Mb'
-      - '|91.33Mb'
-      - AU_05 | 0.62Mb
-      - Relay_+|18.45Mb
-      - Relay_Relay_+|65.50Mb
-      - Relay_Relay_+|72.81Mb
-      - Relay_Relay_+|76.29Mb
-      - Relay_Relay_+|84.66Mb
-      - Relay_-🇷🇺RU_53 | 6.15Mb
-      - RU_114 | 6.53Mb
-      - US_176 |12.02Mb
-      - 🇺🇸 United States 24 TG:@nodpai
-      - 德国｜隧道 01 - 爱猫论坛
-      - 美国 洛杉矶｜隧道 01 - 爱猫论坛
-      - 美国 洛杉矶｜隧道 02 - 爱猫论坛
-      - 美国【付费推荐：https://tt.vg/vip】17
-      - 日本 东京｜隧道 02 GBT - 爱猫论坛
-      - 新加坡 直连1 - 爱猫论坛
-      - 新加坡 直连2 - 爱猫论坛
-      - 新加坡｜隧道 02 - 爱猫论坛
-      - ��枂��瑌 United States(ChatGPT) 01 TG:@nodpai
+      - _1593+|10.02Mb
+      - _164+|+4.61Mb
+      - '| 5.60Mb'
+      - '|+6.78Mb'
+      - '|+7.25Mb'
+      - '|+8.33Mb'
+      - '|12.61Mb'
+      - Relay_+|+8.33Mb
+      - US_276+|+7.73Mb
+      - US_283+|+3.43Mb
+      - 🇳🇱 Netherlands(ChatGPT) 01 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 02 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 03 TG:@nodpai
+      - 🇺🇸 United States 26 TG:@nodpai
+      - 🇺🇸 United States 51 TG:@nodpai
+      - 🇺🇸 United States 54 TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+10+TG:@nodpai
+      - ��蒄��䤰+Finland(ChatGPT)+01+TG:@nodpai
+      - ��𨤍��䌊+United+Arab+Emirates(ChatGPT)+01+TG:@nodpai
+      - ��枂��瑌+United+States+36+TG:@nodpai
+      - 中国【付费推荐：tt.vg/vip】127
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - _CN_中国_1_2@6
-      - _TW_台湾_1@5
-      - '|+8.51Mb'
-      - '|91.33Mb'
-      - AU_05 | 0.62Mb
-      - Relay_+|18.45Mb
-      - Relay_Relay_+|65.50Mb
-      - Relay_Relay_+|72.81Mb
-      - Relay_Relay_+|76.29Mb
-      - Relay_Relay_+|84.66Mb
-      - Relay_-🇷🇺RU_53 | 6.15Mb
-      - RU_114 | 6.53Mb
-      - US_176 |12.02Mb
-      - 🇺🇸 United States 24 TG:@nodpai
-      - 德国｜隧道 01 - 爱猫论坛
-      - 美国 洛杉矶｜隧道 01 - 爱猫论坛
-      - 美国 洛杉矶｜隧道 02 - 爱猫论坛
-      - 美国【付费推荐：https://tt.vg/vip】17
-      - 日本 东京｜隧道 02 GBT - 爱猫论坛
-      - 新加坡 直连1 - 爱猫论坛
-      - 新加坡 直连2 - 爱猫论坛
-      - 新加坡｜隧道 02 - 爱猫论坛
-      - ��枂��瑌 United States(ChatGPT) 01 TG:@nodpai
+      - _1593+|10.02Mb
+      - _164+|+4.61Mb
+      - '| 5.60Mb'
+      - '|+6.78Mb'
+      - '|+7.25Mb'
+      - '|+8.33Mb'
+      - '|12.61Mb'
+      - Relay_+|+8.33Mb
+      - US_276+|+7.73Mb
+      - US_283+|+3.43Mb
+      - 🇳🇱 Netherlands(ChatGPT) 01 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 02 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 03 TG:@nodpai
+      - 🇺🇸 United States 26 TG:@nodpai
+      - 🇺🇸 United States 51 TG:@nodpai
+      - 🇺🇸 United States 54 TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+10+TG:@nodpai
+      - ��蒄��䤰+Finland(ChatGPT)+01+TG:@nodpai
+      - ��𨤍��䌊+United+Arab+Emirates(ChatGPT)+01+TG:@nodpai
+      - ��枂��瑌+United+States+36+TG:@nodpai
+      - 中国【付费推荐：tt.vg/vip】127
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _CN_中国_1_2@6
-      - _TW_台湾_1@5
-      - '|+8.51Mb'
-      - '|91.33Mb'
-      - AU_05 | 0.62Mb
-      - Relay_+|18.45Mb
-      - Relay_Relay_+|65.50Mb
-      - Relay_Relay_+|72.81Mb
-      - Relay_Relay_+|76.29Mb
-      - Relay_Relay_+|84.66Mb
-      - Relay_-🇷🇺RU_53 | 6.15Mb
-      - RU_114 | 6.53Mb
-      - US_176 |12.02Mb
-      - 🇺🇸 United States 24 TG:@nodpai
-      - 德国｜隧道 01 - 爱猫论坛
-      - 美国 洛杉矶｜隧道 01 - 爱猫论坛
-      - 美国 洛杉矶｜隧道 02 - 爱猫论坛
-      - 美国【付费推荐：https://tt.vg/vip】17
-      - 日本 东京｜隧道 02 GBT - 爱猫论坛
-      - 新加坡 直连1 - 爱猫论坛
-      - 新加坡 直连2 - 爱猫论坛
-      - 新加坡｜隧道 02 - 爱猫论坛
-      - ��枂��瑌 United States(ChatGPT) 01 TG:@nodpai
+      - _1593+|10.02Mb
+      - _164+|+4.61Mb
+      - '| 5.60Mb'
+      - '|+6.78Mb'
+      - '|+7.25Mb'
+      - '|+8.33Mb'
+      - '|12.61Mb'
+      - Relay_+|+8.33Mb
+      - US_276+|+7.73Mb
+      - US_283+|+3.43Mb
+      - 🇳🇱 Netherlands(ChatGPT) 01 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 02 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 03 TG:@nodpai
+      - 🇺🇸 United States 26 TG:@nodpai
+      - 🇺🇸 United States 51 TG:@nodpai
+      - 🇺🇸 United States 54 TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+10+TG:@nodpai
+      - ��蒄��䤰+Finland(ChatGPT)+01+TG:@nodpai
+      - ��𨤍��䌊+United+Arab+Emirates(ChatGPT)+01+TG:@nodpai
+      - ��枂��瑌+United+States+36+TG:@nodpai
+      - 中国【付费推荐：tt.vg/vip】127
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _CN_中国_1_2@6
-      - _TW_台湾_1@5
-      - '|+8.51Mb'
-      - '|91.33Mb'
-      - AU_05 | 0.62Mb
-      - Relay_+|18.45Mb
-      - Relay_Relay_+|65.50Mb
-      - Relay_Relay_+|72.81Mb
-      - Relay_Relay_+|76.29Mb
-      - Relay_Relay_+|84.66Mb
-      - Relay_-🇷🇺RU_53 | 6.15Mb
-      - RU_114 | 6.53Mb
-      - US_176 |12.02Mb
-      - 🇺🇸 United States 24 TG:@nodpai
-      - 德国｜隧道 01 - 爱猫论坛
-      - 美国 洛杉矶｜隧道 01 - 爱猫论坛
-      - 美国 洛杉矶｜隧道 02 - 爱猫论坛
-      - 美国【付费推荐：https://tt.vg/vip】17
-      - 日本 东京｜隧道 02 GBT - 爱猫论坛
-      - 新加坡 直连1 - 爱猫论坛
-      - 新加坡 直连2 - 爱猫论坛
-      - 新加坡｜隧道 02 - 爱猫论坛
-      - ��枂��瑌 United States(ChatGPT) 01 TG:@nodpai
+      - _1593+|10.02Mb
+      - _164+|+4.61Mb
+      - '| 5.60Mb'
+      - '|+6.78Mb'
+      - '|+7.25Mb'
+      - '|+8.33Mb'
+      - '|12.61Mb'
+      - Relay_+|+8.33Mb
+      - US_276+|+7.73Mb
+      - US_283+|+3.43Mb
+      - 🇳🇱 Netherlands(ChatGPT) 01 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 02 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 03 TG:@nodpai
+      - 🇺🇸 United States 26 TG:@nodpai
+      - 🇺🇸 United States 51 TG:@nodpai
+      - 🇺🇸 United States 54 TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+10+TG:@nodpai
+      - ��蒄��䤰+Finland(ChatGPT)+01+TG:@nodpai
+      - ��𨤍��䌊+United+Arab+Emirates(ChatGPT)+01+TG:@nodpai
+      - ��枂��瑌+United+States+36+TG:@nodpai
+      - 中国【付费推荐：tt.vg/vip】127
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _CN_中国_1_2@6
-      - _TW_台湾_1@5
-      - '|+8.51Mb'
-      - '|91.33Mb'
-      - AU_05 | 0.62Mb
-      - Relay_+|18.45Mb
-      - Relay_Relay_+|65.50Mb
-      - Relay_Relay_+|72.81Mb
-      - Relay_Relay_+|76.29Mb
-      - Relay_Relay_+|84.66Mb
-      - Relay_-🇷🇺RU_53 | 6.15Mb
-      - RU_114 | 6.53Mb
-      - US_176 |12.02Mb
-      - 🇺🇸 United States 24 TG:@nodpai
-      - 德国｜隧道 01 - 爱猫论坛
-      - 美国 洛杉矶｜隧道 01 - 爱猫论坛
-      - 美国 洛杉矶｜隧道 02 - 爱猫论坛
-      - 美国【付费推荐：https://tt.vg/vip】17
-      - 日本 东京｜隧道 02 GBT - 爱猫论坛
-      - 新加坡 直连1 - 爱猫论坛
-      - 新加坡 直连2 - 爱猫论坛
-      - 新加坡｜隧道 02 - 爱猫论坛
-      - ��枂��瑌 United States(ChatGPT) 01 TG:@nodpai
+      - _1593+|10.02Mb
+      - _164+|+4.61Mb
+      - '| 5.60Mb'
+      - '|+6.78Mb'
+      - '|+7.25Mb'
+      - '|+8.33Mb'
+      - '|12.61Mb'
+      - Relay_+|+8.33Mb
+      - US_276+|+7.73Mb
+      - US_283+|+3.43Mb
+      - 🇳🇱 Netherlands(ChatGPT) 01 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 02 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 03 TG:@nodpai
+      - 🇺🇸 United States 26 TG:@nodpai
+      - 🇺🇸 United States 51 TG:@nodpai
+      - 🇺🇸 United States 54 TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+10+TG:@nodpai
+      - ��蒄��䤰+Finland(ChatGPT)+01+TG:@nodpai
+      - ��𨤍��䌊+United+Arab+Emirates(ChatGPT)+01+TG:@nodpai
+      - ��枂��瑌+United+States+36+TG:@nodpai
+      - 中国【付费推荐：tt.vg/vip】127
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _CN_中国_1_2@6
-      - _TW_台湾_1@5
-      - '|+8.51Mb'
-      - '|91.33Mb'
-      - AU_05 | 0.62Mb
-      - Relay_+|18.45Mb
-      - Relay_Relay_+|65.50Mb
-      - Relay_Relay_+|72.81Mb
-      - Relay_Relay_+|76.29Mb
-      - Relay_Relay_+|84.66Mb
-      - Relay_-🇷🇺RU_53 | 6.15Mb
-      - RU_114 | 6.53Mb
-      - US_176 |12.02Mb
-      - 🇺🇸 United States 24 TG:@nodpai
-      - 德国｜隧道 01 - 爱猫论坛
-      - 美国 洛杉矶｜隧道 01 - 爱猫论坛
-      - 美国 洛杉矶｜隧道 02 - 爱猫论坛
-      - 美国【付费推荐：https://tt.vg/vip】17
-      - 日本 东京｜隧道 02 GBT - 爱猫论坛
-      - 新加坡 直连1 - 爱猫论坛
-      - 新加坡 直连2 - 爱猫论坛
-      - 新加坡｜隧道 02 - 爱猫论坛
-      - ��枂��瑌 United States(ChatGPT) 01 TG:@nodpai
+      - _1593+|10.02Mb
+      - _164+|+4.61Mb
+      - '| 5.60Mb'
+      - '|+6.78Mb'
+      - '|+7.25Mb'
+      - '|+8.33Mb'
+      - '|12.61Mb'
+      - Relay_+|+8.33Mb
+      - US_276+|+7.73Mb
+      - US_283+|+3.43Mb
+      - 🇳🇱 Netherlands(ChatGPT) 01 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 02 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 03 TG:@nodpai
+      - 🇺🇸 United States 26 TG:@nodpai
+      - 🇺🇸 United States 51 TG:@nodpai
+      - 🇺🇸 United States 54 TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+10+TG:@nodpai
+      - ��蒄��䤰+Finland(ChatGPT)+01+TG:@nodpai
+      - ��𨤍��䌊+United+Arab+Emirates(ChatGPT)+01+TG:@nodpai
+      - ��枂��瑌+United+States+36+TG:@nodpai
+      - 中国【付费推荐：tt.vg/vip】127
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -237,29 +223,27 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _CN_中国_1_2@6
-      - _TW_台湾_1@5
-      - '|+8.51Mb'
-      - '|91.33Mb'
-      - AU_05 | 0.62Mb
-      - Relay_+|18.45Mb
-      - Relay_Relay_+|65.50Mb
-      - Relay_Relay_+|72.81Mb
-      - Relay_Relay_+|76.29Mb
-      - Relay_Relay_+|84.66Mb
-      - Relay_-🇷🇺RU_53 | 6.15Mb
-      - RU_114 | 6.53Mb
-      - US_176 |12.02Mb
-      - 🇺🇸 United States 24 TG:@nodpai
-      - 德国｜隧道 01 - 爱猫论坛
-      - 美国 洛杉矶｜隧道 01 - 爱猫论坛
-      - 美国 洛杉矶｜隧道 02 - 爱猫论坛
-      - 美国【付费推荐：https://tt.vg/vip】17
-      - 日本 东京｜隧道 02 GBT - 爱猫论坛
-      - 新加坡 直连1 - 爱猫论坛
-      - 新加坡 直连2 - 爱猫论坛
-      - 新加坡｜隧道 02 - 爱猫论坛
-      - ��枂��瑌 United States(ChatGPT) 01 TG:@nodpai
+      - _1593+|10.02Mb
+      - _164+|+4.61Mb
+      - '| 5.60Mb'
+      - '|+6.78Mb'
+      - '|+7.25Mb'
+      - '|+8.33Mb'
+      - '|12.61Mb'
+      - Relay_+|+8.33Mb
+      - US_276+|+7.73Mb
+      - US_283+|+3.43Mb
+      - 🇳🇱 Netherlands(ChatGPT) 01 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 02 TG:@nodpai
+      - 🇳🇱 Netherlands(ChatGPT) 03 TG:@nodpai
+      - 🇺🇸 United States 26 TG:@nodpai
+      - 🇺🇸 United States 51 TG:@nodpai
+      - 🇺🇸 United States 54 TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+10+TG:@nodpai
+      - ��蒄��䤰+Finland(ChatGPT)+01+TG:@nodpai
+      - ��𨤍��䌊+United+Arab+Emirates(ChatGPT)+01+TG:@nodpai
+      - ��枂��瑌+United+States+36+TG:@nodpai
+      - 中国【付费推荐：tt.vg/vip】127
 
 rules:
 # 本地/局域网地址
