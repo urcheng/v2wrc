@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-04-18 10:05:43
+# 创建时间：2023-04-19 09:25:38
 # 使用模版：V2RaySE 默认模版
-# 节点数量：30
+# 节点数量：56
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,249 +21,431 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"_06+|+0.82Mb","type":"ss","server":"14.29.124.168","port":25251,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"_14+|+7.33Mb","type":"ss","server":"45.131.248.209","port":29532,"password":"dNZj5JoDc9","cipher":"aes-256-gcm"}
-  - {"name":"_35+|+0.76Mb","type":"ss","server":"212.102.53.79","port":443,"password":"shadowsocks","cipher":"aes-128-gcm"}
-  - {"name":"_44+|+4.31Mb","type":"ss","server":"14.29.124.168","port":25280,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"_49+|+2.88Mb","type":"ss","server":"14.29.124.168","port":25207,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"_54+|+2.07Mb","type":"ss","server":"14.29.124.168","port":25261,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"_59+|+3.08Mb","type":"ss","server":"14.29.124.168","port":25247,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"_60+|+5.08Mb","type":"ss","server":"14.29.124.168","port":25266,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"_62+|+3.82Mb","type":"ss","server":"51.77.57.30","port":19152,"password":"ae9c899be3","cipher":"aes-256-cfb"}
+  - {"name":"_82","type":"trojan","server":"54.37.185.148","port":32894,"udp":true,"password":"HchlVCfnXB","sni":"fararu.com","skip-cert-verify":true}
   - {"name":"_CN_中国_1_0@16","type":"ss","server":"14.29.124.168","port":25271,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"_CN_中国_3_3@17","type":"ss","server":"14.29.124.168","port":25252,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
-  - {"name":"_CN_中国_4_0@28","type":"ss","server":"36.137.106.45","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"DE_123","type":"vmess","server":"92.223.30.8","port":2087,"cipher":"auto","uuid":"9f27a86f-71be-3393-90b5-65b90af56f22","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"Relay+��篅��剏+Taiwan(ChatGPT)+02+TG:@nodpai","type":"trojan","server":"azhj.xifasd.top","port":20767,"udp":true,"password":"c39d5e05-3d06-317e-b5ca-e2f71b661570","sni":"ssl.ssl12.xyz","skip-cert-verify":true}
-  - {"name":"Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai","type":"trojan","server":"azhj.xifasd.top","port":20724,"udp":true,"password":"c39d5e05-3d06-317e-b5ca-e2f71b661570","sni":"ssl.ssl12.xyz","skip-cert-verify":true}
-  - {"name":"Relay_ |25.63Mb","type":"vmess","server":"hk6.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"134e78bd-39d4-4c39-90d7-c7639167a7a9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
+  - {"name":"|+1.70Mb","type":"trojan","server":"195.15.243.26","port":443,"udp":true,"password":"4478","skip-cert-verify":true}
+  - {"name":"| 2.00Mb","type":"vmess","server":"16.162.74.222","port":443,"cipher":"auto","uuid":"6ff66f42-38d7-41c6-9a08-0d48f2ef3aa5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"16.162.74.222"}}}
+  - {"name":"Relay 🇨🇳 China 03 TG:@nodpai","type":"vmess","server":"198.2.205.108","port":53327,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay 🇭🇰 Hong Kong 61 TG:@nodpai","type":"vmess","server":"115.223.28.253","port":36009,"cipher":"auto","uuid":"60a1fa50-c03d-362f-bc7a-a632c44c94f6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay 🇯🇵 Japan(ChatGPT) 44 TG:@nodpai","type":"vmess","server":"42.7.24.12","port":36012,"cipher":"auto","uuid":"60a1fa50-c03d-362f-bc7a-a632c44c94f6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay ��𣉞��䌊 Germany 07 TG:@nodpai","type":"vmess","server":"42.7.24.12","port":36016,"cipher":"auto","uuid":"60a1fa50-c03d-362f-bc7a-a632c44c94f6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay ��瑌��龖 Singapore(ChatGPT) 23 TG:@nodpai","type":"vmess","server":"zz2.shynia.top","port":48035,"cipher":"auto","uuid":"f689427f-2284-31c6-9396-ed2dfdc9769f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ny","headers":{"host":"zz2.shynia.top"}}}
+  - {"name":"Relay ��瑌��龖 Singapore(ChatGPT) 25 TG:@nodpai","type":"vmess","server":"zz2.shynia.top","port":48003,"cipher":"auto","uuid":"f689427f-2284-31c6-9396-ed2dfdc9769f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ny","headers":{"host":"zz2.shynia.top"}}}
+  - {"name":"Relay ��瑌��龖 Singapore(ChatGPT) 26 TG:@nodpai","type":"vmess","server":"zz2.shynia.top","port":48025,"cipher":"auto","uuid":"f689427f-2284-31c6-9396-ed2dfdc9769f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ny","headers":{"host":"zz2.shynia.top"}}}
+  - {"name":"Relay ��瑌��龖 Singapore(ChatGPT) 27 TG:@nodpai","type":"vmess","server":"zz2.shynia.top","port":48001,"cipher":"auto","uuid":"f689427f-2284-31c6-9396-ed2dfdc9769f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ny","headers":{"host":"zz2.shynia.top"}}}
+  - {"name":"Relay ��瑌��龖 Singapore(ChatGPT) 32 TG:@nodpai","type":"vmess","server":"zz2.shynia.top","port":48015,"cipher":"auto","uuid":"f689427f-2284-31c6-9396-ed2dfdc9769f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ny","headers":{"host":"zz2.shynia.top"}}}
+  - {"name":"Relay ��瑌��龖 Singapore(ChatGPT) 41 TG:@nodpai","type":"vmess","server":"115.223.28.253","port":36008,"cipher":"auto","uuid":"60a1fa50-c03d-362f-bc7a-a632c44c94f6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay ��蘓��晠 Japan(ChatGPT) 44 TG:@nodpai","type":"vmess","server":"42.7.24.12","port":36012,"cipher":"auto","uuid":"60a1fa50-c03d-362f-bc7a-a632c44c94f6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai","type":"trojan","server":"dx.plggogo.xyz","port":31615,"udp":true,"password":"4377246d-ac8c-3548-8a6b-5d94e7b297fb","sni":"xg.plggogo.xyz","skip-cert-verify":true}
+  - {"name":"Relay ��鐯��墖 Hong Kong 61 TG:@nodpai","type":"vmess","server":"115.223.28.253","port":36009,"cipher":"auto","uuid":"60a1fa50-c03d-362f-bc7a-a632c44c94f6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay ��鐯��墖 Hong Kong(ChatGPT) 17 TG:@nodpai","type":"vmess","server":"hk80.8b750e3e20aa.sanfen004.me","port":80,"cipher":"auto","uuid":"1172d7fe-4a5d-4d07-92f6-aefa4212347f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn/","headers":{"host":"hk80.8b750e3e20aa.sanfen004.me"}}}
+  - {"name":"Relay_+|+4.38Mb","type":"ss","server":"uk1.connecton.surf","port":19009,"password":"3165469c4b","cipher":"aes-256-cfb"}
   - {"name":"Relay_ |32.32Mb","type":"vmess","server":"hk2.c2bfe79372be.sanfen001.pics","port":443,"cipher":"auto","uuid":"6ff66f42-38d7-41c6-9a08-0d48f2ef3aa5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"Relay_ |73.36Mb","type":"vmess","server":"hk2.c2bfe79372be.sanfen001.pics","port":443,"cipher":"auto","uuid":"e5ffd02e-a82b-40d1-83aa-23f9f6841abb","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"Relay_🇨🇳CN-🇺🇸US_109 | 5.20Mb","type":"ssr","server":"dajbxus.naikonode.top","port":15106,"password":"NaikoCloud","cipher":"chacha20-ietf","obfs":"http_simple","protocol":"auth_aes128_md5","obfs-param":"Vm0weE1HRnRWa2hWV0doV1ltdHdUMVV3WkZOVU1WcDBUVmM1V0Zac2JETlhhMk0xVm14S2MyTkliRmhoTW1neldXdGFZV014VG5KaVJsWlhWakpvTWxkV1pEUlRNbEpJVld0V1dHSkdjRTlaVjNoaFlqRmtWMXBJY0d4U01EVlpWVEowYzFadFNsWlhiRkpYWWtaS1JGUnJXbXRXTVd0NllVWlNhVlpzY0ZoV1JscFhVMmM","protocol-param":"1596:vsqvobohcqs","group":"SSRProvider"}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_233 |14.25Mb","type":"vmess","server":"pop.usa.gfwcaonimanmsl.ml","port":8967,"cipher":"auto","uuid":"3b8fb6a5-1193-4bb4-a4bd-5ea854d1350f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/name","headers":{"host":"pop.usa.gfwcaonimanmsl.ml"}}}
-  - {"name":"US_254+|+6.60Mb","type":"trojan","server":"51.81.82.15","port":443,"udp":true,"password":"58c96e70-d93c-11ed-a246-1239d0255272","skip-cert-verify":true}
-  - {"name":"US_283+|+3.43Mb","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
-  - {"name":"🇭🇰HK-16.162.48.221-21195","type":"vmess","server":"hk2.c2bfe79372be.sanfen001.pics","port":443,"cipher":"auto","uuid":"6ff66f42-38d7-41c6-9a08-0d48f2ef3aa5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk2.c2bfe79372be.sanfen001.pics","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"🇭🇰HK-43.198.97.210-21133","type":"vmess","server":"hk6.af49c4e4c2ef.sanfen001.pics","port":443,"cipher":"auto","uuid":"134e78bd-39d4-4c39-90d7-c7639167a7a9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk6.af49c4e4c2ef.sanfen001.pics","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"🇮🇩ID-103.112.245.94-1161","type":"vmess","server":"p5i16.bhoikfostyahya.my.id","port":80,"cipher":"auto","uuid":"9b96e89c-f227-40a2-b7f3-7ef26bf732e9","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"p5i16.bhoikfostyahya.my.id"}}}
-  - {"name":"🇯🇵JP-150.230.200.34-1275","type":"vmess","server":"tk-002-002.xiaoxiaobujidao.xyz","port":20960,"cipher":"auto","uuid":"79f45dcc-0f0b-3765-bfda-6c7246ba44e8","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xiaodao?ed=2048","headers":{"host":"tk-002.xiaoxiaobujidao.xyz"}}}
-  - {"name":"🇺🇸US-23.224.110.182-19582","type":"vmess","server":"23.224.110.182","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/080712342310"}}
-  - {"name":"🇺🇸US-54.153.34.143-21255","type":"vmess","server":"pop.usa.gfwcaonimanmsl.ml","port":8967,"cipher":"auto","uuid":"3b8fb6a5-1193-4bb4-a4bd-5ea854d1350f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/name","headers":{"host":"pop.usa.gfwcaonimanmsl.ml"}}}
-  - {"name":"日本【付费推荐：v1.mk/vip】74","type":"vmess","server":"tk-002-002.xiaoxiaobujidao.xyz","port":20960,"cipher":"auto","uuid":"79f45dcc-0f0b-3765-bfda-6c7246ba44e8","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xiaodao?ed=2048","headers":{"host":"tk-002.xiaoxiaobujidao.xyz"}}}
-  - {"name":"香港【付费推荐：v1.mk/vip】99","type":"vmess","server":"pop.shanghai.gfwcaonimanmsl.ml","port":43954,"cipher":"auto","uuid":"3b8fb6a5-1193-4bb4-a4bd-5ea854d1350f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳 China 07 TG:@nodpai","type":"vmess","server":"192.74.231.175","port":49202,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 United States 18 TG:@nodpai","type":"vmess","server":"45.15.185.10","port":54492,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 United States 38 TG:@nodpai","type":"vmess","server":"38.40.219.184","port":50462,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸 United States 49 TG:@nodpai","type":"vmess","server":"137.175.63.135","port":59009,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"��篅��剏+Taiwan(ChatGPT)+16+TG:@nodpai","type":"trojan","server":"165.154.246.18","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��篅��剏+Taiwan(ChatGPT)+21+TG:@nodpai","type":"trojan","server":"scloudtw2-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazonwebservicess.com","skip-cert-verify":true}
+  - {"name":"��袝��枂+Russia+04+TG:@nodpai","type":"trojan","server":"194.87.68.254","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��袝��枂 Russia 07 TG:@nodpai","type":"vmess","server":"45.147.201.121","port":17966,"cipher":"auto","uuid":"a91c3e08-2481-4bb9-805a-6453c74c3689","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"��瑌��龖+Singapore+02+TG:@nodpai","type":"trojan","server":"13.215.209.200","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��瑌��龖+Singapore+10+TG:@nodpai","type":"trojan","server":"awssg9-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazonwebservicess.com","skip-cert-verify":true}
+  - {"name":"��瑌��龖+Singapore+17+TG:@nodpai","type":"trojan","server":"awssg16-data.amazon-azure.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��瑌��龖+Singapore+21+TG:@nodpai","type":"trojan","server":"awssg20-data.amazon-azure.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��瑌��龖+Singapore+35+TG:@nodpai","type":"trojan","server":"awssg17-data.amazon-azure.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��瑌��龖+Singapore(ChatGPT)+04+TG:@nodpai","type":"trojan","server":"awssg13-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazonwebservicess.com","skip-cert-verify":true}
+  - {"name":"��瑌��龖+Singapore(ChatGPT)+05+TG:@nodpai","type":"trojan","server":"awssg12-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazonwebservicess.com","skip-cert-verify":true}
+  - {"name":"��瑌��龖+Singapore(ChatGPT)+12+TG:@nodpai","type":"trojan","server":"awssg3-data.amazon-azure.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��蘓��晠 Japan 02 TG:@nodpai","type":"vmess","server":"13.227.50.198","port":443,"cipher":"auto","uuid":"c18de4fe-7972-4e7a-e3fe-b111bd4ac7c1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zhangzc","headers":{"host":"d14vj4cf6hvk3w.cloudfront.net"}}}
+  - {"name":"��蘓��晠+Japan+08+TG:@nodpai","type":"trojan","server":"43.206.138.232","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��蘓��晠+Japan+17+TG:@nodpai","type":"trojan","server":"awsjp18-data.amazon-azure.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��蘓��晠+Japan+20+TG:@nodpai","type":"trojan","server":"awsjp15-data.amazon-azure.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��蘓��晠+Japan+25+TG:@nodpai","type":"trojan","server":"awsjp1.untilmu.com","port":443,"udp":true,"password":"e94901ec-3572-469b-8bd6-44b57e37852d","sni":"awsjp1.untilmu.com","skip-cert-verify":true}
+  - {"name":"��蘓��晠+Japan+27+TG:@nodpai","type":"trojan","server":"awsjp19-data.amazon-azure.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��蘓��晠+Japan(ChatGPT)+05+TG:@nodpai","type":"trojan","server":"awsjp1-data.amazon-azure.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��蘓��晠+Japan(ChatGPT)+09+TG:@nodpai","type":"trojan","server":"awsjp7-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazonwebservicess.com","skip-cert-verify":true}
+  - {"name":"��蘓��晠+Japan(ChatGPT)+16+TG:@nodpai","type":"trojan","server":"awsjp8-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazonwebservicess.com","skip-cert-verify":true}
+  - {"name":"��蘓��晠+Japan(ChatGPT)+22+TG:@nodpai","type":"trojan","server":"awsjp5-data.amazon-azure.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��墖��袝+South+Korea+04+TG:@nodpai","type":"trojan","server":"awskr1-data.amazon-azure.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��墖��袝+South+Korea+06+TG:@nodpai","type":"trojan","server":"awskr3-data.amazon-azure.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��䤰��篅+Italy(ChatGPT)+01+TG:@nodpai","type":"trojan","server":"18.102.64.163","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��䤰��篅+Italy(ChatGPT)+02+TG:@nodpai","type":"trojan","server":"18.102.62.12","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��䤰��秐+India+03+TG:@nodpai","type":"trojan","server":"awsin2-data.amazon-azure.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��枂��瑌+United+States+03+TG:@nodpai","type":"trojan","server":"awsus5-data.amazon-azure.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��鐯��墖+Hong+Kong+22+TG:@nodpai","type":"trojan","server":"16.163.16.82","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��鐯��墖+Hong+Kong(ChatGPT)+23+TG:@nodpai","type":"trojan","server":"awshk11-data.amazon-azure.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��鐯��墖+Hong+Kong(ChatGPT)+26+TG:@nodpai","type":"trojan","server":"awshk8-data.amazon-azure.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"��鐯��墖+Hong+Kong(ChatGPT)+27+TG:@nodpai","type":"trojan","server":"awshk9-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"05e34875-a77c-4156-8bc8-f815f235905a","sni":"data.amazonwebservicess.com","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _06+|+0.82Mb
-      - _14+|+7.33Mb
-      - _35+|+0.76Mb
-      - _44+|+4.31Mb
-      - _49+|+2.88Mb
-      - _54+|+2.07Mb
-      - _59+|+3.08Mb
-      - _60+|+5.08Mb
-      - _62+|+3.82Mb
+      - _82
       - _CN_中国_1_0@16
-      - _CN_中国_3_3@17
-      - _CN_中国_4_0@28
-      - DE_123
-      - Relay+��篅��剏+Taiwan(ChatGPT)+02+TG:@nodpai
+      - '|+1.70Mb'
+      - '| 2.00Mb'
+      - Relay 🇨🇳 China 03 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 61 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 44 TG:@nodpai
+      - Relay ��𣉞��䌊 Germany 07 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 23 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 25 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 26 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 27 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 32 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 41 TG:@nodpai
+      - Relay ��蘓��晠 Japan(ChatGPT) 44 TG:@nodpai
       - Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai
-      - Relay_ |25.63Mb
+      - Relay ��鐯��墖 Hong Kong 61 TG:@nodpai
+      - Relay ��鐯��墖 Hong Kong(ChatGPT) 17 TG:@nodpai
+      - Relay_+|+4.38Mb
       - Relay_ |32.32Mb
-      - Relay_ |73.36Mb
-      - Relay_🇨🇳CN-🇺🇸US_109 | 5.20Mb
-      - Relay_🇺🇸US-🇺🇸US_233 |14.25Mb
-      - US_254+|+6.60Mb
-      - US_283+|+3.43Mb
-      - 🇭🇰HK-16.162.48.221-21195
-      - 🇭🇰HK-43.198.97.210-21133
-      - 🇮🇩ID-103.112.245.94-1161
-      - 🇯🇵JP-150.230.200.34-1275
-      - 🇺🇸US-23.224.110.182-19582
-      - 🇺🇸US-54.153.34.143-21255
-      - 日本【付费推荐：v1.mk/vip】74
-      - 香港【付费推荐：v1.mk/vip】99
+      - 🇨🇳 China 07 TG:@nodpai
+      - 🇺🇸 United States 18 TG:@nodpai
+      - 🇺🇸 United States 38 TG:@nodpai
+      - 🇺🇸 United States 49 TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+16+TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+21+TG:@nodpai
+      - ��袝��枂+Russia+04+TG:@nodpai
+      - ��袝��枂 Russia 07 TG:@nodpai
+      - ��瑌��龖+Singapore+02+TG:@nodpai
+      - ��瑌��龖+Singapore+10+TG:@nodpai
+      - ��瑌��龖+Singapore+17+TG:@nodpai
+      - ��瑌��龖+Singapore+21+TG:@nodpai
+      - ��瑌��龖+Singapore+35+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+04+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+05+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+12+TG:@nodpai
+      - ��蘓��晠 Japan 02 TG:@nodpai
+      - ��蘓��晠+Japan+08+TG:@nodpai
+      - ��蘓��晠+Japan+17+TG:@nodpai
+      - ��蘓��晠+Japan+20+TG:@nodpai
+      - ��蘓��晠+Japan+25+TG:@nodpai
+      - ��蘓��晠+Japan+27+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+05+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+09+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+16+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+22+TG:@nodpai
+      - ��墖��袝+South+Korea+04+TG:@nodpai
+      - ��墖��袝+South+Korea+06+TG:@nodpai
+      - ��䤰��篅+Italy(ChatGPT)+01+TG:@nodpai
+      - ��䤰��篅+Italy(ChatGPT)+02+TG:@nodpai
+      - ��䤰��秐+India+03+TG:@nodpai
+      - ��枂��瑌+United+States+03+TG:@nodpai
+      - ��鐯��墖+Hong+Kong+22+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+23+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+26+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+27+TG:@nodpai
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - _06+|+0.82Mb
-      - _14+|+7.33Mb
-      - _35+|+0.76Mb
-      - _44+|+4.31Mb
-      - _49+|+2.88Mb
-      - _54+|+2.07Mb
-      - _59+|+3.08Mb
-      - _60+|+5.08Mb
-      - _62+|+3.82Mb
+      - _82
       - _CN_中国_1_0@16
-      - _CN_中国_3_3@17
-      - _CN_中国_4_0@28
-      - DE_123
-      - Relay+��篅��剏+Taiwan(ChatGPT)+02+TG:@nodpai
+      - '|+1.70Mb'
+      - '| 2.00Mb'
+      - Relay 🇨🇳 China 03 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 61 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 44 TG:@nodpai
+      - Relay ��𣉞��䌊 Germany 07 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 23 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 25 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 26 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 27 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 32 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 41 TG:@nodpai
+      - Relay ��蘓��晠 Japan(ChatGPT) 44 TG:@nodpai
       - Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai
-      - Relay_ |25.63Mb
+      - Relay ��鐯��墖 Hong Kong 61 TG:@nodpai
+      - Relay ��鐯��墖 Hong Kong(ChatGPT) 17 TG:@nodpai
+      - Relay_+|+4.38Mb
       - Relay_ |32.32Mb
-      - Relay_ |73.36Mb
-      - Relay_🇨🇳CN-🇺🇸US_109 | 5.20Mb
-      - Relay_🇺🇸US-🇺🇸US_233 |14.25Mb
-      - US_254+|+6.60Mb
-      - US_283+|+3.43Mb
-      - 🇭🇰HK-16.162.48.221-21195
-      - 🇭🇰HK-43.198.97.210-21133
-      - 🇮🇩ID-103.112.245.94-1161
-      - 🇯🇵JP-150.230.200.34-1275
-      - 🇺🇸US-23.224.110.182-19582
-      - 🇺🇸US-54.153.34.143-21255
-      - 日本【付费推荐：v1.mk/vip】74
-      - 香港【付费推荐：v1.mk/vip】99
+      - 🇨🇳 China 07 TG:@nodpai
+      - 🇺🇸 United States 18 TG:@nodpai
+      - 🇺🇸 United States 38 TG:@nodpai
+      - 🇺🇸 United States 49 TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+16+TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+21+TG:@nodpai
+      - ��袝��枂+Russia+04+TG:@nodpai
+      - ��袝��枂 Russia 07 TG:@nodpai
+      - ��瑌��龖+Singapore+02+TG:@nodpai
+      - ��瑌��龖+Singapore+10+TG:@nodpai
+      - ��瑌��龖+Singapore+17+TG:@nodpai
+      - ��瑌��龖+Singapore+21+TG:@nodpai
+      - ��瑌��龖+Singapore+35+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+04+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+05+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+12+TG:@nodpai
+      - ��蘓��晠 Japan 02 TG:@nodpai
+      - ��蘓��晠+Japan+08+TG:@nodpai
+      - ��蘓��晠+Japan+17+TG:@nodpai
+      - ��蘓��晠+Japan+20+TG:@nodpai
+      - ��蘓��晠+Japan+25+TG:@nodpai
+      - ��蘓��晠+Japan+27+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+05+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+09+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+16+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+22+TG:@nodpai
+      - ��墖��袝+South+Korea+04+TG:@nodpai
+      - ��墖��袝+South+Korea+06+TG:@nodpai
+      - ��䤰��篅+Italy(ChatGPT)+01+TG:@nodpai
+      - ��䤰��篅+Italy(ChatGPT)+02+TG:@nodpai
+      - ��䤰��秐+India+03+TG:@nodpai
+      - ��枂��瑌+United+States+03+TG:@nodpai
+      - ��鐯��墖+Hong+Kong+22+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+23+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+26+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+27+TG:@nodpai
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _06+|+0.82Mb
-      - _14+|+7.33Mb
-      - _35+|+0.76Mb
-      - _44+|+4.31Mb
-      - _49+|+2.88Mb
-      - _54+|+2.07Mb
-      - _59+|+3.08Mb
-      - _60+|+5.08Mb
-      - _62+|+3.82Mb
+      - _82
       - _CN_中国_1_0@16
-      - _CN_中国_3_3@17
-      - _CN_中国_4_0@28
-      - DE_123
-      - Relay+��篅��剏+Taiwan(ChatGPT)+02+TG:@nodpai
+      - '|+1.70Mb'
+      - '| 2.00Mb'
+      - Relay 🇨🇳 China 03 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 61 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 44 TG:@nodpai
+      - Relay ��𣉞��䌊 Germany 07 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 23 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 25 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 26 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 27 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 32 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 41 TG:@nodpai
+      - Relay ��蘓��晠 Japan(ChatGPT) 44 TG:@nodpai
       - Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai
-      - Relay_ |25.63Mb
+      - Relay ��鐯��墖 Hong Kong 61 TG:@nodpai
+      - Relay ��鐯��墖 Hong Kong(ChatGPT) 17 TG:@nodpai
+      - Relay_+|+4.38Mb
       - Relay_ |32.32Mb
-      - Relay_ |73.36Mb
-      - Relay_🇨🇳CN-🇺🇸US_109 | 5.20Mb
-      - Relay_🇺🇸US-🇺🇸US_233 |14.25Mb
-      - US_254+|+6.60Mb
-      - US_283+|+3.43Mb
-      - 🇭🇰HK-16.162.48.221-21195
-      - 🇭🇰HK-43.198.97.210-21133
-      - 🇮🇩ID-103.112.245.94-1161
-      - 🇯🇵JP-150.230.200.34-1275
-      - 🇺🇸US-23.224.110.182-19582
-      - 🇺🇸US-54.153.34.143-21255
-      - 日本【付费推荐：v1.mk/vip】74
-      - 香港【付费推荐：v1.mk/vip】99
+      - 🇨🇳 China 07 TG:@nodpai
+      - 🇺🇸 United States 18 TG:@nodpai
+      - 🇺🇸 United States 38 TG:@nodpai
+      - 🇺🇸 United States 49 TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+16+TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+21+TG:@nodpai
+      - ��袝��枂+Russia+04+TG:@nodpai
+      - ��袝��枂 Russia 07 TG:@nodpai
+      - ��瑌��龖+Singapore+02+TG:@nodpai
+      - ��瑌��龖+Singapore+10+TG:@nodpai
+      - ��瑌��龖+Singapore+17+TG:@nodpai
+      - ��瑌��龖+Singapore+21+TG:@nodpai
+      - ��瑌��龖+Singapore+35+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+04+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+05+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+12+TG:@nodpai
+      - ��蘓��晠 Japan 02 TG:@nodpai
+      - ��蘓��晠+Japan+08+TG:@nodpai
+      - ��蘓��晠+Japan+17+TG:@nodpai
+      - ��蘓��晠+Japan+20+TG:@nodpai
+      - ��蘓��晠+Japan+25+TG:@nodpai
+      - ��蘓��晠+Japan+27+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+05+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+09+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+16+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+22+TG:@nodpai
+      - ��墖��袝+South+Korea+04+TG:@nodpai
+      - ��墖��袝+South+Korea+06+TG:@nodpai
+      - ��䤰��篅+Italy(ChatGPT)+01+TG:@nodpai
+      - ��䤰��篅+Italy(ChatGPT)+02+TG:@nodpai
+      - ��䤰��秐+India+03+TG:@nodpai
+      - ��枂��瑌+United+States+03+TG:@nodpai
+      - ��鐯��墖+Hong+Kong+22+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+23+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+26+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+27+TG:@nodpai
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _06+|+0.82Mb
-      - _14+|+7.33Mb
-      - _35+|+0.76Mb
-      - _44+|+4.31Mb
-      - _49+|+2.88Mb
-      - _54+|+2.07Mb
-      - _59+|+3.08Mb
-      - _60+|+5.08Mb
-      - _62+|+3.82Mb
+      - _82
       - _CN_中国_1_0@16
-      - _CN_中国_3_3@17
-      - _CN_中国_4_0@28
-      - DE_123
-      - Relay+��篅��剏+Taiwan(ChatGPT)+02+TG:@nodpai
+      - '|+1.70Mb'
+      - '| 2.00Mb'
+      - Relay 🇨🇳 China 03 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 61 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 44 TG:@nodpai
+      - Relay ��𣉞��䌊 Germany 07 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 23 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 25 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 26 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 27 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 32 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 41 TG:@nodpai
+      - Relay ��蘓��晠 Japan(ChatGPT) 44 TG:@nodpai
       - Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai
-      - Relay_ |25.63Mb
+      - Relay ��鐯��墖 Hong Kong 61 TG:@nodpai
+      - Relay ��鐯��墖 Hong Kong(ChatGPT) 17 TG:@nodpai
+      - Relay_+|+4.38Mb
       - Relay_ |32.32Mb
-      - Relay_ |73.36Mb
-      - Relay_🇨🇳CN-🇺🇸US_109 | 5.20Mb
-      - Relay_🇺🇸US-🇺🇸US_233 |14.25Mb
-      - US_254+|+6.60Mb
-      - US_283+|+3.43Mb
-      - 🇭🇰HK-16.162.48.221-21195
-      - 🇭🇰HK-43.198.97.210-21133
-      - 🇮🇩ID-103.112.245.94-1161
-      - 🇯🇵JP-150.230.200.34-1275
-      - 🇺🇸US-23.224.110.182-19582
-      - 🇺🇸US-54.153.34.143-21255
-      - 日本【付费推荐：v1.mk/vip】74
-      - 香港【付费推荐：v1.mk/vip】99
+      - 🇨🇳 China 07 TG:@nodpai
+      - 🇺🇸 United States 18 TG:@nodpai
+      - 🇺🇸 United States 38 TG:@nodpai
+      - 🇺🇸 United States 49 TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+16+TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+21+TG:@nodpai
+      - ��袝��枂+Russia+04+TG:@nodpai
+      - ��袝��枂 Russia 07 TG:@nodpai
+      - ��瑌��龖+Singapore+02+TG:@nodpai
+      - ��瑌��龖+Singapore+10+TG:@nodpai
+      - ��瑌��龖+Singapore+17+TG:@nodpai
+      - ��瑌��龖+Singapore+21+TG:@nodpai
+      - ��瑌��龖+Singapore+35+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+04+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+05+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+12+TG:@nodpai
+      - ��蘓��晠 Japan 02 TG:@nodpai
+      - ��蘓��晠+Japan+08+TG:@nodpai
+      - ��蘓��晠+Japan+17+TG:@nodpai
+      - ��蘓��晠+Japan+20+TG:@nodpai
+      - ��蘓��晠+Japan+25+TG:@nodpai
+      - ��蘓��晠+Japan+27+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+05+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+09+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+16+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+22+TG:@nodpai
+      - ��墖��袝+South+Korea+04+TG:@nodpai
+      - ��墖��袝+South+Korea+06+TG:@nodpai
+      - ��䤰��篅+Italy(ChatGPT)+01+TG:@nodpai
+      - ��䤰��篅+Italy(ChatGPT)+02+TG:@nodpai
+      - ��䤰��秐+India+03+TG:@nodpai
+      - ��枂��瑌+United+States+03+TG:@nodpai
+      - ��鐯��墖+Hong+Kong+22+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+23+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+26+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+27+TG:@nodpai
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _06+|+0.82Mb
-      - _14+|+7.33Mb
-      - _35+|+0.76Mb
-      - _44+|+4.31Mb
-      - _49+|+2.88Mb
-      - _54+|+2.07Mb
-      - _59+|+3.08Mb
-      - _60+|+5.08Mb
-      - _62+|+3.82Mb
+      - _82
       - _CN_中国_1_0@16
-      - _CN_中国_3_3@17
-      - _CN_中国_4_0@28
-      - DE_123
-      - Relay+��篅��剏+Taiwan(ChatGPT)+02+TG:@nodpai
+      - '|+1.70Mb'
+      - '| 2.00Mb'
+      - Relay 🇨🇳 China 03 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 61 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 44 TG:@nodpai
+      - Relay ��𣉞��䌊 Germany 07 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 23 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 25 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 26 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 27 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 32 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 41 TG:@nodpai
+      - Relay ��蘓��晠 Japan(ChatGPT) 44 TG:@nodpai
       - Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai
-      - Relay_ |25.63Mb
+      - Relay ��鐯��墖 Hong Kong 61 TG:@nodpai
+      - Relay ��鐯��墖 Hong Kong(ChatGPT) 17 TG:@nodpai
+      - Relay_+|+4.38Mb
       - Relay_ |32.32Mb
-      - Relay_ |73.36Mb
-      - Relay_🇨🇳CN-🇺🇸US_109 | 5.20Mb
-      - Relay_🇺🇸US-🇺🇸US_233 |14.25Mb
-      - US_254+|+6.60Mb
-      - US_283+|+3.43Mb
-      - 🇭🇰HK-16.162.48.221-21195
-      - 🇭🇰HK-43.198.97.210-21133
-      - 🇮🇩ID-103.112.245.94-1161
-      - 🇯🇵JP-150.230.200.34-1275
-      - 🇺🇸US-23.224.110.182-19582
-      - 🇺🇸US-54.153.34.143-21255
-      - 日本【付费推荐：v1.mk/vip】74
-      - 香港【付费推荐：v1.mk/vip】99
+      - 🇨🇳 China 07 TG:@nodpai
+      - 🇺🇸 United States 18 TG:@nodpai
+      - 🇺🇸 United States 38 TG:@nodpai
+      - 🇺🇸 United States 49 TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+16+TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+21+TG:@nodpai
+      - ��袝��枂+Russia+04+TG:@nodpai
+      - ��袝��枂 Russia 07 TG:@nodpai
+      - ��瑌��龖+Singapore+02+TG:@nodpai
+      - ��瑌��龖+Singapore+10+TG:@nodpai
+      - ��瑌��龖+Singapore+17+TG:@nodpai
+      - ��瑌��龖+Singapore+21+TG:@nodpai
+      - ��瑌��龖+Singapore+35+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+04+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+05+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+12+TG:@nodpai
+      - ��蘓��晠 Japan 02 TG:@nodpai
+      - ��蘓��晠+Japan+08+TG:@nodpai
+      - ��蘓��晠+Japan+17+TG:@nodpai
+      - ��蘓��晠+Japan+20+TG:@nodpai
+      - ��蘓��晠+Japan+25+TG:@nodpai
+      - ��蘓��晠+Japan+27+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+05+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+09+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+16+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+22+TG:@nodpai
+      - ��墖��袝+South+Korea+04+TG:@nodpai
+      - ��墖��袝+South+Korea+06+TG:@nodpai
+      - ��䤰��篅+Italy(ChatGPT)+01+TG:@nodpai
+      - ��䤰��篅+Italy(ChatGPT)+02+TG:@nodpai
+      - ��䤰��秐+India+03+TG:@nodpai
+      - ��枂��瑌+United+States+03+TG:@nodpai
+      - ��鐯��墖+Hong+Kong+22+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+23+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+26+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+27+TG:@nodpai
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _06+|+0.82Mb
-      - _14+|+7.33Mb
-      - _35+|+0.76Mb
-      - _44+|+4.31Mb
-      - _49+|+2.88Mb
-      - _54+|+2.07Mb
-      - _59+|+3.08Mb
-      - _60+|+5.08Mb
-      - _62+|+3.82Mb
+      - _82
       - _CN_中国_1_0@16
-      - _CN_中国_3_3@17
-      - _CN_中国_4_0@28
-      - DE_123
-      - Relay+��篅��剏+Taiwan(ChatGPT)+02+TG:@nodpai
+      - '|+1.70Mb'
+      - '| 2.00Mb'
+      - Relay 🇨🇳 China 03 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 61 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 44 TG:@nodpai
+      - Relay ��𣉞��䌊 Germany 07 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 23 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 25 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 26 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 27 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 32 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 41 TG:@nodpai
+      - Relay ��蘓��晠 Japan(ChatGPT) 44 TG:@nodpai
       - Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai
-      - Relay_ |25.63Mb
+      - Relay ��鐯��墖 Hong Kong 61 TG:@nodpai
+      - Relay ��鐯��墖 Hong Kong(ChatGPT) 17 TG:@nodpai
+      - Relay_+|+4.38Mb
       - Relay_ |32.32Mb
-      - Relay_ |73.36Mb
-      - Relay_🇨🇳CN-🇺🇸US_109 | 5.20Mb
-      - Relay_🇺🇸US-🇺🇸US_233 |14.25Mb
-      - US_254+|+6.60Mb
-      - US_283+|+3.43Mb
-      - 🇭🇰HK-16.162.48.221-21195
-      - 🇭🇰HK-43.198.97.210-21133
-      - 🇮🇩ID-103.112.245.94-1161
-      - 🇯🇵JP-150.230.200.34-1275
-      - 🇺🇸US-23.224.110.182-19582
-      - 🇺🇸US-54.153.34.143-21255
-      - 日本【付费推荐：v1.mk/vip】74
-      - 香港【付费推荐：v1.mk/vip】99
+      - 🇨🇳 China 07 TG:@nodpai
+      - 🇺🇸 United States 18 TG:@nodpai
+      - 🇺🇸 United States 38 TG:@nodpai
+      - 🇺🇸 United States 49 TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+16+TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+21+TG:@nodpai
+      - ��袝��枂+Russia+04+TG:@nodpai
+      - ��袝��枂 Russia 07 TG:@nodpai
+      - ��瑌��龖+Singapore+02+TG:@nodpai
+      - ��瑌��龖+Singapore+10+TG:@nodpai
+      - ��瑌��龖+Singapore+17+TG:@nodpai
+      - ��瑌��龖+Singapore+21+TG:@nodpai
+      - ��瑌��龖+Singapore+35+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+04+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+05+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+12+TG:@nodpai
+      - ��蘓��晠 Japan 02 TG:@nodpai
+      - ��蘓��晠+Japan+08+TG:@nodpai
+      - ��蘓��晠+Japan+17+TG:@nodpai
+      - ��蘓��晠+Japan+20+TG:@nodpai
+      - ��蘓��晠+Japan+25+TG:@nodpai
+      - ��蘓��晠+Japan+27+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+05+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+09+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+16+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+22+TG:@nodpai
+      - ��墖��袝+South+Korea+04+TG:@nodpai
+      - ��墖��袝+South+Korea+06+TG:@nodpai
+      - ��䤰��篅+Italy(ChatGPT)+01+TG:@nodpai
+      - ��䤰��篅+Italy(ChatGPT)+02+TG:@nodpai
+      - ��䤰��秐+India+03+TG:@nodpai
+      - ��枂��瑌+United+States+03+TG:@nodpai
+      - ��鐯��墖+Hong+Kong+22+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+23+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+26+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+27+TG:@nodpai
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -286,36 +468,62 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _06+|+0.82Mb
-      - _14+|+7.33Mb
-      - _35+|+0.76Mb
-      - _44+|+4.31Mb
-      - _49+|+2.88Mb
-      - _54+|+2.07Mb
-      - _59+|+3.08Mb
-      - _60+|+5.08Mb
-      - _62+|+3.82Mb
+      - _82
       - _CN_中国_1_0@16
-      - _CN_中国_3_3@17
-      - _CN_中国_4_0@28
-      - DE_123
-      - Relay+��篅��剏+Taiwan(ChatGPT)+02+TG:@nodpai
+      - '|+1.70Mb'
+      - '| 2.00Mb'
+      - Relay 🇨🇳 China 03 TG:@nodpai
+      - Relay 🇭🇰 Hong Kong 61 TG:@nodpai
+      - Relay 🇯🇵 Japan(ChatGPT) 44 TG:@nodpai
+      - Relay ��𣉞��䌊 Germany 07 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 23 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 25 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 26 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 27 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 32 TG:@nodpai
+      - Relay ��瑌��龖 Singapore(ChatGPT) 41 TG:@nodpai
+      - Relay ��蘓��晠 Japan(ChatGPT) 44 TG:@nodpai
       - Relay+��鐯��墖+Hong+Kong+07+TG:@nodpai
-      - Relay_ |25.63Mb
+      - Relay ��鐯��墖 Hong Kong 61 TG:@nodpai
+      - Relay ��鐯��墖 Hong Kong(ChatGPT) 17 TG:@nodpai
+      - Relay_+|+4.38Mb
       - Relay_ |32.32Mb
-      - Relay_ |73.36Mb
-      - Relay_🇨🇳CN-🇺🇸US_109 | 5.20Mb
-      - Relay_🇺🇸US-🇺🇸US_233 |14.25Mb
-      - US_254+|+6.60Mb
-      - US_283+|+3.43Mb
-      - 🇭🇰HK-16.162.48.221-21195
-      - 🇭🇰HK-43.198.97.210-21133
-      - 🇮🇩ID-103.112.245.94-1161
-      - 🇯🇵JP-150.230.200.34-1275
-      - 🇺🇸US-23.224.110.182-19582
-      - 🇺🇸US-54.153.34.143-21255
-      - 日本【付费推荐：v1.mk/vip】74
-      - 香港【付费推荐：v1.mk/vip】99
+      - 🇨🇳 China 07 TG:@nodpai
+      - 🇺🇸 United States 18 TG:@nodpai
+      - 🇺🇸 United States 38 TG:@nodpai
+      - 🇺🇸 United States 49 TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+16+TG:@nodpai
+      - ��篅��剏+Taiwan(ChatGPT)+21+TG:@nodpai
+      - ��袝��枂+Russia+04+TG:@nodpai
+      - ��袝��枂 Russia 07 TG:@nodpai
+      - ��瑌��龖+Singapore+02+TG:@nodpai
+      - ��瑌��龖+Singapore+10+TG:@nodpai
+      - ��瑌��龖+Singapore+17+TG:@nodpai
+      - ��瑌��龖+Singapore+21+TG:@nodpai
+      - ��瑌��龖+Singapore+35+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+04+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+05+TG:@nodpai
+      - ��瑌��龖+Singapore(ChatGPT)+12+TG:@nodpai
+      - ��蘓��晠 Japan 02 TG:@nodpai
+      - ��蘓��晠+Japan+08+TG:@nodpai
+      - ��蘓��晠+Japan+17+TG:@nodpai
+      - ��蘓��晠+Japan+20+TG:@nodpai
+      - ��蘓��晠+Japan+25+TG:@nodpai
+      - ��蘓��晠+Japan+27+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+05+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+09+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+16+TG:@nodpai
+      - ��蘓��晠+Japan(ChatGPT)+22+TG:@nodpai
+      - ��墖��袝+South+Korea+04+TG:@nodpai
+      - ��墖��袝+South+Korea+06+TG:@nodpai
+      - ��䤰��篅+Italy(ChatGPT)+01+TG:@nodpai
+      - ��䤰��篅+Italy(ChatGPT)+02+TG:@nodpai
+      - ��䤰��秐+India+03+TG:@nodpai
+      - ��枂��瑌+United+States+03+TG:@nodpai
+      - ��鐯��墖+Hong+Kong+22+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+23+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+26+TG:@nodpai
+      - ��鐯��墖+Hong+Kong(ChatGPT)+27+TG:@nodpai
 
 rules:
 # 本地/局域网地址
