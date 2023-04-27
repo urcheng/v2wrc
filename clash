@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-04-25 09:08:25
+# 创建时间：2023-04-27 10:34:48
 # 使用模版：V2RaySE 默认模版
-# 节点数量：48
+# 节点数量：10
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,375 +21,109 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"defaultName_1","type":"ss","server":"194.15.196.106","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_2","type":"ss","server":"38.64.138.145","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_3","type":"ss","server":"38.64.138.145","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_4","type":"ss","server":"194.15.196.106","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_5","type":"ss","server":"38.64.138.145","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_6","type":"ss","server":"38.64.138.145","port":443,"password":"pKEW8JPByTVTLtM","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_7","type":"ss","server":"172.99.190.61","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_8","type":"ss","server":"169.197.141.187","port":8090,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_9","type":"ss","server":"172.99.190.61","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_10","type":"ss","server":"172.99.190.149","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_11","type":"ss","server":"172.99.190.149","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_12","type":"ss","server":"172.99.190.149","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"defaultName_13","type":"ss","server":"172.99.190.149","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"_91+|13.15Mb","type":"trojan","server":"195.15.243.26","port":443,"udp":true,"password":"4478","skip-cert-verify":true}
-  - {"name":"_92","type":"trojan","server":"54.37.185.148","port":32894,"udp":true,"password":"HchlVCfnXB","sni":"fararu.com","skip-cert-verify":true}
-  - {"name":"_IN_印度_0@30","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
-  - {"name":"_JP_日本_1_6@1","type":"ss","server":"43.207.160.88","port":443,"password":"doub.io","cipher":"aes-256-cfb"}
-  - {"name":"|+3.55Mb","type":"ss","server":"172.99.190.61","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"|+3.83Mb","type":"ss","server":"38.64.138.145","port":5601,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"|+3.94Mb","type":"ss","server":"172.99.190.61","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
-  - {"name":"|+4.16Mb","type":"ss","server":"172.99.190.61","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"|+5.03Mb","type":"ss","server":"172.99.190.61","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"|+5.14Mb","type":"ss","server":"172.99.190.61","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"|+5.33Mb","type":"ss","server":"172.99.190.61","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"|+5.42Mb","type":"ss","server":"172.99.190.61","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"|+5.74Mb","type":"ss","server":"172.99.190.149","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"|+5.92Mb","type":"ss","server":"172.99.190.149","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"|+5.93Mb","type":"ss","server":"172.99.190.61","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"|+6.09Mb","type":"ss","server":"172.99.190.61","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"|+6.76Mb","type":"ss","server":"38.64.138.145","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"|+7.24Mb","type":"ss","server":"172.99.190.149","port":7002,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
-  - {"name":"|24.20Mb","type":"trojan","server":"hkmax01.170203.xyz","port":443,"udp":true,"password":"1f3f5b8a-be41-4a92-9b90-6473702aaa3b","skip-cert-verify":true}
-  - {"name":"FR_40+|+8.65Mb","type":"ss","server":"46.226.111.148","port":443,"password":"D9rakkd9NJyWhTrSrM6Rbe","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay+🇭🇰+Hong+Kong+14+TG:@nodpai","type":"ss","server":"iplc.hk.fp-dns.xyz","port":34323,"password":"f0a9a2e2-0b62-4d46-a97c-c16eb25a88c7","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay+🇭🇰+Hong+Kong+20+TG:@nodpai","type":"ss","server":"iplc.hk.fp-dns.xyz","port":34320,"password":"f0a9a2e2-0b62-4d46-a97c-c16eb25a88c7","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay+🇯🇵+Japan+04+TG:@nodpai","type":"ss","server":"gdcm.v-too.cloud","port":37532,"password":"13c03703-de70-4a82-9473-009493fa1a0b","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay+🇯🇵+Japan+10+TG:@nodpai","type":"ss","server":"iplc.jp.fp-dns.xyz","port":31401,"password":"f0a9a2e2-0b62-4d46-a97c-c16eb25a88c7","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay+🇸🇬+Singapore+06+TG:@nodpai","type":"ss","server":"120.240.168.166","port":2003,"password":"8fc67dfc-5fe9-4e82-ab64-005deea8c57d","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay+🇺🇸+United+States+08+TG:@nodpai","type":"ss","server":"gdcm.v-too.cloud","port":33684,"password":"2da141fa-b43a-4830-82bd-c35514d814f4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay+🇺🇸+United+States+12+TG:@nodpai","type":"ss","server":"gdcm.v-too.cloud","port":24629,"password":"2da141fa-b43a-4830-82bd-c35514d814f4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇺 Australia 02 TG:@nodpai","type":"vmess","server":"139.99.245.165","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳 China 06 TG:@nodpai","type":"vmess","server":"198.2.212.244","port":30003,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳CN-43.154.76.92-1552","type":"vmess","server":"43.154.76.92","port":43631,"cipher":"auto","uuid":"784272d2-bd2d-438a-bbd4-1271bb1f1b0d","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hk15/getData"}}
-  - {"name":"🇯🇵 Japan 06 TG:@nodpai","type":"vmess","server":"52.84.224.60","port":80,"cipher":"auto","uuid":"d4463981-5008-4d08-ff6c-d8114d4ed6bd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ray","headers":{"host":"d59mmf5715v50.cloudfront.net"}}}
-  - {"name":"🇳🇱 Netherlands 01 TG:@nodpai","type":"vmess","server":"156.225.67.230","port":49231,"cipher":"auto","uuid":"515bcb4d-0ba1-4cae-87cf-a047007eec54","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸 United States 40 TG:@nodpai","type":"vmess","server":"107.148.195.23","port":42014,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇺🇸US-173.249.199.27-1505","type":"vmess","server":"173.249.199.27","port":443,"cipher":"auto","uuid":"e5543efd-5400-3760-9bb6-02767728e888","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video"}}
-  - {"name":"🇺🇸US-173.249.206.136-2777","type":"vmess","server":"usg.fljsm.com","port":443,"cipher":"auto","uuid":"e5543efd-5400-3760-9bb6-02767728e888","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"usg.fljsm.com","network":"ws","ws-opts":{"path":"/video","headers":{"host":"usg.fljsm.com"}}}
+  - {"name":"_FR_法国_1_7@20","type":"trojan","server":"54.37.185.148","port":32894,"udp":true,"password":"HchlVCfnXB","sni":"fararu.com","skip-cert-verify":true}
+  - {"name":"AU_10 |11.09Mb","type":"vmess","server":"43.198.97.210","port":443,"cipher":"auto","uuid":"deb441cd-57ca-4d14-9c3e-b43cf62c7573","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"43.198.97.210"}}}
+  - {"name":"Relay_-🇨🇭CH_88 | 7.77Mb","type":"vmess","server":"jp.mousse.tk","port":16650,"cipher":"auto","uuid":"d66a47f2-5136-492c-c82a-74835bb03a76","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇭🇰HK-43.198.97.210-1572","type":"vmess","server":"43.198.97.210","port":443,"cipher":"auto","uuid":"deb441cd-57ca-4d14-9c3e-b43cf62c7573","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
+  - {"name":"🇭🇰HK-43.198.97.210-2722","type":"vmess","server":"43.198.97.210","port":443,"cipher":"auto","uuid":"deb441cd-57ca-4d14-9c3e-b43cf62c7573","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"www.microsoft.com","network":"ws","ws-opts":{"path":"/zh-cn"}}
+  - {"name":"🇺🇸US-142.4.118.150-11400","type":"vmess","server":"142.4.118.150","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/120306182525"}}
+  - {"name":"🇺🇸US-142.4.118.150-21809","type":"vmess","server":"142.4.118.150","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.16616906.xyz","network":"ws","ws-opts":{"path":"/path/120306182525","headers":{"host":"www.16616906.xyz"}}}
+  - {"name":"🇺🇸US-38.63.0.83-6197","type":"vmess","server":"38.63.0.83","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/120306182525"}}
+  - {"name":"关注频道https://t.me/mftizi","type":"vmess","server":"43.198.97.210","port":443,"cipher":"auto","uuid":"deb441cd-57ca-4d14-9c3e-b43cf62c7573","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"www.microsoft.com","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
+  - {"name":"��𠪊��鐯+Switzerland(ChatGPT)+01+TG:@nodpai","type":"trojan","server":"195.15.243.26","port":443,"udp":true,"password":"4478","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - _91+|13.15Mb
-      - _92
-      - _IN_印度_0@30
-      - _JP_日本_1_6@1
-      - '|+3.55Mb'
-      - '|+3.83Mb'
-      - '|+3.94Mb'
-      - '|+4.16Mb'
-      - '|+5.03Mb'
-      - '|+5.14Mb'
-      - '|+5.33Mb'
-      - '|+5.42Mb'
-      - '|+5.74Mb'
-      - '|+5.92Mb'
-      - '|+5.93Mb'
-      - '|+6.09Mb'
-      - '|+6.76Mb'
-      - '|+7.24Mb'
-      - '|24.20Mb'
-      - FR_40+|+8.65Mb
-      - Relay+🇭🇰+Hong+Kong+14+TG:@nodpai
-      - Relay+🇭🇰+Hong+Kong+20+TG:@nodpai
-      - Relay+🇯🇵+Japan+04+TG:@nodpai
-      - Relay+🇯🇵+Japan+10+TG:@nodpai
-      - Relay+🇸🇬+Singapore+06+TG:@nodpai
-      - Relay+🇺🇸+United+States+08+TG:@nodpai
-      - Relay+🇺🇸+United+States+12+TG:@nodpai
-      - 🇦🇺 Australia 02 TG:@nodpai
-      - 🇨🇳 China 06 TG:@nodpai
-      - 🇨🇳CN-43.154.76.92-1552
-      - 🇯🇵 Japan 06 TG:@nodpai
-      - 🇳🇱 Netherlands 01 TG:@nodpai
-      - 🇺🇸 United States 40 TG:@nodpai
-      - 🇺🇸US-173.249.199.27-1505
-      - 🇺🇸US-173.249.206.136-2777
+      - _FR_法国_1_7@20
+      - AU_10 |11.09Mb
+      - Relay_-🇨🇭CH_88 | 7.77Mb
+      - 🇭🇰HK-43.198.97.210-1572
+      - 🇭🇰HK-43.198.97.210-2722
+      - 🇺🇸US-142.4.118.150-11400
+      - 🇺🇸US-142.4.118.150-21809
+      - 🇺🇸US-38.63.0.83-6197
+      - 关注频道https://t.me/mftizi
+      - ��𠪊��鐯+Switzerland(ChatGPT)+01+TG:@nodpai
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - _91+|13.15Mb
-      - _92
-      - _IN_印度_0@30
-      - _JP_日本_1_6@1
-      - '|+3.55Mb'
-      - '|+3.83Mb'
-      - '|+3.94Mb'
-      - '|+4.16Mb'
-      - '|+5.03Mb'
-      - '|+5.14Mb'
-      - '|+5.33Mb'
-      - '|+5.42Mb'
-      - '|+5.74Mb'
-      - '|+5.92Mb'
-      - '|+5.93Mb'
-      - '|+6.09Mb'
-      - '|+6.76Mb'
-      - '|+7.24Mb'
-      - '|24.20Mb'
-      - FR_40+|+8.65Mb
-      - Relay+🇭🇰+Hong+Kong+14+TG:@nodpai
-      - Relay+🇭🇰+Hong+Kong+20+TG:@nodpai
-      - Relay+🇯🇵+Japan+04+TG:@nodpai
-      - Relay+🇯🇵+Japan+10+TG:@nodpai
-      - Relay+🇸🇬+Singapore+06+TG:@nodpai
-      - Relay+🇺🇸+United+States+08+TG:@nodpai
-      - Relay+🇺🇸+United+States+12+TG:@nodpai
-      - 🇦🇺 Australia 02 TG:@nodpai
-      - 🇨🇳 China 06 TG:@nodpai
-      - 🇨🇳CN-43.154.76.92-1552
-      - 🇯🇵 Japan 06 TG:@nodpai
-      - 🇳🇱 Netherlands 01 TG:@nodpai
-      - 🇺🇸 United States 40 TG:@nodpai
-      - 🇺🇸US-173.249.199.27-1505
-      - 🇺🇸US-173.249.206.136-2777
+      - _FR_法国_1_7@20
+      - AU_10 |11.09Mb
+      - Relay_-🇨🇭CH_88 | 7.77Mb
+      - 🇭🇰HK-43.198.97.210-1572
+      - 🇭🇰HK-43.198.97.210-2722
+      - 🇺🇸US-142.4.118.150-11400
+      - 🇺🇸US-142.4.118.150-21809
+      - 🇺🇸US-38.63.0.83-6197
+      - 关注频道https://t.me/mftizi
+      - ��𠪊��鐯+Switzerland(ChatGPT)+01+TG:@nodpai
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - _91+|13.15Mb
-      - _92
-      - _IN_印度_0@30
-      - _JP_日本_1_6@1
-      - '|+3.55Mb'
-      - '|+3.83Mb'
-      - '|+3.94Mb'
-      - '|+4.16Mb'
-      - '|+5.03Mb'
-      - '|+5.14Mb'
-      - '|+5.33Mb'
-      - '|+5.42Mb'
-      - '|+5.74Mb'
-      - '|+5.92Mb'
-      - '|+5.93Mb'
-      - '|+6.09Mb'
-      - '|+6.76Mb'
-      - '|+7.24Mb'
-      - '|24.20Mb'
-      - FR_40+|+8.65Mb
-      - Relay+🇭🇰+Hong+Kong+14+TG:@nodpai
-      - Relay+🇭🇰+Hong+Kong+20+TG:@nodpai
-      - Relay+🇯🇵+Japan+04+TG:@nodpai
-      - Relay+🇯🇵+Japan+10+TG:@nodpai
-      - Relay+🇸🇬+Singapore+06+TG:@nodpai
-      - Relay+🇺🇸+United+States+08+TG:@nodpai
-      - Relay+🇺🇸+United+States+12+TG:@nodpai
-      - 🇦🇺 Australia 02 TG:@nodpai
-      - 🇨🇳 China 06 TG:@nodpai
-      - 🇨🇳CN-43.154.76.92-1552
-      - 🇯🇵 Japan 06 TG:@nodpai
-      - 🇳🇱 Netherlands 01 TG:@nodpai
-      - 🇺🇸 United States 40 TG:@nodpai
-      - 🇺🇸US-173.249.199.27-1505
-      - 🇺🇸US-173.249.206.136-2777
+      - _FR_法国_1_7@20
+      - AU_10 |11.09Mb
+      - Relay_-🇨🇭CH_88 | 7.77Mb
+      - 🇭🇰HK-43.198.97.210-1572
+      - 🇭🇰HK-43.198.97.210-2722
+      - 🇺🇸US-142.4.118.150-11400
+      - 🇺🇸US-142.4.118.150-21809
+      - 🇺🇸US-38.63.0.83-6197
+      - 关注频道https://t.me/mftizi
+      - ��𠪊��鐯+Switzerland(ChatGPT)+01+TG:@nodpai
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - _91+|13.15Mb
-      - _92
-      - _IN_印度_0@30
-      - _JP_日本_1_6@1
-      - '|+3.55Mb'
-      - '|+3.83Mb'
-      - '|+3.94Mb'
-      - '|+4.16Mb'
-      - '|+5.03Mb'
-      - '|+5.14Mb'
-      - '|+5.33Mb'
-      - '|+5.42Mb'
-      - '|+5.74Mb'
-      - '|+5.92Mb'
-      - '|+5.93Mb'
-      - '|+6.09Mb'
-      - '|+6.76Mb'
-      - '|+7.24Mb'
-      - '|24.20Mb'
-      - FR_40+|+8.65Mb
-      - Relay+🇭🇰+Hong+Kong+14+TG:@nodpai
-      - Relay+🇭🇰+Hong+Kong+20+TG:@nodpai
-      - Relay+🇯🇵+Japan+04+TG:@nodpai
-      - Relay+🇯🇵+Japan+10+TG:@nodpai
-      - Relay+🇸🇬+Singapore+06+TG:@nodpai
-      - Relay+🇺🇸+United+States+08+TG:@nodpai
-      - Relay+🇺🇸+United+States+12+TG:@nodpai
-      - 🇦🇺 Australia 02 TG:@nodpai
-      - 🇨🇳 China 06 TG:@nodpai
-      - 🇨🇳CN-43.154.76.92-1552
-      - 🇯🇵 Japan 06 TG:@nodpai
-      - 🇳🇱 Netherlands 01 TG:@nodpai
-      - 🇺🇸 United States 40 TG:@nodpai
-      - 🇺🇸US-173.249.199.27-1505
-      - 🇺🇸US-173.249.206.136-2777
+      - _FR_法国_1_7@20
+      - AU_10 |11.09Mb
+      - Relay_-🇨🇭CH_88 | 7.77Mb
+      - 🇭🇰HK-43.198.97.210-1572
+      - 🇭🇰HK-43.198.97.210-2722
+      - 🇺🇸US-142.4.118.150-11400
+      - 🇺🇸US-142.4.118.150-21809
+      - 🇺🇸US-38.63.0.83-6197
+      - 关注频道https://t.me/mftizi
+      - ��𠪊��鐯+Switzerland(ChatGPT)+01+TG:@nodpai
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - _91+|13.15Mb
-      - _92
-      - _IN_印度_0@30
-      - _JP_日本_1_6@1
-      - '|+3.55Mb'
-      - '|+3.83Mb'
-      - '|+3.94Mb'
-      - '|+4.16Mb'
-      - '|+5.03Mb'
-      - '|+5.14Mb'
-      - '|+5.33Mb'
-      - '|+5.42Mb'
-      - '|+5.74Mb'
-      - '|+5.92Mb'
-      - '|+5.93Mb'
-      - '|+6.09Mb'
-      - '|+6.76Mb'
-      - '|+7.24Mb'
-      - '|24.20Mb'
-      - FR_40+|+8.65Mb
-      - Relay+🇭🇰+Hong+Kong+14+TG:@nodpai
-      - Relay+🇭🇰+Hong+Kong+20+TG:@nodpai
-      - Relay+🇯🇵+Japan+04+TG:@nodpai
-      - Relay+🇯🇵+Japan+10+TG:@nodpai
-      - Relay+🇸🇬+Singapore+06+TG:@nodpai
-      - Relay+🇺🇸+United+States+08+TG:@nodpai
-      - Relay+🇺🇸+United+States+12+TG:@nodpai
-      - 🇦🇺 Australia 02 TG:@nodpai
-      - 🇨🇳 China 06 TG:@nodpai
-      - 🇨🇳CN-43.154.76.92-1552
-      - 🇯🇵 Japan 06 TG:@nodpai
-      - 🇳🇱 Netherlands 01 TG:@nodpai
-      - 🇺🇸 United States 40 TG:@nodpai
-      - 🇺🇸US-173.249.199.27-1505
-      - 🇺🇸US-173.249.206.136-2777
+      - _FR_法国_1_7@20
+      - AU_10 |11.09Mb
+      - Relay_-🇨🇭CH_88 | 7.77Mb
+      - 🇭🇰HK-43.198.97.210-1572
+      - 🇭🇰HK-43.198.97.210-2722
+      - 🇺🇸US-142.4.118.150-11400
+      - 🇺🇸US-142.4.118.150-21809
+      - 🇺🇸US-38.63.0.83-6197
+      - 关注频道https://t.me/mftizi
+      - ��𠪊��鐯+Switzerland(ChatGPT)+01+TG:@nodpai
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - _91+|13.15Mb
-      - _92
-      - _IN_印度_0@30
-      - _JP_日本_1_6@1
-      - '|+3.55Mb'
-      - '|+3.83Mb'
-      - '|+3.94Mb'
-      - '|+4.16Mb'
-      - '|+5.03Mb'
-      - '|+5.14Mb'
-      - '|+5.33Mb'
-      - '|+5.42Mb'
-      - '|+5.74Mb'
-      - '|+5.92Mb'
-      - '|+5.93Mb'
-      - '|+6.09Mb'
-      - '|+6.76Mb'
-      - '|+7.24Mb'
-      - '|24.20Mb'
-      - FR_40+|+8.65Mb
-      - Relay+🇭🇰+Hong+Kong+14+TG:@nodpai
-      - Relay+🇭🇰+Hong+Kong+20+TG:@nodpai
-      - Relay+🇯🇵+Japan+04+TG:@nodpai
-      - Relay+🇯🇵+Japan+10+TG:@nodpai
-      - Relay+🇸🇬+Singapore+06+TG:@nodpai
-      - Relay+🇺🇸+United+States+08+TG:@nodpai
-      - Relay+🇺🇸+United+States+12+TG:@nodpai
-      - 🇦🇺 Australia 02 TG:@nodpai
-      - 🇨🇳 China 06 TG:@nodpai
-      - 🇨🇳CN-43.154.76.92-1552
-      - 🇯🇵 Japan 06 TG:@nodpai
-      - 🇳🇱 Netherlands 01 TG:@nodpai
-      - 🇺🇸 United States 40 TG:@nodpai
-      - 🇺🇸US-173.249.199.27-1505
-      - 🇺🇸US-173.249.206.136-2777
+      - _FR_法国_1_7@20
+      - AU_10 |11.09Mb
+      - Relay_-🇨🇭CH_88 | 7.77Mb
+      - 🇭🇰HK-43.198.97.210-1572
+      - 🇭🇰HK-43.198.97.210-2722
+      - 🇺🇸US-142.4.118.150-11400
+      - 🇺🇸US-142.4.118.150-21809
+      - 🇺🇸US-38.63.0.83-6197
+      - 关注频道https://t.me/mftizi
+      - ��𠪊��鐯+Switzerland(ChatGPT)+01+TG:@nodpai
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -412,54 +146,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - defaultName_1
-      - defaultName_2
-      - defaultName_3
-      - defaultName_4
-      - defaultName_5
-      - defaultName_6
-      - defaultName_7
-      - defaultName_8
-      - defaultName_9
-      - defaultName_10
-      - defaultName_11
-      - defaultName_12
-      - defaultName_13
-      - _91+|13.15Mb
-      - _92
-      - _IN_印度_0@30
-      - _JP_日本_1_6@1
-      - '|+3.55Mb'
-      - '|+3.83Mb'
-      - '|+3.94Mb'
-      - '|+4.16Mb'
-      - '|+5.03Mb'
-      - '|+5.14Mb'
-      - '|+5.33Mb'
-      - '|+5.42Mb'
-      - '|+5.74Mb'
-      - '|+5.92Mb'
-      - '|+5.93Mb'
-      - '|+6.09Mb'
-      - '|+6.76Mb'
-      - '|+7.24Mb'
-      - '|24.20Mb'
-      - FR_40+|+8.65Mb
-      - Relay+🇭🇰+Hong+Kong+14+TG:@nodpai
-      - Relay+🇭🇰+Hong+Kong+20+TG:@nodpai
-      - Relay+🇯🇵+Japan+04+TG:@nodpai
-      - Relay+🇯🇵+Japan+10+TG:@nodpai
-      - Relay+🇸🇬+Singapore+06+TG:@nodpai
-      - Relay+🇺🇸+United+States+08+TG:@nodpai
-      - Relay+🇺🇸+United+States+12+TG:@nodpai
-      - 🇦🇺 Australia 02 TG:@nodpai
-      - 🇨🇳 China 06 TG:@nodpai
-      - 🇨🇳CN-43.154.76.92-1552
-      - 🇯🇵 Japan 06 TG:@nodpai
-      - 🇳🇱 Netherlands 01 TG:@nodpai
-      - 🇺🇸 United States 40 TG:@nodpai
-      - 🇺🇸US-173.249.199.27-1505
-      - 🇺🇸US-173.249.206.136-2777
+      - _FR_法国_1_7@20
+      - AU_10 |11.09Mb
+      - Relay_-🇨🇭CH_88 | 7.77Mb
+      - 🇭🇰HK-43.198.97.210-1572
+      - 🇭🇰HK-43.198.97.210-2722
+      - 🇺🇸US-142.4.118.150-11400
+      - 🇺🇸US-142.4.118.150-21809
+      - 🇺🇸US-38.63.0.83-6197
+      - 关注频道https://t.me/mftizi
+      - ��𠪊��鐯+Switzerland(ChatGPT)+01+TG:@nodpai
 
 rules:
 # 本地/局域网地址
