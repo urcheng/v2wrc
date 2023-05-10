@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-09 13:56:24
+# 创建时间：2023-05-10 09:00:39
 # 使用模版：V2RaySE 默认模版
-# 节点数量：7
+# 节点数量：5
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,88 +21,74 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇯🇵JP-43.207.53.32-2198","type":"trojan","server":"jp-csjc.syjd.xyz","port":443,"udp":true,"password":"11c25054-04d2-4738-87b2-cabba73ca718","skip-cert-verify":true}
-  - {"name":"🏁RELAY-172.67.192.178-2295","type":"vmess","server":"172.67.192.178","port":443,"cipher":"auto","uuid":"b8b5ecd0-8f40-423f-ba6c-14f5b089cd99","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us1.sanfencdn.net"}}}
-  - {"name":"🇬🇧GB-194.146.49.166-2162","type":"vmess","server":"194.146.49.166","port":10000,"cipher":"auto","uuid":"2a178018-ebbe-11ed-af85-00163e7a9696","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vpnjantit"}}
-  - {"name":"🇺🇸US-192.203.230.86-0365","type":"vmess","server":"192.203.230.86","port":80,"cipher":"auto","uuid":"a442dacf-cbb3-488a-9744-61494ea38630","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.cf"}}}
-  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_1","type":"vmess","server":"39.103.165.178","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_2","type":"vmess","server":"175.27.154.61","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇸🇬SG-51.79.237.145-3082","type":"vmess","server":"sing2.tltvpn.xyz","port":80,"cipher":"auto","uuid":"022e3c2a-f4bf-423e-8c05-7f26fff93674","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sing2.tltvpn.xyz"}}}
+  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_1","type":"vmess","server":"175.27.154.61","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US-173.249.199.27-2680","type":"vmess","server":"173.249.199.27","port":443,"cipher":"auto","uuid":"e5543efd-5400-3760-9bb6-02767728e888","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video"}}
+  - {"name":"🏁RELAY-199.212.90.14-1235","type":"vmess","server":"199.212.90.14","port":443,"cipher":"auto","uuid":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
+  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_2","type":"vmess","server":"39.103.165.178","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"_US_美国_21_13@38","type":"vmess","server":"173.249.199.27","port":443,"cipher":"auto","uuid":"e5543efd-5400-3760-9bb6-02767728e888","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video","headers":{"host":"173.249.199.27"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵JP-43.207.53.32-2198
-      - 🏁RELAY-172.67.192.178-2295
-      - 🇬🇧GB-194.146.49.166-2162
-      - 🇺🇸US-192.203.230.86-0365
       - 🇨🇳_CN_电报频道： @pjrjzy_1
+      - 🇺🇸US-173.249.199.27-2680
+      - 🏁RELAY-199.212.90.14-1235
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇸🇬SG-51.79.237.145-3082
+      - _US_美国_21_13@38
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵JP-43.207.53.32-2198
-      - 🏁RELAY-172.67.192.178-2295
-      - 🇬🇧GB-194.146.49.166-2162
-      - 🇺🇸US-192.203.230.86-0365
       - 🇨🇳_CN_电报频道： @pjrjzy_1
+      - 🇺🇸US-173.249.199.27-2680
+      - 🏁RELAY-199.212.90.14-1235
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇸🇬SG-51.79.237.145-3082
+      - _US_美国_21_13@38
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵JP-43.207.53.32-2198
-      - 🏁RELAY-172.67.192.178-2295
-      - 🇬🇧GB-194.146.49.166-2162
-      - 🇺🇸US-192.203.230.86-0365
       - 🇨🇳_CN_电报频道： @pjrjzy_1
+      - 🇺🇸US-173.249.199.27-2680
+      - 🏁RELAY-199.212.90.14-1235
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇸🇬SG-51.79.237.145-3082
+      - _US_美国_21_13@38
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵JP-43.207.53.32-2198
-      - 🏁RELAY-172.67.192.178-2295
-      - 🇬🇧GB-194.146.49.166-2162
-      - 🇺🇸US-192.203.230.86-0365
       - 🇨🇳_CN_电报频道： @pjrjzy_1
+      - 🇺🇸US-173.249.199.27-2680
+      - 🏁RELAY-199.212.90.14-1235
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇸🇬SG-51.79.237.145-3082
+      - _US_美国_21_13@38
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵JP-43.207.53.32-2198
-      - 🏁RELAY-172.67.192.178-2295
-      - 🇬🇧GB-194.146.49.166-2162
-      - 🇺🇸US-192.203.230.86-0365
       - 🇨🇳_CN_电报频道： @pjrjzy_1
+      - 🇺🇸US-173.249.199.27-2680
+      - 🏁RELAY-199.212.90.14-1235
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇸🇬SG-51.79.237.145-3082
+      - _US_美国_21_13@38
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵JP-43.207.53.32-2198
-      - 🏁RELAY-172.67.192.178-2295
-      - 🇬🇧GB-194.146.49.166-2162
-      - 🇺🇸US-192.203.230.86-0365
       - 🇨🇳_CN_电报频道： @pjrjzy_1
+      - 🇺🇸US-173.249.199.27-2680
+      - 🏁RELAY-199.212.90.14-1235
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇸🇬SG-51.79.237.145-3082
+      - _US_美国_21_13@38
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -125,13 +111,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵JP-43.207.53.32-2198
-      - 🏁RELAY-172.67.192.178-2295
-      - 🇬🇧GB-194.146.49.166-2162
-      - 🇺🇸US-192.203.230.86-0365
       - 🇨🇳_CN_电报频道： @pjrjzy_1
+      - 🇺🇸US-173.249.199.27-2680
+      - 🏁RELAY-199.212.90.14-1235
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇸🇬SG-51.79.237.145-3082
+      - _US_美国_21_13@38
 
 rules:
 # 本地/局域网地址
