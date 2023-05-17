@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-16 09:06:40
+# 创建时间：2023-05-17 08:52:23
 # 使用模版：V2RaySE 默认模版
-# 节点数量：16
+# 节点数量：21
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,151 +21,186 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"Relay_Relay_+|10.94Mb","type":"trojan","server":"us2.trojanvh.xyz","port":80,"udp":true,"password":"255c924c-1314-4084-9a9e-1d1a82a5cf49","skip-cert-verify":true}
-  - {"name":"Relay_🇺🇸US-🇺🇸US_204+|12.83Mb","type":"trojan","server":"us2.trojanvh.xyz","port":80,"udp":true,"password":"aa6eb272-1d8d-4461-9687-85ddbab1adb0","skip-cert-verify":true}
-  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_1","type":"vmess","server":"175.27.154.61","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_2","type":"vmess","server":"39.103.165.178","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇭🇰HK-43.198.76.94-13724","type":"vmess","server":"hk6.af49c4e4c2ef.sanfen004.me","port":443,"cipher":"auto","uuid":"5859520d-6c8e-4a80-8255-7cdd563b778f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk6.af49c4e4c2ef.sanfen004.me","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
-  - {"name":"🇮🇩ID-103.169.7.11-12970","type":"trojan","server":"103.169.7.11","port":80,"udp":true,"password":"c0d9da22-2569-4bed-a395-607d9e7ae687","sni":"sciencedirect.com","skip-cert-verify":true}
-  - {"name":"🇮🇳IN-165.154.237.5-4496","type":"trojan","server":"stw5-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","sni":"data.amazonwebservicess.com","skip-cert-verify":true}
-  - {"name":"🇮🇹IT-18.102.68.105-4997","type":"trojan","server":"18.102.68.105","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","sni":"data.amazon-azure.com","skip-cert-verify":true}
-  - {"name":"🇸🇬SG-13.214.27.15-4945","type":"trojan","server":"13.214.27.15","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","sni":"data.amazon-azure.com","skip-cert-verify":true}
-  - {"name":"🇸🇬SG-13.215.140.145-4529","type":"trojan","server":"13.215.140.145","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"免费梯子https://t.me/mftizi","type":"vmess","server":"hk4.af49c4e4c2ef.sanfen004.me","port":443,"cipher":"auto","uuid":"004d5ee6-381f-4e2f-960f-1eea33c7cff4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk1.sanfen004.me","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
+  - {"name":"🇺🇸US-198.2.200.105-1643","type":"vmess","server":"198.2.200.105","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.54092415.xyz","network":"ws","ws-opts":{"path":"/path/1683543024453"}}
+  - {"name":"🇺🇸US-192.203.230.86-0413","type":"vmess","server":"192.203.230.86","port":80,"cipher":"auto","uuid":"a442dacf-cbb3-488a-9744-61494ea38630","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us-1.acyun.cf"}}}
+  - {"name":"🇸🇬SG-18.139.161.185-4491","type":"trojan","server":"aws-sg.aikun.online","port":443,"udp":true,"password":"f9df5923-6775-46e3-a43a-9865a2b77e88","sni":"aws-sg.aikun.online","skip-cert-verify":true}
   - {"name":"🇸🇬SG-165.154.253.111-4473","type":"trojan","server":"stw7-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","sni":"data.amazonwebservicess.com","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-165.154.227.239-4798","type":"trojan","server":"stw6-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","sni":"data.amazonwebservicess.com","skip-cert-verify":true}
-  - {"name":"🇺🇸US-104.233.191.182-1212","type":"vmess","server":"104.233.191.182","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/031730091420"}}
-  - {"name":"🏁RELAY-199.212.90.14-1367","type":"vmess","server":"199.212.90.14","port":443,"cipher":"auto","uuid":"6147F065-9AC0-4081-A5A3-A2EB4EBB8958","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Lille.kotick.site"}}}
-  - {"name":"🏁RELAY-23.227.39.1-4886","type":"vmess","server":"23.227.39.1","port":443,"cipher":"auto","uuid":"ef36c4b6-5160-40ad-bb85-bee68b5ec931","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/v2raydns","headers":{"host":"cadns.mainssh.xyz"}}}
-  - {"name":"甲骨文法兰克福（无优化）","type":"vmess","server":"130.162.47.123","port":6854,"cipher":"auto","uuid":"b5f7e932-f730-4ad2-b425-40977b9db332","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zBLPou","headers":{"host":"dengpao.de"}}}
+  - {"name":"🇮🇳IN-165.154.237.5-4496","type":"trojan","server":"stw5-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","sni":"data.amazonwebservicess.com","skip-cert-verify":true}
+  - {"name":"🇭🇰HK-43.198.78.89-1197","type":"vmess","server":"hk4.af49c4e4c2ef.sanfen004.me","port":443,"cipher":"auto","uuid":"004d5ee6-381f-4e2f-960f-1eea33c7cff4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk1.sanfen004.me","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
+  - {"name":"🇭🇰HK-43.198.76.94-13724","type":"vmess","server":"hk6.af49c4e4c2ef.sanfen004.me","port":443,"cipher":"auto","uuid":"5859520d-6c8e-4a80-8255-7cdd563b778f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hk6.af49c4e4c2ef.sanfen004.me","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
+  - {"name":"🇭🇰HK-16.163.82.164-4786","type":"vmess","server":"hk80-2.6d83777c049a.sanfen004.me","port":80,"cipher":"auto","uuid":"004d5ee6-381f-4e2f-960f-1eea33c7cff4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn/","headers":{"host":"www.baidu.com"}}}
+  - {"name":"🇭🇰HK-16.163.56.45-0063","type":"trojan","server":"awshk9-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true}
+  - {"name":"🇭🇰HK-16.163.148.49-0195","type":"trojan","server":"awshk14-data.amazon-azure.com","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true}
+  - {"name":"🇭🇰HK-16.162.44.219-1204","type":"trojan","server":"awshk8-data.amazon-azure.com","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","sni":"data.amazon-azure.com","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-49.7.230.152-4749","type":"vmess","server":"t.cccao.cyou","port":16617,"cipher":"auto","uuid":"af4dc66a-ec88-4057-9e46-777b584577f7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"t.cccao.cyou"}}}
+  - {"name":"🇨🇳CN-123.139.128.37-4536","type":"vmess","server":"yes.iamagoodman.net","port":16648,"cipher":"auto","uuid":"af4dc66a-ec88-4057-9e46-777b584577f7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"yes.iamagoodman.net"}}}
+  - {"name":"🇨🇳CN-123.139.128.37-1708","type":"vmess","server":"yes.iamagoodman.net","port":16617,"cipher":"auto","uuid":"af4dc66a-ec88-4057-9e46-777b584577f7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"yes.iamagoodman.net"}}}
+  - {"name":"🇨🇳CN-112.29.156.131-1731","type":"vmess","server":"m.lwvzmdu.cn","port":16648,"cipher":"auto","uuid":"af4dc66a-ec88-4057-9e46-777b584577f7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"m.lwvzmdu.cn"}}}
+  - {"name":"🇨🇳CN-112.29.156.131-1709","type":"vmess","server":"m.lwvzmdu.cn","port":16617,"cipher":"auto","uuid":"af4dc66a-ec88-4057-9e46-777b584577f7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"m.lwvzmdu.cn"}}}
+  - {"name":"🇨🇳CN-112.29.156.131-1698","type":"vmess","server":"m.lwvzmdu.cn","port":16622,"cipher":"auto","uuid":"af4dc66a-ec88-4057-9e46-777b584577f7","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"m.lwvzmdu.cn"}}}
+  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_1","type":"vmess","server":"39.103.165.178","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_2","type":"vmess","server":"175.27.154.61","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay_🇦🇺AU-🇦🇺AU_80 |25.28Mb","type":"vmess","server":"hk6.af49c4e4c2ef.sanfen004.me","port":443,"cipher":"auto","uuid":"5859520d-6c8e-4a80-8255-7cdd563b778f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"www.microsoft.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Relay_Relay_+|10.94Mb
-      - Relay_🇺🇸US-🇺🇸US_204+|12.83Mb
+      - 免费梯子https://t.me/mftizi
+      - 🇺🇸US-198.2.200.105-1643
+      - 🇺🇸US-192.203.230.86-0413
+      - 🇸🇬SG-18.139.161.185-4491
+      - 🇸🇬SG-165.154.253.111-4473
+      - 🇮🇳IN-165.154.237.5-4496
+      - 🇭🇰HK-43.198.78.89-1197
+      - 🇭🇰HK-43.198.76.94-13724
+      - 🇭🇰HK-16.163.82.164-4786
+      - 🇭🇰HK-16.163.56.45-0063
+      - 🇭🇰HK-16.163.148.49-0195
+      - 🇭🇰HK-16.162.44.219-1204
+      - 🇨🇳CN-49.7.230.152-4749
+      - 🇨🇳CN-123.139.128.37-4536
+      - 🇨🇳CN-123.139.128.37-1708
+      - 🇨🇳CN-112.29.156.131-1731
+      - 🇨🇳CN-112.29.156.131-1709
+      - 🇨🇳CN-112.29.156.131-1698
       - 🇨🇳_CN_电报频道： @pjrjzy_1
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇭🇰HK-43.198.76.94-13724
-      - 🇮🇩ID-103.169.7.11-12970
-      - 🇮🇳IN-165.154.237.5-4496
-      - 🇮🇹IT-18.102.68.105-4997
-      - 🇸🇬SG-13.214.27.15-4945
-      - 🇸🇬SG-13.215.140.145-4529
-      - 🇸🇬SG-165.154.253.111-4473
-      - 🇹🇼TW-165.154.227.239-4798
-      - 🇺🇸US-104.233.191.182-1212
-      - 🏁RELAY-199.212.90.14-1367
-      - 🏁RELAY-23.227.39.1-4886
-      - 甲骨文法兰克福（无优化）
+      - Relay_🇦🇺AU-🇦🇺AU_80 |25.28Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Relay_Relay_+|10.94Mb
-      - Relay_🇺🇸US-🇺🇸US_204+|12.83Mb
+      - 免费梯子https://t.me/mftizi
+      - 🇺🇸US-198.2.200.105-1643
+      - 🇺🇸US-192.203.230.86-0413
+      - 🇸🇬SG-18.139.161.185-4491
+      - 🇸🇬SG-165.154.253.111-4473
+      - 🇮🇳IN-165.154.237.5-4496
+      - 🇭🇰HK-43.198.78.89-1197
+      - 🇭🇰HK-43.198.76.94-13724
+      - 🇭🇰HK-16.163.82.164-4786
+      - 🇭🇰HK-16.163.56.45-0063
+      - 🇭🇰HK-16.163.148.49-0195
+      - 🇭🇰HK-16.162.44.219-1204
+      - 🇨🇳CN-49.7.230.152-4749
+      - 🇨🇳CN-123.139.128.37-4536
+      - 🇨🇳CN-123.139.128.37-1708
+      - 🇨🇳CN-112.29.156.131-1731
+      - 🇨🇳CN-112.29.156.131-1709
+      - 🇨🇳CN-112.29.156.131-1698
       - 🇨🇳_CN_电报频道： @pjrjzy_1
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇭🇰HK-43.198.76.94-13724
-      - 🇮🇩ID-103.169.7.11-12970
-      - 🇮🇳IN-165.154.237.5-4496
-      - 🇮🇹IT-18.102.68.105-4997
-      - 🇸🇬SG-13.214.27.15-4945
-      - 🇸🇬SG-13.215.140.145-4529
-      - 🇸🇬SG-165.154.253.111-4473
-      - 🇹🇼TW-165.154.227.239-4798
-      - 🇺🇸US-104.233.191.182-1212
-      - 🏁RELAY-199.212.90.14-1367
-      - 🏁RELAY-23.227.39.1-4886
-      - 甲骨文法兰克福（无优化）
+      - Relay_🇦🇺AU-🇦🇺AU_80 |25.28Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_Relay_+|10.94Mb
-      - Relay_🇺🇸US-🇺🇸US_204+|12.83Mb
+      - 免费梯子https://t.me/mftizi
+      - 🇺🇸US-198.2.200.105-1643
+      - 🇺🇸US-192.203.230.86-0413
+      - 🇸🇬SG-18.139.161.185-4491
+      - 🇸🇬SG-165.154.253.111-4473
+      - 🇮🇳IN-165.154.237.5-4496
+      - 🇭🇰HK-43.198.78.89-1197
+      - 🇭🇰HK-43.198.76.94-13724
+      - 🇭🇰HK-16.163.82.164-4786
+      - 🇭🇰HK-16.163.56.45-0063
+      - 🇭🇰HK-16.163.148.49-0195
+      - 🇭🇰HK-16.162.44.219-1204
+      - 🇨🇳CN-49.7.230.152-4749
+      - 🇨🇳CN-123.139.128.37-4536
+      - 🇨🇳CN-123.139.128.37-1708
+      - 🇨🇳CN-112.29.156.131-1731
+      - 🇨🇳CN-112.29.156.131-1709
+      - 🇨🇳CN-112.29.156.131-1698
       - 🇨🇳_CN_电报频道： @pjrjzy_1
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇭🇰HK-43.198.76.94-13724
-      - 🇮🇩ID-103.169.7.11-12970
-      - 🇮🇳IN-165.154.237.5-4496
-      - 🇮🇹IT-18.102.68.105-4997
-      - 🇸🇬SG-13.214.27.15-4945
-      - 🇸🇬SG-13.215.140.145-4529
-      - 🇸🇬SG-165.154.253.111-4473
-      - 🇹🇼TW-165.154.227.239-4798
-      - 🇺🇸US-104.233.191.182-1212
-      - 🏁RELAY-199.212.90.14-1367
-      - 🏁RELAY-23.227.39.1-4886
-      - 甲骨文法兰克福（无优化）
+      - Relay_🇦🇺AU-🇦🇺AU_80 |25.28Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_Relay_+|10.94Mb
-      - Relay_🇺🇸US-🇺🇸US_204+|12.83Mb
+      - 免费梯子https://t.me/mftizi
+      - 🇺🇸US-198.2.200.105-1643
+      - 🇺🇸US-192.203.230.86-0413
+      - 🇸🇬SG-18.139.161.185-4491
+      - 🇸🇬SG-165.154.253.111-4473
+      - 🇮🇳IN-165.154.237.5-4496
+      - 🇭🇰HK-43.198.78.89-1197
+      - 🇭🇰HK-43.198.76.94-13724
+      - 🇭🇰HK-16.163.82.164-4786
+      - 🇭🇰HK-16.163.56.45-0063
+      - 🇭🇰HK-16.163.148.49-0195
+      - 🇭🇰HK-16.162.44.219-1204
+      - 🇨🇳CN-49.7.230.152-4749
+      - 🇨🇳CN-123.139.128.37-4536
+      - 🇨🇳CN-123.139.128.37-1708
+      - 🇨🇳CN-112.29.156.131-1731
+      - 🇨🇳CN-112.29.156.131-1709
+      - 🇨🇳CN-112.29.156.131-1698
       - 🇨🇳_CN_电报频道： @pjrjzy_1
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇭🇰HK-43.198.76.94-13724
-      - 🇮🇩ID-103.169.7.11-12970
-      - 🇮🇳IN-165.154.237.5-4496
-      - 🇮🇹IT-18.102.68.105-4997
-      - 🇸🇬SG-13.214.27.15-4945
-      - 🇸🇬SG-13.215.140.145-4529
-      - 🇸🇬SG-165.154.253.111-4473
-      - 🇹🇼TW-165.154.227.239-4798
-      - 🇺🇸US-104.233.191.182-1212
-      - 🏁RELAY-199.212.90.14-1367
-      - 🏁RELAY-23.227.39.1-4886
-      - 甲骨文法兰克福（无优化）
+      - Relay_🇦🇺AU-🇦🇺AU_80 |25.28Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Relay_Relay_+|10.94Mb
-      - Relay_🇺🇸US-🇺🇸US_204+|12.83Mb
+      - 免费梯子https://t.me/mftizi
+      - 🇺🇸US-198.2.200.105-1643
+      - 🇺🇸US-192.203.230.86-0413
+      - 🇸🇬SG-18.139.161.185-4491
+      - 🇸🇬SG-165.154.253.111-4473
+      - 🇮🇳IN-165.154.237.5-4496
+      - 🇭🇰HK-43.198.78.89-1197
+      - 🇭🇰HK-43.198.76.94-13724
+      - 🇭🇰HK-16.163.82.164-4786
+      - 🇭🇰HK-16.163.56.45-0063
+      - 🇭🇰HK-16.163.148.49-0195
+      - 🇭🇰HK-16.162.44.219-1204
+      - 🇨🇳CN-49.7.230.152-4749
+      - 🇨🇳CN-123.139.128.37-4536
+      - 🇨🇳CN-123.139.128.37-1708
+      - 🇨🇳CN-112.29.156.131-1731
+      - 🇨🇳CN-112.29.156.131-1709
+      - 🇨🇳CN-112.29.156.131-1698
       - 🇨🇳_CN_电报频道： @pjrjzy_1
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇭🇰HK-43.198.76.94-13724
-      - 🇮🇩ID-103.169.7.11-12970
-      - 🇮🇳IN-165.154.237.5-4496
-      - 🇮🇹IT-18.102.68.105-4997
-      - 🇸🇬SG-13.214.27.15-4945
-      - 🇸🇬SG-13.215.140.145-4529
-      - 🇸🇬SG-165.154.253.111-4473
-      - 🇹🇼TW-165.154.227.239-4798
-      - 🇺🇸US-104.233.191.182-1212
-      - 🏁RELAY-199.212.90.14-1367
-      - 🏁RELAY-23.227.39.1-4886
-      - 甲骨文法兰克福（无优化）
+      - Relay_🇦🇺AU-🇦🇺AU_80 |25.28Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Relay_Relay_+|10.94Mb
-      - Relay_🇺🇸US-🇺🇸US_204+|12.83Mb
+      - 免费梯子https://t.me/mftizi
+      - 🇺🇸US-198.2.200.105-1643
+      - 🇺🇸US-192.203.230.86-0413
+      - 🇸🇬SG-18.139.161.185-4491
+      - 🇸🇬SG-165.154.253.111-4473
+      - 🇮🇳IN-165.154.237.5-4496
+      - 🇭🇰HK-43.198.78.89-1197
+      - 🇭🇰HK-43.198.76.94-13724
+      - 🇭🇰HK-16.163.82.164-4786
+      - 🇭🇰HK-16.163.56.45-0063
+      - 🇭🇰HK-16.163.148.49-0195
+      - 🇭🇰HK-16.162.44.219-1204
+      - 🇨🇳CN-49.7.230.152-4749
+      - 🇨🇳CN-123.139.128.37-4536
+      - 🇨🇳CN-123.139.128.37-1708
+      - 🇨🇳CN-112.29.156.131-1731
+      - 🇨🇳CN-112.29.156.131-1709
+      - 🇨🇳CN-112.29.156.131-1698
       - 🇨🇳_CN_电报频道： @pjrjzy_1
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇭🇰HK-43.198.76.94-13724
-      - 🇮🇩ID-103.169.7.11-12970
-      - 🇮🇳IN-165.154.237.5-4496
-      - 🇮🇹IT-18.102.68.105-4997
-      - 🇸🇬SG-13.214.27.15-4945
-      - 🇸🇬SG-13.215.140.145-4529
-      - 🇸🇬SG-165.154.253.111-4473
-      - 🇹🇼TW-165.154.227.239-4798
-      - 🇺🇸US-104.233.191.182-1212
-      - 🏁RELAY-199.212.90.14-1367
-      - 🏁RELAY-23.227.39.1-4886
-      - 甲骨文法兰克福（无优化）
+      - Relay_🇦🇺AU-🇦🇺AU_80 |25.28Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -188,22 +223,27 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_Relay_+|10.94Mb
-      - Relay_🇺🇸US-🇺🇸US_204+|12.83Mb
+      - 免费梯子https://t.me/mftizi
+      - 🇺🇸US-198.2.200.105-1643
+      - 🇺🇸US-192.203.230.86-0413
+      - 🇸🇬SG-18.139.161.185-4491
+      - 🇸🇬SG-165.154.253.111-4473
+      - 🇮🇳IN-165.154.237.5-4496
+      - 🇭🇰HK-43.198.78.89-1197
+      - 🇭🇰HK-43.198.76.94-13724
+      - 🇭🇰HK-16.163.82.164-4786
+      - 🇭🇰HK-16.163.56.45-0063
+      - 🇭🇰HK-16.163.148.49-0195
+      - 🇭🇰HK-16.162.44.219-1204
+      - 🇨🇳CN-49.7.230.152-4749
+      - 🇨🇳CN-123.139.128.37-4536
+      - 🇨🇳CN-123.139.128.37-1708
+      - 🇨🇳CN-112.29.156.131-1731
+      - 🇨🇳CN-112.29.156.131-1709
+      - 🇨🇳CN-112.29.156.131-1698
       - 🇨🇳_CN_电报频道： @pjrjzy_1
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇭🇰HK-43.198.76.94-13724
-      - 🇮🇩ID-103.169.7.11-12970
-      - 🇮🇳IN-165.154.237.5-4496
-      - 🇮🇹IT-18.102.68.105-4997
-      - 🇸🇬SG-13.214.27.15-4945
-      - 🇸🇬SG-13.215.140.145-4529
-      - 🇸🇬SG-165.154.253.111-4473
-      - 🇹🇼TW-165.154.227.239-4798
-      - 🇺🇸US-104.233.191.182-1212
-      - 🏁RELAY-199.212.90.14-1367
-      - 🏁RELAY-23.227.39.1-4886
-      - 甲骨文法兰克福（无优化）
+      - Relay_🇦🇺AU-🇦🇺AU_80 |25.28Mb
 
 rules:
 # 本地/局域网地址
