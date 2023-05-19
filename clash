@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-18 09:11:40
+# 创建时间：2023-05-19 08:55:21
 # 使用模版：V2RaySE 默认模版
-# 节点数量：7
+# 节点数量：5
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,13 +21,11 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_1","type":"vmess","server":"175.27.154.61","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇩🇪DE-95.179.171.203-4817","type":"vmess","server":"95.179.171.203","port":443,"cipher":"auto","uuid":"6388bd92-6cbc-4b72-a9a6-931f071d0ffa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/nimvws","headers":{"host":"phosphorylative.aurorainiceland.com"}}}
-  - {"name":"|14.80Mb","type":"ss","server":"167.88.63.79","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
-  - {"name":"_US_美国_7_13@11","type":"ss","server":"167.88.63.79","port":8881,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
-  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_2","type":"vmess","server":"39.103.165.178","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇹🇼TW-165.154.243.159-1732","type":"trojan","server":"scloudtw2-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true}
-  - {"name":"CA_32+|+8.92Mb","type":"trojan","server":"scloudtw2-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"4aeda200-44c9-4168-8f2a-a00a72176d35","skip-cert-verify":true}
+  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_1","type":"vmess","server":"39.103.165.178","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇸🇬SG-165.154.253.42-0116","type":"trojan","server":"stw6-tg-data.amazonwebservicess.com","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true}
+  - {"name":"🇨🇳_CN_电报频道： @pjrjzy_2","type":"vmess","server":"175.27.154.61","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🏁RELAY-104.18.16.131-1326","type":"vmess","server":"www.gov.tw","port":443,"cipher":"auto","uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.kotick.site"}}}
+  - {"name":"🇭🇰HK-43.154.122.126-9027","type":"vmess","server":"43.154.122.126","port":48122,"cipher":"auto","uuid":"82adc998-88ab-4c87-8b86-5bc39e80f5b2","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/hk1/getData"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -35,12 +33,10 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇨🇳_CN_电报频道： @pjrjzy_1
-      - 🇩🇪DE-95.179.171.203-4817
-      - '|14.80Mb'
-      - _US_美国_7_13@11
+      - 🇸🇬SG-165.154.253.42-0116
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇹🇼TW-165.154.243.159-1732
-      - CA_32+|+8.92Mb
+      - 🏁RELAY-104.18.16.131-1326
+      - 🇭🇰HK-43.154.122.126-9027
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -48,12 +44,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇨🇳_CN_电报频道： @pjrjzy_1
-      - 🇩🇪DE-95.179.171.203-4817
-      - '|14.80Mb'
-      - _US_美国_7_13@11
+      - 🇸🇬SG-165.154.253.42-0116
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇹🇼TW-165.154.243.159-1732
-      - CA_32+|+8.92Mb
+      - 🏁RELAY-104.18.16.131-1326
+      - 🇭🇰HK-43.154.122.126-9027
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -61,48 +55,40 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇨🇳_CN_电报频道： @pjrjzy_1
-      - 🇩🇪DE-95.179.171.203-4817
-      - '|14.80Mb'
-      - _US_美国_7_13@11
+      - 🇸🇬SG-165.154.253.42-0116
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇹🇼TW-165.154.243.159-1732
-      - CA_32+|+8.92Mb
+      - 🏁RELAY-104.18.16.131-1326
+      - 🇭🇰HK-43.154.122.126-9027
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇨🇳_CN_电报频道： @pjrjzy_1
-      - 🇩🇪DE-95.179.171.203-4817
-      - '|14.80Mb'
-      - _US_美国_7_13@11
+      - 🇸🇬SG-165.154.253.42-0116
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇹🇼TW-165.154.243.159-1732
-      - CA_32+|+8.92Mb
+      - 🏁RELAY-104.18.16.131-1326
+      - 🇭🇰HK-43.154.122.126-9027
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇨🇳_CN_电报频道： @pjrjzy_1
-      - 🇩🇪DE-95.179.171.203-4817
-      - '|14.80Mb'
-      - _US_美国_7_13@11
+      - 🇸🇬SG-165.154.253.42-0116
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇹🇼TW-165.154.243.159-1732
-      - CA_32+|+8.92Mb
+      - 🏁RELAY-104.18.16.131-1326
+      - 🇭🇰HK-43.154.122.126-9027
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇨🇳_CN_电报频道： @pjrjzy_1
-      - 🇩🇪DE-95.179.171.203-4817
-      - '|14.80Mb'
-      - _US_美国_7_13@11
+      - 🇸🇬SG-165.154.253.42-0116
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇹🇼TW-165.154.243.159-1732
-      - CA_32+|+8.92Mb
+      - 🏁RELAY-104.18.16.131-1326
+      - 🇭🇰HK-43.154.122.126-9027
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -126,12 +112,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇨🇳_CN_电报频道： @pjrjzy_1
-      - 🇩🇪DE-95.179.171.203-4817
-      - '|14.80Mb'
-      - _US_美国_7_13@11
+      - 🇸🇬SG-165.154.253.42-0116
       - 🇨🇳_CN_电报频道： @pjrjzy_2
-      - 🇹🇼TW-165.154.243.159-1732
-      - CA_32+|+8.92Mb
+      - 🏁RELAY-104.18.16.131-1326
+      - 🇭🇰HK-43.154.122.126-9027
 
 rules:
 # 本地/局域网地址
