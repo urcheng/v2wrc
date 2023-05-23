@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-22 09:17:53
+# 创建时间：2023-05-23 10:02:50
 # 使用模版：V2RaySE 默认模版
-# 节点数量：43
+# 节点数量：30
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,340 +21,249 @@ dns:
     - tls://dns.google:853
 
 proxies:
+  - {"name":"[v1]+香港・01","type":"ss","server":"yd-01.paofunlink.com","port":5980,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
   - {"name":"[v1]+香港・03","type":"ss","server":"yd-01.paofunlink.com","port":5982,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"[v1]+香港・04","type":"ss","server":"yd-06.paofunlink.com","port":5983,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"[v1]+香港・05","type":"ss","server":"yd-06.paofunlink.com","port":5984,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"11+tg电报群@xhj1006","type":"vmess","server":"yes.iamagoodman.net","port":16620,"cipher":"auto","uuid":"16925dca-05be-4d7c-b469-6bcbd8a227ce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"yes.iamagoodman.net"}}}
-  - {"name":"9+tg电报群@xhj1006_1","type":"trojan","server":"hk3.microsoft-orgwly.vip","port":443,"udp":true,"password":"7cadf272-e610-4f72-8bfd-ce88554af2c0","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"9+tg电报群@xhj1006_2","type":"trojan","server":"hk5.microsoft-orgwly.vip","port":443,"udp":true,"password":"7cadf272-e610-4f72-8bfd-ce88554af2c0","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"Relay_🇨🇳CN-🇯🇵JP_67+|13.66Mb","type":"ss","server":"fae1.interface.buzz","port":31766,"password":"c7a1f42c-c79a-3c31-9544-89aff988379c","cipher":"aes-128-gcm"}
-  - {"name":"🇨🇦+加拿大01","type":"trojan","server":"ca1.microsoft-orgwly.vip","port":35451,"udp":true,"password":"76120efb-4d66-4e35-9ca7-e46ad5b767d0","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"🇨🇳 TW2 夏洛特","type":"vmess","server":"hinettw1.applebench.tech","port":56568,"cipher":"auto","uuid":"7e319f7a-4c47-4606-8008-ce6c92634dd8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇮🇳+印度01","type":"trojan","server":"in1.microsoft-orgwly.vip","port":32526,"udp":true,"password":"76120efb-4d66-4e35-9ca7-e46ad5b767d0","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"🇯🇵 JP5 良民のFakeIPLC","type":"vmess","server":"jp5.lianpi.xyz","port":45123,"cipher":"auto","uuid":"7e319f7a-4c47-4606-8008-ce6c92634dd8","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp5.lianpi.xyz","network":"ws","ws-opts":{"path":"/","headers":{"host":"QWQ"}}}
-  - {"name":"🇯🇵+JP7+桜岛麻衣","type":"trojan","server":"jp7.lianpi.xyz","port":53638,"udp":true,"password":"7e319f7a-4c47-4606-8008-ce6c92634dd8","sni":"jp6.lianpi.xyz","skip-cert-verify":true}
+  - {"name":"[v1]+香港・09","type":"ss","server":"yd-07.paofunlink.com","port":5988,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"[v3]+美国・02","type":"ss","server":"yd-03.paofunlink.com","port":1186,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"[v3]+日本・03","type":"ss","server":"yd-03.paofunlink.com","port":1157,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"[v3]+香港・01","type":"ss","server":"yd-04.paofunlink.com","port":5980,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"[v3]+香港・03","type":"ss","server":"yd-04.paofunlink.com","port":5982,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"[v3]+香港・06","type":"ss","server":"yd-04.paofunlink.com","port":5985,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"[v3]+香港・08","type":"ss","server":"yd-04.paofunlink.com","port":5987,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"[v3]+香港・10","type":"ss","server":"yd-04.paofunlink.com","port":5989,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"[v3]+新加坡・02","type":"ss","server":"yd-03.paofunlink.com","port":1196,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"[v3]+新加坡・04","type":"ss","server":"yd-03.paofunlink.com","port":1198,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"_NL_荷兰_1_0@3","type":"ss","server":"172.99.188.99","port":5003,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
+  - {"name":"_NL_荷兰_6_0@8","type":"ss","server":"172.99.188.99","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
+  - {"name":"_NL_荷兰_7_0@9","type":"ss","server":"172.99.188.99","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"_NL_荷兰_8_0@10","type":"ss","server":"172.99.188.99","port":2375,"password":"faBAoD54k87UJG7","cipher":"aes-256-gcm"}
+  - {"name":"_SG_新加坡_2_4@30","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
+  - {"name":"Alien","type":"vmess","server":"tw99-hinet.mynodes001.one","port":5432,"cipher":"auto","uuid":"d5ef1df3-4069-3b25-9dc1-16b2be9b3e6b","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Pool__14+|+5.76Mb","type":"ss","server":"216.52.183.243","port":80,"password":"83XvX4Vo%*3a","cipher":"aes-128-gcm","plugin":"simple-obfs","plugin-opts":{"mode":"websocket"}}
+  - {"name":"US_269","type":"ssr","server":"fr-am1-5.eqsunshine.com","port":8181,"password":"RcfVcDzzB","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
+  - {"name":"🇨🇳+此订阅到期时间为5月25日","type":"ss","server":"yd-03.paofunlink.com","port":1156,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇨🇳CN-112.15.45.154-1746","type":"trojan","server":"cs.xiaohouzi.club","port":28280,"udp":true,"password":"82277b90-9f40-3c91-9b5a-e97140f63d8b","sni":"canada01.xiaohouzi.club","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-150.230.98.87-1025","type":"vmess","server":"suzhihan.eu.org","port":443,"cipher":"auto","uuid":"0b873cff-11ab-4716-c41a-04f886135091","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"suzhihan.eu.org","network":"ws","ws-opts":{"path":"/roewesu","headers":{"host":"suzhihan.eu.org"}}}
+  - {"name":"🇯🇵JP-43.206.152.124-0196","type":"trojan","server":"43.206.152.124","port":443,"udp":true,"password":"794d739c-89a0-444c-b2e7-acce12af3042","skip-cert-verify":true}
   - {"name":"🇯🇵日本03{流媒体优化|GPT}{1x}","type":"trojan","server":"jp03.lovehjq.xyz","port":28117,"udp":true,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","skip-cert-verify":true}
-  - {"name":"🇵🇭菲律宾01{1x}","type":"trojan","server":"ph01.lovehjq.xyz","port":30017,"udp":true,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","skip-cert-verify":true}
-  - {"name":"🇸🇬+新加坡|推荐|流媒体V2","type":"trojan","server":"sg13.microsoft-orgwly.vip","port":10046,"udp":true,"password":"76120efb-4d66-4e35-9ca7-e46ad5b767d0","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"🇸🇬+新加坡|推荐1|流媒体GPT","type":"trojan","server":"sg6.microsoft-orgwly.vip","port":10046,"udp":true,"password":"76120efb-4d66-4e35-9ca7-e46ad5b767d0","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"🇸🇬+新加坡|推荐2|流媒体GPT","type":"trojan","server":"sg11.microsoft-orgwly.vip","port":10181,"udp":true,"password":"76120efb-4d66-4e35-9ca7-e46ad5b767d0","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"🇸🇬+新加坡08","type":"trojan","server":"sg8.microsoft-orgwly.vip","port":11035,"udp":true,"password":"76120efb-4d66-4e35-9ca7-e46ad5b767d0","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"🇸🇬+新加坡10","type":"trojan","server":"sg10.microsoft-orgwly.vip","port":443,"udp":true,"password":"76120efb-4d66-4e35-9ca7-e46ad5b767d0","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"🇸🇬+新加坡12","type":"trojan","server":"sg12.microsoft-orgwly.vip","port":16786,"udp":true,"password":"76120efb-4d66-4e35-9ca7-e46ad5b767d0","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"🇹🇼+台湾03","type":"trojan","server":"tw3.microsoft-orgwly.vip","port":80,"udp":true,"password":"76120efb-4d66-4e35-9ca7-e46ad5b767d0","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"🇺🇸+美国05","type":"trojan","server":"us5.microsoft-orgwly.vip","port":12087,"udp":true,"password":"76120efb-4d66-4e35-9ca7-e46ad5b767d0","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"韩国+01","type":"ss","server":"2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top","port":40827,"password":"3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"韩国+02","type":"ss","server":"2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top","port":49388,"password":"3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"加拿大+01","type":"ss","server":"2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top","port":30997,"password":"3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"旧金山+01","type":"ss","server":"2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top","port":13580,"password":"3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"旧金山+02","type":"ss","server":"2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top","port":33145,"password":"3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"洛杉矶+02","type":"ss","server":"2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top","port":42163,"password":"3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国+01","type":"ss","server":"2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top","port":31616,"password":"3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"免费梯子https://t.me/mftizi","type":"vmess","server":"jp3.d4995a2eb9b2.sanfen004.me","port":443,"cipher":"auto","uuid":"7262cf44-a587-401a-9cd3-a87e2ce8f04e","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"jp1.sanfen004.me","network":"tcp"}
-  - {"name":"日本+03","type":"ss","server":"2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top","port":37613,"password":"3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"日本A2","type":"ss","server":"sh-dx.duaaoped.xyz","port":43153,"password":"adc570f1-d591-4a5a-93f0-0013bba3f116","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"剩余流量：91.76+GB","type":"ss","server":"2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top","port":16156,"password":"3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港+01","type":"ss","server":"2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top","port":33590,"password":"3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港B3","type":"ss","server":"hz-dx.duaaoped.xyz","port":46177,"password":"adc570f1-d591-4a5a-93f0-0013bba3f116","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新加坡+01","type":"ss","server":"2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top","port":24034,"password":"3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新加坡+02","type":"ss","server":"2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top","port":10969,"password":"3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新加坡+03","type":"ss","server":"2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top","port":39459,"password":"3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新加坡+05","type":"ss","server":"2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top","port":48698,"password":"3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新加坡A1","type":"ss","server":"sh-dx.duaaoped.xyz","port":42953,"password":"adc570f1-d591-4a5a-93f0-0013bba3f116","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"新加坡A2","type":"ss","server":"hz-dx.duaaoped.xyz","port":39433,"password":"adc570f1-d591-4a5a-93f0-0013bba3f116","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"印度+01","type":"ss","server":"2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top","port":16790,"password":"3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"英国+01","type":"ss","server":"2ce9e9be27040dc8f6f40ed966c687ebf706c308.zjcu1.lele233.top","port":36381,"password":"3fa4e2db-df4a-4df1-9f4b-f1caf3858ec6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬SG-13.214.27.15-12853","type":"trojan","server":"13.214.27.15","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-165.154.253.42-0110","type":"trojan","server":"165.154.253.42","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true}
+  - {"name":"🇹🇼TW-165.154.227.239-14219","type":"trojan","server":"165.154.227.239","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true}
+  - {"name":"🇹🇼TW-165.154.243.40-14224","type":"trojan","server":"165.154.243.40","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true}
+  - {"name":"香港4","type":"ss","server":"zjcm.v-too.cloud","port":40480,"password":"70243271-1352-495e-9fd1-db415a298965","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - '[v1]+香港・01'
       - '[v1]+香港・03'
-      - '[v1]+香港・04'
-      - '[v1]+香港・05'
-      - 11+tg电报群@xhj1006
-      - 9+tg电报群@xhj1006_1
-      - 9+tg电报群@xhj1006_2
-      - Relay_🇨🇳CN-🇯🇵JP_67+|13.66Mb
-      - 🇨🇦+加拿大01
-      - 🇨🇳 TW2 夏洛特
-      - 🇮🇳+印度01
-      - 🇯🇵 JP5 良民のFakeIPLC
-      - 🇯🇵+JP7+桜岛麻衣
+      - '[v1]+香港・09'
+      - '[v3]+美国・02'
+      - '[v3]+日本・03'
+      - '[v3]+香港・01'
+      - '[v3]+香港・03'
+      - '[v3]+香港・06'
+      - '[v3]+香港・08'
+      - '[v3]+香港・10'
+      - '[v3]+新加坡・02'
+      - '[v3]+新加坡・04'
+      - _NL_荷兰_1_0@3
+      - _NL_荷兰_6_0@8
+      - _NL_荷兰_7_0@9
+      - _NL_荷兰_8_0@10
+      - _SG_新加坡_2_4@30
+      - Alien
+      - Pool__14+|+5.76Mb
+      - US_269
+      - 🇨🇳+此订阅到期时间为5月25日
+      - 🇨🇳CN-112.15.45.154-1746
+      - 🇯🇵JP-150.230.98.87-1025
+      - 🇯🇵JP-43.206.152.124-0196
       - 🇯🇵日本03{流媒体优化|GPT}{1x}
-      - 🇵🇭菲律宾01{1x}
-      - 🇸🇬+新加坡|推荐|流媒体V2
-      - 🇸🇬+新加坡|推荐1|流媒体GPT
-      - 🇸🇬+新加坡|推荐2|流媒体GPT
-      - 🇸🇬+新加坡08
-      - 🇸🇬+新加坡10
-      - 🇸🇬+新加坡12
-      - 🇹🇼+台湾03
-      - 🇺🇸+美国05
-      - 韩国+01
-      - 韩国+02
-      - 加拿大+01
-      - 旧金山+01
-      - 旧金山+02
-      - 洛杉矶+02
-      - 美国+01
-      - 免费梯子https://t.me/mftizi
-      - 日本+03
-      - 日本A2
-      - 剩余流量：91.76+GB
-      - 香港+01
-      - 香港B3
-      - 新加坡+01
-      - 新加坡+02
-      - 新加坡+03
-      - 新加坡+05
-      - 新加坡A1
-      - 新加坡A2
-      - 印度+01
-      - 英国+01
+      - 🇸🇬SG-13.214.27.15-12853
+      - 🇸🇬SG-165.154.253.42-0110
+      - 🇹🇼TW-165.154.227.239-14219
+      - 🇹🇼TW-165.154.243.40-14224
+      - 香港4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - '[v1]+香港・01'
       - '[v1]+香港・03'
-      - '[v1]+香港・04'
-      - '[v1]+香港・05'
-      - 11+tg电报群@xhj1006
-      - 9+tg电报群@xhj1006_1
-      - 9+tg电报群@xhj1006_2
-      - Relay_🇨🇳CN-🇯🇵JP_67+|13.66Mb
-      - 🇨🇦+加拿大01
-      - 🇨🇳 TW2 夏洛特
-      - 🇮🇳+印度01
-      - 🇯🇵 JP5 良民のFakeIPLC
-      - 🇯🇵+JP7+桜岛麻衣
+      - '[v1]+香港・09'
+      - '[v3]+美国・02'
+      - '[v3]+日本・03'
+      - '[v3]+香港・01'
+      - '[v3]+香港・03'
+      - '[v3]+香港・06'
+      - '[v3]+香港・08'
+      - '[v3]+香港・10'
+      - '[v3]+新加坡・02'
+      - '[v3]+新加坡・04'
+      - _NL_荷兰_1_0@3
+      - _NL_荷兰_6_0@8
+      - _NL_荷兰_7_0@9
+      - _NL_荷兰_8_0@10
+      - _SG_新加坡_2_4@30
+      - Alien
+      - Pool__14+|+5.76Mb
+      - US_269
+      - 🇨🇳+此订阅到期时间为5月25日
+      - 🇨🇳CN-112.15.45.154-1746
+      - 🇯🇵JP-150.230.98.87-1025
+      - 🇯🇵JP-43.206.152.124-0196
       - 🇯🇵日本03{流媒体优化|GPT}{1x}
-      - 🇵🇭菲律宾01{1x}
-      - 🇸🇬+新加坡|推荐|流媒体V2
-      - 🇸🇬+新加坡|推荐1|流媒体GPT
-      - 🇸🇬+新加坡|推荐2|流媒体GPT
-      - 🇸🇬+新加坡08
-      - 🇸🇬+新加坡10
-      - 🇸🇬+新加坡12
-      - 🇹🇼+台湾03
-      - 🇺🇸+美国05
-      - 韩国+01
-      - 韩国+02
-      - 加拿大+01
-      - 旧金山+01
-      - 旧金山+02
-      - 洛杉矶+02
-      - 美国+01
-      - 免费梯子https://t.me/mftizi
-      - 日本+03
-      - 日本A2
-      - 剩余流量：91.76+GB
-      - 香港+01
-      - 香港B3
-      - 新加坡+01
-      - 新加坡+02
-      - 新加坡+03
-      - 新加坡+05
-      - 新加坡A1
-      - 新加坡A2
-      - 印度+01
-      - 英国+01
+      - 🇸🇬SG-13.214.27.15-12853
+      - 🇸🇬SG-165.154.253.42-0110
+      - 🇹🇼TW-165.154.227.239-14219
+      - 🇹🇼TW-165.154.243.40-14224
+      - 香港4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - '[v1]+香港・01'
       - '[v1]+香港・03'
-      - '[v1]+香港・04'
-      - '[v1]+香港・05'
-      - 11+tg电报群@xhj1006
-      - 9+tg电报群@xhj1006_1
-      - 9+tg电报群@xhj1006_2
-      - Relay_🇨🇳CN-🇯🇵JP_67+|13.66Mb
-      - 🇨🇦+加拿大01
-      - 🇨🇳 TW2 夏洛特
-      - 🇮🇳+印度01
-      - 🇯🇵 JP5 良民のFakeIPLC
-      - 🇯🇵+JP7+桜岛麻衣
+      - '[v1]+香港・09'
+      - '[v3]+美国・02'
+      - '[v3]+日本・03'
+      - '[v3]+香港・01'
+      - '[v3]+香港・03'
+      - '[v3]+香港・06'
+      - '[v3]+香港・08'
+      - '[v3]+香港・10'
+      - '[v3]+新加坡・02'
+      - '[v3]+新加坡・04'
+      - _NL_荷兰_1_0@3
+      - _NL_荷兰_6_0@8
+      - _NL_荷兰_7_0@9
+      - _NL_荷兰_8_0@10
+      - _SG_新加坡_2_4@30
+      - Alien
+      - Pool__14+|+5.76Mb
+      - US_269
+      - 🇨🇳+此订阅到期时间为5月25日
+      - 🇨🇳CN-112.15.45.154-1746
+      - 🇯🇵JP-150.230.98.87-1025
+      - 🇯🇵JP-43.206.152.124-0196
       - 🇯🇵日本03{流媒体优化|GPT}{1x}
-      - 🇵🇭菲律宾01{1x}
-      - 🇸🇬+新加坡|推荐|流媒体V2
-      - 🇸🇬+新加坡|推荐1|流媒体GPT
-      - 🇸🇬+新加坡|推荐2|流媒体GPT
-      - 🇸🇬+新加坡08
-      - 🇸🇬+新加坡10
-      - 🇸🇬+新加坡12
-      - 🇹🇼+台湾03
-      - 🇺🇸+美国05
-      - 韩国+01
-      - 韩国+02
-      - 加拿大+01
-      - 旧金山+01
-      - 旧金山+02
-      - 洛杉矶+02
-      - 美国+01
-      - 免费梯子https://t.me/mftizi
-      - 日本+03
-      - 日本A2
-      - 剩余流量：91.76+GB
-      - 香港+01
-      - 香港B3
-      - 新加坡+01
-      - 新加坡+02
-      - 新加坡+03
-      - 新加坡+05
-      - 新加坡A1
-      - 新加坡A2
-      - 印度+01
-      - 英国+01
+      - 🇸🇬SG-13.214.27.15-12853
+      - 🇸🇬SG-165.154.253.42-0110
+      - 🇹🇼TW-165.154.227.239-14219
+      - 🇹🇼TW-165.154.243.40-14224
+      - 香港4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - '[v1]+香港・01'
       - '[v1]+香港・03'
-      - '[v1]+香港・04'
-      - '[v1]+香港・05'
-      - 11+tg电报群@xhj1006
-      - 9+tg电报群@xhj1006_1
-      - 9+tg电报群@xhj1006_2
-      - Relay_🇨🇳CN-🇯🇵JP_67+|13.66Mb
-      - 🇨🇦+加拿大01
-      - 🇨🇳 TW2 夏洛特
-      - 🇮🇳+印度01
-      - 🇯🇵 JP5 良民のFakeIPLC
-      - 🇯🇵+JP7+桜岛麻衣
+      - '[v1]+香港・09'
+      - '[v3]+美国・02'
+      - '[v3]+日本・03'
+      - '[v3]+香港・01'
+      - '[v3]+香港・03'
+      - '[v3]+香港・06'
+      - '[v3]+香港・08'
+      - '[v3]+香港・10'
+      - '[v3]+新加坡・02'
+      - '[v3]+新加坡・04'
+      - _NL_荷兰_1_0@3
+      - _NL_荷兰_6_0@8
+      - _NL_荷兰_7_0@9
+      - _NL_荷兰_8_0@10
+      - _SG_新加坡_2_4@30
+      - Alien
+      - Pool__14+|+5.76Mb
+      - US_269
+      - 🇨🇳+此订阅到期时间为5月25日
+      - 🇨🇳CN-112.15.45.154-1746
+      - 🇯🇵JP-150.230.98.87-1025
+      - 🇯🇵JP-43.206.152.124-0196
       - 🇯🇵日本03{流媒体优化|GPT}{1x}
-      - 🇵🇭菲律宾01{1x}
-      - 🇸🇬+新加坡|推荐|流媒体V2
-      - 🇸🇬+新加坡|推荐1|流媒体GPT
-      - 🇸🇬+新加坡|推荐2|流媒体GPT
-      - 🇸🇬+新加坡08
-      - 🇸🇬+新加坡10
-      - 🇸🇬+新加坡12
-      - 🇹🇼+台湾03
-      - 🇺🇸+美国05
-      - 韩国+01
-      - 韩国+02
-      - 加拿大+01
-      - 旧金山+01
-      - 旧金山+02
-      - 洛杉矶+02
-      - 美国+01
-      - 免费梯子https://t.me/mftizi
-      - 日本+03
-      - 日本A2
-      - 剩余流量：91.76+GB
-      - 香港+01
-      - 香港B3
-      - 新加坡+01
-      - 新加坡+02
-      - 新加坡+03
-      - 新加坡+05
-      - 新加坡A1
-      - 新加坡A2
-      - 印度+01
-      - 英国+01
+      - 🇸🇬SG-13.214.27.15-12853
+      - 🇸🇬SG-165.154.253.42-0110
+      - 🇹🇼TW-165.154.227.239-14219
+      - 🇹🇼TW-165.154.243.40-14224
+      - 香港4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - '[v1]+香港・01'
       - '[v1]+香港・03'
-      - '[v1]+香港・04'
-      - '[v1]+香港・05'
-      - 11+tg电报群@xhj1006
-      - 9+tg电报群@xhj1006_1
-      - 9+tg电报群@xhj1006_2
-      - Relay_🇨🇳CN-🇯🇵JP_67+|13.66Mb
-      - 🇨🇦+加拿大01
-      - 🇨🇳 TW2 夏洛特
-      - 🇮🇳+印度01
-      - 🇯🇵 JP5 良民のFakeIPLC
-      - 🇯🇵+JP7+桜岛麻衣
+      - '[v1]+香港・09'
+      - '[v3]+美国・02'
+      - '[v3]+日本・03'
+      - '[v3]+香港・01'
+      - '[v3]+香港・03'
+      - '[v3]+香港・06'
+      - '[v3]+香港・08'
+      - '[v3]+香港・10'
+      - '[v3]+新加坡・02'
+      - '[v3]+新加坡・04'
+      - _NL_荷兰_1_0@3
+      - _NL_荷兰_6_0@8
+      - _NL_荷兰_7_0@9
+      - _NL_荷兰_8_0@10
+      - _SG_新加坡_2_4@30
+      - Alien
+      - Pool__14+|+5.76Mb
+      - US_269
+      - 🇨🇳+此订阅到期时间为5月25日
+      - 🇨🇳CN-112.15.45.154-1746
+      - 🇯🇵JP-150.230.98.87-1025
+      - 🇯🇵JP-43.206.152.124-0196
       - 🇯🇵日本03{流媒体优化|GPT}{1x}
-      - 🇵🇭菲律宾01{1x}
-      - 🇸🇬+新加坡|推荐|流媒体V2
-      - 🇸🇬+新加坡|推荐1|流媒体GPT
-      - 🇸🇬+新加坡|推荐2|流媒体GPT
-      - 🇸🇬+新加坡08
-      - 🇸🇬+新加坡10
-      - 🇸🇬+新加坡12
-      - 🇹🇼+台湾03
-      - 🇺🇸+美国05
-      - 韩国+01
-      - 韩国+02
-      - 加拿大+01
-      - 旧金山+01
-      - 旧金山+02
-      - 洛杉矶+02
-      - 美国+01
-      - 免费梯子https://t.me/mftizi
-      - 日本+03
-      - 日本A2
-      - 剩余流量：91.76+GB
-      - 香港+01
-      - 香港B3
-      - 新加坡+01
-      - 新加坡+02
-      - 新加坡+03
-      - 新加坡+05
-      - 新加坡A1
-      - 新加坡A2
-      - 印度+01
-      - 英国+01
+      - 🇸🇬SG-13.214.27.15-12853
+      - 🇸🇬SG-165.154.253.42-0110
+      - 🇹🇼TW-165.154.227.239-14219
+      - 🇹🇼TW-165.154.243.40-14224
+      - 香港4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - '[v1]+香港・01'
       - '[v1]+香港・03'
-      - '[v1]+香港・04'
-      - '[v1]+香港・05'
-      - 11+tg电报群@xhj1006
-      - 9+tg电报群@xhj1006_1
-      - 9+tg电报群@xhj1006_2
-      - Relay_🇨🇳CN-🇯🇵JP_67+|13.66Mb
-      - 🇨🇦+加拿大01
-      - 🇨🇳 TW2 夏洛特
-      - 🇮🇳+印度01
-      - 🇯🇵 JP5 良民のFakeIPLC
-      - 🇯🇵+JP7+桜岛麻衣
+      - '[v1]+香港・09'
+      - '[v3]+美国・02'
+      - '[v3]+日本・03'
+      - '[v3]+香港・01'
+      - '[v3]+香港・03'
+      - '[v3]+香港・06'
+      - '[v3]+香港・08'
+      - '[v3]+香港・10'
+      - '[v3]+新加坡・02'
+      - '[v3]+新加坡・04'
+      - _NL_荷兰_1_0@3
+      - _NL_荷兰_6_0@8
+      - _NL_荷兰_7_0@9
+      - _NL_荷兰_8_0@10
+      - _SG_新加坡_2_4@30
+      - Alien
+      - Pool__14+|+5.76Mb
+      - US_269
+      - 🇨🇳+此订阅到期时间为5月25日
+      - 🇨🇳CN-112.15.45.154-1746
+      - 🇯🇵JP-150.230.98.87-1025
+      - 🇯🇵JP-43.206.152.124-0196
       - 🇯🇵日本03{流媒体优化|GPT}{1x}
-      - 🇵🇭菲律宾01{1x}
-      - 🇸🇬+新加坡|推荐|流媒体V2
-      - 🇸🇬+新加坡|推荐1|流媒体GPT
-      - 🇸🇬+新加坡|推荐2|流媒体GPT
-      - 🇸🇬+新加坡08
-      - 🇸🇬+新加坡10
-      - 🇸🇬+新加坡12
-      - 🇹🇼+台湾03
-      - 🇺🇸+美国05
-      - 韩国+01
-      - 韩国+02
-      - 加拿大+01
-      - 旧金山+01
-      - 旧金山+02
-      - 洛杉矶+02
-      - 美国+01
-      - 免费梯子https://t.me/mftizi
-      - 日本+03
-      - 日本A2
-      - 剩余流量：91.76+GB
-      - 香港+01
-      - 香港B3
-      - 新加坡+01
-      - 新加坡+02
-      - 新加坡+03
-      - 新加坡+05
-      - 新加坡A1
-      - 新加坡A2
-      - 印度+01
-      - 英国+01
+      - 🇸🇬SG-13.214.27.15-12853
+      - 🇸🇬SG-165.154.253.42-0110
+      - 🇹🇼TW-165.154.227.239-14219
+      - 🇹🇼TW-165.154.243.40-14224
+      - 香港4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -377,49 +286,36 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - '[v1]+香港・01'
       - '[v1]+香港・03'
-      - '[v1]+香港・04'
-      - '[v1]+香港・05'
-      - 11+tg电报群@xhj1006
-      - 9+tg电报群@xhj1006_1
-      - 9+tg电报群@xhj1006_2
-      - Relay_🇨🇳CN-🇯🇵JP_67+|13.66Mb
-      - 🇨🇦+加拿大01
-      - 🇨🇳 TW2 夏洛特
-      - 🇮🇳+印度01
-      - 🇯🇵 JP5 良民のFakeIPLC
-      - 🇯🇵+JP7+桜岛麻衣
+      - '[v1]+香港・09'
+      - '[v3]+美国・02'
+      - '[v3]+日本・03'
+      - '[v3]+香港・01'
+      - '[v3]+香港・03'
+      - '[v3]+香港・06'
+      - '[v3]+香港・08'
+      - '[v3]+香港・10'
+      - '[v3]+新加坡・02'
+      - '[v3]+新加坡・04'
+      - _NL_荷兰_1_0@3
+      - _NL_荷兰_6_0@8
+      - _NL_荷兰_7_0@9
+      - _NL_荷兰_8_0@10
+      - _SG_新加坡_2_4@30
+      - Alien
+      - Pool__14+|+5.76Mb
+      - US_269
+      - 🇨🇳+此订阅到期时间为5月25日
+      - 🇨🇳CN-112.15.45.154-1746
+      - 🇯🇵JP-150.230.98.87-1025
+      - 🇯🇵JP-43.206.152.124-0196
       - 🇯🇵日本03{流媒体优化|GPT}{1x}
-      - 🇵🇭菲律宾01{1x}
-      - 🇸🇬+新加坡|推荐|流媒体V2
-      - 🇸🇬+新加坡|推荐1|流媒体GPT
-      - 🇸🇬+新加坡|推荐2|流媒体GPT
-      - 🇸🇬+新加坡08
-      - 🇸🇬+新加坡10
-      - 🇸🇬+新加坡12
-      - 🇹🇼+台湾03
-      - 🇺🇸+美国05
-      - 韩国+01
-      - 韩国+02
-      - 加拿大+01
-      - 旧金山+01
-      - 旧金山+02
-      - 洛杉矶+02
-      - 美国+01
-      - 免费梯子https://t.me/mftizi
-      - 日本+03
-      - 日本A2
-      - 剩余流量：91.76+GB
-      - 香港+01
-      - 香港B3
-      - 新加坡+01
-      - 新加坡+02
-      - 新加坡+03
-      - 新加坡+05
-      - 新加坡A1
-      - 新加坡A2
-      - 印度+01
-      - 英国+01
+      - 🇸🇬SG-13.214.27.15-12853
+      - 🇸🇬SG-165.154.253.42-0110
+      - 🇹🇼TW-165.154.227.239-14219
+      - 🇹🇼TW-165.154.243.40-14224
+      - 香港4
 
 rules:
 # 本地/局域网地址
