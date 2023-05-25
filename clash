@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-24 09:26:07
+# 创建时间：2023-05-25 09:27:29
 # 使用模版：V2RaySE 默认模版
-# 节点数量：81
+# 节点数量：35
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,606 +21,284 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"[v1]+香港・01","type":"ss","server":"yd-01.paofunlink.com","port":5980,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"[v1]+香港・02","type":"ss","server":"yd-01.paofunlink.com","port":5981,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"[v1]+香港・03","type":"ss","server":"yd-01.paofunlink.com","port":5982,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"[v1]+香港・04","type":"ss","server":"yd-06.paofunlink.com","port":5983,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"[v1]+香港・05","type":"ss","server":"yd-06.paofunlink.com","port":5984,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"[v1]+香港・06","type":"ss","server":"yd-06.paofunlink.com","port":5985,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"|72.81Mb","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"cd39f62aed7b90f6","skip-cert-verify":true}
-  - {"name":"2电报群搜索xhj1006来进群","type":"vmess","server":"jscm.r1u.cn","port":16032,"cipher":"auto","uuid":"a7b8f94f-920d-4042-a154-b3ec68995259","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"4+tg电报群@xhj1006","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"984bd5e3-565e-4f91-ab8d-3e4ea3bad32b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/jsjc/jp1","headers":{"host":"jp1.jsjc.sbs"}}}
-  - {"name":"6电报群搜索xhj1006来进群","type":"vmess","server":"linjp1.zhoushuren.me","port":58850,"cipher":"auto","uuid":"5dbf8335-0b0b-4dc8-93cb-c7e3fea8d2b0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ndy58850","headers":{"host":"linjp1.zhoushuren.me"}}}
-  - {"name":"9电报群搜索xhj1006来进群_1","type":"trojan","server":"sg1.microsoft-orgwly.vip","port":443,"udp":true,"password":"014964f2-3b17-4846-ba36-f4786d42ec3e","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"9电报群搜索xhj1006来进群_2","type":"trojan","server":"hk11.microsoft-orgwly.vip","port":80,"udp":true,"password":"46c4706d-3531-47ba-98c8-af75e5ba574e","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"9电报群搜索xhj1006来进群_3","type":"trojan","server":"hk8.microsoft-orgwly.vip","port":80,"udp":true,"password":"46c4706d-3531-47ba-98c8-af75e5ba574e","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"AU_20+|+9.91Mb","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"298a5185-2019-46a6-bc2a-42fe3ddbe876","skip-cert-verify":true}
-  - {"name":"JP_143","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"64df0a67-97aa-4140-9643-d1d4cceae6ef","skip-cert-verify":true}
-  - {"name":"JP_146","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"514b8c92-12da-4219-b06c-56ecc67dfa23","skip-cert-verify":true}
-  - {"name":"US_545+|19.69Mb","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"ed19b239-8e49-4b82-979a-24b84fa7b173","skip-cert-verify":true}
-  - {"name":"ZZ_571+|19.99Mb","type":"trojan","server":"103.169.7.11","port":80,"udp":true,"password":"c0d9da22-2569-4bed-a395-607d9e7ae687","skip-cert-verify":true}
-  - {"name":"🇨🇦CA-170.187.182.212-1443","type":"trojan","server":"170.187.182.212","port":443,"udp":true,"password":"a1e12464-9208-4583-bd21-ab6889fdd242","skip-cert-verify":true}
-  - {"name":"🇨🇦CA-51.161.118.38-1335","type":"trojan","server":"51.161.118.38","port":443,"udp":true,"password":"Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHIXlCd1BXSDNWYW8","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.162.172.26-3472","type":"trojan","server":"2d1t5w01.mcfront.xyz","port":31301,"udp":true,"password":"ef4e8429-0552-49bc-ac68-05569940de93","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.162.172.26-3486","type":"trojan","server":"2d1t5w01.mcfront.xyz","port":31301,"udp":true,"password":"5425165b-0785-41f8-976f-63aa6e3921f5","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.162.172.26-3836","type":"trojan","server":"5m4h0k01.mcfront.xyz","port":31301,"udp":true,"password":"1a654941-cc92-4e6d-9962-6f6fa97fc162","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.162.172.26-3837","type":"trojan","server":"5m4h0k01.mcfront.xyz","port":31306,"udp":true,"password":"1a654941-cc92-4e6d-9962-6f6fa97fc162","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.162.172.26-3838","type":"trojan","server":"5m4h0k01.mcfront.xyz","port":31801,"udp":true,"password":"1a654941-cc92-4e6d-9962-6f6fa97fc162","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.162.172.26-3949","type":"trojan","server":"8t6w01.abzoones.xyz","port":36301,"udp":true,"password":"e2139bcf-e7bd-4567-9130-0d3b164bd8fa","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.162.172.26-3982","type":"trojan","server":"8t6w01.abzoones.xyz","port":36301,"udp":true,"password":"d0589cee-da10-4f30-aa29-5e44e0520f8e","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.162.172.26-4021","type":"trojan","server":"8t6w01.abzoones.xyz","port":36301,"udp":true,"password":"2c39443b-2343-4151-acd6-9e1c5743d271","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.163.29.150-11672","type":"trojan","server":"116.163.29.150","port":50020,"udp":true,"password":"be3f4300-d75d-4585-9b94-d1bff193f583","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.163.29.150-11673","type":"trojan","server":"116.163.29.150","port":50022,"udp":true,"password":"be3f4300-d75d-4585-9b94-d1bff193f583","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.163.29.150-11674","type":"trojan","server":"116.163.29.150","port":50026,"udp":true,"password":"be3f4300-d75d-4585-9b94-d1bff193f583","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.163.29.150-11675","type":"trojan","server":"116.163.29.150","port":50066,"udp":true,"password":"be3f4300-d75d-4585-9b94-d1bff193f583","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.163.29.150-11676","type":"trojan","server":"116.163.29.150","port":50006,"udp":true,"password":"be3f4300-d75d-4585-9b94-d1bff193f583","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.163.29.150-11677","type":"trojan","server":"116.163.29.150","port":50004,"udp":true,"password":"be3f4300-d75d-4585-9b94-d1bff193f583","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.163.29.150-11682","type":"trojan","server":"116.163.29.150","port":50050,"udp":true,"password":"be3f4300-d75d-4585-9b94-d1bff193f583","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.163.29.150-11687","type":"trojan","server":"116.163.29.150","port":50038,"udp":true,"password":"be3f4300-d75d-4585-9b94-d1bff193f583","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.163.29.150-11689","type":"trojan","server":"116.163.29.150","port":50052,"udp":true,"password":"be3f4300-d75d-4585-9b94-d1bff193f583","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.163.45.179-11678","type":"trojan","server":"116.163.45.179","port":50048,"udp":true,"password":"be3f4300-d75d-4585-9b94-d1bff193f583","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.163.45.179-11679","type":"trojan","server":"116.163.45.179","port":50002,"udp":true,"password":"be3f4300-d75d-4585-9b94-d1bff193f583","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.163.45.179-11684","type":"trojan","server":"116.163.45.179","port":50040,"udp":true,"password":"be3f4300-d75d-4585-9b94-d1bff193f583","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.163.45.179-11685","type":"trojan","server":"116.163.45.179","port":50036,"udp":true,"password":"be3f4300-d75d-4585-9b94-d1bff193f583","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.163.45.179-11686","type":"trojan","server":"116.163.45.179","port":50038,"udp":true,"password":"be3f4300-d75d-4585-9b94-d1bff193f583","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-182.151.34.81-5895","type":"trojan","server":"20005.purefast2.com","port":20005,"udp":true,"password":"ed3ccb1e-7057-3d40-b794-630ef18fb7d2","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-47.93.231.218-13537","type":"vmess","server":"47.93.231.218","port":53022,"cipher":"auto","uuid":"95fd7642-2160-4528-e909-3d526b533013","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇬🇧GB-23.106.33.156-1452","type":"trojan","server":"scottie.golfland.club","port":443,"udp":true,"password":"ZVqSTHcLasKIKGnzjnr8aHRPATiaTj5U","skip-cert-verify":true}
-  - {"name":"🇭🇰HK-45.11.104.94-6240","type":"trojan","server":"45.11.104.94","port":3389,"udp":true,"password":"d4e41ff772c7fd45","sni":"sbank.ir","skip-cert-verify":true}
-  - {"name":"🇭🇰HK-47.242.63.176-13110","type":"trojan","server":"805hk.ok365.cyou","port":443,"udp":true,"password":"91ef9bbb-25d9-4593-9f9e-d17e713f5aad","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-132.226.5.246-11405","type":"trojan","server":"132.226.5.246","port":443,"udp":true,"password":"4f7dc540-d244-4e64-af21-4b5bb300add3","sni":"www.tokyo2023.ga","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-133.167.100.203-6205","type":"trojan","server":"133.167.100.203","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-133.167.100.203-6321","type":"trojan","server":"official.tokyometropolis.kyiv.ua","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-150.230.201.192-11444","type":"trojan","server":"150.230.201.192","port":443,"udp":true,"password":"f42e1a2e-e650-44f4-8d17-bcb68663da18","sni":"www.seetheworldjp.ga","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-153.121.74.146-6558","type":"trojan","server":"153.121.74.146","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-160.16.105.108-6275","type":"trojan","server":"official.tokyometropolis.ivano-frankivsk.ua","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-160.16.145.107-6245","type":"trojan","server":"160.16.145.107","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-20.210.208.68-0810","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"fc77cc6a-9a1b-435a-b983-0922f05bd2c4","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-20.210.208.68-1386","type":"trojan","server":"fscuk.fscloud123456789.com","port":443,"udp":true,"password":"eb80128b-aa4d-4741-a87f-62ab98f01157","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-20.210.208.68-2057","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"2c7cccd3-8de4-4f47-8fd6-b787e42ca4a2","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-49.212.221.47-6079","type":"trojan","server":"49.212.221.47","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇯🇵日本东京","type":"vmess","server":"downloadvip.cfd","port":443,"cipher":"auto","uuid":"7351ae6b-3da3-4263-a725-8ac5d9dd2b49","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/jsjc/jp1","headers":{"host":"jp1.jsjc.sbs"}}}
-  - {"name":"🇰🇷KR-146.56.189.146-6520","type":"trojan","server":"146.56.189.146","port":443,"udp":true,"password":"f2117e99-9b6e-47fd-b0a9-634a0b15b998","skip-cert-verify":true}
-  - {"name":"🇷🇺RU-91.206.92.17-8359","type":"trojan","server":"insaneguo2333.top","port":443,"udp":true,"password":"1d0a80ca-0f96-4016-ac51-c284dedd28a1","skip-cert-verify":true}
-  - {"name":"🇸🇬SG-172.105.120.73-1397","type":"trojan","server":"w11.udpgw.com","port":443,"udp":true,"password":"f64e69c0-e7b7-11ec-ab81-1239d0255272","skip-cert-verify":true}
-  - {"name":"🇸🇬SG-5.44.249.43-4066","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"6f0a9d0fa39d65fa","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-165.154.226.87-2388","type":"trojan","server":"165.154.226.87","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-211.72.35.152-7101","type":"trojan","server":"211.72.35.152","port":3389,"udp":true,"password":"7b06d22a8a7c764f","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-211.72.35.154-6239","type":"trojan","server":"211.72.35.154","port":3389,"udp":true,"password":"7b06d22a8a7c764f","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-211.72.35.157-6058","type":"trojan","server":"211.72.35.157","port":3389,"udp":true,"password":"8b475d9e868e43e0","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-211.72.35.158-6100","type":"trojan","server":"211.72.35.158","port":3389,"udp":true,"password":"7b06d22a8a7c764f","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-60.249.3.226-6251","type":"trojan","server":"60.249.3.226","port":3389,"udp":true,"password":"7ac49a893e0bd10c","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-60.249.3.227-6123","type":"trojan","server":"60.249.3.227","port":3389,"udp":true,"password":"7ac49a893e0bd10c","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-60.249.3.228-6256","type":"trojan","server":"60.249.3.228","port":3389,"udp":true,"password":"7ac49a893e0bd10c","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-60.249.3.229-6282","type":"trojan","server":"60.249.3.229","port":3389,"udp":true,"password":"182228812d1e0f23","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-60.249.3.230-6225","type":"trojan","server":"60.249.3.230","port":3389,"udp":true,"password":"182228812d1e0f23","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-60.249.3.231-6143","type":"trojan","server":"60.249.3.231","port":3389,"udp":true,"password":"0cc6b4268dea0ba8","skip-cert-verify":true}
-  - {"name":"🇺🇸US-104.233.129.82-4091","type":"vmess","server":"104.233.129.82","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/220128071100"}}
-  - {"name":"🇺🇸US-107.172.217.30-2680","type":"trojan","server":"san.ydnode.us","port":443,"udp":true,"password":"d6ed263c-3f14-44db-bfee-cfcc26b234d1","skip-cert-verify":true}
-  - {"name":"🇺🇸US-23.247.137.70-6566","type":"trojan","server":"23.247.137.70","port":3389,"udp":true,"password":"d4e41ff772c7fd45","skip-cert-verify":true}
-  - {"name":"🇻🇳VN-103.190.106.236-1228","type":"trojan","server":"vn1.microsoft-orgwly.vip","port":443,"udp":true,"password":"aef8d2c4-6ff7-4cc1-8d14-8596d3426223","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":true}
-  - {"name":"韩国-LPLC｜04","type":"ss","server":"42ec.interface.buzz","port":15227,"password":"2c4598e4-7f7d-49b1-be3f-7e035a9495db","cipher":"aes-128-gcm"}
-  - {"name":"韩国-LPLC｜05","type":"ss","server":"42ec.interface.buzz","port":15228,"password":"2c4598e4-7f7d-49b1-be3f-7e035a9495db","cipher":"aes-128-gcm"}
-  - {"name":"韩国-LPLC｜06","type":"ss","server":"42ec.interface.buzz","port":15229,"password":"2c4598e4-7f7d-49b1-be3f-7e035a9495db","cipher":"aes-128-gcm"}
+  - {"name":"新加坡1|代理商专线|1x+2","type":"ss","server":"gy.xueshao.top","port":29642,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"新加坡1|SGD|1x+B","type":"ss","server":"gy.xueshao.top","port":36331,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"新加坡05","type":"ss","server":"gy.xueshao.top","port":17307,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"新加坡04","type":"ss","server":"gy.xueshao.top","port":43231,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"新加坡01","type":"ss","server":"gy.xueshao.top","port":46661,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移绕JP","type":"ss","server":"gy.xueshao.top","port":26665,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移二区1.0x代理商专线2","type":"ss","server":"gy.xueshao.top","port":43441,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移二区1.0x代理商专线1","type":"ss","server":"gy.xueshao.top","port":26331,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移二区1.0x代理商专线","type":"ss","server":"gy.xueshao.top","port":27766,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移二区1.0x+D","type":"ss","server":"gy.xueshao.top","port":26165,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移二区1.0x+C","type":"ss","server":"gy.xueshao.top","port":43431,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移二区1.0x+B","type":"ss","server":"gy.xueshao.top","port":26731,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移二区1.0x+A","type":"ss","server":"gy.xueshao.top","port":43641,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移1.0x代理商专线3","type":"ss","server":"gy.xueshao.top","port":30559,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移1.0x代理商专线2","type":"ss","server":"gy.xueshao.top","port":11666,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移1.0x代理商专线1","type":"ss","server":"gy.xueshao.top","port":27646,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移1.0x代理商专线","type":"ss","server":"gy.xueshao.top","port":17407,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移1.0x+D","type":"ss","server":"gy.xueshao.top","port":27566,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移1.0x+C","type":"ss","server":"gy.xueshao.top","port":30659,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移1.0x+B","type":"ss","server":"gy.xueshao.top","port":27658,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移1.0x+A","type":"ss","server":"gy.xueshao.top","port":17666,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"香港IEPL|广移1.0x","type":"ss","server":"gy.xueshao.top","port":27656,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"美国|代理商专线|1.0x","type":"ss","server":"gy.xueshao.top","port":29646,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"美国|usa|1.0x+C","type":"ss","server":"gy.xueshao.top","port":46666,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"美国|usa|1.0x+A","type":"ss","server":"gy.xueshao.top","port":32529,"password":"a913f655-0690-4bed-94e4-a9230b8cfd8c","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US-38.63.0.69-3047","type":"vmess","server":"38.63.0.69","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1683955693848"}}
+  - {"name":"🇺🇸US-198.2.200.105-1301","type":"vmess","server":"198.2.200.105","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1683543024453","headers":{"host":"www.54092415.xyz"}}}
+  - {"name":"🇹🇼TW-165.154.227.239-2293","type":"trojan","server":"165.154.227.239","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true}
+  - {"name":"Relay_🇺🇸US-🇺🇸US_91+|17.23Mb","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"17f9a10a-3ff9-4cbe-ac15-108b585b1a39","skip-cert-verify":true}
+  - {"name":"Pool_+|+6.51Mb","type":"ss","server":"216.52.183.243","port":80,"password":"83XvX4Vo%*3a","cipher":"aes-128-gcm","plugin":"simple-obfs","plugin-opts":{"mode":"websocket"}}
+  - {"name":"NL_57 | 9.68Mb","type":"vmess","server":"130.162.47.123","port":6854,"cipher":"auto","uuid":"b5f7e932-f730-4ad2-b425-40977b9db332","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zBLPou","headers":{"host":"130.162.47.123"}}}
+  - {"name":"JP_142 | 9.27Mb","type":"ssr","server":"jp-am48-6.eqnode.net","port":8081,"password":"eAokbaDN6","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
+  - {"name":"|13.94Mb","type":"ss","server":"185.250.150.14","port":9029,"password":"dU3DSNS8wYPXzEKw","cipher":"aes-256-cfb"}
+  - {"name":"_NL_荷兰_5_0@7","type":"ss","server":"172.99.188.99","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"_JP_日本_1_1@3","type":"ssr","server":"jp-am48-6.eqnode.net","port":8081,"password":"eAokbaDN6","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","obfs-param":"PT09PQ======","protocol-param":"PT09PQ======","group":"SSRProvider"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - '[v1]+香港・01'
-      - '[v1]+香港・02'
-      - '[v1]+香港・03'
-      - '[v1]+香港・04'
-      - '[v1]+香港・05'
-      - '[v1]+香港・06'
-      - '|72.81Mb'
-      - 2电报群搜索xhj1006来进群
-      - 4+tg电报群@xhj1006
-      - 6电报群搜索xhj1006来进群
-      - 9电报群搜索xhj1006来进群_1
-      - 9电报群搜索xhj1006来进群_2
-      - 9电报群搜索xhj1006来进群_3
-      - AU_20+|+9.91Mb
-      - JP_143
-      - JP_146
-      - US_545+|19.69Mb
-      - ZZ_571+|19.99Mb
-      - 🇨🇦CA-170.187.182.212-1443
-      - 🇨🇦CA-51.161.118.38-1335
-      - 🇨🇳CN-116.162.172.26-3472
-      - 🇨🇳CN-116.162.172.26-3486
-      - 🇨🇳CN-116.162.172.26-3836
-      - 🇨🇳CN-116.162.172.26-3837
-      - 🇨🇳CN-116.162.172.26-3838
-      - 🇨🇳CN-116.162.172.26-3949
-      - 🇨🇳CN-116.162.172.26-3982
-      - 🇨🇳CN-116.162.172.26-4021
-      - 🇨🇳CN-116.163.29.150-11672
-      - 🇨🇳CN-116.163.29.150-11673
-      - 🇨🇳CN-116.163.29.150-11674
-      - 🇨🇳CN-116.163.29.150-11675
-      - 🇨🇳CN-116.163.29.150-11676
-      - 🇨🇳CN-116.163.29.150-11677
-      - 🇨🇳CN-116.163.29.150-11682
-      - 🇨🇳CN-116.163.29.150-11687
-      - 🇨🇳CN-116.163.29.150-11689
-      - 🇨🇳CN-116.163.45.179-11678
-      - 🇨🇳CN-116.163.45.179-11679
-      - 🇨🇳CN-116.163.45.179-11684
-      - 🇨🇳CN-116.163.45.179-11685
-      - 🇨🇳CN-116.163.45.179-11686
-      - 🇨🇳CN-182.151.34.81-5895
-      - 🇨🇳CN-47.93.231.218-13537
-      - 🇬🇧GB-23.106.33.156-1452
-      - 🇭🇰HK-45.11.104.94-6240
-      - 🇭🇰HK-47.242.63.176-13110
-      - 🇯🇵JP-132.226.5.246-11405
-      - 🇯🇵JP-133.167.100.203-6205
-      - 🇯🇵JP-133.167.100.203-6321
-      - 🇯🇵JP-150.230.201.192-11444
-      - 🇯🇵JP-153.121.74.146-6558
-      - 🇯🇵JP-160.16.105.108-6275
-      - 🇯🇵JP-160.16.145.107-6245
-      - 🇯🇵JP-20.210.208.68-0810
-      - 🇯🇵JP-20.210.208.68-1386
-      - 🇯🇵JP-20.210.208.68-2057
-      - 🇯🇵JP-49.212.221.47-6079
-      - 🇯🇵日本东京
-      - 🇰🇷KR-146.56.189.146-6520
-      - 🇷🇺RU-91.206.92.17-8359
-      - 🇸🇬SG-172.105.120.73-1397
-      - 🇸🇬SG-5.44.249.43-4066
-      - 🇹🇼TW-165.154.226.87-2388
-      - 🇹🇼TW-211.72.35.152-7101
-      - 🇹🇼TW-211.72.35.154-6239
-      - 🇹🇼TW-211.72.35.157-6058
-      - 🇹🇼TW-211.72.35.158-6100
-      - 🇹🇼TW-60.249.3.226-6251
-      - 🇹🇼TW-60.249.3.227-6123
-      - 🇹🇼TW-60.249.3.228-6256
-      - 🇹🇼TW-60.249.3.229-6282
-      - 🇹🇼TW-60.249.3.230-6225
-      - 🇹🇼TW-60.249.3.231-6143
-      - 🇺🇸US-104.233.129.82-4091
-      - 🇺🇸US-107.172.217.30-2680
-      - 🇺🇸US-23.247.137.70-6566
-      - 🇻🇳VN-103.190.106.236-1228
-      - 韩国-LPLC｜04
-      - 韩国-LPLC｜05
-      - 韩国-LPLC｜06
+      - 新加坡1|代理商专线|1x+2
+      - 新加坡1|SGD|1x+B
+      - 新加坡05
+      - 新加坡04
+      - 新加坡01
+      - 香港IEPL|广移绕JP
+      - 香港IEPL|广移二区1.0x代理商专线2
+      - 香港IEPL|广移二区1.0x代理商专线1
+      - 香港IEPL|广移二区1.0x代理商专线
+      - 香港IEPL|广移二区1.0x+D
+      - 香港IEPL|广移二区1.0x+C
+      - 香港IEPL|广移二区1.0x+B
+      - 香港IEPL|广移二区1.0x+A
+      - 香港IEPL|广移1.0x代理商专线3
+      - 香港IEPL|广移1.0x代理商专线2
+      - 香港IEPL|广移1.0x代理商专线1
+      - 香港IEPL|广移1.0x代理商专线
+      - 香港IEPL|广移1.0x+D
+      - 香港IEPL|广移1.0x+C
+      - 香港IEPL|广移1.0x+B
+      - 香港IEPL|广移1.0x+A
+      - 香港IEPL|广移1.0x
+      - 美国|代理商专线|1.0x
+      - 美国|usa|1.0x+C
+      - 美国|usa|1.0x+A
+      - 🇺🇸US-38.63.0.69-3047
+      - 🇺🇸US-198.2.200.105-1301
+      - 🇹🇼TW-165.154.227.239-2293
+      - Relay_🇺🇸US-🇺🇸US_91+|17.23Mb
+      - Pool_+|+6.51Mb
+      - NL_57 | 9.68Mb
+      - JP_142 | 9.27Mb
+      - '|13.94Mb'
+      - _NL_荷兰_5_0@7
+      - _JP_日本_1_1@3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - '[v1]+香港・01'
-      - '[v1]+香港・02'
-      - '[v1]+香港・03'
-      - '[v1]+香港・04'
-      - '[v1]+香港・05'
-      - '[v1]+香港・06'
-      - '|72.81Mb'
-      - 2电报群搜索xhj1006来进群
-      - 4+tg电报群@xhj1006
-      - 6电报群搜索xhj1006来进群
-      - 9电报群搜索xhj1006来进群_1
-      - 9电报群搜索xhj1006来进群_2
-      - 9电报群搜索xhj1006来进群_3
-      - AU_20+|+9.91Mb
-      - JP_143
-      - JP_146
-      - US_545+|19.69Mb
-      - ZZ_571+|19.99Mb
-      - 🇨🇦CA-170.187.182.212-1443
-      - 🇨🇦CA-51.161.118.38-1335
-      - 🇨🇳CN-116.162.172.26-3472
-      - 🇨🇳CN-116.162.172.26-3486
-      - 🇨🇳CN-116.162.172.26-3836
-      - 🇨🇳CN-116.162.172.26-3837
-      - 🇨🇳CN-116.162.172.26-3838
-      - 🇨🇳CN-116.162.172.26-3949
-      - 🇨🇳CN-116.162.172.26-3982
-      - 🇨🇳CN-116.162.172.26-4021
-      - 🇨🇳CN-116.163.29.150-11672
-      - 🇨🇳CN-116.163.29.150-11673
-      - 🇨🇳CN-116.163.29.150-11674
-      - 🇨🇳CN-116.163.29.150-11675
-      - 🇨🇳CN-116.163.29.150-11676
-      - 🇨🇳CN-116.163.29.150-11677
-      - 🇨🇳CN-116.163.29.150-11682
-      - 🇨🇳CN-116.163.29.150-11687
-      - 🇨🇳CN-116.163.29.150-11689
-      - 🇨🇳CN-116.163.45.179-11678
-      - 🇨🇳CN-116.163.45.179-11679
-      - 🇨🇳CN-116.163.45.179-11684
-      - 🇨🇳CN-116.163.45.179-11685
-      - 🇨🇳CN-116.163.45.179-11686
-      - 🇨🇳CN-182.151.34.81-5895
-      - 🇨🇳CN-47.93.231.218-13537
-      - 🇬🇧GB-23.106.33.156-1452
-      - 🇭🇰HK-45.11.104.94-6240
-      - 🇭🇰HK-47.242.63.176-13110
-      - 🇯🇵JP-132.226.5.246-11405
-      - 🇯🇵JP-133.167.100.203-6205
-      - 🇯🇵JP-133.167.100.203-6321
-      - 🇯🇵JP-150.230.201.192-11444
-      - 🇯🇵JP-153.121.74.146-6558
-      - 🇯🇵JP-160.16.105.108-6275
-      - 🇯🇵JP-160.16.145.107-6245
-      - 🇯🇵JP-20.210.208.68-0810
-      - 🇯🇵JP-20.210.208.68-1386
-      - 🇯🇵JP-20.210.208.68-2057
-      - 🇯🇵JP-49.212.221.47-6079
-      - 🇯🇵日本东京
-      - 🇰🇷KR-146.56.189.146-6520
-      - 🇷🇺RU-91.206.92.17-8359
-      - 🇸🇬SG-172.105.120.73-1397
-      - 🇸🇬SG-5.44.249.43-4066
-      - 🇹🇼TW-165.154.226.87-2388
-      - 🇹🇼TW-211.72.35.152-7101
-      - 🇹🇼TW-211.72.35.154-6239
-      - 🇹🇼TW-211.72.35.157-6058
-      - 🇹🇼TW-211.72.35.158-6100
-      - 🇹🇼TW-60.249.3.226-6251
-      - 🇹🇼TW-60.249.3.227-6123
-      - 🇹🇼TW-60.249.3.228-6256
-      - 🇹🇼TW-60.249.3.229-6282
-      - 🇹🇼TW-60.249.3.230-6225
-      - 🇹🇼TW-60.249.3.231-6143
-      - 🇺🇸US-104.233.129.82-4091
-      - 🇺🇸US-107.172.217.30-2680
-      - 🇺🇸US-23.247.137.70-6566
-      - 🇻🇳VN-103.190.106.236-1228
-      - 韩国-LPLC｜04
-      - 韩国-LPLC｜05
-      - 韩国-LPLC｜06
+      - 新加坡1|代理商专线|1x+2
+      - 新加坡1|SGD|1x+B
+      - 新加坡05
+      - 新加坡04
+      - 新加坡01
+      - 香港IEPL|广移绕JP
+      - 香港IEPL|广移二区1.0x代理商专线2
+      - 香港IEPL|广移二区1.0x代理商专线1
+      - 香港IEPL|广移二区1.0x代理商专线
+      - 香港IEPL|广移二区1.0x+D
+      - 香港IEPL|广移二区1.0x+C
+      - 香港IEPL|广移二区1.0x+B
+      - 香港IEPL|广移二区1.0x+A
+      - 香港IEPL|广移1.0x代理商专线3
+      - 香港IEPL|广移1.0x代理商专线2
+      - 香港IEPL|广移1.0x代理商专线1
+      - 香港IEPL|广移1.0x代理商专线
+      - 香港IEPL|广移1.0x+D
+      - 香港IEPL|广移1.0x+C
+      - 香港IEPL|广移1.0x+B
+      - 香港IEPL|广移1.0x+A
+      - 香港IEPL|广移1.0x
+      - 美国|代理商专线|1.0x
+      - 美国|usa|1.0x+C
+      - 美国|usa|1.0x+A
+      - 🇺🇸US-38.63.0.69-3047
+      - 🇺🇸US-198.2.200.105-1301
+      - 🇹🇼TW-165.154.227.239-2293
+      - Relay_🇺🇸US-🇺🇸US_91+|17.23Mb
+      - Pool_+|+6.51Mb
+      - NL_57 | 9.68Mb
+      - JP_142 | 9.27Mb
+      - '|13.94Mb'
+      - _NL_荷兰_5_0@7
+      - _JP_日本_1_1@3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - '[v1]+香港・01'
-      - '[v1]+香港・02'
-      - '[v1]+香港・03'
-      - '[v1]+香港・04'
-      - '[v1]+香港・05'
-      - '[v1]+香港・06'
-      - '|72.81Mb'
-      - 2电报群搜索xhj1006来进群
-      - 4+tg电报群@xhj1006
-      - 6电报群搜索xhj1006来进群
-      - 9电报群搜索xhj1006来进群_1
-      - 9电报群搜索xhj1006来进群_2
-      - 9电报群搜索xhj1006来进群_3
-      - AU_20+|+9.91Mb
-      - JP_143
-      - JP_146
-      - US_545+|19.69Mb
-      - ZZ_571+|19.99Mb
-      - 🇨🇦CA-170.187.182.212-1443
-      - 🇨🇦CA-51.161.118.38-1335
-      - 🇨🇳CN-116.162.172.26-3472
-      - 🇨🇳CN-116.162.172.26-3486
-      - 🇨🇳CN-116.162.172.26-3836
-      - 🇨🇳CN-116.162.172.26-3837
-      - 🇨🇳CN-116.162.172.26-3838
-      - 🇨🇳CN-116.162.172.26-3949
-      - 🇨🇳CN-116.162.172.26-3982
-      - 🇨🇳CN-116.162.172.26-4021
-      - 🇨🇳CN-116.163.29.150-11672
-      - 🇨🇳CN-116.163.29.150-11673
-      - 🇨🇳CN-116.163.29.150-11674
-      - 🇨🇳CN-116.163.29.150-11675
-      - 🇨🇳CN-116.163.29.150-11676
-      - 🇨🇳CN-116.163.29.150-11677
-      - 🇨🇳CN-116.163.29.150-11682
-      - 🇨🇳CN-116.163.29.150-11687
-      - 🇨🇳CN-116.163.29.150-11689
-      - 🇨🇳CN-116.163.45.179-11678
-      - 🇨🇳CN-116.163.45.179-11679
-      - 🇨🇳CN-116.163.45.179-11684
-      - 🇨🇳CN-116.163.45.179-11685
-      - 🇨🇳CN-116.163.45.179-11686
-      - 🇨🇳CN-182.151.34.81-5895
-      - 🇨🇳CN-47.93.231.218-13537
-      - 🇬🇧GB-23.106.33.156-1452
-      - 🇭🇰HK-45.11.104.94-6240
-      - 🇭🇰HK-47.242.63.176-13110
-      - 🇯🇵JP-132.226.5.246-11405
-      - 🇯🇵JP-133.167.100.203-6205
-      - 🇯🇵JP-133.167.100.203-6321
-      - 🇯🇵JP-150.230.201.192-11444
-      - 🇯🇵JP-153.121.74.146-6558
-      - 🇯🇵JP-160.16.105.108-6275
-      - 🇯🇵JP-160.16.145.107-6245
-      - 🇯🇵JP-20.210.208.68-0810
-      - 🇯🇵JP-20.210.208.68-1386
-      - 🇯🇵JP-20.210.208.68-2057
-      - 🇯🇵JP-49.212.221.47-6079
-      - 🇯🇵日本东京
-      - 🇰🇷KR-146.56.189.146-6520
-      - 🇷🇺RU-91.206.92.17-8359
-      - 🇸🇬SG-172.105.120.73-1397
-      - 🇸🇬SG-5.44.249.43-4066
-      - 🇹🇼TW-165.154.226.87-2388
-      - 🇹🇼TW-211.72.35.152-7101
-      - 🇹🇼TW-211.72.35.154-6239
-      - 🇹🇼TW-211.72.35.157-6058
-      - 🇹🇼TW-211.72.35.158-6100
-      - 🇹🇼TW-60.249.3.226-6251
-      - 🇹🇼TW-60.249.3.227-6123
-      - 🇹🇼TW-60.249.3.228-6256
-      - 🇹🇼TW-60.249.3.229-6282
-      - 🇹🇼TW-60.249.3.230-6225
-      - 🇹🇼TW-60.249.3.231-6143
-      - 🇺🇸US-104.233.129.82-4091
-      - 🇺🇸US-107.172.217.30-2680
-      - 🇺🇸US-23.247.137.70-6566
-      - 🇻🇳VN-103.190.106.236-1228
-      - 韩国-LPLC｜04
-      - 韩国-LPLC｜05
-      - 韩国-LPLC｜06
+      - 新加坡1|代理商专线|1x+2
+      - 新加坡1|SGD|1x+B
+      - 新加坡05
+      - 新加坡04
+      - 新加坡01
+      - 香港IEPL|广移绕JP
+      - 香港IEPL|广移二区1.0x代理商专线2
+      - 香港IEPL|广移二区1.0x代理商专线1
+      - 香港IEPL|广移二区1.0x代理商专线
+      - 香港IEPL|广移二区1.0x+D
+      - 香港IEPL|广移二区1.0x+C
+      - 香港IEPL|广移二区1.0x+B
+      - 香港IEPL|广移二区1.0x+A
+      - 香港IEPL|广移1.0x代理商专线3
+      - 香港IEPL|广移1.0x代理商专线2
+      - 香港IEPL|广移1.0x代理商专线1
+      - 香港IEPL|广移1.0x代理商专线
+      - 香港IEPL|广移1.0x+D
+      - 香港IEPL|广移1.0x+C
+      - 香港IEPL|广移1.0x+B
+      - 香港IEPL|广移1.0x+A
+      - 香港IEPL|广移1.0x
+      - 美国|代理商专线|1.0x
+      - 美国|usa|1.0x+C
+      - 美国|usa|1.0x+A
+      - 🇺🇸US-38.63.0.69-3047
+      - 🇺🇸US-198.2.200.105-1301
+      - 🇹🇼TW-165.154.227.239-2293
+      - Relay_🇺🇸US-🇺🇸US_91+|17.23Mb
+      - Pool_+|+6.51Mb
+      - NL_57 | 9.68Mb
+      - JP_142 | 9.27Mb
+      - '|13.94Mb'
+      - _NL_荷兰_5_0@7
+      - _JP_日本_1_1@3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '[v1]+香港・01'
-      - '[v1]+香港・02'
-      - '[v1]+香港・03'
-      - '[v1]+香港・04'
-      - '[v1]+香港・05'
-      - '[v1]+香港・06'
-      - '|72.81Mb'
-      - 2电报群搜索xhj1006来进群
-      - 4+tg电报群@xhj1006
-      - 6电报群搜索xhj1006来进群
-      - 9电报群搜索xhj1006来进群_1
-      - 9电报群搜索xhj1006来进群_2
-      - 9电报群搜索xhj1006来进群_3
-      - AU_20+|+9.91Mb
-      - JP_143
-      - JP_146
-      - US_545+|19.69Mb
-      - ZZ_571+|19.99Mb
-      - 🇨🇦CA-170.187.182.212-1443
-      - 🇨🇦CA-51.161.118.38-1335
-      - 🇨🇳CN-116.162.172.26-3472
-      - 🇨🇳CN-116.162.172.26-3486
-      - 🇨🇳CN-116.162.172.26-3836
-      - 🇨🇳CN-116.162.172.26-3837
-      - 🇨🇳CN-116.162.172.26-3838
-      - 🇨🇳CN-116.162.172.26-3949
-      - 🇨🇳CN-116.162.172.26-3982
-      - 🇨🇳CN-116.162.172.26-4021
-      - 🇨🇳CN-116.163.29.150-11672
-      - 🇨🇳CN-116.163.29.150-11673
-      - 🇨🇳CN-116.163.29.150-11674
-      - 🇨🇳CN-116.163.29.150-11675
-      - 🇨🇳CN-116.163.29.150-11676
-      - 🇨🇳CN-116.163.29.150-11677
-      - 🇨🇳CN-116.163.29.150-11682
-      - 🇨🇳CN-116.163.29.150-11687
-      - 🇨🇳CN-116.163.29.150-11689
-      - 🇨🇳CN-116.163.45.179-11678
-      - 🇨🇳CN-116.163.45.179-11679
-      - 🇨🇳CN-116.163.45.179-11684
-      - 🇨🇳CN-116.163.45.179-11685
-      - 🇨🇳CN-116.163.45.179-11686
-      - 🇨🇳CN-182.151.34.81-5895
-      - 🇨🇳CN-47.93.231.218-13537
-      - 🇬🇧GB-23.106.33.156-1452
-      - 🇭🇰HK-45.11.104.94-6240
-      - 🇭🇰HK-47.242.63.176-13110
-      - 🇯🇵JP-132.226.5.246-11405
-      - 🇯🇵JP-133.167.100.203-6205
-      - 🇯🇵JP-133.167.100.203-6321
-      - 🇯🇵JP-150.230.201.192-11444
-      - 🇯🇵JP-153.121.74.146-6558
-      - 🇯🇵JP-160.16.105.108-6275
-      - 🇯🇵JP-160.16.145.107-6245
-      - 🇯🇵JP-20.210.208.68-0810
-      - 🇯🇵JP-20.210.208.68-1386
-      - 🇯🇵JP-20.210.208.68-2057
-      - 🇯🇵JP-49.212.221.47-6079
-      - 🇯🇵日本东京
-      - 🇰🇷KR-146.56.189.146-6520
-      - 🇷🇺RU-91.206.92.17-8359
-      - 🇸🇬SG-172.105.120.73-1397
-      - 🇸🇬SG-5.44.249.43-4066
-      - 🇹🇼TW-165.154.226.87-2388
-      - 🇹🇼TW-211.72.35.152-7101
-      - 🇹🇼TW-211.72.35.154-6239
-      - 🇹🇼TW-211.72.35.157-6058
-      - 🇹🇼TW-211.72.35.158-6100
-      - 🇹🇼TW-60.249.3.226-6251
-      - 🇹🇼TW-60.249.3.227-6123
-      - 🇹🇼TW-60.249.3.228-6256
-      - 🇹🇼TW-60.249.3.229-6282
-      - 🇹🇼TW-60.249.3.230-6225
-      - 🇹🇼TW-60.249.3.231-6143
-      - 🇺🇸US-104.233.129.82-4091
-      - 🇺🇸US-107.172.217.30-2680
-      - 🇺🇸US-23.247.137.70-6566
-      - 🇻🇳VN-103.190.106.236-1228
-      - 韩国-LPLC｜04
-      - 韩国-LPLC｜05
-      - 韩国-LPLC｜06
+      - 新加坡1|代理商专线|1x+2
+      - 新加坡1|SGD|1x+B
+      - 新加坡05
+      - 新加坡04
+      - 新加坡01
+      - 香港IEPL|广移绕JP
+      - 香港IEPL|广移二区1.0x代理商专线2
+      - 香港IEPL|广移二区1.0x代理商专线1
+      - 香港IEPL|广移二区1.0x代理商专线
+      - 香港IEPL|广移二区1.0x+D
+      - 香港IEPL|广移二区1.0x+C
+      - 香港IEPL|广移二区1.0x+B
+      - 香港IEPL|广移二区1.0x+A
+      - 香港IEPL|广移1.0x代理商专线3
+      - 香港IEPL|广移1.0x代理商专线2
+      - 香港IEPL|广移1.0x代理商专线1
+      - 香港IEPL|广移1.0x代理商专线
+      - 香港IEPL|广移1.0x+D
+      - 香港IEPL|广移1.0x+C
+      - 香港IEPL|广移1.0x+B
+      - 香港IEPL|广移1.0x+A
+      - 香港IEPL|广移1.0x
+      - 美国|代理商专线|1.0x
+      - 美国|usa|1.0x+C
+      - 美国|usa|1.0x+A
+      - 🇺🇸US-38.63.0.69-3047
+      - 🇺🇸US-198.2.200.105-1301
+      - 🇹🇼TW-165.154.227.239-2293
+      - Relay_🇺🇸US-🇺🇸US_91+|17.23Mb
+      - Pool_+|+6.51Mb
+      - NL_57 | 9.68Mb
+      - JP_142 | 9.27Mb
+      - '|13.94Mb'
+      - _NL_荷兰_5_0@7
+      - _JP_日本_1_1@3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - '[v1]+香港・01'
-      - '[v1]+香港・02'
-      - '[v1]+香港・03'
-      - '[v1]+香港・04'
-      - '[v1]+香港・05'
-      - '[v1]+香港・06'
-      - '|72.81Mb'
-      - 2电报群搜索xhj1006来进群
-      - 4+tg电报群@xhj1006
-      - 6电报群搜索xhj1006来进群
-      - 9电报群搜索xhj1006来进群_1
-      - 9电报群搜索xhj1006来进群_2
-      - 9电报群搜索xhj1006来进群_3
-      - AU_20+|+9.91Mb
-      - JP_143
-      - JP_146
-      - US_545+|19.69Mb
-      - ZZ_571+|19.99Mb
-      - 🇨🇦CA-170.187.182.212-1443
-      - 🇨🇦CA-51.161.118.38-1335
-      - 🇨🇳CN-116.162.172.26-3472
-      - 🇨🇳CN-116.162.172.26-3486
-      - 🇨🇳CN-116.162.172.26-3836
-      - 🇨🇳CN-116.162.172.26-3837
-      - 🇨🇳CN-116.162.172.26-3838
-      - 🇨🇳CN-116.162.172.26-3949
-      - 🇨🇳CN-116.162.172.26-3982
-      - 🇨🇳CN-116.162.172.26-4021
-      - 🇨🇳CN-116.163.29.150-11672
-      - 🇨🇳CN-116.163.29.150-11673
-      - 🇨🇳CN-116.163.29.150-11674
-      - 🇨🇳CN-116.163.29.150-11675
-      - 🇨🇳CN-116.163.29.150-11676
-      - 🇨🇳CN-116.163.29.150-11677
-      - 🇨🇳CN-116.163.29.150-11682
-      - 🇨🇳CN-116.163.29.150-11687
-      - 🇨🇳CN-116.163.29.150-11689
-      - 🇨🇳CN-116.163.45.179-11678
-      - 🇨🇳CN-116.163.45.179-11679
-      - 🇨🇳CN-116.163.45.179-11684
-      - 🇨🇳CN-116.163.45.179-11685
-      - 🇨🇳CN-116.163.45.179-11686
-      - 🇨🇳CN-182.151.34.81-5895
-      - 🇨🇳CN-47.93.231.218-13537
-      - 🇬🇧GB-23.106.33.156-1452
-      - 🇭🇰HK-45.11.104.94-6240
-      - 🇭🇰HK-47.242.63.176-13110
-      - 🇯🇵JP-132.226.5.246-11405
-      - 🇯🇵JP-133.167.100.203-6205
-      - 🇯🇵JP-133.167.100.203-6321
-      - 🇯🇵JP-150.230.201.192-11444
-      - 🇯🇵JP-153.121.74.146-6558
-      - 🇯🇵JP-160.16.105.108-6275
-      - 🇯🇵JP-160.16.145.107-6245
-      - 🇯🇵JP-20.210.208.68-0810
-      - 🇯🇵JP-20.210.208.68-1386
-      - 🇯🇵JP-20.210.208.68-2057
-      - 🇯🇵JP-49.212.221.47-6079
-      - 🇯🇵日本东京
-      - 🇰🇷KR-146.56.189.146-6520
-      - 🇷🇺RU-91.206.92.17-8359
-      - 🇸🇬SG-172.105.120.73-1397
-      - 🇸🇬SG-5.44.249.43-4066
-      - 🇹🇼TW-165.154.226.87-2388
-      - 🇹🇼TW-211.72.35.152-7101
-      - 🇹🇼TW-211.72.35.154-6239
-      - 🇹🇼TW-211.72.35.157-6058
-      - 🇹🇼TW-211.72.35.158-6100
-      - 🇹🇼TW-60.249.3.226-6251
-      - 🇹🇼TW-60.249.3.227-6123
-      - 🇹🇼TW-60.249.3.228-6256
-      - 🇹🇼TW-60.249.3.229-6282
-      - 🇹🇼TW-60.249.3.230-6225
-      - 🇹🇼TW-60.249.3.231-6143
-      - 🇺🇸US-104.233.129.82-4091
-      - 🇺🇸US-107.172.217.30-2680
-      - 🇺🇸US-23.247.137.70-6566
-      - 🇻🇳VN-103.190.106.236-1228
-      - 韩国-LPLC｜04
-      - 韩国-LPLC｜05
-      - 韩国-LPLC｜06
+      - 新加坡1|代理商专线|1x+2
+      - 新加坡1|SGD|1x+B
+      - 新加坡05
+      - 新加坡04
+      - 新加坡01
+      - 香港IEPL|广移绕JP
+      - 香港IEPL|广移二区1.0x代理商专线2
+      - 香港IEPL|广移二区1.0x代理商专线1
+      - 香港IEPL|广移二区1.0x代理商专线
+      - 香港IEPL|广移二区1.0x+D
+      - 香港IEPL|广移二区1.0x+C
+      - 香港IEPL|广移二区1.0x+B
+      - 香港IEPL|广移二区1.0x+A
+      - 香港IEPL|广移1.0x代理商专线3
+      - 香港IEPL|广移1.0x代理商专线2
+      - 香港IEPL|广移1.0x代理商专线1
+      - 香港IEPL|广移1.0x代理商专线
+      - 香港IEPL|广移1.0x+D
+      - 香港IEPL|广移1.0x+C
+      - 香港IEPL|广移1.0x+B
+      - 香港IEPL|广移1.0x+A
+      - 香港IEPL|广移1.0x
+      - 美国|代理商专线|1.0x
+      - 美国|usa|1.0x+C
+      - 美国|usa|1.0x+A
+      - 🇺🇸US-38.63.0.69-3047
+      - 🇺🇸US-198.2.200.105-1301
+      - 🇹🇼TW-165.154.227.239-2293
+      - Relay_🇺🇸US-🇺🇸US_91+|17.23Mb
+      - Pool_+|+6.51Mb
+      - NL_57 | 9.68Mb
+      - JP_142 | 9.27Mb
+      - '|13.94Mb'
+      - _NL_荷兰_5_0@7
+      - _JP_日本_1_1@3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '[v1]+香港・01'
-      - '[v1]+香港・02'
-      - '[v1]+香港・03'
-      - '[v1]+香港・04'
-      - '[v1]+香港・05'
-      - '[v1]+香港・06'
-      - '|72.81Mb'
-      - 2电报群搜索xhj1006来进群
-      - 4+tg电报群@xhj1006
-      - 6电报群搜索xhj1006来进群
-      - 9电报群搜索xhj1006来进群_1
-      - 9电报群搜索xhj1006来进群_2
-      - 9电报群搜索xhj1006来进群_3
-      - AU_20+|+9.91Mb
-      - JP_143
-      - JP_146
-      - US_545+|19.69Mb
-      - ZZ_571+|19.99Mb
-      - 🇨🇦CA-170.187.182.212-1443
-      - 🇨🇦CA-51.161.118.38-1335
-      - 🇨🇳CN-116.162.172.26-3472
-      - 🇨🇳CN-116.162.172.26-3486
-      - 🇨🇳CN-116.162.172.26-3836
-      - 🇨🇳CN-116.162.172.26-3837
-      - 🇨🇳CN-116.162.172.26-3838
-      - 🇨🇳CN-116.162.172.26-3949
-      - 🇨🇳CN-116.162.172.26-3982
-      - 🇨🇳CN-116.162.172.26-4021
-      - 🇨🇳CN-116.163.29.150-11672
-      - 🇨🇳CN-116.163.29.150-11673
-      - 🇨🇳CN-116.163.29.150-11674
-      - 🇨🇳CN-116.163.29.150-11675
-      - 🇨🇳CN-116.163.29.150-11676
-      - 🇨🇳CN-116.163.29.150-11677
-      - 🇨🇳CN-116.163.29.150-11682
-      - 🇨🇳CN-116.163.29.150-11687
-      - 🇨🇳CN-116.163.29.150-11689
-      - 🇨🇳CN-116.163.45.179-11678
-      - 🇨🇳CN-116.163.45.179-11679
-      - 🇨🇳CN-116.163.45.179-11684
-      - 🇨🇳CN-116.163.45.179-11685
-      - 🇨🇳CN-116.163.45.179-11686
-      - 🇨🇳CN-182.151.34.81-5895
-      - 🇨🇳CN-47.93.231.218-13537
-      - 🇬🇧GB-23.106.33.156-1452
-      - 🇭🇰HK-45.11.104.94-6240
-      - 🇭🇰HK-47.242.63.176-13110
-      - 🇯🇵JP-132.226.5.246-11405
-      - 🇯🇵JP-133.167.100.203-6205
-      - 🇯🇵JP-133.167.100.203-6321
-      - 🇯🇵JP-150.230.201.192-11444
-      - 🇯🇵JP-153.121.74.146-6558
-      - 🇯🇵JP-160.16.105.108-6275
-      - 🇯🇵JP-160.16.145.107-6245
-      - 🇯🇵JP-20.210.208.68-0810
-      - 🇯🇵JP-20.210.208.68-1386
-      - 🇯🇵JP-20.210.208.68-2057
-      - 🇯🇵JP-49.212.221.47-6079
-      - 🇯🇵日本东京
-      - 🇰🇷KR-146.56.189.146-6520
-      - 🇷🇺RU-91.206.92.17-8359
-      - 🇸🇬SG-172.105.120.73-1397
-      - 🇸🇬SG-5.44.249.43-4066
-      - 🇹🇼TW-165.154.226.87-2388
-      - 🇹🇼TW-211.72.35.152-7101
-      - 🇹🇼TW-211.72.35.154-6239
-      - 🇹🇼TW-211.72.35.157-6058
-      - 🇹🇼TW-211.72.35.158-6100
-      - 🇹🇼TW-60.249.3.226-6251
-      - 🇹🇼TW-60.249.3.227-6123
-      - 🇹🇼TW-60.249.3.228-6256
-      - 🇹🇼TW-60.249.3.229-6282
-      - 🇹🇼TW-60.249.3.230-6225
-      - 🇹🇼TW-60.249.3.231-6143
-      - 🇺🇸US-104.233.129.82-4091
-      - 🇺🇸US-107.172.217.30-2680
-      - 🇺🇸US-23.247.137.70-6566
-      - 🇻🇳VN-103.190.106.236-1228
-      - 韩国-LPLC｜04
-      - 韩国-LPLC｜05
-      - 韩国-LPLC｜06
+      - 新加坡1|代理商专线|1x+2
+      - 新加坡1|SGD|1x+B
+      - 新加坡05
+      - 新加坡04
+      - 新加坡01
+      - 香港IEPL|广移绕JP
+      - 香港IEPL|广移二区1.0x代理商专线2
+      - 香港IEPL|广移二区1.0x代理商专线1
+      - 香港IEPL|广移二区1.0x代理商专线
+      - 香港IEPL|广移二区1.0x+D
+      - 香港IEPL|广移二区1.0x+C
+      - 香港IEPL|广移二区1.0x+B
+      - 香港IEPL|广移二区1.0x+A
+      - 香港IEPL|广移1.0x代理商专线3
+      - 香港IEPL|广移1.0x代理商专线2
+      - 香港IEPL|广移1.0x代理商专线1
+      - 香港IEPL|广移1.0x代理商专线
+      - 香港IEPL|广移1.0x+D
+      - 香港IEPL|广移1.0x+C
+      - 香港IEPL|广移1.0x+B
+      - 香港IEPL|广移1.0x+A
+      - 香港IEPL|广移1.0x
+      - 美国|代理商专线|1.0x
+      - 美国|usa|1.0x+C
+      - 美国|usa|1.0x+A
+      - 🇺🇸US-38.63.0.69-3047
+      - 🇺🇸US-198.2.200.105-1301
+      - 🇹🇼TW-165.154.227.239-2293
+      - Relay_🇺🇸US-🇺🇸US_91+|17.23Mb
+      - Pool_+|+6.51Mb
+      - NL_57 | 9.68Mb
+      - JP_142 | 9.27Mb
+      - '|13.94Mb'
+      - _NL_荷兰_5_0@7
+      - _JP_日本_1_1@3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -643,87 +321,41 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - '[v1]+香港・01'
-      - '[v1]+香港・02'
-      - '[v1]+香港・03'
-      - '[v1]+香港・04'
-      - '[v1]+香港・05'
-      - '[v1]+香港・06'
-      - '|72.81Mb'
-      - 2电报群搜索xhj1006来进群
-      - 4+tg电报群@xhj1006
-      - 6电报群搜索xhj1006来进群
-      - 9电报群搜索xhj1006来进群_1
-      - 9电报群搜索xhj1006来进群_2
-      - 9电报群搜索xhj1006来进群_3
-      - AU_20+|+9.91Mb
-      - JP_143
-      - JP_146
-      - US_545+|19.69Mb
-      - ZZ_571+|19.99Mb
-      - 🇨🇦CA-170.187.182.212-1443
-      - 🇨🇦CA-51.161.118.38-1335
-      - 🇨🇳CN-116.162.172.26-3472
-      - 🇨🇳CN-116.162.172.26-3486
-      - 🇨🇳CN-116.162.172.26-3836
-      - 🇨🇳CN-116.162.172.26-3837
-      - 🇨🇳CN-116.162.172.26-3838
-      - 🇨🇳CN-116.162.172.26-3949
-      - 🇨🇳CN-116.162.172.26-3982
-      - 🇨🇳CN-116.162.172.26-4021
-      - 🇨🇳CN-116.163.29.150-11672
-      - 🇨🇳CN-116.163.29.150-11673
-      - 🇨🇳CN-116.163.29.150-11674
-      - 🇨🇳CN-116.163.29.150-11675
-      - 🇨🇳CN-116.163.29.150-11676
-      - 🇨🇳CN-116.163.29.150-11677
-      - 🇨🇳CN-116.163.29.150-11682
-      - 🇨🇳CN-116.163.29.150-11687
-      - 🇨🇳CN-116.163.29.150-11689
-      - 🇨🇳CN-116.163.45.179-11678
-      - 🇨🇳CN-116.163.45.179-11679
-      - 🇨🇳CN-116.163.45.179-11684
-      - 🇨🇳CN-116.163.45.179-11685
-      - 🇨🇳CN-116.163.45.179-11686
-      - 🇨🇳CN-182.151.34.81-5895
-      - 🇨🇳CN-47.93.231.218-13537
-      - 🇬🇧GB-23.106.33.156-1452
-      - 🇭🇰HK-45.11.104.94-6240
-      - 🇭🇰HK-47.242.63.176-13110
-      - 🇯🇵JP-132.226.5.246-11405
-      - 🇯🇵JP-133.167.100.203-6205
-      - 🇯🇵JP-133.167.100.203-6321
-      - 🇯🇵JP-150.230.201.192-11444
-      - 🇯🇵JP-153.121.74.146-6558
-      - 🇯🇵JP-160.16.105.108-6275
-      - 🇯🇵JP-160.16.145.107-6245
-      - 🇯🇵JP-20.210.208.68-0810
-      - 🇯🇵JP-20.210.208.68-1386
-      - 🇯🇵JP-20.210.208.68-2057
-      - 🇯🇵JP-49.212.221.47-6079
-      - 🇯🇵日本东京
-      - 🇰🇷KR-146.56.189.146-6520
-      - 🇷🇺RU-91.206.92.17-8359
-      - 🇸🇬SG-172.105.120.73-1397
-      - 🇸🇬SG-5.44.249.43-4066
-      - 🇹🇼TW-165.154.226.87-2388
-      - 🇹🇼TW-211.72.35.152-7101
-      - 🇹🇼TW-211.72.35.154-6239
-      - 🇹🇼TW-211.72.35.157-6058
-      - 🇹🇼TW-211.72.35.158-6100
-      - 🇹🇼TW-60.249.3.226-6251
-      - 🇹🇼TW-60.249.3.227-6123
-      - 🇹🇼TW-60.249.3.228-6256
-      - 🇹🇼TW-60.249.3.229-6282
-      - 🇹🇼TW-60.249.3.230-6225
-      - 🇹🇼TW-60.249.3.231-6143
-      - 🇺🇸US-104.233.129.82-4091
-      - 🇺🇸US-107.172.217.30-2680
-      - 🇺🇸US-23.247.137.70-6566
-      - 🇻🇳VN-103.190.106.236-1228
-      - 韩国-LPLC｜04
-      - 韩国-LPLC｜05
-      - 韩国-LPLC｜06
+      - 新加坡1|代理商专线|1x+2
+      - 新加坡1|SGD|1x+B
+      - 新加坡05
+      - 新加坡04
+      - 新加坡01
+      - 香港IEPL|广移绕JP
+      - 香港IEPL|广移二区1.0x代理商专线2
+      - 香港IEPL|广移二区1.0x代理商专线1
+      - 香港IEPL|广移二区1.0x代理商专线
+      - 香港IEPL|广移二区1.0x+D
+      - 香港IEPL|广移二区1.0x+C
+      - 香港IEPL|广移二区1.0x+B
+      - 香港IEPL|广移二区1.0x+A
+      - 香港IEPL|广移1.0x代理商专线3
+      - 香港IEPL|广移1.0x代理商专线2
+      - 香港IEPL|广移1.0x代理商专线1
+      - 香港IEPL|广移1.0x代理商专线
+      - 香港IEPL|广移1.0x+D
+      - 香港IEPL|广移1.0x+C
+      - 香港IEPL|广移1.0x+B
+      - 香港IEPL|广移1.0x+A
+      - 香港IEPL|广移1.0x
+      - 美国|代理商专线|1.0x
+      - 美国|usa|1.0x+C
+      - 美国|usa|1.0x+A
+      - 🇺🇸US-38.63.0.69-3047
+      - 🇺🇸US-198.2.200.105-1301
+      - 🇹🇼TW-165.154.227.239-2293
+      - Relay_🇺🇸US-🇺🇸US_91+|17.23Mb
+      - Pool_+|+6.51Mb
+      - NL_57 | 9.68Mb
+      - JP_142 | 9.27Mb
+      - '|13.94Mb'
+      - _NL_荷兰_5_0@7
+      - _JP_日本_1_1@3
 
 rules:
 # 本地/局域网地址
