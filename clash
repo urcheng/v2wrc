@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-26 09:22:39
+# 创建时间：2023-05-29 09:06:10
 # 使用模版：V2RaySE 默认模版
-# 节点数量：14
+# 节点数量：32
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,137 +21,263 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"9电报群搜索xhj1006来进群","type":"trojan","server":"hk11.microsoft-orgwly.vip","port":80,"udp":true,"password":"75df319e-8f4c-4ffa-aca8-a72aa20163c9","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
+  - {"name":"香港5|HK5","type":"trojan","server":"zf.heigouyunzf.xyz","port":38801,"udp":true,"password":"e958b47d-3510-445a-99cb-dc98d227e29e","sni":"xg1.heigouyunjd.xyz","skip-cert-verify":false}
+  - {"name":"香港3|HK3","type":"trojan","server":"zf.heigouyunzf.xyz","port":38805,"udp":true,"password":"e958b47d-3510-445a-99cb-dc98d227e29e","sni":"xg2.heigouyunjd.xyz","skip-cert-verify":false}
+  - {"name":"香港|HK1","type":"trojan","server":"zf.heigouyunzf.xyz","port":38806,"udp":true,"password":"e958b47d-3510-445a-99cb-dc98d227e29e","sni":"xg3.heigouyunjd.xyz","skip-cert-verify":false}
+  - {"name":"台湾1|TW1","type":"trojan","server":"zf.heigouyunzf.xyz","port":38803,"udp":true,"password":"e958b47d-3510-445a-99cb-dc98d227e29e","sni":"tw1.heigouyunjd.xyz","skip-cert-verify":false}
+  - {"name":"台区｜中转-06","type":"vmess","server":"cdn.jike.cyou","port":50019,"cipher":"auto","uuid":"cc8c1af8-5ede-49e5-9209-0702d586274d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"台区｜中转-05","type":"vmess","server":"cdn.jike.cyou","port":50025,"cipher":"auto","uuid":"cc8c1af8-5ede-49e5-9209-0702d586274d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"台区｜中转-03","type":"vmess","server":"cdn.jike.cyou","port":50038,"cipher":"auto","uuid":"cc8c1af8-5ede-49e5-9209-0702d586274d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"台区｜中转-02","type":"vmess","server":"cdn.jike.cyou","port":50039,"cipher":"auto","uuid":"cc8c1af8-5ede-49e5-9209-0702d586274d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"日区｜中转-05","type":"vmess","server":"cdn.jike.cyou","port":50040,"cipher":"auto","uuid":"cc8c1af8-5ede-49e5-9209-0702d586274d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"日区｜中转-02","type":"vmess","server":"cdn.jike.cyou","port":50029,"cipher":"auto","uuid":"cc8c1af8-5ede-49e5-9209-0702d586274d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"日区｜中转-01","type":"vmess","server":"cdn.jike.cyou","port":50034,"cipher":"auto","uuid":"cc8c1af8-5ede-49e5-9209-0702d586274d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"日本1|JP1","type":"trojan","server":"zf.heigouyunzf.xyz","port":38804,"udp":true,"password":"e958b47d-3510-445a-99cb-dc98d227e29e","sni":"rb1.heigouyunjd.xyz","skip-cert-verify":false}
+  - {"name":"美区｜中转-02","type":"vmess","server":"cdn.jike.cyou","port":50013,"cipher":"auto","uuid":"cc8c1af8-5ede-49e5-9209-0702d586274d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美区｜中转-01","type":"vmess","server":"cdn.jike.cyou","port":50018,"cipher":"auto","uuid":"cc8c1af8-5ede-49e5-9209-0702d586274d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸US-198.2.208.189-0171","type":"vmess","server":"198.2.208.189","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1683715826870","headers":{"host":"www.62317155.xyz"}}}
+  - {"name":"🇺🇸US-142.4.118.150-3640","type":"vmess","server":"142.4.118.150","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.16616906.xyz","network":"ws","ws-opts":{"path":"/path/120306182525","headers":{"host":"www.16616906.xyz"}}}
+  - {"name":"🇺🇸US-142.4.118.150-2424","type":"vmess","server":"142.4.118.150","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/120306182525"}}
+  - {"name":"🇺🇸US-142.4.100.36-0126","type":"vmess","server":"142.4.100.36","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.26167530.xyz","network":"ws","ws-opts":{"path":"/path/1684994761011","headers":{"host":"www.26167530.xyz"}}}
+  - {"name":"🇸🇬+狮城中转｜06","type":"ss","server":"04-2.qqingca.cc","port":20349,"password":"27e2f037-effd-493a-bd28-6004cd9ff1cf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇬+狮城中转｜03","type":"ss","server":"02-2.qqingca.cc","port":20315,"password":"27e2f037-effd-493a-bd28-6004cd9ff1cf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇰🇷KR-43.201.189.161-1133","type":"trojan","server":"kr3.microsoft-orgwly.vip","port":443,"udp":true,"password":"64015172-f561-42d0-85d4-acd4644dada6","sni":"kr3.microsoft-orgwly.vip","skip-cert-verify":true}
   - {"name":"Pool_+|+6.51Mb","type":"ss","server":"216.52.183.243","port":80,"password":"83XvX4Vo%*3a","cipher":"aes-128-gcm","plugin":"simple-obfs","plugin-opts":{"mode":"websocket"}}
-  - {"name":"V1-台湾 多台负载均衡 中继D 1.5x","type":"vmess","server":"in04.my1188.org","port":64088,"cipher":"auto","uuid":"e7c72438-b3e9-391e-8ece-ceeb08a2971d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/biteb","headers":{"host":"%7B%22Host%22:%22tw-load-balancer.myn1des.com%22%7D"}}}
-  - {"name":"V2-韩国01 中继D 2x","type":"vmess","server":"in04.my1188.org","port":64004,"cipher":"auto","uuid":"e7c72438-b3e9-391e-8ece-ceeb08a2971d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"V2-印度01 中继D 1.7x","type":"vmess","server":"in04.my1188.org","port":64051,"cipher":"auto","uuid":"e7c72438-b3e9-391e-8ece-ceeb08a2971d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"ZZ_84+|21.54Mb","type":"trojan","server":"103.169.7.11","port":80,"udp":true,"password":"c0d9da22-2569-4bed-a395-607d9e7ae687","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-165.154.226.194-0267","type":"trojan","server":"165.154.226.194","port":443,"udp":true,"password":"4aeda200-44c9-4168-8f2a-a00a72176d35","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-165.154.227.239-2293","type":"trojan","server":"165.154.227.239","port":443,"udp":true,"password":"ca7febc2-bb45-4e6d-810e-ab0af6009c4e","skip-cert-verify":true}
-  - {"name":"🇺🇸US-38.63.0.69-3047","type":"vmess","server":"38.63.0.69","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1683955693848"}}
-  - {"name":"日本01⚡️[1.0x]","type":"ss","server":"01-2.qqingca.cc","port":20398,"password":"27e2f037-effd-493a-bd28-6004cd9ff1cf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"日本中转路线｜005","type":"ss","server":"gz.oracleyyds.com","port":31771,"password":"82b82bea-3dc4-4a4e-bd04-5c790db2c26b","cipher":"aes-128-gcm"}
-  - {"name":"日区中转01","type":"ss","server":"gz.oracleyyds.com","port":31766,"password":"82b82bea-3dc4-4a4e-bd04-5c790db2c26b","cipher":"aes-128-gcm"}
-  - {"name":"日区中转02","type":"ss","server":"gz.oracleyyds.com","port":31767,"password":"82b82bea-3dc4-4a4e-bd04-5c790db2c26b","cipher":"aes-128-gcm"}
-  - {"name":"日区中转03","type":"ss","server":"gz.oracleyyds.com","port":31769,"password":"82b82bea-3dc4-4a4e-bd04-5c790db2c26b","cipher":"aes-128-gcm"}
+  - {"name":"KR_166+|+8.97Mb","type":"trojan","server":"kr5.microsoft-orgwly.vip","port":443,"udp":true,"password":"bb59547d-0ea9-4af0-97c7-169bcb15f961","skip-cert-verify":true}
+  - {"name":"CN_47+|+0.46Mb","type":"ss","server":"36.138.193.128","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"CN_46+|+1.40Mb","type":"ss","server":"36.139.166.247","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"CN_45+|+0.37Mb","type":"ss","server":"36.139.166.244","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"CN_44+|+3.19Mb","type":"ss","server":"36.139.166.231","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"CN_43+|+1.63Mb","type":"ss","server":"36.137.106.115","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"CN_42+|+1.96Mb","type":"ss","server":"36.138.140.208","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"CN_41+|+0.17Mb","type":"ss","server":"36.139.166.252","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"AU_25+|+2.41Mb","type":"trojan","server":"kr2.microsoft-orgwly.vip","port":443,"udp":true,"password":"bb59547d-0ea9-4af0-97c7-169bcb15f961","skip-cert-verify":true}
+  - {"name":"AU_12+|+8.15Mb","type":"trojan","server":"kr3.microsoft-orgwly.vip","port":443,"udp":true,"password":"bb59547d-0ea9-4af0-97c7-169bcb15f961","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 9电报群搜索xhj1006来进群
+      - 香港5|HK5
+      - 香港3|HK3
+      - 香港|HK1
+      - 台湾1|TW1
+      - 台区｜中转-06
+      - 台区｜中转-05
+      - 台区｜中转-03
+      - 台区｜中转-02
+      - 日区｜中转-05
+      - 日区｜中转-02
+      - 日区｜中转-01
+      - 日本1|JP1
+      - 美区｜中转-02
+      - 美区｜中转-01
+      - 🇺🇸US-198.2.208.189-0171
+      - 🇺🇸US-142.4.118.150-3640
+      - 🇺🇸US-142.4.118.150-2424
+      - 🇺🇸US-142.4.100.36-0126
+      - 🇸🇬+狮城中转｜06
+      - 🇸🇬+狮城中转｜03
+      - 🇰🇷KR-43.201.189.161-1133
       - Pool_+|+6.51Mb
-      - V1-台湾 多台负载均衡 中继D 1.5x
-      - V2-韩国01 中继D 2x
-      - V2-印度01 中继D 1.7x
-      - ZZ_84+|21.54Mb
-      - 🇹🇼TW-165.154.226.194-0267
-      - 🇹🇼TW-165.154.227.239-2293
-      - 🇺🇸US-38.63.0.69-3047
-      - 日本01⚡️[1.0x]
-      - 日本中转路线｜005
-      - 日区中转01
-      - 日区中转02
-      - 日区中转03
+      - KR_166+|+8.97Mb
+      - CN_47+|+0.46Mb
+      - CN_46+|+1.40Mb
+      - CN_45+|+0.37Mb
+      - CN_44+|+3.19Mb
+      - CN_43+|+1.63Mb
+      - CN_42+|+1.96Mb
+      - CN_41+|+0.17Mb
+      - AU_25+|+2.41Mb
+      - AU_12+|+8.15Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 9电报群搜索xhj1006来进群
+      - 香港5|HK5
+      - 香港3|HK3
+      - 香港|HK1
+      - 台湾1|TW1
+      - 台区｜中转-06
+      - 台区｜中转-05
+      - 台区｜中转-03
+      - 台区｜中转-02
+      - 日区｜中转-05
+      - 日区｜中转-02
+      - 日区｜中转-01
+      - 日本1|JP1
+      - 美区｜中转-02
+      - 美区｜中转-01
+      - 🇺🇸US-198.2.208.189-0171
+      - 🇺🇸US-142.4.118.150-3640
+      - 🇺🇸US-142.4.118.150-2424
+      - 🇺🇸US-142.4.100.36-0126
+      - 🇸🇬+狮城中转｜06
+      - 🇸🇬+狮城中转｜03
+      - 🇰🇷KR-43.201.189.161-1133
       - Pool_+|+6.51Mb
-      - V1-台湾 多台负载均衡 中继D 1.5x
-      - V2-韩国01 中继D 2x
-      - V2-印度01 中继D 1.7x
-      - ZZ_84+|21.54Mb
-      - 🇹🇼TW-165.154.226.194-0267
-      - 🇹🇼TW-165.154.227.239-2293
-      - 🇺🇸US-38.63.0.69-3047
-      - 日本01⚡️[1.0x]
-      - 日本中转路线｜005
-      - 日区中转01
-      - 日区中转02
-      - 日区中转03
+      - KR_166+|+8.97Mb
+      - CN_47+|+0.46Mb
+      - CN_46+|+1.40Mb
+      - CN_45+|+0.37Mb
+      - CN_44+|+3.19Mb
+      - CN_43+|+1.63Mb
+      - CN_42+|+1.96Mb
+      - CN_41+|+0.17Mb
+      - AU_25+|+2.41Mb
+      - AU_12+|+8.15Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 9电报群搜索xhj1006来进群
+      - 香港5|HK5
+      - 香港3|HK3
+      - 香港|HK1
+      - 台湾1|TW1
+      - 台区｜中转-06
+      - 台区｜中转-05
+      - 台区｜中转-03
+      - 台区｜中转-02
+      - 日区｜中转-05
+      - 日区｜中转-02
+      - 日区｜中转-01
+      - 日本1|JP1
+      - 美区｜中转-02
+      - 美区｜中转-01
+      - 🇺🇸US-198.2.208.189-0171
+      - 🇺🇸US-142.4.118.150-3640
+      - 🇺🇸US-142.4.118.150-2424
+      - 🇺🇸US-142.4.100.36-0126
+      - 🇸🇬+狮城中转｜06
+      - 🇸🇬+狮城中转｜03
+      - 🇰🇷KR-43.201.189.161-1133
       - Pool_+|+6.51Mb
-      - V1-台湾 多台负载均衡 中继D 1.5x
-      - V2-韩国01 中继D 2x
-      - V2-印度01 中继D 1.7x
-      - ZZ_84+|21.54Mb
-      - 🇹🇼TW-165.154.226.194-0267
-      - 🇹🇼TW-165.154.227.239-2293
-      - 🇺🇸US-38.63.0.69-3047
-      - 日本01⚡️[1.0x]
-      - 日本中转路线｜005
-      - 日区中转01
-      - 日区中转02
-      - 日区中转03
+      - KR_166+|+8.97Mb
+      - CN_47+|+0.46Mb
+      - CN_46+|+1.40Mb
+      - CN_45+|+0.37Mb
+      - CN_44+|+3.19Mb
+      - CN_43+|+1.63Mb
+      - CN_42+|+1.96Mb
+      - CN_41+|+0.17Mb
+      - AU_25+|+2.41Mb
+      - AU_12+|+8.15Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 9电报群搜索xhj1006来进群
+      - 香港5|HK5
+      - 香港3|HK3
+      - 香港|HK1
+      - 台湾1|TW1
+      - 台区｜中转-06
+      - 台区｜中转-05
+      - 台区｜中转-03
+      - 台区｜中转-02
+      - 日区｜中转-05
+      - 日区｜中转-02
+      - 日区｜中转-01
+      - 日本1|JP1
+      - 美区｜中转-02
+      - 美区｜中转-01
+      - 🇺🇸US-198.2.208.189-0171
+      - 🇺🇸US-142.4.118.150-3640
+      - 🇺🇸US-142.4.118.150-2424
+      - 🇺🇸US-142.4.100.36-0126
+      - 🇸🇬+狮城中转｜06
+      - 🇸🇬+狮城中转｜03
+      - 🇰🇷KR-43.201.189.161-1133
       - Pool_+|+6.51Mb
-      - V1-台湾 多台负载均衡 中继D 1.5x
-      - V2-韩国01 中继D 2x
-      - V2-印度01 中继D 1.7x
-      - ZZ_84+|21.54Mb
-      - 🇹🇼TW-165.154.226.194-0267
-      - 🇹🇼TW-165.154.227.239-2293
-      - 🇺🇸US-38.63.0.69-3047
-      - 日本01⚡️[1.0x]
-      - 日本中转路线｜005
-      - 日区中转01
-      - 日区中转02
-      - 日区中转03
+      - KR_166+|+8.97Mb
+      - CN_47+|+0.46Mb
+      - CN_46+|+1.40Mb
+      - CN_45+|+0.37Mb
+      - CN_44+|+3.19Mb
+      - CN_43+|+1.63Mb
+      - CN_42+|+1.96Mb
+      - CN_41+|+0.17Mb
+      - AU_25+|+2.41Mb
+      - AU_12+|+8.15Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 9电报群搜索xhj1006来进群
+      - 香港5|HK5
+      - 香港3|HK3
+      - 香港|HK1
+      - 台湾1|TW1
+      - 台区｜中转-06
+      - 台区｜中转-05
+      - 台区｜中转-03
+      - 台区｜中转-02
+      - 日区｜中转-05
+      - 日区｜中转-02
+      - 日区｜中转-01
+      - 日本1|JP1
+      - 美区｜中转-02
+      - 美区｜中转-01
+      - 🇺🇸US-198.2.208.189-0171
+      - 🇺🇸US-142.4.118.150-3640
+      - 🇺🇸US-142.4.118.150-2424
+      - 🇺🇸US-142.4.100.36-0126
+      - 🇸🇬+狮城中转｜06
+      - 🇸🇬+狮城中转｜03
+      - 🇰🇷KR-43.201.189.161-1133
       - Pool_+|+6.51Mb
-      - V1-台湾 多台负载均衡 中继D 1.5x
-      - V2-韩国01 中继D 2x
-      - V2-印度01 中继D 1.7x
-      - ZZ_84+|21.54Mb
-      - 🇹🇼TW-165.154.226.194-0267
-      - 🇹🇼TW-165.154.227.239-2293
-      - 🇺🇸US-38.63.0.69-3047
-      - 日本01⚡️[1.0x]
-      - 日本中转路线｜005
-      - 日区中转01
-      - 日区中转02
-      - 日区中转03
+      - KR_166+|+8.97Mb
+      - CN_47+|+0.46Mb
+      - CN_46+|+1.40Mb
+      - CN_45+|+0.37Mb
+      - CN_44+|+3.19Mb
+      - CN_43+|+1.63Mb
+      - CN_42+|+1.96Mb
+      - CN_41+|+0.17Mb
+      - AU_25+|+2.41Mb
+      - AU_12+|+8.15Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 9电报群搜索xhj1006来进群
+      - 香港5|HK5
+      - 香港3|HK3
+      - 香港|HK1
+      - 台湾1|TW1
+      - 台区｜中转-06
+      - 台区｜中转-05
+      - 台区｜中转-03
+      - 台区｜中转-02
+      - 日区｜中转-05
+      - 日区｜中转-02
+      - 日区｜中转-01
+      - 日本1|JP1
+      - 美区｜中转-02
+      - 美区｜中转-01
+      - 🇺🇸US-198.2.208.189-0171
+      - 🇺🇸US-142.4.118.150-3640
+      - 🇺🇸US-142.4.118.150-2424
+      - 🇺🇸US-142.4.100.36-0126
+      - 🇸🇬+狮城中转｜06
+      - 🇸🇬+狮城中转｜03
+      - 🇰🇷KR-43.201.189.161-1133
       - Pool_+|+6.51Mb
-      - V1-台湾 多台负载均衡 中继D 1.5x
-      - V2-韩国01 中继D 2x
-      - V2-印度01 中继D 1.7x
-      - ZZ_84+|21.54Mb
-      - 🇹🇼TW-165.154.226.194-0267
-      - 🇹🇼TW-165.154.227.239-2293
-      - 🇺🇸US-38.63.0.69-3047
-      - 日本01⚡️[1.0x]
-      - 日本中转路线｜005
-      - 日区中转01
-      - 日区中转02
-      - 日区中转03
+      - KR_166+|+8.97Mb
+      - CN_47+|+0.46Mb
+      - CN_46+|+1.40Mb
+      - CN_45+|+0.37Mb
+      - CN_44+|+3.19Mb
+      - CN_43+|+1.63Mb
+      - CN_42+|+1.96Mb
+      - CN_41+|+0.17Mb
+      - AU_25+|+2.41Mb
+      - AU_12+|+8.15Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -174,20 +300,38 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 9电报群搜索xhj1006来进群
+      - 香港5|HK5
+      - 香港3|HK3
+      - 香港|HK1
+      - 台湾1|TW1
+      - 台区｜中转-06
+      - 台区｜中转-05
+      - 台区｜中转-03
+      - 台区｜中转-02
+      - 日区｜中转-05
+      - 日区｜中转-02
+      - 日区｜中转-01
+      - 日本1|JP1
+      - 美区｜中转-02
+      - 美区｜中转-01
+      - 🇺🇸US-198.2.208.189-0171
+      - 🇺🇸US-142.4.118.150-3640
+      - 🇺🇸US-142.4.118.150-2424
+      - 🇺🇸US-142.4.100.36-0126
+      - 🇸🇬+狮城中转｜06
+      - 🇸🇬+狮城中转｜03
+      - 🇰🇷KR-43.201.189.161-1133
       - Pool_+|+6.51Mb
-      - V1-台湾 多台负载均衡 中继D 1.5x
-      - V2-韩国01 中继D 2x
-      - V2-印度01 中继D 1.7x
-      - ZZ_84+|21.54Mb
-      - 🇹🇼TW-165.154.226.194-0267
-      - 🇹🇼TW-165.154.227.239-2293
-      - 🇺🇸US-38.63.0.69-3047
-      - 日本01⚡️[1.0x]
-      - 日本中转路线｜005
-      - 日区中转01
-      - 日区中转02
-      - 日区中转03
+      - KR_166+|+8.97Mb
+      - CN_47+|+0.46Mb
+      - CN_46+|+1.40Mb
+      - CN_45+|+0.37Mb
+      - CN_44+|+3.19Mb
+      - CN_43+|+1.63Mb
+      - CN_42+|+1.96Mb
+      - CN_41+|+0.17Mb
+      - AU_25+|+2.41Mb
+      - AU_12+|+8.15Mb
 
 rules:
 # 本地/局域网地址
