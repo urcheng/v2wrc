@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-05-30 08:52:44
+# 创建时间：2023-05-31 09:51:22
 # 使用模版：V2RaySE 默认模版
-# 节点数量：32
+# 节点数量：29
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,263 +21,242 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"_NL_荷兰_2_0@4","type":"ss","server":"172.99.188.99","port":5004,"password":"g5MeD6Ft3CWlJId","cipher":"aes-256-gcm"}
-  - {"name":"CN_41+|+0.17Mb","type":"ss","server":"36.139.166.252","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"CN_44+|+3.19Mb","type":"ss","server":"36.139.166.231","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"CN_47+|+0.46Mb","type":"ss","server":"36.138.193.128","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"CN_62","type":"trojan","server":"assets.flareai.site","port":13443,"udp":true,"password":"d5dd371c-11db-4cfb-b458-072f0fbd0e18","skip-cert-verify":true}
-  - {"name":"CN_64","type":"trojan","server":"assets.flareai.site","port":13343,"udp":true,"password":"d5dd371c-11db-4cfb-b458-072f0fbd0e18","skip-cert-verify":true}
-  - {"name":"CN_65","type":"trojan","server":"assets.flareai.site","port":13543,"udp":true,"password":"d5dd371c-11db-4cfb-b458-072f0fbd0e18","skip-cert-verify":true}
-  - {"name":"CN_69🇨🇳CN_79","type":"trojan","server":"shlt.sub-nthu.com","port":35000,"udp":true,"password":"eda8a8e5-1076-4d7b-b1d0-5003a0350073","skip-cert-verify":true}
-  - {"name":"CN_79🇨🇳CN_69","type":"trojan","server":"shlt.sub-nthu.com","port":35003,"udp":true,"password":"eda8a8e5-1076-4d7b-b1d0-5003a0350073","skip-cert-verify":true}
-  - {"name":"Pool_+|+6.51Mb","type":"ss","server":"216.52.183.243","port":80,"password":"83XvX4Vo%*3a","cipher":"aes-128-gcm","plugin":"simple-obfs","plugin-opts":{"mode":"websocket"}}
-  - {"name":"Relay_Relay_+|76.29Mb","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"d66013c645b93c5c","skip-cert-verify":true}
-  - {"name":"Relay_Relay_🇨🇦CA-🇨🇦CA_29+|+7.80Mb","type":"trojan","server":"cat-1.opensvr.net","port":443,"udp":true,"password":"opentunnel.net-sdertyuijh","skip-cert-verify":true}
-  - {"name":"SG_180 |18.83Mb","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
-  - {"name":"US_483+|19.69Mb","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"ed19b239-8e49-4b82-979a-24b84fa7b173","skip-cert-verify":true}
-  - {"name":"US_663🇺🇸US_673","type":"trojan","server":"72.167.45.6","port":443,"udp":true,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true}
-  - {"name":"🇬🇧GB-178.239.171.103-1128","type":"vmess","server":"178.239.171.103","port":80,"cipher":"auto","uuid":"61280f80-cd25-4c7b-8e5a-b1560617047a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/T5t5p1DPeSIooUZfEmkFAYfTxZ"}}
-  - {"name":"🇭🇰+HK+Kirino","type":"ss","server":"kirino.hk.securevpn.cc","port":1020,"password":"202305312359000000000020","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇭🇰+HK+xTom","type":"ss","server":"v.ps.hk.securevpn.cc","port":1020,"password":"202305312359000000000020","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇭🇰香港+无限流量","type":"ss","server":"free.themars.top","port":32102,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵+JP+GreenCloud","type":"ss","server":"greencloud.jp.securevpn.cc","port":1020,"password":"202305312359000000000020","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵+JP+Kirino","type":"ss","server":"kirino.jp.securevpn.cc","port":1020,"password":"202305312359000000000020","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵+JP+VirMach","type":"ss","server":"virmach.jp.securevpn.cc","port":1020,"password":"202305312359000000000020","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵+JP+WikiHost","type":"ss","server":"wikihost.jp.securevpn.cc","port":1020,"password":"202305312359000000000020","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵+JP+软银","type":"ss","server":"v.ps.jp.securevpn.cc","port":1020,"password":"202305312359000000000020","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"新加坡+01","type":"trojan","server":"sg-csjc.85413.xyz","port":443,"udp":true,"password":"9b1a0a6a-22cf-48a7-bb90-b357363c7f3b","sni":"sg-csjc.85413.xyz","skip-cert-verify":true}
+  - {"name":"香港+04+高级IEPL中继","type":"ss","server":"s400l.ddns1.pw","port":21492,"password":"321b6b42-6aed-4834-94e5-0661d3487706","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港+02+高级IEPL中继","type":"ss","server":"s400l.ddns1.pw","port":21490,"password":"321b6b42-6aed-4834-94e5-0661d3487706","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港+01+高级IEPL中继","type":"ss","server":"s400l.ddns1.pw","port":21390,"password":"321b6b42-6aed-4834-94e5-0661d3487706","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"香港+01+高级BGP中继++2x","type":"ss","server":"s400l.ddns1.pw","port":21493,"password":"321b6b42-6aed-4834-94e5-0661d3487706","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"日本+03+高级IEPL中继","type":"ss","server":"s400l.ddns1.pw","port":21387,"password":"321b6b42-6aed-4834-94e5-0661d3487706","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"日本+01","type":"trojan","server":"jp-csjc.85413.xyz","port":443,"udp":true,"password":"9b1a0a6a-22cf-48a7-bb90-b357363c7f3b","sni":"jp-csjc.85413.xyz","skip-cert-verify":true}
+  - {"name":"美国 01","type":"vmess","server":"cdn-yx.syjd.xyz","port":443,"cipher":"auto","uuid":"9b1a0a6a-22cf-48a7-bb90-b357363c7f3b","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cdn","headers":{"host":"cdn-us.syjd.xyz"}}}
   - {"name":"🇺🇸+US+DigitalOcean","type":"ss","server":"do.us.securevpn.cc","port":1020,"password":"202305312359000000000020","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇺🇸US-23.224.110.184-0062","type":"vmess","server":"23.224.110.184","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/080712342310"}}
-  - {"name":"🇻🇳VN-103.29.2.53-3686","type":"vmess","server":"103.29.2.53","port":80,"cipher":"auto","uuid":"ec7c94b5-6ca6-4289-b44b-c6583f2c5f6c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/fuzzyng?ed=2048"}}
-  - {"name":"日本1|JP1","type":"trojan","server":"zf.heigouyunzf.xyz","port":38804,"udp":true,"password":"e958b47d-3510-445a-99cb-dc98d227e29e","sni":"rb1.heigouyunjd.xyz","skip-cert-verify":false}
-  - {"name":"台湾1|TW1","type":"trojan","server":"zf.heigouyunzf.xyz","port":38803,"udp":true,"password":"e958b47d-3510-445a-99cb-dc98d227e29e","sni":"tw1.heigouyunjd.xyz","skip-cert-verify":false}
-  - {"name":"香港|HK1","type":"trojan","server":"zf.heigouyunzf.xyz","port":38806,"udp":true,"password":"e958b47d-3510-445a-99cb-dc98d227e29e","sni":"xg3.heigouyunjd.xyz","skip-cert-verify":false}
-  - {"name":"香港3|HK3","type":"trojan","server":"zf.heigouyunzf.xyz","port":38805,"udp":true,"password":"e958b47d-3510-445a-99cb-dc98d227e29e","sni":"xg2.heigouyunjd.xyz","skip-cert-verify":false}
-  - {"name":"香港5|HK5","type":"trojan","server":"zf.heigouyunzf.xyz","port":38801,"udp":true,"password":"e958b47d-3510-445a-99cb-dc98d227e29e","sni":"xg1.heigouyunjd.xyz","skip-cert-verify":false}
+  - {"name":"🇸🇬 新加坡9|GPT|奈飞|","type":"vmess","server":"sg9.jisuyun.co","port":10442,"cipher":"auto","uuid":"6c2e6f19-5730-4d20-9e2f-e0c2b5b7e6be","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b","headers":{"host":"tlu.dl.delivery.mp.microsoft.com"}}}
+  - {"name":"🇸🇬 新加坡8|优化|","type":"vmess","server":"sg8.jisuyun.co","port":10046,"cipher":"auto","uuid":"6c2e6f19-5730-4d20-9e2f-e0c2b5b7e6be","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b","headers":{"host":"tlu.dl.delivery.mp.microsoft.com"}}}
+  - {"name":"🇸🇬+新加坡14","type":"trojan","server":"sg14.microsoft-orgwly.vip","port":24114,"udp":true,"password":"76120efb-4d66-4e35-9ca7-e46ad5b767d0","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
+  - {"name":"🇸🇬+新加坡12","type":"trojan","server":"sg12.microsoft-orgwly.vip","port":16789,"udp":true,"password":"76120efb-4d66-4e35-9ca7-e46ad5b767d0","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
+  - {"name":"🇸🇬+SG+aws","type":"ss","server":"aws.sg.securevpn.cc","port":1020,"password":"202305312359000000000020","cipher":"aes-128-gcm","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇯🇵+日本09","type":"trojan","server":"jp9.microsoft-orgwly.vip","port":80,"udp":true,"password":"76120efb-4d66-4e35-9ca7-e46ad5b767d0","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
+  - {"name":"🇭🇰+香港02|流媒体GPT","type":"trojan","server":"hk2.microsoft-orgwly.vip","port":443,"udp":true,"password":"76120efb-4d66-4e35-9ca7-e46ad5b767d0","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
+  - {"name":"🇨🇳CN-47.93.231.218-13617","type":"vmess","server":"47.93.231.218","port":53022,"cipher":"auto","uuid":"95fd7642-2160-4528-e909-3d526b533013","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"US美国01","type":"ss","server":"us2mj3hb.iplc.secretbase.club","port":57079,"password":"5a86b252-9814-49b3-a59c-ff4b00e14c97","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"SG新加坡02","type":"ss","server":"hk2v3qfqg.iplc.secretbase.club","port":54686,"password":"5a86b252-9814-49b3-a59c-ff4b00e14c97","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"NONE","type":"trojan","server":"cn2hn.sub-nthu.com","port":35002,"udp":true,"password":"87d5ee80-9dfa-4cb5-b644-062803bd0c19","skip-cert-verify":true}
+  - {"name":"JP日本07","type":"ss","server":"kr2nx3hys.iplc.secretbase.club","port":20323,"password":"5a86b252-9814-49b3-a59c-ff4b00e14c97","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"JP日本04","type":"ss","server":"kr2nx3hys.iplc.secretbase.club","port":35085,"password":"5a86b252-9814-49b3-a59c-ff4b00e14c97","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"JP日本02","type":"ss","server":"kr2nx3hys.iplc.secretbase.club","port":38103,"password":"5a86b252-9814-49b3-a59c-ff4b00e14c97","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"HK香港07","type":"ss","server":"hk2v3qfqg.iplc.secretbase.club","port":37937,"password":"5a86b252-9814-49b3-a59c-ff4b00e14c97","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"HK香港06","type":"ss","server":"hk2v3qfqg.iplc.secretbase.club","port":49490,"password":"5a86b252-9814-49b3-a59c-ff4b00e14c97","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"HK香港02","type":"ss","server":"hk2v3qfqg.iplc.secretbase.club","port":37105,"password":"5a86b252-9814-49b3-a59c-ff4b00e14c97","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"CN_34+|+0.37Mb","type":"ss","server":"36.139.166.244","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"CN_32+|+1.40Mb","type":"ss","server":"36.139.166.247","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"CN_29+|+1.63Mb","type":"ss","server":"36.137.106.115","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _NL_荷兰_2_0@4
-      - CN_41+|+0.17Mb
-      - CN_44+|+3.19Mb
-      - CN_47+|+0.46Mb
-      - CN_62
-      - CN_64
-      - CN_65
-      - CN_69🇨🇳CN_79
-      - CN_79🇨🇳CN_69
-      - Pool_+|+6.51Mb
-      - Relay_Relay_+|76.29Mb
-      - Relay_Relay_🇨🇦CA-🇨🇦CA_29+|+7.80Mb
-      - SG_180 |18.83Mb
-      - US_483+|19.69Mb
-      - US_663🇺🇸US_673
-      - 🇬🇧GB-178.239.171.103-1128
-      - 🇭🇰+HK+Kirino
-      - 🇭🇰+HK+xTom
-      - 🇭🇰香港+无限流量
-      - 🇯🇵+JP+GreenCloud
-      - 🇯🇵+JP+Kirino
-      - 🇯🇵+JP+VirMach
-      - 🇯🇵+JP+WikiHost
-      - 🇯🇵+JP+软银
+      - 新加坡+01
+      - 香港+04+高级IEPL中继
+      - 香港+02+高级IEPL中继
+      - 香港+01+高级IEPL中继
+      - 香港+01+高级BGP中继++2x
+      - 日本+03+高级IEPL中继
+      - 日本+01
+      - 美国 01
       - 🇺🇸+US+DigitalOcean
-      - 🇺🇸US-23.224.110.184-0062
-      - 🇻🇳VN-103.29.2.53-3686
-      - 日本1|JP1
-      - 台湾1|TW1
-      - 香港|HK1
-      - 香港3|HK3
-      - 香港5|HK5
+      - 🇸🇬 新加坡9|GPT|奈飞|
+      - 🇸🇬 新加坡8|优化|
+      - 🇸🇬+新加坡14
+      - 🇸🇬+新加坡12
+      - 🇸🇬+SG+aws
+      - 🇯🇵+日本09
+      - 🇭🇰+香港02|流媒体GPT
+      - 🇨🇳CN-47.93.231.218-13617
+      - US美国01
+      - SG新加坡02
+      - NONE
+      - JP日本07
+      - JP日本04
+      - JP日本02
+      - HK香港07
+      - HK香港06
+      - HK香港02
+      - CN_34+|+0.37Mb
+      - CN_32+|+1.40Mb
+      - CN_29+|+1.63Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - _NL_荷兰_2_0@4
-      - CN_41+|+0.17Mb
-      - CN_44+|+3.19Mb
-      - CN_47+|+0.46Mb
-      - CN_62
-      - CN_64
-      - CN_65
-      - CN_69🇨🇳CN_79
-      - CN_79🇨🇳CN_69
-      - Pool_+|+6.51Mb
-      - Relay_Relay_+|76.29Mb
-      - Relay_Relay_🇨🇦CA-🇨🇦CA_29+|+7.80Mb
-      - SG_180 |18.83Mb
-      - US_483+|19.69Mb
-      - US_663🇺🇸US_673
-      - 🇬🇧GB-178.239.171.103-1128
-      - 🇭🇰+HK+Kirino
-      - 🇭🇰+HK+xTom
-      - 🇭🇰香港+无限流量
-      - 🇯🇵+JP+GreenCloud
-      - 🇯🇵+JP+Kirino
-      - 🇯🇵+JP+VirMach
-      - 🇯🇵+JP+WikiHost
-      - 🇯🇵+JP+软银
+      - 新加坡+01
+      - 香港+04+高级IEPL中继
+      - 香港+02+高级IEPL中继
+      - 香港+01+高级IEPL中继
+      - 香港+01+高级BGP中继++2x
+      - 日本+03+高级IEPL中继
+      - 日本+01
+      - 美国 01
       - 🇺🇸+US+DigitalOcean
-      - 🇺🇸US-23.224.110.184-0062
-      - 🇻🇳VN-103.29.2.53-3686
-      - 日本1|JP1
-      - 台湾1|TW1
-      - 香港|HK1
-      - 香港3|HK3
-      - 香港5|HK5
+      - 🇸🇬 新加坡9|GPT|奈飞|
+      - 🇸🇬 新加坡8|优化|
+      - 🇸🇬+新加坡14
+      - 🇸🇬+新加坡12
+      - 🇸🇬+SG+aws
+      - 🇯🇵+日本09
+      - 🇭🇰+香港02|流媒体GPT
+      - 🇨🇳CN-47.93.231.218-13617
+      - US美国01
+      - SG新加坡02
+      - NONE
+      - JP日本07
+      - JP日本04
+      - JP日本02
+      - HK香港07
+      - HK香港06
+      - HK香港02
+      - CN_34+|+0.37Mb
+      - CN_32+|+1.40Mb
+      - CN_29+|+1.63Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _NL_荷兰_2_0@4
-      - CN_41+|+0.17Mb
-      - CN_44+|+3.19Mb
-      - CN_47+|+0.46Mb
-      - CN_62
-      - CN_64
-      - CN_65
-      - CN_69🇨🇳CN_79
-      - CN_79🇨🇳CN_69
-      - Pool_+|+6.51Mb
-      - Relay_Relay_+|76.29Mb
-      - Relay_Relay_🇨🇦CA-🇨🇦CA_29+|+7.80Mb
-      - SG_180 |18.83Mb
-      - US_483+|19.69Mb
-      - US_663🇺🇸US_673
-      - 🇬🇧GB-178.239.171.103-1128
-      - 🇭🇰+HK+Kirino
-      - 🇭🇰+HK+xTom
-      - 🇭🇰香港+无限流量
-      - 🇯🇵+JP+GreenCloud
-      - 🇯🇵+JP+Kirino
-      - 🇯🇵+JP+VirMach
-      - 🇯🇵+JP+WikiHost
-      - 🇯🇵+JP+软银
+      - 新加坡+01
+      - 香港+04+高级IEPL中继
+      - 香港+02+高级IEPL中继
+      - 香港+01+高级IEPL中继
+      - 香港+01+高级BGP中继++2x
+      - 日本+03+高级IEPL中继
+      - 日本+01
+      - 美国 01
       - 🇺🇸+US+DigitalOcean
-      - 🇺🇸US-23.224.110.184-0062
-      - 🇻🇳VN-103.29.2.53-3686
-      - 日本1|JP1
-      - 台湾1|TW1
-      - 香港|HK1
-      - 香港3|HK3
-      - 香港5|HK5
+      - 🇸🇬 新加坡9|GPT|奈飞|
+      - 🇸🇬 新加坡8|优化|
+      - 🇸🇬+新加坡14
+      - 🇸🇬+新加坡12
+      - 🇸🇬+SG+aws
+      - 🇯🇵+日本09
+      - 🇭🇰+香港02|流媒体GPT
+      - 🇨🇳CN-47.93.231.218-13617
+      - US美国01
+      - SG新加坡02
+      - NONE
+      - JP日本07
+      - JP日本04
+      - JP日本02
+      - HK香港07
+      - HK香港06
+      - HK香港02
+      - CN_34+|+0.37Mb
+      - CN_32+|+1.40Mb
+      - CN_29+|+1.63Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _NL_荷兰_2_0@4
-      - CN_41+|+0.17Mb
-      - CN_44+|+3.19Mb
-      - CN_47+|+0.46Mb
-      - CN_62
-      - CN_64
-      - CN_65
-      - CN_69🇨🇳CN_79
-      - CN_79🇨🇳CN_69
-      - Pool_+|+6.51Mb
-      - Relay_Relay_+|76.29Mb
-      - Relay_Relay_🇨🇦CA-🇨🇦CA_29+|+7.80Mb
-      - SG_180 |18.83Mb
-      - US_483+|19.69Mb
-      - US_663🇺🇸US_673
-      - 🇬🇧GB-178.239.171.103-1128
-      - 🇭🇰+HK+Kirino
-      - 🇭🇰+HK+xTom
-      - 🇭🇰香港+无限流量
-      - 🇯🇵+JP+GreenCloud
-      - 🇯🇵+JP+Kirino
-      - 🇯🇵+JP+VirMach
-      - 🇯🇵+JP+WikiHost
-      - 🇯🇵+JP+软银
+      - 新加坡+01
+      - 香港+04+高级IEPL中继
+      - 香港+02+高级IEPL中继
+      - 香港+01+高级IEPL中继
+      - 香港+01+高级BGP中继++2x
+      - 日本+03+高级IEPL中继
+      - 日本+01
+      - 美国 01
       - 🇺🇸+US+DigitalOcean
-      - 🇺🇸US-23.224.110.184-0062
-      - 🇻🇳VN-103.29.2.53-3686
-      - 日本1|JP1
-      - 台湾1|TW1
-      - 香港|HK1
-      - 香港3|HK3
-      - 香港5|HK5
+      - 🇸🇬 新加坡9|GPT|奈飞|
+      - 🇸🇬 新加坡8|优化|
+      - 🇸🇬+新加坡14
+      - 🇸🇬+新加坡12
+      - 🇸🇬+SG+aws
+      - 🇯🇵+日本09
+      - 🇭🇰+香港02|流媒体GPT
+      - 🇨🇳CN-47.93.231.218-13617
+      - US美国01
+      - SG新加坡02
+      - NONE
+      - JP日本07
+      - JP日本04
+      - JP日本02
+      - HK香港07
+      - HK香港06
+      - HK香港02
+      - CN_34+|+0.37Mb
+      - CN_32+|+1.40Mb
+      - CN_29+|+1.63Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _NL_荷兰_2_0@4
-      - CN_41+|+0.17Mb
-      - CN_44+|+3.19Mb
-      - CN_47+|+0.46Mb
-      - CN_62
-      - CN_64
-      - CN_65
-      - CN_69🇨🇳CN_79
-      - CN_79🇨🇳CN_69
-      - Pool_+|+6.51Mb
-      - Relay_Relay_+|76.29Mb
-      - Relay_Relay_🇨🇦CA-🇨🇦CA_29+|+7.80Mb
-      - SG_180 |18.83Mb
-      - US_483+|19.69Mb
-      - US_663🇺🇸US_673
-      - 🇬🇧GB-178.239.171.103-1128
-      - 🇭🇰+HK+Kirino
-      - 🇭🇰+HK+xTom
-      - 🇭🇰香港+无限流量
-      - 🇯🇵+JP+GreenCloud
-      - 🇯🇵+JP+Kirino
-      - 🇯🇵+JP+VirMach
-      - 🇯🇵+JP+WikiHost
-      - 🇯🇵+JP+软银
+      - 新加坡+01
+      - 香港+04+高级IEPL中继
+      - 香港+02+高级IEPL中继
+      - 香港+01+高级IEPL中继
+      - 香港+01+高级BGP中继++2x
+      - 日本+03+高级IEPL中继
+      - 日本+01
+      - 美国 01
       - 🇺🇸+US+DigitalOcean
-      - 🇺🇸US-23.224.110.184-0062
-      - 🇻🇳VN-103.29.2.53-3686
-      - 日本1|JP1
-      - 台湾1|TW1
-      - 香港|HK1
-      - 香港3|HK3
-      - 香港5|HK5
+      - 🇸🇬 新加坡9|GPT|奈飞|
+      - 🇸🇬 新加坡8|优化|
+      - 🇸🇬+新加坡14
+      - 🇸🇬+新加坡12
+      - 🇸🇬+SG+aws
+      - 🇯🇵+日本09
+      - 🇭🇰+香港02|流媒体GPT
+      - 🇨🇳CN-47.93.231.218-13617
+      - US美国01
+      - SG新加坡02
+      - NONE
+      - JP日本07
+      - JP日本04
+      - JP日本02
+      - HK香港07
+      - HK香港06
+      - HK香港02
+      - CN_34+|+0.37Mb
+      - CN_32+|+1.40Mb
+      - CN_29+|+1.63Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _NL_荷兰_2_0@4
-      - CN_41+|+0.17Mb
-      - CN_44+|+3.19Mb
-      - CN_47+|+0.46Mb
-      - CN_62
-      - CN_64
-      - CN_65
-      - CN_69🇨🇳CN_79
-      - CN_79🇨🇳CN_69
-      - Pool_+|+6.51Mb
-      - Relay_Relay_+|76.29Mb
-      - Relay_Relay_🇨🇦CA-🇨🇦CA_29+|+7.80Mb
-      - SG_180 |18.83Mb
-      - US_483+|19.69Mb
-      - US_663🇺🇸US_673
-      - 🇬🇧GB-178.239.171.103-1128
-      - 🇭🇰+HK+Kirino
-      - 🇭🇰+HK+xTom
-      - 🇭🇰香港+无限流量
-      - 🇯🇵+JP+GreenCloud
-      - 🇯🇵+JP+Kirino
-      - 🇯🇵+JP+VirMach
-      - 🇯🇵+JP+WikiHost
-      - 🇯🇵+JP+软银
+      - 新加坡+01
+      - 香港+04+高级IEPL中继
+      - 香港+02+高级IEPL中继
+      - 香港+01+高级IEPL中继
+      - 香港+01+高级BGP中继++2x
+      - 日本+03+高级IEPL中继
+      - 日本+01
+      - 美国 01
       - 🇺🇸+US+DigitalOcean
-      - 🇺🇸US-23.224.110.184-0062
-      - 🇻🇳VN-103.29.2.53-3686
-      - 日本1|JP1
-      - 台湾1|TW1
-      - 香港|HK1
-      - 香港3|HK3
-      - 香港5|HK5
+      - 🇸🇬 新加坡9|GPT|奈飞|
+      - 🇸🇬 新加坡8|优化|
+      - 🇸🇬+新加坡14
+      - 🇸🇬+新加坡12
+      - 🇸🇬+SG+aws
+      - 🇯🇵+日本09
+      - 🇭🇰+香港02|流媒体GPT
+      - 🇨🇳CN-47.93.231.218-13617
+      - US美国01
+      - SG新加坡02
+      - NONE
+      - JP日本07
+      - JP日本04
+      - JP日本02
+      - HK香港07
+      - HK香港06
+      - HK香港02
+      - CN_34+|+0.37Mb
+      - CN_32+|+1.40Mb
+      - CN_29+|+1.63Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -300,38 +279,35 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _NL_荷兰_2_0@4
-      - CN_41+|+0.17Mb
-      - CN_44+|+3.19Mb
-      - CN_47+|+0.46Mb
-      - CN_62
-      - CN_64
-      - CN_65
-      - CN_69🇨🇳CN_79
-      - CN_79🇨🇳CN_69
-      - Pool_+|+6.51Mb
-      - Relay_Relay_+|76.29Mb
-      - Relay_Relay_🇨🇦CA-🇨🇦CA_29+|+7.80Mb
-      - SG_180 |18.83Mb
-      - US_483+|19.69Mb
-      - US_663🇺🇸US_673
-      - 🇬🇧GB-178.239.171.103-1128
-      - 🇭🇰+HK+Kirino
-      - 🇭🇰+HK+xTom
-      - 🇭🇰香港+无限流量
-      - 🇯🇵+JP+GreenCloud
-      - 🇯🇵+JP+Kirino
-      - 🇯🇵+JP+VirMach
-      - 🇯🇵+JP+WikiHost
-      - 🇯🇵+JP+软银
+      - 新加坡+01
+      - 香港+04+高级IEPL中继
+      - 香港+02+高级IEPL中继
+      - 香港+01+高级IEPL中继
+      - 香港+01+高级BGP中继++2x
+      - 日本+03+高级IEPL中继
+      - 日本+01
+      - 美国 01
       - 🇺🇸+US+DigitalOcean
-      - 🇺🇸US-23.224.110.184-0062
-      - 🇻🇳VN-103.29.2.53-3686
-      - 日本1|JP1
-      - 台湾1|TW1
-      - 香港|HK1
-      - 香港3|HK3
-      - 香港5|HK5
+      - 🇸🇬 新加坡9|GPT|奈飞|
+      - 🇸🇬 新加坡8|优化|
+      - 🇸🇬+新加坡14
+      - 🇸🇬+新加坡12
+      - 🇸🇬+SG+aws
+      - 🇯🇵+日本09
+      - 🇭🇰+香港02|流媒体GPT
+      - 🇨🇳CN-47.93.231.218-13617
+      - US美国01
+      - SG新加坡02
+      - NONE
+      - JP日本07
+      - JP日本04
+      - JP日本02
+      - HK香港07
+      - HK香港06
+      - HK香港02
+      - CN_34+|+0.37Mb
+      - CN_32+|+1.40Mb
+      - CN_29+|+1.63Mb
 
 rules:
 # 本地/局域网地址
