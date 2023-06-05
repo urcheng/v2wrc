@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-06-02 14:08:28
+# 创建时间：2023-06-05 09:29:54
 # 使用模版：V2RaySE 默认模版
-# 节点数量：6
+# 节点数量：35
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,81 +21,284 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"深港IEPL中继日本ONE","type":"vmess","server":"120.233.27.138","port":32001,"cipher":"auto","uuid":"a8974bec-526d-4b4e-a46f-f0d6626ca576","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"120.233.27.138"}}}
-  - {"name":"🇺🇸US-45.83.21.244-0171","type":"vmess","server":"45.83.21.244","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1685094923408","headers":{"host":"www.79367975.xyz"}}}
-  - {"name":"TG节点分享频道@zyfx8 12","type":"vmess","server":"111.6.86.76","port":21322,"cipher":"auto","uuid":"dbbde4f0-802a-3024-8814-7f6a132940d6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"深港IEPL中继日本CMI","type":"vmess","server":"120.233.27.138","port":34743,"cipher":"auto","uuid":"a8974bec-526d-4b4e-a46f-f0d6626ca576","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"120.233.27.138"}}}
-  - {"name":"CN_52+|+3.19Mb","type":"ss","server":"36.139.166.231","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"CN_36+|+1.63Mb","type":"ss","server":"36.137.106.115","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
+  - {"name":"新加坡免流专线8","type":"vmess","server":"13.215.190.191","port":80,"cipher":"auto","uuid":"1d5408af-fedc-48f6-9023-0fb5ef8271c3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aws-china-media/Y699Gjx2rNw.mp4","headers":{"host":"%7B%22Host%22:%22media.amazonwebservices.com%22%7D"}}}
+  - {"name":"🏁RELAY-104.21.56.221-1970","type":"vmess","server":"cloudflare.piaole.me","port":443,"cipher":"auto","uuid":"e8dacfc5-79b1-4289-92f1-e390080d56aa","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"cloudflare.piaole.me","network":"ws","ws-opts":{"path":"/huawei","headers":{"host":"cloudflare.piaole.me"}}}
+  - {"name":"🇺🇸US-23.224.110.182-1745","type":"vmess","server":"23.224.110.182","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/080712342310"}}
+  - {"name":"🇨🇳CN-120.241.117.59-0261","type":"trojan","server":"assets.flareai.site","port":13543,"udp":true,"password":"d0d24d5b-54ae-40a0-ab68-889dbd4b8a66","skip-cert-verify":true}
+  - {"name":"🇨🇳@zyfx8+++TG节点分享频道_1","type":"ss","server":"South_01.cuix.xyz","port":50001,"password":"f6cb561a-a513-465f-a248-0f2ce1c876c3","cipher":"aes-128-gcm"}
+  - {"name":"🇨🇳@zyfx8+++TG节点分享频道_2","type":"ss","server":"South_01.cuix.xyz","port":50002,"password":"f6cb561a-a513-465f-a248-0f2ce1c876c3","cipher":"aes-128-gcm"}
+  - {"name":"US_205+|58.95Mb","type":"ss","server":"38.64.138.145","port":7001,"password":"RexnBgU7EV5ADxG","cipher":"aes-256-gcm"}
+  - {"name":"render_singapore_tls","type":"vmess","server":"cdn.anycast.eu.org","port":443,"cipher":"auto","uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"gold-del-parish-passed.trycloudflare.com","network":"ws","ws-opts":{"path":"","headers":{"host":"gold-del-parish-passed.trycloudflare.com"}}}
+  - {"name":"render_singapore","type":"vmess","server":"cdn.anycast.eu.org","port":80,"cipher":"auto","uuid":"ffffffff-ffff-ffff-ffff-ffffffffffff","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"","headers":{"host":"gold-del-parish-passed.trycloudflare.com"}}}
+  - {"name":"Alien_1","type":"vmess","server":"jp.nodegroups.ink","port":33211,"cipher":"chacha20-poly1305","uuid":"64b3535b-4833-342d-9efc-d9666783eb20","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Alien_2","type":"vmess","server":"hk.nodegroups.ink","port":33218,"cipher":"chacha20-poly1305","uuid":"64b3535b-4833-342d-9efc-d9666783eb20","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Alien_3","type":"vmess","server":"gz.cm.bbcc.cyou","port":33203,"cipher":"chacha20-poly1305","uuid":"64b3535b-4833-342d-9efc-d9666783eb20","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Alien_4","type":"vmess","server":"hk.nodegroups.ink","port":33219,"cipher":"chacha20-poly1305","uuid":"64b3535b-4833-342d-9efc-d9666783eb20","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Alien_5","type":"vmess","server":"cdn.jike.cyou","port":50039,"cipher":"auto","uuid":"a560eaeb-fae7-456a-944d-3e4cbffe69c6","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"|+4.28Mb","type":"ss","server":"38.64.138.145","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"|+4.05Mb","type":"ss","server":"38.64.138.145","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"|+2.19Mb","type":"ss","server":"38.64.138.145","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
+  - {"name":"@zyfx8   TG节点分享频道 8","type":"vmess","server":"sg.nodegroups.ink","port":33910,"cipher":"auto","uuid":"eb59d63a-4ad6-349f-a708-3bab087b3c3d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@zyfx8   TG节点分享频道 7","type":"vmess","server":"jp.nodegroups.ink","port":33211,"cipher":"auto","uuid":"eb59d63a-4ad6-349f-a708-3bab087b3c3d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@zyfx8+++TG节点分享频道+6","type":"ss","server":"south_01.cuix.xyz","port":50001,"password":"f6cb561a-a513-465f-a248-0f2ce1c876c3","cipher":"aes-128-gcm"}
+  - {"name":"@zyfx8+++TG节点分享频道+5","type":"ss","server":"south_01.cuix.xyz","port":50002,"password":"f6cb561a-a513-465f-a248-0f2ce1c876c3","cipher":"aes-128-gcm"}
+  - {"name":"@zyfx8   TG节点分享频道 5","type":"vmess","server":"jp.nodegroups.ink","port":33212,"cipher":"auto","uuid":"eb59d63a-4ad6-349f-a708-3bab087b3c3d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@zyfx8+++TG节点分享频道+3","type":"ss","server":"east_01.cuix.xyz","port":50004,"password":"f6cb561a-a513-465f-a248-0f2ce1c876c3","cipher":"aes-128-gcm"}
+  - {"name":"@zyfx8   TG节点分享频道 22","type":"vmess","server":"hk.nodegroups.ink","port":33205,"cipher":"auto","uuid":"39f0f421-f682-3dc4-978b-4fede14e65aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@zyfx8   TG节点分享频道 21","type":"vmess","server":"sg.nodegroups.ink","port":33215,"cipher":"auto","uuid":"39f0f421-f682-3dc4-978b-4fede14e65aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@zyfx8+++TG节点分享频道+2","type":"ss","server":"east_01.cuix.xyz","port":50005,"password":"f6cb561a-a513-465f-a248-0f2ce1c876c3","cipher":"aes-128-gcm"}
+  - {"name":"@zyfx8   TG节点分享频道 19","type":"vmess","server":"hk.nodegroups.ink","port":33218,"cipher":"auto","uuid":"39f0f421-f682-3dc4-978b-4fede14e65aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@zyfx8   TG节点分享频道 18","type":"vmess","server":"sg.nodegroups.ink","port":33910,"cipher":"auto","uuid":"39f0f421-f682-3dc4-978b-4fede14e65aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@zyfx8   TG节点分享频道 17","type":"vmess","server":"jp.nodegroups.ink","port":33212,"cipher":"auto","uuid":"39f0f421-f682-3dc4-978b-4fede14e65aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@zyfx8   TG节点分享频道 15","type":"vmess","server":"hk.nodegroups.ink","port":33204,"cipher":"auto","uuid":"39f0f421-f682-3dc4-978b-4fede14e65aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@zyfx8   TG节点分享频道 14","type":"vmess","server":"hk.nodegroups.ink","port":33219,"cipher":"auto","uuid":"39f0f421-f682-3dc4-978b-4fede14e65aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@zyfx8   TG节点分享频道 13","type":"vmess","server":"sg.nodegroups.ink","port":33214,"cipher":"auto","uuid":"39f0f421-f682-3dc4-978b-4fede14e65aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@zyfx8   TG节点分享频道 12","type":"vmess","server":"hk.nodegroups.ink","port":33218,"cipher":"auto","uuid":"eb59d63a-4ad6-349f-a708-3bab087b3c3d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@zyfx8   TG节点分享频道 10","type":"vmess","server":"hk.nodegroups.ink","port":33204,"cipher":"auto","uuid":"eb59d63a-4ad6-349f-a708-3bab087b3c3d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"@zyfx8+++TG节点分享频道","type":"ss","server":"east_01.cuix.xyz","port":50006,"password":"f6cb561a-a513-465f-a248-0f2ce1c876c3","cipher":"aes-128-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 深港IEPL中继日本ONE
-      - 🇺🇸US-45.83.21.244-0171
-      - TG节点分享频道@zyfx8 12
-      - 深港IEPL中继日本CMI
-      - CN_52+|+3.19Mb
-      - CN_36+|+1.63Mb
+      - 新加坡免流专线8
+      - 🏁RELAY-104.21.56.221-1970
+      - 🇺🇸US-23.224.110.182-1745
+      - 🇨🇳CN-120.241.117.59-0261
+      - 🇨🇳@zyfx8+++TG节点分享频道_1
+      - 🇨🇳@zyfx8+++TG节点分享频道_2
+      - US_205+|58.95Mb
+      - render_singapore_tls
+      - render_singapore
+      - Alien_1
+      - Alien_2
+      - Alien_3
+      - Alien_4
+      - Alien_5
+      - '|+4.28Mb'
+      - '|+4.05Mb'
+      - '|+2.19Mb'
+      - '@zyfx8   TG节点分享频道 8'
+      - '@zyfx8   TG节点分享频道 7'
+      - '@zyfx8+++TG节点分享频道+6'
+      - '@zyfx8+++TG节点分享频道+5'
+      - '@zyfx8   TG节点分享频道 5'
+      - '@zyfx8+++TG节点分享频道+3'
+      - '@zyfx8   TG节点分享频道 22'
+      - '@zyfx8   TG节点分享频道 21'
+      - '@zyfx8+++TG节点分享频道+2'
+      - '@zyfx8   TG节点分享频道 19'
+      - '@zyfx8   TG节点分享频道 18'
+      - '@zyfx8   TG节点分享频道 17'
+      - '@zyfx8   TG节点分享频道 15'
+      - '@zyfx8   TG节点分享频道 14'
+      - '@zyfx8   TG节点分享频道 13'
+      - '@zyfx8   TG节点分享频道 12'
+      - '@zyfx8   TG节点分享频道 10'
+      - '@zyfx8+++TG节点分享频道'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 深港IEPL中继日本ONE
-      - 🇺🇸US-45.83.21.244-0171
-      - TG节点分享频道@zyfx8 12
-      - 深港IEPL中继日本CMI
-      - CN_52+|+3.19Mb
-      - CN_36+|+1.63Mb
+      - 新加坡免流专线8
+      - 🏁RELAY-104.21.56.221-1970
+      - 🇺🇸US-23.224.110.182-1745
+      - 🇨🇳CN-120.241.117.59-0261
+      - 🇨🇳@zyfx8+++TG节点分享频道_1
+      - 🇨🇳@zyfx8+++TG节点分享频道_2
+      - US_205+|58.95Mb
+      - render_singapore_tls
+      - render_singapore
+      - Alien_1
+      - Alien_2
+      - Alien_3
+      - Alien_4
+      - Alien_5
+      - '|+4.28Mb'
+      - '|+4.05Mb'
+      - '|+2.19Mb'
+      - '@zyfx8   TG节点分享频道 8'
+      - '@zyfx8   TG节点分享频道 7'
+      - '@zyfx8+++TG节点分享频道+6'
+      - '@zyfx8+++TG节点分享频道+5'
+      - '@zyfx8   TG节点分享频道 5'
+      - '@zyfx8+++TG节点分享频道+3'
+      - '@zyfx8   TG节点分享频道 22'
+      - '@zyfx8   TG节点分享频道 21'
+      - '@zyfx8+++TG节点分享频道+2'
+      - '@zyfx8   TG节点分享频道 19'
+      - '@zyfx8   TG节点分享频道 18'
+      - '@zyfx8   TG节点分享频道 17'
+      - '@zyfx8   TG节点分享频道 15'
+      - '@zyfx8   TG节点分享频道 14'
+      - '@zyfx8   TG节点分享频道 13'
+      - '@zyfx8   TG节点分享频道 12'
+      - '@zyfx8   TG节点分享频道 10'
+      - '@zyfx8+++TG节点分享频道'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 深港IEPL中继日本ONE
-      - 🇺🇸US-45.83.21.244-0171
-      - TG节点分享频道@zyfx8 12
-      - 深港IEPL中继日本CMI
-      - CN_52+|+3.19Mb
-      - CN_36+|+1.63Mb
+      - 新加坡免流专线8
+      - 🏁RELAY-104.21.56.221-1970
+      - 🇺🇸US-23.224.110.182-1745
+      - 🇨🇳CN-120.241.117.59-0261
+      - 🇨🇳@zyfx8+++TG节点分享频道_1
+      - 🇨🇳@zyfx8+++TG节点分享频道_2
+      - US_205+|58.95Mb
+      - render_singapore_tls
+      - render_singapore
+      - Alien_1
+      - Alien_2
+      - Alien_3
+      - Alien_4
+      - Alien_5
+      - '|+4.28Mb'
+      - '|+4.05Mb'
+      - '|+2.19Mb'
+      - '@zyfx8   TG节点分享频道 8'
+      - '@zyfx8   TG节点分享频道 7'
+      - '@zyfx8+++TG节点分享频道+6'
+      - '@zyfx8+++TG节点分享频道+5'
+      - '@zyfx8   TG节点分享频道 5'
+      - '@zyfx8+++TG节点分享频道+3'
+      - '@zyfx8   TG节点分享频道 22'
+      - '@zyfx8   TG节点分享频道 21'
+      - '@zyfx8+++TG节点分享频道+2'
+      - '@zyfx8   TG节点分享频道 19'
+      - '@zyfx8   TG节点分享频道 18'
+      - '@zyfx8   TG节点分享频道 17'
+      - '@zyfx8   TG节点分享频道 15'
+      - '@zyfx8   TG节点分享频道 14'
+      - '@zyfx8   TG节点分享频道 13'
+      - '@zyfx8   TG节点分享频道 12'
+      - '@zyfx8   TG节点分享频道 10'
+      - '@zyfx8+++TG节点分享频道'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 深港IEPL中继日本ONE
-      - 🇺🇸US-45.83.21.244-0171
-      - TG节点分享频道@zyfx8 12
-      - 深港IEPL中继日本CMI
-      - CN_52+|+3.19Mb
-      - CN_36+|+1.63Mb
+      - 新加坡免流专线8
+      - 🏁RELAY-104.21.56.221-1970
+      - 🇺🇸US-23.224.110.182-1745
+      - 🇨🇳CN-120.241.117.59-0261
+      - 🇨🇳@zyfx8+++TG节点分享频道_1
+      - 🇨🇳@zyfx8+++TG节点分享频道_2
+      - US_205+|58.95Mb
+      - render_singapore_tls
+      - render_singapore
+      - Alien_1
+      - Alien_2
+      - Alien_3
+      - Alien_4
+      - Alien_5
+      - '|+4.28Mb'
+      - '|+4.05Mb'
+      - '|+2.19Mb'
+      - '@zyfx8   TG节点分享频道 8'
+      - '@zyfx8   TG节点分享频道 7'
+      - '@zyfx8+++TG节点分享频道+6'
+      - '@zyfx8+++TG节点分享频道+5'
+      - '@zyfx8   TG节点分享频道 5'
+      - '@zyfx8+++TG节点分享频道+3'
+      - '@zyfx8   TG节点分享频道 22'
+      - '@zyfx8   TG节点分享频道 21'
+      - '@zyfx8+++TG节点分享频道+2'
+      - '@zyfx8   TG节点分享频道 19'
+      - '@zyfx8   TG节点分享频道 18'
+      - '@zyfx8   TG节点分享频道 17'
+      - '@zyfx8   TG节点分享频道 15'
+      - '@zyfx8   TG节点分享频道 14'
+      - '@zyfx8   TG节点分享频道 13'
+      - '@zyfx8   TG节点分享频道 12'
+      - '@zyfx8   TG节点分享频道 10'
+      - '@zyfx8+++TG节点分享频道'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 深港IEPL中继日本ONE
-      - 🇺🇸US-45.83.21.244-0171
-      - TG节点分享频道@zyfx8 12
-      - 深港IEPL中继日本CMI
-      - CN_52+|+3.19Mb
-      - CN_36+|+1.63Mb
+      - 新加坡免流专线8
+      - 🏁RELAY-104.21.56.221-1970
+      - 🇺🇸US-23.224.110.182-1745
+      - 🇨🇳CN-120.241.117.59-0261
+      - 🇨🇳@zyfx8+++TG节点分享频道_1
+      - 🇨🇳@zyfx8+++TG节点分享频道_2
+      - US_205+|58.95Mb
+      - render_singapore_tls
+      - render_singapore
+      - Alien_1
+      - Alien_2
+      - Alien_3
+      - Alien_4
+      - Alien_5
+      - '|+4.28Mb'
+      - '|+4.05Mb'
+      - '|+2.19Mb'
+      - '@zyfx8   TG节点分享频道 8'
+      - '@zyfx8   TG节点分享频道 7'
+      - '@zyfx8+++TG节点分享频道+6'
+      - '@zyfx8+++TG节点分享频道+5'
+      - '@zyfx8   TG节点分享频道 5'
+      - '@zyfx8+++TG节点分享频道+3'
+      - '@zyfx8   TG节点分享频道 22'
+      - '@zyfx8   TG节点分享频道 21'
+      - '@zyfx8+++TG节点分享频道+2'
+      - '@zyfx8   TG节点分享频道 19'
+      - '@zyfx8   TG节点分享频道 18'
+      - '@zyfx8   TG节点分享频道 17'
+      - '@zyfx8   TG节点分享频道 15'
+      - '@zyfx8   TG节点分享频道 14'
+      - '@zyfx8   TG节点分享频道 13'
+      - '@zyfx8   TG节点分享频道 12'
+      - '@zyfx8   TG节点分享频道 10'
+      - '@zyfx8+++TG节点分享频道'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 深港IEPL中继日本ONE
-      - 🇺🇸US-45.83.21.244-0171
-      - TG节点分享频道@zyfx8 12
-      - 深港IEPL中继日本CMI
-      - CN_52+|+3.19Mb
-      - CN_36+|+1.63Mb
+      - 新加坡免流专线8
+      - 🏁RELAY-104.21.56.221-1970
+      - 🇺🇸US-23.224.110.182-1745
+      - 🇨🇳CN-120.241.117.59-0261
+      - 🇨🇳@zyfx8+++TG节点分享频道_1
+      - 🇨🇳@zyfx8+++TG节点分享频道_2
+      - US_205+|58.95Mb
+      - render_singapore_tls
+      - render_singapore
+      - Alien_1
+      - Alien_2
+      - Alien_3
+      - Alien_4
+      - Alien_5
+      - '|+4.28Mb'
+      - '|+4.05Mb'
+      - '|+2.19Mb'
+      - '@zyfx8   TG节点分享频道 8'
+      - '@zyfx8   TG节点分享频道 7'
+      - '@zyfx8+++TG节点分享频道+6'
+      - '@zyfx8+++TG节点分享频道+5'
+      - '@zyfx8   TG节点分享频道 5'
+      - '@zyfx8+++TG节点分享频道+3'
+      - '@zyfx8   TG节点分享频道 22'
+      - '@zyfx8   TG节点分享频道 21'
+      - '@zyfx8+++TG节点分享频道+2'
+      - '@zyfx8   TG节点分享频道 19'
+      - '@zyfx8   TG节点分享频道 18'
+      - '@zyfx8   TG节点分享频道 17'
+      - '@zyfx8   TG节点分享频道 15'
+      - '@zyfx8   TG节点分享频道 14'
+      - '@zyfx8   TG节点分享频道 13'
+      - '@zyfx8   TG节点分享频道 12'
+      - '@zyfx8   TG节点分享频道 10'
+      - '@zyfx8+++TG节点分享频道'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -118,12 +321,41 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 深港IEPL中继日本ONE
-      - 🇺🇸US-45.83.21.244-0171
-      - TG节点分享频道@zyfx8 12
-      - 深港IEPL中继日本CMI
-      - CN_52+|+3.19Mb
-      - CN_36+|+1.63Mb
+      - 新加坡免流专线8
+      - 🏁RELAY-104.21.56.221-1970
+      - 🇺🇸US-23.224.110.182-1745
+      - 🇨🇳CN-120.241.117.59-0261
+      - 🇨🇳@zyfx8+++TG节点分享频道_1
+      - 🇨🇳@zyfx8+++TG节点分享频道_2
+      - US_205+|58.95Mb
+      - render_singapore_tls
+      - render_singapore
+      - Alien_1
+      - Alien_2
+      - Alien_3
+      - Alien_4
+      - Alien_5
+      - '|+4.28Mb'
+      - '|+4.05Mb'
+      - '|+2.19Mb'
+      - '@zyfx8   TG节点分享频道 8'
+      - '@zyfx8   TG节点分享频道 7'
+      - '@zyfx8+++TG节点分享频道+6'
+      - '@zyfx8+++TG节点分享频道+5'
+      - '@zyfx8   TG节点分享频道 5'
+      - '@zyfx8+++TG节点分享频道+3'
+      - '@zyfx8   TG节点分享频道 22'
+      - '@zyfx8   TG节点分享频道 21'
+      - '@zyfx8+++TG节点分享频道+2'
+      - '@zyfx8   TG节点分享频道 19'
+      - '@zyfx8   TG节点分享频道 18'
+      - '@zyfx8   TG节点分享频道 17'
+      - '@zyfx8   TG节点分享频道 15'
+      - '@zyfx8   TG节点分享频道 14'
+      - '@zyfx8   TG节点分享频道 13'
+      - '@zyfx8   TG节点分享频道 12'
+      - '@zyfx8   TG节点分享频道 10'
+      - '@zyfx8+++TG节点分享频道'
 
 rules:
 # 本地/局域网地址
