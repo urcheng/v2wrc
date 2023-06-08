@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-06-07 09:00:08
+# 创建时间：2023-06-08 09:11:31
 # 使用模版：V2RaySE 默认模版
-# 节点数量：56
+# 节点数量：9
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,431 +21,102 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"defaultName","type":"ss","server":"36.137.106.45","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"|+7.59Mb","type":"trojan","server":"fscjp.fscloud123456789.com","port":443,"udp":true,"password":"b244e655-a76c-4801-b1ec-6cac34e2a51b","skip-cert-verify":true}
-  - {"name":"|+7.92Mb","type":"trojan","server":"cz.v212.fun","port":443,"udp":true,"password":"9c7a49a2-ddff-4654-925b-baa7913dbc56","skip-cert-verify":true}
-  - {"name":"|10.42Mb","type":"trojan","server":"cat-1.opensvr.net","port":443,"udp":true,"password":"opentunnel.net-wd3dzt4j9yoy","skip-cert-verify":true}
-  - {"name":"|14.85Mb","type":"trojan","server":"kh.mjt001.com","port":443,"udp":true,"password":"2f31805a-b9e0-4b7b-808f-c7971332d068","skip-cert-verify":true}
-  - {"name":"|15.92Mb","type":"trojan","server":"il.mjt001.com","port":443,"udp":true,"password":"2f31805a-b9e0-4b7b-808f-c7971332d068","skip-cert-verify":true}
-  - {"name":"|19.38Mb","type":"trojan","server":"ua.mjt001.com","port":443,"udp":true,"password":"9d3b1e0e-252a-4c67-9628-8b62e77197e7","skip-cert-verify":true}
-  - {"name":"|35.78Mb","type":"trojan","server":"zz6.91js.pw","port":10051,"udp":true,"password":"a13820c547fa34c5c45515c12f0cd576","skip-cert-verify":true}
-  - {"name":"AU_12+|27.48Mb","type":"trojan","server":"fscus.fscloud123456789.com","port":443,"udp":true,"password":"514b8c92-12da-4219-b06c-56ecc67dfa23","skip-cert-verify":true}
-  - {"name":"CN_29+|+1.40Mb","type":"ss","server":"36.139.166.247","port":11023,"password":"ll668668@","cipher":"aes-256-gcm"}
-  - {"name":"IL_117+|18.38Mb","type":"trojan","server":"hk1.chuqiangtou.net","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
-  - {"name":"NONE_1","type":"trojan","server":"jp.mjt001.com","port":443,"udp":true,"password":"b00ac480-3e34-4ca9-8b3b-0b4515e4b75d","skip-cert-verify":true}
-  - {"name":"NONE_2","type":"trojan","server":"tw.softbank.mjj-home.com","port":443,"udp":true,"password":"share.mjj-home.com","skip-cert-verify":true}
-  - {"name":"NONE_3","type":"trojan","server":"share.softbank.mjj-home.com","port":443,"udp":true,"password":"share.mjj-home.com","skip-cert-verify":true}
-  - {"name":"NONE_4","type":"trojan","server":"13.38.55.14","port":443,"udp":true,"password":"iyinglong","skip-cert-verify":true}
-  - {"name":"NONE_5","type":"trojan","server":"184.168.127.50","port":443,"udp":true,"password":"a3fa58b581353bb375d2ddad0f327938","skip-cert-verify":true}
-  - {"name":"NONE_6","type":"trojan","server":"72.167.45.6","port":443,"udp":true,"password":"28d98f761aca9d636f44db62544628eb","skip-cert-verify":true}
-  - {"name":"US_550+|10.07Mb","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
-  - {"name":"🇦🇺AU-103.224.212.221-5728","type":"trojan","server":"eu-east-ruo.openssl3.com","port":443,"udp":true,"password":"9KogHwaY7hVD","sni":"eu-east-ruo.openssl3.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.167.41.198-5387","type":"trojan","server":"official.tokyometropolis.odesa.ua","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.167.41.198-5529","type":"trojan","server":"official.tokyometropolis.kharkov.ua","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.167.41.198-5642","type":"trojan","server":"official.tokyometropolis.kyiv.ua","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.167.41.198-5669","type":"trojan","server":"official.tokyometropolis.chernigov.ua","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.167.41.198-5807","type":"trojan","server":"official.tokyometropolis.kiev.ua","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.167.41.233-5752","type":"trojan","server":"jp07a.roc-taiwan.org.ua","port":65017,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.167.41.233-5804","type":"trojan","server":"jp06a.roc-taiwan.org.ua","port":65016,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-47.93.231.218-13357","type":"vmess","server":"47.93.231.218","port":53022,"cipher":"auto","uuid":"95fd7642-2160-4528-e909-3d526b533013","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇭🇰HK-43.159.201.107-4857","type":"trojan","server":"jisu.chews.cn","port":443,"udp":true,"password":"fuckyou444444","sni":"hi.fuckyou.com","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-133.167.100.203-5526","type":"trojan","server":"133.167.100.203","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-160.16.145.107-5566","type":"trojan","server":"160.16.145.107","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-20.18.56.250-1885","type":"trojan","server":"fscus.fscloud123456789.com","port":443,"udp":true,"password":"1099d8f0-7f44-40e2-ab94-98cbc31f6149","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-20.222.167.5-1912","type":"trojan","server":"fschk.fscloud123456789.com","port":443,"udp":true,"password":"38541d74-6ffd-4352-988d-715ee989947c","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-49.212.221.47-5400","type":"trojan","server":"49.212.221.47","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇰🇷KR-146.56.189.146-5841","type":"trojan","server":"146.56.189.146","port":443,"udp":true,"password":"f2117e99-9b6e-47fd-b0a9-634a0b15b998","skip-cert-verify":true}
-  - {"name":"🇳🇱NL-147.78.240.92-1430","type":"trojan","server":"tj2.dalazhi.eu.org","port":443,"udp":true,"password":"23fd9f2e-7ff8-4d98-8099-8acce9499433","skip-cert-verify":true}
-  - {"name":"🇸🇬SG-4.194.53.179-2008","type":"trojan","server":"hinet.mjt001.com","port":443,"udp":true,"password":"74400921-f59f-4009-b52a-c2789b49fab6","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-211.72.35.152-5386","type":"trojan","server":"211.72.35.152","port":3389,"udp":true,"password":"b84d16a244460e09","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-211.72.35.152-6422","type":"trojan","server":"211.72.35.152","port":3389,"udp":true,"password":"7b06d22a8a7c764f","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-211.72.35.154-5560","type":"trojan","server":"211.72.35.154","port":3389,"udp":true,"password":"7b06d22a8a7c764f","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-211.72.35.155-5338","type":"trojan","server":"211.72.35.155","port":3389,"udp":true,"password":"b09d2aaa443af97a","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-211.72.35.157-5379","type":"trojan","server":"211.72.35.157","port":3389,"udp":true,"password":"8b475d9e868e43e0","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-211.72.35.158-5421","type":"trojan","server":"211.72.35.158","port":3389,"udp":true,"password":"7b06d22a8a7c764f","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-60.249.3.125-5367","type":"trojan","server":"60.249.3.125","port":3389,"udp":true,"password":"3febb05ea76a940f","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-60.249.3.226-5572","type":"trojan","server":"60.249.3.226","port":3389,"udp":true,"password":"7ac49a893e0bd10c","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-60.249.3.227-5444","type":"trojan","server":"60.249.3.227","port":3389,"udp":true,"password":"7ac49a893e0bd10c","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-60.249.3.228-5577","type":"trojan","server":"60.249.3.228","port":3389,"udp":true,"password":"7ac49a893e0bd10c","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-60.249.3.229-5603","type":"trojan","server":"60.249.3.229","port":3389,"udp":true,"password":"182228812d1e0f23","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-60.249.3.231-5464","type":"trojan","server":"60.249.3.231","port":3389,"udp":true,"password":"0cc6b4268dea0ba8","skip-cert-verify":true}
-  - {"name":"🇺🇸US-23.247.137.70-5887","type":"trojan","server":"23.247.137.70","port":3389,"udp":true,"password":"d4e41ff772c7fd45","skip-cert-verify":true}
+  - {"name":"🏁RELAY-172.64.68.132-0430","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv1.sharecentrepro.org"}}}
   - {"name":"🏁RELAY-104.254.140.245-2750","type":"vmess","server":"104.254.140.245","port":80,"cipher":"auto","uuid":"1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/oSiR4t7dQow0J9ea3kKkF","headers":{"host":"hello-world-solitary-sky-c0bf.ourwayapp.workers.dev"}}}
-  - {"name":"法国1|优化|","type":"vmess","server":"fr1.jisuyun.co","port":10059,"cipher":"auto","uuid":"6c2e6f19-5730-4d20-9e2f-e0c2b5b7e6be","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b","headers":{"host":"tlu.dl.delivery.mp.microsoft.com"}}}
-  - {"name":"法国2|优化|","type":"vmess","server":"fr2.jisuyun.co","port":10027,"cipher":"auto","uuid":"6c2e6f19-5730-4d20-9e2f-e0c2b5b7e6be","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b","headers":{"host":"tlu.dl.delivery.mp.microsoft.com"}}}
-  - {"name":"韩国2|优化|","type":"vmess","server":"kr2.jisuyun.co","port":80,"cipher":"auto","uuid":"6c2e6f19-5730-4d20-9e2f-e0c2b5b7e6be","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"kr2.jisuyun.co"}}}
-  - {"name":"韩国3|优化|","type":"vmess","server":"kr3.jisuyun.co","port":80,"cipher":"auto","uuid":"6c2e6f19-5730-4d20-9e2f-e0c2b5b7e6be","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"kr3.jisuyun.co"}}}
-  - {"name":"韩国4|优化|","type":"vmess","server":"kr4.jisuyun.co","port":443,"cipher":"auto","uuid":"6c2e6f19-5730-4d20-9e2f-e0c2b5b7e6be","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"kr4.jisuyun.co"}}}
-  - {"name":"英国3|优化|","type":"vmess","server":"gb3.jisuyun.co","port":443,"cipher":"auto","uuid":"6c2e6f19-5730-4d20-9e2f-e0c2b5b7e6be","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/filestreamingservice/files/20f813e2-036a-42a8-92e2-a3a55a0b239b","headers":{"host":"tlu.dl.delivery.mp.microsoft.com"}}}
+  - {"name":"🇯🇵日本+无限流量","type":"ss","server":"free.themars.top","port":32103,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"US_550+|10.07Mb","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
+  - {"name":"TG频道@zyfx8+++🇭🇰+5","type":"ss","server":"zjcm.v-too.cloud","port":12054,"password":"ca776cd6-e2bc-4035-875a-971b7e3b6f32","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"TG频道@zyfx8+++🇭🇰+3","type":"ss","server":"zjcm.v-too.cloud","port":28466,"password":"ca776cd6-e2bc-4035-875a-971b7e3b6f32","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"TG频道@zyfx8+++🇭🇰+2","type":"ss","server":"zjcm.v-too.cloud","port":40480,"password":"ca776cd6-e2bc-4035-875a-971b7e3b6f32","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"TG频道@zyfx8+++🇭🇰","type":"ss","server":"zjcm.v-too.cloud","port":27316,"password":"ca776cd6-e2bc-4035-875a-971b7e3b6f32","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"IR_121+|21.28Mb","type":"ss","server":"185.135.86.173","port":9003,"password":"JdmRK9gMEqFgs8nP","cipher":"aes-256-cfb"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - defaultName
-      - '|+7.59Mb'
-      - '|+7.92Mb'
-      - '|10.42Mb'
-      - '|14.85Mb'
-      - '|15.92Mb'
-      - '|19.38Mb'
-      - '|35.78Mb'
-      - AU_12+|27.48Mb
-      - CN_29+|+1.40Mb
-      - IL_117+|18.38Mb
-      - NONE_1
-      - NONE_2
-      - NONE_3
-      - NONE_4
-      - NONE_5
-      - NONE_6
-      - US_550+|10.07Mb
-      - 🇦🇺AU-103.224.212.221-5728
-      - 🇨🇳CN-223.167.41.198-5387
-      - 🇨🇳CN-223.167.41.198-5529
-      - 🇨🇳CN-223.167.41.198-5642
-      - 🇨🇳CN-223.167.41.198-5669
-      - 🇨🇳CN-223.167.41.198-5807
-      - 🇨🇳CN-223.167.41.233-5752
-      - 🇨🇳CN-223.167.41.233-5804
-      - 🇨🇳CN-47.93.231.218-13357
-      - 🇭🇰HK-43.159.201.107-4857
-      - 🇯🇵JP-133.167.100.203-5526
-      - 🇯🇵JP-160.16.145.107-5566
-      - 🇯🇵JP-20.18.56.250-1885
-      - 🇯🇵JP-20.222.167.5-1912
-      - 🇯🇵JP-49.212.221.47-5400
-      - 🇰🇷KR-146.56.189.146-5841
-      - 🇳🇱NL-147.78.240.92-1430
-      - 🇸🇬SG-4.194.53.179-2008
-      - 🇹🇼TW-211.72.35.152-5386
-      - 🇹🇼TW-211.72.35.152-6422
-      - 🇹🇼TW-211.72.35.154-5560
-      - 🇹🇼TW-211.72.35.155-5338
-      - 🇹🇼TW-211.72.35.157-5379
-      - 🇹🇼TW-211.72.35.158-5421
-      - 🇹🇼TW-60.249.3.125-5367
-      - 🇹🇼TW-60.249.3.226-5572
-      - 🇹🇼TW-60.249.3.227-5444
-      - 🇹🇼TW-60.249.3.228-5577
-      - 🇹🇼TW-60.249.3.229-5603
-      - 🇹🇼TW-60.249.3.231-5464
-      - 🇺🇸US-23.247.137.70-5887
+      - 🏁RELAY-172.64.68.132-0430
       - 🏁RELAY-104.254.140.245-2750
-      - 法国1|优化|
-      - 法国2|优化|
-      - 韩国2|优化|
-      - 韩国3|优化|
-      - 韩国4|优化|
-      - 英国3|优化|
+      - 🇯🇵日本+无限流量
+      - US_550+|10.07Mb
+      - TG频道@zyfx8+++🇭🇰+5
+      - TG频道@zyfx8+++🇭🇰+3
+      - TG频道@zyfx8+++🇭🇰+2
+      - TG频道@zyfx8+++🇭🇰
+      - IR_121+|21.28Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - defaultName
-      - '|+7.59Mb'
-      - '|+7.92Mb'
-      - '|10.42Mb'
-      - '|14.85Mb'
-      - '|15.92Mb'
-      - '|19.38Mb'
-      - '|35.78Mb'
-      - AU_12+|27.48Mb
-      - CN_29+|+1.40Mb
-      - IL_117+|18.38Mb
-      - NONE_1
-      - NONE_2
-      - NONE_3
-      - NONE_4
-      - NONE_5
-      - NONE_6
-      - US_550+|10.07Mb
-      - 🇦🇺AU-103.224.212.221-5728
-      - 🇨🇳CN-223.167.41.198-5387
-      - 🇨🇳CN-223.167.41.198-5529
-      - 🇨🇳CN-223.167.41.198-5642
-      - 🇨🇳CN-223.167.41.198-5669
-      - 🇨🇳CN-223.167.41.198-5807
-      - 🇨🇳CN-223.167.41.233-5752
-      - 🇨🇳CN-223.167.41.233-5804
-      - 🇨🇳CN-47.93.231.218-13357
-      - 🇭🇰HK-43.159.201.107-4857
-      - 🇯🇵JP-133.167.100.203-5526
-      - 🇯🇵JP-160.16.145.107-5566
-      - 🇯🇵JP-20.18.56.250-1885
-      - 🇯🇵JP-20.222.167.5-1912
-      - 🇯🇵JP-49.212.221.47-5400
-      - 🇰🇷KR-146.56.189.146-5841
-      - 🇳🇱NL-147.78.240.92-1430
-      - 🇸🇬SG-4.194.53.179-2008
-      - 🇹🇼TW-211.72.35.152-5386
-      - 🇹🇼TW-211.72.35.152-6422
-      - 🇹🇼TW-211.72.35.154-5560
-      - 🇹🇼TW-211.72.35.155-5338
-      - 🇹🇼TW-211.72.35.157-5379
-      - 🇹🇼TW-211.72.35.158-5421
-      - 🇹🇼TW-60.249.3.125-5367
-      - 🇹🇼TW-60.249.3.226-5572
-      - 🇹🇼TW-60.249.3.227-5444
-      - 🇹🇼TW-60.249.3.228-5577
-      - 🇹🇼TW-60.249.3.229-5603
-      - 🇹🇼TW-60.249.3.231-5464
-      - 🇺🇸US-23.247.137.70-5887
+      - 🏁RELAY-172.64.68.132-0430
       - 🏁RELAY-104.254.140.245-2750
-      - 法国1|优化|
-      - 法国2|优化|
-      - 韩国2|优化|
-      - 韩国3|优化|
-      - 韩国4|优化|
-      - 英国3|优化|
+      - 🇯🇵日本+无限流量
+      - US_550+|10.07Mb
+      - TG频道@zyfx8+++🇭🇰+5
+      - TG频道@zyfx8+++🇭🇰+3
+      - TG频道@zyfx8+++🇭🇰+2
+      - TG频道@zyfx8+++🇭🇰
+      - IR_121+|21.28Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - defaultName
-      - '|+7.59Mb'
-      - '|+7.92Mb'
-      - '|10.42Mb'
-      - '|14.85Mb'
-      - '|15.92Mb'
-      - '|19.38Mb'
-      - '|35.78Mb'
-      - AU_12+|27.48Mb
-      - CN_29+|+1.40Mb
-      - IL_117+|18.38Mb
-      - NONE_1
-      - NONE_2
-      - NONE_3
-      - NONE_4
-      - NONE_5
-      - NONE_6
-      - US_550+|10.07Mb
-      - 🇦🇺AU-103.224.212.221-5728
-      - 🇨🇳CN-223.167.41.198-5387
-      - 🇨🇳CN-223.167.41.198-5529
-      - 🇨🇳CN-223.167.41.198-5642
-      - 🇨🇳CN-223.167.41.198-5669
-      - 🇨🇳CN-223.167.41.198-5807
-      - 🇨🇳CN-223.167.41.233-5752
-      - 🇨🇳CN-223.167.41.233-5804
-      - 🇨🇳CN-47.93.231.218-13357
-      - 🇭🇰HK-43.159.201.107-4857
-      - 🇯🇵JP-133.167.100.203-5526
-      - 🇯🇵JP-160.16.145.107-5566
-      - 🇯🇵JP-20.18.56.250-1885
-      - 🇯🇵JP-20.222.167.5-1912
-      - 🇯🇵JP-49.212.221.47-5400
-      - 🇰🇷KR-146.56.189.146-5841
-      - 🇳🇱NL-147.78.240.92-1430
-      - 🇸🇬SG-4.194.53.179-2008
-      - 🇹🇼TW-211.72.35.152-5386
-      - 🇹🇼TW-211.72.35.152-6422
-      - 🇹🇼TW-211.72.35.154-5560
-      - 🇹🇼TW-211.72.35.155-5338
-      - 🇹🇼TW-211.72.35.157-5379
-      - 🇹🇼TW-211.72.35.158-5421
-      - 🇹🇼TW-60.249.3.125-5367
-      - 🇹🇼TW-60.249.3.226-5572
-      - 🇹🇼TW-60.249.3.227-5444
-      - 🇹🇼TW-60.249.3.228-5577
-      - 🇹🇼TW-60.249.3.229-5603
-      - 🇹🇼TW-60.249.3.231-5464
-      - 🇺🇸US-23.247.137.70-5887
+      - 🏁RELAY-172.64.68.132-0430
       - 🏁RELAY-104.254.140.245-2750
-      - 法国1|优化|
-      - 法国2|优化|
-      - 韩国2|优化|
-      - 韩国3|优化|
-      - 韩国4|优化|
-      - 英国3|优化|
+      - 🇯🇵日本+无限流量
+      - US_550+|10.07Mb
+      - TG频道@zyfx8+++🇭🇰+5
+      - TG频道@zyfx8+++🇭🇰+3
+      - TG频道@zyfx8+++🇭🇰+2
+      - TG频道@zyfx8+++🇭🇰
+      - IR_121+|21.28Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName
-      - '|+7.59Mb'
-      - '|+7.92Mb'
-      - '|10.42Mb'
-      - '|14.85Mb'
-      - '|15.92Mb'
-      - '|19.38Mb'
-      - '|35.78Mb'
-      - AU_12+|27.48Mb
-      - CN_29+|+1.40Mb
-      - IL_117+|18.38Mb
-      - NONE_1
-      - NONE_2
-      - NONE_3
-      - NONE_4
-      - NONE_5
-      - NONE_6
-      - US_550+|10.07Mb
-      - 🇦🇺AU-103.224.212.221-5728
-      - 🇨🇳CN-223.167.41.198-5387
-      - 🇨🇳CN-223.167.41.198-5529
-      - 🇨🇳CN-223.167.41.198-5642
-      - 🇨🇳CN-223.167.41.198-5669
-      - 🇨🇳CN-223.167.41.198-5807
-      - 🇨🇳CN-223.167.41.233-5752
-      - 🇨🇳CN-223.167.41.233-5804
-      - 🇨🇳CN-47.93.231.218-13357
-      - 🇭🇰HK-43.159.201.107-4857
-      - 🇯🇵JP-133.167.100.203-5526
-      - 🇯🇵JP-160.16.145.107-5566
-      - 🇯🇵JP-20.18.56.250-1885
-      - 🇯🇵JP-20.222.167.5-1912
-      - 🇯🇵JP-49.212.221.47-5400
-      - 🇰🇷KR-146.56.189.146-5841
-      - 🇳🇱NL-147.78.240.92-1430
-      - 🇸🇬SG-4.194.53.179-2008
-      - 🇹🇼TW-211.72.35.152-5386
-      - 🇹🇼TW-211.72.35.152-6422
-      - 🇹🇼TW-211.72.35.154-5560
-      - 🇹🇼TW-211.72.35.155-5338
-      - 🇹🇼TW-211.72.35.157-5379
-      - 🇹🇼TW-211.72.35.158-5421
-      - 🇹🇼TW-60.249.3.125-5367
-      - 🇹🇼TW-60.249.3.226-5572
-      - 🇹🇼TW-60.249.3.227-5444
-      - 🇹🇼TW-60.249.3.228-5577
-      - 🇹🇼TW-60.249.3.229-5603
-      - 🇹🇼TW-60.249.3.231-5464
-      - 🇺🇸US-23.247.137.70-5887
+      - 🏁RELAY-172.64.68.132-0430
       - 🏁RELAY-104.254.140.245-2750
-      - 法国1|优化|
-      - 法国2|优化|
-      - 韩国2|优化|
-      - 韩国3|优化|
-      - 韩国4|优化|
-      - 英国3|优化|
+      - 🇯🇵日本+无限流量
+      - US_550+|10.07Mb
+      - TG频道@zyfx8+++🇭🇰+5
+      - TG频道@zyfx8+++🇭🇰+3
+      - TG频道@zyfx8+++🇭🇰+2
+      - TG频道@zyfx8+++🇭🇰
+      - IR_121+|21.28Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - defaultName
-      - '|+7.59Mb'
-      - '|+7.92Mb'
-      - '|10.42Mb'
-      - '|14.85Mb'
-      - '|15.92Mb'
-      - '|19.38Mb'
-      - '|35.78Mb'
-      - AU_12+|27.48Mb
-      - CN_29+|+1.40Mb
-      - IL_117+|18.38Mb
-      - NONE_1
-      - NONE_2
-      - NONE_3
-      - NONE_4
-      - NONE_5
-      - NONE_6
-      - US_550+|10.07Mb
-      - 🇦🇺AU-103.224.212.221-5728
-      - 🇨🇳CN-223.167.41.198-5387
-      - 🇨🇳CN-223.167.41.198-5529
-      - 🇨🇳CN-223.167.41.198-5642
-      - 🇨🇳CN-223.167.41.198-5669
-      - 🇨🇳CN-223.167.41.198-5807
-      - 🇨🇳CN-223.167.41.233-5752
-      - 🇨🇳CN-223.167.41.233-5804
-      - 🇨🇳CN-47.93.231.218-13357
-      - 🇭🇰HK-43.159.201.107-4857
-      - 🇯🇵JP-133.167.100.203-5526
-      - 🇯🇵JP-160.16.145.107-5566
-      - 🇯🇵JP-20.18.56.250-1885
-      - 🇯🇵JP-20.222.167.5-1912
-      - 🇯🇵JP-49.212.221.47-5400
-      - 🇰🇷KR-146.56.189.146-5841
-      - 🇳🇱NL-147.78.240.92-1430
-      - 🇸🇬SG-4.194.53.179-2008
-      - 🇹🇼TW-211.72.35.152-5386
-      - 🇹🇼TW-211.72.35.152-6422
-      - 🇹🇼TW-211.72.35.154-5560
-      - 🇹🇼TW-211.72.35.155-5338
-      - 🇹🇼TW-211.72.35.157-5379
-      - 🇹🇼TW-211.72.35.158-5421
-      - 🇹🇼TW-60.249.3.125-5367
-      - 🇹🇼TW-60.249.3.226-5572
-      - 🇹🇼TW-60.249.3.227-5444
-      - 🇹🇼TW-60.249.3.228-5577
-      - 🇹🇼TW-60.249.3.229-5603
-      - 🇹🇼TW-60.249.3.231-5464
-      - 🇺🇸US-23.247.137.70-5887
+      - 🏁RELAY-172.64.68.132-0430
       - 🏁RELAY-104.254.140.245-2750
-      - 法国1|优化|
-      - 法国2|优化|
-      - 韩国2|优化|
-      - 韩国3|优化|
-      - 韩国4|优化|
-      - 英国3|优化|
+      - 🇯🇵日本+无限流量
+      - US_550+|10.07Mb
+      - TG频道@zyfx8+++🇭🇰+5
+      - TG频道@zyfx8+++🇭🇰+3
+      - TG频道@zyfx8+++🇭🇰+2
+      - TG频道@zyfx8+++🇭🇰
+      - IR_121+|21.28Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - defaultName
-      - '|+7.59Mb'
-      - '|+7.92Mb'
-      - '|10.42Mb'
-      - '|14.85Mb'
-      - '|15.92Mb'
-      - '|19.38Mb'
-      - '|35.78Mb'
-      - AU_12+|27.48Mb
-      - CN_29+|+1.40Mb
-      - IL_117+|18.38Mb
-      - NONE_1
-      - NONE_2
-      - NONE_3
-      - NONE_4
-      - NONE_5
-      - NONE_6
-      - US_550+|10.07Mb
-      - 🇦🇺AU-103.224.212.221-5728
-      - 🇨🇳CN-223.167.41.198-5387
-      - 🇨🇳CN-223.167.41.198-5529
-      - 🇨🇳CN-223.167.41.198-5642
-      - 🇨🇳CN-223.167.41.198-5669
-      - 🇨🇳CN-223.167.41.198-5807
-      - 🇨🇳CN-223.167.41.233-5752
-      - 🇨🇳CN-223.167.41.233-5804
-      - 🇨🇳CN-47.93.231.218-13357
-      - 🇭🇰HK-43.159.201.107-4857
-      - 🇯🇵JP-133.167.100.203-5526
-      - 🇯🇵JP-160.16.145.107-5566
-      - 🇯🇵JP-20.18.56.250-1885
-      - 🇯🇵JP-20.222.167.5-1912
-      - 🇯🇵JP-49.212.221.47-5400
-      - 🇰🇷KR-146.56.189.146-5841
-      - 🇳🇱NL-147.78.240.92-1430
-      - 🇸🇬SG-4.194.53.179-2008
-      - 🇹🇼TW-211.72.35.152-5386
-      - 🇹🇼TW-211.72.35.152-6422
-      - 🇹🇼TW-211.72.35.154-5560
-      - 🇹🇼TW-211.72.35.155-5338
-      - 🇹🇼TW-211.72.35.157-5379
-      - 🇹🇼TW-211.72.35.158-5421
-      - 🇹🇼TW-60.249.3.125-5367
-      - 🇹🇼TW-60.249.3.226-5572
-      - 🇹🇼TW-60.249.3.227-5444
-      - 🇹🇼TW-60.249.3.228-5577
-      - 🇹🇼TW-60.249.3.229-5603
-      - 🇹🇼TW-60.249.3.231-5464
-      - 🇺🇸US-23.247.137.70-5887
+      - 🏁RELAY-172.64.68.132-0430
       - 🏁RELAY-104.254.140.245-2750
-      - 法国1|优化|
-      - 法国2|优化|
-      - 韩国2|优化|
-      - 韩国3|优化|
-      - 韩国4|优化|
-      - 英国3|优化|
+      - 🇯🇵日本+无限流量
+      - US_550+|10.07Mb
+      - TG频道@zyfx8+++🇭🇰+5
+      - TG频道@zyfx8+++🇭🇰+3
+      - TG频道@zyfx8+++🇭🇰+2
+      - TG频道@zyfx8+++🇭🇰
+      - IR_121+|21.28Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -468,62 +139,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - defaultName
-      - '|+7.59Mb'
-      - '|+7.92Mb'
-      - '|10.42Mb'
-      - '|14.85Mb'
-      - '|15.92Mb'
-      - '|19.38Mb'
-      - '|35.78Mb'
-      - AU_12+|27.48Mb
-      - CN_29+|+1.40Mb
-      - IL_117+|18.38Mb
-      - NONE_1
-      - NONE_2
-      - NONE_3
-      - NONE_4
-      - NONE_5
-      - NONE_6
-      - US_550+|10.07Mb
-      - 🇦🇺AU-103.224.212.221-5728
-      - 🇨🇳CN-223.167.41.198-5387
-      - 🇨🇳CN-223.167.41.198-5529
-      - 🇨🇳CN-223.167.41.198-5642
-      - 🇨🇳CN-223.167.41.198-5669
-      - 🇨🇳CN-223.167.41.198-5807
-      - 🇨🇳CN-223.167.41.233-5752
-      - 🇨🇳CN-223.167.41.233-5804
-      - 🇨🇳CN-47.93.231.218-13357
-      - 🇭🇰HK-43.159.201.107-4857
-      - 🇯🇵JP-133.167.100.203-5526
-      - 🇯🇵JP-160.16.145.107-5566
-      - 🇯🇵JP-20.18.56.250-1885
-      - 🇯🇵JP-20.222.167.5-1912
-      - 🇯🇵JP-49.212.221.47-5400
-      - 🇰🇷KR-146.56.189.146-5841
-      - 🇳🇱NL-147.78.240.92-1430
-      - 🇸🇬SG-4.194.53.179-2008
-      - 🇹🇼TW-211.72.35.152-5386
-      - 🇹🇼TW-211.72.35.152-6422
-      - 🇹🇼TW-211.72.35.154-5560
-      - 🇹🇼TW-211.72.35.155-5338
-      - 🇹🇼TW-211.72.35.157-5379
-      - 🇹🇼TW-211.72.35.158-5421
-      - 🇹🇼TW-60.249.3.125-5367
-      - 🇹🇼TW-60.249.3.226-5572
-      - 🇹🇼TW-60.249.3.227-5444
-      - 🇹🇼TW-60.249.3.228-5577
-      - 🇹🇼TW-60.249.3.229-5603
-      - 🇹🇼TW-60.249.3.231-5464
-      - 🇺🇸US-23.247.137.70-5887
+      - 🏁RELAY-172.64.68.132-0430
       - 🏁RELAY-104.254.140.245-2750
-      - 法国1|优化|
-      - 法国2|优化|
-      - 韩国2|优化|
-      - 韩国3|优化|
-      - 韩国4|优化|
-      - 英国3|优化|
+      - 🇯🇵日本+无限流量
+      - US_550+|10.07Mb
+      - TG频道@zyfx8+++🇭🇰+5
+      - TG频道@zyfx8+++🇭🇰+3
+      - TG频道@zyfx8+++🇭🇰+2
+      - TG频道@zyfx8+++🇭🇰
+      - IR_121+|21.28Mb
 
 rules:
 # 本地/局域网地址
