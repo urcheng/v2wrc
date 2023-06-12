@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-06-09 10:11:04
+# 创建时间：2023-06-12 10:55:27
 # 使用模版：V2RaySE 默认模版
-# 节点数量：49
+# 节点数量：16
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,382 +21,151 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"新加坡4","type":"vmess","server":"13.215.205.45","port":443,"cipher":"auto","uuid":"9bc3178b-959d-45ea-a487-b66c6098a4a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"13.215.205.45"}}}
-  - {"name":"新加坡3","type":"vmess","server":"54.254.161.228","port":443,"cipher":"auto","uuid":"9bc3178b-959d-45ea-a487-b66c6098a4a5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"54.254.161.228"}}}
-  - {"name":"香港14","type":"trojan","server":"hk14.microsoft-orgwly.vip","port":10056,"udp":true,"password":"0326b2e4-06bf-447d-8c9c-b572787133f9","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"香港10","type":"trojan","server":"hk10.microsoft-orgwly.vip","port":12082,"udp":true,"password":"0326b2e4-06bf-447d-8c9c-b572787133f9","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"香港02|流媒体GPT","type":"trojan","server":"hk2.microsoft-orgwly.vip","port":10066,"udp":true,"password":"0326b2e4-06bf-447d-8c9c-b572787133f9","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"台湾|推荐05","type":"trojan","server":"tw5.microsoft-orgwly.vip","port":443,"udp":true,"password":"0326b2e4-06bf-447d-8c9c-b572787133f9","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"美国凤凰城1号","type":"trojan","server":"163.123.192.146","port":443,"udp":true,"password":"db38d357-3ff3-4fff-b311-6a65501a1b10","skip-cert-verify":false}
-  - {"name":"韩国05","type":"trojan","server":"kr5.microsoft-orgwly.vip","port":443,"udp":true,"password":"0326b2e4-06bf-447d-8c9c-b572787133f9","sni":"tls.microsoft-orgwly.vip","skip-cert-verify":false}
-  - {"name":"🏁RELAY-172.64.68.132-0430","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv1.sharecentrepro.org"}}}
-  - {"name":"🏁RELAY-172.64.128.104-2273","type":"vmess","server":"cf-yd-dns.sharecentre.online","port":80,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"do.sharecentrepro.com"}}}
-  - {"name":"🏁RELAY-104.254.140.245-2750","type":"vmess","server":"104.254.140.245","port":80,"cipher":"auto","uuid":"1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/oSiR4t7dQow0J9ea3kKkF","headers":{"host":"hello-world-solitary-sky-c0bf.ourwayapp.workers.dev"}}}
-  - {"name":"🏁RELAY-104.21.94.37-1284","type":"vmess","server":"104.21.94.37","port":443,"cipher":"auto","uuid":"00BBF5B8-173E-6818-9927-5AD1AA073C7D","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Kansas.v2ray.online"}}}
-  - {"name":"🇺🇸US-23.247.137.70-5980","type":"trojan","server":"23.247.137.70","port":3389,"udp":true,"password":"d4e41ff772c7fd45","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-211.72.35.158-5514","type":"trojan","server":"211.72.35.158","port":3389,"udp":true,"password":"7b06d22a8a7c764f","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-211.72.35.157-5472","type":"trojan","server":"211.72.35.157","port":3389,"udp":true,"password":"8b475d9e868e43e0","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-211.72.35.155-5431","type":"trojan","server":"211.72.35.155","port":3389,"udp":true,"password":"b09d2aaa443af97a","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-211.72.35.154-5653","type":"trojan","server":"211.72.35.154","port":3389,"udp":true,"password":"7b06d22a8a7c764f","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-211.72.35.152-6515","type":"trojan","server":"211.72.35.152","port":3389,"udp":true,"password":"7b06d22a8a7c764f","skip-cert-verify":true}
-  - {"name":"🇹🇼TW-211.72.35.152-5479","type":"trojan","server":"211.72.35.152","port":3389,"udp":true,"password":"b84d16a244460e09","skip-cert-verify":true}
-  - {"name":"🇸🇬SG-5.44.249.43-1480","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"6f0a9d0fa39d65fa","skip-cert-verify":true}
-  - {"name":"🇰🇷KR-146.56.189.146-5934","type":"trojan","server":"146.56.189.146","port":443,"udp":true,"password":"f2117e99-9b6e-47fd-b0a9-634a0b15b998","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-49.212.221.47-5493","type":"trojan","server":"49.212.221.47","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-43.206.123.20-8702","type":"trojan","server":"43.206.123.20","port":443,"udp":true,"password":"43f271a7-2242-40aa-81f0-29f8d3bf8a26","sni":"aws-jp.aikun.online","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-219.94.250.108-5921","type":"trojan","server":"219.94.250.108","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-20.27.48.200-2404","type":"trojan","server":"tw02.trojanyyds.xyz","port":443,"udp":true,"password":"8d1e94cd-23cf-4267-b630-c6894e6e1b4d","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-160.16.145.107-5659","type":"trojan","server":"160.16.145.107","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-133.167.100.203-5619","type":"trojan","server":"133.167.100.203","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-47.93.231.218-13348","type":"vmess","server":"47.93.231.218","port":53022,"cipher":"auto","uuid":"95fd7642-2160-4528-e909-3d526b533013","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇨🇳CN-183.213.200.225-1741","type":"trojan","server":"183.213.200.225","port":28113,"udp":true,"password":"cdyB1Q","sni":"183.213.200.225","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.163.29.152-2959","type":"trojan","server":"8t6w02.abzoones.xyz","port":36306,"udp":true,"password":"6dc69964-decb-4552-9142-77cf5ae4719d","skip-cert-verify":true}
-  - {"name":"V3-美国07∣K67线路∣1.5x","type":"trojan","server":"183.240.220.244","port":21208,"udp":true,"password":"69c3b80a-73db-49ec-8089-e2a566e54687","sni":"k67.tudou211.com","skip-cert-verify":false}
-  - {"name":"V3-美国01∣K61线路∣1.5x","type":"trojan","server":"183.240.220.244","port":21223,"udp":true,"password":"69c3b80a-73db-49ec-8089-e2a566e54687","sni":"k61.tudou211.com","skip-cert-verify":false}
-  - {"name":"V2-越南02∣K52线路∣1.5x","type":"trojan","server":"183.240.220.244","port":21132,"udp":true,"password":"69c3b80a-73db-49ec-8089-e2a566e54687","sni":"k52.tudou211.com","skip-cert-verify":false}
-  - {"name":"V2-印尼02∣K49线路∣1.5x","type":"trojan","server":"183.240.220.244","port":21009,"udp":true,"password":"69c3b80a-73db-49ec-8089-e2a566e54687","sni":"k49.tudou211.com","skip-cert-verify":false}
-  - {"name":"V2-印尼01∣K48线路∣1.5x","type":"trojan","server":"183.240.220.244","port":21192,"udp":true,"password":"69c3b80a-73db-49ec-8089-e2a566e54687","sni":"k48.tudou211.com","skip-cert-verify":false}
-  - {"name":"V2-新加坡04∣K39线路∣1.5x","type":"trojan","server":"183.240.220.244","port":21170,"udp":true,"password":"69c3b80a-73db-49ec-8089-e2a566e54687","sni":"k39.tudou211.com","skip-cert-verify":false}
-  - {"name":"V2-台湾04∣K41线路∣1.5x","type":"trojan","server":"183.240.220.244","port":21156,"udp":true,"password":"69c3b80a-73db-49ec-8089-e2a566e54687","sni":"k41.tudou211.com","skip-cert-verify":false}
-  - {"name":"V2-台湾03∣K40线路∣1.5x","type":"trojan","server":"183.240.220.244","port":21002,"udp":true,"password":"69c3b80a-73db-49ec-8089-e2a566e54687","sni":"k40.tudou211.com","skip-cert-verify":false}
-  - {"name":"V2-菲律宾01∣K56线路∣1.5x","type":"trojan","server":"183.240.220.244","port":21060,"udp":true,"password":"69c3b80a-73db-49ec-8089-e2a566e54687","sni":"k56.tudou211.com","skip-cert-verify":false}
-  - {"name":"V1-香港02∣K2线路∣1.5x","type":"trojan","server":"183.240.220.244","port":21072,"udp":true,"password":"69c3b80a-73db-49ec-8089-e2a566e54687","sni":"k2.tudou211.com","skip-cert-verify":false}
+  - {"name":"TG频道@zyfx8  🇻🇦 4","type":"vmess","server":"221.131.165.175","port":19106,"cipher":"auto","uuid":"2fed8ce2-ff5e-3959-8c0d-2e2f879aa4bb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/soda","headers":{"host":"%7B%22Host%22:%22china.bing123.com%22%7D"}}}
+  - {"name":"TG频道@zyfx8  🇻🇦 2","type":"vmess","server":"221.131.165.175","port":18079,"cipher":"auto","uuid":"2fed8ce2-ff5e-3959-8c0d-2e2f879aa4bb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/soda","headers":{"host":"%7B%22Host%22:%22www.alidns.com%22%7D"}}}
+  - {"name":"TG频道@zyfx8  🇻🇦","type":"vmess","server":"221.131.165.186","port":11093,"cipher":"auto","uuid":"2fed8ce2-ff5e-3959-8c0d-2e2f879aa4bb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/soda","headers":{"host":"%7B%22Host%22:%22www.alidns.com%22%7D"}}}
   - {"name":"US_550+|10.07Mb","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
-  - {"name":"US_483","type":"trojan","server":"hk03.trojanyyds.xyz","port":443,"udp":true,"password":"331365d8-3ce5-484d-a226-33312bcc3217","skip-cert-verify":true}
-  - {"name":"US_274","type":"ssr","server":"fr-am1-5.eqsunshine.com","port":8181,"password":"RcfVcDzzB","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
-  - {"name":"US_220+|58.60Mb","type":"ss","server":"38.64.138.145","port":5500,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
-  - {"name":"TG频道@zyfx8+++🇭🇰+18","type":"ss","server":"13.214.56.137","port":9234,"password":"pABcOyEwLOQF2WDV","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"TG频道@zyfx8+++🇭🇰+11","type":"trojan","server":"tk-006.xiaoxiaobujidao.xyz","port":18443,"udp":true,"password":"de2c1b4f-851e-3730-af83-9981917b7883","sni":"tk-006.xiaoxiaobujidao.xyz","skip-cert-verify":false}
-  - {"name":"IR_121+|21.28Mb","type":"ss","server":"185.135.86.173","port":9003,"password":"JdmRK9gMEqFgs8nP","cipher":"aes-256-cfb"}
-  - {"name":"HK_118","type":"trojan","server":"hk02.trojanyyds.xyz","port":443,"udp":true,"password":"331365d8-3ce5-484d-a226-33312bcc3217","skip-cert-verify":true}
-  - {"name":"HK_116","type":"trojan","server":"hk03.trojanyyds.xyz","port":443,"udp":true,"password":"d7a82727-5365-4517-8a92-c2864081008a","skip-cert-verify":true}
+  - {"name":"🏁RELAY-104.254.140.245-2750","type":"vmess","server":"104.254.140.245","port":80,"cipher":"auto","uuid":"1feceec7-fc56-41fc-8c8b-9dc3fb30ac2c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/oSiR4t7dQow0J9ea3kKkF","headers":{"host":"hello-world-solitary-sky-c0bf.ourwayapp.workers.dev"}}}
+  - {"name":"TG频道@kxswa+|+https://t.me/kxswa_1","type":"ss","server":"35.92.114.49","port":9234,"password":"pABcOyEwLOQF2WDV","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"TG频道@kxswa+|+https://t.me/kxswa_2","type":"ss","server":"45.89.52.66","port":9005,"password":"ZET59LF6DvCC8KVt","cipher":"aes-256-cfb"}
+  - {"name":"https://t.me/zyfx8  🇭🇰 39","type":"vmess","server":"cctv.iepl01.yuntiair365.top","port":53003,"cipher":"auto","uuid":"6c210104-de21-321c-a4b7-418af3844a6c","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"TG频道@kxswa+|+https://t.me/kxswa_3","type":"ss","server":"45.89.52.66","port":9011,"password":"M3t2ZEQcMGRWBjRa","cipher":"aes-256-cfb"}
+  - {"name":"CN_52+|11.96Mb","type":"ss","server":"14.29.124.168","port":25296,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"CN_45+|+3.32Mb","type":"ss","server":"14.29.124.168","port":25238,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"CN_33+|+6.51Mb","type":"ss","server":"14.29.124.168","port":25210,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"CN_27+|+5.11Mb","type":"ss","server":"14.29.124.168","port":25217,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"CN_30+|+6.88Mb","type":"ss","server":"14.29.124.168","port":25283,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"CN_51+|+6.26Mb","type":"ss","server":"14.29.124.168","port":25270,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
+  - {"name":"CN_25+|+4.48Mb","type":"ss","server":"14.29.124.168","port":25268,"password":"QazEdcTgb159@$*","cipher":"aes-128-cfb"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 新加坡4
-      - 新加坡3
-      - 香港14
-      - 香港10
-      - 香港02|流媒体GPT
-      - 台湾|推荐05
-      - 美国凤凰城1号
-      - 韩国05
-      - 🏁RELAY-172.64.68.132-0430
-      - 🏁RELAY-172.64.128.104-2273
-      - 🏁RELAY-104.254.140.245-2750
-      - 🏁RELAY-104.21.94.37-1284
-      - 🇺🇸US-23.247.137.70-5980
-      - 🇹🇼TW-211.72.35.158-5514
-      - 🇹🇼TW-211.72.35.157-5472
-      - 🇹🇼TW-211.72.35.155-5431
-      - 🇹🇼TW-211.72.35.154-5653
-      - 🇹🇼TW-211.72.35.152-6515
-      - 🇹🇼TW-211.72.35.152-5479
-      - 🇸🇬SG-5.44.249.43-1480
-      - 🇰🇷KR-146.56.189.146-5934
-      - 🇯🇵JP-49.212.221.47-5493
-      - 🇯🇵JP-43.206.123.20-8702
-      - 🇯🇵JP-219.94.250.108-5921
-      - 🇯🇵JP-20.27.48.200-2404
-      - 🇯🇵JP-160.16.145.107-5659
-      - 🇯🇵JP-133.167.100.203-5619
-      - 🇨🇳CN-47.93.231.218-13348
-      - 🇨🇳CN-183.213.200.225-1741
-      - 🇨🇳CN-116.163.29.152-2959
-      - V3-美国07∣K67线路∣1.5x
-      - V3-美国01∣K61线路∣1.5x
-      - V2-越南02∣K52线路∣1.5x
-      - V2-印尼02∣K49线路∣1.5x
-      - V2-印尼01∣K48线路∣1.5x
-      - V2-新加坡04∣K39线路∣1.5x
-      - V2-台湾04∣K41线路∣1.5x
-      - V2-台湾03∣K40线路∣1.5x
-      - V2-菲律宾01∣K56线路∣1.5x
-      - V1-香港02∣K2线路∣1.5x
+      - TG频道@zyfx8  🇻🇦 4
+      - TG频道@zyfx8  🇻🇦 2
+      - TG频道@zyfx8  🇻🇦
       - US_550+|10.07Mb
-      - US_483
-      - US_274
-      - US_220+|58.60Mb
-      - TG频道@zyfx8+++🇭🇰+18
-      - TG频道@zyfx8+++🇭🇰+11
-      - IR_121+|21.28Mb
-      - HK_118
-      - HK_116
+      - 🏁RELAY-104.254.140.245-2750
+      - TG频道@kxswa+|+https://t.me/kxswa_1
+      - TG频道@kxswa+|+https://t.me/kxswa_2
+      - https://t.me/zyfx8  🇭🇰 39
+      - TG频道@kxswa+|+https://t.me/kxswa_3
+      - CN_52+|11.96Mb
+      - CN_45+|+3.32Mb
+      - CN_33+|+6.51Mb
+      - CN_27+|+5.11Mb
+      - CN_30+|+6.88Mb
+      - CN_51+|+6.26Mb
+      - CN_25+|+4.48Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 新加坡4
-      - 新加坡3
-      - 香港14
-      - 香港10
-      - 香港02|流媒体GPT
-      - 台湾|推荐05
-      - 美国凤凰城1号
-      - 韩国05
-      - 🏁RELAY-172.64.68.132-0430
-      - 🏁RELAY-172.64.128.104-2273
-      - 🏁RELAY-104.254.140.245-2750
-      - 🏁RELAY-104.21.94.37-1284
-      - 🇺🇸US-23.247.137.70-5980
-      - 🇹🇼TW-211.72.35.158-5514
-      - 🇹🇼TW-211.72.35.157-5472
-      - 🇹🇼TW-211.72.35.155-5431
-      - 🇹🇼TW-211.72.35.154-5653
-      - 🇹🇼TW-211.72.35.152-6515
-      - 🇹🇼TW-211.72.35.152-5479
-      - 🇸🇬SG-5.44.249.43-1480
-      - 🇰🇷KR-146.56.189.146-5934
-      - 🇯🇵JP-49.212.221.47-5493
-      - 🇯🇵JP-43.206.123.20-8702
-      - 🇯🇵JP-219.94.250.108-5921
-      - 🇯🇵JP-20.27.48.200-2404
-      - 🇯🇵JP-160.16.145.107-5659
-      - 🇯🇵JP-133.167.100.203-5619
-      - 🇨🇳CN-47.93.231.218-13348
-      - 🇨🇳CN-183.213.200.225-1741
-      - 🇨🇳CN-116.163.29.152-2959
-      - V3-美国07∣K67线路∣1.5x
-      - V3-美国01∣K61线路∣1.5x
-      - V2-越南02∣K52线路∣1.5x
-      - V2-印尼02∣K49线路∣1.5x
-      - V2-印尼01∣K48线路∣1.5x
-      - V2-新加坡04∣K39线路∣1.5x
-      - V2-台湾04∣K41线路∣1.5x
-      - V2-台湾03∣K40线路∣1.5x
-      - V2-菲律宾01∣K56线路∣1.5x
-      - V1-香港02∣K2线路∣1.5x
+      - TG频道@zyfx8  🇻🇦 4
+      - TG频道@zyfx8  🇻🇦 2
+      - TG频道@zyfx8  🇻🇦
       - US_550+|10.07Mb
-      - US_483
-      - US_274
-      - US_220+|58.60Mb
-      - TG频道@zyfx8+++🇭🇰+18
-      - TG频道@zyfx8+++🇭🇰+11
-      - IR_121+|21.28Mb
-      - HK_118
-      - HK_116
+      - 🏁RELAY-104.254.140.245-2750
+      - TG频道@kxswa+|+https://t.me/kxswa_1
+      - TG频道@kxswa+|+https://t.me/kxswa_2
+      - https://t.me/zyfx8  🇭🇰 39
+      - TG频道@kxswa+|+https://t.me/kxswa_3
+      - CN_52+|11.96Mb
+      - CN_45+|+3.32Mb
+      - CN_33+|+6.51Mb
+      - CN_27+|+5.11Mb
+      - CN_30+|+6.88Mb
+      - CN_51+|+6.26Mb
+      - CN_25+|+4.48Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡4
-      - 新加坡3
-      - 香港14
-      - 香港10
-      - 香港02|流媒体GPT
-      - 台湾|推荐05
-      - 美国凤凰城1号
-      - 韩国05
-      - 🏁RELAY-172.64.68.132-0430
-      - 🏁RELAY-172.64.128.104-2273
-      - 🏁RELAY-104.254.140.245-2750
-      - 🏁RELAY-104.21.94.37-1284
-      - 🇺🇸US-23.247.137.70-5980
-      - 🇹🇼TW-211.72.35.158-5514
-      - 🇹🇼TW-211.72.35.157-5472
-      - 🇹🇼TW-211.72.35.155-5431
-      - 🇹🇼TW-211.72.35.154-5653
-      - 🇹🇼TW-211.72.35.152-6515
-      - 🇹🇼TW-211.72.35.152-5479
-      - 🇸🇬SG-5.44.249.43-1480
-      - 🇰🇷KR-146.56.189.146-5934
-      - 🇯🇵JP-49.212.221.47-5493
-      - 🇯🇵JP-43.206.123.20-8702
-      - 🇯🇵JP-219.94.250.108-5921
-      - 🇯🇵JP-20.27.48.200-2404
-      - 🇯🇵JP-160.16.145.107-5659
-      - 🇯🇵JP-133.167.100.203-5619
-      - 🇨🇳CN-47.93.231.218-13348
-      - 🇨🇳CN-183.213.200.225-1741
-      - 🇨🇳CN-116.163.29.152-2959
-      - V3-美国07∣K67线路∣1.5x
-      - V3-美国01∣K61线路∣1.5x
-      - V2-越南02∣K52线路∣1.5x
-      - V2-印尼02∣K49线路∣1.5x
-      - V2-印尼01∣K48线路∣1.5x
-      - V2-新加坡04∣K39线路∣1.5x
-      - V2-台湾04∣K41线路∣1.5x
-      - V2-台湾03∣K40线路∣1.5x
-      - V2-菲律宾01∣K56线路∣1.5x
-      - V1-香港02∣K2线路∣1.5x
+      - TG频道@zyfx8  🇻🇦 4
+      - TG频道@zyfx8  🇻🇦 2
+      - TG频道@zyfx8  🇻🇦
       - US_550+|10.07Mb
-      - US_483
-      - US_274
-      - US_220+|58.60Mb
-      - TG频道@zyfx8+++🇭🇰+18
-      - TG频道@zyfx8+++🇭🇰+11
-      - IR_121+|21.28Mb
-      - HK_118
-      - HK_116
+      - 🏁RELAY-104.254.140.245-2750
+      - TG频道@kxswa+|+https://t.me/kxswa_1
+      - TG频道@kxswa+|+https://t.me/kxswa_2
+      - https://t.me/zyfx8  🇭🇰 39
+      - TG频道@kxswa+|+https://t.me/kxswa_3
+      - CN_52+|11.96Mb
+      - CN_45+|+3.32Mb
+      - CN_33+|+6.51Mb
+      - CN_27+|+5.11Mb
+      - CN_30+|+6.88Mb
+      - CN_51+|+6.26Mb
+      - CN_25+|+4.48Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 新加坡4
-      - 新加坡3
-      - 香港14
-      - 香港10
-      - 香港02|流媒体GPT
-      - 台湾|推荐05
-      - 美国凤凰城1号
-      - 韩国05
-      - 🏁RELAY-172.64.68.132-0430
-      - 🏁RELAY-172.64.128.104-2273
-      - 🏁RELAY-104.254.140.245-2750
-      - 🏁RELAY-104.21.94.37-1284
-      - 🇺🇸US-23.247.137.70-5980
-      - 🇹🇼TW-211.72.35.158-5514
-      - 🇹🇼TW-211.72.35.157-5472
-      - 🇹🇼TW-211.72.35.155-5431
-      - 🇹🇼TW-211.72.35.154-5653
-      - 🇹🇼TW-211.72.35.152-6515
-      - 🇹🇼TW-211.72.35.152-5479
-      - 🇸🇬SG-5.44.249.43-1480
-      - 🇰🇷KR-146.56.189.146-5934
-      - 🇯🇵JP-49.212.221.47-5493
-      - 🇯🇵JP-43.206.123.20-8702
-      - 🇯🇵JP-219.94.250.108-5921
-      - 🇯🇵JP-20.27.48.200-2404
-      - 🇯🇵JP-160.16.145.107-5659
-      - 🇯🇵JP-133.167.100.203-5619
-      - 🇨🇳CN-47.93.231.218-13348
-      - 🇨🇳CN-183.213.200.225-1741
-      - 🇨🇳CN-116.163.29.152-2959
-      - V3-美国07∣K67线路∣1.5x
-      - V3-美国01∣K61线路∣1.5x
-      - V2-越南02∣K52线路∣1.5x
-      - V2-印尼02∣K49线路∣1.5x
-      - V2-印尼01∣K48线路∣1.5x
-      - V2-新加坡04∣K39线路∣1.5x
-      - V2-台湾04∣K41线路∣1.5x
-      - V2-台湾03∣K40线路∣1.5x
-      - V2-菲律宾01∣K56线路∣1.5x
-      - V1-香港02∣K2线路∣1.5x
+      - TG频道@zyfx8  🇻🇦 4
+      - TG频道@zyfx8  🇻🇦 2
+      - TG频道@zyfx8  🇻🇦
       - US_550+|10.07Mb
-      - US_483
-      - US_274
-      - US_220+|58.60Mb
-      - TG频道@zyfx8+++🇭🇰+18
-      - TG频道@zyfx8+++🇭🇰+11
-      - IR_121+|21.28Mb
-      - HK_118
-      - HK_116
+      - 🏁RELAY-104.254.140.245-2750
+      - TG频道@kxswa+|+https://t.me/kxswa_1
+      - TG频道@kxswa+|+https://t.me/kxswa_2
+      - https://t.me/zyfx8  🇭🇰 39
+      - TG频道@kxswa+|+https://t.me/kxswa_3
+      - CN_52+|11.96Mb
+      - CN_45+|+3.32Mb
+      - CN_33+|+6.51Mb
+      - CN_27+|+5.11Mb
+      - CN_30+|+6.88Mb
+      - CN_51+|+6.26Mb
+      - CN_25+|+4.48Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 新加坡4
-      - 新加坡3
-      - 香港14
-      - 香港10
-      - 香港02|流媒体GPT
-      - 台湾|推荐05
-      - 美国凤凰城1号
-      - 韩国05
-      - 🏁RELAY-172.64.68.132-0430
-      - 🏁RELAY-172.64.128.104-2273
-      - 🏁RELAY-104.254.140.245-2750
-      - 🏁RELAY-104.21.94.37-1284
-      - 🇺🇸US-23.247.137.70-5980
-      - 🇹🇼TW-211.72.35.158-5514
-      - 🇹🇼TW-211.72.35.157-5472
-      - 🇹🇼TW-211.72.35.155-5431
-      - 🇹🇼TW-211.72.35.154-5653
-      - 🇹🇼TW-211.72.35.152-6515
-      - 🇹🇼TW-211.72.35.152-5479
-      - 🇸🇬SG-5.44.249.43-1480
-      - 🇰🇷KR-146.56.189.146-5934
-      - 🇯🇵JP-49.212.221.47-5493
-      - 🇯🇵JP-43.206.123.20-8702
-      - 🇯🇵JP-219.94.250.108-5921
-      - 🇯🇵JP-20.27.48.200-2404
-      - 🇯🇵JP-160.16.145.107-5659
-      - 🇯🇵JP-133.167.100.203-5619
-      - 🇨🇳CN-47.93.231.218-13348
-      - 🇨🇳CN-183.213.200.225-1741
-      - 🇨🇳CN-116.163.29.152-2959
-      - V3-美国07∣K67线路∣1.5x
-      - V3-美国01∣K61线路∣1.5x
-      - V2-越南02∣K52线路∣1.5x
-      - V2-印尼02∣K49线路∣1.5x
-      - V2-印尼01∣K48线路∣1.5x
-      - V2-新加坡04∣K39线路∣1.5x
-      - V2-台湾04∣K41线路∣1.5x
-      - V2-台湾03∣K40线路∣1.5x
-      - V2-菲律宾01∣K56线路∣1.5x
-      - V1-香港02∣K2线路∣1.5x
+      - TG频道@zyfx8  🇻🇦 4
+      - TG频道@zyfx8  🇻🇦 2
+      - TG频道@zyfx8  🇻🇦
       - US_550+|10.07Mb
-      - US_483
-      - US_274
-      - US_220+|58.60Mb
-      - TG频道@zyfx8+++🇭🇰+18
-      - TG频道@zyfx8+++🇭🇰+11
-      - IR_121+|21.28Mb
-      - HK_118
-      - HK_116
+      - 🏁RELAY-104.254.140.245-2750
+      - TG频道@kxswa+|+https://t.me/kxswa_1
+      - TG频道@kxswa+|+https://t.me/kxswa_2
+      - https://t.me/zyfx8  🇭🇰 39
+      - TG频道@kxswa+|+https://t.me/kxswa_3
+      - CN_52+|11.96Mb
+      - CN_45+|+3.32Mb
+      - CN_33+|+6.51Mb
+      - CN_27+|+5.11Mb
+      - CN_30+|+6.88Mb
+      - CN_51+|+6.26Mb
+      - CN_25+|+4.48Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 新加坡4
-      - 新加坡3
-      - 香港14
-      - 香港10
-      - 香港02|流媒体GPT
-      - 台湾|推荐05
-      - 美国凤凰城1号
-      - 韩国05
-      - 🏁RELAY-172.64.68.132-0430
-      - 🏁RELAY-172.64.128.104-2273
-      - 🏁RELAY-104.254.140.245-2750
-      - 🏁RELAY-104.21.94.37-1284
-      - 🇺🇸US-23.247.137.70-5980
-      - 🇹🇼TW-211.72.35.158-5514
-      - 🇹🇼TW-211.72.35.157-5472
-      - 🇹🇼TW-211.72.35.155-5431
-      - 🇹🇼TW-211.72.35.154-5653
-      - 🇹🇼TW-211.72.35.152-6515
-      - 🇹🇼TW-211.72.35.152-5479
-      - 🇸🇬SG-5.44.249.43-1480
-      - 🇰🇷KR-146.56.189.146-5934
-      - 🇯🇵JP-49.212.221.47-5493
-      - 🇯🇵JP-43.206.123.20-8702
-      - 🇯🇵JP-219.94.250.108-5921
-      - 🇯🇵JP-20.27.48.200-2404
-      - 🇯🇵JP-160.16.145.107-5659
-      - 🇯🇵JP-133.167.100.203-5619
-      - 🇨🇳CN-47.93.231.218-13348
-      - 🇨🇳CN-183.213.200.225-1741
-      - 🇨🇳CN-116.163.29.152-2959
-      - V3-美国07∣K67线路∣1.5x
-      - V3-美国01∣K61线路∣1.5x
-      - V2-越南02∣K52线路∣1.5x
-      - V2-印尼02∣K49线路∣1.5x
-      - V2-印尼01∣K48线路∣1.5x
-      - V2-新加坡04∣K39线路∣1.5x
-      - V2-台湾04∣K41线路∣1.5x
-      - V2-台湾03∣K40线路∣1.5x
-      - V2-菲律宾01∣K56线路∣1.5x
-      - V1-香港02∣K2线路∣1.5x
+      - TG频道@zyfx8  🇻🇦 4
+      - TG频道@zyfx8  🇻🇦 2
+      - TG频道@zyfx8  🇻🇦
       - US_550+|10.07Mb
-      - US_483
-      - US_274
-      - US_220+|58.60Mb
-      - TG频道@zyfx8+++🇭🇰+18
-      - TG频道@zyfx8+++🇭🇰+11
-      - IR_121+|21.28Mb
-      - HK_118
-      - HK_116
+      - 🏁RELAY-104.254.140.245-2750
+      - TG频道@kxswa+|+https://t.me/kxswa_1
+      - TG频道@kxswa+|+https://t.me/kxswa_2
+      - https://t.me/zyfx8  🇭🇰 39
+      - TG频道@kxswa+|+https://t.me/kxswa_3
+      - CN_52+|11.96Mb
+      - CN_45+|+3.32Mb
+      - CN_33+|+6.51Mb
+      - CN_27+|+5.11Mb
+      - CN_30+|+6.88Mb
+      - CN_51+|+6.26Mb
+      - CN_25+|+4.48Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -419,55 +188,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡4
-      - 新加坡3
-      - 香港14
-      - 香港10
-      - 香港02|流媒体GPT
-      - 台湾|推荐05
-      - 美国凤凰城1号
-      - 韩国05
-      - 🏁RELAY-172.64.68.132-0430
-      - 🏁RELAY-172.64.128.104-2273
-      - 🏁RELAY-104.254.140.245-2750
-      - 🏁RELAY-104.21.94.37-1284
-      - 🇺🇸US-23.247.137.70-5980
-      - 🇹🇼TW-211.72.35.158-5514
-      - 🇹🇼TW-211.72.35.157-5472
-      - 🇹🇼TW-211.72.35.155-5431
-      - 🇹🇼TW-211.72.35.154-5653
-      - 🇹🇼TW-211.72.35.152-6515
-      - 🇹🇼TW-211.72.35.152-5479
-      - 🇸🇬SG-5.44.249.43-1480
-      - 🇰🇷KR-146.56.189.146-5934
-      - 🇯🇵JP-49.212.221.47-5493
-      - 🇯🇵JP-43.206.123.20-8702
-      - 🇯🇵JP-219.94.250.108-5921
-      - 🇯🇵JP-20.27.48.200-2404
-      - 🇯🇵JP-160.16.145.107-5659
-      - 🇯🇵JP-133.167.100.203-5619
-      - 🇨🇳CN-47.93.231.218-13348
-      - 🇨🇳CN-183.213.200.225-1741
-      - 🇨🇳CN-116.163.29.152-2959
-      - V3-美国07∣K67线路∣1.5x
-      - V3-美国01∣K61线路∣1.5x
-      - V2-越南02∣K52线路∣1.5x
-      - V2-印尼02∣K49线路∣1.5x
-      - V2-印尼01∣K48线路∣1.5x
-      - V2-新加坡04∣K39线路∣1.5x
-      - V2-台湾04∣K41线路∣1.5x
-      - V2-台湾03∣K40线路∣1.5x
-      - V2-菲律宾01∣K56线路∣1.5x
-      - V1-香港02∣K2线路∣1.5x
+      - TG频道@zyfx8  🇻🇦 4
+      - TG频道@zyfx8  🇻🇦 2
+      - TG频道@zyfx8  🇻🇦
       - US_550+|10.07Mb
-      - US_483
-      - US_274
-      - US_220+|58.60Mb
-      - TG频道@zyfx8+++🇭🇰+18
-      - TG频道@zyfx8+++🇭🇰+11
-      - IR_121+|21.28Mb
-      - HK_118
-      - HK_116
+      - 🏁RELAY-104.254.140.245-2750
+      - TG频道@kxswa+|+https://t.me/kxswa_1
+      - TG频道@kxswa+|+https://t.me/kxswa_2
+      - https://t.me/zyfx8  🇭🇰 39
+      - TG频道@kxswa+|+https://t.me/kxswa_3
+      - CN_52+|11.96Mb
+      - CN_45+|+3.32Mb
+      - CN_33+|+6.51Mb
+      - CN_27+|+5.11Mb
+      - CN_30+|+6.88Mb
+      - CN_51+|+6.26Mb
+      - CN_25+|+4.48Mb
 
 rules:
 # 本地/局域网地址
