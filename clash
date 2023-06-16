@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-06-15 09:22:41
+# 创建时间：2023-06-16 09:04:15
 # 使用模版：V2RaySE 默认模版
-# 节点数量：16
+# 节点数量：40
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,151 +21,319 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"[🇫🇷]94.23.116.190:443(HowdyBypasser2022)_1","type":"ssr","server":"94.23.116.190","port":443,"password":"HowdyBypasser2022","cipher":"aes-256-ctr","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
-  - {"name":"[🇫🇷]94.23.116.190:443(HowdyBypasser2022)_2","type":"ssr","server":"94.23.116.190","port":443,"password":"HowdyBypasser2022","cipher":"aes-256-ctr","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"nodesCatch"}
-  - {"name":"[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)","type":"trojan","server":"149.50.75.81","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":false}
-  - {"name":"CN_19+|10.48Mb","type":"ss","server":"free.themars.top","port":32102,"password":"b89b39c2-dc8d-4595-a4c5-54b4fbab3fc2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_🇮🇱IL-🇬🇧GB_310","type":"trojan","server":"149.50.77.102","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":false}
-  - {"name":"Relay_🇮🇱IL-🇳🇱NL_555","type":"trojan","server":"149.50.77.97","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":false}
+  - {"name":"中国 - 香港 - Hong Kong Cable TV Ltd - Cable Multi-Media Services","type":"ssr","server":"cn02.mynode.me","port":8105,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
+  - {"name":"中国 - 香港 - HGC Global Communications Limited","type":"ssr","server":"cn02.mynode.me","port":8107,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
+  - {"name":"套餐到期：2023-06-22","type":"ss","server":"zzdfhk.buffcloud.icu","port":30967,"password":"fa5d8252-8a42-4116-a2e6-1d89d1b7c691","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"剩余流量：50+GB_1","type":"ss","server":"zzdfhk.buffcloud.icu","port":30967,"password":"f350d36c-3db6-42c7-bc71-d3b1bd8924c0","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"剩余流量：50+GB_2","type":"ss","server":"zzdfhk.buffcloud.icu","port":30967,"password":"7ddcc9dc-616e-42d6-a201-fe2a68833779","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"联通一区(北京)","type":"vmess","server":"39.103.165.178","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"联通四区(上海)","type":"vmess","server":"42.192.17.34","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"韩国 - 首尔特别市 - Oracle Cloud Infrastructure (ap-seoul-1)","type":"ssr","server":"cn17.mynode.me","port":8602,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
+  - {"name":"电信一区(南京)","type":"vmess","server":"175.27.154.61","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"电信一区(广东)","type":"vmess","server":"111.230.252.149","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇳🇱NL-149.50.75.90-13148","type":"trojan","server":"149.50.75.90","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
+  - {"name":"🇳🇱NL-149.50.75.89-0165","type":"trojan","server":"149.50.75.89","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
+  - {"name":"🇳🇱NL-149.50.75.104-0193","type":"trojan","server":"149.50.75.104","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
+  - {"name":"🇳🇱NL-149.50.75.100-13191","type":"trojan","server":"149.50.75.100","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
+  - {"name":"🇯🇵日本-02_1","type":"ss","server":"zzdfjp01.buffcloud.icu","port":39028,"password":"7e4daa97-8695-4154-8c91-dc7654262d78","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵日本-02_2","type":"ss","server":"zzdfjp01.buffcloud.icu","port":39028,"password":"f350d36c-3db6-42c7-bc71-d3b1bd8924c0","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵日本-02_3","type":"ss","server":"zzdfjp01.buffcloud.icu","port":39028,"password":"fa5d8252-8a42-4116-a2e6-1d89d1b7c691","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵日本-02_4","type":"ss","server":"zzdfjp01.buffcloud.icu","port":39028,"password":"7ddcc9dc-616e-42d6-a201-fe2a68833779","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇯🇵JP-149.50.71.124-0226","type":"trojan","server":"149.50.71.124","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-149.50.71.117-0275","type":"trojan","server":"149.50.71.117","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-149.50.70.87-13159","type":"trojan","server":"149.50.70.87","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
+  - {"name":"🇮🇳IN-152.70.74.66-0107","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
+  - {"name":"🇮🇱_电报频道：+@bdpd8","type":"trojan","server":"149.50.70.72","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
+  - {"name":"🇭🇰香港-03_1","type":"ss","server":"zzdfhk03.buffcloud.icu","port":40603,"password":"7e4daa97-8695-4154-8c91-dc7654262d78","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰香港-03_2","type":"ss","server":"zzdfhk03.buffcloud.icu","port":40603,"password":"fa5d8252-8a42-4116-a2e6-1d89d1b7c691","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰香港-02","type":"ss","server":"zzdfhk.buffcloud.icu","port":30967,"password":"7e4daa97-8695-4154-8c91-dc7654262d78","cipher":"chacha20-ietf-poly1305"}
   - {"name":"Relay_-🇸🇬SG_157_1","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
   - {"name":"Relay_-🇸🇬SG_157_2","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"nodesCatch"}
-  - {"name":"🇮🇩ID-103.169.7.11-0257","type":"trojan","server":"103.169.7.11","port":80,"udp":true,"password":"c0d9da22-2569-4bed-a395-607d9e7ae687","sni":"sciencedirect.com","skip-cert-verify":true}
-  - {"name":"🇮🇳IN-152.70.74.66-0107","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-149.50.70.87-13159","type":"trojan","server":"149.50.70.87","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
-  - {"name":"🇳🇱NL-149.50.75.89-0165","type":"trojan","server":"149.50.75.89","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
-  - {"name":"🇳🇱NL-149.50.75.90-13148","type":"trojan","server":"149.50.75.90","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
-  - {"name":"🇺🇸US-156.251.130.159-13506","type":"vmess","server":"156.251.130.159","port":443,"cipher":"auto","uuid":"4ab4a477-72db-4b88-a17a-a165a1ade668","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"156.251.130.159","network":"ws","ws-opts":{"path":"/2532e16141e/"}}
-  - {"name":"🏁RELAY-172.64.109.49-0105","type":"vmess","server":"cf-lt.sharecentre.online","port":443,"cipher":"auto","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv1.sharecentrepro.org"}}}
-  - {"name":"长期更新节点@mftizi","type":"vmess","server":"45.58.147.195","port":50022,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"Relay_🇮🇱IL-🇯🇵JP_533","type":"trojan","server":"149.50.70.83","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":false}
+  - {"name":"Relay_🇮🇱IL-🇬🇧GB_570","type":"trojan","server":"149.50.75.76","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":false}
+  - {"name":"Relay_🇨🇳CN-🇨🇳CN_101","type":"ssr","server":"cn05.mynode.me","port":8126,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
+  - {"name":"Relay_🇨🇳CN-🇦🇺AU_407","type":"ssr","server":"cn12.mynode.me","port":8407,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
+  - {"name":"Relay_🇨🇳CN-🇦🇺AU_406","type":"ssr","server":"cn12.mynode.me","port":8405,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
+  - {"name":"cn02.mynode.me:8106","type":"ssr","server":"cn02.mynode.me","port":8106,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
+  - {"name":"cn02.mynode.me:8104","type":"ssr","server":"cn02.mynode.me","port":8104,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
+  - {"name":"cn00.mynode.me:8802","type":"ssr","server":"cn00.mynode.me","port":8802,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
+  - {"name":"[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)","type":"trojan","server":"149.50.75.81","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":false}
+  - {"name":"[🇨🇳]cn05.mynode.me:8123(passwd)","type":"ssr","server":"cn05.mynode.me","port":8123,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
+  - {"name":"[🇨🇳]cn02.mynode.me:8108(passwd)","type":"ssr","server":"cn02.mynode.me","port":8108,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
+  - {"name":"[🇨🇳]cn02.mynode.me:8102(passwd)","type":"ssr","server":"cn02.mynode.me","port":8110,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - '[🇫🇷]94.23.116.190:443(HowdyBypasser2022)_1'
-      - '[🇫🇷]94.23.116.190:443(HowdyBypasser2022)_2'
-      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
-      - CN_19+|10.48Mb
-      - Relay_🇮🇱IL-🇬🇧GB_310
-      - Relay_🇮🇱IL-🇳🇱NL_555
+      - 中国 - 香港 - Hong Kong Cable TV Ltd - Cable Multi-Media Services
+      - 中国 - 香港 - HGC Global Communications Limited
+      - 套餐到期：2023-06-22
+      - 剩余流量：50+GB_1
+      - 剩余流量：50+GB_2
+      - 联通一区(北京)
+      - 联通四区(上海)
+      - 韩国 - 首尔特别市 - Oracle Cloud Infrastructure (ap-seoul-1)
+      - 电信一区(南京)
+      - 电信一区(广东)
+      - 🇳🇱NL-149.50.75.90-13148
+      - 🇳🇱NL-149.50.75.89-0165
+      - 🇳🇱NL-149.50.75.104-0193
+      - 🇳🇱NL-149.50.75.100-13191
+      - 🇯🇵日本-02_1
+      - 🇯🇵日本-02_2
+      - 🇯🇵日本-02_3
+      - 🇯🇵日本-02_4
+      - 🇯🇵JP-149.50.71.124-0226
+      - 🇯🇵JP-149.50.71.117-0275
+      - 🇯🇵JP-149.50.70.87-13159
+      - 🇮🇳IN-152.70.74.66-0107
+      - 🇮🇱_电报频道：+@bdpd8
+      - 🇭🇰香港-03_1
+      - 🇭🇰香港-03_2
+      - 🇭🇰香港-02
       - Relay_-🇸🇬SG_157_1
       - Relay_-🇸🇬SG_157_2
-      - 🇮🇩ID-103.169.7.11-0257
-      - 🇮🇳IN-152.70.74.66-0107
-      - 🇯🇵JP-149.50.70.87-13159
-      - 🇳🇱NL-149.50.75.89-0165
-      - 🇳🇱NL-149.50.75.90-13148
-      - 🇺🇸US-156.251.130.159-13506
-      - 🏁RELAY-172.64.109.49-0105
-      - 长期更新节点@mftizi
+      - Relay_🇮🇱IL-🇯🇵JP_533
+      - Relay_🇮🇱IL-🇬🇧GB_570
+      - Relay_🇨🇳CN-🇨🇳CN_101
+      - Relay_🇨🇳CN-🇦🇺AU_407
+      - Relay_🇨🇳CN-🇦🇺AU_406
+      - cn02.mynode.me:8106
+      - cn02.mynode.me:8104
+      - cn00.mynode.me:8802
+      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
+      - '[🇨🇳]cn05.mynode.me:8123(passwd)'
+      - '[🇨🇳]cn02.mynode.me:8108(passwd)'
+      - '[🇨🇳]cn02.mynode.me:8102(passwd)'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - '[🇫🇷]94.23.116.190:443(HowdyBypasser2022)_1'
-      - '[🇫🇷]94.23.116.190:443(HowdyBypasser2022)_2'
-      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
-      - CN_19+|10.48Mb
-      - Relay_🇮🇱IL-🇬🇧GB_310
-      - Relay_🇮🇱IL-🇳🇱NL_555
+      - 中国 - 香港 - Hong Kong Cable TV Ltd - Cable Multi-Media Services
+      - 中国 - 香港 - HGC Global Communications Limited
+      - 套餐到期：2023-06-22
+      - 剩余流量：50+GB_1
+      - 剩余流量：50+GB_2
+      - 联通一区(北京)
+      - 联通四区(上海)
+      - 韩国 - 首尔特别市 - Oracle Cloud Infrastructure (ap-seoul-1)
+      - 电信一区(南京)
+      - 电信一区(广东)
+      - 🇳🇱NL-149.50.75.90-13148
+      - 🇳🇱NL-149.50.75.89-0165
+      - 🇳🇱NL-149.50.75.104-0193
+      - 🇳🇱NL-149.50.75.100-13191
+      - 🇯🇵日本-02_1
+      - 🇯🇵日本-02_2
+      - 🇯🇵日本-02_3
+      - 🇯🇵日本-02_4
+      - 🇯🇵JP-149.50.71.124-0226
+      - 🇯🇵JP-149.50.71.117-0275
+      - 🇯🇵JP-149.50.70.87-13159
+      - 🇮🇳IN-152.70.74.66-0107
+      - 🇮🇱_电报频道：+@bdpd8
+      - 🇭🇰香港-03_1
+      - 🇭🇰香港-03_2
+      - 🇭🇰香港-02
       - Relay_-🇸🇬SG_157_1
       - Relay_-🇸🇬SG_157_2
-      - 🇮🇩ID-103.169.7.11-0257
-      - 🇮🇳IN-152.70.74.66-0107
-      - 🇯🇵JP-149.50.70.87-13159
-      - 🇳🇱NL-149.50.75.89-0165
-      - 🇳🇱NL-149.50.75.90-13148
-      - 🇺🇸US-156.251.130.159-13506
-      - 🏁RELAY-172.64.109.49-0105
-      - 长期更新节点@mftizi
+      - Relay_🇮🇱IL-🇯🇵JP_533
+      - Relay_🇮🇱IL-🇬🇧GB_570
+      - Relay_🇨🇳CN-🇨🇳CN_101
+      - Relay_🇨🇳CN-🇦🇺AU_407
+      - Relay_🇨🇳CN-🇦🇺AU_406
+      - cn02.mynode.me:8106
+      - cn02.mynode.me:8104
+      - cn00.mynode.me:8802
+      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
+      - '[🇨🇳]cn05.mynode.me:8123(passwd)'
+      - '[🇨🇳]cn02.mynode.me:8108(passwd)'
+      - '[🇨🇳]cn02.mynode.me:8102(passwd)'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - '[🇫🇷]94.23.116.190:443(HowdyBypasser2022)_1'
-      - '[🇫🇷]94.23.116.190:443(HowdyBypasser2022)_2'
-      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
-      - CN_19+|10.48Mb
-      - Relay_🇮🇱IL-🇬🇧GB_310
-      - Relay_🇮🇱IL-🇳🇱NL_555
+      - 中国 - 香港 - Hong Kong Cable TV Ltd - Cable Multi-Media Services
+      - 中国 - 香港 - HGC Global Communications Limited
+      - 套餐到期：2023-06-22
+      - 剩余流量：50+GB_1
+      - 剩余流量：50+GB_2
+      - 联通一区(北京)
+      - 联通四区(上海)
+      - 韩国 - 首尔特别市 - Oracle Cloud Infrastructure (ap-seoul-1)
+      - 电信一区(南京)
+      - 电信一区(广东)
+      - 🇳🇱NL-149.50.75.90-13148
+      - 🇳🇱NL-149.50.75.89-0165
+      - 🇳🇱NL-149.50.75.104-0193
+      - 🇳🇱NL-149.50.75.100-13191
+      - 🇯🇵日本-02_1
+      - 🇯🇵日本-02_2
+      - 🇯🇵日本-02_3
+      - 🇯🇵日本-02_4
+      - 🇯🇵JP-149.50.71.124-0226
+      - 🇯🇵JP-149.50.71.117-0275
+      - 🇯🇵JP-149.50.70.87-13159
+      - 🇮🇳IN-152.70.74.66-0107
+      - 🇮🇱_电报频道：+@bdpd8
+      - 🇭🇰香港-03_1
+      - 🇭🇰香港-03_2
+      - 🇭🇰香港-02
       - Relay_-🇸🇬SG_157_1
       - Relay_-🇸🇬SG_157_2
-      - 🇮🇩ID-103.169.7.11-0257
-      - 🇮🇳IN-152.70.74.66-0107
-      - 🇯🇵JP-149.50.70.87-13159
-      - 🇳🇱NL-149.50.75.89-0165
-      - 🇳🇱NL-149.50.75.90-13148
-      - 🇺🇸US-156.251.130.159-13506
-      - 🏁RELAY-172.64.109.49-0105
-      - 长期更新节点@mftizi
+      - Relay_🇮🇱IL-🇯🇵JP_533
+      - Relay_🇮🇱IL-🇬🇧GB_570
+      - Relay_🇨🇳CN-🇨🇳CN_101
+      - Relay_🇨🇳CN-🇦🇺AU_407
+      - Relay_🇨🇳CN-🇦🇺AU_406
+      - cn02.mynode.me:8106
+      - cn02.mynode.me:8104
+      - cn00.mynode.me:8802
+      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
+      - '[🇨🇳]cn05.mynode.me:8123(passwd)'
+      - '[🇨🇳]cn02.mynode.me:8108(passwd)'
+      - '[🇨🇳]cn02.mynode.me:8102(passwd)'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '[🇫🇷]94.23.116.190:443(HowdyBypasser2022)_1'
-      - '[🇫🇷]94.23.116.190:443(HowdyBypasser2022)_2'
-      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
-      - CN_19+|10.48Mb
-      - Relay_🇮🇱IL-🇬🇧GB_310
-      - Relay_🇮🇱IL-🇳🇱NL_555
+      - 中国 - 香港 - Hong Kong Cable TV Ltd - Cable Multi-Media Services
+      - 中国 - 香港 - HGC Global Communications Limited
+      - 套餐到期：2023-06-22
+      - 剩余流量：50+GB_1
+      - 剩余流量：50+GB_2
+      - 联通一区(北京)
+      - 联通四区(上海)
+      - 韩国 - 首尔特别市 - Oracle Cloud Infrastructure (ap-seoul-1)
+      - 电信一区(南京)
+      - 电信一区(广东)
+      - 🇳🇱NL-149.50.75.90-13148
+      - 🇳🇱NL-149.50.75.89-0165
+      - 🇳🇱NL-149.50.75.104-0193
+      - 🇳🇱NL-149.50.75.100-13191
+      - 🇯🇵日本-02_1
+      - 🇯🇵日本-02_2
+      - 🇯🇵日本-02_3
+      - 🇯🇵日本-02_4
+      - 🇯🇵JP-149.50.71.124-0226
+      - 🇯🇵JP-149.50.71.117-0275
+      - 🇯🇵JP-149.50.70.87-13159
+      - 🇮🇳IN-152.70.74.66-0107
+      - 🇮🇱_电报频道：+@bdpd8
+      - 🇭🇰香港-03_1
+      - 🇭🇰香港-03_2
+      - 🇭🇰香港-02
       - Relay_-🇸🇬SG_157_1
       - Relay_-🇸🇬SG_157_2
-      - 🇮🇩ID-103.169.7.11-0257
-      - 🇮🇳IN-152.70.74.66-0107
-      - 🇯🇵JP-149.50.70.87-13159
-      - 🇳🇱NL-149.50.75.89-0165
-      - 🇳🇱NL-149.50.75.90-13148
-      - 🇺🇸US-156.251.130.159-13506
-      - 🏁RELAY-172.64.109.49-0105
-      - 长期更新节点@mftizi
+      - Relay_🇮🇱IL-🇯🇵JP_533
+      - Relay_🇮🇱IL-🇬🇧GB_570
+      - Relay_🇨🇳CN-🇨🇳CN_101
+      - Relay_🇨🇳CN-🇦🇺AU_407
+      - Relay_🇨🇳CN-🇦🇺AU_406
+      - cn02.mynode.me:8106
+      - cn02.mynode.me:8104
+      - cn00.mynode.me:8802
+      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
+      - '[🇨🇳]cn05.mynode.me:8123(passwd)'
+      - '[🇨🇳]cn02.mynode.me:8108(passwd)'
+      - '[🇨🇳]cn02.mynode.me:8102(passwd)'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - '[🇫🇷]94.23.116.190:443(HowdyBypasser2022)_1'
-      - '[🇫🇷]94.23.116.190:443(HowdyBypasser2022)_2'
-      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
-      - CN_19+|10.48Mb
-      - Relay_🇮🇱IL-🇬🇧GB_310
-      - Relay_🇮🇱IL-🇳🇱NL_555
+      - 中国 - 香港 - Hong Kong Cable TV Ltd - Cable Multi-Media Services
+      - 中国 - 香港 - HGC Global Communications Limited
+      - 套餐到期：2023-06-22
+      - 剩余流量：50+GB_1
+      - 剩余流量：50+GB_2
+      - 联通一区(北京)
+      - 联通四区(上海)
+      - 韩国 - 首尔特别市 - Oracle Cloud Infrastructure (ap-seoul-1)
+      - 电信一区(南京)
+      - 电信一区(广东)
+      - 🇳🇱NL-149.50.75.90-13148
+      - 🇳🇱NL-149.50.75.89-0165
+      - 🇳🇱NL-149.50.75.104-0193
+      - 🇳🇱NL-149.50.75.100-13191
+      - 🇯🇵日本-02_1
+      - 🇯🇵日本-02_2
+      - 🇯🇵日本-02_3
+      - 🇯🇵日本-02_4
+      - 🇯🇵JP-149.50.71.124-0226
+      - 🇯🇵JP-149.50.71.117-0275
+      - 🇯🇵JP-149.50.70.87-13159
+      - 🇮🇳IN-152.70.74.66-0107
+      - 🇮🇱_电报频道：+@bdpd8
+      - 🇭🇰香港-03_1
+      - 🇭🇰香港-03_2
+      - 🇭🇰香港-02
       - Relay_-🇸🇬SG_157_1
       - Relay_-🇸🇬SG_157_2
-      - 🇮🇩ID-103.169.7.11-0257
-      - 🇮🇳IN-152.70.74.66-0107
-      - 🇯🇵JP-149.50.70.87-13159
-      - 🇳🇱NL-149.50.75.89-0165
-      - 🇳🇱NL-149.50.75.90-13148
-      - 🇺🇸US-156.251.130.159-13506
-      - 🏁RELAY-172.64.109.49-0105
-      - 长期更新节点@mftizi
+      - Relay_🇮🇱IL-🇯🇵JP_533
+      - Relay_🇮🇱IL-🇬🇧GB_570
+      - Relay_🇨🇳CN-🇨🇳CN_101
+      - Relay_🇨🇳CN-🇦🇺AU_407
+      - Relay_🇨🇳CN-🇦🇺AU_406
+      - cn02.mynode.me:8106
+      - cn02.mynode.me:8104
+      - cn00.mynode.me:8802
+      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
+      - '[🇨🇳]cn05.mynode.me:8123(passwd)'
+      - '[🇨🇳]cn02.mynode.me:8108(passwd)'
+      - '[🇨🇳]cn02.mynode.me:8102(passwd)'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '[🇫🇷]94.23.116.190:443(HowdyBypasser2022)_1'
-      - '[🇫🇷]94.23.116.190:443(HowdyBypasser2022)_2'
-      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
-      - CN_19+|10.48Mb
-      - Relay_🇮🇱IL-🇬🇧GB_310
-      - Relay_🇮🇱IL-🇳🇱NL_555
+      - 中国 - 香港 - Hong Kong Cable TV Ltd - Cable Multi-Media Services
+      - 中国 - 香港 - HGC Global Communications Limited
+      - 套餐到期：2023-06-22
+      - 剩余流量：50+GB_1
+      - 剩余流量：50+GB_2
+      - 联通一区(北京)
+      - 联通四区(上海)
+      - 韩国 - 首尔特别市 - Oracle Cloud Infrastructure (ap-seoul-1)
+      - 电信一区(南京)
+      - 电信一区(广东)
+      - 🇳🇱NL-149.50.75.90-13148
+      - 🇳🇱NL-149.50.75.89-0165
+      - 🇳🇱NL-149.50.75.104-0193
+      - 🇳🇱NL-149.50.75.100-13191
+      - 🇯🇵日本-02_1
+      - 🇯🇵日本-02_2
+      - 🇯🇵日本-02_3
+      - 🇯🇵日本-02_4
+      - 🇯🇵JP-149.50.71.124-0226
+      - 🇯🇵JP-149.50.71.117-0275
+      - 🇯🇵JP-149.50.70.87-13159
+      - 🇮🇳IN-152.70.74.66-0107
+      - 🇮🇱_电报频道：+@bdpd8
+      - 🇭🇰香港-03_1
+      - 🇭🇰香港-03_2
+      - 🇭🇰香港-02
       - Relay_-🇸🇬SG_157_1
       - Relay_-🇸🇬SG_157_2
-      - 🇮🇩ID-103.169.7.11-0257
-      - 🇮🇳IN-152.70.74.66-0107
-      - 🇯🇵JP-149.50.70.87-13159
-      - 🇳🇱NL-149.50.75.89-0165
-      - 🇳🇱NL-149.50.75.90-13148
-      - 🇺🇸US-156.251.130.159-13506
-      - 🏁RELAY-172.64.109.49-0105
-      - 长期更新节点@mftizi
+      - Relay_🇮🇱IL-🇯🇵JP_533
+      - Relay_🇮🇱IL-🇬🇧GB_570
+      - Relay_🇨🇳CN-🇨🇳CN_101
+      - Relay_🇨🇳CN-🇦🇺AU_407
+      - Relay_🇨🇳CN-🇦🇺AU_406
+      - cn02.mynode.me:8106
+      - cn02.mynode.me:8104
+      - cn00.mynode.me:8802
+      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
+      - '[🇨🇳]cn05.mynode.me:8123(passwd)'
+      - '[🇨🇳]cn02.mynode.me:8108(passwd)'
+      - '[🇨🇳]cn02.mynode.me:8102(passwd)'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -188,22 +356,46 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - '[🇫🇷]94.23.116.190:443(HowdyBypasser2022)_1'
-      - '[🇫🇷]94.23.116.190:443(HowdyBypasser2022)_2'
-      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
-      - CN_19+|10.48Mb
-      - Relay_🇮🇱IL-🇬🇧GB_310
-      - Relay_🇮🇱IL-🇳🇱NL_555
+      - 中国 - 香港 - Hong Kong Cable TV Ltd - Cable Multi-Media Services
+      - 中国 - 香港 - HGC Global Communications Limited
+      - 套餐到期：2023-06-22
+      - 剩余流量：50+GB_1
+      - 剩余流量：50+GB_2
+      - 联通一区(北京)
+      - 联通四区(上海)
+      - 韩国 - 首尔特别市 - Oracle Cloud Infrastructure (ap-seoul-1)
+      - 电信一区(南京)
+      - 电信一区(广东)
+      - 🇳🇱NL-149.50.75.90-13148
+      - 🇳🇱NL-149.50.75.89-0165
+      - 🇳🇱NL-149.50.75.104-0193
+      - 🇳🇱NL-149.50.75.100-13191
+      - 🇯🇵日本-02_1
+      - 🇯🇵日本-02_2
+      - 🇯🇵日本-02_3
+      - 🇯🇵日本-02_4
+      - 🇯🇵JP-149.50.71.124-0226
+      - 🇯🇵JP-149.50.71.117-0275
+      - 🇯🇵JP-149.50.70.87-13159
+      - 🇮🇳IN-152.70.74.66-0107
+      - 🇮🇱_电报频道：+@bdpd8
+      - 🇭🇰香港-03_1
+      - 🇭🇰香港-03_2
+      - 🇭🇰香港-02
       - Relay_-🇸🇬SG_157_1
       - Relay_-🇸🇬SG_157_2
-      - 🇮🇩ID-103.169.7.11-0257
-      - 🇮🇳IN-152.70.74.66-0107
-      - 🇯🇵JP-149.50.70.87-13159
-      - 🇳🇱NL-149.50.75.89-0165
-      - 🇳🇱NL-149.50.75.90-13148
-      - 🇺🇸US-156.251.130.159-13506
-      - 🏁RELAY-172.64.109.49-0105
-      - 长期更新节点@mftizi
+      - Relay_🇮🇱IL-🇯🇵JP_533
+      - Relay_🇮🇱IL-🇬🇧GB_570
+      - Relay_🇨🇳CN-🇨🇳CN_101
+      - Relay_🇨🇳CN-🇦🇺AU_407
+      - Relay_🇨🇳CN-🇦🇺AU_406
+      - cn02.mynode.me:8106
+      - cn02.mynode.me:8104
+      - cn00.mynode.me:8802
+      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
+      - '[🇨🇳]cn05.mynode.me:8123(passwd)'
+      - '[🇨🇳]cn02.mynode.me:8108(passwd)'
+      - '[🇨🇳]cn02.mynode.me:8102(passwd)'
 
 rules:
 # 本地/局域网地址
