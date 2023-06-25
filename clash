@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-06-16 09:04:15
+# 创建时间：2023-06-25 10:20:41
 # 使用模版：V2RaySE 默认模版
-# 节点数量：40
+# 节点数量：62
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,319 +21,473 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"中国 - 香港 - Hong Kong Cable TV Ltd - Cable Multi-Media Services","type":"ssr","server":"cn02.mynode.me","port":8105,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
-  - {"name":"中国 - 香港 - HGC Global Communications Limited","type":"ssr","server":"cn02.mynode.me","port":8107,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
-  - {"name":"套餐到期：2023-06-22","type":"ss","server":"zzdfhk.buffcloud.icu","port":30967,"password":"fa5d8252-8a42-4116-a2e6-1d89d1b7c691","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"剩余流量：50+GB_1","type":"ss","server":"zzdfhk.buffcloud.icu","port":30967,"password":"f350d36c-3db6-42c7-bc71-d3b1bd8924c0","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"剩余流量：50+GB_2","type":"ss","server":"zzdfhk.buffcloud.icu","port":30967,"password":"7ddcc9dc-616e-42d6-a201-fe2a68833779","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"联通一区(北京)","type":"vmess","server":"39.103.165.178","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"联通四区(上海)","type":"vmess","server":"42.192.17.34","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"韩国 - 首尔特别市 - Oracle Cloud Infrastructure (ap-seoul-1)","type":"ssr","server":"cn17.mynode.me","port":8602,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
-  - {"name":"电信一区(南京)","type":"vmess","server":"175.27.154.61","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"France","type":"vmess","server":"135.125.28.64","port":17710,"cipher":"auto","uuid":"a6956d50-c48a-404e-aacd-1267e46c6dbe","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"JP_165","type":"trojan","server":"hk1.gsjc.cfd","port":443,"udp":true,"password":"f5075d6e-c65b-4133-b4fa-301ce5ba1fa9","skip-cert-verify":true}
+  - {"name":"JP_186","type":"trojan","server":"jp2.gsjc.cfd","port":443,"udp":true,"password":"39666941-4cb2-4ce7-8a63-f183fedfd6bb","skip-cert-verify":true}
+  - {"name":"Relay_-🇩🇪DE_473+|10.39Mb","type":"ss","server":"172.105.251.205","port":443,"password":"0r91Aj1MeFRSvoy6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"Relay_-🇩🇪DE_474+|12.75Mb","type":"ss","server":"172.104.132.14","port":443,"password":"0r91Aj1MeFRSvoy6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"SG","type":"trojan","server":"pqawssg01.gsjc.cfd","port":443,"udp":true,"password":"b2ac46e0-cf21-4dd3-bf99-60eeb18a1cee","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true}
+  - {"name":"SG_220","type":"trojan","server":"sg1.gsjc.cfd","port":443,"udp":true,"password":"f5075d6e-c65b-4133-b4fa-301ce5ba1fa9","skip-cert-verify":true}
+  - {"name":"US_508","type":"trojan","server":"pqawssg01.gsjc.cfd","port":443,"udp":true,"password":"171851fe-0de9-4df7-887a-61623bab3853","skip-cert-verify":true}
+  - {"name":"V0+JPN-000T+|+0.05x比率+|+红了就更新订阅","type":"trojan","server":"43.206.140.122","port":443,"udp":true,"password":"5ec32aad-480f-3041-8d7f-ab529eacc8cb","sni":"AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM","skip-cert-verify":false}
+  - {"name":"V2+HKG-220T+移动中转+|+香港+|+BGP+|+极速","type":"trojan","server":"183.232.249.192","port":6242,"udp":true,"password":"5ec32aad-480f-3041-8d7f-ab529eacc8cb","sni":"AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM","skip-cert-verify":false}
+  - {"name":"V2+HKG-221T+移动中转+|+香港+|+BGP+|+极速","type":"trojan","server":"183.232.249.192","port":13159,"udp":true,"password":"5ec32aad-480f-3041-8d7f-ab529eacc8cb","sni":"AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM","skip-cert-verify":false}
+  - {"name":"V2+HKG-291T+移动中转+|+香港+|+2x倍率+|+高速","type":"trojan","server":"221.131.165.164","port":1201,"udp":true,"password":"5ec32aad-480f-3041-8d7f-ab529eacc8cb","sni":"AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM","skip-cert-verify":false}
+  - {"name":"V3+DEU-300T+移动中转+|+德国+|+高速","type":"trojan","server":"183.232.249.192","port":37541,"udp":true,"password":"5ec32aad-480f-3041-8d7f-ab529eacc8cb","sni":"AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM","skip-cert-verify":false}
+  - {"name":"V3+DEU-301T+移动中转+|+德国+|+高速","type":"trojan","server":"221.131.165.164","port":5412,"udp":true,"password":"5ec32aad-480f-3041-8d7f-ab529eacc8cb","sni":"AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM","skip-cert-verify":false}
+  - {"name":"V3+HKG-300T+移动中转+|+香港+|+急速+1GE","type":"trojan","server":"221.131.165.164","port":9842,"udp":true,"password":"5ec32aad-480f-3041-8d7f-ab529eacc8cb","sni":"AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM","skip-cert-verify":false}
+  - {"name":"V3+JPN-312T+移动中转+|+日本","type":"trojan","server":"120.241.46.27","port":55650,"udp":true,"password":"5ec32aad-480f-3041-8d7f-ab529eacc8cb","sni":"AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM","skip-cert-verify":false}
+  - {"name":"V3+JPN-320T+移动中转+|+日本+|+确认啥都解锁+|+极速+1GE","type":"trojan","server":"221.131.165.164","port":52000,"udp":true,"password":"5ec32aad-480f-3041-8d7f-ab529eacc8cb","sni":"AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM","skip-cert-verify":false}
+  - {"name":"V3+JPN-321T+移动中转+|+日本+|+确认啥都解锁+|+极速+1GE","type":"trojan","server":"221.131.165.164","port":52001,"udp":true,"password":"5ec32aad-480f-3041-8d7f-ab529eacc8cb","sni":"AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM","skip-cert-verify":false}
+  - {"name":"V3+KOR-301T+联通中转+|+韩国+|+高速低延迟","type":"trojan","server":"221.131.165.164","port":3000,"udp":true,"password":"5ec32aad-480f-3041-8d7f-ab529eacc8cb","sni":"AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM","skip-cert-verify":false}
+  - {"name":"V3+KOR-320T+移动中转+|+韩国+|+高速低延迟","type":"trojan","server":"221.131.165.164","port":4125,"udp":true,"password":"5ec32aad-480f-3041-8d7f-ab529eacc8cb","sni":"AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM","skip-cert-verify":false}
+  - {"name":"V3+SGP-320T+移动中转+|+高速","type":"trojan","server":"221.131.165.164","port":7531,"udp":true,"password":"5ec32aad-480f-3041-8d7f-ab529eacc8cb","sni":"AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM","skip-cert-verify":false}
+  - {"name":"🇨🇳CN-183.213.200.225-1565","type":"trojan","server":"183.213.200.225","port":28114,"udp":true,"password":"cdyB1Q","sni":"download.windowsupdate.com","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-183.240.220.96-5544","type":"trojan","server":"official.seoulcitygovernment.com.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-183.240.220.96-5955","type":"trojan","server":"official.taipeicitygovernment.cn.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-183.240.220.98-5977","type":"trojan","server":"official.taipeicitygovernment.net.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-183.240.220.99-5760","type":"trojan","server":"official.taipeicitygovernment.dp.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-223.167.41.150-3277","type":"trojan","server":"jp08a.roc-taiwan.org.ua","port":65018,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-223.167.41.150-5711","type":"trojan","server":"jp01a.roc-taiwan.net.ua","port":65011,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-223.167.41.150-5761","type":"trojan","server":"jp02a.roc-taiwan.net.ua","port":65012,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-223.167.41.216-5688","type":"trojan","server":"official.tokyometropolis.kherson.ua","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-223.167.41.216-5946","type":"trojan","server":"official.tokyometropolis.odessa.ua","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-47.93.231.218-8052","type":"vmess","server":"47.93.231.218","port":53022,"cipher":"auto","uuid":"95fd7642-2160-4528-e909-3d526b533013","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇭🇰+AWS香港1","type":"trojan","server":"hk1.gsjc.cfd","port":443,"udp":true,"password":"4828af9a-e56a-4c37-b7ba-e601ccaff738","skip-cert-verify":false}
+  - {"name":"🇭🇰+AWS香港3","type":"trojan","server":"hk2.gsjc.cfd","port":443,"udp":true,"password":"4828af9a-e56a-4c37-b7ba-e601ccaff738","skip-cert-verify":false}
+  - {"name":"🇭🇰+香港4|GPT|奈飞|","type":"trojan","server":"hk4.jisuyun.co","port":10026,"udp":true,"password":"7518bb10-a901-40bd-85d2-4d2971e4c2d1","sni":"tls.jisuyun.co","skip-cert-verify":false}
+  - {"name":"🇭🇰+香港8|GPT|奈飞|","type":"trojan","server":"hk8.jisuyun.co","port":10063,"udp":true,"password":"7518bb10-a901-40bd-85d2-4d2971e4c2d1","sni":"tls.jisuyun.co","skip-cert-verify":false}
+  - {"name":"🇭🇰HK-45.11.104.94-5729","type":"trojan","server":"45.11.104.94","port":3389,"udp":true,"password":"d4e41ff772c7fd45","sni":"sbank.ir","skip-cert-verify":true}
+  - {"name":"🇭🇰香港IPLC-5","type":"trojan","server":"pqawssg01.gsjc.cfd","port":443,"udp":true,"password":"b00836d0-2766-4cf0-ac1a-5e7e47ae86d1","skip-cert-verify":true}
+  - {"name":"🇯🇵+AWS日本3","type":"trojan","server":"jp2.gsjc.cfd","port":443,"udp":true,"password":"4828af9a-e56a-4c37-b7ba-e601ccaff738","skip-cert-verify":false}
+  - {"name":"🇯🇵JP-13.114.112.243-14862","type":"trojan","server":"jp3.421421.xyz","port":20230,"udp":true,"password":"717c3a16-6871-425c-a158-40cc37ff3543","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-150.230.99.26-0691","type":"trojan","server":"tk-006.xiaoxiaobujidao.xyz","port":20001,"udp":true,"password":"567fc98e-f73c-3f00-b011-8e9cf6b873e8","sni":"tk-006.xiaoxiaobujidao.xyz","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-160.16.145.107-5734","type":"trojan","server":"160.16.145.107","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-20.210.234.145-8571","type":"trojan","server":"20.210.234.145","port":443,"udp":true,"password":"7d0f1f83-0f2f-4b90-930e-de44ac233fef","sni":"in.stablize.top","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-40.115.194.122-1570","type":"trojan","server":"fscjp.fscloud123456789.com","port":443,"udp":true,"password":"7dc3a0b7-0930-42da-a6be-2a8623cdcfb4","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-40.115.194.122-1608","type":"trojan","server":"fscjp.fscloud123456789.com","port":443,"udp":true,"password":"85374b3c-467d-410e-9be6-feb1d8fe35bf","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-49.212.221.47-5568","type":"trojan","server":"49.212.221.47","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇯🇵JP日本(youtube阿伟科技2)","type":"trojan","server":"jp2.gsjc.cfd","port":443,"udp":true,"password":"f5075d6e-c65b-4133-b4fa-301ce5ba1fa9","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true}
+  - {"name":"🇰🇷KR-146.56.189.146-6009","type":"trojan","server":"146.56.189.146","port":443,"udp":true,"password":"f2117e99-9b6e-47fd-b0a9-634a0b15b998","skip-cert-verify":true}
+  - {"name":"🇸🇬+AWS新加坡1","type":"trojan","server":"sg1.gsjc.cfd","port":443,"udp":true,"password":"4828af9a-e56a-4c37-b7ba-e601ccaff738","skip-cert-verify":false}
+  - {"name":"🇸🇬_电报频道 @bdpd8","type":"vmess","server":"sg10.zingfast.vn","port":80,"cipher":"auto","uuid":"533724ad-58ef-4147-88dc-9da523c15fc4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/anti13.zingfast.vn"}}
+  - {"name":"🇸🇬AWS+|+SG-0.1倍_1","type":"trojan","server":"pqawssg01.gsjc.cfd","port":443,"udp":true,"password":"0bed137e-acd8-493d-9c0c-433cc7cb6113","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":false}
+  - {"name":"🇸🇬AWS+|+SG-0.1倍_2","type":"trojan","server":"pqawssg01.gsjc.cfd","port":443,"udp":true,"password":"81f52f03-80cf-49d5-9e3f-64623d5c0cea","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":false}
+  - {"name":"🇸🇬SG-13.214.161.58-14870","type":"trojan","server":"hk1.gsjc.cfd","port":443,"udp":true,"password":"39666941-4cb2-4ce7-8a63-f183fedfd6bb","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-157.230.242.199-1087","type":"vmess","server":"157.230.242.199","port":80,"cipher":"auto","uuid":"533724ad-58ef-4147-88dc-9da523c15fc4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/anti13.zingfast.vn"}}
+  - {"name":"🇸🇬SG-18.140.116.9-14895","type":"trojan","server":"hk2.gsjc.cfd","port":443,"udp":true,"password":"39666941-4cb2-4ce7-8a63-f183fedfd6bb","skip-cert-verify":true}
+  - {"name":"🇸🇬SG新加坡(youtube阿伟科技2)","type":"trojan","server":"hk2.gsjc.cfd","port":443,"udp":true,"password":"f5075d6e-c65b-4133-b4fa-301ce5ba1fa9","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":true}
+  - {"name":"🇺🇸_电报频道 @bdpd8","type":"vmess","server":"142.4.112.27","port":51091,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"电信一区(广东)","type":"vmess","server":"111.230.252.149","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇳🇱NL-149.50.75.90-13148","type":"trojan","server":"149.50.75.90","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
-  - {"name":"🇳🇱NL-149.50.75.89-0165","type":"trojan","server":"149.50.75.89","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
-  - {"name":"🇳🇱NL-149.50.75.104-0193","type":"trojan","server":"149.50.75.104","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
-  - {"name":"🇳🇱NL-149.50.75.100-13191","type":"trojan","server":"149.50.75.100","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
-  - {"name":"🇯🇵日本-02_1","type":"ss","server":"zzdfjp01.buffcloud.icu","port":39028,"password":"7e4daa97-8695-4154-8c91-dc7654262d78","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵日本-02_2","type":"ss","server":"zzdfjp01.buffcloud.icu","port":39028,"password":"f350d36c-3db6-42c7-bc71-d3b1bd8924c0","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵日本-02_3","type":"ss","server":"zzdfjp01.buffcloud.icu","port":39028,"password":"fa5d8252-8a42-4116-a2e6-1d89d1b7c691","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵日本-02_4","type":"ss","server":"zzdfjp01.buffcloud.icu","port":39028,"password":"7ddcc9dc-616e-42d6-a201-fe2a68833779","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵JP-149.50.71.124-0226","type":"trojan","server":"149.50.71.124","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-149.50.71.117-0275","type":"trojan","server":"149.50.71.117","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-149.50.70.87-13159","type":"trojan","server":"149.50.70.87","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
-  - {"name":"🇮🇳IN-152.70.74.66-0107","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
-  - {"name":"🇮🇱_电报频道：+@bdpd8","type":"trojan","server":"149.50.70.72","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":true}
-  - {"name":"🇭🇰香港-03_1","type":"ss","server":"zzdfhk03.buffcloud.icu","port":40603,"password":"7e4daa97-8695-4154-8c91-dc7654262d78","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰香港-03_2","type":"ss","server":"zzdfhk03.buffcloud.icu","port":40603,"password":"fa5d8252-8a42-4116-a2e6-1d89d1b7c691","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰香港-02","type":"ss","server":"zzdfhk.buffcloud.icu","port":30967,"password":"7e4daa97-8695-4154-8c91-dc7654262d78","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"Relay_-🇸🇬SG_157_1","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
-  - {"name":"Relay_-🇸🇬SG_157_2","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"nodesCatch"}
-  - {"name":"Relay_🇮🇱IL-🇯🇵JP_533","type":"trojan","server":"149.50.70.83","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":false}
-  - {"name":"Relay_🇮🇱IL-🇬🇧GB_570","type":"trojan","server":"149.50.75.76","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":false}
-  - {"name":"Relay_🇨🇳CN-🇨🇳CN_101","type":"ssr","server":"cn05.mynode.me","port":8126,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
-  - {"name":"Relay_🇨🇳CN-🇦🇺AU_407","type":"ssr","server":"cn12.mynode.me","port":8407,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
-  - {"name":"Relay_🇨🇳CN-🇦🇺AU_406","type":"ssr","server":"cn12.mynode.me","port":8405,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
-  - {"name":"cn02.mynode.me:8106","type":"ssr","server":"cn02.mynode.me","port":8106,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
-  - {"name":"cn02.mynode.me:8104","type":"ssr","server":"cn02.mynode.me","port":8104,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
-  - {"name":"cn00.mynode.me:8802","type":"ssr","server":"cn00.mynode.me","port":8802,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
-  - {"name":"[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)","type":"trojan","server":"149.50.75.81","port":4003,"udp":true,"password":"TJCfE7Mx2YcA8kX8zg","skip-cert-verify":false}
-  - {"name":"[🇨🇳]cn05.mynode.me:8123(passwd)","type":"ssr","server":"cn05.mynode.me","port":8123,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
-  - {"name":"[🇨🇳]cn02.mynode.me:8108(passwd)","type":"ssr","server":"cn02.mynode.me","port":8108,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
-  - {"name":"[🇨🇳]cn02.mynode.me:8102(passwd)","type":"ssr","server":"cn02.mynode.me","port":8110,"password":"passwd","cipher":"rc4-md5","obfs":"http_simple","protocol":"origin","obfs-param":"18127-Tutaiming0321.download.microsoft.com","group":"SSRProvider"}
+  - {"name":"电信一区(南京)","type":"vmess","server":"175.27.154.61","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"联通四区(上海)","type":"vmess","server":"42.192.17.34","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"联通一区(北京)","type":"vmess","server":"39.103.165.178","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国高速04","type":"vmess","server":"108.165.254.175","port":28623,"cipher":"auto","uuid":"92951c53-ee36-4566-8ada-877efe4b5432","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 中国 - 香港 - Hong Kong Cable TV Ltd - Cable Multi-Media Services
-      - 中国 - 香港 - HGC Global Communications Limited
-      - 套餐到期：2023-06-22
-      - 剩余流量：50+GB_1
-      - 剩余流量：50+GB_2
-      - 联通一区(北京)
-      - 联通四区(上海)
-      - 韩国 - 首尔特别市 - Oracle Cloud Infrastructure (ap-seoul-1)
-      - 电信一区(南京)
+      - France
+      - JP_165
+      - JP_186
+      - Relay_-🇩🇪DE_473+|10.39Mb
+      - Relay_-🇩🇪DE_474+|12.75Mb
+      - SG
+      - SG_220
+      - US_508
+      - V0+JPN-000T+|+0.05x比率+|+红了就更新订阅
+      - V2+HKG-220T+移动中转+|+香港+|+BGP+|+极速
+      - V2+HKG-221T+移动中转+|+香港+|+BGP+|+极速
+      - V2+HKG-291T+移动中转+|+香港+|+2x倍率+|+高速
+      - V3+DEU-300T+移动中转+|+德国+|+高速
+      - V3+DEU-301T+移动中转+|+德国+|+高速
+      - V3+HKG-300T+移动中转+|+香港+|+急速+1GE
+      - V3+JPN-312T+移动中转+|+日本
+      - V3+JPN-320T+移动中转+|+日本+|+确认啥都解锁+|+极速+1GE
+      - V3+JPN-321T+移动中转+|+日本+|+确认啥都解锁+|+极速+1GE
+      - V3+KOR-301T+联通中转+|+韩国+|+高速低延迟
+      - V3+KOR-320T+移动中转+|+韩国+|+高速低延迟
+      - V3+SGP-320T+移动中转+|+高速
+      - 🇨🇳CN-183.213.200.225-1565
+      - 🇨🇳CN-183.240.220.96-5544
+      - 🇨🇳CN-183.240.220.96-5955
+      - 🇨🇳CN-183.240.220.98-5977
+      - 🇨🇳CN-183.240.220.99-5760
+      - 🇨🇳CN-223.167.41.150-3277
+      - 🇨🇳CN-223.167.41.150-5711
+      - 🇨🇳CN-223.167.41.150-5761
+      - 🇨🇳CN-223.167.41.216-5688
+      - 🇨🇳CN-223.167.41.216-5946
+      - 🇨🇳CN-47.93.231.218-8052
+      - 🇭🇰+AWS香港1
+      - 🇭🇰+AWS香港3
+      - 🇭🇰+香港4|GPT|奈飞|
+      - 🇭🇰+香港8|GPT|奈飞|
+      - 🇭🇰HK-45.11.104.94-5729
+      - 🇭🇰香港IPLC-5
+      - 🇯🇵+AWS日本3
+      - 🇯🇵JP-13.114.112.243-14862
+      - 🇯🇵JP-150.230.99.26-0691
+      - 🇯🇵JP-160.16.145.107-5734
+      - 🇯🇵JP-20.210.234.145-8571
+      - 🇯🇵JP-40.115.194.122-1570
+      - 🇯🇵JP-40.115.194.122-1608
+      - 🇯🇵JP-49.212.221.47-5568
+      - 🇯🇵JP日本(youtube阿伟科技2)
+      - 🇰🇷KR-146.56.189.146-6009
+      - 🇸🇬+AWS新加坡1
+      - 🇸🇬_电报频道 @bdpd8
+      - 🇸🇬AWS+|+SG-0.1倍_1
+      - 🇸🇬AWS+|+SG-0.1倍_2
+      - 🇸🇬SG-13.214.161.58-14870
+      - 🇸🇬SG-157.230.242.199-1087
+      - 🇸🇬SG-18.140.116.9-14895
+      - 🇸🇬SG新加坡(youtube阿伟科技2)
+      - 🇺🇸_电报频道 @bdpd8
       - 电信一区(广东)
-      - 🇳🇱NL-149.50.75.90-13148
-      - 🇳🇱NL-149.50.75.89-0165
-      - 🇳🇱NL-149.50.75.104-0193
-      - 🇳🇱NL-149.50.75.100-13191
-      - 🇯🇵日本-02_1
-      - 🇯🇵日本-02_2
-      - 🇯🇵日本-02_3
-      - 🇯🇵日本-02_4
-      - 🇯🇵JP-149.50.71.124-0226
-      - 🇯🇵JP-149.50.71.117-0275
-      - 🇯🇵JP-149.50.70.87-13159
-      - 🇮🇳IN-152.70.74.66-0107
-      - 🇮🇱_电报频道：+@bdpd8
-      - 🇭🇰香港-03_1
-      - 🇭🇰香港-03_2
-      - 🇭🇰香港-02
-      - Relay_-🇸🇬SG_157_1
-      - Relay_-🇸🇬SG_157_2
-      - Relay_🇮🇱IL-🇯🇵JP_533
-      - Relay_🇮🇱IL-🇬🇧GB_570
-      - Relay_🇨🇳CN-🇨🇳CN_101
-      - Relay_🇨🇳CN-🇦🇺AU_407
-      - Relay_🇨🇳CN-🇦🇺AU_406
-      - cn02.mynode.me:8106
-      - cn02.mynode.me:8104
-      - cn00.mynode.me:8802
-      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
-      - '[🇨🇳]cn05.mynode.me:8123(passwd)'
-      - '[🇨🇳]cn02.mynode.me:8108(passwd)'
-      - '[🇨🇳]cn02.mynode.me:8102(passwd)'
+      - 电信一区(南京)
+      - 联通四区(上海)
+      - 联通一区(北京)
+      - 美国高速04
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 中国 - 香港 - Hong Kong Cable TV Ltd - Cable Multi-Media Services
-      - 中国 - 香港 - HGC Global Communications Limited
-      - 套餐到期：2023-06-22
-      - 剩余流量：50+GB_1
-      - 剩余流量：50+GB_2
-      - 联通一区(北京)
-      - 联通四区(上海)
-      - 韩国 - 首尔特别市 - Oracle Cloud Infrastructure (ap-seoul-1)
-      - 电信一区(南京)
+      - France
+      - JP_165
+      - JP_186
+      - Relay_-🇩🇪DE_473+|10.39Mb
+      - Relay_-🇩🇪DE_474+|12.75Mb
+      - SG
+      - SG_220
+      - US_508
+      - V0+JPN-000T+|+0.05x比率+|+红了就更新订阅
+      - V2+HKG-220T+移动中转+|+香港+|+BGP+|+极速
+      - V2+HKG-221T+移动中转+|+香港+|+BGP+|+极速
+      - V2+HKG-291T+移动中转+|+香港+|+2x倍率+|+高速
+      - V3+DEU-300T+移动中转+|+德国+|+高速
+      - V3+DEU-301T+移动中转+|+德国+|+高速
+      - V3+HKG-300T+移动中转+|+香港+|+急速+1GE
+      - V3+JPN-312T+移动中转+|+日本
+      - V3+JPN-320T+移动中转+|+日本+|+确认啥都解锁+|+极速+1GE
+      - V3+JPN-321T+移动中转+|+日本+|+确认啥都解锁+|+极速+1GE
+      - V3+KOR-301T+联通中转+|+韩国+|+高速低延迟
+      - V3+KOR-320T+移动中转+|+韩国+|+高速低延迟
+      - V3+SGP-320T+移动中转+|+高速
+      - 🇨🇳CN-183.213.200.225-1565
+      - 🇨🇳CN-183.240.220.96-5544
+      - 🇨🇳CN-183.240.220.96-5955
+      - 🇨🇳CN-183.240.220.98-5977
+      - 🇨🇳CN-183.240.220.99-5760
+      - 🇨🇳CN-223.167.41.150-3277
+      - 🇨🇳CN-223.167.41.150-5711
+      - 🇨🇳CN-223.167.41.150-5761
+      - 🇨🇳CN-223.167.41.216-5688
+      - 🇨🇳CN-223.167.41.216-5946
+      - 🇨🇳CN-47.93.231.218-8052
+      - 🇭🇰+AWS香港1
+      - 🇭🇰+AWS香港3
+      - 🇭🇰+香港4|GPT|奈飞|
+      - 🇭🇰+香港8|GPT|奈飞|
+      - 🇭🇰HK-45.11.104.94-5729
+      - 🇭🇰香港IPLC-5
+      - 🇯🇵+AWS日本3
+      - 🇯🇵JP-13.114.112.243-14862
+      - 🇯🇵JP-150.230.99.26-0691
+      - 🇯🇵JP-160.16.145.107-5734
+      - 🇯🇵JP-20.210.234.145-8571
+      - 🇯🇵JP-40.115.194.122-1570
+      - 🇯🇵JP-40.115.194.122-1608
+      - 🇯🇵JP-49.212.221.47-5568
+      - 🇯🇵JP日本(youtube阿伟科技2)
+      - 🇰🇷KR-146.56.189.146-6009
+      - 🇸🇬+AWS新加坡1
+      - 🇸🇬_电报频道 @bdpd8
+      - 🇸🇬AWS+|+SG-0.1倍_1
+      - 🇸🇬AWS+|+SG-0.1倍_2
+      - 🇸🇬SG-13.214.161.58-14870
+      - 🇸🇬SG-157.230.242.199-1087
+      - 🇸🇬SG-18.140.116.9-14895
+      - 🇸🇬SG新加坡(youtube阿伟科技2)
+      - 🇺🇸_电报频道 @bdpd8
       - 电信一区(广东)
-      - 🇳🇱NL-149.50.75.90-13148
-      - 🇳🇱NL-149.50.75.89-0165
-      - 🇳🇱NL-149.50.75.104-0193
-      - 🇳🇱NL-149.50.75.100-13191
-      - 🇯🇵日本-02_1
-      - 🇯🇵日本-02_2
-      - 🇯🇵日本-02_3
-      - 🇯🇵日本-02_4
-      - 🇯🇵JP-149.50.71.124-0226
-      - 🇯🇵JP-149.50.71.117-0275
-      - 🇯🇵JP-149.50.70.87-13159
-      - 🇮🇳IN-152.70.74.66-0107
-      - 🇮🇱_电报频道：+@bdpd8
-      - 🇭🇰香港-03_1
-      - 🇭🇰香港-03_2
-      - 🇭🇰香港-02
-      - Relay_-🇸🇬SG_157_1
-      - Relay_-🇸🇬SG_157_2
-      - Relay_🇮🇱IL-🇯🇵JP_533
-      - Relay_🇮🇱IL-🇬🇧GB_570
-      - Relay_🇨🇳CN-🇨🇳CN_101
-      - Relay_🇨🇳CN-🇦🇺AU_407
-      - Relay_🇨🇳CN-🇦🇺AU_406
-      - cn02.mynode.me:8106
-      - cn02.mynode.me:8104
-      - cn00.mynode.me:8802
-      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
-      - '[🇨🇳]cn05.mynode.me:8123(passwd)'
-      - '[🇨🇳]cn02.mynode.me:8108(passwd)'
-      - '[🇨🇳]cn02.mynode.me:8102(passwd)'
+      - 电信一区(南京)
+      - 联通四区(上海)
+      - 联通一区(北京)
+      - 美国高速04
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国 - 香港 - Hong Kong Cable TV Ltd - Cable Multi-Media Services
-      - 中国 - 香港 - HGC Global Communications Limited
-      - 套餐到期：2023-06-22
-      - 剩余流量：50+GB_1
-      - 剩余流量：50+GB_2
-      - 联通一区(北京)
-      - 联通四区(上海)
-      - 韩国 - 首尔特别市 - Oracle Cloud Infrastructure (ap-seoul-1)
-      - 电信一区(南京)
+      - France
+      - JP_165
+      - JP_186
+      - Relay_-🇩🇪DE_473+|10.39Mb
+      - Relay_-🇩🇪DE_474+|12.75Mb
+      - SG
+      - SG_220
+      - US_508
+      - V0+JPN-000T+|+0.05x比率+|+红了就更新订阅
+      - V2+HKG-220T+移动中转+|+香港+|+BGP+|+极速
+      - V2+HKG-221T+移动中转+|+香港+|+BGP+|+极速
+      - V2+HKG-291T+移动中转+|+香港+|+2x倍率+|+高速
+      - V3+DEU-300T+移动中转+|+德国+|+高速
+      - V3+DEU-301T+移动中转+|+德国+|+高速
+      - V3+HKG-300T+移动中转+|+香港+|+急速+1GE
+      - V3+JPN-312T+移动中转+|+日本
+      - V3+JPN-320T+移动中转+|+日本+|+确认啥都解锁+|+极速+1GE
+      - V3+JPN-321T+移动中转+|+日本+|+确认啥都解锁+|+极速+1GE
+      - V3+KOR-301T+联通中转+|+韩国+|+高速低延迟
+      - V3+KOR-320T+移动中转+|+韩国+|+高速低延迟
+      - V3+SGP-320T+移动中转+|+高速
+      - 🇨🇳CN-183.213.200.225-1565
+      - 🇨🇳CN-183.240.220.96-5544
+      - 🇨🇳CN-183.240.220.96-5955
+      - 🇨🇳CN-183.240.220.98-5977
+      - 🇨🇳CN-183.240.220.99-5760
+      - 🇨🇳CN-223.167.41.150-3277
+      - 🇨🇳CN-223.167.41.150-5711
+      - 🇨🇳CN-223.167.41.150-5761
+      - 🇨🇳CN-223.167.41.216-5688
+      - 🇨🇳CN-223.167.41.216-5946
+      - 🇨🇳CN-47.93.231.218-8052
+      - 🇭🇰+AWS香港1
+      - 🇭🇰+AWS香港3
+      - 🇭🇰+香港4|GPT|奈飞|
+      - 🇭🇰+香港8|GPT|奈飞|
+      - 🇭🇰HK-45.11.104.94-5729
+      - 🇭🇰香港IPLC-5
+      - 🇯🇵+AWS日本3
+      - 🇯🇵JP-13.114.112.243-14862
+      - 🇯🇵JP-150.230.99.26-0691
+      - 🇯🇵JP-160.16.145.107-5734
+      - 🇯🇵JP-20.210.234.145-8571
+      - 🇯🇵JP-40.115.194.122-1570
+      - 🇯🇵JP-40.115.194.122-1608
+      - 🇯🇵JP-49.212.221.47-5568
+      - 🇯🇵JP日本(youtube阿伟科技2)
+      - 🇰🇷KR-146.56.189.146-6009
+      - 🇸🇬+AWS新加坡1
+      - 🇸🇬_电报频道 @bdpd8
+      - 🇸🇬AWS+|+SG-0.1倍_1
+      - 🇸🇬AWS+|+SG-0.1倍_2
+      - 🇸🇬SG-13.214.161.58-14870
+      - 🇸🇬SG-157.230.242.199-1087
+      - 🇸🇬SG-18.140.116.9-14895
+      - 🇸🇬SG新加坡(youtube阿伟科技2)
+      - 🇺🇸_电报频道 @bdpd8
       - 电信一区(广东)
-      - 🇳🇱NL-149.50.75.90-13148
-      - 🇳🇱NL-149.50.75.89-0165
-      - 🇳🇱NL-149.50.75.104-0193
-      - 🇳🇱NL-149.50.75.100-13191
-      - 🇯🇵日本-02_1
-      - 🇯🇵日本-02_2
-      - 🇯🇵日本-02_3
-      - 🇯🇵日本-02_4
-      - 🇯🇵JP-149.50.71.124-0226
-      - 🇯🇵JP-149.50.71.117-0275
-      - 🇯🇵JP-149.50.70.87-13159
-      - 🇮🇳IN-152.70.74.66-0107
-      - 🇮🇱_电报频道：+@bdpd8
-      - 🇭🇰香港-03_1
-      - 🇭🇰香港-03_2
-      - 🇭🇰香港-02
-      - Relay_-🇸🇬SG_157_1
-      - Relay_-🇸🇬SG_157_2
-      - Relay_🇮🇱IL-🇯🇵JP_533
-      - Relay_🇮🇱IL-🇬🇧GB_570
-      - Relay_🇨🇳CN-🇨🇳CN_101
-      - Relay_🇨🇳CN-🇦🇺AU_407
-      - Relay_🇨🇳CN-🇦🇺AU_406
-      - cn02.mynode.me:8106
-      - cn02.mynode.me:8104
-      - cn00.mynode.me:8802
-      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
-      - '[🇨🇳]cn05.mynode.me:8123(passwd)'
-      - '[🇨🇳]cn02.mynode.me:8108(passwd)'
-      - '[🇨🇳]cn02.mynode.me:8102(passwd)'
+      - 电信一区(南京)
+      - 联通四区(上海)
+      - 联通一区(北京)
+      - 美国高速04
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 中国 - 香港 - Hong Kong Cable TV Ltd - Cable Multi-Media Services
-      - 中国 - 香港 - HGC Global Communications Limited
-      - 套餐到期：2023-06-22
-      - 剩余流量：50+GB_1
-      - 剩余流量：50+GB_2
-      - 联通一区(北京)
-      - 联通四区(上海)
-      - 韩国 - 首尔特别市 - Oracle Cloud Infrastructure (ap-seoul-1)
-      - 电信一区(南京)
+      - France
+      - JP_165
+      - JP_186
+      - Relay_-🇩🇪DE_473+|10.39Mb
+      - Relay_-🇩🇪DE_474+|12.75Mb
+      - SG
+      - SG_220
+      - US_508
+      - V0+JPN-000T+|+0.05x比率+|+红了就更新订阅
+      - V2+HKG-220T+移动中转+|+香港+|+BGP+|+极速
+      - V2+HKG-221T+移动中转+|+香港+|+BGP+|+极速
+      - V2+HKG-291T+移动中转+|+香港+|+2x倍率+|+高速
+      - V3+DEU-300T+移动中转+|+德国+|+高速
+      - V3+DEU-301T+移动中转+|+德国+|+高速
+      - V3+HKG-300T+移动中转+|+香港+|+急速+1GE
+      - V3+JPN-312T+移动中转+|+日本
+      - V3+JPN-320T+移动中转+|+日本+|+确认啥都解锁+|+极速+1GE
+      - V3+JPN-321T+移动中转+|+日本+|+确认啥都解锁+|+极速+1GE
+      - V3+KOR-301T+联通中转+|+韩国+|+高速低延迟
+      - V3+KOR-320T+移动中转+|+韩国+|+高速低延迟
+      - V3+SGP-320T+移动中转+|+高速
+      - 🇨🇳CN-183.213.200.225-1565
+      - 🇨🇳CN-183.240.220.96-5544
+      - 🇨🇳CN-183.240.220.96-5955
+      - 🇨🇳CN-183.240.220.98-5977
+      - 🇨🇳CN-183.240.220.99-5760
+      - 🇨🇳CN-223.167.41.150-3277
+      - 🇨🇳CN-223.167.41.150-5711
+      - 🇨🇳CN-223.167.41.150-5761
+      - 🇨🇳CN-223.167.41.216-5688
+      - 🇨🇳CN-223.167.41.216-5946
+      - 🇨🇳CN-47.93.231.218-8052
+      - 🇭🇰+AWS香港1
+      - 🇭🇰+AWS香港3
+      - 🇭🇰+香港4|GPT|奈飞|
+      - 🇭🇰+香港8|GPT|奈飞|
+      - 🇭🇰HK-45.11.104.94-5729
+      - 🇭🇰香港IPLC-5
+      - 🇯🇵+AWS日本3
+      - 🇯🇵JP-13.114.112.243-14862
+      - 🇯🇵JP-150.230.99.26-0691
+      - 🇯🇵JP-160.16.145.107-5734
+      - 🇯🇵JP-20.210.234.145-8571
+      - 🇯🇵JP-40.115.194.122-1570
+      - 🇯🇵JP-40.115.194.122-1608
+      - 🇯🇵JP-49.212.221.47-5568
+      - 🇯🇵JP日本(youtube阿伟科技2)
+      - 🇰🇷KR-146.56.189.146-6009
+      - 🇸🇬+AWS新加坡1
+      - 🇸🇬_电报频道 @bdpd8
+      - 🇸🇬AWS+|+SG-0.1倍_1
+      - 🇸🇬AWS+|+SG-0.1倍_2
+      - 🇸🇬SG-13.214.161.58-14870
+      - 🇸🇬SG-157.230.242.199-1087
+      - 🇸🇬SG-18.140.116.9-14895
+      - 🇸🇬SG新加坡(youtube阿伟科技2)
+      - 🇺🇸_电报频道 @bdpd8
       - 电信一区(广东)
-      - 🇳🇱NL-149.50.75.90-13148
-      - 🇳🇱NL-149.50.75.89-0165
-      - 🇳🇱NL-149.50.75.104-0193
-      - 🇳🇱NL-149.50.75.100-13191
-      - 🇯🇵日本-02_1
-      - 🇯🇵日本-02_2
-      - 🇯🇵日本-02_3
-      - 🇯🇵日本-02_4
-      - 🇯🇵JP-149.50.71.124-0226
-      - 🇯🇵JP-149.50.71.117-0275
-      - 🇯🇵JP-149.50.70.87-13159
-      - 🇮🇳IN-152.70.74.66-0107
-      - 🇮🇱_电报频道：+@bdpd8
-      - 🇭🇰香港-03_1
-      - 🇭🇰香港-03_2
-      - 🇭🇰香港-02
-      - Relay_-🇸🇬SG_157_1
-      - Relay_-🇸🇬SG_157_2
-      - Relay_🇮🇱IL-🇯🇵JP_533
-      - Relay_🇮🇱IL-🇬🇧GB_570
-      - Relay_🇨🇳CN-🇨🇳CN_101
-      - Relay_🇨🇳CN-🇦🇺AU_407
-      - Relay_🇨🇳CN-🇦🇺AU_406
-      - cn02.mynode.me:8106
-      - cn02.mynode.me:8104
-      - cn00.mynode.me:8802
-      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
-      - '[🇨🇳]cn05.mynode.me:8123(passwd)'
-      - '[🇨🇳]cn02.mynode.me:8108(passwd)'
-      - '[🇨🇳]cn02.mynode.me:8102(passwd)'
+      - 电信一区(南京)
+      - 联通四区(上海)
+      - 联通一区(北京)
+      - 美国高速04
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 中国 - 香港 - Hong Kong Cable TV Ltd - Cable Multi-Media Services
-      - 中国 - 香港 - HGC Global Communications Limited
-      - 套餐到期：2023-06-22
-      - 剩余流量：50+GB_1
-      - 剩余流量：50+GB_2
-      - 联通一区(北京)
-      - 联通四区(上海)
-      - 韩国 - 首尔特别市 - Oracle Cloud Infrastructure (ap-seoul-1)
-      - 电信一区(南京)
+      - France
+      - JP_165
+      - JP_186
+      - Relay_-🇩🇪DE_473+|10.39Mb
+      - Relay_-🇩🇪DE_474+|12.75Mb
+      - SG
+      - SG_220
+      - US_508
+      - V0+JPN-000T+|+0.05x比率+|+红了就更新订阅
+      - V2+HKG-220T+移动中转+|+香港+|+BGP+|+极速
+      - V2+HKG-221T+移动中转+|+香港+|+BGP+|+极速
+      - V2+HKG-291T+移动中转+|+香港+|+2x倍率+|+高速
+      - V3+DEU-300T+移动中转+|+德国+|+高速
+      - V3+DEU-301T+移动中转+|+德国+|+高速
+      - V3+HKG-300T+移动中转+|+香港+|+急速+1GE
+      - V3+JPN-312T+移动中转+|+日本
+      - V3+JPN-320T+移动中转+|+日本+|+确认啥都解锁+|+极速+1GE
+      - V3+JPN-321T+移动中转+|+日本+|+确认啥都解锁+|+极速+1GE
+      - V3+KOR-301T+联通中转+|+韩国+|+高速低延迟
+      - V3+KOR-320T+移动中转+|+韩国+|+高速低延迟
+      - V3+SGP-320T+移动中转+|+高速
+      - 🇨🇳CN-183.213.200.225-1565
+      - 🇨🇳CN-183.240.220.96-5544
+      - 🇨🇳CN-183.240.220.96-5955
+      - 🇨🇳CN-183.240.220.98-5977
+      - 🇨🇳CN-183.240.220.99-5760
+      - 🇨🇳CN-223.167.41.150-3277
+      - 🇨🇳CN-223.167.41.150-5711
+      - 🇨🇳CN-223.167.41.150-5761
+      - 🇨🇳CN-223.167.41.216-5688
+      - 🇨🇳CN-223.167.41.216-5946
+      - 🇨🇳CN-47.93.231.218-8052
+      - 🇭🇰+AWS香港1
+      - 🇭🇰+AWS香港3
+      - 🇭🇰+香港4|GPT|奈飞|
+      - 🇭🇰+香港8|GPT|奈飞|
+      - 🇭🇰HK-45.11.104.94-5729
+      - 🇭🇰香港IPLC-5
+      - 🇯🇵+AWS日本3
+      - 🇯🇵JP-13.114.112.243-14862
+      - 🇯🇵JP-150.230.99.26-0691
+      - 🇯🇵JP-160.16.145.107-5734
+      - 🇯🇵JP-20.210.234.145-8571
+      - 🇯🇵JP-40.115.194.122-1570
+      - 🇯🇵JP-40.115.194.122-1608
+      - 🇯🇵JP-49.212.221.47-5568
+      - 🇯🇵JP日本(youtube阿伟科技2)
+      - 🇰🇷KR-146.56.189.146-6009
+      - 🇸🇬+AWS新加坡1
+      - 🇸🇬_电报频道 @bdpd8
+      - 🇸🇬AWS+|+SG-0.1倍_1
+      - 🇸🇬AWS+|+SG-0.1倍_2
+      - 🇸🇬SG-13.214.161.58-14870
+      - 🇸🇬SG-157.230.242.199-1087
+      - 🇸🇬SG-18.140.116.9-14895
+      - 🇸🇬SG新加坡(youtube阿伟科技2)
+      - 🇺🇸_电报频道 @bdpd8
       - 电信一区(广东)
-      - 🇳🇱NL-149.50.75.90-13148
-      - 🇳🇱NL-149.50.75.89-0165
-      - 🇳🇱NL-149.50.75.104-0193
-      - 🇳🇱NL-149.50.75.100-13191
-      - 🇯🇵日本-02_1
-      - 🇯🇵日本-02_2
-      - 🇯🇵日本-02_3
-      - 🇯🇵日本-02_4
-      - 🇯🇵JP-149.50.71.124-0226
-      - 🇯🇵JP-149.50.71.117-0275
-      - 🇯🇵JP-149.50.70.87-13159
-      - 🇮🇳IN-152.70.74.66-0107
-      - 🇮🇱_电报频道：+@bdpd8
-      - 🇭🇰香港-03_1
-      - 🇭🇰香港-03_2
-      - 🇭🇰香港-02
-      - Relay_-🇸🇬SG_157_1
-      - Relay_-🇸🇬SG_157_2
-      - Relay_🇮🇱IL-🇯🇵JP_533
-      - Relay_🇮🇱IL-🇬🇧GB_570
-      - Relay_🇨🇳CN-🇨🇳CN_101
-      - Relay_🇨🇳CN-🇦🇺AU_407
-      - Relay_🇨🇳CN-🇦🇺AU_406
-      - cn02.mynode.me:8106
-      - cn02.mynode.me:8104
-      - cn00.mynode.me:8802
-      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
-      - '[🇨🇳]cn05.mynode.me:8123(passwd)'
-      - '[🇨🇳]cn02.mynode.me:8108(passwd)'
-      - '[🇨🇳]cn02.mynode.me:8102(passwd)'
+      - 电信一区(南京)
+      - 联通四区(上海)
+      - 联通一区(北京)
+      - 美国高速04
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 中国 - 香港 - Hong Kong Cable TV Ltd - Cable Multi-Media Services
-      - 中国 - 香港 - HGC Global Communications Limited
-      - 套餐到期：2023-06-22
-      - 剩余流量：50+GB_1
-      - 剩余流量：50+GB_2
-      - 联通一区(北京)
-      - 联通四区(上海)
-      - 韩国 - 首尔特别市 - Oracle Cloud Infrastructure (ap-seoul-1)
-      - 电信一区(南京)
+      - France
+      - JP_165
+      - JP_186
+      - Relay_-🇩🇪DE_473+|10.39Mb
+      - Relay_-🇩🇪DE_474+|12.75Mb
+      - SG
+      - SG_220
+      - US_508
+      - V0+JPN-000T+|+0.05x比率+|+红了就更新订阅
+      - V2+HKG-220T+移动中转+|+香港+|+BGP+|+极速
+      - V2+HKG-221T+移动中转+|+香港+|+BGP+|+极速
+      - V2+HKG-291T+移动中转+|+香港+|+2x倍率+|+高速
+      - V3+DEU-300T+移动中转+|+德国+|+高速
+      - V3+DEU-301T+移动中转+|+德国+|+高速
+      - V3+HKG-300T+移动中转+|+香港+|+急速+1GE
+      - V3+JPN-312T+移动中转+|+日本
+      - V3+JPN-320T+移动中转+|+日本+|+确认啥都解锁+|+极速+1GE
+      - V3+JPN-321T+移动中转+|+日本+|+确认啥都解锁+|+极速+1GE
+      - V3+KOR-301T+联通中转+|+韩国+|+高速低延迟
+      - V3+KOR-320T+移动中转+|+韩国+|+高速低延迟
+      - V3+SGP-320T+移动中转+|+高速
+      - 🇨🇳CN-183.213.200.225-1565
+      - 🇨🇳CN-183.240.220.96-5544
+      - 🇨🇳CN-183.240.220.96-5955
+      - 🇨🇳CN-183.240.220.98-5977
+      - 🇨🇳CN-183.240.220.99-5760
+      - 🇨🇳CN-223.167.41.150-3277
+      - 🇨🇳CN-223.167.41.150-5711
+      - 🇨🇳CN-223.167.41.150-5761
+      - 🇨🇳CN-223.167.41.216-5688
+      - 🇨🇳CN-223.167.41.216-5946
+      - 🇨🇳CN-47.93.231.218-8052
+      - 🇭🇰+AWS香港1
+      - 🇭🇰+AWS香港3
+      - 🇭🇰+香港4|GPT|奈飞|
+      - 🇭🇰+香港8|GPT|奈飞|
+      - 🇭🇰HK-45.11.104.94-5729
+      - 🇭🇰香港IPLC-5
+      - 🇯🇵+AWS日本3
+      - 🇯🇵JP-13.114.112.243-14862
+      - 🇯🇵JP-150.230.99.26-0691
+      - 🇯🇵JP-160.16.145.107-5734
+      - 🇯🇵JP-20.210.234.145-8571
+      - 🇯🇵JP-40.115.194.122-1570
+      - 🇯🇵JP-40.115.194.122-1608
+      - 🇯🇵JP-49.212.221.47-5568
+      - 🇯🇵JP日本(youtube阿伟科技2)
+      - 🇰🇷KR-146.56.189.146-6009
+      - 🇸🇬+AWS新加坡1
+      - 🇸🇬_电报频道 @bdpd8
+      - 🇸🇬AWS+|+SG-0.1倍_1
+      - 🇸🇬AWS+|+SG-0.1倍_2
+      - 🇸🇬SG-13.214.161.58-14870
+      - 🇸🇬SG-157.230.242.199-1087
+      - 🇸🇬SG-18.140.116.9-14895
+      - 🇸🇬SG新加坡(youtube阿伟科技2)
+      - 🇺🇸_电报频道 @bdpd8
       - 电信一区(广东)
-      - 🇳🇱NL-149.50.75.90-13148
-      - 🇳🇱NL-149.50.75.89-0165
-      - 🇳🇱NL-149.50.75.104-0193
-      - 🇳🇱NL-149.50.75.100-13191
-      - 🇯🇵日本-02_1
-      - 🇯🇵日本-02_2
-      - 🇯🇵日本-02_3
-      - 🇯🇵日本-02_4
-      - 🇯🇵JP-149.50.71.124-0226
-      - 🇯🇵JP-149.50.71.117-0275
-      - 🇯🇵JP-149.50.70.87-13159
-      - 🇮🇳IN-152.70.74.66-0107
-      - 🇮🇱_电报频道：+@bdpd8
-      - 🇭🇰香港-03_1
-      - 🇭🇰香港-03_2
-      - 🇭🇰香港-02
-      - Relay_-🇸🇬SG_157_1
-      - Relay_-🇸🇬SG_157_2
-      - Relay_🇮🇱IL-🇯🇵JP_533
-      - Relay_🇮🇱IL-🇬🇧GB_570
-      - Relay_🇨🇳CN-🇨🇳CN_101
-      - Relay_🇨🇳CN-🇦🇺AU_407
-      - Relay_🇨🇳CN-🇦🇺AU_406
-      - cn02.mynode.me:8106
-      - cn02.mynode.me:8104
-      - cn00.mynode.me:8802
-      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
-      - '[🇨🇳]cn05.mynode.me:8123(passwd)'
-      - '[🇨🇳]cn02.mynode.me:8108(passwd)'
-      - '[🇨🇳]cn02.mynode.me:8102(passwd)'
+      - 电信一区(南京)
+      - 联通四区(上海)
+      - 联通一区(北京)
+      - 美国高速04
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -356,46 +510,68 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国 - 香港 - Hong Kong Cable TV Ltd - Cable Multi-Media Services
-      - 中国 - 香港 - HGC Global Communications Limited
-      - 套餐到期：2023-06-22
-      - 剩余流量：50+GB_1
-      - 剩余流量：50+GB_2
-      - 联通一区(北京)
-      - 联通四区(上海)
-      - 韩国 - 首尔特别市 - Oracle Cloud Infrastructure (ap-seoul-1)
-      - 电信一区(南京)
+      - France
+      - JP_165
+      - JP_186
+      - Relay_-🇩🇪DE_473+|10.39Mb
+      - Relay_-🇩🇪DE_474+|12.75Mb
+      - SG
+      - SG_220
+      - US_508
+      - V0+JPN-000T+|+0.05x比率+|+红了就更新订阅
+      - V2+HKG-220T+移动中转+|+香港+|+BGP+|+极速
+      - V2+HKG-221T+移动中转+|+香港+|+BGP+|+极速
+      - V2+HKG-291T+移动中转+|+香港+|+2x倍率+|+高速
+      - V3+DEU-300T+移动中转+|+德国+|+高速
+      - V3+DEU-301T+移动中转+|+德国+|+高速
+      - V3+HKG-300T+移动中转+|+香港+|+急速+1GE
+      - V3+JPN-312T+移动中转+|+日本
+      - V3+JPN-320T+移动中转+|+日本+|+确认啥都解锁+|+极速+1GE
+      - V3+JPN-321T+移动中转+|+日本+|+确认啥都解锁+|+极速+1GE
+      - V3+KOR-301T+联通中转+|+韩国+|+高速低延迟
+      - V3+KOR-320T+移动中转+|+韩国+|+高速低延迟
+      - V3+SGP-320T+移动中转+|+高速
+      - 🇨🇳CN-183.213.200.225-1565
+      - 🇨🇳CN-183.240.220.96-5544
+      - 🇨🇳CN-183.240.220.96-5955
+      - 🇨🇳CN-183.240.220.98-5977
+      - 🇨🇳CN-183.240.220.99-5760
+      - 🇨🇳CN-223.167.41.150-3277
+      - 🇨🇳CN-223.167.41.150-5711
+      - 🇨🇳CN-223.167.41.150-5761
+      - 🇨🇳CN-223.167.41.216-5688
+      - 🇨🇳CN-223.167.41.216-5946
+      - 🇨🇳CN-47.93.231.218-8052
+      - 🇭🇰+AWS香港1
+      - 🇭🇰+AWS香港3
+      - 🇭🇰+香港4|GPT|奈飞|
+      - 🇭🇰+香港8|GPT|奈飞|
+      - 🇭🇰HK-45.11.104.94-5729
+      - 🇭🇰香港IPLC-5
+      - 🇯🇵+AWS日本3
+      - 🇯🇵JP-13.114.112.243-14862
+      - 🇯🇵JP-150.230.99.26-0691
+      - 🇯🇵JP-160.16.145.107-5734
+      - 🇯🇵JP-20.210.234.145-8571
+      - 🇯🇵JP-40.115.194.122-1570
+      - 🇯🇵JP-40.115.194.122-1608
+      - 🇯🇵JP-49.212.221.47-5568
+      - 🇯🇵JP日本(youtube阿伟科技2)
+      - 🇰🇷KR-146.56.189.146-6009
+      - 🇸🇬+AWS新加坡1
+      - 🇸🇬_电报频道 @bdpd8
+      - 🇸🇬AWS+|+SG-0.1倍_1
+      - 🇸🇬AWS+|+SG-0.1倍_2
+      - 🇸🇬SG-13.214.161.58-14870
+      - 🇸🇬SG-157.230.242.199-1087
+      - 🇸🇬SG-18.140.116.9-14895
+      - 🇸🇬SG新加坡(youtube阿伟科技2)
+      - 🇺🇸_电报频道 @bdpd8
       - 电信一区(广东)
-      - 🇳🇱NL-149.50.75.90-13148
-      - 🇳🇱NL-149.50.75.89-0165
-      - 🇳🇱NL-149.50.75.104-0193
-      - 🇳🇱NL-149.50.75.100-13191
-      - 🇯🇵日本-02_1
-      - 🇯🇵日本-02_2
-      - 🇯🇵日本-02_3
-      - 🇯🇵日本-02_4
-      - 🇯🇵JP-149.50.71.124-0226
-      - 🇯🇵JP-149.50.71.117-0275
-      - 🇯🇵JP-149.50.70.87-13159
-      - 🇮🇳IN-152.70.74.66-0107
-      - 🇮🇱_电报频道：+@bdpd8
-      - 🇭🇰香港-03_1
-      - 🇭🇰香港-03_2
-      - 🇭🇰香港-02
-      - Relay_-🇸🇬SG_157_1
-      - Relay_-🇸🇬SG_157_2
-      - Relay_🇮🇱IL-🇯🇵JP_533
-      - Relay_🇮🇱IL-🇬🇧GB_570
-      - Relay_🇨🇳CN-🇨🇳CN_101
-      - Relay_🇨🇳CN-🇦🇺AU_407
-      - Relay_🇨🇳CN-🇦🇺AU_406
-      - cn02.mynode.me:8106
-      - cn02.mynode.me:8104
-      - cn00.mynode.me:8802
-      - '[🇳🇱]149.50.75.81:4003(TJCfE7Mx2YcA8kX8zg)'
-      - '[🇨🇳]cn05.mynode.me:8123(passwd)'
-      - '[🇨🇳]cn02.mynode.me:8108(passwd)'
-      - '[🇨🇳]cn02.mynode.me:8102(passwd)'
+      - 电信一区(南京)
+      - 联通四区(上海)
+      - 联通一区(北京)
+      - 美国高速04
 
 rules:
 # 本地/局域网地址
@@ -2334,7 +2510,7 @@ rules:
 # YouTubeMusic
   - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,go.com,🌍 国外媒体
-#,USER-AGENT,AbemaTV*,🌍 国外媒体
+#   - USER-AGENT,AbemaTV*,🌍 国外媒体
   - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
   - DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
@@ -2343,7 +2519,7 @@ rules:
   - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
   - DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
-#,USER-AGENT,All4*,🌍 国外媒体
+#   - USER-AGENT,All4*,🌍 国外媒体
   - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
   - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
   - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -2365,14 +2541,14 @@ rules:
   - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
-#,URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
-#,USER-AGENT,AppleNews*,🌍 国外媒体
-#,USER-AGENT,com.apple.news*,🌍 国外媒体
+#   - URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/,🌍 国外媒体
+#   - USER-AGENT,AppleNews*,🌍 国外媒体
+#   - USER-AGENT,com.apple.news*,🌍 国外媒体
   - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
   - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tv.apple.com,🌍 国外媒体
-#,USER-AGENT,BBCiPlayer*,🌍 国外媒体
+#   - USER-AGENT,BBCiPlayer*,🌍 国外媒体
   - DOMAIN-KEYWORD,bbcfmt,🌍 国外媒体
   - DOMAIN-KEYWORD,uk-live,🌍 国外媒体
   - DOMAIN,aod-dash-uk-live.akamaized.net,🌍 国外媒体
@@ -2387,13 +2563,13 @@ rules:
   - DOMAIN-SUFFIX,bbci.co,🌍 国外媒体
   - DOMAIN-SUFFIX,bbci.co.uk,🌍 国外媒体
   - DOMAIN-SUFFIX,bidi.net.uk,🌍 国外媒体
-#,USER-AGENT,Anime*,🌍 国外媒体
+#   - USER-AGENT,Anime*,🌍 国外媒体
   - DOMAIN,bahamut.akamaized.net,🌍 国外媒体
   - DOMAIN,gamer-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
-#,USER-AGENT,DAZN*,🌍 国外媒体
+#   - USER-AGENT,DAZN*,🌍 国外媒体
   - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
@@ -2405,14 +2581,14 @@ rules:
   - DOMAIN-SUFFIX,indazn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,indaznlab.com,🌍 国外媒体
   - DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
-#,USER-AGENT,Deezer*,🌍 国外媒体
+#   - USER-AGENT,Deezer*,🌍 国外媒体
   - DOMAIN-SUFFIX,deezer.com,🌍 国外媒体
   - DOMAIN-SUFFIX,dzcdn.net,🌍 国外媒体
   - DOMAIN-SUFFIX,disco-api.com,🌍 国外媒体
   - DOMAIN-SUFFIX,discovery.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
-#,USER-AGENT,Disney*,🌍 国外媒体
-#,USER-AGENT,Disney+*,🌍 国外媒体
+#   - USER-AGENT,Disney*,🌍 国外媒体
+#   - USER-AGENT,Disney+*,🌍 国外媒体
   - DOMAIN,cdn.registerdisney.go.com,🌍 国外媒体
   - DOMAIN-SUFFIX,adobedtm.com,🌍 国外媒体
   - DOMAIN-SUFFIX,bam.nr-data.net,🌍 国外媒体
@@ -2433,24 +2609,24 @@ rules:
   - DOMAIN-SUFFIX,dssott.com,🌍 国外媒体
   - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,js-agent.newrelic.com,🌍 国外媒体
-#,USER-AGENT,encoreTVB*,🌍 国外媒体
+#   - USER-AGENT,encoreTVB*,🌍 国外媒体
   - DOMAIN,bcbolt446c5271-a.akamaihd.net,🌍 国外媒体
   - DOMAIN,content.jwplatform.com,🌍 国外媒体
   - DOMAIN,edge.api.brightcove.com,🌍 国外媒体
   - DOMAIN,videos-f.jwpsrv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,encoretvb.com,🌍 国外媒体
-#,USER-AGENT,FOX%20NOW*,🌍 国外媒体
+#   - USER-AGENT,FOX%20NOW*,🌍 国外媒体
   - DOMAIN-SUFFIX,fox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,foxdcg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,uplynk.com,🌍 国外媒体
-#,USER-AGENT,HBO%20NOW*,🌍 国外媒体
-#,USER-AGENT,HBOMAX*,🌍 国外媒体
+#   - USER-AGENT,HBO%20NOW*,🌍 国外媒体
+#   - USER-AGENT,HBOMAX*,🌍 国外媒体
   - DOMAIN-SUFFIX,hbo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogo.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
-#,USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
+#   - USER-AGENT,HBO%20GO%20PROD*,🌍 国外媒体
   - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
   - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
@@ -2471,7 +2647,7 @@ rules:
   - DOMAIN-SUFFIX,hboasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbogoasia.hk,🌍 国外媒体
-#,USER-AGENT,HWTVMobile*,🌍 国外媒体
+#   - USER-AGENT,HWTVMobile*,🌍 国外媒体
   - DOMAIN-SUFFIX,5itv.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,ocnttv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,cws-hulu.conviva.com,🌍 国外媒体
@@ -2487,12 +2663,12 @@ rules:
   - DOMAIN-SUFFIX,prod.hjholdings.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,streaks.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,yb.uncn.jp,🌍 国外媒体
-#,USER-AGENT,ITV_Player*,🌍 国外媒体
+#   - USER-AGENT,ITV_Player*,🌍 国外媒体
   - DOMAIN,itvpnpmobile-a.akamaihd.net,🌍 国外媒体
   - DOMAIN-SUFFIX,itv.com,🌍 国外媒体
   - DOMAIN-SUFFIX,itvstatic.com,🌍 国外媒体
-#,USER-AGENT,JOOX*,🌍 国外媒体
-#,USER-AGENT,WeMusic*,🌍 国外媒体
+#   - USER-AGENT,JOOX*,🌍 国外媒体
+#   - USER-AGENT,WeMusic*,🌍 国外媒体
   - DOMAIN-KEYWORD,jooxweb-api,🌍 国外媒体
   - DOMAIN-SUFFIX,joox.com,🌍 国外媒体
   - DOMAIN-KEYWORD,japonx,🌍 国外媒体
@@ -2508,32 +2684,32 @@ rules:
   - DOMAIN-SUFFIX,kfs.io,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com,🌍 国外媒体
   - DOMAIN-SUFFIX,kkbox.com.tw,🌍 国外媒体
-#,USER-AGENT,KKTV*,🌍 国外媒体
-#,USER-AGENT,com.kktv.ios.kktv*,🌍 国外媒体
+#   - USER-AGENT,KKTV*,🌍 国外媒体
+#   - USER-AGENT,com.kktv.ios.kktv*,🌍 国外媒体
   - DOMAIN,kktv-theater.kk.stream,🌍 国外媒体
   - DOMAIN,theater-kktv.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,kktv.me,🌍 国外媒体
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,litv.tv,🌍 国外媒体
-#,USER-AGENT,LINE%20TV*,🌍 国外媒体
-#,USER-AGENT,LINE*,🌍 国外媒体
+#   - USER-AGENT,LINE%20TV*,🌍 国外媒体
+#   - USER-AGENT,LINE*,🌍 国外媒体
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,linetv.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,profile.line-scdn.net,🌍 国外媒体
-#,USER-AGENT,My5*,🌍 国外媒体
+#   - USER-AGENT,My5*,🌍 国外媒体
   - DOMAIN,d349g9zuie06uo.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,channel5.com,🌍 国外媒体
   - DOMAIN-SUFFIX,my5.tv,🌍 国外媒体
-#,USER-AGENT,mytv*,🌍 国外媒体
+#   - USER-AGENT,mytv*,🌍 国外媒体
   - DOMAIN-KEYWORD,nowtv100,🌍 国外媒体
   - DOMAIN-KEYWORD,rthklive,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.hb.omtrdc.net,🌍 国外媒体
   - DOMAIN,mytvsuperlimited.sc.omtrdc.net,🌍 国外媒体
   - DOMAIN-SUFFIX,mytvsuper.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
-#,USER-AGENT,Argo*,🌍 国外媒体
+#   - USER-AGENT,Argo*,🌍 国外媒体
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🌍 国外媒体
   - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
   - DOMAIN-KEYWORD,netflixdnstest,🌍 国外媒体
@@ -2573,24 +2749,24 @@ rules:
   - IP-CIDR,198.45.48.0/20,🌍 国外媒体,no-resolve
   - IP-CIDR,207.45.72.0/22,🌍 国外媒体,no-resolve
   - IP-CIDR,208.75.76.0/22,🌍 国外媒体,no-resolve
-#,USER-AGENT,Niconico*,🌍 国外媒体
+#   - USER-AGENT,Niconico*,🌍 国外媒体
   - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
   - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
   - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
-#,USER-AGENT,PBS*,🌍 国外媒体
+#   - USER-AGENT,PBS*,🌍 国外媒体
   - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
-#,USER-AGENT,Pandora*,🌍 国外媒体
+#   - USER-AGENT,Pandora*,🌍 国外媒体
   - DOMAIN-SUFFIX,pandora.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,phprcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhub.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pornhubpremium.com,🌍 国外媒体
   - DOMAIN-SUFFIX,qobuz.com,🌍 国外媒体
-#,USER-AGENT,SoundCloud*,🌍 国外媒体
+#   - USER-AGENT,SoundCloud*,🌍 国外媒体
   - DOMAIN-SUFFIX,p-cdn.us,🌍 国外媒体
   - DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
-#,USER-AGENT,Spotify*,🌍 国外媒体
+#   - USER-AGENT,Spotify*,🌍 国外媒体
   - DOMAIN-KEYWORD,-spotify-com,🌍 国外媒体
   - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
@@ -2599,14 +2775,14 @@ rules:
   - DOMAIN-SUFFIX,spotify.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,spotifycdn.net,🌍 国外媒体
-#,USER-AGENT,TIDAL*,🌍 国外媒体
+#   - USER-AGENT,TIDAL*,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidal.com,🌍 国外媒体
   - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
-#,USER-AGENT,TaiwanGood*,🌍 国外媒体
+#   - USER-AGENT,TaiwanGood*,🌍 国外媒体
   - DOMAIN,hamifans.emome.net,🌍 国外媒体
   - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
-#,USER-AGENT,TikTok*,🌍 国外媒体
+#   - USER-AGENT,TikTok*,🌍 国外媒体
   - DOMAIN-KEYWORD,tiktokcdn-,🌍 国外媒体
   - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
   - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
@@ -2624,7 +2800,7 @@ rules:
   - DOMAIN-SUFFIX,twitch-ext.rootonline.de,🌍 国外媒体
   - DOMAIN-SUFFIX,twitch.tv,🌍 国外媒体
   - DOMAIN-SUFFIX,twitchcdn.net,🌍 国外媒体
-#,USER-AGENT,Viu*,🌍 国外媒体
+#   - USER-AGENT,Viu*,🌍 国外媒体
   - PROCESS-NAME,com.viu.pad,🌍 国外媒体
   - PROCESS-NAME,com.viu.phone,🌍 国外媒体
   - PROCESS-NAME,com.vuclip.viu,🌍 国外媒体
@@ -2640,9 +2816,9 @@ rules:
   - DOMAIN-SUFFIX,viu.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.now.com,🌍 国外媒体
   - DOMAIN-SUFFIX,viu.tv,🌍 国外媒体
-#,USER-AGENT,*youtube*,🌍 国外媒体
-#,USER-AGENT,YouTube*,🌍 国外媒体
-#,USER-AGENT,com.google.ios.youtube*,🌍 国外媒体
+#   - USER-AGENT,*youtube*,🌍 国外媒体
+#   - USER-AGENT,YouTube*,🌍 国外媒体
+#   - USER-AGENT,com.google.ios.youtube*,🌍 国外媒体
   - DOMAIN-KEYWORD,youtube,🌍 国外媒体
   - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
   - DOMAIN,yt3.ggpht.com,🌍 国外媒体
@@ -2657,10 +2833,10 @@ rules:
   - DOMAIN-SUFFIX,youtubekids.com,🌍 国外媒体
   - DOMAIN-SUFFIX,yt.be,🌍 国外媒体
   - DOMAIN-SUFFIX,ytimg.com,🌍 国外媒体
-#,USER-AGENT,*YouTubeMusic*,🌍 国外媒体
-#,USER-AGENT,*com.google.ios.youtubemusic*,🌍 国外媒体
-#,USER-AGENT,YouTubeMusic*,🌍 国外媒体
-#,USER-AGENT,com.google.ios.youtubemusic*,🌍 国外媒体
+#   - USER-AGENT,*YouTubeMusic*,🌍 国外媒体
+#   - USER-AGENT,*com.google.ios.youtubemusic*,🌍 国外媒体
+#   - USER-AGENT,YouTubeMusic*,🌍 国外媒体
+#   - USER-AGENT,com.google.ios.youtubemusic*,🌍 国外媒体
   - DOMAIN,music.youtube.com,🌍 国外媒体
 # Telegram
 #PROCESS-NAME,Telegram.exe
