@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-06-27 09:21:57
+# 创建时间：2023-06-28 09:54:20
 # 使用模版：V2RaySE 默认模版
-# 节点数量：8
+# 节点数量：45
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,95 +21,354 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇯🇵+日本04","type":"trojan","server":"hz-cm.32jr.com","port":10298,"udp":true,"password":"46e2a138-3243-3699-ace6-67bda5233ad4","skip-cert-verify":true}
-  - {"name":"🇯🇵+日本07","type":"trojan","server":"gd-cm.32jr.com","port":51766,"udp":true,"password":"adebf830-fd03-35de-b53a-7c18c20bbf40","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-150.230.99.26-0691","type":"trojan","server":"tk-006.xiaoxiaobujidao.xyz","port":20001,"udp":true,"password":"567fc98e-f73c-3f00-b011-8e9cf6b873e8","sni":"tk-006.xiaoxiaobujidao.xyz","skip-cert-verify":true}
-  - {"name":"电信一区(南京)","type":"vmess","server":"175.27.154.61","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"电信一区(广东)","type":"vmess","server":"111.230.252.149","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"联通一区(北京)","type":"vmess","server":"39.103.165.178","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"美国高速04","type":"vmess","server":"108.165.254.175","port":28623,"cipher":"auto","uuid":"92951c53-ee36-4566-8ada-877efe4b5432","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"联通一区(北京)","type":"vmess","server":"39.103.165.178","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"电信一区(南京)","type":"vmess","server":"175.27.154.61","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"备用节点7","type":"trojan","server":"gd-cm.32jr.com","port":51766,"udp":true,"password":"a71c82a7-226c-3b6b-a70e-2ef748ca32f8","skip-cert-verify":true}
+  - {"name":"备用节点2","type":"trojan","server":"gd-cm.32jr.com","port":51766,"udp":true,"password":"fb135779-e96a-3087-adaa-9434353d535a","skip-cert-verify":true}
   - {"name":"🇺🇸US-216.52.59.50-0119","type":"trojan","server":"216.52.59.50","port":20458,"udp":true,"password":"m8krTirthj","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-43.206.159.214-0081","type":"trojan","server":"jp6.jb7ueoq73.xyz","port":10063,"udp":true,"password":"a21e5380-7711-4c6d-af44-e6210e5436af","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-150.230.99.26-0691","type":"trojan","server":"tk-006.xiaoxiaobujidao.xyz","port":20001,"udp":true,"password":"567fc98e-f73c-3f00-b011-8e9cf6b873e8","sni":"tk-006.xiaoxiaobujidao.xyz","skip-cert-verify":true}
+  - {"name":"🇯🇵+日本07","type":"trojan","server":"gd-cm.32jr.com","port":51766,"udp":true,"password":"adebf830-fd03-35de-b53a-7c18c20bbf40","skip-cert-verify":true}
+  - {"name":"🇮🇳IN-152.70.74.66-0048","type":"trojan","server":"152.70.74.66","port":443,"udp":true,"password":"d906afe5-7c3c-4ddc-aaa4-61c154a82e5e","skip-cert-verify":true}
+  - {"name":"🇩🇪DE-157.245.19.162-15661","type":"trojan","server":"bdvasxmahl.injafarvpnwebelieve.gq","port":443,"udp":true,"password":"TvBypqQJ9b","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-47.93.231.218-7318","type":"vmess","server":"47.93.231.218","port":53022,"cipher":"auto","uuid":"95fd7642-2160-4528-e909-3d526b533013","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"ZZ_692+|17.23Mb","type":"ss","server":"134.195.196.107","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"ZZ_685+|17.77Mb","type":"ss","server":"134.195.196.107","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"US_677","type":"trojan","server":"pqawsjp02.gsjc.cfd","port":443,"udp":true,"password":"b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4","skip-cert-verify":true}
+  - {"name":"US_674","type":"trojan","server":"pqawssg01.gsjc.cfd","port":443,"udp":true,"password":"92d1ed85-97f8-4821-887b-0d1b8b367cf8","skip-cert-verify":true}
+  - {"name":"US_670","type":"trojan","server":"pqawsjp01.gsjc.cfd","port":443,"udp":true,"password":"92d1ed85-97f8-4821-887b-0d1b8b367cf8","skip-cert-verify":true}
+  - {"name":"US_665","type":"trojan","server":"pqawssg01.gsjc.cfd","port":443,"udp":true,"password":"b2ac46e0-cf21-4dd3-bf99-60eeb18a1cee","skip-cert-verify":true}
+  - {"name":"US_662","type":"trojan","server":"pqawssg01.gsjc.cfd","port":443,"udp":true,"password":"171851fe-0de9-4df7-887a-61623bab3853","skip-cert-verify":true}
+  - {"name":"US_649+|13.40Mb","type":"trojan","server":"pqawssg01.gsjc.cfd","port":443,"udp":true,"password":"b00836d0-2766-4cf0-ac1a-5e7e47ae86d1","skip-cert-verify":true}
+  - {"name":"US_648+|24.20Mb","type":"trojan","server":"pqawssg02.gsjc.cfd","port":443,"udp":true,"password":"b00836d0-2766-4cf0-ac1a-5e7e47ae86d1","skip-cert-verify":true}
+  - {"name":"US_631","type":"trojan","server":"pqawssg01.gsjc.cfd","port":443,"udp":true,"password":"b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4","skip-cert-verify":true}
+  - {"name":"US_629","type":"trojan","server":"pqawssg02.gsjc.cfd","port":443,"udp":true,"password":"92d1ed85-97f8-4821-887b-0d1b8b367cf8","skip-cert-verify":true}
+  - {"name":"US_599","type":"trojan","server":"pqawssg02.gsjc.cfd","port":443,"udp":true,"password":"0a504947-35f1-4c1e-ae00-972afb3fdac2","skip-cert-verify":true}
+  - {"name":"US_595","type":"trojan","server":"pqawssg01.gsjc.cfd","port":443,"udp":true,"password":"0a504947-35f1-4c1e-ae00-972afb3fdac2","skip-cert-verify":true}
+  - {"name":"US_564","type":"trojan","server":"fscjp.fscloud123456789.com","port":443,"udp":true,"password":"3d927416-3e74-45ce-ac16-df69c33c725a","skip-cert-verify":true}
+  - {"name":"US_326","type":"ssr","server":"fr-am1-5.eqsunshine.com","port":8181,"password":"RcfVcDzzB","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
+  - {"name":"SG_249","type":"trojan","server":"pqawssg02.gsjc.cfd","port":443,"udp":true,"password":"171851fe-0de9-4df7-887a-61623bab3853","skip-cert-verify":true}
+  - {"name":"SG_241 |22.60Mb","type":"ssr","server":"sg-am3.eqsunshine.com","port":32001,"password":"3g0dHlKME","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
+  - {"name":"JP_207","type":"trojan","server":"pqawsjp2.gsjc.cfd","port":443,"udp":true,"password":"0a504947-35f1-4c1e-ae00-972afb3fdac2","skip-cert-verify":true}
+  - {"name":"JP_206","type":"trojan","server":"pqawsjp4.gsjc.cfd","port":443,"udp":true,"password":"0a504947-35f1-4c1e-ae00-972afb3fdac2","skip-cert-verify":true}
+  - {"name":"JP_205","type":"trojan","server":"pqawsjp3.gsjc.cfd","port":443,"udp":true,"password":"0a504947-35f1-4c1e-ae00-972afb3fdac2","skip-cert-verify":true}
+  - {"name":"JP_203","type":"trojan","server":"jp2.gsjc.cfd","port":443,"udp":true,"password":"39666941-4cb2-4ce7-8a63-f183fedfd6bb","skip-cert-verify":true}
+  - {"name":"JP_195+|10.70Mb","type":"trojan","server":"pqawsjp3.gsjc.cfd","port":443,"udp":true,"password":"746b6774-e899-4205-a097-3da55c26f5b3","skip-cert-verify":true}
+  - {"name":"JP_192","type":"trojan","server":"pqawsjp4.gsjc.cfd","port":443,"udp":true,"password":"b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4","skip-cert-verify":true}
+  - {"name":"JP_191","type":"trojan","server":"pqawsjp2.gsjc.cfd","port":443,"udp":true,"password":"b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4","skip-cert-verify":true}
+  - {"name":"JP_189","type":"trojan","server":"pqawsjp3.gsjc.cfd","port":443,"udp":true,"password":"b25cbc3a-d7e8-4fe4-b7a0-d3d18985bcf4","skip-cert-verify":true}
+  - {"name":"JP_185+|30.90Mb","type":"trojan","server":"pqawsjp4.gsjc.cfd","port":443,"udp":true,"password":"746b6774-e899-4205-a097-3da55c26f5b3","skip-cert-verify":true}
+  - {"name":"JP_180","type":"trojan","server":"pqawsjp4.gsjc.cfd","port":443,"udp":true,"password":"92d1ed85-97f8-4821-887b-0d1b8b367cf8","skip-cert-verify":true}
+  - {"name":"JP_175","type":"trojan","server":"pqawsjp3.gsjc.cfd","port":443,"udp":true,"password":"92d1ed85-97f8-4821-887b-0d1b8b367cf8","skip-cert-verify":true}
+  - {"name":"JP_173","type":"trojan","server":"pqawsjp2.gsjc.cfd","port":443,"udp":true,"password":"92d1ed85-97f8-4821-887b-0d1b8b367cf8","skip-cert-verify":true}
+  - {"name":"ES_90+|33.03Mb","type":"ss","server":"5.188.181.201","port":9054,"password":"VcFuyXvND2yQWSFY","cipher":"aes-256-cfb"}
+  - {"name":"DE_81+|31.53Mb","type":"trojan","server":"217.79.184.18","port":443,"udp":true,"password":"9fb3183e-8d93-46d4-aba0-4c1769b6c079","skip-cert-verify":true}
+  - {"name":"CN_54","type":"trojan","server":"8t6w03.abzoones.xyz","port":36311,"udp":true,"password":"388d54d8-eb99-4a78-831b-5d4240061bb0","skip-cert-verify":true}
+  - {"name":"CN_53","type":"trojan","server":"8r5u01.abzoones.xyz","port":36851,"udp":true,"password":"d7cc2d2a-5339-470f-8b9f-e55afa1f58fb","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵+日本04
-      - 🇯🇵+日本07
-      - 🇯🇵JP-150.230.99.26-0691
-      - 电信一区(南京)
-      - 电信一区(广东)
-      - 联通一区(北京)
       - 美国高速04
+      - 联通一区(北京)
+      - 电信一区(南京)
+      - 备用节点7
+      - 备用节点2
       - 🇺🇸US-216.52.59.50-0119
+      - 🇯🇵JP-43.206.159.214-0081
+      - 🇯🇵JP-150.230.99.26-0691
+      - 🇯🇵+日本07
+      - 🇮🇳IN-152.70.74.66-0048
+      - 🇩🇪DE-157.245.19.162-15661
+      - 🇨🇳CN-47.93.231.218-7318
+      - ZZ_692+|17.23Mb
+      - ZZ_685+|17.77Mb
+      - US_677
+      - US_674
+      - US_670
+      - US_665
+      - US_662
+      - US_649+|13.40Mb
+      - US_648+|24.20Mb
+      - US_631
+      - US_629
+      - US_599
+      - US_595
+      - US_564
+      - US_326
+      - SG_249
+      - SG_241 |22.60Mb
+      - JP_207
+      - JP_206
+      - JP_205
+      - JP_203
+      - JP_195+|10.70Mb
+      - JP_192
+      - JP_191
+      - JP_189
+      - JP_185+|30.90Mb
+      - JP_180
+      - JP_175
+      - JP_173
+      - ES_90+|33.03Mb
+      - DE_81+|31.53Mb
+      - CN_54
+      - CN_53
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵+日本04
-      - 🇯🇵+日本07
-      - 🇯🇵JP-150.230.99.26-0691
-      - 电信一区(南京)
-      - 电信一区(广东)
-      - 联通一区(北京)
       - 美国高速04
+      - 联通一区(北京)
+      - 电信一区(南京)
+      - 备用节点7
+      - 备用节点2
       - 🇺🇸US-216.52.59.50-0119
+      - 🇯🇵JP-43.206.159.214-0081
+      - 🇯🇵JP-150.230.99.26-0691
+      - 🇯🇵+日本07
+      - 🇮🇳IN-152.70.74.66-0048
+      - 🇩🇪DE-157.245.19.162-15661
+      - 🇨🇳CN-47.93.231.218-7318
+      - ZZ_692+|17.23Mb
+      - ZZ_685+|17.77Mb
+      - US_677
+      - US_674
+      - US_670
+      - US_665
+      - US_662
+      - US_649+|13.40Mb
+      - US_648+|24.20Mb
+      - US_631
+      - US_629
+      - US_599
+      - US_595
+      - US_564
+      - US_326
+      - SG_249
+      - SG_241 |22.60Mb
+      - JP_207
+      - JP_206
+      - JP_205
+      - JP_203
+      - JP_195+|10.70Mb
+      - JP_192
+      - JP_191
+      - JP_189
+      - JP_185+|30.90Mb
+      - JP_180
+      - JP_175
+      - JP_173
+      - ES_90+|33.03Mb
+      - DE_81+|31.53Mb
+      - CN_54
+      - CN_53
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵+日本04
-      - 🇯🇵+日本07
-      - 🇯🇵JP-150.230.99.26-0691
-      - 电信一区(南京)
-      - 电信一区(广东)
-      - 联通一区(北京)
       - 美国高速04
+      - 联通一区(北京)
+      - 电信一区(南京)
+      - 备用节点7
+      - 备用节点2
       - 🇺🇸US-216.52.59.50-0119
+      - 🇯🇵JP-43.206.159.214-0081
+      - 🇯🇵JP-150.230.99.26-0691
+      - 🇯🇵+日本07
+      - 🇮🇳IN-152.70.74.66-0048
+      - 🇩🇪DE-157.245.19.162-15661
+      - 🇨🇳CN-47.93.231.218-7318
+      - ZZ_692+|17.23Mb
+      - ZZ_685+|17.77Mb
+      - US_677
+      - US_674
+      - US_670
+      - US_665
+      - US_662
+      - US_649+|13.40Mb
+      - US_648+|24.20Mb
+      - US_631
+      - US_629
+      - US_599
+      - US_595
+      - US_564
+      - US_326
+      - SG_249
+      - SG_241 |22.60Mb
+      - JP_207
+      - JP_206
+      - JP_205
+      - JP_203
+      - JP_195+|10.70Mb
+      - JP_192
+      - JP_191
+      - JP_189
+      - JP_185+|30.90Mb
+      - JP_180
+      - JP_175
+      - JP_173
+      - ES_90+|33.03Mb
+      - DE_81+|31.53Mb
+      - CN_54
+      - CN_53
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵+日本04
-      - 🇯🇵+日本07
-      - 🇯🇵JP-150.230.99.26-0691
-      - 电信一区(南京)
-      - 电信一区(广东)
-      - 联通一区(北京)
       - 美国高速04
+      - 联通一区(北京)
+      - 电信一区(南京)
+      - 备用节点7
+      - 备用节点2
       - 🇺🇸US-216.52.59.50-0119
+      - 🇯🇵JP-43.206.159.214-0081
+      - 🇯🇵JP-150.230.99.26-0691
+      - 🇯🇵+日本07
+      - 🇮🇳IN-152.70.74.66-0048
+      - 🇩🇪DE-157.245.19.162-15661
+      - 🇨🇳CN-47.93.231.218-7318
+      - ZZ_692+|17.23Mb
+      - ZZ_685+|17.77Mb
+      - US_677
+      - US_674
+      - US_670
+      - US_665
+      - US_662
+      - US_649+|13.40Mb
+      - US_648+|24.20Mb
+      - US_631
+      - US_629
+      - US_599
+      - US_595
+      - US_564
+      - US_326
+      - SG_249
+      - SG_241 |22.60Mb
+      - JP_207
+      - JP_206
+      - JP_205
+      - JP_203
+      - JP_195+|10.70Mb
+      - JP_192
+      - JP_191
+      - JP_189
+      - JP_185+|30.90Mb
+      - JP_180
+      - JP_175
+      - JP_173
+      - ES_90+|33.03Mb
+      - DE_81+|31.53Mb
+      - CN_54
+      - CN_53
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵+日本04
-      - 🇯🇵+日本07
-      - 🇯🇵JP-150.230.99.26-0691
-      - 电信一区(南京)
-      - 电信一区(广东)
-      - 联通一区(北京)
       - 美国高速04
+      - 联通一区(北京)
+      - 电信一区(南京)
+      - 备用节点7
+      - 备用节点2
       - 🇺🇸US-216.52.59.50-0119
+      - 🇯🇵JP-43.206.159.214-0081
+      - 🇯🇵JP-150.230.99.26-0691
+      - 🇯🇵+日本07
+      - 🇮🇳IN-152.70.74.66-0048
+      - 🇩🇪DE-157.245.19.162-15661
+      - 🇨🇳CN-47.93.231.218-7318
+      - ZZ_692+|17.23Mb
+      - ZZ_685+|17.77Mb
+      - US_677
+      - US_674
+      - US_670
+      - US_665
+      - US_662
+      - US_649+|13.40Mb
+      - US_648+|24.20Mb
+      - US_631
+      - US_629
+      - US_599
+      - US_595
+      - US_564
+      - US_326
+      - SG_249
+      - SG_241 |22.60Mb
+      - JP_207
+      - JP_206
+      - JP_205
+      - JP_203
+      - JP_195+|10.70Mb
+      - JP_192
+      - JP_191
+      - JP_189
+      - JP_185+|30.90Mb
+      - JP_180
+      - JP_175
+      - JP_173
+      - ES_90+|33.03Mb
+      - DE_81+|31.53Mb
+      - CN_54
+      - CN_53
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵+日本04
-      - 🇯🇵+日本07
-      - 🇯🇵JP-150.230.99.26-0691
-      - 电信一区(南京)
-      - 电信一区(广东)
-      - 联通一区(北京)
       - 美国高速04
+      - 联通一区(北京)
+      - 电信一区(南京)
+      - 备用节点7
+      - 备用节点2
       - 🇺🇸US-216.52.59.50-0119
+      - 🇯🇵JP-43.206.159.214-0081
+      - 🇯🇵JP-150.230.99.26-0691
+      - 🇯🇵+日本07
+      - 🇮🇳IN-152.70.74.66-0048
+      - 🇩🇪DE-157.245.19.162-15661
+      - 🇨🇳CN-47.93.231.218-7318
+      - ZZ_692+|17.23Mb
+      - ZZ_685+|17.77Mb
+      - US_677
+      - US_674
+      - US_670
+      - US_665
+      - US_662
+      - US_649+|13.40Mb
+      - US_648+|24.20Mb
+      - US_631
+      - US_629
+      - US_599
+      - US_595
+      - US_564
+      - US_326
+      - SG_249
+      - SG_241 |22.60Mb
+      - JP_207
+      - JP_206
+      - JP_205
+      - JP_203
+      - JP_195+|10.70Mb
+      - JP_192
+      - JP_191
+      - JP_189
+      - JP_185+|30.90Mb
+      - JP_180
+      - JP_175
+      - JP_173
+      - ES_90+|33.03Mb
+      - DE_81+|31.53Mb
+      - CN_54
+      - CN_53
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -132,14 +391,51 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵+日本04
-      - 🇯🇵+日本07
-      - 🇯🇵JP-150.230.99.26-0691
-      - 电信一区(南京)
-      - 电信一区(广东)
-      - 联通一区(北京)
       - 美国高速04
+      - 联通一区(北京)
+      - 电信一区(南京)
+      - 备用节点7
+      - 备用节点2
       - 🇺🇸US-216.52.59.50-0119
+      - 🇯🇵JP-43.206.159.214-0081
+      - 🇯🇵JP-150.230.99.26-0691
+      - 🇯🇵+日本07
+      - 🇮🇳IN-152.70.74.66-0048
+      - 🇩🇪DE-157.245.19.162-15661
+      - 🇨🇳CN-47.93.231.218-7318
+      - ZZ_692+|17.23Mb
+      - ZZ_685+|17.77Mb
+      - US_677
+      - US_674
+      - US_670
+      - US_665
+      - US_662
+      - US_649+|13.40Mb
+      - US_648+|24.20Mb
+      - US_631
+      - US_629
+      - US_599
+      - US_595
+      - US_564
+      - US_326
+      - SG_249
+      - SG_241 |22.60Mb
+      - JP_207
+      - JP_206
+      - JP_205
+      - JP_203
+      - JP_195+|10.70Mb
+      - JP_192
+      - JP_191
+      - JP_189
+      - JP_185+|30.90Mb
+      - JP_180
+      - JP_175
+      - JP_173
+      - ES_90+|33.03Mb
+      - DE_81+|31.53Mb
+      - CN_54
+      - CN_53
 
 rules:
 # 本地/局域网地址
