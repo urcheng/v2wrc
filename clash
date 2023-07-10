@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-07-07 09:39:31
+# 创建时间：2023-07-10 14:43:17
 # 使用模版：V2RaySE 默认模版
-# 节点数量：21
+# 节点数量：49
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,186 +21,382 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"剩余流量：2154.48+GB","type":"trojan","server":"sg.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"联通一区(北京)","type":"vmess","server":"39.103.165.178","port":56002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"电信一区(南京)","type":"vmess","server":"175.27.154.61","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"USA美国001","type":"trojan","server":"usa.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"UK英国流媒体节点001","type":"trojan","server":"ukjs.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"UK英国001","type":"trojan","server":"uk.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"UAE迪拜流媒体节点001","type":"trojan","server":"uaejs.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"SWE瑞典流媒体节点001","type":"trojan","server":"swejs.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"SA沙特阿拉伯流媒体节点001","type":"trojan","server":"sajs.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"NL荷兰流媒体节点001","type":"trojan","server":"nljs.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"NF南非001","type":"trojan","server":"nf.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"JP日本001+两元店.com","type":"trojan","server":"jp.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"IT意大利流媒体节点001","type":"trojan","server":"itjs.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"FR法国流媒体节点001","type":"trojan","server":"frjs.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"ES西班牙流媒体节点001","type":"trojan","server":"esjs.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"DE德国流媒体节点001","type":"trojan","server":"dejs.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"DE德国001","type":"trojan","server":"de.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"CL智利流媒体节点001","type":"trojan","server":"cljs.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"CA加拿大流媒体节点001","type":"trojan","server":"cajs.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"CA加拿大001","type":"trojan","server":"ca.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
-  - {"name":"BR巴西流媒体节点001","type":"trojan","server":"brjs.stablize.top","port":443,"udp":true,"password":"4565bf4a-951a-4981-9b60-4b1a496c9cbc","skip-cert-verify":false}
+  - {"name":"🇺🇸US-45.9.10.103-11215","type":"trojan","server":"45.9.10.103","port":443,"udp":true,"password":"WpfQAbO2wg","skip-cert-verify":true}
+  - {"name":"🇺🇸_电报频道：+@mfjdpd","type":"trojan","server":"216.52.59.50","port":20458,"udp":true,"password":"m8krTirthj","skip-cert-verify":true}
+  - {"name":"🇺🇸_电报频道： @mfjdpd_1","type":"vmess","server":"45.199.138.121","port":51204,"cipher":"auto","uuid":"9549a2cf-129b-43a1-88db-ef7f648de74a","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇺🇸_电报频道： @mfjdpd_2","type":"vmess","server":"156.225.67.105","port":49101,"cipher":"auto","uuid":"29a5d48e-24f1-48fd-a5e1-9a46cb31032f","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇹🇼TW-60.249.3.228-7453","type":"trojan","server":"60.249.3.228","port":3389,"udp":true,"password":"7ac49a893e0bd10c","skip-cert-verify":true}
+  - {"name":"🇹🇼TW-211.72.35.154-7436","type":"trojan","server":"211.72.35.154","port":3389,"udp":true,"password":"7b06d22a8a7c764f","skip-cert-verify":true}
+  - {"name":"🇹🇼TW-211.72.35.152-7262","type":"trojan","server":"211.72.35.152","port":3389,"udp":true,"password":"b84d16a244460e09","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-18.140.60.81-10568","type":"trojan","server":"18.140.60.81","port":443,"udp":true,"password":"5baea97b-7a9d-39ba-bd0f-0b13025de750","skip-cert-verify":true}
+  - {"name":"🇷🇺RU-91.206.92.17-10444","type":"trojan","server":"91.206.92.17","port":443,"udp":true,"password":"1d0a80ca-0f96-4016-ac51-c284dedd28a1","sni":"insaneguo2333.top","skip-cert-verify":true}
+  - {"name":"🇰🇷KR-146.56.189.146-7717","type":"trojan","server":"146.56.189.146","port":443,"udp":true,"password":"f2117e99-9b6e-47fd-b0a9-634a0b15b998","skip-cert-verify":true}
+  - {"name":"🇰🇷KR-140.238.12.83-10286","type":"trojan","server":"140.238.12.83","port":443,"udp":true,"password":"a1718180-d616-4b71-9bb6-3e96ba20f921","sni":"jgw3.gaox.ml","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-20.210.234.145-10247","type":"trojan","server":"20.210.234.145","port":443,"udp":true,"password":"7d0f1f83-0f2f-4b90-930e-de44ac233fef","sni":"in.stablize.top","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-185.212.56.168-10224","type":"trojan","server":"185.212.56.168","port":443,"udp":true,"password":"share.mjj-home.com","sni":"share.softbank.mjj-home.com","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-160.16.145.107-7442","type":"trojan","server":"160.16.145.107","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-150.230.99.26-2147","type":"trojan","server":"tk-006.xiaoxiaobujidao.xyz","port":20001,"udp":true,"password":"567fc98e-f73c-3f00-b011-8e9cf6b873e8","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-133.167.100.203-7402","type":"trojan","server":"133.167.100.203","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇭🇰HK-45.11.104.94-7437","type":"trojan","server":"45.11.104.94","port":3389,"udp":true,"password":"d4e41ff772c7fd45","sni":"sbank.ir","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-47.93.231.218-9802","type":"vmess","server":"47.93.231.218","port":53022,"cipher":"auto","uuid":"95fd7642-2160-4528-e909-3d526b533013","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇨🇳CN-223.167.41.13-7592","type":"trojan","server":"official.seoulcityhall.com.ua","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-119.96.188.117-15676","type":"trojan","server":"6w7j3p01.mcfront.xyz","port":31311,"udp":true,"password":"1e85da50-c97a-4431-986e-6296b889c28b","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-116.192.169.8-1574","type":"trojan","server":"116.192.169.8","port":8443,"udp":true,"password":"5505f6ba-cd37-30ce-8f92-be4120c83d7f","skip-cert-verify":true}
+  - {"name":"🇨🇳_电报频道：+@mfjdpd","type":"trojan","server":"116.192.171.97","port":8443,"udp":true,"password":"5505f6ba-cd37-30ce-8f92-be4120c83d7f","sni":"66.42.40.132","skip-cert-verify":true}
+  - {"name":"US_464","type":"trojan","server":"hk03.trojanyyds.xyz","port":443,"udp":true,"password":"331365d8-3ce5-484d-a226-33312bcc3217","skip-cert-verify":true}
+  - {"name":"US_459+|17.43Mb","type":"trojan","server":"ovotw.ovogreat.com","port":443,"udp":true,"password":"fd7c4797-17ae-4195-b2bb-5612b083e180","skip-cert-verify":true}
+  - {"name":"US_452","type":"trojan","server":"fschk.fscloud123456789.com","port":443,"udp":true,"password":"38541d74-6ffd-4352-988d-715ee989947c","skip-cert-verify":true}
+  - {"name":"US_446+|+6.46Mb","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"17f9a10a-3ff9-4cbe-ac15-108b585b1a39","skip-cert-verify":true}
+  - {"name":"US_442","type":"trojan","server":"my01.trojanyyds.xyz","port":443,"udp":true,"password":"8d1e94cd-23cf-4267-b630-c6894e6e1b4d","skip-cert-verify":true}
+  - {"name":"US_439","type":"trojan","server":"fschk.fscloud123456789.com","port":443,"udp":true,"password":"fe5c139b-e3c2-4029-a783-b7f836557f6d","skip-cert-verify":true}
+  - {"name":"US_434","type":"trojan","server":"hk03.trojanyyds.xyz","port":443,"udp":true,"password":"8d1e94cd-23cf-4267-b630-c6894e6e1b4d","skip-cert-verify":true}
+  - {"name":"US_430","type":"trojan","server":"fscjp.fscloud123456789.com","port":443,"udp":true,"password":"3d927416-3e74-45ce-ac16-df69c33c725a","skip-cert-verify":true}
+  - {"name":"US_418+|19.69Mb","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"ed19b239-8e49-4b82-979a-24b84fa7b173","skip-cert-verify":true}
+  - {"name":"US_404+|+9.08Mb","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"eacbdf08-c28f-4299-8da1-af23bba28e02","skip-cert-verify":true}
+  - {"name":"US_399","type":"trojan","server":"168.138.176.18","port":443,"udp":true,"password":"114514","skip-cert-verify":true}
+  - {"name":"US_398","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"8844efd9-1858-4d83-be27-d5fdd2aba132","skip-cert-verify":true}
+  - {"name":"US_397","type":"trojan","server":"fscjp.fscloud123456789.com","port":443,"udp":true,"password":"44c4652b-f56a-45a8-b43b-d9eb83d826bf","skip-cert-verify":true}
+  - {"name":"SG_197","type":"trojan","server":"sg-csjc.syjd.xyz","port":443,"udp":true,"password":"51eebef7-beaa-417b-9584-2794d10377c9","skip-cert-verify":true}
+  - {"name":"SG_191+|+6.58Mb","type":"ss","server":"54.255.237.136","port":2333,"password":"doub.io","cipher":"aes-256-cfb"}
+  - {"name":"JP_163","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"514b8c92-12da-4219-b06c-56ecc67dfa23","skip-cert-verify":true}
+  - {"name":"JP_160+|12.11Mb","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"64df0a67-97aa-4140-9643-d1d4cceae6ef","skip-cert-verify":true}
+  - {"name":"JP_154","type":"trojan","server":"fscjp.fscloud123456789.com","port":443,"udp":true,"password":"5057f49b-3038-4683-a5d9-8d9657caef3c","skip-cert-verify":true}
+  - {"name":"JP_151+|27.50Mb","type":"trojan","server":"fschk.fscloud123456789.com","port":443,"udp":true,"password":"85374b3c-467d-410e-9be6-feb1d8fe35bf","skip-cert-verify":true}
+  - {"name":"JP_147","type":"trojan","server":"fscjp.fscloud123456789.com","port":443,"udp":true,"password":"c025f75d-b5df-4c99-b1ab-5c81ad22e0ca","skip-cert-verify":true}
+  - {"name":"JP_146+|+2.23Mb","type":"trojan","server":"fsctw.fscloud123456789.com","port":443,"udp":true,"password":"3228a77c-c1c3-451f-9112-e6e766684558","skip-cert-verify":true}
+  - {"name":"HK_118","type":"trojan","server":"hk02.trojanyyds.xyz","port":443,"udp":true,"password":"331365d8-3ce5-484d-a226-33312bcc3217","skip-cert-verify":true}
+  - {"name":"FR_93","type":"ssr","server":"94.23.116.190","port":443,"password":"HowdyBypasser2022","cipher":"aes-256-ctr","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
+  - {"name":"FR_86","type":"ss","server":"54.36.115.241","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"AU_11+|+9.91Mb","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"298a5185-2019-46a6-bc2a-42fe3ddbe876","skip-cert-verify":true}
+  - {"name":"❤️TELEGRAM 🆔 @GOODBYEFILTERING❤️","type":"vmess","server":"47.93.231.218","port":53022,"cipher":"auto","uuid":"95fd7642-2160-4528-e909-3d526b533013","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"47.93.231.218"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 剩余流量：2154.48+GB
-      - 联通一区(北京)
       - 电信一区(南京)
-      - USA美国001
-      - UK英国流媒体节点001
-      - UK英国001
-      - UAE迪拜流媒体节点001
-      - SWE瑞典流媒体节点001
-      - SA沙特阿拉伯流媒体节点001
-      - NL荷兰流媒体节点001
-      - NF南非001
-      - JP日本001+两元店.com
-      - IT意大利流媒体节点001
-      - FR法国流媒体节点001
-      - ES西班牙流媒体节点001
-      - DE德国流媒体节点001
-      - DE德国001
-      - CL智利流媒体节点001
-      - CA加拿大流媒体节点001
-      - CA加拿大001
-      - BR巴西流媒体节点001
+      - 🇺🇸US-45.9.10.103-11215
+      - 🇺🇸_电报频道：+@mfjdpd
+      - 🇺🇸_电报频道： @mfjdpd_1
+      - 🇺🇸_电报频道： @mfjdpd_2
+      - 🇹🇼TW-60.249.3.228-7453
+      - 🇹🇼TW-211.72.35.154-7436
+      - 🇹🇼TW-211.72.35.152-7262
+      - 🇸🇬SG-18.140.60.81-10568
+      - 🇷🇺RU-91.206.92.17-10444
+      - 🇰🇷KR-146.56.189.146-7717
+      - 🇰🇷KR-140.238.12.83-10286
+      - 🇯🇵JP-20.210.234.145-10247
+      - 🇯🇵JP-185.212.56.168-10224
+      - 🇯🇵JP-160.16.145.107-7442
+      - 🇯🇵JP-150.230.99.26-2147
+      - 🇯🇵JP-133.167.100.203-7402
+      - 🇭🇰HK-45.11.104.94-7437
+      - 🇨🇳CN-47.93.231.218-9802
+      - 🇨🇳CN-223.167.41.13-7592
+      - 🇨🇳CN-119.96.188.117-15676
+      - 🇨🇳CN-116.192.169.8-1574
+      - 🇨🇳_电报频道：+@mfjdpd
+      - US_464
+      - US_459+|17.43Mb
+      - US_452
+      - US_446+|+6.46Mb
+      - US_442
+      - US_439
+      - US_434
+      - US_430
+      - US_418+|19.69Mb
+      - US_404+|+9.08Mb
+      - US_399
+      - US_398
+      - US_397
+      - SG_197
+      - SG_191+|+6.58Mb
+      - JP_163
+      - JP_160+|12.11Mb
+      - JP_154
+      - JP_151+|27.50Mb
+      - JP_147
+      - JP_146+|+2.23Mb
+      - HK_118
+      - FR_93
+      - FR_86
+      - AU_11+|+9.91Mb
+      - ❤️TELEGRAM 🆔 @GOODBYEFILTERING❤️
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 剩余流量：2154.48+GB
-      - 联通一区(北京)
       - 电信一区(南京)
-      - USA美国001
-      - UK英国流媒体节点001
-      - UK英国001
-      - UAE迪拜流媒体节点001
-      - SWE瑞典流媒体节点001
-      - SA沙特阿拉伯流媒体节点001
-      - NL荷兰流媒体节点001
-      - NF南非001
-      - JP日本001+两元店.com
-      - IT意大利流媒体节点001
-      - FR法国流媒体节点001
-      - ES西班牙流媒体节点001
-      - DE德国流媒体节点001
-      - DE德国001
-      - CL智利流媒体节点001
-      - CA加拿大流媒体节点001
-      - CA加拿大001
-      - BR巴西流媒体节点001
+      - 🇺🇸US-45.9.10.103-11215
+      - 🇺🇸_电报频道：+@mfjdpd
+      - 🇺🇸_电报频道： @mfjdpd_1
+      - 🇺🇸_电报频道： @mfjdpd_2
+      - 🇹🇼TW-60.249.3.228-7453
+      - 🇹🇼TW-211.72.35.154-7436
+      - 🇹🇼TW-211.72.35.152-7262
+      - 🇸🇬SG-18.140.60.81-10568
+      - 🇷🇺RU-91.206.92.17-10444
+      - 🇰🇷KR-146.56.189.146-7717
+      - 🇰🇷KR-140.238.12.83-10286
+      - 🇯🇵JP-20.210.234.145-10247
+      - 🇯🇵JP-185.212.56.168-10224
+      - 🇯🇵JP-160.16.145.107-7442
+      - 🇯🇵JP-150.230.99.26-2147
+      - 🇯🇵JP-133.167.100.203-7402
+      - 🇭🇰HK-45.11.104.94-7437
+      - 🇨🇳CN-47.93.231.218-9802
+      - 🇨🇳CN-223.167.41.13-7592
+      - 🇨🇳CN-119.96.188.117-15676
+      - 🇨🇳CN-116.192.169.8-1574
+      - 🇨🇳_电报频道：+@mfjdpd
+      - US_464
+      - US_459+|17.43Mb
+      - US_452
+      - US_446+|+6.46Mb
+      - US_442
+      - US_439
+      - US_434
+      - US_430
+      - US_418+|19.69Mb
+      - US_404+|+9.08Mb
+      - US_399
+      - US_398
+      - US_397
+      - SG_197
+      - SG_191+|+6.58Mb
+      - JP_163
+      - JP_160+|12.11Mb
+      - JP_154
+      - JP_151+|27.50Mb
+      - JP_147
+      - JP_146+|+2.23Mb
+      - HK_118
+      - FR_93
+      - FR_86
+      - AU_11+|+9.91Mb
+      - ❤️TELEGRAM 🆔 @GOODBYEFILTERING❤️
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 剩余流量：2154.48+GB
-      - 联通一区(北京)
       - 电信一区(南京)
-      - USA美国001
-      - UK英国流媒体节点001
-      - UK英国001
-      - UAE迪拜流媒体节点001
-      - SWE瑞典流媒体节点001
-      - SA沙特阿拉伯流媒体节点001
-      - NL荷兰流媒体节点001
-      - NF南非001
-      - JP日本001+两元店.com
-      - IT意大利流媒体节点001
-      - FR法国流媒体节点001
-      - ES西班牙流媒体节点001
-      - DE德国流媒体节点001
-      - DE德国001
-      - CL智利流媒体节点001
-      - CA加拿大流媒体节点001
-      - CA加拿大001
-      - BR巴西流媒体节点001
+      - 🇺🇸US-45.9.10.103-11215
+      - 🇺🇸_电报频道：+@mfjdpd
+      - 🇺🇸_电报频道： @mfjdpd_1
+      - 🇺🇸_电报频道： @mfjdpd_2
+      - 🇹🇼TW-60.249.3.228-7453
+      - 🇹🇼TW-211.72.35.154-7436
+      - 🇹🇼TW-211.72.35.152-7262
+      - 🇸🇬SG-18.140.60.81-10568
+      - 🇷🇺RU-91.206.92.17-10444
+      - 🇰🇷KR-146.56.189.146-7717
+      - 🇰🇷KR-140.238.12.83-10286
+      - 🇯🇵JP-20.210.234.145-10247
+      - 🇯🇵JP-185.212.56.168-10224
+      - 🇯🇵JP-160.16.145.107-7442
+      - 🇯🇵JP-150.230.99.26-2147
+      - 🇯🇵JP-133.167.100.203-7402
+      - 🇭🇰HK-45.11.104.94-7437
+      - 🇨🇳CN-47.93.231.218-9802
+      - 🇨🇳CN-223.167.41.13-7592
+      - 🇨🇳CN-119.96.188.117-15676
+      - 🇨🇳CN-116.192.169.8-1574
+      - 🇨🇳_电报频道：+@mfjdpd
+      - US_464
+      - US_459+|17.43Mb
+      - US_452
+      - US_446+|+6.46Mb
+      - US_442
+      - US_439
+      - US_434
+      - US_430
+      - US_418+|19.69Mb
+      - US_404+|+9.08Mb
+      - US_399
+      - US_398
+      - US_397
+      - SG_197
+      - SG_191+|+6.58Mb
+      - JP_163
+      - JP_160+|12.11Mb
+      - JP_154
+      - JP_151+|27.50Mb
+      - JP_147
+      - JP_146+|+2.23Mb
+      - HK_118
+      - FR_93
+      - FR_86
+      - AU_11+|+9.91Mb
+      - ❤️TELEGRAM 🆔 @GOODBYEFILTERING❤️
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 剩余流量：2154.48+GB
-      - 联通一区(北京)
       - 电信一区(南京)
-      - USA美国001
-      - UK英国流媒体节点001
-      - UK英国001
-      - UAE迪拜流媒体节点001
-      - SWE瑞典流媒体节点001
-      - SA沙特阿拉伯流媒体节点001
-      - NL荷兰流媒体节点001
-      - NF南非001
-      - JP日本001+两元店.com
-      - IT意大利流媒体节点001
-      - FR法国流媒体节点001
-      - ES西班牙流媒体节点001
-      - DE德国流媒体节点001
-      - DE德国001
-      - CL智利流媒体节点001
-      - CA加拿大流媒体节点001
-      - CA加拿大001
-      - BR巴西流媒体节点001
+      - 🇺🇸US-45.9.10.103-11215
+      - 🇺🇸_电报频道：+@mfjdpd
+      - 🇺🇸_电报频道： @mfjdpd_1
+      - 🇺🇸_电报频道： @mfjdpd_2
+      - 🇹🇼TW-60.249.3.228-7453
+      - 🇹🇼TW-211.72.35.154-7436
+      - 🇹🇼TW-211.72.35.152-7262
+      - 🇸🇬SG-18.140.60.81-10568
+      - 🇷🇺RU-91.206.92.17-10444
+      - 🇰🇷KR-146.56.189.146-7717
+      - 🇰🇷KR-140.238.12.83-10286
+      - 🇯🇵JP-20.210.234.145-10247
+      - 🇯🇵JP-185.212.56.168-10224
+      - 🇯🇵JP-160.16.145.107-7442
+      - 🇯🇵JP-150.230.99.26-2147
+      - 🇯🇵JP-133.167.100.203-7402
+      - 🇭🇰HK-45.11.104.94-7437
+      - 🇨🇳CN-47.93.231.218-9802
+      - 🇨🇳CN-223.167.41.13-7592
+      - 🇨🇳CN-119.96.188.117-15676
+      - 🇨🇳CN-116.192.169.8-1574
+      - 🇨🇳_电报频道：+@mfjdpd
+      - US_464
+      - US_459+|17.43Mb
+      - US_452
+      - US_446+|+6.46Mb
+      - US_442
+      - US_439
+      - US_434
+      - US_430
+      - US_418+|19.69Mb
+      - US_404+|+9.08Mb
+      - US_399
+      - US_398
+      - US_397
+      - SG_197
+      - SG_191+|+6.58Mb
+      - JP_163
+      - JP_160+|12.11Mb
+      - JP_154
+      - JP_151+|27.50Mb
+      - JP_147
+      - JP_146+|+2.23Mb
+      - HK_118
+      - FR_93
+      - FR_86
+      - AU_11+|+9.91Mb
+      - ❤️TELEGRAM 🆔 @GOODBYEFILTERING❤️
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 剩余流量：2154.48+GB
-      - 联通一区(北京)
       - 电信一区(南京)
-      - USA美国001
-      - UK英国流媒体节点001
-      - UK英国001
-      - UAE迪拜流媒体节点001
-      - SWE瑞典流媒体节点001
-      - SA沙特阿拉伯流媒体节点001
-      - NL荷兰流媒体节点001
-      - NF南非001
-      - JP日本001+两元店.com
-      - IT意大利流媒体节点001
-      - FR法国流媒体节点001
-      - ES西班牙流媒体节点001
-      - DE德国流媒体节点001
-      - DE德国001
-      - CL智利流媒体节点001
-      - CA加拿大流媒体节点001
-      - CA加拿大001
-      - BR巴西流媒体节点001
+      - 🇺🇸US-45.9.10.103-11215
+      - 🇺🇸_电报频道：+@mfjdpd
+      - 🇺🇸_电报频道： @mfjdpd_1
+      - 🇺🇸_电报频道： @mfjdpd_2
+      - 🇹🇼TW-60.249.3.228-7453
+      - 🇹🇼TW-211.72.35.154-7436
+      - 🇹🇼TW-211.72.35.152-7262
+      - 🇸🇬SG-18.140.60.81-10568
+      - 🇷🇺RU-91.206.92.17-10444
+      - 🇰🇷KR-146.56.189.146-7717
+      - 🇰🇷KR-140.238.12.83-10286
+      - 🇯🇵JP-20.210.234.145-10247
+      - 🇯🇵JP-185.212.56.168-10224
+      - 🇯🇵JP-160.16.145.107-7442
+      - 🇯🇵JP-150.230.99.26-2147
+      - 🇯🇵JP-133.167.100.203-7402
+      - 🇭🇰HK-45.11.104.94-7437
+      - 🇨🇳CN-47.93.231.218-9802
+      - 🇨🇳CN-223.167.41.13-7592
+      - 🇨🇳CN-119.96.188.117-15676
+      - 🇨🇳CN-116.192.169.8-1574
+      - 🇨🇳_电报频道：+@mfjdpd
+      - US_464
+      - US_459+|17.43Mb
+      - US_452
+      - US_446+|+6.46Mb
+      - US_442
+      - US_439
+      - US_434
+      - US_430
+      - US_418+|19.69Mb
+      - US_404+|+9.08Mb
+      - US_399
+      - US_398
+      - US_397
+      - SG_197
+      - SG_191+|+6.58Mb
+      - JP_163
+      - JP_160+|12.11Mb
+      - JP_154
+      - JP_151+|27.50Mb
+      - JP_147
+      - JP_146+|+2.23Mb
+      - HK_118
+      - FR_93
+      - FR_86
+      - AU_11+|+9.91Mb
+      - ❤️TELEGRAM 🆔 @GOODBYEFILTERING❤️
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 剩余流量：2154.48+GB
-      - 联通一区(北京)
       - 电信一区(南京)
-      - USA美国001
-      - UK英国流媒体节点001
-      - UK英国001
-      - UAE迪拜流媒体节点001
-      - SWE瑞典流媒体节点001
-      - SA沙特阿拉伯流媒体节点001
-      - NL荷兰流媒体节点001
-      - NF南非001
-      - JP日本001+两元店.com
-      - IT意大利流媒体节点001
-      - FR法国流媒体节点001
-      - ES西班牙流媒体节点001
-      - DE德国流媒体节点001
-      - DE德国001
-      - CL智利流媒体节点001
-      - CA加拿大流媒体节点001
-      - CA加拿大001
-      - BR巴西流媒体节点001
+      - 🇺🇸US-45.9.10.103-11215
+      - 🇺🇸_电报频道：+@mfjdpd
+      - 🇺🇸_电报频道： @mfjdpd_1
+      - 🇺🇸_电报频道： @mfjdpd_2
+      - 🇹🇼TW-60.249.3.228-7453
+      - 🇹🇼TW-211.72.35.154-7436
+      - 🇹🇼TW-211.72.35.152-7262
+      - 🇸🇬SG-18.140.60.81-10568
+      - 🇷🇺RU-91.206.92.17-10444
+      - 🇰🇷KR-146.56.189.146-7717
+      - 🇰🇷KR-140.238.12.83-10286
+      - 🇯🇵JP-20.210.234.145-10247
+      - 🇯🇵JP-185.212.56.168-10224
+      - 🇯🇵JP-160.16.145.107-7442
+      - 🇯🇵JP-150.230.99.26-2147
+      - 🇯🇵JP-133.167.100.203-7402
+      - 🇭🇰HK-45.11.104.94-7437
+      - 🇨🇳CN-47.93.231.218-9802
+      - 🇨🇳CN-223.167.41.13-7592
+      - 🇨🇳CN-119.96.188.117-15676
+      - 🇨🇳CN-116.192.169.8-1574
+      - 🇨🇳_电报频道：+@mfjdpd
+      - US_464
+      - US_459+|17.43Mb
+      - US_452
+      - US_446+|+6.46Mb
+      - US_442
+      - US_439
+      - US_434
+      - US_430
+      - US_418+|19.69Mb
+      - US_404+|+9.08Mb
+      - US_399
+      - US_398
+      - US_397
+      - SG_197
+      - SG_191+|+6.58Mb
+      - JP_163
+      - JP_160+|12.11Mb
+      - JP_154
+      - JP_151+|27.50Mb
+      - JP_147
+      - JP_146+|+2.23Mb
+      - HK_118
+      - FR_93
+      - FR_86
+      - AU_11+|+9.91Mb
+      - ❤️TELEGRAM 🆔 @GOODBYEFILTERING❤️
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -223,27 +419,55 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 剩余流量：2154.48+GB
-      - 联通一区(北京)
       - 电信一区(南京)
-      - USA美国001
-      - UK英国流媒体节点001
-      - UK英国001
-      - UAE迪拜流媒体节点001
-      - SWE瑞典流媒体节点001
-      - SA沙特阿拉伯流媒体节点001
-      - NL荷兰流媒体节点001
-      - NF南非001
-      - JP日本001+两元店.com
-      - IT意大利流媒体节点001
-      - FR法国流媒体节点001
-      - ES西班牙流媒体节点001
-      - DE德国流媒体节点001
-      - DE德国001
-      - CL智利流媒体节点001
-      - CA加拿大流媒体节点001
-      - CA加拿大001
-      - BR巴西流媒体节点001
+      - 🇺🇸US-45.9.10.103-11215
+      - 🇺🇸_电报频道：+@mfjdpd
+      - 🇺🇸_电报频道： @mfjdpd_1
+      - 🇺🇸_电报频道： @mfjdpd_2
+      - 🇹🇼TW-60.249.3.228-7453
+      - 🇹🇼TW-211.72.35.154-7436
+      - 🇹🇼TW-211.72.35.152-7262
+      - 🇸🇬SG-18.140.60.81-10568
+      - 🇷🇺RU-91.206.92.17-10444
+      - 🇰🇷KR-146.56.189.146-7717
+      - 🇰🇷KR-140.238.12.83-10286
+      - 🇯🇵JP-20.210.234.145-10247
+      - 🇯🇵JP-185.212.56.168-10224
+      - 🇯🇵JP-160.16.145.107-7442
+      - 🇯🇵JP-150.230.99.26-2147
+      - 🇯🇵JP-133.167.100.203-7402
+      - 🇭🇰HK-45.11.104.94-7437
+      - 🇨🇳CN-47.93.231.218-9802
+      - 🇨🇳CN-223.167.41.13-7592
+      - 🇨🇳CN-119.96.188.117-15676
+      - 🇨🇳CN-116.192.169.8-1574
+      - 🇨🇳_电报频道：+@mfjdpd
+      - US_464
+      - US_459+|17.43Mb
+      - US_452
+      - US_446+|+6.46Mb
+      - US_442
+      - US_439
+      - US_434
+      - US_430
+      - US_418+|19.69Mb
+      - US_404+|+9.08Mb
+      - US_399
+      - US_398
+      - US_397
+      - SG_197
+      - SG_191+|+6.58Mb
+      - JP_163
+      - JP_160+|12.11Mb
+      - JP_154
+      - JP_151+|27.50Mb
+      - JP_147
+      - JP_146+|+2.23Mb
+      - HK_118
+      - FR_93
+      - FR_86
+      - AU_11+|+9.91Mb
+      - ❤️TELEGRAM 🆔 @GOODBYEFILTERING❤️
 
 rules:
 # 本地/局域网地址
