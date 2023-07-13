@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-07-11 16:34:33
+# 创建时间：2023-07-13 08:49:53
 # 使用模版：V2RaySE 默认模版
-# 节点数量：63
+# 节点数量：8
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,480 +21,95 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇺🇸US-135.148.149.209-4459","type":"trojan","server":"us2.trojanvh.xyz","port":80,"udp":true,"password":"255c924c-1314-4084-9a9e-1d1a82a5cf49","skip-cert-verify":true}
-  - {"name":"🇸🇬SG-46.137.230.72-15521","type":"trojan","server":"sg-csjc.syjd.xyz","port":443,"udp":true,"password":"87bd6efd-2fb5-4920-852d-921d7c29f916","skip-cert-verify":true}
-  - {"name":"🇸🇬SG-18.141.3.146-0142","type":"trojan","server":"kbawssg1.aiopen.cfd","port":443,"udp":true,"password":"a8f284ff-7d36-493a-a0a6-87ee7f003c5c","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true}
-  - {"name":"🇸🇬SG-168.138.160.119-2541","type":"vmess","server":"sgp.sharktec.co","port":30080,"cipher":"auto","uuid":"3853a2ab-6bec-4503-89b9-d3cbcc6b69c9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ihhp0ducs1394dyo","headers":{"host":"sgp.sharktec.co"}}}
-  - {"name":"🇸🇬SG-168.138.160.119-2540","type":"vmess","server":"168.138.160.119","port":30080,"cipher":"auto","uuid":"3853a2ab-6bec-4503-89b9-d3cbcc6b69c9","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ihhp0ducs1394dyo"}}
-  - {"name":"🇸🇬SG-13.212.184.207-0130","type":"trojan","server":"kbawssg2.aiopen.cfd","port":443,"udp":true,"password":"a8f284ff-7d36-493a-a0a6-87ee7f003c5c","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true}
-  - {"name":"🇳🇱NL-147.78.240.92-10043","type":"trojan","server":"147.78.240.92","port":443,"udp":true,"password":"23fd9f2e-7ff8-4d98-8099-8acce9499433","sni":"tj2.dalazhi.eu.org","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-141.147.149.171-1040","type":"trojan","server":"jp2.twincloud.xyz","port":443,"udp":true,"password":"6455f944-7c07-4ab0-b88f-440e581f41d9","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-141.147.149.171-10037","type":"trojan","server":"141.147.149.171","port":443,"udp":true,"password":"6455f944-7c07-4ab0-b88f-440e581f41d9","sni":"jp2.twincloud.xyz","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.167.146.245-2327","type":"trojan","server":"h961359.waihuizhibiaowang.com","port":13543,"udp":true,"password":"d0d24d5b-54ae-40a0-ab68-889dbd4b8a66","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.167.146.245-15417","type":"trojan","server":"h295826.waihuizhibiaowang.com","port":13543,"udp":true,"password":"d5dd371c-11db-4cfb-b458-072f0fbd0e18","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.167.146.245-15416","type":"trojan","server":"h295826.waihuizhibiaowang.com","port":13343,"udp":true,"password":"d5dd371c-11db-4cfb-b458-072f0fbd0e18","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.167.146.245-15410","type":"trojan","server":"h073906.waihuizhibiaowang.com","port":13343,"udp":true,"password":"b5181de8-66d4-4f8f-904c-23e606303a13","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.167.146.245-15408","type":"trojan","server":"h961359.waihuizhibiaowang.com","port":13343,"udp":true,"password":"ef2887e2-af2a-4dfe-a9e9-89e56b044068","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.167.146.245-15403","type":"trojan","server":"h295826.waihuizhibiaowang.com","port":13443,"udp":true,"password":"d5dd371c-11db-4cfb-b458-072f0fbd0e18","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.167.146.245-15401","type":"trojan","server":"h453998.waihuizhibiaowang.com","port":13343,"udp":true,"password":"f0aea98a-59b8-4994-9d79-234c876082ff","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.167.146.245-15395","type":"trojan","server":"h961359.waihuizhibiaowang.com","port":13443,"udp":true,"password":"ef2887e2-af2a-4dfe-a9e9-89e56b044068","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.167.146.245-15394","type":"trojan","server":"h453998.waihuizhibiaowang.com","port":13443,"udp":true,"password":"f0aea98a-59b8-4994-9d79-234c876082ff","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.166.157.85-7536","type":"trojan","server":"jp03a.roc-taiwan.net.ua","port":65013,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.166.157.85-7467","type":"trojan","server":"jp06a.roc-taiwan.org.ua","port":65016,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.166.157.85-7342","type":"trojan","server":"jp04a.roc-taiwan.net.ua","port":65014,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.166.157.85-7306","type":"trojan","server":"jp05a.roc-taiwan.org.ua","port":65015,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.166.157.85-7256","type":"trojan","server":"jp02a.roc-taiwan.net.ua","port":65012,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.166.157.85-7206","type":"trojan","server":"jp01a.roc-taiwan.net.ua","port":65011,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-223.111.157.35-1529","type":"trojan","server":"223.111.157.35","port":10051,"udp":true,"password":"a13820c547fa34c5c45515c12f0cd576","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.213.200.225-2320","type":"trojan","server":"183.213.200.225","port":28114,"udp":true,"password":"cdyB1Q","sni":"download.windowsupdate.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.213.200.225-1502","type":"trojan","server":"183.213.200.225","port":28113,"udp":true,"password":"cdyB1Q","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-144.48.66.170-9591","type":"trojan","server":"nl01.lovehjq.xyz","port":41929,"udp":true,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-120.132.29.235-16885","type":"trojan","server":"iplc-enter-hk-xe.fib-sys.xyz","port":11451,"udp":true,"password":"11a4e5be-3c87-37d2-aac8-00b85ef0fcdc","sni":"hk-xe.fib-sys.xyz","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-119.96.188.117-4743","type":"trojan","server":"8r5u01.abzoones.xyz","port":36851,"udp":true,"password":"83424e8d-5734-41ad-a0fa-0235bfb62b9c","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-119.96.188.117-15402","type":"trojan","server":"1j8p01.abzoones.xyz","port":36311,"udp":true,"password":"388d54d8-eb99-4a78-831b-5d4240061bb0","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.192.174.155-7411","type":"trojan","server":"official.taipeicitygovernment.biz.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.192.173.129-1448","type":"trojan","server":"official.taipeicitygovernment.dp.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.192.172.230-7450","type":"trojan","server":"official.taipeicitygovernment.cn.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.192.168.234-7299","type":"trojan","server":"official.taipeicitygovernment.ivano-frankivsk.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.192.168.234-7253","type":"trojan","server":"official.taipeicitygovernment.kyiv.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.192.168.234-7175","type":"trojan","server":"official.taipeicitygovernment.if.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.192.167.73-7472","type":"trojan","server":"official.taipeicitygovernment.net.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.192.166.223-7469","type":"trojan","server":"official.taipeicitygovernment.chernovtsy.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-111.47.212.56-17506","type":"trojan","server":"js04.balala2016.xyz","port":20261,"udp":true,"password":"ED177480-E516-11EA-8B44-BBC4E882BA0B","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-106.75.168.10-1009","type":"trojan","server":"iplc-enter-tw-xe.fib-sys.xyz","port":11451,"udp":true,"password":"11a4e5be-3c87-37d2-aac8-00b85ef0fcdc","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-101.91.193.52-4739","type":"trojan","server":"8r5u01.abzoones.xyz","port":36851,"udp":true,"password":"b3d93ef5-9de7-49d4-93e4-8852cc109580","skip-cert-verify":true}
-  - {"name":"🇦🇺AU-103.224.212.221-7391","type":"trojan","server":"eu-east-ruo.openssl3.com","port":443,"udp":true,"password":"9KogHwaY7hVD","sni":"eu-east-ruo.openssl3.com","skip-cert-verify":true}
-  - {"name":"🇦🇺AU-103.224.212.221-6980","type":"trojan","server":"ap-northeast-1.openssl3.com","port":443,"udp":true,"password":"tune7jerky7HAYRICK","sni":"ap-northeast-1.openssl3.com","skip-cert-verify":true}
-  - {"name":"アメリカ","type":"vmess","server":"23.225.211.20","port":42941,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"ZZ_584","type":"trojan","server":"2d1t5w03.mcfront.xyz","port":31311,"udp":true,"password":"edd7907d-534c-41fc-bf64-fddecacbfd69","skip-cert-verify":true}
-  - {"name":"SG_196+|14.73Mb","type":"ss","server":"18.139.108.187","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"RU_183+|27.34Mb","type":"ss","server":"45.89.52.66","port":9065,"password":"PeHSHm5SqEjBuEXE","cipher":"aes-256-cfb"}
+  - {"name":"AU_03+|+8.58Mb","type":"ss","server":"43.207.83.147","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
   - {"name":"FR_86","type":"ss","server":"54.36.115.241","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"CN_54+|11.23Mb","type":"trojan","server":"h961359.waihuizhibiaowang.com","port":13343,"udp":true,"password":"d0d24d5b-54ae-40a0-ab68-889dbd4b8a66","skip-cert-verify":true}
-  - {"name":"CN_45","type":"trojan","server":"h961359.waihuizhibiaowang.com","port":13443,"udp":true,"password":"d0d24d5b-54ae-40a0-ab68-889dbd4b8a66","skip-cert-verify":true}
-  - {"name":"CN_44","type":"trojan","server":"h961359.waihuizhibiaowang.com","port":13543,"udp":true,"password":"ef2887e2-af2a-4dfe-a9e9-89e56b044068","skip-cert-verify":true}
-  - {"name":"CN_32","type":"trojan","server":"8r5u01.abzoones.xyz","port":36851,"udp":true,"password":"5444cca7-6fca-4cbd-98a5-e0b29c1fff65","skip-cert-verify":true}
-  - {"name":"AU_05+|+1.91Mb","type":"ss","server":"43.201.60.244","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"Alien_1","type":"vmess","server":"hk01.internetsmartrouting.asia","port":10221,"cipher":"auto","uuid":"582b383a-f2dc-4842-afee-9ca3d5730047","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"Alien_2","type":"vmess","server":"sgp02.internetsmartrouting.asia","port":10184,"cipher":"auto","uuid":"582b383a-f2dc-4842-afee-9ca3d5730047","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"[台] APC TWN ELITE 2 #1 [1x]","type":"vmess","server":"zjyd8bq.wutao7.top","port":30072,"cipher":"auto","uuid":"9d162815-8def-447d-8261-2373388e1cc6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"[港] APC HKG ELITE 5 #1 [2x]","type":"vmess","server":"ap-hk-tunnel.292228.xyz","port":30058,"cipher":"auto","uuid":"9d162815-8def-447d-8261-2373388e1cc6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"[港] APC HKG ELITE 4 #1 [2x]","type":"vmess","server":"ap-hk-tunnel.292228.xyz","port":30057,"cipher":"auto","uuid":"9d162815-8def-447d-8261-2373388e1cc6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"[港] APC HKG ELITE 1 #1 [2x]","type":"vmess","server":"ap-hk-tunnel.292228.xyz","port":30048,"cipher":"auto","uuid":"9d162815-8def-447d-8261-2373388e1cc6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"[港] APC HKG ECO 3 #2 [0.5x]","type":"vmess","server":"relay-eco-hk-2.292228.xyz","port":30062,"cipher":"auto","uuid":"9d162815-8def-447d-8261-2373388e1cc6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"[港] APC HKG ECO 2 #2 [0.5x]","type":"vmess","server":"relay-eco-hk-2.292228.xyz","port":30061,"cipher":"auto","uuid":"9d162815-8def-447d-8261-2373388e1cc6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"[港] APC HKG ECO 1 #2 [0.5x]","type":"vmess","server":"relay-eco-hk-2.292228.xyz","port":30070,"cipher":"auto","uuid":"9d162815-8def-447d-8261-2373388e1cc6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"SG_210+|+3.25Mb","type":"ss","server":"54.255.237.136","port":2333,"password":"doub.io","cipher":"aes-256-cfb"}
+  - {"name":"🇭🇰+Hong+Kong+01","type":"ss","server":"3.35.231.37","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇭🇰+Hong+Kong+02","type":"ss","server":"52.198.193.22","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇯🇵_电报频道+@mfjdpd","type":"trojan","server":"kbawsjp1.aiopen.cfd","port":443,"udp":true,"password":"a8f284ff-7d36-493a-a0a6-87ee7f003c5c","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-13.212.184.207-0130","type":"trojan","server":"kbawssg2.aiopen.cfd","port":443,"udp":true,"password":"a8f284ff-7d36-493a-a0a6-87ee7f003c5c","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true}
+  - {"name":"🇺🇸US-173.249.199.27-2775","type":"vmess","server":"173.249.199.27","port":443,"cipher":"auto","uuid":"e5543efd-5400-3760-9bb6-02767728e888","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸US-135.148.149.209-4459
-      - 🇸🇬SG-46.137.230.72-15521
-      - 🇸🇬SG-18.141.3.146-0142
-      - 🇸🇬SG-168.138.160.119-2541
-      - 🇸🇬SG-168.138.160.119-2540
-      - 🇸🇬SG-13.212.184.207-0130
-      - 🇳🇱NL-147.78.240.92-10043
-      - 🇯🇵JP-141.147.149.171-1040
-      - 🇯🇵JP-141.147.149.171-10037
-      - 🇨🇳CN-223.167.146.245-2327
-      - 🇨🇳CN-223.167.146.245-15417
-      - 🇨🇳CN-223.167.146.245-15416
-      - 🇨🇳CN-223.167.146.245-15410
-      - 🇨🇳CN-223.167.146.245-15408
-      - 🇨🇳CN-223.167.146.245-15403
-      - 🇨🇳CN-223.167.146.245-15401
-      - 🇨🇳CN-223.167.146.245-15395
-      - 🇨🇳CN-223.167.146.245-15394
-      - 🇨🇳CN-223.166.157.85-7536
-      - 🇨🇳CN-223.166.157.85-7467
-      - 🇨🇳CN-223.166.157.85-7342
-      - 🇨🇳CN-223.166.157.85-7306
-      - 🇨🇳CN-223.166.157.85-7256
-      - 🇨🇳CN-223.166.157.85-7206
-      - 🇨🇳CN-223.111.157.35-1529
-      - 🇨🇳CN-183.213.200.225-2320
-      - 🇨🇳CN-183.213.200.225-1502
-      - 🇨🇳CN-144.48.66.170-9591
-      - 🇨🇳CN-120.132.29.235-16885
-      - 🇨🇳CN-119.96.188.117-4743
-      - 🇨🇳CN-119.96.188.117-15402
-      - 🇨🇳CN-116.192.174.155-7411
-      - 🇨🇳CN-116.192.173.129-1448
-      - 🇨🇳CN-116.192.172.230-7450
-      - 🇨🇳CN-116.192.168.234-7299
-      - 🇨🇳CN-116.192.168.234-7253
-      - 🇨🇳CN-116.192.168.234-7175
-      - 🇨🇳CN-116.192.167.73-7472
-      - 🇨🇳CN-116.192.166.223-7469
-      - 🇨🇳CN-111.47.212.56-17506
-      - 🇨🇳CN-106.75.168.10-1009
-      - 🇨🇳CN-101.91.193.52-4739
-      - 🇦🇺AU-103.224.212.221-7391
-      - 🇦🇺AU-103.224.212.221-6980
-      - アメリカ
-      - ZZ_584
-      - SG_196+|14.73Mb
-      - RU_183+|27.34Mb
+      - AU_03+|+8.58Mb
       - FR_86
-      - CN_54+|11.23Mb
-      - CN_45
-      - CN_44
-      - CN_32
-      - AU_05+|+1.91Mb
-      - Alien_1
-      - Alien_2
-      - '[台] APC TWN ELITE 2 #1 [1x]'
-      - '[港] APC HKG ELITE 5 #1 [2x]'
-      - '[港] APC HKG ELITE 4 #1 [2x]'
-      - '[港] APC HKG ELITE 1 #1 [2x]'
-      - '[港] APC HKG ECO 3 #2 [0.5x]'
-      - '[港] APC HKG ECO 2 #2 [0.5x]'
-      - '[港] APC HKG ECO 1 #2 [0.5x]'
+      - SG_210+|+3.25Mb
+      - 🇭🇰+Hong+Kong+01
+      - 🇭🇰+Hong+Kong+02
+      - 🇯🇵_电报频道+@mfjdpd
+      - 🇸🇬SG-13.212.184.207-0130
+      - 🇺🇸US-173.249.199.27-2775
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸US-135.148.149.209-4459
-      - 🇸🇬SG-46.137.230.72-15521
-      - 🇸🇬SG-18.141.3.146-0142
-      - 🇸🇬SG-168.138.160.119-2541
-      - 🇸🇬SG-168.138.160.119-2540
-      - 🇸🇬SG-13.212.184.207-0130
-      - 🇳🇱NL-147.78.240.92-10043
-      - 🇯🇵JP-141.147.149.171-1040
-      - 🇯🇵JP-141.147.149.171-10037
-      - 🇨🇳CN-223.167.146.245-2327
-      - 🇨🇳CN-223.167.146.245-15417
-      - 🇨🇳CN-223.167.146.245-15416
-      - 🇨🇳CN-223.167.146.245-15410
-      - 🇨🇳CN-223.167.146.245-15408
-      - 🇨🇳CN-223.167.146.245-15403
-      - 🇨🇳CN-223.167.146.245-15401
-      - 🇨🇳CN-223.167.146.245-15395
-      - 🇨🇳CN-223.167.146.245-15394
-      - 🇨🇳CN-223.166.157.85-7536
-      - 🇨🇳CN-223.166.157.85-7467
-      - 🇨🇳CN-223.166.157.85-7342
-      - 🇨🇳CN-223.166.157.85-7306
-      - 🇨🇳CN-223.166.157.85-7256
-      - 🇨🇳CN-223.166.157.85-7206
-      - 🇨🇳CN-223.111.157.35-1529
-      - 🇨🇳CN-183.213.200.225-2320
-      - 🇨🇳CN-183.213.200.225-1502
-      - 🇨🇳CN-144.48.66.170-9591
-      - 🇨🇳CN-120.132.29.235-16885
-      - 🇨🇳CN-119.96.188.117-4743
-      - 🇨🇳CN-119.96.188.117-15402
-      - 🇨🇳CN-116.192.174.155-7411
-      - 🇨🇳CN-116.192.173.129-1448
-      - 🇨🇳CN-116.192.172.230-7450
-      - 🇨🇳CN-116.192.168.234-7299
-      - 🇨🇳CN-116.192.168.234-7253
-      - 🇨🇳CN-116.192.168.234-7175
-      - 🇨🇳CN-116.192.167.73-7472
-      - 🇨🇳CN-116.192.166.223-7469
-      - 🇨🇳CN-111.47.212.56-17506
-      - 🇨🇳CN-106.75.168.10-1009
-      - 🇨🇳CN-101.91.193.52-4739
-      - 🇦🇺AU-103.224.212.221-7391
-      - 🇦🇺AU-103.224.212.221-6980
-      - アメリカ
-      - ZZ_584
-      - SG_196+|14.73Mb
-      - RU_183+|27.34Mb
+      - AU_03+|+8.58Mb
       - FR_86
-      - CN_54+|11.23Mb
-      - CN_45
-      - CN_44
-      - CN_32
-      - AU_05+|+1.91Mb
-      - Alien_1
-      - Alien_2
-      - '[台] APC TWN ELITE 2 #1 [1x]'
-      - '[港] APC HKG ELITE 5 #1 [2x]'
-      - '[港] APC HKG ELITE 4 #1 [2x]'
-      - '[港] APC HKG ELITE 1 #1 [2x]'
-      - '[港] APC HKG ECO 3 #2 [0.5x]'
-      - '[港] APC HKG ECO 2 #2 [0.5x]'
-      - '[港] APC HKG ECO 1 #2 [0.5x]'
+      - SG_210+|+3.25Mb
+      - 🇭🇰+Hong+Kong+01
+      - 🇭🇰+Hong+Kong+02
+      - 🇯🇵_电报频道+@mfjdpd
+      - 🇸🇬SG-13.212.184.207-0130
+      - 🇺🇸US-173.249.199.27-2775
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸US-135.148.149.209-4459
-      - 🇸🇬SG-46.137.230.72-15521
-      - 🇸🇬SG-18.141.3.146-0142
-      - 🇸🇬SG-168.138.160.119-2541
-      - 🇸🇬SG-168.138.160.119-2540
-      - 🇸🇬SG-13.212.184.207-0130
-      - 🇳🇱NL-147.78.240.92-10043
-      - 🇯🇵JP-141.147.149.171-1040
-      - 🇯🇵JP-141.147.149.171-10037
-      - 🇨🇳CN-223.167.146.245-2327
-      - 🇨🇳CN-223.167.146.245-15417
-      - 🇨🇳CN-223.167.146.245-15416
-      - 🇨🇳CN-223.167.146.245-15410
-      - 🇨🇳CN-223.167.146.245-15408
-      - 🇨🇳CN-223.167.146.245-15403
-      - 🇨🇳CN-223.167.146.245-15401
-      - 🇨🇳CN-223.167.146.245-15395
-      - 🇨🇳CN-223.167.146.245-15394
-      - 🇨🇳CN-223.166.157.85-7536
-      - 🇨🇳CN-223.166.157.85-7467
-      - 🇨🇳CN-223.166.157.85-7342
-      - 🇨🇳CN-223.166.157.85-7306
-      - 🇨🇳CN-223.166.157.85-7256
-      - 🇨🇳CN-223.166.157.85-7206
-      - 🇨🇳CN-223.111.157.35-1529
-      - 🇨🇳CN-183.213.200.225-2320
-      - 🇨🇳CN-183.213.200.225-1502
-      - 🇨🇳CN-144.48.66.170-9591
-      - 🇨🇳CN-120.132.29.235-16885
-      - 🇨🇳CN-119.96.188.117-4743
-      - 🇨🇳CN-119.96.188.117-15402
-      - 🇨🇳CN-116.192.174.155-7411
-      - 🇨🇳CN-116.192.173.129-1448
-      - 🇨🇳CN-116.192.172.230-7450
-      - 🇨🇳CN-116.192.168.234-7299
-      - 🇨🇳CN-116.192.168.234-7253
-      - 🇨🇳CN-116.192.168.234-7175
-      - 🇨🇳CN-116.192.167.73-7472
-      - 🇨🇳CN-116.192.166.223-7469
-      - 🇨🇳CN-111.47.212.56-17506
-      - 🇨🇳CN-106.75.168.10-1009
-      - 🇨🇳CN-101.91.193.52-4739
-      - 🇦🇺AU-103.224.212.221-7391
-      - 🇦🇺AU-103.224.212.221-6980
-      - アメリカ
-      - ZZ_584
-      - SG_196+|14.73Mb
-      - RU_183+|27.34Mb
+      - AU_03+|+8.58Mb
       - FR_86
-      - CN_54+|11.23Mb
-      - CN_45
-      - CN_44
-      - CN_32
-      - AU_05+|+1.91Mb
-      - Alien_1
-      - Alien_2
-      - '[台] APC TWN ELITE 2 #1 [1x]'
-      - '[港] APC HKG ELITE 5 #1 [2x]'
-      - '[港] APC HKG ELITE 4 #1 [2x]'
-      - '[港] APC HKG ELITE 1 #1 [2x]'
-      - '[港] APC HKG ECO 3 #2 [0.5x]'
-      - '[港] APC HKG ECO 2 #2 [0.5x]'
-      - '[港] APC HKG ECO 1 #2 [0.5x]'
+      - SG_210+|+3.25Mb
+      - 🇭🇰+Hong+Kong+01
+      - 🇭🇰+Hong+Kong+02
+      - 🇯🇵_电报频道+@mfjdpd
+      - 🇸🇬SG-13.212.184.207-0130
+      - 🇺🇸US-173.249.199.27-2775
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸US-135.148.149.209-4459
-      - 🇸🇬SG-46.137.230.72-15521
-      - 🇸🇬SG-18.141.3.146-0142
-      - 🇸🇬SG-168.138.160.119-2541
-      - 🇸🇬SG-168.138.160.119-2540
-      - 🇸🇬SG-13.212.184.207-0130
-      - 🇳🇱NL-147.78.240.92-10043
-      - 🇯🇵JP-141.147.149.171-1040
-      - 🇯🇵JP-141.147.149.171-10037
-      - 🇨🇳CN-223.167.146.245-2327
-      - 🇨🇳CN-223.167.146.245-15417
-      - 🇨🇳CN-223.167.146.245-15416
-      - 🇨🇳CN-223.167.146.245-15410
-      - 🇨🇳CN-223.167.146.245-15408
-      - 🇨🇳CN-223.167.146.245-15403
-      - 🇨🇳CN-223.167.146.245-15401
-      - 🇨🇳CN-223.167.146.245-15395
-      - 🇨🇳CN-223.167.146.245-15394
-      - 🇨🇳CN-223.166.157.85-7536
-      - 🇨🇳CN-223.166.157.85-7467
-      - 🇨🇳CN-223.166.157.85-7342
-      - 🇨🇳CN-223.166.157.85-7306
-      - 🇨🇳CN-223.166.157.85-7256
-      - 🇨🇳CN-223.166.157.85-7206
-      - 🇨🇳CN-223.111.157.35-1529
-      - 🇨🇳CN-183.213.200.225-2320
-      - 🇨🇳CN-183.213.200.225-1502
-      - 🇨🇳CN-144.48.66.170-9591
-      - 🇨🇳CN-120.132.29.235-16885
-      - 🇨🇳CN-119.96.188.117-4743
-      - 🇨🇳CN-119.96.188.117-15402
-      - 🇨🇳CN-116.192.174.155-7411
-      - 🇨🇳CN-116.192.173.129-1448
-      - 🇨🇳CN-116.192.172.230-7450
-      - 🇨🇳CN-116.192.168.234-7299
-      - 🇨🇳CN-116.192.168.234-7253
-      - 🇨🇳CN-116.192.168.234-7175
-      - 🇨🇳CN-116.192.167.73-7472
-      - 🇨🇳CN-116.192.166.223-7469
-      - 🇨🇳CN-111.47.212.56-17506
-      - 🇨🇳CN-106.75.168.10-1009
-      - 🇨🇳CN-101.91.193.52-4739
-      - 🇦🇺AU-103.224.212.221-7391
-      - 🇦🇺AU-103.224.212.221-6980
-      - アメリカ
-      - ZZ_584
-      - SG_196+|14.73Mb
-      - RU_183+|27.34Mb
+      - AU_03+|+8.58Mb
       - FR_86
-      - CN_54+|11.23Mb
-      - CN_45
-      - CN_44
-      - CN_32
-      - AU_05+|+1.91Mb
-      - Alien_1
-      - Alien_2
-      - '[台] APC TWN ELITE 2 #1 [1x]'
-      - '[港] APC HKG ELITE 5 #1 [2x]'
-      - '[港] APC HKG ELITE 4 #1 [2x]'
-      - '[港] APC HKG ELITE 1 #1 [2x]'
-      - '[港] APC HKG ECO 3 #2 [0.5x]'
-      - '[港] APC HKG ECO 2 #2 [0.5x]'
-      - '[港] APC HKG ECO 1 #2 [0.5x]'
+      - SG_210+|+3.25Mb
+      - 🇭🇰+Hong+Kong+01
+      - 🇭🇰+Hong+Kong+02
+      - 🇯🇵_电报频道+@mfjdpd
+      - 🇸🇬SG-13.212.184.207-0130
+      - 🇺🇸US-173.249.199.27-2775
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸US-135.148.149.209-4459
-      - 🇸🇬SG-46.137.230.72-15521
-      - 🇸🇬SG-18.141.3.146-0142
-      - 🇸🇬SG-168.138.160.119-2541
-      - 🇸🇬SG-168.138.160.119-2540
-      - 🇸🇬SG-13.212.184.207-0130
-      - 🇳🇱NL-147.78.240.92-10043
-      - 🇯🇵JP-141.147.149.171-1040
-      - 🇯🇵JP-141.147.149.171-10037
-      - 🇨🇳CN-223.167.146.245-2327
-      - 🇨🇳CN-223.167.146.245-15417
-      - 🇨🇳CN-223.167.146.245-15416
-      - 🇨🇳CN-223.167.146.245-15410
-      - 🇨🇳CN-223.167.146.245-15408
-      - 🇨🇳CN-223.167.146.245-15403
-      - 🇨🇳CN-223.167.146.245-15401
-      - 🇨🇳CN-223.167.146.245-15395
-      - 🇨🇳CN-223.167.146.245-15394
-      - 🇨🇳CN-223.166.157.85-7536
-      - 🇨🇳CN-223.166.157.85-7467
-      - 🇨🇳CN-223.166.157.85-7342
-      - 🇨🇳CN-223.166.157.85-7306
-      - 🇨🇳CN-223.166.157.85-7256
-      - 🇨🇳CN-223.166.157.85-7206
-      - 🇨🇳CN-223.111.157.35-1529
-      - 🇨🇳CN-183.213.200.225-2320
-      - 🇨🇳CN-183.213.200.225-1502
-      - 🇨🇳CN-144.48.66.170-9591
-      - 🇨🇳CN-120.132.29.235-16885
-      - 🇨🇳CN-119.96.188.117-4743
-      - 🇨🇳CN-119.96.188.117-15402
-      - 🇨🇳CN-116.192.174.155-7411
-      - 🇨🇳CN-116.192.173.129-1448
-      - 🇨🇳CN-116.192.172.230-7450
-      - 🇨🇳CN-116.192.168.234-7299
-      - 🇨🇳CN-116.192.168.234-7253
-      - 🇨🇳CN-116.192.168.234-7175
-      - 🇨🇳CN-116.192.167.73-7472
-      - 🇨🇳CN-116.192.166.223-7469
-      - 🇨🇳CN-111.47.212.56-17506
-      - 🇨🇳CN-106.75.168.10-1009
-      - 🇨🇳CN-101.91.193.52-4739
-      - 🇦🇺AU-103.224.212.221-7391
-      - 🇦🇺AU-103.224.212.221-6980
-      - アメリカ
-      - ZZ_584
-      - SG_196+|14.73Mb
-      - RU_183+|27.34Mb
+      - AU_03+|+8.58Mb
       - FR_86
-      - CN_54+|11.23Mb
-      - CN_45
-      - CN_44
-      - CN_32
-      - AU_05+|+1.91Mb
-      - Alien_1
-      - Alien_2
-      - '[台] APC TWN ELITE 2 #1 [1x]'
-      - '[港] APC HKG ELITE 5 #1 [2x]'
-      - '[港] APC HKG ELITE 4 #1 [2x]'
-      - '[港] APC HKG ELITE 1 #1 [2x]'
-      - '[港] APC HKG ECO 3 #2 [0.5x]'
-      - '[港] APC HKG ECO 2 #2 [0.5x]'
-      - '[港] APC HKG ECO 1 #2 [0.5x]'
+      - SG_210+|+3.25Mb
+      - 🇭🇰+Hong+Kong+01
+      - 🇭🇰+Hong+Kong+02
+      - 🇯🇵_电报频道+@mfjdpd
+      - 🇸🇬SG-13.212.184.207-0130
+      - 🇺🇸US-173.249.199.27-2775
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸US-135.148.149.209-4459
-      - 🇸🇬SG-46.137.230.72-15521
-      - 🇸🇬SG-18.141.3.146-0142
-      - 🇸🇬SG-168.138.160.119-2541
-      - 🇸🇬SG-168.138.160.119-2540
-      - 🇸🇬SG-13.212.184.207-0130
-      - 🇳🇱NL-147.78.240.92-10043
-      - 🇯🇵JP-141.147.149.171-1040
-      - 🇯🇵JP-141.147.149.171-10037
-      - 🇨🇳CN-223.167.146.245-2327
-      - 🇨🇳CN-223.167.146.245-15417
-      - 🇨🇳CN-223.167.146.245-15416
-      - 🇨🇳CN-223.167.146.245-15410
-      - 🇨🇳CN-223.167.146.245-15408
-      - 🇨🇳CN-223.167.146.245-15403
-      - 🇨🇳CN-223.167.146.245-15401
-      - 🇨🇳CN-223.167.146.245-15395
-      - 🇨🇳CN-223.167.146.245-15394
-      - 🇨🇳CN-223.166.157.85-7536
-      - 🇨🇳CN-223.166.157.85-7467
-      - 🇨🇳CN-223.166.157.85-7342
-      - 🇨🇳CN-223.166.157.85-7306
-      - 🇨🇳CN-223.166.157.85-7256
-      - 🇨🇳CN-223.166.157.85-7206
-      - 🇨🇳CN-223.111.157.35-1529
-      - 🇨🇳CN-183.213.200.225-2320
-      - 🇨🇳CN-183.213.200.225-1502
-      - 🇨🇳CN-144.48.66.170-9591
-      - 🇨🇳CN-120.132.29.235-16885
-      - 🇨🇳CN-119.96.188.117-4743
-      - 🇨🇳CN-119.96.188.117-15402
-      - 🇨🇳CN-116.192.174.155-7411
-      - 🇨🇳CN-116.192.173.129-1448
-      - 🇨🇳CN-116.192.172.230-7450
-      - 🇨🇳CN-116.192.168.234-7299
-      - 🇨🇳CN-116.192.168.234-7253
-      - 🇨🇳CN-116.192.168.234-7175
-      - 🇨🇳CN-116.192.167.73-7472
-      - 🇨🇳CN-116.192.166.223-7469
-      - 🇨🇳CN-111.47.212.56-17506
-      - 🇨🇳CN-106.75.168.10-1009
-      - 🇨🇳CN-101.91.193.52-4739
-      - 🇦🇺AU-103.224.212.221-7391
-      - 🇦🇺AU-103.224.212.221-6980
-      - アメリカ
-      - ZZ_584
-      - SG_196+|14.73Mb
-      - RU_183+|27.34Mb
+      - AU_03+|+8.58Mb
       - FR_86
-      - CN_54+|11.23Mb
-      - CN_45
-      - CN_44
-      - CN_32
-      - AU_05+|+1.91Mb
-      - Alien_1
-      - Alien_2
-      - '[台] APC TWN ELITE 2 #1 [1x]'
-      - '[港] APC HKG ELITE 5 #1 [2x]'
-      - '[港] APC HKG ELITE 4 #1 [2x]'
-      - '[港] APC HKG ELITE 1 #1 [2x]'
-      - '[港] APC HKG ECO 3 #2 [0.5x]'
-      - '[港] APC HKG ECO 2 #2 [0.5x]'
-      - '[港] APC HKG ECO 1 #2 [0.5x]'
+      - SG_210+|+3.25Mb
+      - 🇭🇰+Hong+Kong+01
+      - 🇭🇰+Hong+Kong+02
+      - 🇯🇵_电报频道+@mfjdpd
+      - 🇸🇬SG-13.212.184.207-0130
+      - 🇺🇸US-173.249.199.27-2775
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -517,69 +132,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸US-135.148.149.209-4459
-      - 🇸🇬SG-46.137.230.72-15521
-      - 🇸🇬SG-18.141.3.146-0142
-      - 🇸🇬SG-168.138.160.119-2541
-      - 🇸🇬SG-168.138.160.119-2540
-      - 🇸🇬SG-13.212.184.207-0130
-      - 🇳🇱NL-147.78.240.92-10043
-      - 🇯🇵JP-141.147.149.171-1040
-      - 🇯🇵JP-141.147.149.171-10037
-      - 🇨🇳CN-223.167.146.245-2327
-      - 🇨🇳CN-223.167.146.245-15417
-      - 🇨🇳CN-223.167.146.245-15416
-      - 🇨🇳CN-223.167.146.245-15410
-      - 🇨🇳CN-223.167.146.245-15408
-      - 🇨🇳CN-223.167.146.245-15403
-      - 🇨🇳CN-223.167.146.245-15401
-      - 🇨🇳CN-223.167.146.245-15395
-      - 🇨🇳CN-223.167.146.245-15394
-      - 🇨🇳CN-223.166.157.85-7536
-      - 🇨🇳CN-223.166.157.85-7467
-      - 🇨🇳CN-223.166.157.85-7342
-      - 🇨🇳CN-223.166.157.85-7306
-      - 🇨🇳CN-223.166.157.85-7256
-      - 🇨🇳CN-223.166.157.85-7206
-      - 🇨🇳CN-223.111.157.35-1529
-      - 🇨🇳CN-183.213.200.225-2320
-      - 🇨🇳CN-183.213.200.225-1502
-      - 🇨🇳CN-144.48.66.170-9591
-      - 🇨🇳CN-120.132.29.235-16885
-      - 🇨🇳CN-119.96.188.117-4743
-      - 🇨🇳CN-119.96.188.117-15402
-      - 🇨🇳CN-116.192.174.155-7411
-      - 🇨🇳CN-116.192.173.129-1448
-      - 🇨🇳CN-116.192.172.230-7450
-      - 🇨🇳CN-116.192.168.234-7299
-      - 🇨🇳CN-116.192.168.234-7253
-      - 🇨🇳CN-116.192.168.234-7175
-      - 🇨🇳CN-116.192.167.73-7472
-      - 🇨🇳CN-116.192.166.223-7469
-      - 🇨🇳CN-111.47.212.56-17506
-      - 🇨🇳CN-106.75.168.10-1009
-      - 🇨🇳CN-101.91.193.52-4739
-      - 🇦🇺AU-103.224.212.221-7391
-      - 🇦🇺AU-103.224.212.221-6980
-      - アメリカ
-      - ZZ_584
-      - SG_196+|14.73Mb
-      - RU_183+|27.34Mb
+      - AU_03+|+8.58Mb
       - FR_86
-      - CN_54+|11.23Mb
-      - CN_45
-      - CN_44
-      - CN_32
-      - AU_05+|+1.91Mb
-      - Alien_1
-      - Alien_2
-      - '[台] APC TWN ELITE 2 #1 [1x]'
-      - '[港] APC HKG ELITE 5 #1 [2x]'
-      - '[港] APC HKG ELITE 4 #1 [2x]'
-      - '[港] APC HKG ELITE 1 #1 [2x]'
-      - '[港] APC HKG ECO 3 #2 [0.5x]'
-      - '[港] APC HKG ECO 2 #2 [0.5x]'
-      - '[港] APC HKG ECO 1 #2 [0.5x]'
+      - SG_210+|+3.25Mb
+      - 🇭🇰+Hong+Kong+01
+      - 🇭🇰+Hong+Kong+02
+      - 🇯🇵_电报频道+@mfjdpd
+      - 🇸🇬SG-13.212.184.207-0130
+      - 🇺🇸US-173.249.199.27-2775
 
 rules:
 # 本地/局域网地址
