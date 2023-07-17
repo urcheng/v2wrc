@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-07-14 10:07:05
+# 创建时间：2023-07-17 10:06:35
 # 使用模版：V2RaySE 默认模版
-# 节点数量：18
+# 节点数量：16
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,165 +21,151 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🏁RELAY-198.41.223.142-0395","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"a5756853-4a80-468a-af62-10565918f58f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v01.ssrsub.com"}}}
-  - {"name":"🏁RELAY-172.67.192.178-0183","type":"vmess","server":"cfcdn2.sanfencdn.net","port":2052,"cipher":"auto","uuid":"8216e1fd-7f67-440d-9a63-51d0f6c38b10","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us6.sanfencdn2.com"}}}
-  - {"name":"🏁RELAY-104.16.231.208-6573","type":"vmess","server":"cfcdn2.sanfencdn.net","port":80,"cipher":"auto","uuid":"8216e1fd-7f67-440d-9a63-51d0f6c38b10","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"jp3.sanfencdn2.com"}}}
-  - {"name":"🏁RELAY-104.16.231.208-0176","type":"vmess","server":"cfcdn2.sanfencdn.net","port":443,"cipher":"auto","uuid":"8216e1fd-7f67-440d-9a63-51d0f6c38b10","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us1.sanfencdn1.com"}}}
-  - {"name":"🏁RELAY-104.16.198.231-1076","type":"vmess","server":"cfcdn2.sanfencdn.net","port":443,"cipher":"auto","uuid":"8216e1fd-7f67-440d-9a63-51d0f6c38b10","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"us2.sanfencdn1.com"}}}
-  - {"name":"🇺🇸US-23.247.137.70-7652","type":"trojan","server":"23.247.137.70","port":3389,"udp":true,"password":"d4e41ff772c7fd45","skip-cert-verify":true}
-  - {"name":"🇺🇸US-154.17.23.245-16581","type":"trojan","server":"listener.freetrade.link","port":443,"udp":true,"password":"Z9TS0AeB8S5ZlpFNRea3aypDaXISOyzY67xCO33lF4gKq38jw2uDEnDYRCCxAc","skip-cert-verify":true}
-  - {"name":"🇳🇱NL-147.78.240.92-10148","type":"trojan","server":"147.78.240.92","port":443,"udp":true,"password":"23fd9f2e-7ff8-4d98-8099-8acce9499433","sni":"tj2.dalazhi.eu.org","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-20.210.228.209-9496","type":"trojan","server":"fscus.fscloud123456789.com","port":443,"udp":true,"password":"9995cc0e-2e9d-4c80-8c81-4fdbb6322a3a","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-141.147.149.171-10142","type":"trojan","server":"141.147.149.171","port":443,"udp":true,"password":"6455f944-7c07-4ab0-b88f-440e581f41d9","sni":"jp2.twincloud.xyz","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.192.174.155-7355","type":"trojan","server":"official.taipeicitygovernment.kyiv.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-116.192.168.203-7299","type":"trojan","server":"official.taipeicitygovernment.org.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-101.91.193.52-5104","type":"trojan","server":"5m4h0k01.mcfront.xyz","port":31306,"udp":true,"password":"1a654941-cc92-4e6d-9962-6f6fa97fc162","skip-cert-verify":true}
-  - {"name":"🇦🇺AU-103.224.212.221-7493","type":"trojan","server":"eu-east-ruo.openssl3.com","port":443,"udp":true,"password":"9KogHwaY7hVD","sni":"eu-east-ruo.openssl3.com","skip-cert-verify":true}
-  - {"name":"🇦🇺AU-103.224.212.221-7082","type":"trojan","server":"ap-northeast-1.openssl3.com","port":443,"udp":true,"password":"tune7jerky7HAYRICK","sni":"ap-northeast-1.openssl3.com","skip-cert-verify":true}
-  - {"name":"https://t.me/zyfx8_1","type":"ssr","server":"120.233.27.128","port":31849,"password":"FZsO8fX1h6bT6j0c","cipher":"aes-256-cfb","obfs":"http_simple","protocol":"origin","obfs-param":"www.microsoft.com#User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 MicroMessenger/6.5.13\nAccept: /\nConnection: keep-alive","group":"nodesCatch"}
-  - {"name":"https://t.me/zyfx8_2","type":"ssr","server":"120.233.27.128","port":24646,"password":"l53diSIERSXB5PEI","cipher":"aes-256-cfb","obfs":"http_simple","protocol":"origin","obfs-param":"www.microsoft.com#User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 11_4_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 MicroMessenger/6.5.13\nAccept: /\nConnection: keep-alive","group":"nodesCatch"}
-  - {"name":"AU_09+|27.48Mb","type":"trojan","server":"fscus.fscloud123456789.com","port":443,"udp":true,"password":"514b8c92-12da-4219-b06c-56ecc67dfa23","skip-cert-verify":true}
+  - {"name":"美国 加利福尼亚州圣何塞MULTACOM机房","type":"vmess","server":"45.199.138.29","port":48344,"cipher":"auto","uuid":"743bdc87-1dea-41bf-aa0b-51dfbbfec8aa","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳_油管频道：8度科技","type":"vmess","server":"42.192.17.34","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"🇨🇳+Taiwan+04","type":"ss","server":"cn-east-1.cdn.tnodes-49cb61a5.sbs","port":10364,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪+Germany+02","type":"ss","server":"cn-south-3.cdn.tnodes-49cb61a5.sbs","port":27234,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳+Taiwan+06","type":"ss","server":"cn-north-1.cdn.tnodes-49cb61a5.sbs","port":10364,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪+Germany+03","type":"ss","server":"cn-north-3.cdn.tnodes-49cb61a5.sbs","port":27234,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸+United+States+02","type":"ss","server":"cn-south-3.cdn.tnodes-49cb61a5.sbs","port":48987,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇷+Turkey+02","type":"ss","server":"cn-south-3.cdn.tnodes-49cb61a5.sbs","port":45943,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧+United+Kingdom+03","type":"ss","server":"cn-north-3.cdn.tnodes-49cb61a5.sbs","port":11400,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇹🇷+Turkey+01","type":"ss","server":"cn-east-3.cdn.tnodes-49cb61a5.sbs","port":45943,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇩🇪+Germany+01","type":"ss","server":"cn-east-3.cdn.tnodes-49cb61a5.sbs","port":27234,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰+Hong+Kong+04","type":"ss","server":"cn-east-1.cdn.tnodes-49cb61a5.sbs","port":32549,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰+Hong+Kong+02","type":"ss","server":"cn-south-1.cdn.tnodes-49cb61a5.sbs","port":32126,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳+Taiwan+05","type":"ss","server":"cn-south-1.cdn.tnodes-49cb61a5.sbs","port":10364,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇭🇰+Hong+Kong+05","type":"ss","server":"cn-south-1.cdn.tnodes-49cb61a5.sbs","port":32549,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"US_220","type":"ssr","server":"fr-am1-5.eqsunshine.com","port":8181,"password":"RcfVcDzzB","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🏁RELAY-198.41.223.142-0395
-      - 🏁RELAY-172.67.192.178-0183
-      - 🏁RELAY-104.16.231.208-6573
-      - 🏁RELAY-104.16.231.208-0176
-      - 🏁RELAY-104.16.198.231-1076
-      - 🇺🇸US-23.247.137.70-7652
-      - 🇺🇸US-154.17.23.245-16581
-      - 🇳🇱NL-147.78.240.92-10148
-      - 🇯🇵JP-20.210.228.209-9496
-      - 🇯🇵JP-141.147.149.171-10142
-      - 🇨🇳CN-116.192.174.155-7355
-      - 🇨🇳CN-116.192.168.203-7299
-      - 🇨🇳CN-101.91.193.52-5104
-      - 🇦🇺AU-103.224.212.221-7493
-      - 🇦🇺AU-103.224.212.221-7082
-      - https://t.me/zyfx8_1
-      - https://t.me/zyfx8_2
-      - AU_09+|27.48Mb
+      - 美国 加利福尼亚州圣何塞MULTACOM机房
+      - 🇨🇳_油管频道：8度科技
+      - 🇨🇳+Taiwan+04
+      - 🇩🇪+Germany+02
+      - 🇨🇳+Taiwan+06
+      - 🇩🇪+Germany+03
+      - 🇺🇸+United+States+02
+      - 🇹🇷+Turkey+02
+      - 🇬🇧+United+Kingdom+03
+      - 🇹🇷+Turkey+01
+      - 🇩🇪+Germany+01
+      - 🇭🇰+Hong+Kong+04
+      - 🇭🇰+Hong+Kong+02
+      - 🇨🇳+Taiwan+05
+      - 🇭🇰+Hong+Kong+05
+      - US_220
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🏁RELAY-198.41.223.142-0395
-      - 🏁RELAY-172.67.192.178-0183
-      - 🏁RELAY-104.16.231.208-6573
-      - 🏁RELAY-104.16.231.208-0176
-      - 🏁RELAY-104.16.198.231-1076
-      - 🇺🇸US-23.247.137.70-7652
-      - 🇺🇸US-154.17.23.245-16581
-      - 🇳🇱NL-147.78.240.92-10148
-      - 🇯🇵JP-20.210.228.209-9496
-      - 🇯🇵JP-141.147.149.171-10142
-      - 🇨🇳CN-116.192.174.155-7355
-      - 🇨🇳CN-116.192.168.203-7299
-      - 🇨🇳CN-101.91.193.52-5104
-      - 🇦🇺AU-103.224.212.221-7493
-      - 🇦🇺AU-103.224.212.221-7082
-      - https://t.me/zyfx8_1
-      - https://t.me/zyfx8_2
-      - AU_09+|27.48Mb
+      - 美国 加利福尼亚州圣何塞MULTACOM机房
+      - 🇨🇳_油管频道：8度科技
+      - 🇨🇳+Taiwan+04
+      - 🇩🇪+Germany+02
+      - 🇨🇳+Taiwan+06
+      - 🇩🇪+Germany+03
+      - 🇺🇸+United+States+02
+      - 🇹🇷+Turkey+02
+      - 🇬🇧+United+Kingdom+03
+      - 🇹🇷+Turkey+01
+      - 🇩🇪+Germany+01
+      - 🇭🇰+Hong+Kong+04
+      - 🇭🇰+Hong+Kong+02
+      - 🇨🇳+Taiwan+05
+      - 🇭🇰+Hong+Kong+05
+      - US_220
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🏁RELAY-198.41.223.142-0395
-      - 🏁RELAY-172.67.192.178-0183
-      - 🏁RELAY-104.16.231.208-6573
-      - 🏁RELAY-104.16.231.208-0176
-      - 🏁RELAY-104.16.198.231-1076
-      - 🇺🇸US-23.247.137.70-7652
-      - 🇺🇸US-154.17.23.245-16581
-      - 🇳🇱NL-147.78.240.92-10148
-      - 🇯🇵JP-20.210.228.209-9496
-      - 🇯🇵JP-141.147.149.171-10142
-      - 🇨🇳CN-116.192.174.155-7355
-      - 🇨🇳CN-116.192.168.203-7299
-      - 🇨🇳CN-101.91.193.52-5104
-      - 🇦🇺AU-103.224.212.221-7493
-      - 🇦🇺AU-103.224.212.221-7082
-      - https://t.me/zyfx8_1
-      - https://t.me/zyfx8_2
-      - AU_09+|27.48Mb
+      - 美国 加利福尼亚州圣何塞MULTACOM机房
+      - 🇨🇳_油管频道：8度科技
+      - 🇨🇳+Taiwan+04
+      - 🇩🇪+Germany+02
+      - 🇨🇳+Taiwan+06
+      - 🇩🇪+Germany+03
+      - 🇺🇸+United+States+02
+      - 🇹🇷+Turkey+02
+      - 🇬🇧+United+Kingdom+03
+      - 🇹🇷+Turkey+01
+      - 🇩🇪+Germany+01
+      - 🇭🇰+Hong+Kong+04
+      - 🇭🇰+Hong+Kong+02
+      - 🇨🇳+Taiwan+05
+      - 🇭🇰+Hong+Kong+05
+      - US_220
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🏁RELAY-198.41.223.142-0395
-      - 🏁RELAY-172.67.192.178-0183
-      - 🏁RELAY-104.16.231.208-6573
-      - 🏁RELAY-104.16.231.208-0176
-      - 🏁RELAY-104.16.198.231-1076
-      - 🇺🇸US-23.247.137.70-7652
-      - 🇺🇸US-154.17.23.245-16581
-      - 🇳🇱NL-147.78.240.92-10148
-      - 🇯🇵JP-20.210.228.209-9496
-      - 🇯🇵JP-141.147.149.171-10142
-      - 🇨🇳CN-116.192.174.155-7355
-      - 🇨🇳CN-116.192.168.203-7299
-      - 🇨🇳CN-101.91.193.52-5104
-      - 🇦🇺AU-103.224.212.221-7493
-      - 🇦🇺AU-103.224.212.221-7082
-      - https://t.me/zyfx8_1
-      - https://t.me/zyfx8_2
-      - AU_09+|27.48Mb
+      - 美国 加利福尼亚州圣何塞MULTACOM机房
+      - 🇨🇳_油管频道：8度科技
+      - 🇨🇳+Taiwan+04
+      - 🇩🇪+Germany+02
+      - 🇨🇳+Taiwan+06
+      - 🇩🇪+Germany+03
+      - 🇺🇸+United+States+02
+      - 🇹🇷+Turkey+02
+      - 🇬🇧+United+Kingdom+03
+      - 🇹🇷+Turkey+01
+      - 🇩🇪+Germany+01
+      - 🇭🇰+Hong+Kong+04
+      - 🇭🇰+Hong+Kong+02
+      - 🇨🇳+Taiwan+05
+      - 🇭🇰+Hong+Kong+05
+      - US_220
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🏁RELAY-198.41.223.142-0395
-      - 🏁RELAY-172.67.192.178-0183
-      - 🏁RELAY-104.16.231.208-6573
-      - 🏁RELAY-104.16.231.208-0176
-      - 🏁RELAY-104.16.198.231-1076
-      - 🇺🇸US-23.247.137.70-7652
-      - 🇺🇸US-154.17.23.245-16581
-      - 🇳🇱NL-147.78.240.92-10148
-      - 🇯🇵JP-20.210.228.209-9496
-      - 🇯🇵JP-141.147.149.171-10142
-      - 🇨🇳CN-116.192.174.155-7355
-      - 🇨🇳CN-116.192.168.203-7299
-      - 🇨🇳CN-101.91.193.52-5104
-      - 🇦🇺AU-103.224.212.221-7493
-      - 🇦🇺AU-103.224.212.221-7082
-      - https://t.me/zyfx8_1
-      - https://t.me/zyfx8_2
-      - AU_09+|27.48Mb
+      - 美国 加利福尼亚州圣何塞MULTACOM机房
+      - 🇨🇳_油管频道：8度科技
+      - 🇨🇳+Taiwan+04
+      - 🇩🇪+Germany+02
+      - 🇨🇳+Taiwan+06
+      - 🇩🇪+Germany+03
+      - 🇺🇸+United+States+02
+      - 🇹🇷+Turkey+02
+      - 🇬🇧+United+Kingdom+03
+      - 🇹🇷+Turkey+01
+      - 🇩🇪+Germany+01
+      - 🇭🇰+Hong+Kong+04
+      - 🇭🇰+Hong+Kong+02
+      - 🇨🇳+Taiwan+05
+      - 🇭🇰+Hong+Kong+05
+      - US_220
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🏁RELAY-198.41.223.142-0395
-      - 🏁RELAY-172.67.192.178-0183
-      - 🏁RELAY-104.16.231.208-6573
-      - 🏁RELAY-104.16.231.208-0176
-      - 🏁RELAY-104.16.198.231-1076
-      - 🇺🇸US-23.247.137.70-7652
-      - 🇺🇸US-154.17.23.245-16581
-      - 🇳🇱NL-147.78.240.92-10148
-      - 🇯🇵JP-20.210.228.209-9496
-      - 🇯🇵JP-141.147.149.171-10142
-      - 🇨🇳CN-116.192.174.155-7355
-      - 🇨🇳CN-116.192.168.203-7299
-      - 🇨🇳CN-101.91.193.52-5104
-      - 🇦🇺AU-103.224.212.221-7493
-      - 🇦🇺AU-103.224.212.221-7082
-      - https://t.me/zyfx8_1
-      - https://t.me/zyfx8_2
-      - AU_09+|27.48Mb
+      - 美国 加利福尼亚州圣何塞MULTACOM机房
+      - 🇨🇳_油管频道：8度科技
+      - 🇨🇳+Taiwan+04
+      - 🇩🇪+Germany+02
+      - 🇨🇳+Taiwan+06
+      - 🇩🇪+Germany+03
+      - 🇺🇸+United+States+02
+      - 🇹🇷+Turkey+02
+      - 🇬🇧+United+Kingdom+03
+      - 🇹🇷+Turkey+01
+      - 🇩🇪+Germany+01
+      - 🇭🇰+Hong+Kong+04
+      - 🇭🇰+Hong+Kong+02
+      - 🇨🇳+Taiwan+05
+      - 🇭🇰+Hong+Kong+05
+      - US_220
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -202,24 +188,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🏁RELAY-198.41.223.142-0395
-      - 🏁RELAY-172.67.192.178-0183
-      - 🏁RELAY-104.16.231.208-6573
-      - 🏁RELAY-104.16.231.208-0176
-      - 🏁RELAY-104.16.198.231-1076
-      - 🇺🇸US-23.247.137.70-7652
-      - 🇺🇸US-154.17.23.245-16581
-      - 🇳🇱NL-147.78.240.92-10148
-      - 🇯🇵JP-20.210.228.209-9496
-      - 🇯🇵JP-141.147.149.171-10142
-      - 🇨🇳CN-116.192.174.155-7355
-      - 🇨🇳CN-116.192.168.203-7299
-      - 🇨🇳CN-101.91.193.52-5104
-      - 🇦🇺AU-103.224.212.221-7493
-      - 🇦🇺AU-103.224.212.221-7082
-      - https://t.me/zyfx8_1
-      - https://t.me/zyfx8_2
-      - AU_09+|27.48Mb
+      - 美国 加利福尼亚州圣何塞MULTACOM机房
+      - 🇨🇳_油管频道：8度科技
+      - 🇨🇳+Taiwan+04
+      - 🇩🇪+Germany+02
+      - 🇨🇳+Taiwan+06
+      - 🇩🇪+Germany+03
+      - 🇺🇸+United+States+02
+      - 🇹🇷+Turkey+02
+      - 🇬🇧+United+Kingdom+03
+      - 🇹🇷+Turkey+01
+      - 🇩🇪+Germany+01
+      - 🇭🇰+Hong+Kong+04
+      - 🇭🇰+Hong+Kong+02
+      - 🇨🇳+Taiwan+05
+      - 🇭🇰+Hong+Kong+05
+      - US_220
 
 rules:
 # 本地/局域网地址
