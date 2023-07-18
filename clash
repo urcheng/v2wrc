@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-07-17 10:06:35
+# 创建时间：2023-07-18 09:07:07
 # 使用模版：V2RaySE 默认模版
-# 节点数量：16
+# 节点数量：15
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,151 +21,144 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"美国 加利福尼亚州圣何塞MULTACOM机房","type":"vmess","server":"45.199.138.29","port":48344,"cipher":"auto","uuid":"743bdc87-1dea-41bf-aa0b-51dfbbfec8aa","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"RU_171+|27.34Mb","type":"ss","server":"45.89.52.66","port":9065,"password":"PeHSHm5SqEjBuEXE","cipher":"aes-256-cfb"}
   - {"name":"🇨🇳_油管频道：8度科技","type":"vmess","server":"42.192.17.34","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳+Taiwan+04","type":"ss","server":"cn-east-1.cdn.tnodes-49cb61a5.sbs","port":10364,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪+Germany+02","type":"ss","server":"cn-south-3.cdn.tnodes-49cb61a5.sbs","port":27234,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳+Taiwan+06","type":"ss","server":"cn-north-1.cdn.tnodes-49cb61a5.sbs","port":10364,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪+Germany+03","type":"ss","server":"cn-north-3.cdn.tnodes-49cb61a5.sbs","port":27234,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸+United+States+02","type":"ss","server":"cn-south-3.cdn.tnodes-49cb61a5.sbs","port":48987,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇷+Turkey+02","type":"ss","server":"cn-south-3.cdn.tnodes-49cb61a5.sbs","port":45943,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧+United+Kingdom+03","type":"ss","server":"cn-north-3.cdn.tnodes-49cb61a5.sbs","port":11400,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇹🇷+Turkey+01","type":"ss","server":"cn-east-3.cdn.tnodes-49cb61a5.sbs","port":45943,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪+Germany+01","type":"ss","server":"cn-east-3.cdn.tnodes-49cb61a5.sbs","port":27234,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰+Hong+Kong+04","type":"ss","server":"cn-east-1.cdn.tnodes-49cb61a5.sbs","port":32549,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰+Hong+Kong+02","type":"ss","server":"cn-south-1.cdn.tnodes-49cb61a5.sbs","port":32126,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳+Taiwan+05","type":"ss","server":"cn-south-1.cdn.tnodes-49cb61a5.sbs","port":10364,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇭🇰+Hong+Kong+05","type":"ss","server":"cn-south-1.cdn.tnodes-49cb61a5.sbs","port":32549,"password":"948aa897-a175-4547-84ee-22caf560ef83","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"US_220","type":"ssr","server":"fr-am1-5.eqsunshine.com","port":8181,"password":"RcfVcDzzB","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
+  - {"name":"🇨🇳CN-116.192.162.234-7882","type":"trojan","server":"official.taipeicitygovernment.com.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-144.48.66.170-9960","type":"trojan","server":"nl01.lovehjq.xyz","port":41929,"udp":true,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-183.213.200.225-2416","type":"trojan","server":"183.213.200.225","port":28114,"udp":true,"password":"cdyB1Q","sni":"download.windowsupdate.com","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-223.111.157.35-9957","type":"trojan","server":"jp2.91js.pw","port":10051,"udp":true,"password":"a13820c547fa34c5c45515c12f0cd576","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-172.104.177.105-5493","type":"trojan","server":"w12.udpgw.com","port":443,"udp":true,"password":"08964210-e7b8-11ec-95aa-1239d0255272","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.43-5511","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"d66013c645b93c5c","skip-cert-verify":true}
+  - {"name":"🇺🇸US-163.123.192.156-16030","type":"trojan","server":"163.123.192.156","port":443,"udp":true,"password":"9fb3183e-8d93-46d4-aba0-4c1769b6c079","skip-cert-verify":true}
+  - {"name":"🇺🇸US-216.52.59.50-0134","type":"trojan","server":"216.52.59.50","port":20458,"udp":true,"password":"m8krTirthj","skip-cert-verify":true}
+  - {"name":"🏁RELAY-104.17.20.55-0164","type":"vmess","server":"104.17.20.55","port":443,"cipher":"auto","uuid":"495FAF9E-9775-4DC5-91F0-C4341B789B4F","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
+  - {"name":"🏁RELAY-104.21.36.26-1523","type":"vmess","server":"cloudconebbb.gorgorchicken.one","port":8443,"cipher":"auto","uuid":"aa0c4744-9568-4bee-a08b-73668a9b2a42","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/cloudconebbb","headers":{"host":"cloudconebbb.gorgorchicken.one"}}}
+  - {"name":"🏁RELAY-172.64.108.111-6826","type":"vmess","server":"cf2.992688.xyz","port":8080,"cipher":"auto","uuid":"0d9a0392-e0a1-4bad-e877-3721def40f11","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"hax2.992688.xyz"}}}
+  - {"name":"🏁RELAY-172.67.46.192-0205","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"hk-hytron.ilovescp.com"}}}
+  - {"name":"美国 加利福尼亚州圣何塞MULTACOM机房","type":"vmess","server":"45.199.138.29","port":48344,"cipher":"auto","uuid":"743bdc87-1dea-41bf-aa0b-51dfbbfec8aa","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国 加利福尼亚州圣何塞MULTACOM机房
+      - RU_171+|27.34Mb
       - 🇨🇳_油管频道：8度科技
-      - 🇨🇳+Taiwan+04
-      - 🇩🇪+Germany+02
-      - 🇨🇳+Taiwan+06
-      - 🇩🇪+Germany+03
-      - 🇺🇸+United+States+02
-      - 🇹🇷+Turkey+02
-      - 🇬🇧+United+Kingdom+03
-      - 🇹🇷+Turkey+01
-      - 🇩🇪+Germany+01
-      - 🇭🇰+Hong+Kong+04
-      - 🇭🇰+Hong+Kong+02
-      - 🇨🇳+Taiwan+05
-      - 🇭🇰+Hong+Kong+05
-      - US_220
+      - 🇨🇳CN-116.192.162.234-7882
+      - 🇨🇳CN-144.48.66.170-9960
+      - 🇨🇳CN-183.213.200.225-2416
+      - 🇨🇳CN-223.111.157.35-9957
+      - 🇸🇬SG-172.104.177.105-5493
+      - 🇸🇬SG-5.44.249.43-5511
+      - 🇺🇸US-163.123.192.156-16030
+      - 🇺🇸US-216.52.59.50-0134
+      - 🏁RELAY-104.17.20.55-0164
+      - 🏁RELAY-104.21.36.26-1523
+      - 🏁RELAY-172.64.108.111-6826
+      - 🏁RELAY-172.67.46.192-0205
+      - 美国 加利福尼亚州圣何塞MULTACOM机房
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美国 加利福尼亚州圣何塞MULTACOM机房
+      - RU_171+|27.34Mb
       - 🇨🇳_油管频道：8度科技
-      - 🇨🇳+Taiwan+04
-      - 🇩🇪+Germany+02
-      - 🇨🇳+Taiwan+06
-      - 🇩🇪+Germany+03
-      - 🇺🇸+United+States+02
-      - 🇹🇷+Turkey+02
-      - 🇬🇧+United+Kingdom+03
-      - 🇹🇷+Turkey+01
-      - 🇩🇪+Germany+01
-      - 🇭🇰+Hong+Kong+04
-      - 🇭🇰+Hong+Kong+02
-      - 🇨🇳+Taiwan+05
-      - 🇭🇰+Hong+Kong+05
-      - US_220
+      - 🇨🇳CN-116.192.162.234-7882
+      - 🇨🇳CN-144.48.66.170-9960
+      - 🇨🇳CN-183.213.200.225-2416
+      - 🇨🇳CN-223.111.157.35-9957
+      - 🇸🇬SG-172.104.177.105-5493
+      - 🇸🇬SG-5.44.249.43-5511
+      - 🇺🇸US-163.123.192.156-16030
+      - 🇺🇸US-216.52.59.50-0134
+      - 🏁RELAY-104.17.20.55-0164
+      - 🏁RELAY-104.21.36.26-1523
+      - 🏁RELAY-172.64.108.111-6826
+      - 🏁RELAY-172.67.46.192-0205
+      - 美国 加利福尼亚州圣何塞MULTACOM机房
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国 加利福尼亚州圣何塞MULTACOM机房
+      - RU_171+|27.34Mb
       - 🇨🇳_油管频道：8度科技
-      - 🇨🇳+Taiwan+04
-      - 🇩🇪+Germany+02
-      - 🇨🇳+Taiwan+06
-      - 🇩🇪+Germany+03
-      - 🇺🇸+United+States+02
-      - 🇹🇷+Turkey+02
-      - 🇬🇧+United+Kingdom+03
-      - 🇹🇷+Turkey+01
-      - 🇩🇪+Germany+01
-      - 🇭🇰+Hong+Kong+04
-      - 🇭🇰+Hong+Kong+02
-      - 🇨🇳+Taiwan+05
-      - 🇭🇰+Hong+Kong+05
-      - US_220
+      - 🇨🇳CN-116.192.162.234-7882
+      - 🇨🇳CN-144.48.66.170-9960
+      - 🇨🇳CN-183.213.200.225-2416
+      - 🇨🇳CN-223.111.157.35-9957
+      - 🇸🇬SG-172.104.177.105-5493
+      - 🇸🇬SG-5.44.249.43-5511
+      - 🇺🇸US-163.123.192.156-16030
+      - 🇺🇸US-216.52.59.50-0134
+      - 🏁RELAY-104.17.20.55-0164
+      - 🏁RELAY-104.21.36.26-1523
+      - 🏁RELAY-172.64.108.111-6826
+      - 🏁RELAY-172.67.46.192-0205
+      - 美国 加利福尼亚州圣何塞MULTACOM机房
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国 加利福尼亚州圣何塞MULTACOM机房
+      - RU_171+|27.34Mb
       - 🇨🇳_油管频道：8度科技
-      - 🇨🇳+Taiwan+04
-      - 🇩🇪+Germany+02
-      - 🇨🇳+Taiwan+06
-      - 🇩🇪+Germany+03
-      - 🇺🇸+United+States+02
-      - 🇹🇷+Turkey+02
-      - 🇬🇧+United+Kingdom+03
-      - 🇹🇷+Turkey+01
-      - 🇩🇪+Germany+01
-      - 🇭🇰+Hong+Kong+04
-      - 🇭🇰+Hong+Kong+02
-      - 🇨🇳+Taiwan+05
-      - 🇭🇰+Hong+Kong+05
-      - US_220
+      - 🇨🇳CN-116.192.162.234-7882
+      - 🇨🇳CN-144.48.66.170-9960
+      - 🇨🇳CN-183.213.200.225-2416
+      - 🇨🇳CN-223.111.157.35-9957
+      - 🇸🇬SG-172.104.177.105-5493
+      - 🇸🇬SG-5.44.249.43-5511
+      - 🇺🇸US-163.123.192.156-16030
+      - 🇺🇸US-216.52.59.50-0134
+      - 🏁RELAY-104.17.20.55-0164
+      - 🏁RELAY-104.21.36.26-1523
+      - 🏁RELAY-172.64.108.111-6826
+      - 🏁RELAY-172.67.46.192-0205
+      - 美国 加利福尼亚州圣何塞MULTACOM机房
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国 加利福尼亚州圣何塞MULTACOM机房
+      - RU_171+|27.34Mb
       - 🇨🇳_油管频道：8度科技
-      - 🇨🇳+Taiwan+04
-      - 🇩🇪+Germany+02
-      - 🇨🇳+Taiwan+06
-      - 🇩🇪+Germany+03
-      - 🇺🇸+United+States+02
-      - 🇹🇷+Turkey+02
-      - 🇬🇧+United+Kingdom+03
-      - 🇹🇷+Turkey+01
-      - 🇩🇪+Germany+01
-      - 🇭🇰+Hong+Kong+04
-      - 🇭🇰+Hong+Kong+02
-      - 🇨🇳+Taiwan+05
-      - 🇭🇰+Hong+Kong+05
-      - US_220
+      - 🇨🇳CN-116.192.162.234-7882
+      - 🇨🇳CN-144.48.66.170-9960
+      - 🇨🇳CN-183.213.200.225-2416
+      - 🇨🇳CN-223.111.157.35-9957
+      - 🇸🇬SG-172.104.177.105-5493
+      - 🇸🇬SG-5.44.249.43-5511
+      - 🇺🇸US-163.123.192.156-16030
+      - 🇺🇸US-216.52.59.50-0134
+      - 🏁RELAY-104.17.20.55-0164
+      - 🏁RELAY-104.21.36.26-1523
+      - 🏁RELAY-172.64.108.111-6826
+      - 🏁RELAY-172.67.46.192-0205
+      - 美国 加利福尼亚州圣何塞MULTACOM机房
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国 加利福尼亚州圣何塞MULTACOM机房
+      - RU_171+|27.34Mb
       - 🇨🇳_油管频道：8度科技
-      - 🇨🇳+Taiwan+04
-      - 🇩🇪+Germany+02
-      - 🇨🇳+Taiwan+06
-      - 🇩🇪+Germany+03
-      - 🇺🇸+United+States+02
-      - 🇹🇷+Turkey+02
-      - 🇬🇧+United+Kingdom+03
-      - 🇹🇷+Turkey+01
-      - 🇩🇪+Germany+01
-      - 🇭🇰+Hong+Kong+04
-      - 🇭🇰+Hong+Kong+02
-      - 🇨🇳+Taiwan+05
-      - 🇭🇰+Hong+Kong+05
-      - US_220
+      - 🇨🇳CN-116.192.162.234-7882
+      - 🇨🇳CN-144.48.66.170-9960
+      - 🇨🇳CN-183.213.200.225-2416
+      - 🇨🇳CN-223.111.157.35-9957
+      - 🇸🇬SG-172.104.177.105-5493
+      - 🇸🇬SG-5.44.249.43-5511
+      - 🇺🇸US-163.123.192.156-16030
+      - 🇺🇸US-216.52.59.50-0134
+      - 🏁RELAY-104.17.20.55-0164
+      - 🏁RELAY-104.21.36.26-1523
+      - 🏁RELAY-172.64.108.111-6826
+      - 🏁RELAY-172.67.46.192-0205
+      - 美国 加利福尼亚州圣何塞MULTACOM机房
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -188,22 +181,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国 加利福尼亚州圣何塞MULTACOM机房
+      - RU_171+|27.34Mb
       - 🇨🇳_油管频道：8度科技
-      - 🇨🇳+Taiwan+04
-      - 🇩🇪+Germany+02
-      - 🇨🇳+Taiwan+06
-      - 🇩🇪+Germany+03
-      - 🇺🇸+United+States+02
-      - 🇹🇷+Turkey+02
-      - 🇬🇧+United+Kingdom+03
-      - 🇹🇷+Turkey+01
-      - 🇩🇪+Germany+01
-      - 🇭🇰+Hong+Kong+04
-      - 🇭🇰+Hong+Kong+02
-      - 🇨🇳+Taiwan+05
-      - 🇭🇰+Hong+Kong+05
-      - US_220
+      - 🇨🇳CN-116.192.162.234-7882
+      - 🇨🇳CN-144.48.66.170-9960
+      - 🇨🇳CN-183.213.200.225-2416
+      - 🇨🇳CN-223.111.157.35-9957
+      - 🇸🇬SG-172.104.177.105-5493
+      - 🇸🇬SG-5.44.249.43-5511
+      - 🇺🇸US-163.123.192.156-16030
+      - 🇺🇸US-216.52.59.50-0134
+      - 🏁RELAY-104.17.20.55-0164
+      - 🏁RELAY-104.21.36.26-1523
+      - 🏁RELAY-172.64.108.111-6826
+      - 🏁RELAY-172.67.46.192-0205
+      - 美国 加利福尼亚州圣何塞MULTACOM机房
 
 rules:
 # 本地/局域网地址
