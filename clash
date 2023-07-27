@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-07-24 09:17:00
+# 创建时间：2023-07-27 11:56:57
 # 使用模版：V2RaySE 默认模版
-# 节点数量：35
+# 节点数量：28
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,284 +21,235 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"JP_134+|11.53Mb","type":"trojan","server":"kbawsjp2.aiopen.cfd","port":443,"udp":true,"password":"a8f284ff-7d36-493a-a0a6-87ee7f003c5c","skip-cert-verify":true}
-  - {"name":"JP_136+|32.23Mb","type":"trojan","server":"kbawsjp1.aiopen.cfd","port":443,"udp":true,"password":"c68e3c20-da73-4791-b4d8-7011a98ba06b","skip-cert-verify":true}
-  - {"name":"JP_136+|34.92Mb","type":"trojan","server":"kbawsjp2.aiopen.cfd","port":443,"udp":true,"password":"c68e3c20-da73-4791-b4d8-7011a98ba06b","skip-cert-verify":true}
-  - {"name":"SG_164+|+7.63Mb","type":"trojan","server":"kbawssg1.aiopen.cfd","port":443,"udp":true,"password":"a8f284ff-7d36-493a-a0a6-87ee7f003c5c","skip-cert-verify":true}
-  - {"name":"SG_166+|+6.68Mb","type":"trojan","server":"kbawssg2.aiopen.cfd","port":443,"udp":true,"password":"a8f284ff-7d36-493a-a0a6-87ee7f003c5c","skip-cert-verify":true}
-  - {"name":"SG_169+|20.17Mb","type":"trojan","server":"kbawssg1.aiopen.cfd","port":443,"udp":true,"password":"106741c8-61c9-4119-af91-05d5898e2709","skip-cert-verify":true}
-  - {"name":"SG_170+|23.47Mb","type":"trojan","server":"sg9.microsoft-orgwly.vip","port":443,"udp":true,"password":"a132d6ab-fdd0-4d16-b01b-1bfc43fbe015","skip-cert-verify":true}
-  - {"name":"SG_电报频道：+@mfjdpd_1","type":"trojan","server":"kbawssg2.aiopen.cfd","port":443,"udp":true,"password":"c68e3c20-da73-4791-b4d8-7011a98ba06b","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true}
-  - {"name":"SG_电报频道：+@mfjdpd_2","type":"trojan","server":"kbawssg1.aiopen.cfd","port":443,"udp":true,"password":"c68e3c20-da73-4791-b4d8-7011a98ba06b","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true}
-  - {"name":"US_364+|12.44Mb","type":"trojan","server":"sg9.microsoft-orgwly.vip","port":443,"udp":true,"password":"d7ad2dba-4008-4b25-a4b6-6c8ebb99de46","skip-cert-verify":true}
-  - {"name":"🇨🇳+台湾01","type":"ss","server":"gzdx.acgyt.com","port":28258,"password":"92012750-1fa0-432c-9511-4eeba1209e13","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_电报频道： @mfjdpd","type":"vmess","server":"47.104.240.230","port":50002,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇨🇳CN-144.48.66.166-9586","type":"trojan","server":"nl01.lovehjq.xyz","port":41929,"udp":true,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.240.220.99-7058","type":"trojan","server":"official.taipeicitygovernment.co.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"Alien_1","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"7e50c969-04db-40aa-94ae-32cf00a91e0f","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Alien_2","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"631b42a0-0afb-49be-96a6-415ad554480d","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"Alien_3","type":"vmess","server":"112.33.52.64","port":10001,"cipher":"auto","uuid":"b30c1ad1-5a44-4934-8f25-c62056e94124","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"AU_09+|+9.91Mb","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"298a5185-2019-46a6-bc2a-42fe3ddbe876","skip-cert-verify":true}
+  - {"name":"https://t.me/zyfx8_1","type":"ss","server":"gzdx.acgyt.com","port":28258,"password":"3b5db99f-118b-41f1-b04f-8e4fc9453d12","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"https://t.me/zyfx8_2","type":"ss","server":"llp-shct.acgyt.com","port":18994,"password":"c420dff4-ee53-43cf-a72d-366160ab5350","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"https://t.me/zyfx8_3","type":"ss","server":"gzdx.acgyt.com","port":18994,"password":"d5646d5b-5c37-47e1-ae25-de577249d4ea","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"https://t.me/zyfx8_4","type":"ss","server":"gzdx.acgyt.com","port":18994,"password":"3b5db99f-118b-41f1-b04f-8e4fc9453d12","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"https://t.me/zyfx8_5","type":"ss","server":"gzdx.acgyt.com","port":28258,"password":"4d319ea6-0a7f-4091-9327-66aba247bb9a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"https://t.me/zyfx8_6","type":"ss","server":"gzdx.acgyt.com","port":18994,"password":"6e143268-1847-4998-a9ec-72a3640bbf16","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"https://t.me/zyfx8_7","type":"ss","server":"llp-shct.acgyt.com","port":18994,"password":"24c4ebe8-7cee-4ed6-aac3-f007be02e349","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"https://t.me/zyfx8_8","type":"ss","server":"gzdx.acgyt.com","port":18994,"password":"0ce39fef-78ba-41d5-9797-d3fbf06a6812","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"US_353+|19.69Mb","type":"trojan","server":"fscsg.fscloud123456789.com","port":443,"udp":true,"password":"ed19b239-8e49-4b82-979a-24b84fa7b173","skip-cert-verify":true}
+  - {"name":"US_415","type":"trojan","server":"spsg.1234567890spcloud.com","port":443,"udp":true,"password":"e8e027f7-0672-43d4-8001-535b58852b2f","skip-cert-verify":true}
+  - {"name":"🇧🇿伯利兹","type":"ssr","server":"sql.accessconnect.cc","port":1111,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"2898898300.www.gov.hk","protocol-param":"98300:magnetic222222Ab","group":"nodesCatch"}
+  - {"name":"🇨🇱智利","type":"ssr","server":"sql.accessconnect.cc","port":2201,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"2898898300.www.gov.hk","protocol-param":"98300:magnetic222222Ab","group":"nodesCatch"}
   - {"name":"🇨🇳CN-47.93.231.218-9664","type":"vmess","server":"47.93.231.218","port":53022,"cipher":"auto","uuid":"95fd7642-2160-4528-e909-3d526b533013","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇭🇰AWS香港1","type":"trojan","server":"gsawshk1.aiopen.cfd","port":443,"udp":true,"password":"9e74cdd5-3064-4ff2-bf47-f7eaf301f881","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":false}
-  - {"name":"🇭🇰AWS香港3","type":"trojan","server":"gsawshk2.aiopen.cfd","port":443,"udp":true,"password":"9e74cdd5-3064-4ff2-bf47-f7eaf301f881","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":false}
-  - {"name":"🇯🇵+日本01","type":"ss","server":"gzdx.acgyt.com","port":18994,"password":"7bda9654-2822-4906-a638-78eada911da2","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇯🇵AWS日本1","type":"trojan","server":"gsawsjp1.aiopen.cfd","port":443,"udp":true,"password":"9e74cdd5-3064-4ff2-bf47-f7eaf301f881","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":false}
-  - {"name":"🇯🇵AWS日本3","type":"trojan","server":"gsawsjp2.aiopen.cfd","port":443,"udp":true,"password":"9e74cdd5-3064-4ff2-bf47-f7eaf301f881","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":false}
-  - {"name":"🇯🇵JP-185.212.56.168-10086","type":"trojan","server":"185.212.56.168","port":443,"udp":true,"password":"share.mjj-home.com","sni":"share.softbank.mjj-home.com","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-20.210.234.145-10109","type":"trojan","server":"20.210.234.145","port":443,"udp":true,"password":"7d0f1f83-0f2f-4b90-930e-de44ac233fef","sni":"in.stablize.top","skip-cert-verify":true}
-  - {"name":"🇯🇵日本02+|+高速专线","type":"trojan","server":"gsawsjp2.aiopen.cfd","port":8443,"udp":true,"password":"af61ca1c-fb6c-427b-b298-0791a43a968b","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":false}
-  - {"name":"🇯🇵日本03+|+高速专线","type":"trojan","server":"gsawshk1.aiopen.cfd","port":8443,"udp":true,"password":"af61ca1c-fb6c-427b-b298-0791a43a968b","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":false}
-  - {"name":"🇯🇵日本04+|+高速专线","type":"trojan","server":"gsawshk2.aiopen.cfd","port":8443,"udp":true,"password":"af61ca1c-fb6c-427b-b298-0791a43a968b","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":false}
-  - {"name":"🇰🇷KR-140.238.12.83-10064","type":"trojan","server":"140.238.12.83","port":443,"udp":true,"password":"a1718180-d616-4b71-9bb6-3e96ba20f921","sni":"jgw3.gaox.ml","skip-cert-verify":true}
-  - {"name":"🇷🇺RU-45.144.179.138-3183","type":"vmess","server":"45.144.179.138","port":443,"cipher":"auto","uuid":"96cbe4a6-5728-42df-dc7a-ceb9b51a3db5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http"}
-  - {"name":"🇸🇬+狮城+tg@freeVPNjd","type":"ss","server":"weo-sg-1.laowufly.cf","port":23333,"password":"NodeByTG@Weoworks/GFW绕过我吧...","cipher":"aes-256-gcm"}
-  - {"name":"🇸🇬_电报频道：+mfjdpd","type":"trojan","server":"kbawssg2.aiopen.cfd","port":443,"udp":true,"password":"106741c8-61c9-4119-af91-05d5898e2709","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true}
-  - {"name":"🇸🇬AWS新加坡1","type":"trojan","server":"gsawssg1.aiopen.cfd","port":443,"udp":true,"password":"9e74cdd5-3064-4ff2-bf47-f7eaf301f881","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":false}
-  - {"name":"🇸🇬AWS新加坡3","type":"trojan","server":"gsawssg2.aiopen.cfd","port":443,"udp":true,"password":"9e74cdd5-3064-4ff2-bf47-f7eaf301f881","sni":"20-212-60-88.nhost.00cdn.com","skip-cert-verify":false}
-  - {"name":"🇸🇬SG-172.104.177.105-5230","type":"trojan","server":"w12.udpgw.com","port":443,"udp":true,"password":"08964210-e7b8-11ec-95aa-1239d0255272","skip-cert-verify":true}
-  - {"name":"🇺🇸_电报频道： mfjdpd","type":"vmess","server":"cfcdn5.sanfencdn.net","port":2052,"cipher":"auto","uuid":"0e1215e4-aa7a-47ac-bbf9-27b84565eee5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"jp5.sanfencdn2.com"}}}
-  - {"name":"🇺🇸US-129.146.170.59-2556","type":"vmess","server":"px-002.xiaoxiaobujidao.xyz","port":12002,"cipher":"auto","uuid":"0a78837f-c9ad-3d6a-92dc-9d7cf813a0d4","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/xiaodao?ed=2048","headers":{"host":"px-002.xiaoxiaobujidao.xyz"}}}
-  - {"name":"🏁RELAY-172.64.192.25-0211","type":"vmess","server":"cfcdn5.sanfencdn.net","port":2052,"cipher":"auto","uuid":"0e1215e4-aa7a-47ac-bbf9-27b84565eee5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zh-cn","headers":{"host":"jp5.sanfencdn2.com"}}}
+  - {"name":"🇩🇿阿尔及利亚","type":"ssr","server":"sql.accessconnect.cc","port":1116,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"2898898300.www.gov.hk","protocol-param":"98300:magnetic222222Ab","group":"nodesCatch"}
+  - {"name":"🇫🇴法罗群岛","type":"ssr","server":"sql.accessconnect.cc","port":2202,"password":"di15PV","cipher":"rc4-md5","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"2898898300.www.gov.hk","protocol-param":"98300:magnetic222222Ab","group":"nodesCatch"}
+  - {"name":"🇫🇷FR-57.128.173.6-0202","type":"trojan","server":"57.128.173.6","port":443,"udp":true,"password":"29f2cf65-f0ee-4a08-83f3-df1beb74d55d","sni":"www.speedtest.net","skip-cert-verify":true}
+  - {"name":"🇬🇷希腊","type":"ssr","server":"sql.accessconnect.cc","port":2109,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"2898898300.www.gov.hk","protocol-param":"98300:magnetic222222Ab","group":"nodesCatch"}
+  - {"name":"🇭🇺匈牙利","type":"ssr","server":"sql.accessconnect.cc","port":1112,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"2898898300.www.gov.hk","protocol-param":"98300:magnetic222222Ab","group":"nodesCatch"}
+  - {"name":"🇮🇳印度","type":"ssr","server":"sql.accessconnect.cc","port":2102,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"2898898300.www.gov.hk","protocol-param":"98300:magnetic222222Ab","group":"nodesCatch"}
+  - {"name":"🇯🇵JP-20.18.40.177-1994","type":"trojan","server":"spus.1234567890spcloud.com","port":443,"udp":true,"password":"2340ce25-8e01-4194-a761-f30e2bdc5c0b","skip-cert-verify":true}
+  - {"name":"🇰🇷韩国","type":"ssr","server":"sql.accessconnect.cc","port":2107,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"2898898300.www.gov.hk","protocol-param":"98300:magnetic222222Ab","group":"nodesCatch"}
+  - {"name":"🇲🇽墨西哥","type":"ssr","server":"sql.accessconnect.cc","port":2103,"password":"di15PV","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","protocol":"auth_aes128_md5","obfs-param":"2898898300.www.gov.hk","protocol-param":"98300:magnetic222222Ab","group":"nodesCatch"}
+  - {"name":"🇸🇬SG-5.44.249.43-5293","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"ffec9f6ea19e1dd1","skip-cert-verify":true}
+  - {"name":"🇺🇸US-64.64.247.178-16101","type":"trojan","server":"64.64.247.178","port":42014,"udp":true,"password":"james007","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - JP_134+|11.53Mb
-      - JP_136+|32.23Mb
-      - JP_136+|34.92Mb
-      - SG_164+|+7.63Mb
-      - SG_166+|+6.68Mb
-      - SG_169+|20.17Mb
-      - SG_170+|23.47Mb
-      - SG_电报频道：+@mfjdpd_1
-      - SG_电报频道：+@mfjdpd_2
-      - US_364+|12.44Mb
-      - 🇨🇳+台湾01
-      - 🇨🇳_电报频道： @mfjdpd
-      - 🇨🇳CN-144.48.66.166-9586
-      - 🇨🇳CN-183.240.220.99-7058
+      - Alien_1
+      - Alien_2
+      - Alien_3
+      - AU_09+|+9.91Mb
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - https://t.me/zyfx8_3
+      - https://t.me/zyfx8_4
+      - https://t.me/zyfx8_5
+      - https://t.me/zyfx8_6
+      - https://t.me/zyfx8_7
+      - https://t.me/zyfx8_8
+      - US_353+|19.69Mb
+      - US_415
+      - 🇧🇿伯利兹
+      - 🇨🇱智利
       - 🇨🇳CN-47.93.231.218-9664
-      - 🇭🇰AWS香港1
-      - 🇭🇰AWS香港3
-      - 🇯🇵+日本01
-      - 🇯🇵AWS日本1
-      - 🇯🇵AWS日本3
-      - 🇯🇵JP-185.212.56.168-10086
-      - 🇯🇵JP-20.210.234.145-10109
-      - 🇯🇵日本02+|+高速专线
-      - 🇯🇵日本03+|+高速专线
-      - 🇯🇵日本04+|+高速专线
-      - 🇰🇷KR-140.238.12.83-10064
-      - 🇷🇺RU-45.144.179.138-3183
-      - 🇸🇬+狮城+tg@freeVPNjd
-      - 🇸🇬_电报频道：+mfjdpd
-      - 🇸🇬AWS新加坡1
-      - 🇸🇬AWS新加坡3
-      - 🇸🇬SG-172.104.177.105-5230
-      - 🇺🇸_电报频道： mfjdpd
-      - 🇺🇸US-129.146.170.59-2556
-      - 🏁RELAY-172.64.192.25-0211
+      - 🇩🇿阿尔及利亚
+      - 🇫🇴法罗群岛
+      - 🇫🇷FR-57.128.173.6-0202
+      - 🇬🇷希腊
+      - 🇭🇺匈牙利
+      - 🇮🇳印度
+      - 🇯🇵JP-20.18.40.177-1994
+      - 🇰🇷韩国
+      - 🇲🇽墨西哥
+      - 🇸🇬SG-5.44.249.43-5293
+      - 🇺🇸US-64.64.247.178-16101
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - JP_134+|11.53Mb
-      - JP_136+|32.23Mb
-      - JP_136+|34.92Mb
-      - SG_164+|+7.63Mb
-      - SG_166+|+6.68Mb
-      - SG_169+|20.17Mb
-      - SG_170+|23.47Mb
-      - SG_电报频道：+@mfjdpd_1
-      - SG_电报频道：+@mfjdpd_2
-      - US_364+|12.44Mb
-      - 🇨🇳+台湾01
-      - 🇨🇳_电报频道： @mfjdpd
-      - 🇨🇳CN-144.48.66.166-9586
-      - 🇨🇳CN-183.240.220.99-7058
+      - Alien_1
+      - Alien_2
+      - Alien_3
+      - AU_09+|+9.91Mb
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - https://t.me/zyfx8_3
+      - https://t.me/zyfx8_4
+      - https://t.me/zyfx8_5
+      - https://t.me/zyfx8_6
+      - https://t.me/zyfx8_7
+      - https://t.me/zyfx8_8
+      - US_353+|19.69Mb
+      - US_415
+      - 🇧🇿伯利兹
+      - 🇨🇱智利
       - 🇨🇳CN-47.93.231.218-9664
-      - 🇭🇰AWS香港1
-      - 🇭🇰AWS香港3
-      - 🇯🇵+日本01
-      - 🇯🇵AWS日本1
-      - 🇯🇵AWS日本3
-      - 🇯🇵JP-185.212.56.168-10086
-      - 🇯🇵JP-20.210.234.145-10109
-      - 🇯🇵日本02+|+高速专线
-      - 🇯🇵日本03+|+高速专线
-      - 🇯🇵日本04+|+高速专线
-      - 🇰🇷KR-140.238.12.83-10064
-      - 🇷🇺RU-45.144.179.138-3183
-      - 🇸🇬+狮城+tg@freeVPNjd
-      - 🇸🇬_电报频道：+mfjdpd
-      - 🇸🇬AWS新加坡1
-      - 🇸🇬AWS新加坡3
-      - 🇸🇬SG-172.104.177.105-5230
-      - 🇺🇸_电报频道： mfjdpd
-      - 🇺🇸US-129.146.170.59-2556
-      - 🏁RELAY-172.64.192.25-0211
+      - 🇩🇿阿尔及利亚
+      - 🇫🇴法罗群岛
+      - 🇫🇷FR-57.128.173.6-0202
+      - 🇬🇷希腊
+      - 🇭🇺匈牙利
+      - 🇮🇳印度
+      - 🇯🇵JP-20.18.40.177-1994
+      - 🇰🇷韩国
+      - 🇲🇽墨西哥
+      - 🇸🇬SG-5.44.249.43-5293
+      - 🇺🇸US-64.64.247.178-16101
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - JP_134+|11.53Mb
-      - JP_136+|32.23Mb
-      - JP_136+|34.92Mb
-      - SG_164+|+7.63Mb
-      - SG_166+|+6.68Mb
-      - SG_169+|20.17Mb
-      - SG_170+|23.47Mb
-      - SG_电报频道：+@mfjdpd_1
-      - SG_电报频道：+@mfjdpd_2
-      - US_364+|12.44Mb
-      - 🇨🇳+台湾01
-      - 🇨🇳_电报频道： @mfjdpd
-      - 🇨🇳CN-144.48.66.166-9586
-      - 🇨🇳CN-183.240.220.99-7058
+      - Alien_1
+      - Alien_2
+      - Alien_3
+      - AU_09+|+9.91Mb
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - https://t.me/zyfx8_3
+      - https://t.me/zyfx8_4
+      - https://t.me/zyfx8_5
+      - https://t.me/zyfx8_6
+      - https://t.me/zyfx8_7
+      - https://t.me/zyfx8_8
+      - US_353+|19.69Mb
+      - US_415
+      - 🇧🇿伯利兹
+      - 🇨🇱智利
       - 🇨🇳CN-47.93.231.218-9664
-      - 🇭🇰AWS香港1
-      - 🇭🇰AWS香港3
-      - 🇯🇵+日本01
-      - 🇯🇵AWS日本1
-      - 🇯🇵AWS日本3
-      - 🇯🇵JP-185.212.56.168-10086
-      - 🇯🇵JP-20.210.234.145-10109
-      - 🇯🇵日本02+|+高速专线
-      - 🇯🇵日本03+|+高速专线
-      - 🇯🇵日本04+|+高速专线
-      - 🇰🇷KR-140.238.12.83-10064
-      - 🇷🇺RU-45.144.179.138-3183
-      - 🇸🇬+狮城+tg@freeVPNjd
-      - 🇸🇬_电报频道：+mfjdpd
-      - 🇸🇬AWS新加坡1
-      - 🇸🇬AWS新加坡3
-      - 🇸🇬SG-172.104.177.105-5230
-      - 🇺🇸_电报频道： mfjdpd
-      - 🇺🇸US-129.146.170.59-2556
-      - 🏁RELAY-172.64.192.25-0211
+      - 🇩🇿阿尔及利亚
+      - 🇫🇴法罗群岛
+      - 🇫🇷FR-57.128.173.6-0202
+      - 🇬🇷希腊
+      - 🇭🇺匈牙利
+      - 🇮🇳印度
+      - 🇯🇵JP-20.18.40.177-1994
+      - 🇰🇷韩国
+      - 🇲🇽墨西哥
+      - 🇸🇬SG-5.44.249.43-5293
+      - 🇺🇸US-64.64.247.178-16101
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - JP_134+|11.53Mb
-      - JP_136+|32.23Mb
-      - JP_136+|34.92Mb
-      - SG_164+|+7.63Mb
-      - SG_166+|+6.68Mb
-      - SG_169+|20.17Mb
-      - SG_170+|23.47Mb
-      - SG_电报频道：+@mfjdpd_1
-      - SG_电报频道：+@mfjdpd_2
-      - US_364+|12.44Mb
-      - 🇨🇳+台湾01
-      - 🇨🇳_电报频道： @mfjdpd
-      - 🇨🇳CN-144.48.66.166-9586
-      - 🇨🇳CN-183.240.220.99-7058
+      - Alien_1
+      - Alien_2
+      - Alien_3
+      - AU_09+|+9.91Mb
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - https://t.me/zyfx8_3
+      - https://t.me/zyfx8_4
+      - https://t.me/zyfx8_5
+      - https://t.me/zyfx8_6
+      - https://t.me/zyfx8_7
+      - https://t.me/zyfx8_8
+      - US_353+|19.69Mb
+      - US_415
+      - 🇧🇿伯利兹
+      - 🇨🇱智利
       - 🇨🇳CN-47.93.231.218-9664
-      - 🇭🇰AWS香港1
-      - 🇭🇰AWS香港3
-      - 🇯🇵+日本01
-      - 🇯🇵AWS日本1
-      - 🇯🇵AWS日本3
-      - 🇯🇵JP-185.212.56.168-10086
-      - 🇯🇵JP-20.210.234.145-10109
-      - 🇯🇵日本02+|+高速专线
-      - 🇯🇵日本03+|+高速专线
-      - 🇯🇵日本04+|+高速专线
-      - 🇰🇷KR-140.238.12.83-10064
-      - 🇷🇺RU-45.144.179.138-3183
-      - 🇸🇬+狮城+tg@freeVPNjd
-      - 🇸🇬_电报频道：+mfjdpd
-      - 🇸🇬AWS新加坡1
-      - 🇸🇬AWS新加坡3
-      - 🇸🇬SG-172.104.177.105-5230
-      - 🇺🇸_电报频道： mfjdpd
-      - 🇺🇸US-129.146.170.59-2556
-      - 🏁RELAY-172.64.192.25-0211
+      - 🇩🇿阿尔及利亚
+      - 🇫🇴法罗群岛
+      - 🇫🇷FR-57.128.173.6-0202
+      - 🇬🇷希腊
+      - 🇭🇺匈牙利
+      - 🇮🇳印度
+      - 🇯🇵JP-20.18.40.177-1994
+      - 🇰🇷韩国
+      - 🇲🇽墨西哥
+      - 🇸🇬SG-5.44.249.43-5293
+      - 🇺🇸US-64.64.247.178-16101
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - JP_134+|11.53Mb
-      - JP_136+|32.23Mb
-      - JP_136+|34.92Mb
-      - SG_164+|+7.63Mb
-      - SG_166+|+6.68Mb
-      - SG_169+|20.17Mb
-      - SG_170+|23.47Mb
-      - SG_电报频道：+@mfjdpd_1
-      - SG_电报频道：+@mfjdpd_2
-      - US_364+|12.44Mb
-      - 🇨🇳+台湾01
-      - 🇨🇳_电报频道： @mfjdpd
-      - 🇨🇳CN-144.48.66.166-9586
-      - 🇨🇳CN-183.240.220.99-7058
+      - Alien_1
+      - Alien_2
+      - Alien_3
+      - AU_09+|+9.91Mb
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - https://t.me/zyfx8_3
+      - https://t.me/zyfx8_4
+      - https://t.me/zyfx8_5
+      - https://t.me/zyfx8_6
+      - https://t.me/zyfx8_7
+      - https://t.me/zyfx8_8
+      - US_353+|19.69Mb
+      - US_415
+      - 🇧🇿伯利兹
+      - 🇨🇱智利
       - 🇨🇳CN-47.93.231.218-9664
-      - 🇭🇰AWS香港1
-      - 🇭🇰AWS香港3
-      - 🇯🇵+日本01
-      - 🇯🇵AWS日本1
-      - 🇯🇵AWS日本3
-      - 🇯🇵JP-185.212.56.168-10086
-      - 🇯🇵JP-20.210.234.145-10109
-      - 🇯🇵日本02+|+高速专线
-      - 🇯🇵日本03+|+高速专线
-      - 🇯🇵日本04+|+高速专线
-      - 🇰🇷KR-140.238.12.83-10064
-      - 🇷🇺RU-45.144.179.138-3183
-      - 🇸🇬+狮城+tg@freeVPNjd
-      - 🇸🇬_电报频道：+mfjdpd
-      - 🇸🇬AWS新加坡1
-      - 🇸🇬AWS新加坡3
-      - 🇸🇬SG-172.104.177.105-5230
-      - 🇺🇸_电报频道： mfjdpd
-      - 🇺🇸US-129.146.170.59-2556
-      - 🏁RELAY-172.64.192.25-0211
+      - 🇩🇿阿尔及利亚
+      - 🇫🇴法罗群岛
+      - 🇫🇷FR-57.128.173.6-0202
+      - 🇬🇷希腊
+      - 🇭🇺匈牙利
+      - 🇮🇳印度
+      - 🇯🇵JP-20.18.40.177-1994
+      - 🇰🇷韩国
+      - 🇲🇽墨西哥
+      - 🇸🇬SG-5.44.249.43-5293
+      - 🇺🇸US-64.64.247.178-16101
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - JP_134+|11.53Mb
-      - JP_136+|32.23Mb
-      - JP_136+|34.92Mb
-      - SG_164+|+7.63Mb
-      - SG_166+|+6.68Mb
-      - SG_169+|20.17Mb
-      - SG_170+|23.47Mb
-      - SG_电报频道：+@mfjdpd_1
-      - SG_电报频道：+@mfjdpd_2
-      - US_364+|12.44Mb
-      - 🇨🇳+台湾01
-      - 🇨🇳_电报频道： @mfjdpd
-      - 🇨🇳CN-144.48.66.166-9586
-      - 🇨🇳CN-183.240.220.99-7058
+      - Alien_1
+      - Alien_2
+      - Alien_3
+      - AU_09+|+9.91Mb
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - https://t.me/zyfx8_3
+      - https://t.me/zyfx8_4
+      - https://t.me/zyfx8_5
+      - https://t.me/zyfx8_6
+      - https://t.me/zyfx8_7
+      - https://t.me/zyfx8_8
+      - US_353+|19.69Mb
+      - US_415
+      - 🇧🇿伯利兹
+      - 🇨🇱智利
       - 🇨🇳CN-47.93.231.218-9664
-      - 🇭🇰AWS香港1
-      - 🇭🇰AWS香港3
-      - 🇯🇵+日本01
-      - 🇯🇵AWS日本1
-      - 🇯🇵AWS日本3
-      - 🇯🇵JP-185.212.56.168-10086
-      - 🇯🇵JP-20.210.234.145-10109
-      - 🇯🇵日本02+|+高速专线
-      - 🇯🇵日本03+|+高速专线
-      - 🇯🇵日本04+|+高速专线
-      - 🇰🇷KR-140.238.12.83-10064
-      - 🇷🇺RU-45.144.179.138-3183
-      - 🇸🇬+狮城+tg@freeVPNjd
-      - 🇸🇬_电报频道：+mfjdpd
-      - 🇸🇬AWS新加坡1
-      - 🇸🇬AWS新加坡3
-      - 🇸🇬SG-172.104.177.105-5230
-      - 🇺🇸_电报频道： mfjdpd
-      - 🇺🇸US-129.146.170.59-2556
-      - 🏁RELAY-172.64.192.25-0211
+      - 🇩🇿阿尔及利亚
+      - 🇫🇴法罗群岛
+      - 🇫🇷FR-57.128.173.6-0202
+      - 🇬🇷希腊
+      - 🇭🇺匈牙利
+      - 🇮🇳印度
+      - 🇯🇵JP-20.18.40.177-1994
+      - 🇰🇷韩国
+      - 🇲🇽墨西哥
+      - 🇸🇬SG-5.44.249.43-5293
+      - 🇺🇸US-64.64.247.178-16101
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -321,41 +272,34 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - JP_134+|11.53Mb
-      - JP_136+|32.23Mb
-      - JP_136+|34.92Mb
-      - SG_164+|+7.63Mb
-      - SG_166+|+6.68Mb
-      - SG_169+|20.17Mb
-      - SG_170+|23.47Mb
-      - SG_电报频道：+@mfjdpd_1
-      - SG_电报频道：+@mfjdpd_2
-      - US_364+|12.44Mb
-      - 🇨🇳+台湾01
-      - 🇨🇳_电报频道： @mfjdpd
-      - 🇨🇳CN-144.48.66.166-9586
-      - 🇨🇳CN-183.240.220.99-7058
+      - Alien_1
+      - Alien_2
+      - Alien_3
+      - AU_09+|+9.91Mb
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - https://t.me/zyfx8_3
+      - https://t.me/zyfx8_4
+      - https://t.me/zyfx8_5
+      - https://t.me/zyfx8_6
+      - https://t.me/zyfx8_7
+      - https://t.me/zyfx8_8
+      - US_353+|19.69Mb
+      - US_415
+      - 🇧🇿伯利兹
+      - 🇨🇱智利
       - 🇨🇳CN-47.93.231.218-9664
-      - 🇭🇰AWS香港1
-      - 🇭🇰AWS香港3
-      - 🇯🇵+日本01
-      - 🇯🇵AWS日本1
-      - 🇯🇵AWS日本3
-      - 🇯🇵JP-185.212.56.168-10086
-      - 🇯🇵JP-20.210.234.145-10109
-      - 🇯🇵日本02+|+高速专线
-      - 🇯🇵日本03+|+高速专线
-      - 🇯🇵日本04+|+高速专线
-      - 🇰🇷KR-140.238.12.83-10064
-      - 🇷🇺RU-45.144.179.138-3183
-      - 🇸🇬+狮城+tg@freeVPNjd
-      - 🇸🇬_电报频道：+mfjdpd
-      - 🇸🇬AWS新加坡1
-      - 🇸🇬AWS新加坡3
-      - 🇸🇬SG-172.104.177.105-5230
-      - 🇺🇸_电报频道： mfjdpd
-      - 🇺🇸US-129.146.170.59-2556
-      - 🏁RELAY-172.64.192.25-0211
+      - 🇩🇿阿尔及利亚
+      - 🇫🇴法罗群岛
+      - 🇫🇷FR-57.128.173.6-0202
+      - 🇬🇷希腊
+      - 🇭🇺匈牙利
+      - 🇮🇳印度
+      - 🇯🇵JP-20.18.40.177-1994
+      - 🇰🇷韩国
+      - 🇲🇽墨西哥
+      - 🇸🇬SG-5.44.249.43-5293
+      - 🇺🇸US-64.64.247.178-16101
 
 rules:
 # 本地/局域网地址
