@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-07-31 10:00:28
+# 创建时间：2023-08-03 09:08:16
 # 使用模版：V2RaySE 默认模版
-# 节点数量：11
+# 节点数量：17
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,116 +21,158 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🏁RELAY-198.41.215.67-0455","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"lv2.scproxy.top"}}}
-  - {"name":"🏁RELAY-198.41.215.67-0452","type":"vmess","server":"cf-lt.sharecentre.online","port":80,"cipher":"auto","uuid":"5f751c6e-50b1-4797-ba8e-6ffe324a0bce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/shirker","headers":{"host":"nl3.sharecentrepro.org"}}}
-  - {"name":"🏁RELAY-172.67.184.13-0169","type":"vmess","server":"mrb.shabijichang.com","port":80,"cipher":"auto","uuid":"f0570f9c-d688-4bc0-ab35-0b18de2c115f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"mrb.shabijichang.com"}}}
-  - {"name":"🏁RELAY-172.67.184.13-0157","type":"vmess","server":"ml.shabijichang.com","port":80,"cipher":"auto","uuid":"f0570f9c-d688-4bc0-ab35-0b18de2c115f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ml.shabijichang.com"}}}
-  - {"name":"🏁RELAY-104.21.75.246-0190","type":"vmess","server":"wnd.shabijichang.com","port":80,"cipher":"auto","uuid":"f0570f9c-d688-4bc0-ab35-0b18de2c115f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"wnd.shabijichang.com"}}}
-  - {"name":"🏁RELAY-104.21.75.246-0121","type":"vmess","server":"db.shabijichang.com","port":80,"cipher":"auto","uuid":"f0570f9c-d688-4bc0-ab35-0b18de2c115f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"db.shabijichang.com"}}}
-  - {"name":"🏁RELAY-104.21.75.246-0106","type":"vmess","server":"sbl.shabijichang.com","port":80,"cipher":"auto","uuid":"f0570f9c-d688-4bc0-ab35-0b18de2c115f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"sbl.shabijichang.com"}}}
-  - {"name":"🇺🇸US-15.204.210.176-9388","type":"trojan","server":"15.204.210.176","port":80,"udp":true,"password":"c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f","skip-cert-verify":true}
-  - {"name":"🇷🇺RU-45.144.179.138-2381","type":"vmess","server":"45.144.179.138","port":443,"cipher":"auto","uuid":"96cbe4a6-5728-42df-dc7a-ceb9b51a3db5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http"}
-  - {"name":"🇷🇺_电报频道 @mfjdpd","type":"vmess","server":"45.144.179.138","port":443,"cipher":"auto","uuid":"96cbe4a6-5728-42df-dc7a-ceb9b51a3db5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"http","http-opts":{"path":["/"]}}
-  - {"name":"🇫🇷FR-57.128.173.6-0202","type":"trojan","server":"57.128.173.6","port":443,"udp":true,"password":"29f2cf65-f0ee-4a08-83f3-df1beb74d55d","sni":"www.speedtest.net","skip-cert-verify":true}
+  - {"name":"中转+🤔+unknown+17","type":"ss","server":"yd-02.paofunlink.com","port":1173,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"中转+🤔+unknown+53","type":"ss","server":"yd-03.paofunlink.com","port":1155,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"中转+🤔+unknown+20","type":"ss","server":"yd-05.paofunlink.com","port":1190,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"defaultName_1","type":"ss","server":"221.150.109.6","port":2003,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"defaultName_2","type":"ss","server":"221.150.109.67","port":2003,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"中转+🤔+unknown+70","type":"ss","server":"yd-04.paofunlink.com","port":5989,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"中转+🤔+unknown+64","type":"ss","server":"yd-04.paofunlink.com","port":5983,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"中转+🤔+unknown+33","type":"ss","server":"yd-02.paofunlink.com","port":1183,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"中转+🤔+unknown+58","type":"ss","server":"yd-03.paofunlink.com","port":1186,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"中转+🤔+unknown+69","type":"ss","server":"yd-04.paofunlink.com","port":5988,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"中转+🤔+unknown+59","type":"ss","server":"yd-03.paofunlink.com","port":1187,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"中转+🤔+unknown+26","type":"ss","server":"yd-05.paofunlink.com","port":1151,"password":"Paofu","cipher":"rc4-md5","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"defaultName_3","type":"ss","server":"222.112.15.132","port":21145,"password":"qwerREWQ@@","cipher":"aes-256-cfb"}
+  - {"name":"https://t.me/zyfx8_1","type":"ssr","server":"yd-02.paofunlink.com","port":1074,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"2c03f263429.microsoft.com","protocol-param":"263429:VZjh4y","group":"nodesCatch"}
+  - {"name":"https://t.me/zyfx8_2","type":"ssr","server":"yd-05.paofunlink.com","port":1091,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"2c03f263429.microsoft.com","protocol-param":"263429:VZjh4y","group":"nodesCatch"}
+  - {"name":"https://t.me/zyfx8_3","type":"ssr","server":"yd-02.paofunlink.com","port":1092,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"2c03f263429.microsoft.com","protocol-param":"263429:VZjh4y","group":"nodesCatch"}
+  - {"name":"https://t.me/zyfx8_4","type":"ssr","server":"yd-03.paofunlink.com","port":1096,"password":"bxsnucrgk6hfish","cipher":"chacha20-ietf","obfs":"plain","protocol":"auth_aes128_sha1","obfs-param":"2c03f263429.microsoft.com","protocol-param":"263429:VZjh4y","group":"nodesCatch"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🏁RELAY-198.41.215.67-0455
-      - 🏁RELAY-198.41.215.67-0452
-      - 🏁RELAY-172.67.184.13-0169
-      - 🏁RELAY-172.67.184.13-0157
-      - 🏁RELAY-104.21.75.246-0190
-      - 🏁RELAY-104.21.75.246-0121
-      - 🏁RELAY-104.21.75.246-0106
-      - 🇺🇸US-15.204.210.176-9388
-      - 🇷🇺RU-45.144.179.138-2381
-      - 🇷🇺_电报频道 @mfjdpd
-      - 🇫🇷FR-57.128.173.6-0202
+      - 中转+🤔+unknown+17
+      - 中转+🤔+unknown+53
+      - 中转+🤔+unknown+20
+      - defaultName_1
+      - defaultName_2
+      - 中转+🤔+unknown+70
+      - 中转+🤔+unknown+64
+      - 中转+🤔+unknown+33
+      - 中转+🤔+unknown+58
+      - 中转+🤔+unknown+69
+      - 中转+🤔+unknown+59
+      - 中转+🤔+unknown+26
+      - defaultName_3
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - https://t.me/zyfx8_3
+      - https://t.me/zyfx8_4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🏁RELAY-198.41.215.67-0455
-      - 🏁RELAY-198.41.215.67-0452
-      - 🏁RELAY-172.67.184.13-0169
-      - 🏁RELAY-172.67.184.13-0157
-      - 🏁RELAY-104.21.75.246-0190
-      - 🏁RELAY-104.21.75.246-0121
-      - 🏁RELAY-104.21.75.246-0106
-      - 🇺🇸US-15.204.210.176-9388
-      - 🇷🇺RU-45.144.179.138-2381
-      - 🇷🇺_电报频道 @mfjdpd
-      - 🇫🇷FR-57.128.173.6-0202
+      - 中转+🤔+unknown+17
+      - 中转+🤔+unknown+53
+      - 中转+🤔+unknown+20
+      - defaultName_1
+      - defaultName_2
+      - 中转+🤔+unknown+70
+      - 中转+🤔+unknown+64
+      - 中转+🤔+unknown+33
+      - 中转+🤔+unknown+58
+      - 中转+🤔+unknown+69
+      - 中转+🤔+unknown+59
+      - 中转+🤔+unknown+26
+      - defaultName_3
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - https://t.me/zyfx8_3
+      - https://t.me/zyfx8_4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🏁RELAY-198.41.215.67-0455
-      - 🏁RELAY-198.41.215.67-0452
-      - 🏁RELAY-172.67.184.13-0169
-      - 🏁RELAY-172.67.184.13-0157
-      - 🏁RELAY-104.21.75.246-0190
-      - 🏁RELAY-104.21.75.246-0121
-      - 🏁RELAY-104.21.75.246-0106
-      - 🇺🇸US-15.204.210.176-9388
-      - 🇷🇺RU-45.144.179.138-2381
-      - 🇷🇺_电报频道 @mfjdpd
-      - 🇫🇷FR-57.128.173.6-0202
+      - 中转+🤔+unknown+17
+      - 中转+🤔+unknown+53
+      - 中转+🤔+unknown+20
+      - defaultName_1
+      - defaultName_2
+      - 中转+🤔+unknown+70
+      - 中转+🤔+unknown+64
+      - 中转+🤔+unknown+33
+      - 中转+🤔+unknown+58
+      - 中转+🤔+unknown+69
+      - 中转+🤔+unknown+59
+      - 中转+🤔+unknown+26
+      - defaultName_3
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - https://t.me/zyfx8_3
+      - https://t.me/zyfx8_4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🏁RELAY-198.41.215.67-0455
-      - 🏁RELAY-198.41.215.67-0452
-      - 🏁RELAY-172.67.184.13-0169
-      - 🏁RELAY-172.67.184.13-0157
-      - 🏁RELAY-104.21.75.246-0190
-      - 🏁RELAY-104.21.75.246-0121
-      - 🏁RELAY-104.21.75.246-0106
-      - 🇺🇸US-15.204.210.176-9388
-      - 🇷🇺RU-45.144.179.138-2381
-      - 🇷🇺_电报频道 @mfjdpd
-      - 🇫🇷FR-57.128.173.6-0202
+      - 中转+🤔+unknown+17
+      - 中转+🤔+unknown+53
+      - 中转+🤔+unknown+20
+      - defaultName_1
+      - defaultName_2
+      - 中转+🤔+unknown+70
+      - 中转+🤔+unknown+64
+      - 中转+🤔+unknown+33
+      - 中转+🤔+unknown+58
+      - 中转+🤔+unknown+69
+      - 中转+🤔+unknown+59
+      - 中转+🤔+unknown+26
+      - defaultName_3
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - https://t.me/zyfx8_3
+      - https://t.me/zyfx8_4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🏁RELAY-198.41.215.67-0455
-      - 🏁RELAY-198.41.215.67-0452
-      - 🏁RELAY-172.67.184.13-0169
-      - 🏁RELAY-172.67.184.13-0157
-      - 🏁RELAY-104.21.75.246-0190
-      - 🏁RELAY-104.21.75.246-0121
-      - 🏁RELAY-104.21.75.246-0106
-      - 🇺🇸US-15.204.210.176-9388
-      - 🇷🇺RU-45.144.179.138-2381
-      - 🇷🇺_电报频道 @mfjdpd
-      - 🇫🇷FR-57.128.173.6-0202
+      - 中转+🤔+unknown+17
+      - 中转+🤔+unknown+53
+      - 中转+🤔+unknown+20
+      - defaultName_1
+      - defaultName_2
+      - 中转+🤔+unknown+70
+      - 中转+🤔+unknown+64
+      - 中转+🤔+unknown+33
+      - 中转+🤔+unknown+58
+      - 中转+🤔+unknown+69
+      - 中转+🤔+unknown+59
+      - 中转+🤔+unknown+26
+      - defaultName_3
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - https://t.me/zyfx8_3
+      - https://t.me/zyfx8_4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🏁RELAY-198.41.215.67-0455
-      - 🏁RELAY-198.41.215.67-0452
-      - 🏁RELAY-172.67.184.13-0169
-      - 🏁RELAY-172.67.184.13-0157
-      - 🏁RELAY-104.21.75.246-0190
-      - 🏁RELAY-104.21.75.246-0121
-      - 🏁RELAY-104.21.75.246-0106
-      - 🇺🇸US-15.204.210.176-9388
-      - 🇷🇺RU-45.144.179.138-2381
-      - 🇷🇺_电报频道 @mfjdpd
-      - 🇫🇷FR-57.128.173.6-0202
+      - 中转+🤔+unknown+17
+      - 中转+🤔+unknown+53
+      - 中转+🤔+unknown+20
+      - defaultName_1
+      - defaultName_2
+      - 中转+🤔+unknown+70
+      - 中转+🤔+unknown+64
+      - 中转+🤔+unknown+33
+      - 中转+🤔+unknown+58
+      - 中转+🤔+unknown+69
+      - 中转+🤔+unknown+59
+      - 中转+🤔+unknown+26
+      - defaultName_3
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - https://t.me/zyfx8_3
+      - https://t.me/zyfx8_4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -153,17 +195,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🏁RELAY-198.41.215.67-0455
-      - 🏁RELAY-198.41.215.67-0452
-      - 🏁RELAY-172.67.184.13-0169
-      - 🏁RELAY-172.67.184.13-0157
-      - 🏁RELAY-104.21.75.246-0190
-      - 🏁RELAY-104.21.75.246-0121
-      - 🏁RELAY-104.21.75.246-0106
-      - 🇺🇸US-15.204.210.176-9388
-      - 🇷🇺RU-45.144.179.138-2381
-      - 🇷🇺_电报频道 @mfjdpd
-      - 🇫🇷FR-57.128.173.6-0202
+      - 中转+🤔+unknown+17
+      - 中转+🤔+unknown+53
+      - 中转+🤔+unknown+20
+      - defaultName_1
+      - defaultName_2
+      - 中转+🤔+unknown+70
+      - 中转+🤔+unknown+64
+      - 中转+🤔+unknown+33
+      - 中转+🤔+unknown+58
+      - 中转+🤔+unknown+69
+      - 中转+🤔+unknown+59
+      - 中转+🤔+unknown+26
+      - defaultName_3
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - https://t.me/zyfx8_3
+      - https://t.me/zyfx8_4
 
 rules:
 # 本地/局域网地址
