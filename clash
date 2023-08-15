@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-08-07 09:48:58
+# 创建时间：2023-08-15 09:11:18
 # 使用模版：V2RaySE 默认模版
-# 节点数量：18
+# 节点数量：6
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,165 +21,81 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"https://t.me/zyfx8+17","type":"ss","server":"pinjp.cu.edu.kg","port":10142,"password":"4240fddc-ffe5-4a47-8065-07c68972b213","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"https://t.me/zyfx8+7","type":"ss","server":"pinhk.cu.edu.kg","port":10112,"password":"4240fddc-ffe5-4a47-8065-07c68972b213","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"https://t.me/zyfx8+14","type":"ss","server":"pinjp.cu.edu.kg","port":10145,"password":"6111b42e-4fdd-4807-b643-19b9e29492b9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"https://t.me/zyfx8+19","type":"ss","server":"pinjp.cu.edu.kg","port":10144,"password":"4240fddc-ffe5-4a47-8065-07c68972b213","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"https://t.me/zyfx8+29","type":"ss","server":"pinhk.cu.edu.kg","port":10116,"password":"ff42c72a-2617-4aaf-b767-a00f8a7848d9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"https://t.me/zyfx8+32","type":"ss","server":"pinhk.cu.edu.kg","port":10115,"password":"4240fddc-ffe5-4a47-8065-07c68972b213","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"https://t.me/zyfx8+24","type":"ss","server":"pinhk.cu.edu.kg","port":10117,"password":"6111b42e-4fdd-4807-b643-19b9e29492b9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"https://t.me/zyfx8+8","type":"ss","server":"pinhk.cu.edu.kg","port":10119,"password":"6111b42e-4fdd-4807-b643-19b9e29492b9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"https://t.me/zyfx8+15","type":"ss","server":"pinhk.cu.edu.kg","port":10114,"password":"6111b42e-4fdd-4807-b643-19b9e29492b9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"https://t.me/zyfx8+10","type":"ss","server":"pinhk.cu.edu.kg","port":10112,"password":"6111b42e-4fdd-4807-b643-19b9e29492b9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"https://t.me/zyfx8+13","type":"ss","server":"pinjp.cu.edu.kg","port":10145,"password":"4240fddc-ffe5-4a47-8065-07c68972b213","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"https://t.me/zyfx8+5","type":"ss","server":"pinjp.cu.edu.kg","port":10141,"password":"4240fddc-ffe5-4a47-8065-07c68972b213","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"https://t.me/zyfx8+20","type":"ss","server":"pinjp.cu.edu.kg","port":10141,"password":"6111b42e-4fdd-4807-b643-19b9e29492b9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"https://t.me/zyfx8+23","type":"ss","server":"pinhk.cu.edu.kg","port":10120,"password":"6111b42e-4fdd-4807-b643-19b9e29492b9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"https://t.me/zyfx8+11","type":"ss","server":"pinhk.cu.edu.kg","port":10120,"password":"4240fddc-ffe5-4a47-8065-07c68972b213","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"https://t.me/zyfx8+26","type":"ss","server":"pinhk.cu.edu.kg","port":10111,"password":"6111b42e-4fdd-4807-b643-19b9e29492b9","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳_电报频道：@mfjdpd","type":"vmess","server":"114.55.244.11","port":80,"cipher":"auto","uuid":"945f0adf-5255-459b-8fbd-54c9e781f2ee","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇨🇳CN-114.55.244.11-0302","type":"vmess","server":"114.55.244.11","port":80,"cipher":"auto","uuid":"945f0adf-5255-459b-8fbd-54c9e781f2ee","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"🇯🇵_电报频道+@mfjdpd","type":"trojan","server":"kbawsjp2.aiopen.cfd","port":443,"udp":true,"password":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","skip-cert-verify":true}
+  - {"name":"🇸🇬_电报频道+@mfjdpd_1","type":"trojan","server":"kbawssg2.aiopen.cfd","port":443,"udp":true,"password":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true}
+  - {"name":"🇸🇬_电报频道+@mfjdpd_2","type":"trojan","server":"kbawssg1.aiopen.cfd","port":443,"udp":true,"password":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true}
+  - {"name":"🇺🇸US-15.204.210.176-7942","type":"trojan","server":"15.204.210.176","port":80,"udp":true,"password":"c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f","skip-cert-verify":true}
+  - {"name":"🇺🇸_电报频道+@mfjdpd","type":"trojan","server":"15.204.209.50","port":80,"udp":true,"password":"7ea37e4f-325b-416f-901a-67012367307f","sni":"telewebion.com","skip-cert-verify":true}
+  - {"name":"🏁RELAY-162.159.128.168-0990","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/kbjc/jp1","headers":{"host":"jp1.hnokkdf.top"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - https://t.me/zyfx8+17
-      - https://t.me/zyfx8+7
-      - https://t.me/zyfx8+14
-      - https://t.me/zyfx8+19
-      - https://t.me/zyfx8+29
-      - https://t.me/zyfx8+32
-      - https://t.me/zyfx8+24
-      - https://t.me/zyfx8+8
-      - https://t.me/zyfx8+15
-      - https://t.me/zyfx8+10
-      - https://t.me/zyfx8+13
-      - https://t.me/zyfx8+5
-      - https://t.me/zyfx8+20
-      - https://t.me/zyfx8+23
-      - https://t.me/zyfx8+11
-      - https://t.me/zyfx8+26
-      - 🇨🇳_电报频道：@mfjdpd
-      - 🇨🇳CN-114.55.244.11-0302
+      - 🇯🇵_电报频道+@mfjdpd
+      - 🇸🇬_电报频道+@mfjdpd_1
+      - 🇸🇬_电报频道+@mfjdpd_2
+      - 🇺🇸US-15.204.210.176-7942
+      - 🇺🇸_电报频道+@mfjdpd
+      - 🏁RELAY-162.159.128.168-0990
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - https://t.me/zyfx8+17
-      - https://t.me/zyfx8+7
-      - https://t.me/zyfx8+14
-      - https://t.me/zyfx8+19
-      - https://t.me/zyfx8+29
-      - https://t.me/zyfx8+32
-      - https://t.me/zyfx8+24
-      - https://t.me/zyfx8+8
-      - https://t.me/zyfx8+15
-      - https://t.me/zyfx8+10
-      - https://t.me/zyfx8+13
-      - https://t.me/zyfx8+5
-      - https://t.me/zyfx8+20
-      - https://t.me/zyfx8+23
-      - https://t.me/zyfx8+11
-      - https://t.me/zyfx8+26
-      - 🇨🇳_电报频道：@mfjdpd
-      - 🇨🇳CN-114.55.244.11-0302
+      - 🇯🇵_电报频道+@mfjdpd
+      - 🇸🇬_电报频道+@mfjdpd_1
+      - 🇸🇬_电报频道+@mfjdpd_2
+      - 🇺🇸US-15.204.210.176-7942
+      - 🇺🇸_电报频道+@mfjdpd
+      - 🏁RELAY-162.159.128.168-0990
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://t.me/zyfx8+17
-      - https://t.me/zyfx8+7
-      - https://t.me/zyfx8+14
-      - https://t.me/zyfx8+19
-      - https://t.me/zyfx8+29
-      - https://t.me/zyfx8+32
-      - https://t.me/zyfx8+24
-      - https://t.me/zyfx8+8
-      - https://t.me/zyfx8+15
-      - https://t.me/zyfx8+10
-      - https://t.me/zyfx8+13
-      - https://t.me/zyfx8+5
-      - https://t.me/zyfx8+20
-      - https://t.me/zyfx8+23
-      - https://t.me/zyfx8+11
-      - https://t.me/zyfx8+26
-      - 🇨🇳_电报频道：@mfjdpd
-      - 🇨🇳CN-114.55.244.11-0302
+      - 🇯🇵_电报频道+@mfjdpd
+      - 🇸🇬_电报频道+@mfjdpd_1
+      - 🇸🇬_电报频道+@mfjdpd_2
+      - 🇺🇸US-15.204.210.176-7942
+      - 🇺🇸_电报频道+@mfjdpd
+      - 🏁RELAY-162.159.128.168-0990
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - https://t.me/zyfx8+17
-      - https://t.me/zyfx8+7
-      - https://t.me/zyfx8+14
-      - https://t.me/zyfx8+19
-      - https://t.me/zyfx8+29
-      - https://t.me/zyfx8+32
-      - https://t.me/zyfx8+24
-      - https://t.me/zyfx8+8
-      - https://t.me/zyfx8+15
-      - https://t.me/zyfx8+10
-      - https://t.me/zyfx8+13
-      - https://t.me/zyfx8+5
-      - https://t.me/zyfx8+20
-      - https://t.me/zyfx8+23
-      - https://t.me/zyfx8+11
-      - https://t.me/zyfx8+26
-      - 🇨🇳_电报频道：@mfjdpd
-      - 🇨🇳CN-114.55.244.11-0302
+      - 🇯🇵_电报频道+@mfjdpd
+      - 🇸🇬_电报频道+@mfjdpd_1
+      - 🇸🇬_电报频道+@mfjdpd_2
+      - 🇺🇸US-15.204.210.176-7942
+      - 🇺🇸_电报频道+@mfjdpd
+      - 🏁RELAY-162.159.128.168-0990
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - https://t.me/zyfx8+17
-      - https://t.me/zyfx8+7
-      - https://t.me/zyfx8+14
-      - https://t.me/zyfx8+19
-      - https://t.me/zyfx8+29
-      - https://t.me/zyfx8+32
-      - https://t.me/zyfx8+24
-      - https://t.me/zyfx8+8
-      - https://t.me/zyfx8+15
-      - https://t.me/zyfx8+10
-      - https://t.me/zyfx8+13
-      - https://t.me/zyfx8+5
-      - https://t.me/zyfx8+20
-      - https://t.me/zyfx8+23
-      - https://t.me/zyfx8+11
-      - https://t.me/zyfx8+26
-      - 🇨🇳_电报频道：@mfjdpd
-      - 🇨🇳CN-114.55.244.11-0302
+      - 🇯🇵_电报频道+@mfjdpd
+      - 🇸🇬_电报频道+@mfjdpd_1
+      - 🇸🇬_电报频道+@mfjdpd_2
+      - 🇺🇸US-15.204.210.176-7942
+      - 🇺🇸_电报频道+@mfjdpd
+      - 🏁RELAY-162.159.128.168-0990
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - https://t.me/zyfx8+17
-      - https://t.me/zyfx8+7
-      - https://t.me/zyfx8+14
-      - https://t.me/zyfx8+19
-      - https://t.me/zyfx8+29
-      - https://t.me/zyfx8+32
-      - https://t.me/zyfx8+24
-      - https://t.me/zyfx8+8
-      - https://t.me/zyfx8+15
-      - https://t.me/zyfx8+10
-      - https://t.me/zyfx8+13
-      - https://t.me/zyfx8+5
-      - https://t.me/zyfx8+20
-      - https://t.me/zyfx8+23
-      - https://t.me/zyfx8+11
-      - https://t.me/zyfx8+26
-      - 🇨🇳_电报频道：@mfjdpd
-      - 🇨🇳CN-114.55.244.11-0302
+      - 🇯🇵_电报频道+@mfjdpd
+      - 🇸🇬_电报频道+@mfjdpd_1
+      - 🇸🇬_电报频道+@mfjdpd_2
+      - 🇺🇸US-15.204.210.176-7942
+      - 🇺🇸_电报频道+@mfjdpd
+      - 🏁RELAY-162.159.128.168-0990
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -202,24 +118,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://t.me/zyfx8+17
-      - https://t.me/zyfx8+7
-      - https://t.me/zyfx8+14
-      - https://t.me/zyfx8+19
-      - https://t.me/zyfx8+29
-      - https://t.me/zyfx8+32
-      - https://t.me/zyfx8+24
-      - https://t.me/zyfx8+8
-      - https://t.me/zyfx8+15
-      - https://t.me/zyfx8+10
-      - https://t.me/zyfx8+13
-      - https://t.me/zyfx8+5
-      - https://t.me/zyfx8+20
-      - https://t.me/zyfx8+23
-      - https://t.me/zyfx8+11
-      - https://t.me/zyfx8+26
-      - 🇨🇳_电报频道：@mfjdpd
-      - 🇨🇳CN-114.55.244.11-0302
+      - 🇯🇵_电报频道+@mfjdpd
+      - 🇸🇬_电报频道+@mfjdpd_1
+      - 🇸🇬_电报频道+@mfjdpd_2
+      - 🇺🇸US-15.204.210.176-7942
+      - 🇺🇸_电报频道+@mfjdpd
+      - 🏁RELAY-162.159.128.168-0990
 
 rules:
 # 本地/局域网地址
