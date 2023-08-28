@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-08-15 09:11:18
+# 创建时间：2023-08-28 08:58:34
 # 使用模版：V2RaySE 默认模版
-# 节点数量：6
+# 节点数量：28
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,81 +21,235 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"🇯🇵_电报频道+@mfjdpd","type":"trojan","server":"kbawsjp2.aiopen.cfd","port":443,"udp":true,"password":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","skip-cert-verify":true}
-  - {"name":"🇸🇬_电报频道+@mfjdpd_1","type":"trojan","server":"kbawssg2.aiopen.cfd","port":443,"udp":true,"password":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true}
-  - {"name":"🇸🇬_电报频道+@mfjdpd_2","type":"trojan","server":"kbawssg1.aiopen.cfd","port":443,"udp":true,"password":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true}
-  - {"name":"🇺🇸US-15.204.210.176-7942","type":"trojan","server":"15.204.210.176","port":80,"udp":true,"password":"c0fde6ac-a07c-4f60-84ae-e7ed4da78a6f","skip-cert-verify":true}
-  - {"name":"🇺🇸_电报频道+@mfjdpd","type":"trojan","server":"15.204.209.50","port":80,"udp":true,"password":"7ea37e4f-325b-416f-901a-67012367307f","sni":"telewebion.com","skip-cert-verify":true}
-  - {"name":"🏁RELAY-162.159.128.168-0990","type":"vmess","server":"zfc.windowsupdate1.com","port":443,"cipher":"auto","uuid":"3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/kbjc/jp1","headers":{"host":"jp1.hnokkdf.top"}}}
+  - {"name":"https://t.me/zyfx8_1","type":"ss","server":"43.201.61.124","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"https://t.me/zyfx8_2","type":"ss","server":"52.79.125.79","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
+  - {"name":"🇨🇦CA-167.114.153.171-13637","type":"trojan","server":"cat-1.opensvr.net","port":443,"udp":true,"password":"opentunnel.net-newdday","skip-cert-verify":true}
+  - {"name":"🇨🇦CA-51.161.35.200-0155","type":"trojan","server":"51.161.35.200","port":443,"udp":true,"password":"006e3baa-cacd-4530-ae52-d633c4e9056d","sni":"speed.cloudflare.com","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-183.240.220.97-8454","type":"trojan","server":"183.240.220.97","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","sni":"official.taipeicitygovernment.net.ua","skip-cert-verify":true}
+  - {"name":"🇰🇷KR-140.238.12.83-9087","type":"trojan","server":"140.238.12.83","port":443,"udp":true,"password":"a1718180-d616-4b71-9bb6-3e96ba20f921","sni":"jgw3.gaox.ml","skip-cert-verify":true}
+  - {"name":"🇰🇷KR-193.122.127.247-13633","type":"trojan","server":"frontend.yijianlian.app","port":54430,"udp":true,"password":"b5e4e360-5946-470b-aad0-db98f50faa57","skip-cert-verify":true}
+  - {"name":"🇰🇷KR-20.214.107.46-9021","type":"trojan","server":"ar.mjt001.com","port":443,"udp":true,"password":"b00ac480-3e34-4ca9-8b3b-0b4515e4b75d","sni":"ar.mjt001.com","skip-cert-verify":true}
+  - {"name":"🇰🇷KR-20.214.107.46-9419","type":"trojan","server":"pt.mjt001.com","port":443,"udp":true,"password":"b00ac480-3e34-4ca9-8b3b-0b4515e4b75d","sni":"pt.mjt001.com","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-13.229.147.35-9414","type":"trojan","server":"kbawssg2.aiopen.cfd","port":443,"udp":true,"password":"c68e3c20-da73-4791-b4d8-7011a98ba06b","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-20.24.30.158-9086","type":"trojan","server":"lux.mjt001.com","port":443,"udp":true,"password":"ab0b21ff-53d1-4b02-800b-9d7db3aed104","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.43-3879","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"ffec9f6ea19e1dd1","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.43-3881","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"d66013c645b93c5c","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.43-9443","type":"trojan","server":"5.44.249.43","port":3306,"udp":true,"password":"4bacb8f1a089763b","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.44-9451","type":"trojan","server":"5.44.249.44","port":3389,"udp":true,"password":"0c6a3341e8d5ab17","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.52-9441","type":"trojan","server":"5.44.249.52","port":3306,"udp":true,"password":"4bacb8f1a089763b","skip-cert-verify":true}
+  - {"name":"🇺🇸 V004--US-付费推荐:dlj.tf/ssrsub","type":"vmess","server":"cf-lt.sharecentre.online","port":8080,"cipher":"auto","uuid":"4a2ee56d-c70a-4c43-b18b-e1e15013a177","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v02.ssrsub.com"}}}
+  - {"name":"🇺🇸 V005--US-付费推荐:dlj.tf/ssrsub","type":"vmess","server":"ns1.v2-vip.fun","port":8080,"cipher":"auto","uuid":"4a2ee56d-c70a-4c43-b18b-e1e15013a177","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v02.ssrsub.com"}}}
+  - {"name":"🇺🇸 V007--US-付费推荐:dlj.tf/ssrsub","type":"vmess","server":"cf-lt.sharecentre.online","port":8080,"cipher":"auto","uuid":"4a2ee56d-c70a-4c43-b18b-e1e15013a177","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v03.ssrsub.com"}}}
+  - {"name":"🇺🇸US-15.204.209.50-0138","type":"trojan","server":"15.204.209.50","port":80,"udp":true,"password":"7ea37e4f-325b-416f-901a-67012367307f","sni":"telewebion.com","skip-cert-verify":true}
+  - {"name":"🇺🇸US-51.81.82.15-0148","type":"trojan","server":"51.81.82.15","port":443,"udp":true,"password":"0af37de0-423f-11ee-bceb-1239d0255272","sni":"zula.ir","skip-cert-verify":true}
+  - {"name":"🏁RELAY-104.21.31.254-5275","type":"vmess","server":"104.21.31.254","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"panel2.hodorauth.com","network":"ws","ws-opts":{"path":"/vsg1.0bad.com/chat","headers":{"host":"panel2.hodorauth.com"}}}
+  - {"name":"🏁RELAY-104.21.63.185-0099","type":"vmess","server":"ydarm.e5outllok.me","port":80,"cipher":"auto","uuid":"f31c0b34-977b-4c2b-acfa-becfdfc1f267","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ydarm.e5outllok.me"}}}
+  - {"name":"🏁RELAY-172.67.181.226-1173","type":"vmess","server":"dashboard.autoly.ir","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vsg1.0bad.com/chat","headers":{"host":"panel2.hodorauth.com"}}}
+  - {"name":"翻墙党fanqiangdang.com","type":"vmess","server":"iaudhcui.76898102.xyz","port":2052,"cipher":"auto","uuid":"0bb55212-6c02-39d5-8189-e6c5a9f825be","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/nfdguiw","headers":{"host":"asfgdvf.76898102.xyz"}}}
+  - {"name":"美国_【YouTube-VV科技】_24","type":"ss","server":"38.143.66.112","port":9102,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
+  - {"name":"美国_【YouTube-VV科技】_26","type":"ss","server":"140.99.202.42","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"长期更新节点@mftizi","type":"vmess","server":"104.21.31.254","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"panel2.hodorauth.com","network":"ws","ws-opts":{"path":"/vsg1.0bad.com/chat","headers":{"host":"panel2.hodorauth.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵_电报频道+@mfjdpd
-      - 🇸🇬_电报频道+@mfjdpd_1
-      - 🇸🇬_电报频道+@mfjdpd_2
-      - 🇺🇸US-15.204.210.176-7942
-      - 🇺🇸_电报频道+@mfjdpd
-      - 🏁RELAY-162.159.128.168-0990
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - 🇨🇦CA-167.114.153.171-13637
+      - 🇨🇦CA-51.161.35.200-0155
+      - 🇨🇳CN-183.240.220.97-8454
+      - 🇰🇷KR-140.238.12.83-9087
+      - 🇰🇷KR-193.122.127.247-13633
+      - 🇰🇷KR-20.214.107.46-9021
+      - 🇰🇷KR-20.214.107.46-9419
+      - 🇸🇬SG-13.229.147.35-9414
+      - 🇸🇬SG-20.24.30.158-9086
+      - 🇸🇬SG-5.44.249.43-3879
+      - 🇸🇬SG-5.44.249.43-3881
+      - 🇸🇬SG-5.44.249.43-9443
+      - 🇸🇬SG-5.44.249.44-9451
+      - 🇸🇬SG-5.44.249.52-9441
+      - 🇺🇸 V004--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 V005--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 V007--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸US-15.204.209.50-0138
+      - 🇺🇸US-51.81.82.15-0148
+      - 🏁RELAY-104.21.31.254-5275
+      - 🏁RELAY-104.21.63.185-0099
+      - 🏁RELAY-172.67.181.226-1173
+      - 翻墙党fanqiangdang.com
+      - 美国_【YouTube-VV科技】_24
+      - 美国_【YouTube-VV科技】_26
+      - 长期更新节点@mftizi
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵_电报频道+@mfjdpd
-      - 🇸🇬_电报频道+@mfjdpd_1
-      - 🇸🇬_电报频道+@mfjdpd_2
-      - 🇺🇸US-15.204.210.176-7942
-      - 🇺🇸_电报频道+@mfjdpd
-      - 🏁RELAY-162.159.128.168-0990
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - 🇨🇦CA-167.114.153.171-13637
+      - 🇨🇦CA-51.161.35.200-0155
+      - 🇨🇳CN-183.240.220.97-8454
+      - 🇰🇷KR-140.238.12.83-9087
+      - 🇰🇷KR-193.122.127.247-13633
+      - 🇰🇷KR-20.214.107.46-9021
+      - 🇰🇷KR-20.214.107.46-9419
+      - 🇸🇬SG-13.229.147.35-9414
+      - 🇸🇬SG-20.24.30.158-9086
+      - 🇸🇬SG-5.44.249.43-3879
+      - 🇸🇬SG-5.44.249.43-3881
+      - 🇸🇬SG-5.44.249.43-9443
+      - 🇸🇬SG-5.44.249.44-9451
+      - 🇸🇬SG-5.44.249.52-9441
+      - 🇺🇸 V004--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 V005--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 V007--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸US-15.204.209.50-0138
+      - 🇺🇸US-51.81.82.15-0148
+      - 🏁RELAY-104.21.31.254-5275
+      - 🏁RELAY-104.21.63.185-0099
+      - 🏁RELAY-172.67.181.226-1173
+      - 翻墙党fanqiangdang.com
+      - 美国_【YouTube-VV科技】_24
+      - 美国_【YouTube-VV科技】_26
+      - 长期更新节点@mftizi
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵_电报频道+@mfjdpd
-      - 🇸🇬_电报频道+@mfjdpd_1
-      - 🇸🇬_电报频道+@mfjdpd_2
-      - 🇺🇸US-15.204.210.176-7942
-      - 🇺🇸_电报频道+@mfjdpd
-      - 🏁RELAY-162.159.128.168-0990
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - 🇨🇦CA-167.114.153.171-13637
+      - 🇨🇦CA-51.161.35.200-0155
+      - 🇨🇳CN-183.240.220.97-8454
+      - 🇰🇷KR-140.238.12.83-9087
+      - 🇰🇷KR-193.122.127.247-13633
+      - 🇰🇷KR-20.214.107.46-9021
+      - 🇰🇷KR-20.214.107.46-9419
+      - 🇸🇬SG-13.229.147.35-9414
+      - 🇸🇬SG-20.24.30.158-9086
+      - 🇸🇬SG-5.44.249.43-3879
+      - 🇸🇬SG-5.44.249.43-3881
+      - 🇸🇬SG-5.44.249.43-9443
+      - 🇸🇬SG-5.44.249.44-9451
+      - 🇸🇬SG-5.44.249.52-9441
+      - 🇺🇸 V004--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 V005--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 V007--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸US-15.204.209.50-0138
+      - 🇺🇸US-51.81.82.15-0148
+      - 🏁RELAY-104.21.31.254-5275
+      - 🏁RELAY-104.21.63.185-0099
+      - 🏁RELAY-172.67.181.226-1173
+      - 翻墙党fanqiangdang.com
+      - 美国_【YouTube-VV科技】_24
+      - 美国_【YouTube-VV科技】_26
+      - 长期更新节点@mftizi
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵_电报频道+@mfjdpd
-      - 🇸🇬_电报频道+@mfjdpd_1
-      - 🇸🇬_电报频道+@mfjdpd_2
-      - 🇺🇸US-15.204.210.176-7942
-      - 🇺🇸_电报频道+@mfjdpd
-      - 🏁RELAY-162.159.128.168-0990
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - 🇨🇦CA-167.114.153.171-13637
+      - 🇨🇦CA-51.161.35.200-0155
+      - 🇨🇳CN-183.240.220.97-8454
+      - 🇰🇷KR-140.238.12.83-9087
+      - 🇰🇷KR-193.122.127.247-13633
+      - 🇰🇷KR-20.214.107.46-9021
+      - 🇰🇷KR-20.214.107.46-9419
+      - 🇸🇬SG-13.229.147.35-9414
+      - 🇸🇬SG-20.24.30.158-9086
+      - 🇸🇬SG-5.44.249.43-3879
+      - 🇸🇬SG-5.44.249.43-3881
+      - 🇸🇬SG-5.44.249.43-9443
+      - 🇸🇬SG-5.44.249.44-9451
+      - 🇸🇬SG-5.44.249.52-9441
+      - 🇺🇸 V004--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 V005--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 V007--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸US-15.204.209.50-0138
+      - 🇺🇸US-51.81.82.15-0148
+      - 🏁RELAY-104.21.31.254-5275
+      - 🏁RELAY-104.21.63.185-0099
+      - 🏁RELAY-172.67.181.226-1173
+      - 翻墙党fanqiangdang.com
+      - 美国_【YouTube-VV科技】_24
+      - 美国_【YouTube-VV科技】_26
+      - 长期更新节点@mftizi
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵_电报频道+@mfjdpd
-      - 🇸🇬_电报频道+@mfjdpd_1
-      - 🇸🇬_电报频道+@mfjdpd_2
-      - 🇺🇸US-15.204.210.176-7942
-      - 🇺🇸_电报频道+@mfjdpd
-      - 🏁RELAY-162.159.128.168-0990
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - 🇨🇦CA-167.114.153.171-13637
+      - 🇨🇦CA-51.161.35.200-0155
+      - 🇨🇳CN-183.240.220.97-8454
+      - 🇰🇷KR-140.238.12.83-9087
+      - 🇰🇷KR-193.122.127.247-13633
+      - 🇰🇷KR-20.214.107.46-9021
+      - 🇰🇷KR-20.214.107.46-9419
+      - 🇸🇬SG-13.229.147.35-9414
+      - 🇸🇬SG-20.24.30.158-9086
+      - 🇸🇬SG-5.44.249.43-3879
+      - 🇸🇬SG-5.44.249.43-3881
+      - 🇸🇬SG-5.44.249.43-9443
+      - 🇸🇬SG-5.44.249.44-9451
+      - 🇸🇬SG-5.44.249.52-9441
+      - 🇺🇸 V004--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 V005--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 V007--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸US-15.204.209.50-0138
+      - 🇺🇸US-51.81.82.15-0148
+      - 🏁RELAY-104.21.31.254-5275
+      - 🏁RELAY-104.21.63.185-0099
+      - 🏁RELAY-172.67.181.226-1173
+      - 翻墙党fanqiangdang.com
+      - 美国_【YouTube-VV科技】_24
+      - 美国_【YouTube-VV科技】_26
+      - 长期更新节点@mftizi
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵_电报频道+@mfjdpd
-      - 🇸🇬_电报频道+@mfjdpd_1
-      - 🇸🇬_电报频道+@mfjdpd_2
-      - 🇺🇸US-15.204.210.176-7942
-      - 🇺🇸_电报频道+@mfjdpd
-      - 🏁RELAY-162.159.128.168-0990
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - 🇨🇦CA-167.114.153.171-13637
+      - 🇨🇦CA-51.161.35.200-0155
+      - 🇨🇳CN-183.240.220.97-8454
+      - 🇰🇷KR-140.238.12.83-9087
+      - 🇰🇷KR-193.122.127.247-13633
+      - 🇰🇷KR-20.214.107.46-9021
+      - 🇰🇷KR-20.214.107.46-9419
+      - 🇸🇬SG-13.229.147.35-9414
+      - 🇸🇬SG-20.24.30.158-9086
+      - 🇸🇬SG-5.44.249.43-3879
+      - 🇸🇬SG-5.44.249.43-3881
+      - 🇸🇬SG-5.44.249.43-9443
+      - 🇸🇬SG-5.44.249.44-9451
+      - 🇸🇬SG-5.44.249.52-9441
+      - 🇺🇸 V004--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 V005--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 V007--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸US-15.204.209.50-0138
+      - 🇺🇸US-51.81.82.15-0148
+      - 🏁RELAY-104.21.31.254-5275
+      - 🏁RELAY-104.21.63.185-0099
+      - 🏁RELAY-172.67.181.226-1173
+      - 翻墙党fanqiangdang.com
+      - 美国_【YouTube-VV科技】_24
+      - 美国_【YouTube-VV科技】_26
+      - 长期更新节点@mftizi
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -118,12 +272,34 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵_电报频道+@mfjdpd
-      - 🇸🇬_电报频道+@mfjdpd_1
-      - 🇸🇬_电报频道+@mfjdpd_2
-      - 🇺🇸US-15.204.210.176-7942
-      - 🇺🇸_电报频道+@mfjdpd
-      - 🏁RELAY-162.159.128.168-0990
+      - https://t.me/zyfx8_1
+      - https://t.me/zyfx8_2
+      - 🇨🇦CA-167.114.153.171-13637
+      - 🇨🇦CA-51.161.35.200-0155
+      - 🇨🇳CN-183.240.220.97-8454
+      - 🇰🇷KR-140.238.12.83-9087
+      - 🇰🇷KR-193.122.127.247-13633
+      - 🇰🇷KR-20.214.107.46-9021
+      - 🇰🇷KR-20.214.107.46-9419
+      - 🇸🇬SG-13.229.147.35-9414
+      - 🇸🇬SG-20.24.30.158-9086
+      - 🇸🇬SG-5.44.249.43-3879
+      - 🇸🇬SG-5.44.249.43-3881
+      - 🇸🇬SG-5.44.249.43-9443
+      - 🇸🇬SG-5.44.249.44-9451
+      - 🇸🇬SG-5.44.249.52-9441
+      - 🇺🇸 V004--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 V005--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 V007--US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸US-15.204.209.50-0138
+      - 🇺🇸US-51.81.82.15-0148
+      - 🏁RELAY-104.21.31.254-5275
+      - 🏁RELAY-104.21.63.185-0099
+      - 🏁RELAY-172.67.181.226-1173
+      - 翻墙党fanqiangdang.com
+      - 美国_【YouTube-VV科技】_24
+      - 美国_【YouTube-VV科技】_26
+      - 长期更新节点@mftizi
 
 rules:
 # 本地/局域网地址
