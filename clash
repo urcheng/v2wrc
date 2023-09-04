@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-08-28 11:09:31
+# 创建时间：2023-09-04 09:32:28
 # 使用模版：V2RaySE 默认模版
-# 节点数量：35
+# 节点数量：18
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -11,294 +11,239 @@ log-level: info
 external-controller: 0.0.0.0:9090
 dns:
   enabled: true
-  nameserver:
-    - 119.29.29.29
+  listen: 0.0.0.0:1053
+  ipv6: true
+  default-nameserver:
     - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
+    - 114.114.114.114
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - swscan.apple.com
+    - mesu.apple.com
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - +.music.163.com
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - +.y.qq.com
+    - +.music.tc.qq.com
+    - aqqmusic.tc.qq.com
+    - +.stream.qqmusic.qq.com
+    - '*.xiami.com'
+    - +.music.migu.cn
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - +.xboxlive.com
+    - localhost.ptlogin2.qq.com
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - '*.mcdn.bilivideo.cn'
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
 
 proxies:
-  - {"name":"美国(油管:破解资源君) 47","type":"vmess","server":"wi.saintink.eu.org","port":443,"cipher":"auto","uuid":"927094d3-d678-4763-8591-e240d0bcae87","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vuk2.0bad.com/chat","headers":{"host":"sub2.saintink.eu.org"}}}
-  - {"name":"美国(油管:破解资源君) 3","type":"vmess","server":"mci.bamarambash.monster","port":443,"cipher":"auto","uuid":"8f74ec8a-971c-11ed-a8fc-0242ac120002","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/b8767a6a-1c30-11ee-ba76-9ee097a90b8b","headers":{"host":"b8767a6a-1c30-11ee-ba76-9ee097a90b8b.bamarambash.monster"}}}
-  - {"name":"🏁RELAY-104.21.63.185-0099","type":"vmess","server":"ydarm.e5outllok.me","port":80,"cipher":"auto","uuid":"f31c0b34-977b-4c2b-acfa-becfdfc1f267","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ydarm.e5outllok.me"}}}
-  - {"name":"🇺🇸_US_美国->🇧🇷_BR_巴西","type":"vmess","server":"162.159.242.238","port":2052,"cipher":"auto","uuid":"6e13ff0b-55a6-3767-8b92-3098fda40927","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/bxqmiao","headers":{"host":"bxa.76898102.xyz"}}}
-  - {"name":"🇺🇸 V005--US-付费推荐:dlj.tf/ssrsub","type":"vmess","server":"ns1.v2-vip.fun","port":8080,"cipher":"auto","uuid":"4a2ee56d-c70a-4c43-b18b-e1e15013a177","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v02.ssrsub.com"}}}
-  - {"name":"🇺🇸 V004--US-付费推荐:dlj.tf/ssrsub","type":"vmess","server":"cf-lt.sharecentre.online","port":8080,"cipher":"auto","uuid":"4a2ee56d-c70a-4c43-b18b-e1e15013a177","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"ssrsub.v02.ssrsub.com"}}}
-  - {"name":"🇸🇬SG-5.44.249.52-9441","type":"trojan","server":"5.44.249.52","port":3306,"udp":true,"password":"4bacb8f1a089763b","skip-cert-verify":true}
-  - {"name":"🇸🇬SG-5.44.249.44-9451","type":"trojan","server":"5.44.249.44","port":3389,"udp":true,"password":"0c6a3341e8d5ab17","skip-cert-verify":true}
-  - {"name":"🇸🇬SG-5.44.249.43-9443","type":"trojan","server":"5.44.249.43","port":3306,"udp":true,"password":"4bacb8f1a089763b","skip-cert-verify":true}
-  - {"name":"🇸🇬SG-5.44.249.43-3881","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"d66013c645b93c5c","skip-cert-verify":true}
-  - {"name":"🇸🇬SG-5.44.249.43-3879","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"ffec9f6ea19e1dd1","skip-cert-verify":true}
-  - {"name":"🇰🇷KR-20.214.107.46-9419","type":"trojan","server":"pt.mjt001.com","port":443,"udp":true,"password":"b00ac480-3e34-4ca9-8b3b-0b4515e4b75d","sni":"pt.mjt001.com","skip-cert-verify":true}
-  - {"name":"🇰🇷KR-20.214.107.46-9021","type":"trojan","server":"ar.mjt001.com","port":443,"udp":true,"password":"b00ac480-3e34-4ca9-8b3b-0b4515e4b75d","sni":"ar.mjt001.com","skip-cert-verify":true}
-  - {"name":"🇰🇷KR-193.122.127.247-13633","type":"trojan","server":"frontend.yijianlian.app","port":54430,"udp":true,"password":"b5e4e360-5946-470b-aad0-db98f50faa57","skip-cert-verify":true}
-  - {"name":"🇨🇳_CN_中国->🇯🇵_JP_日本","type":"ss","server":"183.232.170.32","port":20013,"password":"g12sQi#ss#&1","cipher":"aes-128-gcm","plugin":"v2ray-plugin","plugin-opts":{"mode":"websocket","mux":false}}
-  - {"name":"US+821+→+tg@nicevpn123","type":"ss","server":"140.99.6.194","port":5000,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
-  - {"name":"US 1518 → tg@nicevpn123","type":"vmess","server":"ydarm.e5outllok.me","port":80,"cipher":"auto","uuid":"f31c0b34-977b-4c2b-acfa-becfdfc1f267","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ydarm.e5outllok.me"}}}
-  - {"name":"TW+8+→+tg@nicevpn123","type":"trojan","server":"211.72.35.157","port":3389,"udp":true,"password":"8b475d9e868e43e0","skip-cert-verify":true}
-  - {"name":"TW+6+→+tg@nicevpn123","type":"trojan","server":"211.72.35.152","port":3389,"udp":true,"password":"4bacb8f1a089763b","skip-cert-verify":true}
-  - {"name":"RU+6+→+tg@nicevpn123","type":"ss","server":"45.89.52.66","port":9037,"password":"TN2YqghxeFDKZfLU","cipher":"aes-256-cfb"}
-  - {"name":"RU+20+→+tg@nicevpn123","type":"ss","server":"45.89.52.66","port":9065,"password":"PeHSHm5SqEjBuEXE","cipher":"aes-256-cfb"}
-  - {"name":"RU+2+→+tg@nicevpn123","type":"ss","server":"45.89.52.66","port":9031,"password":"BwcAUZk8hUFAkDGN","cipher":"aes-256-cfb"}
-  - {"name":"NO+1+→+tg@nicevpn123","type":"ss","server":"185.90.61.153","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
-  - {"name":"https://t.me/zyfx8","type":"ss","server":"43.201.61.124","port":443,"password":"amazonskr05","cipher":"aes-256-cfb"}
-  - {"name":"FR 3 → tg@nicevpn123","type":"ssr","server":"94.23.116.190","port":443,"password":"HowdyBypasser2022","cipher":"aes-256-ctr","obfs":"tls1.2_ticket_auth","protocol":"origin","group":"SSRProvider"}
-  - {"name":"CN+879+→+tg@nicevpn123","type":"trojan","server":"iplc-enter-tw-xe.fib-sys.xyz","port":11451,"udp":true,"password":"11a4e5be-3c87-37d2-aac8-00b85ef0fcdc","skip-cert-verify":true}
-  - {"name":"CN+704+→+tg@nicevpn123","type":"trojan","server":"183.213.200.225","port":28113,"udp":true,"password":"cdyB1Q","skip-cert-verify":true}
-  - {"name":"CN+169+→+tg@nicevpn123","type":"trojan","server":"iplc-enter-hk-xe.fib-sys.xyz","port":11451,"udp":true,"password":"11a4e5be-3c87-37d2-aac8-00b85ef0fcdc","sni":"hk-xe.fib-sys.xyz","skip-cert-verify":true}
-  - {"name":"_US_美国->🇩🇪_DE_德国","type":"vmess","server":"172.67.51.152","port":443,"cipher":"auto","uuid":"8d2ba456-2f0d-4c13-b8a0-bff99c679709","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/ikun","headers":{"host":"vceu3e.twittei.me"}}}
-  - {"name":"_US_美国->🇨🇦_CA_加拿大","type":"vmess","server":"ca-01.cloudlion.me","port":2082,"cipher":"auto","uuid":"57bb96b0-01d5-4fe1-a26f-bca96b8b1251","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"ca-01.cloudlion.me"}}}
-  - {"name":"_KR_韩国->🇧🇷_BR_巴西","type":"ss","server":"arm.gougouvpn.xyz","port":8058,"password":"5ae3363e-252a-4466-8eba-3e2efb90c434","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"_JP_日本->🇸🇪_SE_瑞典_5@11","type":"trojan","server":"swejs.stablize.top","port":443,"udp":true,"password":"8008b06e-2d1d-421c-9cdc-20af1f59093a","skip-cert-verify":true}
-  - {"name":"_JP_日本->🇨🇱_CL_智利_5@24","type":"trojan","server":"cljs.stablize.top","port":443,"udp":true,"password":"8008b06e-2d1d-421c-9cdc-20af1f59093a","skip-cert-verify":true}
-  - {"name":"_HK_香港->🇪🇸_ES_西班牙_5@32","type":"trojan","server":"esjs.stablize.top","port":443,"udp":true,"password":"8008b06e-2d1d-421c-9cdc-20af1f59093a","skip-cert-verify":true}
-  - {"name":"_HK_香港_1_5@2","type":"trojan","server":"brjs.stablize.top","port":443,"udp":true,"password":"8008b06e-2d1d-421c-9cdc-20af1f59093a","skip-cert-verify":true}
+  - {"name":"@ZDYZ2-🇳🇴+Norway+01","type":"ss","server":"185.90.61.153","port":989,"password":"f8f7aCzcPKbsF8p3","cipher":"aes-256-cfb"}
+  - {"name":"@ZDYZ2-🤔+unknown+09","type":"trojan","server":"140.238.63.200","port":57151,"udp":true,"password":"d02e2c9a-1e30-3116-a84e-dcf13da99926","sni":"tk-006.xiaoxiaobujidao.xyz","skip-cert-verify":true}
+  - {"name":"@ZDYZ2-🤔+unknown+11","type":"trojan","server":"131.186.40.195","port":8443,"udp":true,"password":"d02e2c9a-1e30-3116-a84e-dcf13da99926","sni":"tk-004.xiaoxiaobujidao.xyz","skip-cert-verify":true}
+  - {"name":"🇭🇰HK-45.11.104.94-0158","type":"trojan","server":"45.11.104.94","port":3306,"udp":true,"password":"7b06d22a8a7c764f","sni":"n2.gladns.com","skip-cert-verify":true}
+  - {"name":"🇭🇰HK-45.11.104.94-6167","type":"trojan","server":"45.11.104.94","port":3389,"udp":true,"password":"d4e41ff772c7fd45","sni":"sbank.ir","skip-cert-verify":true}
+  - {"name":"🇭🇰HK-47.242.63.176-9016","type":"trojan","server":"47.242.63.176","port":443,"udp":true,"password":"91ef9bbb-25d9-4593-9f9e-d17e713f5aad","sni":"805hk.ok365.cyou","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-20.210.187.166-9162","type":"trojan","server":"kz.mjt001.com","port":443,"udp":true,"password":"b00ac480-3e34-4ca9-8b3b-0b4515e4b75d","sni":"kz.mjt001.com","skip-cert-verify":true}
+  - {"name":"🇰🇷KR-20.196.202.254-9499","type":"trojan","server":"pt.mjt001.com","port":443,"udp":true,"password":"b00ac480-3e34-4ca9-8b3b-0b4515e4b75d","sni":"pt.mjt001.com","skip-cert-verify":true}
+  - {"name":"🇰🇷KR-20.196.202.254-9500","type":"trojan","server":"il.mjt001.com","port":443,"udp":true,"password":"b00ac480-3e34-4ca9-8b3b-0b4515e4b75d","sni":"il.mjt001.com","skip-cert-verify":true}
+  - {"name":"🇰🇷KR-20.196.217.81-9166","type":"trojan","server":"lux.mjt001.com","port":443,"udp":true,"password":"ab0b21ff-53d1-4b02-800b-9d7db3aed104","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-172.104.177.105-4016","type":"trojan","server":"w12.udpgw.com","port":443,"udp":true,"password":"08964210-e7b8-11ec-95aa-1239d0255272","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-20.212.145.27-13769","type":"trojan","server":"uk.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-20.212.145.27-9102","type":"trojan","server":"ru.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","sni":"ru.mjt001.com","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.43-4032","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"ffec9f6ea19e1dd1","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.43-4034","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"d66013c645b93c5c","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.43-9523","type":"trojan","server":"5.44.249.43","port":3306,"udp":true,"password":"4bacb8f1a089763b","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.44-9531","type":"trojan","server":"5.44.249.44","port":3389,"udp":true,"password":"0c6a3341e8d5ab17","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.50-9530","type":"trojan","server":"5.44.249.50","port":3306,"udp":true,"password":"0c6a3341e8d5ab17","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 美国(油管:破解资源君) 47
-      - 美国(油管:破解资源君) 3
-      - 🏁RELAY-104.21.63.185-0099
-      - 🇺🇸_US_美国->🇧🇷_BR_巴西
-      - 🇺🇸 V005--US-付费推荐:dlj.tf/ssrsub
-      - 🇺🇸 V004--US-付费推荐:dlj.tf/ssrsub
-      - 🇸🇬SG-5.44.249.52-9441
-      - 🇸🇬SG-5.44.249.44-9451
-      - 🇸🇬SG-5.44.249.43-9443
-      - 🇸🇬SG-5.44.249.43-3881
-      - 🇸🇬SG-5.44.249.43-3879
-      - 🇰🇷KR-20.214.107.46-9419
-      - 🇰🇷KR-20.214.107.46-9021
-      - 🇰🇷KR-193.122.127.247-13633
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - US+821+→+tg@nicevpn123
-      - US 1518 → tg@nicevpn123
-      - TW+8+→+tg@nicevpn123
-      - TW+6+→+tg@nicevpn123
-      - RU+6+→+tg@nicevpn123
-      - RU+20+→+tg@nicevpn123
-      - RU+2+→+tg@nicevpn123
-      - NO+1+→+tg@nicevpn123
-      - https://t.me/zyfx8
-      - FR 3 → tg@nicevpn123
-      - CN+879+→+tg@nicevpn123
-      - CN+704+→+tg@nicevpn123
-      - CN+169+→+tg@nicevpn123
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国->🇨🇦_CA_加拿大
-      - _KR_韩国->🇧🇷_BR_巴西
-      - _JP_日本->🇸🇪_SE_瑞典_5@11
-      - _JP_日本->🇨🇱_CL_智利_5@24
-      - _HK_香港->🇪🇸_ES_西班牙_5@32
-      - _HK_香港_1_5@2
+      - '@ZDYZ2-🇳🇴+Norway+01'
+      - '@ZDYZ2-🤔+unknown+09'
+      - '@ZDYZ2-🤔+unknown+11'
+      - 🇭🇰HK-45.11.104.94-0158
+      - 🇭🇰HK-45.11.104.94-6167
+      - 🇭🇰HK-47.242.63.176-9016
+      - 🇯🇵JP-20.210.187.166-9162
+      - 🇰🇷KR-20.196.202.254-9499
+      - 🇰🇷KR-20.196.202.254-9500
+      - 🇰🇷KR-20.196.217.81-9166
+      - 🇸🇬SG-172.104.177.105-4016
+      - 🇸🇬SG-20.212.145.27-13769
+      - 🇸🇬SG-20.212.145.27-9102
+      - 🇸🇬SG-5.44.249.43-4032
+      - 🇸🇬SG-5.44.249.43-4034
+      - 🇸🇬SG-5.44.249.43-9523
+      - 🇸🇬SG-5.44.249.44-9531
+      - 🇸🇬SG-5.44.249.50-9530
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 美国(油管:破解资源君) 47
-      - 美国(油管:破解资源君) 3
-      - 🏁RELAY-104.21.63.185-0099
-      - 🇺🇸_US_美国->🇧🇷_BR_巴西
-      - 🇺🇸 V005--US-付费推荐:dlj.tf/ssrsub
-      - 🇺🇸 V004--US-付费推荐:dlj.tf/ssrsub
-      - 🇸🇬SG-5.44.249.52-9441
-      - 🇸🇬SG-5.44.249.44-9451
-      - 🇸🇬SG-5.44.249.43-9443
-      - 🇸🇬SG-5.44.249.43-3881
-      - 🇸🇬SG-5.44.249.43-3879
-      - 🇰🇷KR-20.214.107.46-9419
-      - 🇰🇷KR-20.214.107.46-9021
-      - 🇰🇷KR-193.122.127.247-13633
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - US+821+→+tg@nicevpn123
-      - US 1518 → tg@nicevpn123
-      - TW+8+→+tg@nicevpn123
-      - TW+6+→+tg@nicevpn123
-      - RU+6+→+tg@nicevpn123
-      - RU+20+→+tg@nicevpn123
-      - RU+2+→+tg@nicevpn123
-      - NO+1+→+tg@nicevpn123
-      - https://t.me/zyfx8
-      - FR 3 → tg@nicevpn123
-      - CN+879+→+tg@nicevpn123
-      - CN+704+→+tg@nicevpn123
-      - CN+169+→+tg@nicevpn123
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国->🇨🇦_CA_加拿大
-      - _KR_韩国->🇧🇷_BR_巴西
-      - _JP_日本->🇸🇪_SE_瑞典_5@11
-      - _JP_日本->🇨🇱_CL_智利_5@24
-      - _HK_香港->🇪🇸_ES_西班牙_5@32
-      - _HK_香港_1_5@2
+      - '@ZDYZ2-🇳🇴+Norway+01'
+      - '@ZDYZ2-🤔+unknown+09'
+      - '@ZDYZ2-🤔+unknown+11'
+      - 🇭🇰HK-45.11.104.94-0158
+      - 🇭🇰HK-45.11.104.94-6167
+      - 🇭🇰HK-47.242.63.176-9016
+      - 🇯🇵JP-20.210.187.166-9162
+      - 🇰🇷KR-20.196.202.254-9499
+      - 🇰🇷KR-20.196.202.254-9500
+      - 🇰🇷KR-20.196.217.81-9166
+      - 🇸🇬SG-172.104.177.105-4016
+      - 🇸🇬SG-20.212.145.27-13769
+      - 🇸🇬SG-20.212.145.27-9102
+      - 🇸🇬SG-5.44.249.43-4032
+      - 🇸🇬SG-5.44.249.43-4034
+      - 🇸🇬SG-5.44.249.43-9523
+      - 🇸🇬SG-5.44.249.44-9531
+      - 🇸🇬SG-5.44.249.50-9530
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 美国(油管:破解资源君) 47
-      - 美国(油管:破解资源君) 3
-      - 🏁RELAY-104.21.63.185-0099
-      - 🇺🇸_US_美国->🇧🇷_BR_巴西
-      - 🇺🇸 V005--US-付费推荐:dlj.tf/ssrsub
-      - 🇺🇸 V004--US-付费推荐:dlj.tf/ssrsub
-      - 🇸🇬SG-5.44.249.52-9441
-      - 🇸🇬SG-5.44.249.44-9451
-      - 🇸🇬SG-5.44.249.43-9443
-      - 🇸🇬SG-5.44.249.43-3881
-      - 🇸🇬SG-5.44.249.43-3879
-      - 🇰🇷KR-20.214.107.46-9419
-      - 🇰🇷KR-20.214.107.46-9021
-      - 🇰🇷KR-193.122.127.247-13633
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - US+821+→+tg@nicevpn123
-      - US 1518 → tg@nicevpn123
-      - TW+8+→+tg@nicevpn123
-      - TW+6+→+tg@nicevpn123
-      - RU+6+→+tg@nicevpn123
-      - RU+20+→+tg@nicevpn123
-      - RU+2+→+tg@nicevpn123
-      - NO+1+→+tg@nicevpn123
-      - https://t.me/zyfx8
-      - FR 3 → tg@nicevpn123
-      - CN+879+→+tg@nicevpn123
-      - CN+704+→+tg@nicevpn123
-      - CN+169+→+tg@nicevpn123
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国->🇨🇦_CA_加拿大
-      - _KR_韩国->🇧🇷_BR_巴西
-      - _JP_日本->🇸🇪_SE_瑞典_5@11
-      - _JP_日本->🇨🇱_CL_智利_5@24
-      - _HK_香港->🇪🇸_ES_西班牙_5@32
-      - _HK_香港_1_5@2
+      - '@ZDYZ2-🇳🇴+Norway+01'
+      - '@ZDYZ2-🤔+unknown+09'
+      - '@ZDYZ2-🤔+unknown+11'
+      - 🇭🇰HK-45.11.104.94-0158
+      - 🇭🇰HK-45.11.104.94-6167
+      - 🇭🇰HK-47.242.63.176-9016
+      - 🇯🇵JP-20.210.187.166-9162
+      - 🇰🇷KR-20.196.202.254-9499
+      - 🇰🇷KR-20.196.202.254-9500
+      - 🇰🇷KR-20.196.217.81-9166
+      - 🇸🇬SG-172.104.177.105-4016
+      - 🇸🇬SG-20.212.145.27-13769
+      - 🇸🇬SG-20.212.145.27-9102
+      - 🇸🇬SG-5.44.249.43-4032
+      - 🇸🇬SG-5.44.249.43-4034
+      - 🇸🇬SG-5.44.249.43-9523
+      - 🇸🇬SG-5.44.249.44-9531
+      - 🇸🇬SG-5.44.249.50-9530
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国(油管:破解资源君) 47
-      - 美国(油管:破解资源君) 3
-      - 🏁RELAY-104.21.63.185-0099
-      - 🇺🇸_US_美国->🇧🇷_BR_巴西
-      - 🇺🇸 V005--US-付费推荐:dlj.tf/ssrsub
-      - 🇺🇸 V004--US-付费推荐:dlj.tf/ssrsub
-      - 🇸🇬SG-5.44.249.52-9441
-      - 🇸🇬SG-5.44.249.44-9451
-      - 🇸🇬SG-5.44.249.43-9443
-      - 🇸🇬SG-5.44.249.43-3881
-      - 🇸🇬SG-5.44.249.43-3879
-      - 🇰🇷KR-20.214.107.46-9419
-      - 🇰🇷KR-20.214.107.46-9021
-      - 🇰🇷KR-193.122.127.247-13633
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - US+821+→+tg@nicevpn123
-      - US 1518 → tg@nicevpn123
-      - TW+8+→+tg@nicevpn123
-      - TW+6+→+tg@nicevpn123
-      - RU+6+→+tg@nicevpn123
-      - RU+20+→+tg@nicevpn123
-      - RU+2+→+tg@nicevpn123
-      - NO+1+→+tg@nicevpn123
-      - https://t.me/zyfx8
-      - FR 3 → tg@nicevpn123
-      - CN+879+→+tg@nicevpn123
-      - CN+704+→+tg@nicevpn123
-      - CN+169+→+tg@nicevpn123
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国->🇨🇦_CA_加拿大
-      - _KR_韩国->🇧🇷_BR_巴西
-      - _JP_日本->🇸🇪_SE_瑞典_5@11
-      - _JP_日本->🇨🇱_CL_智利_5@24
-      - _HK_香港->🇪🇸_ES_西班牙_5@32
-      - _HK_香港_1_5@2
+      - '@ZDYZ2-🇳🇴+Norway+01'
+      - '@ZDYZ2-🤔+unknown+09'
+      - '@ZDYZ2-🤔+unknown+11'
+      - 🇭🇰HK-45.11.104.94-0158
+      - 🇭🇰HK-45.11.104.94-6167
+      - 🇭🇰HK-47.242.63.176-9016
+      - 🇯🇵JP-20.210.187.166-9162
+      - 🇰🇷KR-20.196.202.254-9499
+      - 🇰🇷KR-20.196.202.254-9500
+      - 🇰🇷KR-20.196.217.81-9166
+      - 🇸🇬SG-172.104.177.105-4016
+      - 🇸🇬SG-20.212.145.27-13769
+      - 🇸🇬SG-20.212.145.27-9102
+      - 🇸🇬SG-5.44.249.43-4032
+      - 🇸🇬SG-5.44.249.43-4034
+      - 🇸🇬SG-5.44.249.43-9523
+      - 🇸🇬SG-5.44.249.44-9531
+      - 🇸🇬SG-5.44.249.50-9530
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 美国(油管:破解资源君) 47
-      - 美国(油管:破解资源君) 3
-      - 🏁RELAY-104.21.63.185-0099
-      - 🇺🇸_US_美国->🇧🇷_BR_巴西
-      - 🇺🇸 V005--US-付费推荐:dlj.tf/ssrsub
-      - 🇺🇸 V004--US-付费推荐:dlj.tf/ssrsub
-      - 🇸🇬SG-5.44.249.52-9441
-      - 🇸🇬SG-5.44.249.44-9451
-      - 🇸🇬SG-5.44.249.43-9443
-      - 🇸🇬SG-5.44.249.43-3881
-      - 🇸🇬SG-5.44.249.43-3879
-      - 🇰🇷KR-20.214.107.46-9419
-      - 🇰🇷KR-20.214.107.46-9021
-      - 🇰🇷KR-193.122.127.247-13633
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - US+821+→+tg@nicevpn123
-      - US 1518 → tg@nicevpn123
-      - TW+8+→+tg@nicevpn123
-      - TW+6+→+tg@nicevpn123
-      - RU+6+→+tg@nicevpn123
-      - RU+20+→+tg@nicevpn123
-      - RU+2+→+tg@nicevpn123
-      - NO+1+→+tg@nicevpn123
-      - https://t.me/zyfx8
-      - FR 3 → tg@nicevpn123
-      - CN+879+→+tg@nicevpn123
-      - CN+704+→+tg@nicevpn123
-      - CN+169+→+tg@nicevpn123
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国->🇨🇦_CA_加拿大
-      - _KR_韩国->🇧🇷_BR_巴西
-      - _JP_日本->🇸🇪_SE_瑞典_5@11
-      - _JP_日本->🇨🇱_CL_智利_5@24
-      - _HK_香港->🇪🇸_ES_西班牙_5@32
-      - _HK_香港_1_5@2
+      - '@ZDYZ2-🇳🇴+Norway+01'
+      - '@ZDYZ2-🤔+unknown+09'
+      - '@ZDYZ2-🤔+unknown+11'
+      - 🇭🇰HK-45.11.104.94-0158
+      - 🇭🇰HK-45.11.104.94-6167
+      - 🇭🇰HK-47.242.63.176-9016
+      - 🇯🇵JP-20.210.187.166-9162
+      - 🇰🇷KR-20.196.202.254-9499
+      - 🇰🇷KR-20.196.202.254-9500
+      - 🇰🇷KR-20.196.217.81-9166
+      - 🇸🇬SG-172.104.177.105-4016
+      - 🇸🇬SG-20.212.145.27-13769
+      - 🇸🇬SG-20.212.145.27-9102
+      - 🇸🇬SG-5.44.249.43-4032
+      - 🇸🇬SG-5.44.249.43-4034
+      - 🇸🇬SG-5.44.249.43-9523
+      - 🇸🇬SG-5.44.249.44-9531
+      - 🇸🇬SG-5.44.249.50-9530
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 美国(油管:破解资源君) 47
-      - 美国(油管:破解资源君) 3
-      - 🏁RELAY-104.21.63.185-0099
-      - 🇺🇸_US_美国->🇧🇷_BR_巴西
-      - 🇺🇸 V005--US-付费推荐:dlj.tf/ssrsub
-      - 🇺🇸 V004--US-付费推荐:dlj.tf/ssrsub
-      - 🇸🇬SG-5.44.249.52-9441
-      - 🇸🇬SG-5.44.249.44-9451
-      - 🇸🇬SG-5.44.249.43-9443
-      - 🇸🇬SG-5.44.249.43-3881
-      - 🇸🇬SG-5.44.249.43-3879
-      - 🇰🇷KR-20.214.107.46-9419
-      - 🇰🇷KR-20.214.107.46-9021
-      - 🇰🇷KR-193.122.127.247-13633
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - US+821+→+tg@nicevpn123
-      - US 1518 → tg@nicevpn123
-      - TW+8+→+tg@nicevpn123
-      - TW+6+→+tg@nicevpn123
-      - RU+6+→+tg@nicevpn123
-      - RU+20+→+tg@nicevpn123
-      - RU+2+→+tg@nicevpn123
-      - NO+1+→+tg@nicevpn123
-      - https://t.me/zyfx8
-      - FR 3 → tg@nicevpn123
-      - CN+879+→+tg@nicevpn123
-      - CN+704+→+tg@nicevpn123
-      - CN+169+→+tg@nicevpn123
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国->🇨🇦_CA_加拿大
-      - _KR_韩国->🇧🇷_BR_巴西
-      - _JP_日本->🇸🇪_SE_瑞典_5@11
-      - _JP_日本->🇨🇱_CL_智利_5@24
-      - _HK_香港->🇪🇸_ES_西班牙_5@32
-      - _HK_香港_1_5@2
+      - '@ZDYZ2-🇳🇴+Norway+01'
+      - '@ZDYZ2-🤔+unknown+09'
+      - '@ZDYZ2-🤔+unknown+11'
+      - 🇭🇰HK-45.11.104.94-0158
+      - 🇭🇰HK-45.11.104.94-6167
+      - 🇭🇰HK-47.242.63.176-9016
+      - 🇯🇵JP-20.210.187.166-9162
+      - 🇰🇷KR-20.196.202.254-9499
+      - 🇰🇷KR-20.196.202.254-9500
+      - 🇰🇷KR-20.196.217.81-9166
+      - 🇸🇬SG-172.104.177.105-4016
+      - 🇸🇬SG-20.212.145.27-13769
+      - 🇸🇬SG-20.212.145.27-9102
+      - 🇸🇬SG-5.44.249.43-4032
+      - 🇸🇬SG-5.44.249.43-4034
+      - 🇸🇬SG-5.44.249.43-9523
+      - 🇸🇬SG-5.44.249.44-9531
+      - 🇸🇬SG-5.44.249.50-9530
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -321,41 +266,24 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 美国(油管:破解资源君) 47
-      - 美国(油管:破解资源君) 3
-      - 🏁RELAY-104.21.63.185-0099
-      - 🇺🇸_US_美国->🇧🇷_BR_巴西
-      - 🇺🇸 V005--US-付费推荐:dlj.tf/ssrsub
-      - 🇺🇸 V004--US-付费推荐:dlj.tf/ssrsub
-      - 🇸🇬SG-5.44.249.52-9441
-      - 🇸🇬SG-5.44.249.44-9451
-      - 🇸🇬SG-5.44.249.43-9443
-      - 🇸🇬SG-5.44.249.43-3881
-      - 🇸🇬SG-5.44.249.43-3879
-      - 🇰🇷KR-20.214.107.46-9419
-      - 🇰🇷KR-20.214.107.46-9021
-      - 🇰🇷KR-193.122.127.247-13633
-      - 🇨🇳_CN_中国->🇯🇵_JP_日本
-      - US+821+→+tg@nicevpn123
-      - US 1518 → tg@nicevpn123
-      - TW+8+→+tg@nicevpn123
-      - TW+6+→+tg@nicevpn123
-      - RU+6+→+tg@nicevpn123
-      - RU+20+→+tg@nicevpn123
-      - RU+2+→+tg@nicevpn123
-      - NO+1+→+tg@nicevpn123
-      - https://t.me/zyfx8
-      - FR 3 → tg@nicevpn123
-      - CN+879+→+tg@nicevpn123
-      - CN+704+→+tg@nicevpn123
-      - CN+169+→+tg@nicevpn123
-      - _US_美国->🇩🇪_DE_德国
-      - _US_美国->🇨🇦_CA_加拿大
-      - _KR_韩国->🇧🇷_BR_巴西
-      - _JP_日本->🇸🇪_SE_瑞典_5@11
-      - _JP_日本->🇨🇱_CL_智利_5@24
-      - _HK_香港->🇪🇸_ES_西班牙_5@32
-      - _HK_香港_1_5@2
+      - '@ZDYZ2-🇳🇴+Norway+01'
+      - '@ZDYZ2-🤔+unknown+09'
+      - '@ZDYZ2-🤔+unknown+11'
+      - 🇭🇰HK-45.11.104.94-0158
+      - 🇭🇰HK-45.11.104.94-6167
+      - 🇭🇰HK-47.242.63.176-9016
+      - 🇯🇵JP-20.210.187.166-9162
+      - 🇰🇷KR-20.196.202.254-9499
+      - 🇰🇷KR-20.196.202.254-9500
+      - 🇰🇷KR-20.196.217.81-9166
+      - 🇸🇬SG-172.104.177.105-4016
+      - 🇸🇬SG-20.212.145.27-13769
+      - 🇸🇬SG-20.212.145.27-9102
+      - 🇸🇬SG-5.44.249.43-4032
+      - 🇸🇬SG-5.44.249.43-4034
+      - 🇸🇬SG-5.44.249.43-9523
+      - 🇸🇬SG-5.44.249.44-9531
+      - 🇸🇬SG-5.44.249.50-9530
 
 rules:
 # 本地/局域网地址
