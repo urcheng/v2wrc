@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-09-19 09:58:17
+# 创建时间：2023-09-21 09:54:37
 # 使用模版：V2RaySE 默认模版
-# 节点数量：13
+# 节点数量：31
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,130 +85,256 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🏁RELAY-104.21.75.246-1340","type":"vmess","server":"asb3.shabijichang.com","port":80,"cipher":"auto","uuid":"53701585-591f-48a3-9515-8831ed0524ac","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"asb3.shabijichang.com"}}}
+  - {"name":"🏁RELAY-172.67.165.210-0996","type":"vmess","server":"dx1.992688.xyz","port":8080,"cipher":"auto","uuid":"fbe45fb6-7cf1-40f0-880d-fcb5b0bfbbf3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"eu5.vpn66.eu.org"}}}
+  - {"name":"🇸🇬SG-5.44.249.53-9354","type":"trojan","server":"5.44.249.53","port":3389,"udp":true,"password":"7b06d22a8a7c764f","skip-cert-verify":true}
   - {"name":"🇸🇬SG-5.44.249.53-15628","type":"trojan","server":"5.44.249.53","port":3306,"udp":true,"password":"70face6dd320ea29","sni":"n2.gladns.com","skip-cert-verify":true}
   - {"name":"🇸🇬SG-5.44.249.53-15618","type":"trojan","server":"5.44.249.53","port":3306,"udp":true,"password":"0cc6b4268dea0ba8","sni":"n2.gladns.com","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.52-9362","type":"trojan","server":"5.44.249.52","port":3306,"udp":true,"password":"4bacb8f1a089763b","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.51-9370","type":"trojan","server":"5.44.249.51","port":3389,"udp":true,"password":"26a663656e575c0b","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.50-9363","type":"trojan","server":"5.44.249.50","port":3389,"udp":true,"password":"4bacb8f1a089763b","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.50-2644","type":"trojan","server":"5.44.249.50","port":3306,"udp":true,"password":"faf42aa0a9ad4c1e","skip-cert-verify":true}
   - {"name":"🇸🇬SG-5.44.249.50-0130","type":"trojan","server":"5.44.249.50","port":3306,"udp":true,"password":"5227e84e4f026b71","sni":"n2.gladns.com","skip-cert-verify":true}
   - {"name":"🇸🇬SG-5.44.249.44-9558","type":"trojan","server":"5.44.249.44","port":3389,"udp":true,"password":"0c6a3341e8d5ab17","skip-cert-verify":true}
   - {"name":"🇸🇬SG-5.44.249.44-15561","type":"trojan","server":"5.44.249.44","port":3306,"udp":true,"password":"d02058f4f819dced","sni":"n2.gladns.com","skip-cert-verify":true}
   - {"name":"🇸🇬SG-5.44.249.44-0144","type":"trojan","server":"5.44.249.44","port":3306,"udp":true,"password":"b09d2aaa443af97a","sni":"n2.gladns.com","skip-cert-verify":true}
   - {"name":"🇸🇬SG-5.44.249.43-4363","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"d66013c645b93c5c","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.43-4271","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"ffec9f6ea19e1dd1","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.43-2643","type":"trojan","server":"5.44.249.43","port":3306,"udp":true,"password":"5227e84e4f026b71","skip-cert-verify":true}
   - {"name":"🇸🇬SG-5.44.249.43-15551","type":"trojan","server":"5.44.249.43","port":3306,"udp":true,"password":"182228812d1e0f23","sni":"n2.gladns.com","skip-cert-verify":true}
   - {"name":"🇸🇬SG-5.44.249.43-15522","type":"trojan","server":"5.44.249.43","port":3306,"udp":true,"password":"0cc6b4268dea0ba8","sni":"n2.gladns.com","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-52.195.235.6-0258","type":"trojan","server":"1gzdx2.156786.xyz","port":37905,"udp":true,"password":"98bae868-4f00-40e0-9603-8d848644ec44","sni":"hkmax06.170203.xyz","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-104.214.144.144-1567","type":"trojan","server":"chjs.stablize.top","port":443,"udp":true,"password":"8008b06e-2d1d-421c-9cdc-20af1f59093a","skip-cert-verify":true}
-  - {"name":"🇭🇰HK-20.239.48.147-1893","type":"trojan","server":"dejs.stablize.top","port":443,"udp":true,"password":"7f5e1438-0c8f-46d2-baf4-7025c264532e","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.42-9373","type":"trojan","server":"5.44.249.42","port":3389,"udp":true,"password":"0c6a3341e8d5ab17","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.42-1562","type":"trojan","server":"5.44.249.42","port":3306,"udp":true,"password":"d4e41ff772c7fd45","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-172.104.177.105-4255","type":"trojan","server":"w12.udpgw.com","port":443,"udp":true,"password":"08964210-e7b8-11ec-95aa-1239d0255272","skip-cert-verify":true}
+  - {"name":"🇰🇷KR-20.196.216.159-1852","type":"trojan","server":"ua.mjt001.com","port":443,"udp":true,"password":"af4dc66a-ec88-4057-9e46-777b584577f7","skip-cert-verify":true}
+  - {"name":"🇰🇷KR-146.56.189.146-6289","type":"trojan","server":"146.56.189.146","port":443,"udp":true,"password":"f2117e99-9b6e-47fd-b0a9-634a0b15b998","skip-cert-verify":true}
+  - {"name":"🇰🇷KR-140.238.12.83-9008","type":"trojan","server":"140.238.12.83","port":443,"udp":true,"password":"a1718180-d616-4b71-9bb6-3e96ba20f921","sni":"jgw3.gaox.ml","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-35.74.238.103-8938","type":"trojan","server":"kbawsjp2.aiopen.cfd","port":443,"udp":true,"password":"c68e3c20-da73-4791-b4d8-7011a98ba06b","sni":"4-193-105-141.nhost.00cdn.com","skip-cert-verify":true}
+  - {"name":"🇭🇰HK-1.36.212.42-1835","type":"trojan","server":"assets.flareai.site","port":13343,"udp":true,"password":"d0d24d5b-54ae-40a0-ab68-889dbd4b8a66","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-183.240.220.99-8373","type":"trojan","server":"183.240.220.99","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","sni":"official.taipeicitygovernment.cn.ua","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-183.240.220.97-8375","type":"trojan","server":"183.240.220.97","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","sni":"official.taipeicitygovernment.net.ua","skip-cert-verify":true}
+  - {"name":"RELAY-104.18.213.12-142","type":"vmess","server":"api.jquery.com","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/oliv.beauty:443/linkvws","headers":{"host":"sub.yifenjichang.top"}}}
+  - {"name":"https://t.me/zyfx8+5","type":"trojan","server":"120.241.47.131","port":10005,"udp":true,"password":"6a304997-8910-4ee3-a898-de74b50b582a","sni":"batiex.link","skip-cert-verify":true}
+  - {"name":"https://t.me/zyfx8+2","type":"trojan","server":"120.241.47.131","port":10001,"udp":true,"password":"6a304997-8910-4ee3-a898-de74b50b582a","sni":"batiex.link","skip-cert-verify":true}
+  - {"name":"_CN_中国->🇺🇸_US_美国_1_4@1","type":"trojan","server":"14.18.106.137","port":41929,"udp":true,"password":"09833a6f-4d46-426e-87fe-7793a5489f84","sni":"nl01.lovehjq.xyz","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🏁RELAY-104.21.75.246-1340
+      - 🏁RELAY-172.67.165.210-0996
+      - 🇸🇬SG-5.44.249.53-9354
       - 🇸🇬SG-5.44.249.53-15628
       - 🇸🇬SG-5.44.249.53-15618
+      - 🇸🇬SG-5.44.249.52-9362
+      - 🇸🇬SG-5.44.249.51-9370
+      - 🇸🇬SG-5.44.249.50-9363
+      - 🇸🇬SG-5.44.249.50-2644
       - 🇸🇬SG-5.44.249.50-0130
       - 🇸🇬SG-5.44.249.44-9558
       - 🇸🇬SG-5.44.249.44-15561
       - 🇸🇬SG-5.44.249.44-0144
       - 🇸🇬SG-5.44.249.43-4363
+      - 🇸🇬SG-5.44.249.43-4271
+      - 🇸🇬SG-5.44.249.43-2643
       - 🇸🇬SG-5.44.249.43-15551
       - 🇸🇬SG-5.44.249.43-15522
-      - 🇯🇵JP-52.195.235.6-0258
-      - 🇯🇵JP-104.214.144.144-1567
-      - 🇭🇰HK-20.239.48.147-1893
+      - 🇸🇬SG-5.44.249.42-9373
+      - 🇸🇬SG-5.44.249.42-1562
+      - 🇸🇬SG-172.104.177.105-4255
+      - 🇰🇷KR-20.196.216.159-1852
+      - 🇰🇷KR-146.56.189.146-6289
+      - 🇰🇷KR-140.238.12.83-9008
+      - 🇯🇵JP-35.74.238.103-8938
+      - 🇭🇰HK-1.36.212.42-1835
+      - 🇨🇳CN-183.240.220.99-8373
+      - 🇨🇳CN-183.240.220.97-8375
+      - RELAY-104.18.213.12-142
+      - https://t.me/zyfx8+5
+      - https://t.me/zyfx8+2
+      - _CN_中国->🇺🇸_US_美国_1_4@1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🏁RELAY-104.21.75.246-1340
+      - 🏁RELAY-172.67.165.210-0996
+      - 🇸🇬SG-5.44.249.53-9354
       - 🇸🇬SG-5.44.249.53-15628
       - 🇸🇬SG-5.44.249.53-15618
+      - 🇸🇬SG-5.44.249.52-9362
+      - 🇸🇬SG-5.44.249.51-9370
+      - 🇸🇬SG-5.44.249.50-9363
+      - 🇸🇬SG-5.44.249.50-2644
       - 🇸🇬SG-5.44.249.50-0130
       - 🇸🇬SG-5.44.249.44-9558
       - 🇸🇬SG-5.44.249.44-15561
       - 🇸🇬SG-5.44.249.44-0144
       - 🇸🇬SG-5.44.249.43-4363
+      - 🇸🇬SG-5.44.249.43-4271
+      - 🇸🇬SG-5.44.249.43-2643
       - 🇸🇬SG-5.44.249.43-15551
       - 🇸🇬SG-5.44.249.43-15522
-      - 🇯🇵JP-52.195.235.6-0258
-      - 🇯🇵JP-104.214.144.144-1567
-      - 🇭🇰HK-20.239.48.147-1893
+      - 🇸🇬SG-5.44.249.42-9373
+      - 🇸🇬SG-5.44.249.42-1562
+      - 🇸🇬SG-172.104.177.105-4255
+      - 🇰🇷KR-20.196.216.159-1852
+      - 🇰🇷KR-146.56.189.146-6289
+      - 🇰🇷KR-140.238.12.83-9008
+      - 🇯🇵JP-35.74.238.103-8938
+      - 🇭🇰HK-1.36.212.42-1835
+      - 🇨🇳CN-183.240.220.99-8373
+      - 🇨🇳CN-183.240.220.97-8375
+      - RELAY-104.18.213.12-142
+      - https://t.me/zyfx8+5
+      - https://t.me/zyfx8+2
+      - _CN_中国->🇺🇸_US_美国_1_4@1
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🏁RELAY-104.21.75.246-1340
+      - 🏁RELAY-172.67.165.210-0996
+      - 🇸🇬SG-5.44.249.53-9354
       - 🇸🇬SG-5.44.249.53-15628
       - 🇸🇬SG-5.44.249.53-15618
+      - 🇸🇬SG-5.44.249.52-9362
+      - 🇸🇬SG-5.44.249.51-9370
+      - 🇸🇬SG-5.44.249.50-9363
+      - 🇸🇬SG-5.44.249.50-2644
       - 🇸🇬SG-5.44.249.50-0130
       - 🇸🇬SG-5.44.249.44-9558
       - 🇸🇬SG-5.44.249.44-15561
       - 🇸🇬SG-5.44.249.44-0144
       - 🇸🇬SG-5.44.249.43-4363
+      - 🇸🇬SG-5.44.249.43-4271
+      - 🇸🇬SG-5.44.249.43-2643
       - 🇸🇬SG-5.44.249.43-15551
       - 🇸🇬SG-5.44.249.43-15522
-      - 🇯🇵JP-52.195.235.6-0258
-      - 🇯🇵JP-104.214.144.144-1567
-      - 🇭🇰HK-20.239.48.147-1893
+      - 🇸🇬SG-5.44.249.42-9373
+      - 🇸🇬SG-5.44.249.42-1562
+      - 🇸🇬SG-172.104.177.105-4255
+      - 🇰🇷KR-20.196.216.159-1852
+      - 🇰🇷KR-146.56.189.146-6289
+      - 🇰🇷KR-140.238.12.83-9008
+      - 🇯🇵JP-35.74.238.103-8938
+      - 🇭🇰HK-1.36.212.42-1835
+      - 🇨🇳CN-183.240.220.99-8373
+      - 🇨🇳CN-183.240.220.97-8375
+      - RELAY-104.18.213.12-142
+      - https://t.me/zyfx8+5
+      - https://t.me/zyfx8+2
+      - _CN_中国->🇺🇸_US_美国_1_4@1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🏁RELAY-104.21.75.246-1340
+      - 🏁RELAY-172.67.165.210-0996
+      - 🇸🇬SG-5.44.249.53-9354
       - 🇸🇬SG-5.44.249.53-15628
       - 🇸🇬SG-5.44.249.53-15618
+      - 🇸🇬SG-5.44.249.52-9362
+      - 🇸🇬SG-5.44.249.51-9370
+      - 🇸🇬SG-5.44.249.50-9363
+      - 🇸🇬SG-5.44.249.50-2644
       - 🇸🇬SG-5.44.249.50-0130
       - 🇸🇬SG-5.44.249.44-9558
       - 🇸🇬SG-5.44.249.44-15561
       - 🇸🇬SG-5.44.249.44-0144
       - 🇸🇬SG-5.44.249.43-4363
+      - 🇸🇬SG-5.44.249.43-4271
+      - 🇸🇬SG-5.44.249.43-2643
       - 🇸🇬SG-5.44.249.43-15551
       - 🇸🇬SG-5.44.249.43-15522
-      - 🇯🇵JP-52.195.235.6-0258
-      - 🇯🇵JP-104.214.144.144-1567
-      - 🇭🇰HK-20.239.48.147-1893
+      - 🇸🇬SG-5.44.249.42-9373
+      - 🇸🇬SG-5.44.249.42-1562
+      - 🇸🇬SG-172.104.177.105-4255
+      - 🇰🇷KR-20.196.216.159-1852
+      - 🇰🇷KR-146.56.189.146-6289
+      - 🇰🇷KR-140.238.12.83-9008
+      - 🇯🇵JP-35.74.238.103-8938
+      - 🇭🇰HK-1.36.212.42-1835
+      - 🇨🇳CN-183.240.220.99-8373
+      - 🇨🇳CN-183.240.220.97-8375
+      - RELAY-104.18.213.12-142
+      - https://t.me/zyfx8+5
+      - https://t.me/zyfx8+2
+      - _CN_中国->🇺🇸_US_美国_1_4@1
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🏁RELAY-104.21.75.246-1340
+      - 🏁RELAY-172.67.165.210-0996
+      - 🇸🇬SG-5.44.249.53-9354
       - 🇸🇬SG-5.44.249.53-15628
       - 🇸🇬SG-5.44.249.53-15618
+      - 🇸🇬SG-5.44.249.52-9362
+      - 🇸🇬SG-5.44.249.51-9370
+      - 🇸🇬SG-5.44.249.50-9363
+      - 🇸🇬SG-5.44.249.50-2644
       - 🇸🇬SG-5.44.249.50-0130
       - 🇸🇬SG-5.44.249.44-9558
       - 🇸🇬SG-5.44.249.44-15561
       - 🇸🇬SG-5.44.249.44-0144
       - 🇸🇬SG-5.44.249.43-4363
+      - 🇸🇬SG-5.44.249.43-4271
+      - 🇸🇬SG-5.44.249.43-2643
       - 🇸🇬SG-5.44.249.43-15551
       - 🇸🇬SG-5.44.249.43-15522
-      - 🇯🇵JP-52.195.235.6-0258
-      - 🇯🇵JP-104.214.144.144-1567
-      - 🇭🇰HK-20.239.48.147-1893
+      - 🇸🇬SG-5.44.249.42-9373
+      - 🇸🇬SG-5.44.249.42-1562
+      - 🇸🇬SG-172.104.177.105-4255
+      - 🇰🇷KR-20.196.216.159-1852
+      - 🇰🇷KR-146.56.189.146-6289
+      - 🇰🇷KR-140.238.12.83-9008
+      - 🇯🇵JP-35.74.238.103-8938
+      - 🇭🇰HK-1.36.212.42-1835
+      - 🇨🇳CN-183.240.220.99-8373
+      - 🇨🇳CN-183.240.220.97-8375
+      - RELAY-104.18.213.12-142
+      - https://t.me/zyfx8+5
+      - https://t.me/zyfx8+2
+      - _CN_中国->🇺🇸_US_美国_1_4@1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🏁RELAY-104.21.75.246-1340
+      - 🏁RELAY-172.67.165.210-0996
+      - 🇸🇬SG-5.44.249.53-9354
       - 🇸🇬SG-5.44.249.53-15628
       - 🇸🇬SG-5.44.249.53-15618
+      - 🇸🇬SG-5.44.249.52-9362
+      - 🇸🇬SG-5.44.249.51-9370
+      - 🇸🇬SG-5.44.249.50-9363
+      - 🇸🇬SG-5.44.249.50-2644
       - 🇸🇬SG-5.44.249.50-0130
       - 🇸🇬SG-5.44.249.44-9558
       - 🇸🇬SG-5.44.249.44-15561
       - 🇸🇬SG-5.44.249.44-0144
       - 🇸🇬SG-5.44.249.43-4363
+      - 🇸🇬SG-5.44.249.43-4271
+      - 🇸🇬SG-5.44.249.43-2643
       - 🇸🇬SG-5.44.249.43-15551
       - 🇸🇬SG-5.44.249.43-15522
-      - 🇯🇵JP-52.195.235.6-0258
-      - 🇯🇵JP-104.214.144.144-1567
-      - 🇭🇰HK-20.239.48.147-1893
+      - 🇸🇬SG-5.44.249.42-9373
+      - 🇸🇬SG-5.44.249.42-1562
+      - 🇸🇬SG-172.104.177.105-4255
+      - 🇰🇷KR-20.196.216.159-1852
+      - 🇰🇷KR-146.56.189.146-6289
+      - 🇰🇷KR-140.238.12.83-9008
+      - 🇯🇵JP-35.74.238.103-8938
+      - 🇭🇰HK-1.36.212.42-1835
+      - 🇨🇳CN-183.240.220.99-8373
+      - 🇨🇳CN-183.240.220.97-8375
+      - RELAY-104.18.213.12-142
+      - https://t.me/zyfx8+5
+      - https://t.me/zyfx8+2
+      - _CN_中国->🇺🇸_US_美国_1_4@1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -231,19 +357,37 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🏁RELAY-104.21.75.246-1340
+      - 🏁RELAY-172.67.165.210-0996
+      - 🇸🇬SG-5.44.249.53-9354
       - 🇸🇬SG-5.44.249.53-15628
       - 🇸🇬SG-5.44.249.53-15618
+      - 🇸🇬SG-5.44.249.52-9362
+      - 🇸🇬SG-5.44.249.51-9370
+      - 🇸🇬SG-5.44.249.50-9363
+      - 🇸🇬SG-5.44.249.50-2644
       - 🇸🇬SG-5.44.249.50-0130
       - 🇸🇬SG-5.44.249.44-9558
       - 🇸🇬SG-5.44.249.44-15561
       - 🇸🇬SG-5.44.249.44-0144
       - 🇸🇬SG-5.44.249.43-4363
+      - 🇸🇬SG-5.44.249.43-4271
+      - 🇸🇬SG-5.44.249.43-2643
       - 🇸🇬SG-5.44.249.43-15551
       - 🇸🇬SG-5.44.249.43-15522
-      - 🇯🇵JP-52.195.235.6-0258
-      - 🇯🇵JP-104.214.144.144-1567
-      - 🇭🇰HK-20.239.48.147-1893
+      - 🇸🇬SG-5.44.249.42-9373
+      - 🇸🇬SG-5.44.249.42-1562
+      - 🇸🇬SG-172.104.177.105-4255
+      - 🇰🇷KR-20.196.216.159-1852
+      - 🇰🇷KR-146.56.189.146-6289
+      - 🇰🇷KR-140.238.12.83-9008
+      - 🇯🇵JP-35.74.238.103-8938
+      - 🇭🇰HK-1.36.212.42-1835
+      - 🇨🇳CN-183.240.220.99-8373
+      - 🇨🇳CN-183.240.220.97-8375
+      - RELAY-104.18.213.12-142
+      - https://t.me/zyfx8+5
+      - https://t.me/zyfx8+2
+      - _CN_中国->🇺🇸_US_美国_1_4@1
 
 rules:
 # 本地/局域网地址
