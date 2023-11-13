@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-25 09:20:57
+# 创建时间：2023-11-13 10:57:52
 # 使用模版：V2RaySE 默认模版
-# 节点数量：3
+# 节点数量：2
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,60 +85,53 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"CN-39.164.141.104-123","type":"trojan","server":"39.164.141.104","port":40350,"udp":true,"password":"ff0675b0-c665-3d69-800b-f7fc29e1ead8","sni":"chaosujp.ccoo520.xyz","skip-cert-verify":true}
-  - {"name":"RELAY-104.17.18.26-011","type":"vmess","server":"104.17.18.26","port":80,"cipher":"auto","uuid":"5180444a-4756-43b4-960b-49eb9052e4e8","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"a.109420.xyz"}}}
-  - {"name":"FR-13.39.98.163-127","type":"trojan","server":"13.39.98.163","port":22222,"udp":true,"password":"telegram-id-privatevpns","sni":"trj.rollingnext.co.uk","skip-cert-verify":true}
+  - {"name":"免费梯子https://t.me/mftizi","type":"vmess","server":"183.233.187.214","port":38962,"cipher":"auto","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"法国（冰河圈子）","type":"vmess","server":"cloudflare.binghe.design","port":443,"cipher":"auto","uuid":"2ccd2ffc-dce3-4ff4-8e7a-ef4113f2a7bc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"","headers":{"host":"fr.binghe.design"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CN-39.164.141.104-123
-      - RELAY-104.17.18.26-011
-      - FR-13.39.98.163-127
+      - 免费梯子https://t.me/mftizi
+      - 法国（冰河圈子）
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CN-39.164.141.104-123
-      - RELAY-104.17.18.26-011
-      - FR-13.39.98.163-127
+      - 免费梯子https://t.me/mftizi
+      - 法国（冰河圈子）
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-39.164.141.104-123
-      - RELAY-104.17.18.26-011
-      - FR-13.39.98.163-127
+      - 免费梯子https://t.me/mftizi
+      - 法国（冰河圈子）
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CN-39.164.141.104-123
-      - RELAY-104.17.18.26-011
-      - FR-13.39.98.163-127
+      - 免费梯子https://t.me/mftizi
+      - 法国（冰河圈子）
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - CN-39.164.141.104-123
-      - RELAY-104.17.18.26-011
-      - FR-13.39.98.163-127
+      - 免费梯子https://t.me/mftizi
+      - 法国（冰河圈子）
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CN-39.164.141.104-123
-      - RELAY-104.17.18.26-011
-      - FR-13.39.98.163-127
+      - 免费梯子https://t.me/mftizi
+      - 法国（冰河圈子）
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -161,9 +154,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN-39.164.141.104-123
-      - RELAY-104.17.18.26-011
-      - FR-13.39.98.163-127
+      - 免费梯子https://t.me/mftizi
+      - 法国（冰河圈子）
 
 rules:
 # 本地/局域网地址
