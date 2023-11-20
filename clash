@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-11-13 10:57:52
+# 创建时间：2023-11-20 11:38:02
 # 使用模版：V2RaySE 默认模版
-# 节点数量：2
+# 节点数量：5
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,53 +85,74 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"免费梯子https://t.me/mftizi","type":"vmess","server":"183.233.187.214","port":38962,"cipher":"auto","uuid":"770ee730-2450-4e3c-a6c6-3932bd32afbd","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"法国（冰河圈子）","type":"vmess","server":"cloudflare.binghe.design","port":443,"cipher":"auto","uuid":"2ccd2ffc-dce3-4ff4-8e7a-ef4113f2a7bc","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"","headers":{"host":"fr.binghe.design"}}}
+  - {"name":"BR-Oracle Cloud-São Paulo","type":"vmess","server":"speed.cloudflare.com","port":80,"cipher":"auto","uuid":"8ff34807-1996-42c7-af8c-0f63de559378","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"8ff34807","headers":{"host":"routine-westminster-bell-pour.trycloudflare.com"}}}
+  - {"name":"3k-221","type":"vmess","server":"cn.azhz.eu.org","port":443,"cipher":"none","uuid":"87745e08-f3d8-4316-adc4-177baeb0b3cd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"3k-221.freeargo.eu.org","network":"ws","ws-opts":{"path":"/argox-vm?ed=2048","headers":{"host":"3k-221.freeargo.eu.org"}}}
+  - {"name":"BR-Oracle Cloud-São Paulo_tls","type":"vmess","server":"speed.cloudflare.com","port":443,"cipher":"auto","uuid":"8ff34807-1996-42c7-af8c-0f63de559378","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"8ff34807","headers":{"host":"routine-westminster-bell-pour.trycloudflare.com"}}}
+  - {"name":"US-Netlab-sdn-37.75100","type":"vmess","server":"cn.azhz.eu.org","port":80,"cipher":"auto","uuid":"549e7e87-42dc-4fce-ad64-54c0448a507f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"549e7e87","headers":{"host":"hormone-cole-supporting-informed.trycloudflare.com"}}}
+  - {"name":"US-Netlab-sdn-37.75100_tls","type":"vmess","server":"cn.azhz.eu.org","port":443,"cipher":"auto","uuid":"549e7e87-42dc-4fce-ad64-54c0448a507f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hormone-cole-supporting-informed.trycloudflare.com","network":"ws","ws-opts":{"path":"549e7e87","headers":{"host":"hormone-cole-supporting-informed.trycloudflare.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 免费梯子https://t.me/mftizi
-      - 法国（冰河圈子）
+      - BR-Oracle Cloud-São Paulo
+      - 3k-221
+      - BR-Oracle Cloud-São Paulo_tls
+      - US-Netlab-sdn-37.75100
+      - US-Netlab-sdn-37.75100_tls
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 免费梯子https://t.me/mftizi
-      - 法国（冰河圈子）
+      - BR-Oracle Cloud-São Paulo
+      - 3k-221
+      - BR-Oracle Cloud-São Paulo_tls
+      - US-Netlab-sdn-37.75100
+      - US-Netlab-sdn-37.75100_tls
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 免费梯子https://t.me/mftizi
-      - 法国（冰河圈子）
+      - BR-Oracle Cloud-São Paulo
+      - 3k-221
+      - BR-Oracle Cloud-São Paulo_tls
+      - US-Netlab-sdn-37.75100
+      - US-Netlab-sdn-37.75100_tls
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 免费梯子https://t.me/mftizi
-      - 法国（冰河圈子）
+      - BR-Oracle Cloud-São Paulo
+      - 3k-221
+      - BR-Oracle Cloud-São Paulo_tls
+      - US-Netlab-sdn-37.75100
+      - US-Netlab-sdn-37.75100_tls
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 免费梯子https://t.me/mftizi
-      - 法国（冰河圈子）
+      - BR-Oracle Cloud-São Paulo
+      - 3k-221
+      - BR-Oracle Cloud-São Paulo_tls
+      - US-Netlab-sdn-37.75100
+      - US-Netlab-sdn-37.75100_tls
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 免费梯子https://t.me/mftizi
-      - 法国（冰河圈子）
+      - BR-Oracle Cloud-São Paulo
+      - 3k-221
+      - BR-Oracle Cloud-São Paulo_tls
+      - US-Netlab-sdn-37.75100
+      - US-Netlab-sdn-37.75100_tls
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -154,8 +175,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 免费梯子https://t.me/mftizi
-      - 法国（冰河圈子）
+      - BR-Oracle Cloud-São Paulo
+      - 3k-221
+      - BR-Oracle Cloud-São Paulo_tls
+      - US-Netlab-sdn-37.75100
+      - US-Netlab-sdn-37.75100_tls
 
 rules:
 # 本地/局域网地址
