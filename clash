@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-11-20 11:38:02
+# 创建时间：2023-11-27 09:34:39
 # 使用模版：V2RaySE 默认模版
-# 节点数量：5
+# 节点数量：28
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,74 +85,235 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"BR-Oracle Cloud-São Paulo","type":"vmess","server":"speed.cloudflare.com","port":80,"cipher":"auto","uuid":"8ff34807-1996-42c7-af8c-0f63de559378","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"8ff34807","headers":{"host":"routine-westminster-bell-pour.trycloudflare.com"}}}
-  - {"name":"3k-221","type":"vmess","server":"cn.azhz.eu.org","port":443,"cipher":"none","uuid":"87745e08-f3d8-4316-adc4-177baeb0b3cd","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"3k-221.freeargo.eu.org","network":"ws","ws-opts":{"path":"/argox-vm?ed=2048","headers":{"host":"3k-221.freeargo.eu.org"}}}
-  - {"name":"BR-Oracle Cloud-São Paulo_tls","type":"vmess","server":"speed.cloudflare.com","port":443,"cipher":"auto","uuid":"8ff34807-1996-42c7-af8c-0f63de559378","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"8ff34807","headers":{"host":"routine-westminster-bell-pour.trycloudflare.com"}}}
-  - {"name":"US-Netlab-sdn-37.75100","type":"vmess","server":"cn.azhz.eu.org","port":80,"cipher":"auto","uuid":"549e7e87-42dc-4fce-ad64-54c0448a507f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"549e7e87","headers":{"host":"hormone-cole-supporting-informed.trycloudflare.com"}}}
-  - {"name":"US-Netlab-sdn-37.75100_tls","type":"vmess","server":"cn.azhz.eu.org","port":443,"cipher":"auto","uuid":"549e7e87-42dc-4fce-ad64-54c0448a507f","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"hormone-cole-supporting-informed.trycloudflare.com","network":"ws","ws-opts":{"path":"549e7e87","headers":{"host":"hormone-cole-supporting-informed.trycloudflare.com"}}}
+  - {"name":"GB-172.99.190.109-122","type":"vmess","server":"172.99.190.109","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"172.99.190.109"}}}
+  - {"name":"github.com/freefq - 美国  14","type":"vmess","server":"172.99.190.109","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"172.99.190.109"}}}
+  - {"name":"qwjhfx频道_1","type":"vmess","server":"54.38.221.12","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.11530723.xyz"}}}
+  - {"name":"qwjhfx频道_2","type":"vmess","server":"51.89.122.175","port":30000,"cipher":"auto","uuid":"9f58234c-355b-4065-ae21-d4a63099aba5","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.25311731.xyz"}}}
+  - {"name":"qwjhfx频道_3","type":"vmess","server":"141.95.6.56","port":40000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.11700349.xyz"}}}
+  - {"name":"🇨🇳CN-183.240.232.17-5260","type":"trojan","server":"official.taipeicitygovernment.com.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇩🇪DE-91.107.180.163-8007","type":"vmess","server":"s2.ferfere.de","port":8080,"cipher":"auto","uuid":"19893261-0136-44d7-be14-62497069dd31","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"google.com","network":"ws","ws-opts":{"path":"/","headers":{"host":"s2.ferfere.de"}}}
+  - {"name":"🇫🇷·法国·{TG：@ccbaohe}定时更新节点订阅·69","type":"ss","server":"51.158.195.96","port":80,"password":"asdKkaskJKfnsa","cipher":"aes-256-cfb"}
+  - {"name":"🇬🇧GB-45.159.248.39-1008","type":"vmess","server":"ukmws.mainssh.xyz","port":443,"cipher":"auto","uuid":"59341904-14e4-47e0-b89b-077795482ee2","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ukmws.mainssh.xyz"}}}
+  - {"name":"🇭🇰_香港_@ZDYZ2_231","type":"trojan","server":"uaejs.liangyuandiancloud.com","port":443,"udp":true,"password":"9b93846a-083b-4e8f-a025-356bdc335fe0","skip-cert-verify":true}
+  - {"name":"🇰🇷KR-131.186.22.37-7703","type":"trojan","server":"frontend.yijianlian.app","port":54430,"udp":true,"password":"b5e4e360-5946-470b-aad0-db98f50faa57","skip-cert-verify":true}
+  - {"name":"🇰🇷KR-182.209.240.248-1790","type":"trojan","server":"kr2.twincloud.xyz","port":443,"udp":true,"password":"6455f944-7c07-4ab0-b88f-440e581f41d9","skip-cert-verify":true}
+  - {"name":"🇸🇬_新加坡_@ZDYZ2_198","type":"trojan","server":"aujs.liangyuandiancloud.com","port":443,"udp":true,"password":"9b93846a-083b-4e8f-a025-356bdc335fe0","skip-cert-verify":true}
+  - {"name":"🇸🇬_新加坡_@ZDYZ2_216","type":"trojan","server":"chjs.liangyuandiancloud.com","port":443,"udp":true,"password":"9b93846a-083b-4e8f-a025-356bdc335fe0","skip-cert-verify":true}
+  - {"name":"🇸🇬_新加坡_@ZDYZ2_222","type":"trojan","server":"sajs.liangyuandiancloud.com","port":443,"udp":true,"password":"9b93846a-083b-4e8f-a025-356bdc335fe0","skip-cert-verify":true}
+  - {"name":"🇸🇬_新加坡_@ZDYZ2_228","type":"trojan","server":"brjs.liangyuandiancloud.com","port":443,"udp":true,"password":"9b93846a-083b-4e8f-a025-356bdc335fe0","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-172.104.177.105-8610","type":"trojan","server":"w12.udpgw.com","port":443,"udp":true,"password":"08964210-e7b8-11ec-95aa-1239d0255272","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.42-1808","type":"trojan","server":"5.44.249.42","port":3306,"udp":true,"password":"d4e41ff772c7fd45","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.43-2348","type":"trojan","server":"5.44.249.43","port":3306,"udp":true,"password":"5227e84e4f026b71","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.43-6796","type":"trojan","server":"5.44.249.43","port":3306,"udp":true,"password":"b09d2aaa443af97a","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.43-8727","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"cd39f62aed7b90f6","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.43-8729","type":"trojan","server":"5.44.249.43","port":3389,"udp":true,"password":"6f0a9d0fa39d65fa","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.44-1810","type":"trojan","server":"5.44.249.44","port":3306,"udp":true,"password":"d02058f4f819dced","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.50-2347","type":"trojan","server":"5.44.249.50","port":3306,"udp":true,"password":"faf42aa0a9ad4c1e","skip-cert-verify":true}
+  - {"name":"🇸🇬SG-5.44.249.53-1809","type":"trojan","server":"5.44.249.53","port":3306,"udp":true,"password":"70face6dd320ea29","skip-cert-verify":true}
+  - {"name":"🇺🇸US-192.74.244.1-0167","type":"vmess","server":"192.74.244.1","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/1700403634984","headers":{"host":"www.54146999.xyz"}}}
+  - {"name":"🇺🇸US-192.74.244.1-8158","type":"vmess","server":"192.74.244.1","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"www.54146999.xyz","network":"ws","ws-opts":{"path":"/path/1700403634984"}}
+  - {"name":"🇺🇸US-199.59.243.225-2223","type":"trojan","server":"stonebreak.online","port":443,"udp":true,"password":"xl87654321","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - BR-Oracle Cloud-São Paulo
-      - 3k-221
-      - BR-Oracle Cloud-São Paulo_tls
-      - US-Netlab-sdn-37.75100
-      - US-Netlab-sdn-37.75100_tls
+      - GB-172.99.190.109-122
+      - github.com/freefq - 美国  14
+      - qwjhfx频道_1
+      - qwjhfx频道_2
+      - qwjhfx频道_3
+      - 🇨🇳CN-183.240.232.17-5260
+      - 🇩🇪DE-91.107.180.163-8007
+      - 🇫🇷·法国·{TG：@ccbaohe}定时更新节点订阅·69
+      - 🇬🇧GB-45.159.248.39-1008
+      - 🇭🇰_香港_@ZDYZ2_231
+      - 🇰🇷KR-131.186.22.37-7703
+      - 🇰🇷KR-182.209.240.248-1790
+      - 🇸🇬_新加坡_@ZDYZ2_198
+      - 🇸🇬_新加坡_@ZDYZ2_216
+      - 🇸🇬_新加坡_@ZDYZ2_222
+      - 🇸🇬_新加坡_@ZDYZ2_228
+      - 🇸🇬SG-172.104.177.105-8610
+      - 🇸🇬SG-5.44.249.42-1808
+      - 🇸🇬SG-5.44.249.43-2348
+      - 🇸🇬SG-5.44.249.43-6796
+      - 🇸🇬SG-5.44.249.43-8727
+      - 🇸🇬SG-5.44.249.43-8729
+      - 🇸🇬SG-5.44.249.44-1810
+      - 🇸🇬SG-5.44.249.50-2347
+      - 🇸🇬SG-5.44.249.53-1809
+      - 🇺🇸US-192.74.244.1-0167
+      - 🇺🇸US-192.74.244.1-8158
+      - 🇺🇸US-199.59.243.225-2223
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - BR-Oracle Cloud-São Paulo
-      - 3k-221
-      - BR-Oracle Cloud-São Paulo_tls
-      - US-Netlab-sdn-37.75100
-      - US-Netlab-sdn-37.75100_tls
+      - GB-172.99.190.109-122
+      - github.com/freefq - 美国  14
+      - qwjhfx频道_1
+      - qwjhfx频道_2
+      - qwjhfx频道_3
+      - 🇨🇳CN-183.240.232.17-5260
+      - 🇩🇪DE-91.107.180.163-8007
+      - 🇫🇷·法国·{TG：@ccbaohe}定时更新节点订阅·69
+      - 🇬🇧GB-45.159.248.39-1008
+      - 🇭🇰_香港_@ZDYZ2_231
+      - 🇰🇷KR-131.186.22.37-7703
+      - 🇰🇷KR-182.209.240.248-1790
+      - 🇸🇬_新加坡_@ZDYZ2_198
+      - 🇸🇬_新加坡_@ZDYZ2_216
+      - 🇸🇬_新加坡_@ZDYZ2_222
+      - 🇸🇬_新加坡_@ZDYZ2_228
+      - 🇸🇬SG-172.104.177.105-8610
+      - 🇸🇬SG-5.44.249.42-1808
+      - 🇸🇬SG-5.44.249.43-2348
+      - 🇸🇬SG-5.44.249.43-6796
+      - 🇸🇬SG-5.44.249.43-8727
+      - 🇸🇬SG-5.44.249.43-8729
+      - 🇸🇬SG-5.44.249.44-1810
+      - 🇸🇬SG-5.44.249.50-2347
+      - 🇸🇬SG-5.44.249.53-1809
+      - 🇺🇸US-192.74.244.1-0167
+      - 🇺🇸US-192.74.244.1-8158
+      - 🇺🇸US-199.59.243.225-2223
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - BR-Oracle Cloud-São Paulo
-      - 3k-221
-      - BR-Oracle Cloud-São Paulo_tls
-      - US-Netlab-sdn-37.75100
-      - US-Netlab-sdn-37.75100_tls
+      - GB-172.99.190.109-122
+      - github.com/freefq - 美国  14
+      - qwjhfx频道_1
+      - qwjhfx频道_2
+      - qwjhfx频道_3
+      - 🇨🇳CN-183.240.232.17-5260
+      - 🇩🇪DE-91.107.180.163-8007
+      - 🇫🇷·法国·{TG：@ccbaohe}定时更新节点订阅·69
+      - 🇬🇧GB-45.159.248.39-1008
+      - 🇭🇰_香港_@ZDYZ2_231
+      - 🇰🇷KR-131.186.22.37-7703
+      - 🇰🇷KR-182.209.240.248-1790
+      - 🇸🇬_新加坡_@ZDYZ2_198
+      - 🇸🇬_新加坡_@ZDYZ2_216
+      - 🇸🇬_新加坡_@ZDYZ2_222
+      - 🇸🇬_新加坡_@ZDYZ2_228
+      - 🇸🇬SG-172.104.177.105-8610
+      - 🇸🇬SG-5.44.249.42-1808
+      - 🇸🇬SG-5.44.249.43-2348
+      - 🇸🇬SG-5.44.249.43-6796
+      - 🇸🇬SG-5.44.249.43-8727
+      - 🇸🇬SG-5.44.249.43-8729
+      - 🇸🇬SG-5.44.249.44-1810
+      - 🇸🇬SG-5.44.249.50-2347
+      - 🇸🇬SG-5.44.249.53-1809
+      - 🇺🇸US-192.74.244.1-0167
+      - 🇺🇸US-192.74.244.1-8158
+      - 🇺🇸US-199.59.243.225-2223
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - BR-Oracle Cloud-São Paulo
-      - 3k-221
-      - BR-Oracle Cloud-São Paulo_tls
-      - US-Netlab-sdn-37.75100
-      - US-Netlab-sdn-37.75100_tls
+      - GB-172.99.190.109-122
+      - github.com/freefq - 美国  14
+      - qwjhfx频道_1
+      - qwjhfx频道_2
+      - qwjhfx频道_3
+      - 🇨🇳CN-183.240.232.17-5260
+      - 🇩🇪DE-91.107.180.163-8007
+      - 🇫🇷·法国·{TG：@ccbaohe}定时更新节点订阅·69
+      - 🇬🇧GB-45.159.248.39-1008
+      - 🇭🇰_香港_@ZDYZ2_231
+      - 🇰🇷KR-131.186.22.37-7703
+      - 🇰🇷KR-182.209.240.248-1790
+      - 🇸🇬_新加坡_@ZDYZ2_198
+      - 🇸🇬_新加坡_@ZDYZ2_216
+      - 🇸🇬_新加坡_@ZDYZ2_222
+      - 🇸🇬_新加坡_@ZDYZ2_228
+      - 🇸🇬SG-172.104.177.105-8610
+      - 🇸🇬SG-5.44.249.42-1808
+      - 🇸🇬SG-5.44.249.43-2348
+      - 🇸🇬SG-5.44.249.43-6796
+      - 🇸🇬SG-5.44.249.43-8727
+      - 🇸🇬SG-5.44.249.43-8729
+      - 🇸🇬SG-5.44.249.44-1810
+      - 🇸🇬SG-5.44.249.50-2347
+      - 🇸🇬SG-5.44.249.53-1809
+      - 🇺🇸US-192.74.244.1-0167
+      - 🇺🇸US-192.74.244.1-8158
+      - 🇺🇸US-199.59.243.225-2223
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - BR-Oracle Cloud-São Paulo
-      - 3k-221
-      - BR-Oracle Cloud-São Paulo_tls
-      - US-Netlab-sdn-37.75100
-      - US-Netlab-sdn-37.75100_tls
+      - GB-172.99.190.109-122
+      - github.com/freefq - 美国  14
+      - qwjhfx频道_1
+      - qwjhfx频道_2
+      - qwjhfx频道_3
+      - 🇨🇳CN-183.240.232.17-5260
+      - 🇩🇪DE-91.107.180.163-8007
+      - 🇫🇷·法国·{TG：@ccbaohe}定时更新节点订阅·69
+      - 🇬🇧GB-45.159.248.39-1008
+      - 🇭🇰_香港_@ZDYZ2_231
+      - 🇰🇷KR-131.186.22.37-7703
+      - 🇰🇷KR-182.209.240.248-1790
+      - 🇸🇬_新加坡_@ZDYZ2_198
+      - 🇸🇬_新加坡_@ZDYZ2_216
+      - 🇸🇬_新加坡_@ZDYZ2_222
+      - 🇸🇬_新加坡_@ZDYZ2_228
+      - 🇸🇬SG-172.104.177.105-8610
+      - 🇸🇬SG-5.44.249.42-1808
+      - 🇸🇬SG-5.44.249.43-2348
+      - 🇸🇬SG-5.44.249.43-6796
+      - 🇸🇬SG-5.44.249.43-8727
+      - 🇸🇬SG-5.44.249.43-8729
+      - 🇸🇬SG-5.44.249.44-1810
+      - 🇸🇬SG-5.44.249.50-2347
+      - 🇸🇬SG-5.44.249.53-1809
+      - 🇺🇸US-192.74.244.1-0167
+      - 🇺🇸US-192.74.244.1-8158
+      - 🇺🇸US-199.59.243.225-2223
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - BR-Oracle Cloud-São Paulo
-      - 3k-221
-      - BR-Oracle Cloud-São Paulo_tls
-      - US-Netlab-sdn-37.75100
-      - US-Netlab-sdn-37.75100_tls
+      - GB-172.99.190.109-122
+      - github.com/freefq - 美国  14
+      - qwjhfx频道_1
+      - qwjhfx频道_2
+      - qwjhfx频道_3
+      - 🇨🇳CN-183.240.232.17-5260
+      - 🇩🇪DE-91.107.180.163-8007
+      - 🇫🇷·法国·{TG：@ccbaohe}定时更新节点订阅·69
+      - 🇬🇧GB-45.159.248.39-1008
+      - 🇭🇰_香港_@ZDYZ2_231
+      - 🇰🇷KR-131.186.22.37-7703
+      - 🇰🇷KR-182.209.240.248-1790
+      - 🇸🇬_新加坡_@ZDYZ2_198
+      - 🇸🇬_新加坡_@ZDYZ2_216
+      - 🇸🇬_新加坡_@ZDYZ2_222
+      - 🇸🇬_新加坡_@ZDYZ2_228
+      - 🇸🇬SG-172.104.177.105-8610
+      - 🇸🇬SG-5.44.249.42-1808
+      - 🇸🇬SG-5.44.249.43-2348
+      - 🇸🇬SG-5.44.249.43-6796
+      - 🇸🇬SG-5.44.249.43-8727
+      - 🇸🇬SG-5.44.249.43-8729
+      - 🇸🇬SG-5.44.249.44-1810
+      - 🇸🇬SG-5.44.249.50-2347
+      - 🇸🇬SG-5.44.249.53-1809
+      - 🇺🇸US-192.74.244.1-0167
+      - 🇺🇸US-192.74.244.1-8158
+      - 🇺🇸US-199.59.243.225-2223
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -175,11 +336,34 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - BR-Oracle Cloud-São Paulo
-      - 3k-221
-      - BR-Oracle Cloud-São Paulo_tls
-      - US-Netlab-sdn-37.75100
-      - US-Netlab-sdn-37.75100_tls
+      - GB-172.99.190.109-122
+      - github.com/freefq - 美国  14
+      - qwjhfx频道_1
+      - qwjhfx频道_2
+      - qwjhfx频道_3
+      - 🇨🇳CN-183.240.232.17-5260
+      - 🇩🇪DE-91.107.180.163-8007
+      - 🇫🇷·法国·{TG：@ccbaohe}定时更新节点订阅·69
+      - 🇬🇧GB-45.159.248.39-1008
+      - 🇭🇰_香港_@ZDYZ2_231
+      - 🇰🇷KR-131.186.22.37-7703
+      - 🇰🇷KR-182.209.240.248-1790
+      - 🇸🇬_新加坡_@ZDYZ2_198
+      - 🇸🇬_新加坡_@ZDYZ2_216
+      - 🇸🇬_新加坡_@ZDYZ2_222
+      - 🇸🇬_新加坡_@ZDYZ2_228
+      - 🇸🇬SG-172.104.177.105-8610
+      - 🇸🇬SG-5.44.249.42-1808
+      - 🇸🇬SG-5.44.249.43-2348
+      - 🇸🇬SG-5.44.249.43-6796
+      - 🇸🇬SG-5.44.249.43-8727
+      - 🇸🇬SG-5.44.249.43-8729
+      - 🇸🇬SG-5.44.249.44-1810
+      - 🇸🇬SG-5.44.249.50-2347
+      - 🇸🇬SG-5.44.249.53-1809
+      - 🇺🇸US-192.74.244.1-0167
+      - 🇺🇸US-192.74.244.1-8158
+      - 🇺🇸US-199.59.243.225-2223
 
 rules:
 # 本地/局域网地址
