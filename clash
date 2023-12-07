@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-12-04 10:04:21
+# 创建时间：2023-12-07 09:21:57
 # 使用模版：V2RaySE 默认模版
-# 节点数量：7
+# 节点数量：6
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,88 +85,81 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"FR-51.158.195.96-040","type":"ss","server":"51.158.195.96","port":443,"password":"asdKkaskJKfnsa","cipher":"aes-256-cfb"}
-  - {"name":"FR-51.158.195.96-001","type":"ss","server":"51.158.195.96","port":110,"password":"asdKkaskJKfnsa","cipher":"aes-256-cfb"}
-  - {"name":"🇺🇸US-47.254.89.211-10280","type":"vmess","server":"47.254.89.211","port":80,"cipher":"auto","uuid":"203b2ab2-4994-4193-8193-6631a575edb0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/GSoTl9ZoYG5V2R0k4tUTGI8k"}}
-  - {"name":"🇳🇱NL-95.179.186.161-1645","type":"vmess","server":"hdfy4s2d1.foriran.trade","port":443,"cipher":"auto","uuid":"dfbbc8de-8a4f-407d-8069-6de38d83c4e1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/WgCmp8pxRWBtLTlTL","headers":{"host":"hdfy4s2d1.foriran.trade"}}}
-  - {"name":"🇬🇧GB-172.99.190.109-1057","type":"vmess","server":"172.99.190.109","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws"}}
-  - {"name":"@qwjhfx频道","type":"vmess","server":"142.4.101.10","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.23494000.xyz"}}}
+  - {"name":"@qwjhfx频道_1","type":"vmess","server":"142.4.101.10","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.23494000.xyz"}}}
+  - {"name":"@qwjhfx频道_2","type":"vmess","server":"142.4.118.119","port":30000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.86477047.xyz"}}}
+  - {"name":"@qwjhfx频道_3","type":"vmess","server":"137.175.49.220","port":50000,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/path/323127100515","headers":{"host":"www.36443410.xyz"}}}
   - {"name":"github.com/freefq - 美国  14","type":"vmess","server":"172.99.190.109","port":443,"cipher":"auto","uuid":"03fcc618-b93d-6796-6aed-8a38c975d581","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"linkvws","headers":{"host":"172.99.190.109"}}}
+  - {"name":"RELAY-162.159.200.1-221","type":"vmess","server":"162.159.200.1","port":80,"cipher":"auto","uuid":"c0b72149-1064-400f-acb4-ec9fa76c78aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"tr3.889611.com"}}}
+  - {"name":"RELAY-162.159.142.203-270","type":"vmess","server":"162.159.142.203","port":80,"cipher":"auto","uuid":"c0b72149-1064-400f-acb4-ec9fa76c78aa","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"er3.889611.com"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - FR-51.158.195.96-040
-      - FR-51.158.195.96-001
-      - 🇺🇸US-47.254.89.211-10280
-      - 🇳🇱NL-95.179.186.161-1645
-      - 🇬🇧GB-172.99.190.109-1057
-      - '@qwjhfx频道'
+      - '@qwjhfx频道_1'
+      - '@qwjhfx频道_2'
+      - '@qwjhfx频道_3'
       - github.com/freefq - 美国  14
+      - RELAY-162.159.200.1-221
+      - RELAY-162.159.142.203-270
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - FR-51.158.195.96-040
-      - FR-51.158.195.96-001
-      - 🇺🇸US-47.254.89.211-10280
-      - 🇳🇱NL-95.179.186.161-1645
-      - 🇬🇧GB-172.99.190.109-1057
-      - '@qwjhfx频道'
+      - '@qwjhfx频道_1'
+      - '@qwjhfx频道_2'
+      - '@qwjhfx频道_3'
       - github.com/freefq - 美国  14
+      - RELAY-162.159.200.1-221
+      - RELAY-162.159.142.203-270
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - FR-51.158.195.96-040
-      - FR-51.158.195.96-001
-      - 🇺🇸US-47.254.89.211-10280
-      - 🇳🇱NL-95.179.186.161-1645
-      - 🇬🇧GB-172.99.190.109-1057
-      - '@qwjhfx频道'
+      - '@qwjhfx频道_1'
+      - '@qwjhfx频道_2'
+      - '@qwjhfx频道_3'
       - github.com/freefq - 美国  14
+      - RELAY-162.159.200.1-221
+      - RELAY-162.159.142.203-270
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - FR-51.158.195.96-040
-      - FR-51.158.195.96-001
-      - 🇺🇸US-47.254.89.211-10280
-      - 🇳🇱NL-95.179.186.161-1645
-      - 🇬🇧GB-172.99.190.109-1057
-      - '@qwjhfx频道'
+      - '@qwjhfx频道_1'
+      - '@qwjhfx频道_2'
+      - '@qwjhfx频道_3'
       - github.com/freefq - 美国  14
+      - RELAY-162.159.200.1-221
+      - RELAY-162.159.142.203-270
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - FR-51.158.195.96-040
-      - FR-51.158.195.96-001
-      - 🇺🇸US-47.254.89.211-10280
-      - 🇳🇱NL-95.179.186.161-1645
-      - 🇬🇧GB-172.99.190.109-1057
-      - '@qwjhfx频道'
+      - '@qwjhfx频道_1'
+      - '@qwjhfx频道_2'
+      - '@qwjhfx频道_3'
       - github.com/freefq - 美国  14
+      - RELAY-162.159.200.1-221
+      - RELAY-162.159.142.203-270
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - FR-51.158.195.96-040
-      - FR-51.158.195.96-001
-      - 🇺🇸US-47.254.89.211-10280
-      - 🇳🇱NL-95.179.186.161-1645
-      - 🇬🇧GB-172.99.190.109-1057
-      - '@qwjhfx频道'
+      - '@qwjhfx频道_1'
+      - '@qwjhfx频道_2'
+      - '@qwjhfx频道_3'
       - github.com/freefq - 美国  14
+      - RELAY-162.159.200.1-221
+      - RELAY-162.159.142.203-270
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -189,13 +182,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - FR-51.158.195.96-040
-      - FR-51.158.195.96-001
-      - 🇺🇸US-47.254.89.211-10280
-      - 🇳🇱NL-95.179.186.161-1645
-      - 🇬🇧GB-172.99.190.109-1057
-      - '@qwjhfx频道'
+      - '@qwjhfx频道_1'
+      - '@qwjhfx频道_2'
+      - '@qwjhfx频道_3'
       - github.com/freefq - 美国  14
+      - RELAY-162.159.200.1-221
+      - RELAY-162.159.142.203-270
 
 rules:
 # 本地/局域网地址
