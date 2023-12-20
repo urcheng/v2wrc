@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-12-18 09:18:03
+# 创建时间：2023-12-20 09:29:57
 # 使用模版：V2RaySE 默认模版
-# 节点数量：3
+# 节点数量：8
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,60 +85,95 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇯🇵JP-133.242.210.166-5815","type":"trojan","server":"jp07a.roc-taiwan.org.ua","port":65017,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"CA-193.203.203.88-158","type":"vmess","server":"193.203.203.88","port":8443,"cipher":"auto","uuid":"012a4853-55fe-4eef-b8c2-e87f8fd178e5","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"🇵🇹PT-94.131.10.135-8982","type":"vmess","server":"94.131.10.135","port":8080,"cipher":"auto","uuid":"e2021c91-6e29-49d6-9641-14a8f2600e05","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"internet.life.com.by","network":"ws","ws-opts":{"path":"/vmess"}}
+  - {"name":"🇯🇵JP-133.242.134.182-6110","type":"trojan","server":"jp03a.roc-taiwan.net.ua","port":65013,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-183.236.51.21-0143","type":"vmess","server":"us2.awslcn.info","port":25257,"cipher":"auto","uuid":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us2.awslcn.info"}}}
+  - {"name":"CN-183.236.51.21-255","type":"vmess","server":"cm.awslcn.info","port":25241,"cipher":"auto","uuid":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"cm.awslcn.info"}}}
+  - {"name":"🇨🇳CN-183.236.51.21-1183","type":"vmess","server":"cm.awslcn.info","port":25241,"cipher":"auto","uuid":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"cm.awslcn.info"}}}
+  - {"name":"CN-183.236.51.21-006","type":"vmess","server":"us2.awslcn.info","port":25257,"cipher":"auto","uuid":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us2.awslcn.info"}}}
+  - {"name":"CN-183.236.51.21-263","type":"vmess","server":"cm1.awslcn.info","port":25241,"cipher":"auto","uuid":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"cm1.awslcn.info"}}}
+  - {"name":"@ZDYZ2-🤔+unknown+66","type":"ss","server":"nc.ct1.go002.xyz","port":19561,"password":"dcbc1c7f-c323-4365-bd48-cf767f9081ce","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@ZDYZ2-🤔+unknown+65","type":"ss","server":"nc.cn1.go002.xyz","port":19561,"password":"dcbc1c7f-c323-4365-bd48-cf767f9081ce","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇯🇵JP-133.242.210.166-5815
-      - CA-193.203.203.88-158
-      - 🇵🇹PT-94.131.10.135-8982
+      - 🇯🇵JP-133.242.134.182-6110
+      - 🇨🇳CN-183.236.51.21-0143
+      - CN-183.236.51.21-255
+      - 🇨🇳CN-183.236.51.21-1183
+      - CN-183.236.51.21-006
+      - CN-183.236.51.21-263
+      - '@ZDYZ2-🤔+unknown+66'
+      - '@ZDYZ2-🤔+unknown+65'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇯🇵JP-133.242.210.166-5815
-      - CA-193.203.203.88-158
-      - 🇵🇹PT-94.131.10.135-8982
+      - 🇯🇵JP-133.242.134.182-6110
+      - 🇨🇳CN-183.236.51.21-0143
+      - CN-183.236.51.21-255
+      - 🇨🇳CN-183.236.51.21-1183
+      - CN-183.236.51.21-006
+      - CN-183.236.51.21-263
+      - '@ZDYZ2-🤔+unknown+66'
+      - '@ZDYZ2-🤔+unknown+65'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇯🇵JP-133.242.210.166-5815
-      - CA-193.203.203.88-158
-      - 🇵🇹PT-94.131.10.135-8982
+      - 🇯🇵JP-133.242.134.182-6110
+      - 🇨🇳CN-183.236.51.21-0143
+      - CN-183.236.51.21-255
+      - 🇨🇳CN-183.236.51.21-1183
+      - CN-183.236.51.21-006
+      - CN-183.236.51.21-263
+      - '@ZDYZ2-🤔+unknown+66'
+      - '@ZDYZ2-🤔+unknown+65'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵JP-133.242.210.166-5815
-      - CA-193.203.203.88-158
-      - 🇵🇹PT-94.131.10.135-8982
+      - 🇯🇵JP-133.242.134.182-6110
+      - 🇨🇳CN-183.236.51.21-0143
+      - CN-183.236.51.21-255
+      - 🇨🇳CN-183.236.51.21-1183
+      - CN-183.236.51.21-006
+      - CN-183.236.51.21-263
+      - '@ZDYZ2-🤔+unknown+66'
+      - '@ZDYZ2-🤔+unknown+65'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇯🇵JP-133.242.210.166-5815
-      - CA-193.203.203.88-158
-      - 🇵🇹PT-94.131.10.135-8982
+      - 🇯🇵JP-133.242.134.182-6110
+      - 🇨🇳CN-183.236.51.21-0143
+      - CN-183.236.51.21-255
+      - 🇨🇳CN-183.236.51.21-1183
+      - CN-183.236.51.21-006
+      - CN-183.236.51.21-263
+      - '@ZDYZ2-🤔+unknown+66'
+      - '@ZDYZ2-🤔+unknown+65'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇯🇵JP-133.242.210.166-5815
-      - CA-193.203.203.88-158
-      - 🇵🇹PT-94.131.10.135-8982
+      - 🇯🇵JP-133.242.134.182-6110
+      - 🇨🇳CN-183.236.51.21-0143
+      - CN-183.236.51.21-255
+      - 🇨🇳CN-183.236.51.21-1183
+      - CN-183.236.51.21-006
+      - CN-183.236.51.21-263
+      - '@ZDYZ2-🤔+unknown+66'
+      - '@ZDYZ2-🤔+unknown+65'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -161,9 +196,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇯🇵JP-133.242.210.166-5815
-      - CA-193.203.203.88-158
-      - 🇵🇹PT-94.131.10.135-8982
+      - 🇯🇵JP-133.242.134.182-6110
+      - 🇨🇳CN-183.236.51.21-0143
+      - CN-183.236.51.21-255
+      - 🇨🇳CN-183.236.51.21-1183
+      - CN-183.236.51.21-006
+      - CN-183.236.51.21-263
+      - '@ZDYZ2-🤔+unknown+66'
+      - '@ZDYZ2-🤔+unknown+65'
 
 rules:
 # 本地/局域网地址
