@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-12-27 08:53:28
+# 创建时间：2023-12-29 09:05:47
 # 使用模版：V2RaySE 默认模版
 # 节点数量：8
 ####################################
@@ -85,95 +85,95 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"CN-183.236.51.21-361","type":"vmess","server":"cm1.awslcn.info","port":25286,"cipher":"auto","uuid":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"cm1.awslcn.info"}}}
-  - {"name":"🇨🇳CN-116.163.29.181-1278","type":"vmess","server":"us1.awslcn.info","port":25256,"cipher":"auto","uuid":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us1.awslcn.info"}}}
-  - {"name":"🇨🇳CN-183.236.51.21-1272","type":"vmess","server":"cm1.awslcn.info","port":25286,"cipher":"auto","uuid":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"cm1.awslcn.info"}}}
-  - {"name":"CN-183.236.51.21-364","type":"vmess","server":"us2.awslcn.info","port":25257,"cipher":"auto","uuid":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us2.awslcn.info"}}}
-  - {"name":"🇺🇸US-108.165.113.99-0641","type":"vmess","server":"108.165.113.99","port":443,"cipher":"auto","uuid":"ef22fad3-652a-48fc-e80a-46faa3a6a787","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
-  - {"name":"🇷🇺RU-103.113.68.233-4166","type":"vmess","server":"103.113.68.233","port":80,"cipher":"auto","uuid":"61cf7313-1503-4bab-beeb-ba69fd5843ae","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"103.113.68.233"}}}
-  - {"name":"US-129.213.148.15-019","type":"vmess","server":"usasb2.ip8.shop","port":26460,"cipher":"auto","uuid":"c15bccff-fa39-4252-f789-4f997542e0b4","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
   - {"name":"IE-95.164.44.21-326","type":"ss","server":"95.164.44.21","port":8388,"password":"OTI5ZDhk","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"CN-110.72.101.149-036","type":"vmess","server":"yes.cnmjcn.net","port":16626,"cipher":"auto","uuid":"c2c76420-257f-492a-b20f-6560f3bfa78d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com"}}}
+  - {"name":"HK-20.205.58.120-221","type":"trojan","server":"us01.trojanyyds.xyz","port":443,"udp":true,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","skip-cert-verify":true}
+  - {"name":"CN-183.236.51.21-364","type":"vmess","server":"us2.awslcn.info","port":25257,"cipher":"auto","uuid":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"us2.awslcn.info"}}}
+  - {"name":"JP-172.207.117.56-260","type":"trojan","server":"de01.trojanyyds.xyz","port":443,"udp":true,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","skip-cert-verify":true}
+  - {"name":"RU-103.113.68.57-568","type":"vmess","server":"ru-v2ray.ipracevpn.com","port":8443,"cipher":"auto","uuid":"6b65926e-110d-4728-a807-5670d8829e09","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"HK-20.205.58.120-275","type":"trojan","server":"uk01.trojanyyds.xyz","port":443,"udp":true,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","skip-cert-verify":true}
+  - {"name":"GB-213.219.37.208-358","type":"trojan","server":"213.219.37.208","port":443,"udp":true,"password":"a135b73e-5d11-4f0e-9180-c28ef28b665b","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - CN-183.236.51.21-361
-      - 🇨🇳CN-116.163.29.181-1278
-      - 🇨🇳CN-183.236.51.21-1272
-      - CN-183.236.51.21-364
-      - 🇺🇸US-108.165.113.99-0641
-      - 🇷🇺RU-103.113.68.233-4166
-      - US-129.213.148.15-019
       - IE-95.164.44.21-326
+      - CN-110.72.101.149-036
+      - HK-20.205.58.120-221
+      - CN-183.236.51.21-364
+      - JP-172.207.117.56-260
+      - RU-103.113.68.57-568
+      - HK-20.205.58.120-275
+      - GB-213.219.37.208-358
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - CN-183.236.51.21-361
-      - 🇨🇳CN-116.163.29.181-1278
-      - 🇨🇳CN-183.236.51.21-1272
-      - CN-183.236.51.21-364
-      - 🇺🇸US-108.165.113.99-0641
-      - 🇷🇺RU-103.113.68.233-4166
-      - US-129.213.148.15-019
       - IE-95.164.44.21-326
+      - CN-110.72.101.149-036
+      - HK-20.205.58.120-221
+      - CN-183.236.51.21-364
+      - JP-172.207.117.56-260
+      - RU-103.113.68.57-568
+      - HK-20.205.58.120-275
+      - GB-213.219.37.208-358
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN-183.236.51.21-361
-      - 🇨🇳CN-116.163.29.181-1278
-      - 🇨🇳CN-183.236.51.21-1272
-      - CN-183.236.51.21-364
-      - 🇺🇸US-108.165.113.99-0641
-      - 🇷🇺RU-103.113.68.233-4166
-      - US-129.213.148.15-019
       - IE-95.164.44.21-326
+      - CN-110.72.101.149-036
+      - HK-20.205.58.120-221
+      - CN-183.236.51.21-364
+      - JP-172.207.117.56-260
+      - RU-103.113.68.57-568
+      - HK-20.205.58.120-275
+      - GB-213.219.37.208-358
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CN-183.236.51.21-361
-      - 🇨🇳CN-116.163.29.181-1278
-      - 🇨🇳CN-183.236.51.21-1272
-      - CN-183.236.51.21-364
-      - 🇺🇸US-108.165.113.99-0641
-      - 🇷🇺RU-103.113.68.233-4166
-      - US-129.213.148.15-019
       - IE-95.164.44.21-326
+      - CN-110.72.101.149-036
+      - HK-20.205.58.120-221
+      - CN-183.236.51.21-364
+      - JP-172.207.117.56-260
+      - RU-103.113.68.57-568
+      - HK-20.205.58.120-275
+      - GB-213.219.37.208-358
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - CN-183.236.51.21-361
-      - 🇨🇳CN-116.163.29.181-1278
-      - 🇨🇳CN-183.236.51.21-1272
-      - CN-183.236.51.21-364
-      - 🇺🇸US-108.165.113.99-0641
-      - 🇷🇺RU-103.113.68.233-4166
-      - US-129.213.148.15-019
       - IE-95.164.44.21-326
+      - CN-110.72.101.149-036
+      - HK-20.205.58.120-221
+      - CN-183.236.51.21-364
+      - JP-172.207.117.56-260
+      - RU-103.113.68.57-568
+      - HK-20.205.58.120-275
+      - GB-213.219.37.208-358
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - CN-183.236.51.21-361
-      - 🇨🇳CN-116.163.29.181-1278
-      - 🇨🇳CN-183.236.51.21-1272
-      - CN-183.236.51.21-364
-      - 🇺🇸US-108.165.113.99-0641
-      - 🇷🇺RU-103.113.68.233-4166
-      - US-129.213.148.15-019
       - IE-95.164.44.21-326
+      - CN-110.72.101.149-036
+      - HK-20.205.58.120-221
+      - CN-183.236.51.21-364
+      - JP-172.207.117.56-260
+      - RU-103.113.68.57-568
+      - HK-20.205.58.120-275
+      - GB-213.219.37.208-358
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -196,14 +196,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN-183.236.51.21-361
-      - 🇨🇳CN-116.163.29.181-1278
-      - 🇨🇳CN-183.236.51.21-1272
-      - CN-183.236.51.21-364
-      - 🇺🇸US-108.165.113.99-0641
-      - 🇷🇺RU-103.113.68.233-4166
-      - US-129.213.148.15-019
       - IE-95.164.44.21-326
+      - CN-110.72.101.149-036
+      - HK-20.205.58.120-221
+      - CN-183.236.51.21-364
+      - JP-172.207.117.56-260
+      - RU-103.113.68.57-568
+      - HK-20.205.58.120-275
+      - GB-213.219.37.208-358
 
 rules:
 # 本地/局域网地址
