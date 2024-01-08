@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-01-02 09:01:40
+# 创建时间：2024-01-08 10:02:28
 # 使用模版：V2RaySE 默认模版
-# 节点数量：3
+# 节点数量：8
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,60 +85,95 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"UA-193.238.153.14-007","type":"vmess","server":"193.238.153.14","port":8443,"cipher":"auto","uuid":"159693e0-5146-482d-9e46-8c4f2fc865b1","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"ES-94.131.117.159-274","type":"vmess","server":"es1-vmess.sshmax.xyz","port":80,"cipher":"auto","uuid":"40f0217f-624b-4333-bc59-429477d58d30","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"es1-vmess.sshmax.xyz"}}}
-  - {"name":"CN-159.75.178.50-023","type":"vmess","server":"159.75.178.50","port":47551,"cipher":"auto","uuid":"2500a228-8c00-4934-81e0-22281c015a33","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"159.75.178.50"}}}
+  - {"name":"🇯🇵JP_29784+@WangCai_8","type":"ss","server":"120.241.47.62","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇯🇵JP_108053+@WangCai_8","type":"ss","server":"120.241.47.15","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇯🇵JP_102742+@WangCai_8","type":"ss","server":"120.241.47.16","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇯🇵JP_108184+@WangCai_8_1","type":"ss","server":"120.241.47.15","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇯🇵JP_62672+@WangCai_8_1","type":"ss","server":"120.241.47.15","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇯🇵JP_108184+@WangCai_8_2","type":"ss","server":"120.241.47.16","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇯🇵JP_108018+@WangCai_8","type":"ss","server":"120.241.47.16","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇯🇵JP_62672+@WangCai_8_2","type":"ss","server":"120.241.47.16","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - UA-193.238.153.14-007
-      - ES-94.131.117.159-274
-      - CN-159.75.178.50-023
+      - 🇯🇵JP_29784+@WangCai_8
+      - 🇯🇵JP_108053+@WangCai_8
+      - 🇯🇵JP_102742+@WangCai_8
+      - 🇯🇵JP_108184+@WangCai_8_1
+      - 🇯🇵JP_62672+@WangCai_8_1
+      - 🇯🇵JP_108184+@WangCai_8_2
+      - 🇯🇵JP_108018+@WangCai_8
+      - 🇯🇵JP_62672+@WangCai_8_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - UA-193.238.153.14-007
-      - ES-94.131.117.159-274
-      - CN-159.75.178.50-023
+      - 🇯🇵JP_29784+@WangCai_8
+      - 🇯🇵JP_108053+@WangCai_8
+      - 🇯🇵JP_102742+@WangCai_8
+      - 🇯🇵JP_108184+@WangCai_8_1
+      - 🇯🇵JP_62672+@WangCai_8_1
+      - 🇯🇵JP_108184+@WangCai_8_2
+      - 🇯🇵JP_108018+@WangCai_8
+      - 🇯🇵JP_62672+@WangCai_8_2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - UA-193.238.153.14-007
-      - ES-94.131.117.159-274
-      - CN-159.75.178.50-023
+      - 🇯🇵JP_29784+@WangCai_8
+      - 🇯🇵JP_108053+@WangCai_8
+      - 🇯🇵JP_102742+@WangCai_8
+      - 🇯🇵JP_108184+@WangCai_8_1
+      - 🇯🇵JP_62672+@WangCai_8_1
+      - 🇯🇵JP_108184+@WangCai_8_2
+      - 🇯🇵JP_108018+@WangCai_8
+      - 🇯🇵JP_62672+@WangCai_8_2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - UA-193.238.153.14-007
-      - ES-94.131.117.159-274
-      - CN-159.75.178.50-023
+      - 🇯🇵JP_29784+@WangCai_8
+      - 🇯🇵JP_108053+@WangCai_8
+      - 🇯🇵JP_102742+@WangCai_8
+      - 🇯🇵JP_108184+@WangCai_8_1
+      - 🇯🇵JP_62672+@WangCai_8_1
+      - 🇯🇵JP_108184+@WangCai_8_2
+      - 🇯🇵JP_108018+@WangCai_8
+      - 🇯🇵JP_62672+@WangCai_8_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - UA-193.238.153.14-007
-      - ES-94.131.117.159-274
-      - CN-159.75.178.50-023
+      - 🇯🇵JP_29784+@WangCai_8
+      - 🇯🇵JP_108053+@WangCai_8
+      - 🇯🇵JP_102742+@WangCai_8
+      - 🇯🇵JP_108184+@WangCai_8_1
+      - 🇯🇵JP_62672+@WangCai_8_1
+      - 🇯🇵JP_108184+@WangCai_8_2
+      - 🇯🇵JP_108018+@WangCai_8
+      - 🇯🇵JP_62672+@WangCai_8_2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - UA-193.238.153.14-007
-      - ES-94.131.117.159-274
-      - CN-159.75.178.50-023
+      - 🇯🇵JP_29784+@WangCai_8
+      - 🇯🇵JP_108053+@WangCai_8
+      - 🇯🇵JP_102742+@WangCai_8
+      - 🇯🇵JP_108184+@WangCai_8_1
+      - 🇯🇵JP_62672+@WangCai_8_1
+      - 🇯🇵JP_108184+@WangCai_8_2
+      - 🇯🇵JP_108018+@WangCai_8
+      - 🇯🇵JP_62672+@WangCai_8_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -161,9 +196,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - UA-193.238.153.14-007
-      - ES-94.131.117.159-274
-      - CN-159.75.178.50-023
+      - 🇯🇵JP_29784+@WangCai_8
+      - 🇯🇵JP_108053+@WangCai_8
+      - 🇯🇵JP_102742+@WangCai_8
+      - 🇯🇵JP_108184+@WangCai_8_1
+      - 🇯🇵JP_62672+@WangCai_8_1
+      - 🇯🇵JP_108184+@WangCai_8_2
+      - 🇯🇵JP_108018+@WangCai_8
+      - 🇯🇵JP_62672+@WangCai_8_2
 
 rules:
 # 本地/局域网地址
