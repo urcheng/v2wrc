@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-01-08 10:02:28
+# 创建时间：2024-01-09 10:39:30
 # 使用模版：V2RaySE 默认模版
-# 节点数量：8
+# 节点数量：21
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,95 +85,186 @@ dns:
       - 0.0.0.0/32
 
 proxies:
+  - {"name":"🇯🇵JP_62672+@WangCai_8","type":"ss","server":"120.241.47.15","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇯🇵JP_108184+@WangCai_8","type":"ss","server":"120.241.47.15","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
   - {"name":"🇯🇵JP_29784+@WangCai_8","type":"ss","server":"120.241.47.62","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP_108053+@WangCai_8","type":"ss","server":"120.241.47.15","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP_102742+@WangCai_8","type":"ss","server":"120.241.47.16","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP_108184+@WangCai_8_1","type":"ss","server":"120.241.47.15","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP_62672+@WangCai_8_1","type":"ss","server":"120.241.47.15","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP_108184+@WangCai_8_2","type":"ss","server":"120.241.47.16","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP_108018+@WangCai_8","type":"ss","server":"120.241.47.16","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
-  - {"name":"🇯🇵JP_62672+@WangCai_8_2","type":"ss","server":"120.241.47.16","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"@ZDYZ2_🇬🇧_GB","type":"ss","server":"51.142.158.58","port":63072,"password":"2qgjrMVVbwYdNd3FtvttsL","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"@ZDYZ2_🇺🇸_US","type":"ss","server":"212.102.47.198","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
+  - {"name":"10815","type":"trojan","server":"183.236.51.7","port":10815,"udp":true,"password":"a5b8fa58-287e-44bd-8e0d-e3653072f625","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"10816_1","type":"trojan","server":"183.236.51.7","port":10816,"udp":true,"password":"a5b8fa58-287e-44bd-8e0d-e3653072f625","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"10813_1","type":"trojan","server":"183.236.51.7","port":10813,"udp":true,"password":"2af839ea-0376-4f6a-be7d-74cee2be1cf1","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"10813_2","type":"trojan","server":"183.236.51.7","port":10813,"udp":true,"password":"3bbd7fb2-4d5b-4a71-992c-809d2574182a","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"10816_2","type":"trojan","server":"183.236.51.7","port":10816,"udp":true,"password":"2af839ea-0376-4f6a-be7d-74cee2be1cf1","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"10825","type":"trojan","server":"183.236.51.7","port":10825,"udp":true,"password":"3bbd7fb2-4d5b-4a71-992c-809d2574182a","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"10826","type":"trojan","server":"183.236.51.7","port":10826,"udp":true,"password":"a5fe20ed-fd14-4692-885f-f94678403283","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"10822","type":"trojan","server":"183.236.51.7","port":10822,"udp":true,"password":"a5fe20ed-fd14-4692-885f-f94678403283","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"10823","type":"trojan","server":"183.236.51.7","port":10823,"udp":true,"password":"3bbd7fb2-4d5b-4a71-992c-809d2574182a","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"10820_1","type":"trojan","server":"183.236.51.7","port":10820,"udp":true,"password":"3bbd7fb2-4d5b-4a71-992c-809d2574182a","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"10813_3","type":"trojan","server":"183.236.51.6","port":10813,"udp":true,"password":"3bbd7fb2-4d5b-4a71-992c-809d2574182a","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"10813_4","type":"trojan","server":"183.236.51.6","port":10813,"udp":true,"password":"2af839ea-0376-4f6a-be7d-74cee2be1cf1","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"10821","type":"trojan","server":"183.236.51.6","port":10821,"udp":true,"password":"2af839ea-0376-4f6a-be7d-74cee2be1cf1","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"10824","type":"trojan","server":"183.236.51.6","port":10824,"udp":true,"password":"a5fe20ed-fd14-4692-885f-f94678403283","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"10820_2","type":"trojan","server":"183.236.51.6","port":10820,"udp":true,"password":"3bbd7fb2-4d5b-4a71-992c-809d2574182a","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"10811","type":"trojan","server":"183.236.51.6","port":10811,"udp":true,"password":"3bbd7fb2-4d5b-4a71-992c-809d2574182a","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇯🇵JP_62672+@WangCai_8
+      - 🇯🇵JP_108184+@WangCai_8
       - 🇯🇵JP_29784+@WangCai_8
-      - 🇯🇵JP_108053+@WangCai_8
-      - 🇯🇵JP_102742+@WangCai_8
-      - 🇯🇵JP_108184+@WangCai_8_1
-      - 🇯🇵JP_62672+@WangCai_8_1
-      - 🇯🇵JP_108184+@WangCai_8_2
-      - 🇯🇵JP_108018+@WangCai_8
-      - 🇯🇵JP_62672+@WangCai_8_2
+      - '@ZDYZ2_🇬🇧_GB'
+      - '@ZDYZ2_🇺🇸_US'
+      - '10815'
+      - '10816_1'
+      - '10813_1'
+      - '10813_2'
+      - '10816_2'
+      - '10825'
+      - '10826'
+      - '10822'
+      - '10823'
+      - '10820_1'
+      - '10813_3'
+      - '10813_4'
+      - '10821'
+      - '10824'
+      - '10820_2'
+      - '10811'
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇯🇵JP_62672+@WangCai_8
+      - 🇯🇵JP_108184+@WangCai_8
       - 🇯🇵JP_29784+@WangCai_8
-      - 🇯🇵JP_108053+@WangCai_8
-      - 🇯🇵JP_102742+@WangCai_8
-      - 🇯🇵JP_108184+@WangCai_8_1
-      - 🇯🇵JP_62672+@WangCai_8_1
-      - 🇯🇵JP_108184+@WangCai_8_2
-      - 🇯🇵JP_108018+@WangCai_8
-      - 🇯🇵JP_62672+@WangCai_8_2
+      - '@ZDYZ2_🇬🇧_GB'
+      - '@ZDYZ2_🇺🇸_US'
+      - '10815'
+      - '10816_1'
+      - '10813_1'
+      - '10813_2'
+      - '10816_2'
+      - '10825'
+      - '10826'
+      - '10822'
+      - '10823'
+      - '10820_1'
+      - '10813_3'
+      - '10813_4'
+      - '10821'
+      - '10824'
+      - '10820_2'
+      - '10811'
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇯🇵JP_62672+@WangCai_8
+      - 🇯🇵JP_108184+@WangCai_8
       - 🇯🇵JP_29784+@WangCai_8
-      - 🇯🇵JP_108053+@WangCai_8
-      - 🇯🇵JP_102742+@WangCai_8
-      - 🇯🇵JP_108184+@WangCai_8_1
-      - 🇯🇵JP_62672+@WangCai_8_1
-      - 🇯🇵JP_108184+@WangCai_8_2
-      - 🇯🇵JP_108018+@WangCai_8
-      - 🇯🇵JP_62672+@WangCai_8_2
+      - '@ZDYZ2_🇬🇧_GB'
+      - '@ZDYZ2_🇺🇸_US'
+      - '10815'
+      - '10816_1'
+      - '10813_1'
+      - '10813_2'
+      - '10816_2'
+      - '10825'
+      - '10826'
+      - '10822'
+      - '10823'
+      - '10820_1'
+      - '10813_3'
+      - '10813_4'
+      - '10821'
+      - '10824'
+      - '10820_2'
+      - '10811'
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇯🇵JP_62672+@WangCai_8
+      - 🇯🇵JP_108184+@WangCai_8
       - 🇯🇵JP_29784+@WangCai_8
-      - 🇯🇵JP_108053+@WangCai_8
-      - 🇯🇵JP_102742+@WangCai_8
-      - 🇯🇵JP_108184+@WangCai_8_1
-      - 🇯🇵JP_62672+@WangCai_8_1
-      - 🇯🇵JP_108184+@WangCai_8_2
-      - 🇯🇵JP_108018+@WangCai_8
-      - 🇯🇵JP_62672+@WangCai_8_2
+      - '@ZDYZ2_🇬🇧_GB'
+      - '@ZDYZ2_🇺🇸_US'
+      - '10815'
+      - '10816_1'
+      - '10813_1'
+      - '10813_2'
+      - '10816_2'
+      - '10825'
+      - '10826'
+      - '10822'
+      - '10823'
+      - '10820_1'
+      - '10813_3'
+      - '10813_4'
+      - '10821'
+      - '10824'
+      - '10820_2'
+      - '10811'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇯🇵JP_62672+@WangCai_8
+      - 🇯🇵JP_108184+@WangCai_8
       - 🇯🇵JP_29784+@WangCai_8
-      - 🇯🇵JP_108053+@WangCai_8
-      - 🇯🇵JP_102742+@WangCai_8
-      - 🇯🇵JP_108184+@WangCai_8_1
-      - 🇯🇵JP_62672+@WangCai_8_1
-      - 🇯🇵JP_108184+@WangCai_8_2
-      - 🇯🇵JP_108018+@WangCai_8
-      - 🇯🇵JP_62672+@WangCai_8_2
+      - '@ZDYZ2_🇬🇧_GB'
+      - '@ZDYZ2_🇺🇸_US'
+      - '10815'
+      - '10816_1'
+      - '10813_1'
+      - '10813_2'
+      - '10816_2'
+      - '10825'
+      - '10826'
+      - '10822'
+      - '10823'
+      - '10820_1'
+      - '10813_3'
+      - '10813_4'
+      - '10821'
+      - '10824'
+      - '10820_2'
+      - '10811'
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇯🇵JP_62672+@WangCai_8
+      - 🇯🇵JP_108184+@WangCai_8
       - 🇯🇵JP_29784+@WangCai_8
-      - 🇯🇵JP_108053+@WangCai_8
-      - 🇯🇵JP_102742+@WangCai_8
-      - 🇯🇵JP_108184+@WangCai_8_1
-      - 🇯🇵JP_62672+@WangCai_8_1
-      - 🇯🇵JP_108184+@WangCai_8_2
-      - 🇯🇵JP_108018+@WangCai_8
-      - 🇯🇵JP_62672+@WangCai_8_2
+      - '@ZDYZ2_🇬🇧_GB'
+      - '@ZDYZ2_🇺🇸_US'
+      - '10815'
+      - '10816_1'
+      - '10813_1'
+      - '10813_2'
+      - '10816_2'
+      - '10825'
+      - '10826'
+      - '10822'
+      - '10823'
+      - '10820_1'
+      - '10813_3'
+      - '10813_4'
+      - '10821'
+      - '10824'
+      - '10820_2'
+      - '10811'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -196,14 +287,27 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇯🇵JP_62672+@WangCai_8
+      - 🇯🇵JP_108184+@WangCai_8
       - 🇯🇵JP_29784+@WangCai_8
-      - 🇯🇵JP_108053+@WangCai_8
-      - 🇯🇵JP_102742+@WangCai_8
-      - 🇯🇵JP_108184+@WangCai_8_1
-      - 🇯🇵JP_62672+@WangCai_8_1
-      - 🇯🇵JP_108184+@WangCai_8_2
-      - 🇯🇵JP_108018+@WangCai_8
-      - 🇯🇵JP_62672+@WangCai_8_2
+      - '@ZDYZ2_🇬🇧_GB'
+      - '@ZDYZ2_🇺🇸_US'
+      - '10815'
+      - '10816_1'
+      - '10813_1'
+      - '10813_2'
+      - '10816_2'
+      - '10825'
+      - '10826'
+      - '10822'
+      - '10823'
+      - '10820_1'
+      - '10813_3'
+      - '10813_4'
+      - '10821'
+      - '10824'
+      - '10820_2'
+      - '10811'
 
 rules:
 # 本地/局域网地址
