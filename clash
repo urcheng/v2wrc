@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-01-24 08:48:57
+# 创建时间：2024-01-29 09:15:14
 # 使用模版：V2RaySE 默认模版
-# 节点数量：22
+# 节点数量：16
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,193 +85,151 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"🇳🇱NL-91.242.229.69-1319","type":"vmess","server":"91.242.229.69","port":2086,"cipher":"auto","uuid":"88c216b8-56c6-4f34-bcfd-e198ce11f7d6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"nl1.xv2ray.net"}}}
-  - {"name":"🇪🇪EE-95.164.8.106-3862","type":"vmess","server":"95.164.8.106","port":80,"cipher":"auto","uuid":"c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ee2-vmess.sshmax.xyz"}}}
-  - {"name":"🇩🇪DE-130.162.47.123-11446","type":"vmess","server":"130.162.47.123","port":6854,"cipher":"auto","uuid":"b5f7e932-f730-4ad2-b425-40977b9db332","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/zBLPou"}}
-  - {"name":"🇨🇳CN-183.236.51.7-3278","type":"trojan","server":"falungong.19890604.day","port":10826,"udp":true,"password":"1fe65af9-6677-4a4d-8427-a5f9b0bae94e","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.7-3276","type":"trojan","server":"falungong.19890604.day","port":10824,"udp":true,"password":"1fe65af9-6677-4a4d-8427-a5f9b0bae94e","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.7-3274","type":"trojan","server":"falungong.19890604.day","port":10822,"udp":true,"password":"1fe65af9-6677-4a4d-8427-a5f9b0bae94e","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.7-3273","type":"trojan","server":"falungong.19890604.day","port":10821,"udp":true,"password":"1fe65af9-6677-4a4d-8427-a5f9b0bae94e","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.7-3272","type":"trojan","server":"falungong.19890604.day","port":10820,"udp":true,"password":"1fe65af9-6677-4a4d-8427-a5f9b0bae94e","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.7-3271","type":"trojan","server":"falungong.19890604.day","port":10819,"udp":true,"password":"1fe65af9-6677-4a4d-8427-a5f9b0bae94e","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.7-3028","type":"trojan","server":"xibaozi.19890604.day","port":10838,"udp":true,"password":"1fe65af9-6677-4a4d-8427-a5f9b0bae94e","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.7-3022","type":"trojan","server":"xijinping.19890604.day","port":10817,"udp":true,"password":"1fe65af9-6677-4a4d-8427-a5f9b0bae94e","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.7-3016","type":"trojan","server":"xijinping.19890604.day","port":10811,"udp":true,"password":"1fe65af9-6677-4a4d-8427-a5f9b0bae94e","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.7-2970","type":"trojan","server":"xibaozi.19890604.day","port":10849,"udp":true,"password":"1fe65af9-6677-4a4d-8427-a5f9b0bae94e","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.7-2950","type":"trojan","server":"xibaozi.19890604.day","port":10846,"udp":true,"password":"1fe65af9-6677-4a4d-8427-a5f9b0bae94e","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.6-3290","type":"trojan","server":"xibaozi.19890604.day","port":10837,"udp":true,"password":"1fe65af9-6677-4a4d-8427-a5f9b0bae94e","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.6-3277","type":"trojan","server":"falungong.19890604.day","port":10825,"udp":true,"password":"1fe65af9-6677-4a4d-8427-a5f9b0bae94e","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.6-2969","type":"trojan","server":"xibaozi.19890604.day","port":10839,"udp":true,"password":"1fe65af9-6677-4a4d-8427-a5f9b0bae94e","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.6-2445","type":"trojan","server":"xibaozi.19890604.day","port":10844,"udp":true,"password":"1fe65af9-6677-4a4d-8427-a5f9b0bae94e","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"https://t.me/zyfx8_1","type":"vmess","server":"120.233.45.104","port":2082,"cipher":"chacha20-poly1305","uuid":"1405f400-4d72-3cd2-88fc-5bfb9dd9120d","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/db00","headers":{"host":"cache-hk-1.cn-db.top"}}}
-  - {"name":"https://t.me/zyfx8_2","type":"ss","server":"sh.eip-cm.hongxing.pro","port":44014,"password":"349ecce7-db9d-4511-9735-67d33a7e0257","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"https://t.me/zyfx8_3","type":"ss","server":"sh.eip-cm.hongxing.pro","port":44014,"password":"48cb33a4-ad41-4d1a-861d-3e3acf0f65cb","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"EE-95.164.8.106-161","type":"vmess","server":"95.164.8.106","port":80,"cipher":"auto","uuid":"c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"ee2-vmess.sshmax.xyz"}}}
+  - {"name":"GB-13.41.178.91-159","type":"ss","server":"jseyu.arvancode.eu.org","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"GB-13.41.178.91-162","type":"ss","server":"fast_2ray_telchannelll.fast2rayy.eu.org","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"TG@ZDYZ2+🇬🇧+GB+153","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇳CN-183.236.51.6-3512","type":"trojan","server":"falungong.19890604.day","port":10819,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-183.236.51.6-3515","type":"trojan","server":"falungong.19890604.day","port":10822,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-183.236.51.6-3518","type":"trojan","server":"falungong.19890604.day","port":10825,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-183.236.51.6-3519","type":"trojan","server":"falungong.19890604.day","port":10826,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-183.236.51.7-3270","type":"trojan","server":"xijinping.19890604.day","port":10812,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-183.236.51.7-3513","type":"trojan","server":"falungong.19890604.day","port":10820,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-183.236.51.7-3514","type":"trojan","server":"falungong.19890604.day","port":10821,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"🇨🇳CN-183.236.51.7-3516","type":"trojan","server":"falungong.19890604.day","port":10823,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
+  - {"name":"🇯🇵JP-133.242.205.220-6465","type":"trojan","server":"jp02a.roc-taiwan.net.ua","port":65012,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
+  - {"name":"🏁RELAY-104.21.23.176-0137","type":"vmess","server":"www.crispyrainbow.biz","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.biz"}}}
+  - {"name":"🏁RELAY-104.21.23.176-0221","type":"vmess","server":"104.21.23.176","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.biz"}}}
+  - {"name":"🏁RELAY-172.67.166.190-0134","type":"vmess","server":"www.crispyrainbow.online","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.online"}}}
+  - {"name":"🏁RELAY-172.67.221.183-0132","type":"vmess","server":"www.blueberrywindow.online","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.blueberrywindow.online"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇳🇱NL-91.242.229.69-1319
-      - 🇪🇪EE-95.164.8.106-3862
-      - 🇩🇪DE-130.162.47.123-11446
-      - 🇨🇳CN-183.236.51.7-3278
-      - 🇨🇳CN-183.236.51.7-3276
-      - 🇨🇳CN-183.236.51.7-3274
-      - 🇨🇳CN-183.236.51.7-3273
-      - 🇨🇳CN-183.236.51.7-3272
-      - 🇨🇳CN-183.236.51.7-3271
-      - 🇨🇳CN-183.236.51.7-3028
-      - 🇨🇳CN-183.236.51.7-3022
-      - 🇨🇳CN-183.236.51.7-3016
-      - 🇨🇳CN-183.236.51.7-2970
-      - 🇨🇳CN-183.236.51.7-2950
-      - 🇨🇳CN-183.236.51.6-3290
-      - 🇨🇳CN-183.236.51.6-3277
-      - 🇨🇳CN-183.236.51.6-2969
-      - 🇨🇳CN-183.236.51.6-2445
-      - https://t.me/zyfx8_1
-      - https://t.me/zyfx8_2
-      - https://t.me/zyfx8_3
-      - EE-95.164.8.106-161
+      - GB-13.41.178.91-159
+      - GB-13.41.178.91-162
+      - TG@ZDYZ2+🇬🇧+GB+153
+      - 🇨🇳CN-183.236.51.6-3512
+      - 🇨🇳CN-183.236.51.6-3515
+      - 🇨🇳CN-183.236.51.6-3518
+      - 🇨🇳CN-183.236.51.6-3519
+      - 🇨🇳CN-183.236.51.7-3270
+      - 🇨🇳CN-183.236.51.7-3513
+      - 🇨🇳CN-183.236.51.7-3514
+      - 🇨🇳CN-183.236.51.7-3516
+      - 🇯🇵JP-133.242.205.220-6465
+      - 🏁RELAY-104.21.23.176-0137
+      - 🏁RELAY-104.21.23.176-0221
+      - 🏁RELAY-172.67.166.190-0134
+      - 🏁RELAY-172.67.221.183-0132
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇳🇱NL-91.242.229.69-1319
-      - 🇪🇪EE-95.164.8.106-3862
-      - 🇩🇪DE-130.162.47.123-11446
-      - 🇨🇳CN-183.236.51.7-3278
-      - 🇨🇳CN-183.236.51.7-3276
-      - 🇨🇳CN-183.236.51.7-3274
-      - 🇨🇳CN-183.236.51.7-3273
-      - 🇨🇳CN-183.236.51.7-3272
-      - 🇨🇳CN-183.236.51.7-3271
-      - 🇨🇳CN-183.236.51.7-3028
-      - 🇨🇳CN-183.236.51.7-3022
-      - 🇨🇳CN-183.236.51.7-3016
-      - 🇨🇳CN-183.236.51.7-2970
-      - 🇨🇳CN-183.236.51.7-2950
-      - 🇨🇳CN-183.236.51.6-3290
-      - 🇨🇳CN-183.236.51.6-3277
-      - 🇨🇳CN-183.236.51.6-2969
-      - 🇨🇳CN-183.236.51.6-2445
-      - https://t.me/zyfx8_1
-      - https://t.me/zyfx8_2
-      - https://t.me/zyfx8_3
-      - EE-95.164.8.106-161
+      - GB-13.41.178.91-159
+      - GB-13.41.178.91-162
+      - TG@ZDYZ2+🇬🇧+GB+153
+      - 🇨🇳CN-183.236.51.6-3512
+      - 🇨🇳CN-183.236.51.6-3515
+      - 🇨🇳CN-183.236.51.6-3518
+      - 🇨🇳CN-183.236.51.6-3519
+      - 🇨🇳CN-183.236.51.7-3270
+      - 🇨🇳CN-183.236.51.7-3513
+      - 🇨🇳CN-183.236.51.7-3514
+      - 🇨🇳CN-183.236.51.7-3516
+      - 🇯🇵JP-133.242.205.220-6465
+      - 🏁RELAY-104.21.23.176-0137
+      - 🏁RELAY-104.21.23.176-0221
+      - 🏁RELAY-172.67.166.190-0134
+      - 🏁RELAY-172.67.221.183-0132
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱NL-91.242.229.69-1319
-      - 🇪🇪EE-95.164.8.106-3862
-      - 🇩🇪DE-130.162.47.123-11446
-      - 🇨🇳CN-183.236.51.7-3278
-      - 🇨🇳CN-183.236.51.7-3276
-      - 🇨🇳CN-183.236.51.7-3274
-      - 🇨🇳CN-183.236.51.7-3273
-      - 🇨🇳CN-183.236.51.7-3272
-      - 🇨🇳CN-183.236.51.7-3271
-      - 🇨🇳CN-183.236.51.7-3028
-      - 🇨🇳CN-183.236.51.7-3022
-      - 🇨🇳CN-183.236.51.7-3016
-      - 🇨🇳CN-183.236.51.7-2970
-      - 🇨🇳CN-183.236.51.7-2950
-      - 🇨🇳CN-183.236.51.6-3290
-      - 🇨🇳CN-183.236.51.6-3277
-      - 🇨🇳CN-183.236.51.6-2969
-      - 🇨🇳CN-183.236.51.6-2445
-      - https://t.me/zyfx8_1
-      - https://t.me/zyfx8_2
-      - https://t.me/zyfx8_3
-      - EE-95.164.8.106-161
+      - GB-13.41.178.91-159
+      - GB-13.41.178.91-162
+      - TG@ZDYZ2+🇬🇧+GB+153
+      - 🇨🇳CN-183.236.51.6-3512
+      - 🇨🇳CN-183.236.51.6-3515
+      - 🇨🇳CN-183.236.51.6-3518
+      - 🇨🇳CN-183.236.51.6-3519
+      - 🇨🇳CN-183.236.51.7-3270
+      - 🇨🇳CN-183.236.51.7-3513
+      - 🇨🇳CN-183.236.51.7-3514
+      - 🇨🇳CN-183.236.51.7-3516
+      - 🇯🇵JP-133.242.205.220-6465
+      - 🏁RELAY-104.21.23.176-0137
+      - 🏁RELAY-104.21.23.176-0221
+      - 🏁RELAY-172.67.166.190-0134
+      - 🏁RELAY-172.67.221.183-0132
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱NL-91.242.229.69-1319
-      - 🇪🇪EE-95.164.8.106-3862
-      - 🇩🇪DE-130.162.47.123-11446
-      - 🇨🇳CN-183.236.51.7-3278
-      - 🇨🇳CN-183.236.51.7-3276
-      - 🇨🇳CN-183.236.51.7-3274
-      - 🇨🇳CN-183.236.51.7-3273
-      - 🇨🇳CN-183.236.51.7-3272
-      - 🇨🇳CN-183.236.51.7-3271
-      - 🇨🇳CN-183.236.51.7-3028
-      - 🇨🇳CN-183.236.51.7-3022
-      - 🇨🇳CN-183.236.51.7-3016
-      - 🇨🇳CN-183.236.51.7-2970
-      - 🇨🇳CN-183.236.51.7-2950
-      - 🇨🇳CN-183.236.51.6-3290
-      - 🇨🇳CN-183.236.51.6-3277
-      - 🇨🇳CN-183.236.51.6-2969
-      - 🇨🇳CN-183.236.51.6-2445
-      - https://t.me/zyfx8_1
-      - https://t.me/zyfx8_2
-      - https://t.me/zyfx8_3
-      - EE-95.164.8.106-161
+      - GB-13.41.178.91-159
+      - GB-13.41.178.91-162
+      - TG@ZDYZ2+🇬🇧+GB+153
+      - 🇨🇳CN-183.236.51.6-3512
+      - 🇨🇳CN-183.236.51.6-3515
+      - 🇨🇳CN-183.236.51.6-3518
+      - 🇨🇳CN-183.236.51.6-3519
+      - 🇨🇳CN-183.236.51.7-3270
+      - 🇨🇳CN-183.236.51.7-3513
+      - 🇨🇳CN-183.236.51.7-3514
+      - 🇨🇳CN-183.236.51.7-3516
+      - 🇯🇵JP-133.242.205.220-6465
+      - 🏁RELAY-104.21.23.176-0137
+      - 🏁RELAY-104.21.23.176-0221
+      - 🏁RELAY-172.67.166.190-0134
+      - 🏁RELAY-172.67.221.183-0132
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇳🇱NL-91.242.229.69-1319
-      - 🇪🇪EE-95.164.8.106-3862
-      - 🇩🇪DE-130.162.47.123-11446
-      - 🇨🇳CN-183.236.51.7-3278
-      - 🇨🇳CN-183.236.51.7-3276
-      - 🇨🇳CN-183.236.51.7-3274
-      - 🇨🇳CN-183.236.51.7-3273
-      - 🇨🇳CN-183.236.51.7-3272
-      - 🇨🇳CN-183.236.51.7-3271
-      - 🇨🇳CN-183.236.51.7-3028
-      - 🇨🇳CN-183.236.51.7-3022
-      - 🇨🇳CN-183.236.51.7-3016
-      - 🇨🇳CN-183.236.51.7-2970
-      - 🇨🇳CN-183.236.51.7-2950
-      - 🇨🇳CN-183.236.51.6-3290
-      - 🇨🇳CN-183.236.51.6-3277
-      - 🇨🇳CN-183.236.51.6-2969
-      - 🇨🇳CN-183.236.51.6-2445
-      - https://t.me/zyfx8_1
-      - https://t.me/zyfx8_2
-      - https://t.me/zyfx8_3
-      - EE-95.164.8.106-161
+      - GB-13.41.178.91-159
+      - GB-13.41.178.91-162
+      - TG@ZDYZ2+🇬🇧+GB+153
+      - 🇨🇳CN-183.236.51.6-3512
+      - 🇨🇳CN-183.236.51.6-3515
+      - 🇨🇳CN-183.236.51.6-3518
+      - 🇨🇳CN-183.236.51.6-3519
+      - 🇨🇳CN-183.236.51.7-3270
+      - 🇨🇳CN-183.236.51.7-3513
+      - 🇨🇳CN-183.236.51.7-3514
+      - 🇨🇳CN-183.236.51.7-3516
+      - 🇯🇵JP-133.242.205.220-6465
+      - 🏁RELAY-104.21.23.176-0137
+      - 🏁RELAY-104.21.23.176-0221
+      - 🏁RELAY-172.67.166.190-0134
+      - 🏁RELAY-172.67.221.183-0132
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱NL-91.242.229.69-1319
-      - 🇪🇪EE-95.164.8.106-3862
-      - 🇩🇪DE-130.162.47.123-11446
-      - 🇨🇳CN-183.236.51.7-3278
-      - 🇨🇳CN-183.236.51.7-3276
-      - 🇨🇳CN-183.236.51.7-3274
-      - 🇨🇳CN-183.236.51.7-3273
-      - 🇨🇳CN-183.236.51.7-3272
-      - 🇨🇳CN-183.236.51.7-3271
-      - 🇨🇳CN-183.236.51.7-3028
-      - 🇨🇳CN-183.236.51.7-3022
-      - 🇨🇳CN-183.236.51.7-3016
-      - 🇨🇳CN-183.236.51.7-2970
-      - 🇨🇳CN-183.236.51.7-2950
-      - 🇨🇳CN-183.236.51.6-3290
-      - 🇨🇳CN-183.236.51.6-3277
-      - 🇨🇳CN-183.236.51.6-2969
-      - 🇨🇳CN-183.236.51.6-2445
-      - https://t.me/zyfx8_1
-      - https://t.me/zyfx8_2
-      - https://t.me/zyfx8_3
-      - EE-95.164.8.106-161
+      - GB-13.41.178.91-159
+      - GB-13.41.178.91-162
+      - TG@ZDYZ2+🇬🇧+GB+153
+      - 🇨🇳CN-183.236.51.6-3512
+      - 🇨🇳CN-183.236.51.6-3515
+      - 🇨🇳CN-183.236.51.6-3518
+      - 🇨🇳CN-183.236.51.6-3519
+      - 🇨🇳CN-183.236.51.7-3270
+      - 🇨🇳CN-183.236.51.7-3513
+      - 🇨🇳CN-183.236.51.7-3514
+      - 🇨🇳CN-183.236.51.7-3516
+      - 🇯🇵JP-133.242.205.220-6465
+      - 🏁RELAY-104.21.23.176-0137
+      - 🏁RELAY-104.21.23.176-0221
+      - 🏁RELAY-172.67.166.190-0134
+      - 🏁RELAY-172.67.221.183-0132
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -294,28 +252,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱NL-91.242.229.69-1319
-      - 🇪🇪EE-95.164.8.106-3862
-      - 🇩🇪DE-130.162.47.123-11446
-      - 🇨🇳CN-183.236.51.7-3278
-      - 🇨🇳CN-183.236.51.7-3276
-      - 🇨🇳CN-183.236.51.7-3274
-      - 🇨🇳CN-183.236.51.7-3273
-      - 🇨🇳CN-183.236.51.7-3272
-      - 🇨🇳CN-183.236.51.7-3271
-      - 🇨🇳CN-183.236.51.7-3028
-      - 🇨🇳CN-183.236.51.7-3022
-      - 🇨🇳CN-183.236.51.7-3016
-      - 🇨🇳CN-183.236.51.7-2970
-      - 🇨🇳CN-183.236.51.7-2950
-      - 🇨🇳CN-183.236.51.6-3290
-      - 🇨🇳CN-183.236.51.6-3277
-      - 🇨🇳CN-183.236.51.6-2969
-      - 🇨🇳CN-183.236.51.6-2445
-      - https://t.me/zyfx8_1
-      - https://t.me/zyfx8_2
-      - https://t.me/zyfx8_3
-      - EE-95.164.8.106-161
+      - GB-13.41.178.91-159
+      - GB-13.41.178.91-162
+      - TG@ZDYZ2+🇬🇧+GB+153
+      - 🇨🇳CN-183.236.51.6-3512
+      - 🇨🇳CN-183.236.51.6-3515
+      - 🇨🇳CN-183.236.51.6-3518
+      - 🇨🇳CN-183.236.51.6-3519
+      - 🇨🇳CN-183.236.51.7-3270
+      - 🇨🇳CN-183.236.51.7-3513
+      - 🇨🇳CN-183.236.51.7-3514
+      - 🇨🇳CN-183.236.51.7-3516
+      - 🇯🇵JP-133.242.205.220-6465
+      - 🏁RELAY-104.21.23.176-0137
+      - 🏁RELAY-104.21.23.176-0221
+      - 🏁RELAY-172.67.166.190-0134
+      - 🏁RELAY-172.67.221.183-0132
 
 rules:
 # 本地/局域网地址
