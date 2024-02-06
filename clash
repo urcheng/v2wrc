@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-01-29 09:15:14
+# 创建时间：2024-02-06 09:39:42
 # 使用模版：V2RaySE 默认模版
-# 节点数量：16
+# 节点数量：13
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,151 +85,130 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"GB-13.41.178.91-159","type":"ss","server":"jseyu.arvancode.eu.org","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"GB-13.41.178.91-162","type":"ss","server":"fast_2ray_telchannelll.fast2rayy.eu.org","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"TG@ZDYZ2+🇬🇧+GB+153","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇳CN-183.236.51.6-3512","type":"trojan","server":"falungong.19890604.day","port":10819,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.6-3515","type":"trojan","server":"falungong.19890604.day","port":10822,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.6-3518","type":"trojan","server":"falungong.19890604.day","port":10825,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.6-3519","type":"trojan","server":"falungong.19890604.day","port":10826,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.7-3270","type":"trojan","server":"xijinping.19890604.day","port":10812,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.7-3513","type":"trojan","server":"falungong.19890604.day","port":10820,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.7-3514","type":"trojan","server":"falungong.19890604.day","port":10821,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.236.51.7-3516","type":"trojan","server":"falungong.19890604.day","port":10823,"udp":true,"password":"17e82f43-a0c6-4518-9d1f-3ac454429c3d","sni":"cloudflare.node-ssl.cdn-alibaba.com","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-133.242.205.220-6465","type":"trojan","server":"jp02a.roc-taiwan.net.ua","port":65012,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🏁RELAY-104.21.23.176-0137","type":"vmess","server":"www.crispyrainbow.biz","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.biz"}}}
-  - {"name":"🏁RELAY-104.21.23.176-0221","type":"vmess","server":"104.21.23.176","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.biz"}}}
+  - {"name":"免费梯子https://t.me/mftizi","type":"vmess","server":"www.coldstone.club","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.coldstone.club"}}}
+  - {"name":"🏁RELAY-198.41.201.81-3761","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":2052,"cipher":"auto","uuid":"ce1b46f7-fd89-4646-a968-206d65245aba","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/QXjZG5u4F2","headers":{"host":"us3AJ8biuQx.fzbqfrse.xyz"}}}
+  - {"name":"🏁RELAY-172.67.212.114-0204","type":"vmess","server":"172.67.212.114","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.biz"}}}
+  - {"name":"🏁RELAY-172.67.166.190-0193","type":"vmess","server":"172.67.166.190","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.online"}}}
   - {"name":"🏁RELAY-172.67.166.190-0134","type":"vmess","server":"www.crispyrainbow.online","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.online"}}}
-  - {"name":"🏁RELAY-172.67.221.183-0132","type":"vmess","server":"www.blueberrywindow.online","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.blueberrywindow.online"}}}
+  - {"name":"🏁RELAY-104.21.82.183-0174","type":"vmess","server":"104.21.82.183","port":8880,"cipher":"auto","uuid":"7ee41eb4-0594-4e2d-92a7-5dd3ee513692","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"server20.beheshtbaneh.com"}}}
+  - {"name":"🏁RELAY-104.18.202.232-0234","type":"vmess","server":"www.speedtest.net","port":80,"cipher":"auto","uuid":"b2c3b2d3-c21c-4a33-b55c-db589d485487","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"worker-falling-leaf-df34.dtdacxjh.workers.dev"}}}
+  - {"name":"🏁RELAY-104.17.19.122-0219","type":"vmess","server":"104.17.19.122","port":2052,"cipher":"auto","uuid":"ce1b46f7-fd89-4646-a968-206d65245aba","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/QXjZG5u4F2","headers":{"host":"us3AJ8biuQx.fzbqfrse.xyz"}}}
+  - {"name":"RELAY-172.67.212.114-018","type":"vmess","server":"172.67.212.114","port":8080,"cipher":"auto","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"www.crispyrainbow.biz"}}}
+  - {"name":"RELAY-104.21.227.214-164","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":2052,"cipher":"auto","uuid":"ce1b46f7-fd89-4646-a968-206d65245aba","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/QXjZG5u4F2","headers":{"host":"us3AJ8biuQx.fzbqfrse.xyz"}}}
+  - {"name":"RELAY-104.18.202.232-007","type":"vmess","server":"www.speedtest.net","port":80,"cipher":"auto","uuid":"b2c3b2d3-c21c-4a33-b55c-db589d485487","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"worker-falling-leaf-df34.dtdacxjh.workers.dev"}}}
+  - {"name":"GB-13.41.178.91-162","type":"ss","server":"fast_2ray_telchannelll.fast2rayy.eu.org","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"GB-13.41.178.91-159","type":"ss","server":"jseyu.arvancode.eu.org","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - GB-13.41.178.91-159
-      - GB-13.41.178.91-162
-      - TG@ZDYZ2+🇬🇧+GB+153
-      - 🇨🇳CN-183.236.51.6-3512
-      - 🇨🇳CN-183.236.51.6-3515
-      - 🇨🇳CN-183.236.51.6-3518
-      - 🇨🇳CN-183.236.51.6-3519
-      - 🇨🇳CN-183.236.51.7-3270
-      - 🇨🇳CN-183.236.51.7-3513
-      - 🇨🇳CN-183.236.51.7-3514
-      - 🇨🇳CN-183.236.51.7-3516
-      - 🇯🇵JP-133.242.205.220-6465
-      - 🏁RELAY-104.21.23.176-0137
-      - 🏁RELAY-104.21.23.176-0221
+      - 免费梯子https://t.me/mftizi
+      - 🏁RELAY-198.41.201.81-3761
+      - 🏁RELAY-172.67.212.114-0204
+      - 🏁RELAY-172.67.166.190-0193
       - 🏁RELAY-172.67.166.190-0134
-      - 🏁RELAY-172.67.221.183-0132
+      - 🏁RELAY-104.21.82.183-0174
+      - 🏁RELAY-104.18.202.232-0234
+      - 🏁RELAY-104.17.19.122-0219
+      - RELAY-172.67.212.114-018
+      - RELAY-104.21.227.214-164
+      - RELAY-104.18.202.232-007
+      - GB-13.41.178.91-162
+      - GB-13.41.178.91-159
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - GB-13.41.178.91-159
-      - GB-13.41.178.91-162
-      - TG@ZDYZ2+🇬🇧+GB+153
-      - 🇨🇳CN-183.236.51.6-3512
-      - 🇨🇳CN-183.236.51.6-3515
-      - 🇨🇳CN-183.236.51.6-3518
-      - 🇨🇳CN-183.236.51.6-3519
-      - 🇨🇳CN-183.236.51.7-3270
-      - 🇨🇳CN-183.236.51.7-3513
-      - 🇨🇳CN-183.236.51.7-3514
-      - 🇨🇳CN-183.236.51.7-3516
-      - 🇯🇵JP-133.242.205.220-6465
-      - 🏁RELAY-104.21.23.176-0137
-      - 🏁RELAY-104.21.23.176-0221
+      - 免费梯子https://t.me/mftizi
+      - 🏁RELAY-198.41.201.81-3761
+      - 🏁RELAY-172.67.212.114-0204
+      - 🏁RELAY-172.67.166.190-0193
       - 🏁RELAY-172.67.166.190-0134
-      - 🏁RELAY-172.67.221.183-0132
+      - 🏁RELAY-104.21.82.183-0174
+      - 🏁RELAY-104.18.202.232-0234
+      - 🏁RELAY-104.17.19.122-0219
+      - RELAY-172.67.212.114-018
+      - RELAY-104.21.227.214-164
+      - RELAY-104.18.202.232-007
+      - GB-13.41.178.91-162
+      - GB-13.41.178.91-159
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - GB-13.41.178.91-159
-      - GB-13.41.178.91-162
-      - TG@ZDYZ2+🇬🇧+GB+153
-      - 🇨🇳CN-183.236.51.6-3512
-      - 🇨🇳CN-183.236.51.6-3515
-      - 🇨🇳CN-183.236.51.6-3518
-      - 🇨🇳CN-183.236.51.6-3519
-      - 🇨🇳CN-183.236.51.7-3270
-      - 🇨🇳CN-183.236.51.7-3513
-      - 🇨🇳CN-183.236.51.7-3514
-      - 🇨🇳CN-183.236.51.7-3516
-      - 🇯🇵JP-133.242.205.220-6465
-      - 🏁RELAY-104.21.23.176-0137
-      - 🏁RELAY-104.21.23.176-0221
+      - 免费梯子https://t.me/mftizi
+      - 🏁RELAY-198.41.201.81-3761
+      - 🏁RELAY-172.67.212.114-0204
+      - 🏁RELAY-172.67.166.190-0193
       - 🏁RELAY-172.67.166.190-0134
-      - 🏁RELAY-172.67.221.183-0132
+      - 🏁RELAY-104.21.82.183-0174
+      - 🏁RELAY-104.18.202.232-0234
+      - 🏁RELAY-104.17.19.122-0219
+      - RELAY-172.67.212.114-018
+      - RELAY-104.21.227.214-164
+      - RELAY-104.18.202.232-007
+      - GB-13.41.178.91-162
+      - GB-13.41.178.91-159
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - GB-13.41.178.91-159
-      - GB-13.41.178.91-162
-      - TG@ZDYZ2+🇬🇧+GB+153
-      - 🇨🇳CN-183.236.51.6-3512
-      - 🇨🇳CN-183.236.51.6-3515
-      - 🇨🇳CN-183.236.51.6-3518
-      - 🇨🇳CN-183.236.51.6-3519
-      - 🇨🇳CN-183.236.51.7-3270
-      - 🇨🇳CN-183.236.51.7-3513
-      - 🇨🇳CN-183.236.51.7-3514
-      - 🇨🇳CN-183.236.51.7-3516
-      - 🇯🇵JP-133.242.205.220-6465
-      - 🏁RELAY-104.21.23.176-0137
-      - 🏁RELAY-104.21.23.176-0221
+      - 免费梯子https://t.me/mftizi
+      - 🏁RELAY-198.41.201.81-3761
+      - 🏁RELAY-172.67.212.114-0204
+      - 🏁RELAY-172.67.166.190-0193
       - 🏁RELAY-172.67.166.190-0134
-      - 🏁RELAY-172.67.221.183-0132
+      - 🏁RELAY-104.21.82.183-0174
+      - 🏁RELAY-104.18.202.232-0234
+      - 🏁RELAY-104.17.19.122-0219
+      - RELAY-172.67.212.114-018
+      - RELAY-104.21.227.214-164
+      - RELAY-104.18.202.232-007
+      - GB-13.41.178.91-162
+      - GB-13.41.178.91-159
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - GB-13.41.178.91-159
-      - GB-13.41.178.91-162
-      - TG@ZDYZ2+🇬🇧+GB+153
-      - 🇨🇳CN-183.236.51.6-3512
-      - 🇨🇳CN-183.236.51.6-3515
-      - 🇨🇳CN-183.236.51.6-3518
-      - 🇨🇳CN-183.236.51.6-3519
-      - 🇨🇳CN-183.236.51.7-3270
-      - 🇨🇳CN-183.236.51.7-3513
-      - 🇨🇳CN-183.236.51.7-3514
-      - 🇨🇳CN-183.236.51.7-3516
-      - 🇯🇵JP-133.242.205.220-6465
-      - 🏁RELAY-104.21.23.176-0137
-      - 🏁RELAY-104.21.23.176-0221
+      - 免费梯子https://t.me/mftizi
+      - 🏁RELAY-198.41.201.81-3761
+      - 🏁RELAY-172.67.212.114-0204
+      - 🏁RELAY-172.67.166.190-0193
       - 🏁RELAY-172.67.166.190-0134
-      - 🏁RELAY-172.67.221.183-0132
+      - 🏁RELAY-104.21.82.183-0174
+      - 🏁RELAY-104.18.202.232-0234
+      - 🏁RELAY-104.17.19.122-0219
+      - RELAY-172.67.212.114-018
+      - RELAY-104.21.227.214-164
+      - RELAY-104.18.202.232-007
+      - GB-13.41.178.91-162
+      - GB-13.41.178.91-159
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - GB-13.41.178.91-159
-      - GB-13.41.178.91-162
-      - TG@ZDYZ2+🇬🇧+GB+153
-      - 🇨🇳CN-183.236.51.6-3512
-      - 🇨🇳CN-183.236.51.6-3515
-      - 🇨🇳CN-183.236.51.6-3518
-      - 🇨🇳CN-183.236.51.6-3519
-      - 🇨🇳CN-183.236.51.7-3270
-      - 🇨🇳CN-183.236.51.7-3513
-      - 🇨🇳CN-183.236.51.7-3514
-      - 🇨🇳CN-183.236.51.7-3516
-      - 🇯🇵JP-133.242.205.220-6465
-      - 🏁RELAY-104.21.23.176-0137
-      - 🏁RELAY-104.21.23.176-0221
+      - 免费梯子https://t.me/mftizi
+      - 🏁RELAY-198.41.201.81-3761
+      - 🏁RELAY-172.67.212.114-0204
+      - 🏁RELAY-172.67.166.190-0193
       - 🏁RELAY-172.67.166.190-0134
-      - 🏁RELAY-172.67.221.183-0132
+      - 🏁RELAY-104.21.82.183-0174
+      - 🏁RELAY-104.18.202.232-0234
+      - 🏁RELAY-104.17.19.122-0219
+      - RELAY-172.67.212.114-018
+      - RELAY-104.21.227.214-164
+      - RELAY-104.18.202.232-007
+      - GB-13.41.178.91-162
+      - GB-13.41.178.91-159
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -252,22 +231,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - GB-13.41.178.91-159
-      - GB-13.41.178.91-162
-      - TG@ZDYZ2+🇬🇧+GB+153
-      - 🇨🇳CN-183.236.51.6-3512
-      - 🇨🇳CN-183.236.51.6-3515
-      - 🇨🇳CN-183.236.51.6-3518
-      - 🇨🇳CN-183.236.51.6-3519
-      - 🇨🇳CN-183.236.51.7-3270
-      - 🇨🇳CN-183.236.51.7-3513
-      - 🇨🇳CN-183.236.51.7-3514
-      - 🇨🇳CN-183.236.51.7-3516
-      - 🇯🇵JP-133.242.205.220-6465
-      - 🏁RELAY-104.21.23.176-0137
-      - 🏁RELAY-104.21.23.176-0221
+      - 免费梯子https://t.me/mftizi
+      - 🏁RELAY-198.41.201.81-3761
+      - 🏁RELAY-172.67.212.114-0204
+      - 🏁RELAY-172.67.166.190-0193
       - 🏁RELAY-172.67.166.190-0134
-      - 🏁RELAY-172.67.221.183-0132
+      - 🏁RELAY-104.21.82.183-0174
+      - 🏁RELAY-104.18.202.232-0234
+      - 🏁RELAY-104.17.19.122-0219
+      - RELAY-172.67.212.114-018
+      - RELAY-104.21.227.214-164
+      - RELAY-104.18.202.232-007
+      - GB-13.41.178.91-162
+      - GB-13.41.178.91-159
 
 rules:
 # 本地/局域网地址
