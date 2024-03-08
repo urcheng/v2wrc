@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-03-04 11:56:57
+# 创建时间：2024-03-08 14:14:45
 # 使用模版：V2RaySE 默认模版
-# 节点数量：19
+# 节点数量：12
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,220 +85,123 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"Frontier US _<","type":"vmess","server":"CA.plsback.top","port":35318,"cipher":"auto","uuid":"6129eda5-99da-4c07-ddb0-0c830ee89bb3","alterId":0,"tls":true,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"TW-板桥2-3(Trojan)","type":"trojan","server":"b23.ntbq.dynu.net","port":18701,"udp":true,"password":"7c252929-6ac0-4681-a835-e52af701f151","sni":"b23.ntbq.dynu.net","skip-cert-verify":false}
-  - {"name":"🇨🇳CN-180.164.80.121-5591","type":"trojan","server":"official.taipeicitygovernment.chernovtsy.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-180.164.82.243-5640","type":"trojan","server":"official.taipeicitygovernment.com.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-180.164.83.142-6126","type":"trojan","server":"official.taipeicitygovernment.org.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.240.232.18-5172","type":"trojan","server":"official.tokyometropolis.odesa.ua","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇨🇳CN-183.240.232.18-5592","type":"trojan","server":"official.tokyometropolis.kiev.ua","port":2053,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇭🇰HK-42.98.192.68-1678","type":"trojan","server":"home-hkt-2.strongpipe.live","port":29444,"udp":true,"password":"7f831d7a-4890-4443-9db6-d3ae18d782a1","skip-cert-verify":true}
-  - {"name":"🇯🇵JP-4.241.76.35-1917","type":"trojan","server":"my02.trojanyyds.xyz","port":443,"udp":true,"password":"93ec7261-1c92-4149-848a-26b6fb9fc4ce","skip-cert-verify":true}
-  - {"name":"🇰🇷KR-61.111.247.65-5161","type":"trojan","server":"official.seoulcitygovernment.com.ua","port":8443,"udp":true,"password":"96983eb4-c8f1-316e-ab00-500014ed3d8b","skip-cert-verify":true}
-  - {"name":"🇸🇬SG-172.104.177.105-8260","type":"trojan","server":"w12.udpgw.com","port":443,"udp":true,"password":"08964210-e7b8-11ec-95aa-1239d0255272","skip-cert-verify":true}
-  - {"name":"关注频道https://t.me/mftizi","type":"vmess","server":"cloudflare.cfgo.cc","port":80,"cipher":"auto","uuid":"22a13aa2-4854-44cb-e090-ec71ab84b1ff","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"wap.hostmjj.com"}}}
-  - {"name":"柬埔寨KH-T\n|无备注","type":"trojan","server":"kh.mjt000.com","port":443,"udp":true,"password":"c032c3f7-d64e-4123-9909-94e8d4435a08","skip-cert-verify":true}
-  - {"name":"美国USLA-T-GPT\n|无备注","type":"trojan","server":"usla.mjt000.com","port":443,"udp":true,"password":"c032c3f7-d64e-4123-9909-94e8d4435a08","skip-cert-verify":true}
-  - {"name":"免费梯子https://t.me/mftizi","type":"trojan","server":"220.246.88.197","port":443,"udp":true,"password":"293ec37c942a47938231d849a5dca9bd","sni":"www.gpt123.one","skip-cert-verify":true}
-  - {"name":"台湾WAP-T\n|无备注","type":"trojan","server":"hinet.mjt000.com","port":443,"udp":true,"password":"c032c3f7-d64e-4123-9909-94e8d4435a08","skip-cert-verify":true}
-  - {"name":"香港wap-T\n|无备注","type":"trojan","server":"waphk.mjt000.com","port":443,"udp":true,"password":"c032c3f7-d64e-4123-9909-94e8d4435a08","skip-cert-verify":true}
-  - {"name":"长期更新节点@mftizi_1","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":8880,"cipher":"auto","uuid":"17c82b45-dff0-47bb-9e0c-07ef07f67005","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video/bYdJ7Vc2We","headers":{"host":"us6gzxQRrE4.fzbqfrse.xyz"}}}
-  - {"name":"长期更新节点@mftizi_2","type":"vmess","server":"www.brightocean.lol","port":8080,"cipher":"chacha20-poly1305","uuid":"22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/"}}
+  - {"name":"🇭🇰HK_62672+@WangCai_1_1","type":"ss","server":"45.11.104.94","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇭🇰HK_62672+@WangCai_1_2","type":"ss","server":"45.11.104.59","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇭🇰HK_62672+@WangCai_1_3","type":"ss","server":"194.104.146.113","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇯🇵JP_62672+@WangCai_1_1","type":"ss","server":"54.178.71.192","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇯🇵JP_62672+@WangCai_1_2","type":"ss","server":"172.105.230.133","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇯🇵JP_62672+@WangCai_1_3","type":"ss","server":"172.105.205.214","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇯🇵JP_62672+@WangCai_1_4","type":"ss","server":"120.241.47.20","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇯🇵JP_62672+@WangCai_1_5","type":"ss","server":"120.241.47.8","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇯🇵JP_62672+@WangCai_1_6","type":"ss","server":"120.241.46.106","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇺🇸US_62672+@WangCai_1_1","type":"ss","server":"95.174.71.29","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇺🇸US_62672+@WangCai_1_2","type":"ss","server":"95.174.71.28","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
+  - {"name":"🇺🇸US_62672+@WangCai_1_3","type":"ss","server":"95.174.71.98","port":2377,"password":"t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv","cipher":"chacha20-ietf-poly1305","plugin":"obfs-local","plugin-opts":{"mode":"websocket"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Frontier US _<
-      - TW-板桥2-3(Trojan)
-      - 🇨🇳CN-180.164.80.121-5591
-      - 🇨🇳CN-180.164.82.243-5640
-      - 🇨🇳CN-180.164.83.142-6126
-      - 🇨🇳CN-183.240.232.18-5172
-      - 🇨🇳CN-183.240.232.18-5592
-      - 🇭🇰HK-42.98.192.68-1678
-      - 🇯🇵JP-4.241.76.35-1917
-      - 🇰🇷KR-61.111.247.65-5161
-      - 🇸🇬SG-172.104.177.105-8260
-      - 关注频道https://t.me/mftizi
-      - |-
-        柬埔寨KH-T
-        |无备注
-      - |-
-        美国USLA-T-GPT
-        |无备注
-      - 免费梯子https://t.me/mftizi
-      - |-
-        台湾WAP-T
-        |无备注
-      - |-
-        香港wap-T
-        |无备注
-      - 长期更新节点@mftizi_1
-      - 长期更新节点@mftizi_2
+      - 🇭🇰HK_62672+@WangCai_1_1
+      - 🇭🇰HK_62672+@WangCai_1_2
+      - 🇭🇰HK_62672+@WangCai_1_3
+      - 🇯🇵JP_62672+@WangCai_1_1
+      - 🇯🇵JP_62672+@WangCai_1_2
+      - 🇯🇵JP_62672+@WangCai_1_3
+      - 🇯🇵JP_62672+@WangCai_1_4
+      - 🇯🇵JP_62672+@WangCai_1_5
+      - 🇯🇵JP_62672+@WangCai_1_6
+      - 🇺🇸US_62672+@WangCai_1_1
+      - 🇺🇸US_62672+@WangCai_1_2
+      - 🇺🇸US_62672+@WangCai_1_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Frontier US _<
-      - TW-板桥2-3(Trojan)
-      - 🇨🇳CN-180.164.80.121-5591
-      - 🇨🇳CN-180.164.82.243-5640
-      - 🇨🇳CN-180.164.83.142-6126
-      - 🇨🇳CN-183.240.232.18-5172
-      - 🇨🇳CN-183.240.232.18-5592
-      - 🇭🇰HK-42.98.192.68-1678
-      - 🇯🇵JP-4.241.76.35-1917
-      - 🇰🇷KR-61.111.247.65-5161
-      - 🇸🇬SG-172.104.177.105-8260
-      - 关注频道https://t.me/mftizi
-      - |-
-        柬埔寨KH-T
-        |无备注
-      - |-
-        美国USLA-T-GPT
-        |无备注
-      - 免费梯子https://t.me/mftizi
-      - |-
-        台湾WAP-T
-        |无备注
-      - |-
-        香港wap-T
-        |无备注
-      - 长期更新节点@mftizi_1
-      - 长期更新节点@mftizi_2
+      - 🇭🇰HK_62672+@WangCai_1_1
+      - 🇭🇰HK_62672+@WangCai_1_2
+      - 🇭🇰HK_62672+@WangCai_1_3
+      - 🇯🇵JP_62672+@WangCai_1_1
+      - 🇯🇵JP_62672+@WangCai_1_2
+      - 🇯🇵JP_62672+@WangCai_1_3
+      - 🇯🇵JP_62672+@WangCai_1_4
+      - 🇯🇵JP_62672+@WangCai_1_5
+      - 🇯🇵JP_62672+@WangCai_1_6
+      - 🇺🇸US_62672+@WangCai_1_1
+      - 🇺🇸US_62672+@WangCai_1_2
+      - 🇺🇸US_62672+@WangCai_1_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Frontier US _<
-      - TW-板桥2-3(Trojan)
-      - 🇨🇳CN-180.164.80.121-5591
-      - 🇨🇳CN-180.164.82.243-5640
-      - 🇨🇳CN-180.164.83.142-6126
-      - 🇨🇳CN-183.240.232.18-5172
-      - 🇨🇳CN-183.240.232.18-5592
-      - 🇭🇰HK-42.98.192.68-1678
-      - 🇯🇵JP-4.241.76.35-1917
-      - 🇰🇷KR-61.111.247.65-5161
-      - 🇸🇬SG-172.104.177.105-8260
-      - 关注频道https://t.me/mftizi
-      - |-
-        柬埔寨KH-T
-        |无备注
-      - |-
-        美国USLA-T-GPT
-        |无备注
-      - 免费梯子https://t.me/mftizi
-      - |-
-        台湾WAP-T
-        |无备注
-      - |-
-        香港wap-T
-        |无备注
-      - 长期更新节点@mftizi_1
-      - 长期更新节点@mftizi_2
+      - 🇭🇰HK_62672+@WangCai_1_1
+      - 🇭🇰HK_62672+@WangCai_1_2
+      - 🇭🇰HK_62672+@WangCai_1_3
+      - 🇯🇵JP_62672+@WangCai_1_1
+      - 🇯🇵JP_62672+@WangCai_1_2
+      - 🇯🇵JP_62672+@WangCai_1_3
+      - 🇯🇵JP_62672+@WangCai_1_4
+      - 🇯🇵JP_62672+@WangCai_1_5
+      - 🇯🇵JP_62672+@WangCai_1_6
+      - 🇺🇸US_62672+@WangCai_1_1
+      - 🇺🇸US_62672+@WangCai_1_2
+      - 🇺🇸US_62672+@WangCai_1_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Frontier US _<
-      - TW-板桥2-3(Trojan)
-      - 🇨🇳CN-180.164.80.121-5591
-      - 🇨🇳CN-180.164.82.243-5640
-      - 🇨🇳CN-180.164.83.142-6126
-      - 🇨🇳CN-183.240.232.18-5172
-      - 🇨🇳CN-183.240.232.18-5592
-      - 🇭🇰HK-42.98.192.68-1678
-      - 🇯🇵JP-4.241.76.35-1917
-      - 🇰🇷KR-61.111.247.65-5161
-      - 🇸🇬SG-172.104.177.105-8260
-      - 关注频道https://t.me/mftizi
-      - |-
-        柬埔寨KH-T
-        |无备注
-      - |-
-        美国USLA-T-GPT
-        |无备注
-      - 免费梯子https://t.me/mftizi
-      - |-
-        台湾WAP-T
-        |无备注
-      - |-
-        香港wap-T
-        |无备注
-      - 长期更新节点@mftizi_1
-      - 长期更新节点@mftizi_2
+      - 🇭🇰HK_62672+@WangCai_1_1
+      - 🇭🇰HK_62672+@WangCai_1_2
+      - 🇭🇰HK_62672+@WangCai_1_3
+      - 🇯🇵JP_62672+@WangCai_1_1
+      - 🇯🇵JP_62672+@WangCai_1_2
+      - 🇯🇵JP_62672+@WangCai_1_3
+      - 🇯🇵JP_62672+@WangCai_1_4
+      - 🇯🇵JP_62672+@WangCai_1_5
+      - 🇯🇵JP_62672+@WangCai_1_6
+      - 🇺🇸US_62672+@WangCai_1_1
+      - 🇺🇸US_62672+@WangCai_1_2
+      - 🇺🇸US_62672+@WangCai_1_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Frontier US _<
-      - TW-板桥2-3(Trojan)
-      - 🇨🇳CN-180.164.80.121-5591
-      - 🇨🇳CN-180.164.82.243-5640
-      - 🇨🇳CN-180.164.83.142-6126
-      - 🇨🇳CN-183.240.232.18-5172
-      - 🇨🇳CN-183.240.232.18-5592
-      - 🇭🇰HK-42.98.192.68-1678
-      - 🇯🇵JP-4.241.76.35-1917
-      - 🇰🇷KR-61.111.247.65-5161
-      - 🇸🇬SG-172.104.177.105-8260
-      - 关注频道https://t.me/mftizi
-      - |-
-        柬埔寨KH-T
-        |无备注
-      - |-
-        美国USLA-T-GPT
-        |无备注
-      - 免费梯子https://t.me/mftizi
-      - |-
-        台湾WAP-T
-        |无备注
-      - |-
-        香港wap-T
-        |无备注
-      - 长期更新节点@mftizi_1
-      - 长期更新节点@mftizi_2
+      - 🇭🇰HK_62672+@WangCai_1_1
+      - 🇭🇰HK_62672+@WangCai_1_2
+      - 🇭🇰HK_62672+@WangCai_1_3
+      - 🇯🇵JP_62672+@WangCai_1_1
+      - 🇯🇵JP_62672+@WangCai_1_2
+      - 🇯🇵JP_62672+@WangCai_1_3
+      - 🇯🇵JP_62672+@WangCai_1_4
+      - 🇯🇵JP_62672+@WangCai_1_5
+      - 🇯🇵JP_62672+@WangCai_1_6
+      - 🇺🇸US_62672+@WangCai_1_1
+      - 🇺🇸US_62672+@WangCai_1_2
+      - 🇺🇸US_62672+@WangCai_1_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Frontier US _<
-      - TW-板桥2-3(Trojan)
-      - 🇨🇳CN-180.164.80.121-5591
-      - 🇨🇳CN-180.164.82.243-5640
-      - 🇨🇳CN-180.164.83.142-6126
-      - 🇨🇳CN-183.240.232.18-5172
-      - 🇨🇳CN-183.240.232.18-5592
-      - 🇭🇰HK-42.98.192.68-1678
-      - 🇯🇵JP-4.241.76.35-1917
-      - 🇰🇷KR-61.111.247.65-5161
-      - 🇸🇬SG-172.104.177.105-8260
-      - 关注频道https://t.me/mftizi
-      - |-
-        柬埔寨KH-T
-        |无备注
-      - |-
-        美国USLA-T-GPT
-        |无备注
-      - 免费梯子https://t.me/mftizi
-      - |-
-        台湾WAP-T
-        |无备注
-      - |-
-        香港wap-T
-        |无备注
-      - 长期更新节点@mftizi_1
-      - 长期更新节点@mftizi_2
+      - 🇭🇰HK_62672+@WangCai_1_1
+      - 🇭🇰HK_62672+@WangCai_1_2
+      - 🇭🇰HK_62672+@WangCai_1_3
+      - 🇯🇵JP_62672+@WangCai_1_1
+      - 🇯🇵JP_62672+@WangCai_1_2
+      - 🇯🇵JP_62672+@WangCai_1_3
+      - 🇯🇵JP_62672+@WangCai_1_4
+      - 🇯🇵JP_62672+@WangCai_1_5
+      - 🇯🇵JP_62672+@WangCai_1_6
+      - 🇺🇸US_62672+@WangCai_1_1
+      - 🇺🇸US_62672+@WangCai_1_2
+      - 🇺🇸US_62672+@WangCai_1_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -321,33 +224,18 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Frontier US _<
-      - TW-板桥2-3(Trojan)
-      - 🇨🇳CN-180.164.80.121-5591
-      - 🇨🇳CN-180.164.82.243-5640
-      - 🇨🇳CN-180.164.83.142-6126
-      - 🇨🇳CN-183.240.232.18-5172
-      - 🇨🇳CN-183.240.232.18-5592
-      - 🇭🇰HK-42.98.192.68-1678
-      - 🇯🇵JP-4.241.76.35-1917
-      - 🇰🇷KR-61.111.247.65-5161
-      - 🇸🇬SG-172.104.177.105-8260
-      - 关注频道https://t.me/mftizi
-      - |-
-        柬埔寨KH-T
-        |无备注
-      - |-
-        美国USLA-T-GPT
-        |无备注
-      - 免费梯子https://t.me/mftizi
-      - |-
-        台湾WAP-T
-        |无备注
-      - |-
-        香港wap-T
-        |无备注
-      - 长期更新节点@mftizi_1
-      - 长期更新节点@mftizi_2
+      - 🇭🇰HK_62672+@WangCai_1_1
+      - 🇭🇰HK_62672+@WangCai_1_2
+      - 🇭🇰HK_62672+@WangCai_1_3
+      - 🇯🇵JP_62672+@WangCai_1_1
+      - 🇯🇵JP_62672+@WangCai_1_2
+      - 🇯🇵JP_62672+@WangCai_1_3
+      - 🇯🇵JP_62672+@WangCai_1_4
+      - 🇯🇵JP_62672+@WangCai_1_5
+      - 🇯🇵JP_62672+@WangCai_1_6
+      - 🇺🇸US_62672+@WangCai_1_1
+      - 🇺🇸US_62672+@WangCai_1_2
+      - 🇺🇸US_62672+@WangCai_1_3
 
 rules:
 # 本地/局域网地址
