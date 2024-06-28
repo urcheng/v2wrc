@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-06-26 09:01:52
+# 创建时间：2024-06-28 17:29:53
 # 使用模版：V2RaySE 默认模版
-# 节点数量：21
+# 节点数量：27
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,186 +85,228 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"TG BBJC52|韩国 02","type":"vmess","server":"baobaojichang.bbjc.xyz","port":8080,"cipher":"auto","uuid":"07354247-4a9d-4b09-a7fe-4918c6e9dfb5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hanguo.mojc.xyz"}}}
-  - {"name":"TG BBJC52|韩国 03","type":"vmess","server":"baobaojichang.bbjc.xyz","port":8880,"cipher":"auto","uuid":"07354247-4a9d-4b09-a7fe-4918c6e9dfb5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hanguo.mojc.xyz"}}}
-  - {"name":"TG BBJC52|韩国 04","type":"vmess","server":"baobaojichang.bbjc.xyz","port":2052,"cipher":"auto","uuid":"07354247-4a9d-4b09-a7fe-4918c6e9dfb5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"hanguo.mojc.xyz"}}}
-  - {"name":"澳大利亚原生1","type":"vmess","server":"haa.dashuai.cyou","port":45062,"cipher":"auto","uuid":"a0014362-d975-4fdd-9059-5efd1706d38f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"澳大利亚原生2","type":"vmess","server":"xdd.dashuai.cyou","port":45080,"cipher":"auto","uuid":"a0014362-d975-4fdd-9059-5efd1706d38f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"德国-01","type":"vmess","server":"de-frankfurt-oracle-b26cf5.ip1.shop","port":45106,"cipher":"auto","uuid":"70dbab4f-8bf1-431e-998d-bac4be533809","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/de1","headers":{"host":"oracle-de-01.t3csyun.buzz"}}}
-  - {"name":"德国-02","type":"vmess","server":"de-frankfurt-oracle-b26cf5.ip1.shop","port":45107,"cipher":"auto","uuid":"70dbab4f-8bf1-431e-998d-bac4be533809","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/de2","headers":{"host":"oracle-de-02.t3csyun.buzz"}}}
-  - {"name":"加拿大1","type":"vmess","server":"haa.dashuai.cyou","port":45066,"cipher":"auto","uuid":"a0014362-d975-4fdd-9059-5efd1706d38f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"加拿大2","type":"vmess","server":"xdd.dashuai.cyou","port":45067,"cipher":"auto","uuid":"a0014362-d975-4fdd-9059-5efd1706d38f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"美国1","type":"vmess","server":"haa.dashuai.cyou","port":45070,"cipher":"auto","uuid":"a0014362-d975-4fdd-9059-5efd1706d38f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"香港NO.1","type":"vmess","server":"haa.dashuai.cyou","port":45050,"cipher":"auto","uuid":"9f42d9ec-374c-4499-9f69-b766a7cb3815","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"印度1","type":"vmess","server":"haa.dashuai.cyou","port":45074,"cipher":"auto","uuid":"a0014362-d975-4fdd-9059-5efd1706d38f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"印度2","type":"vmess","server":"xdd.dashuai.cyou","port":45073,"cipher":"auto","uuid":"a0014362-d975-4fdd-9059-5efd1706d38f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"英国1","type":"vmess","server":"haa.dashuai.cyou","port":45064,"cipher":"auto","uuid":"a0014362-d975-4fdd-9059-5efd1706d38f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"英国2","type":"vmess","server":"xdd.dashuai.cyou","port":45065,"cipher":"auto","uuid":"a0014362-d975-4fdd-9059-5efd1706d38f","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"2X就是2X扣费+没有写倍率为1X","type":"ss","server":"db.quanstring.top","port":11850,"password":"0c1e8b10-b32b-4f5b-817d-2a140f96f890","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国03备用","type":"ss","server":"gduo.lyunsub.win","port":15640,"password":"3d06c6c7-bdd0-40c3-a52d-7ba57708e5f3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"NONE","type":"trojan","server":"172.233.146.107","port":24444,"udp":true,"password":"450524c4-86ee-4a97-ac7f-888942039bcd","sni":"new.download.the-best-airport.com","skip-cert-verify":true}
-  - {"name":"美国+01+线路3","type":"trojan","server":"v03.gutingting.com","port":20224,"udp":true,"password":"bae80853-788e-4f08-935e-71cdd8340893","sni":"v2usa01.fuqiangren.com","skip-cert-verify":true}
-  - {"name":"美国+04+线路3","type":"trojan","server":"v03.gutingting.com","port":30000,"udp":true,"password":"bae80853-788e-4f08-935e-71cdd8340893","sni":"v1usa01.6kk.org","skip-cert-verify":true}
-  - {"name":"印度+02+线路3","type":"trojan","server":"v03.gutingting.com","port":30028,"udp":true,"password":"bae80853-788e-4f08-935e-71cdd8340893","sni":"v1in02.6kk.org","skip-cert-verify":true}
+  - {"name":"V2 美国 华南专线","type":"vmess","server":"azi.cm2.xiaomi-api.xyz","port":31061,"cipher":"auto","uuid":"9dfda874-3cfd-4f44-b241-464c0d7ba2af","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"德国+DE+|+BIZ","type":"ss","server":"ger1.iepl.cooc.icu","port":35607,"password":"9e0fc088-ea8c-4906-9e4f-6a2c1de6ca42","cipher":"aes-128-gcm"}
+  - {"name":"加拿大+1X_1","type":"ss","server":"gy.ty7.fun","port":16943,"password":"fe0f222a-c1a0-4772-85a9-bbb22de8db08","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"加拿大+1X_2","type":"ss","server":"gy.ty7.fun","port":16943,"password":"860aeb90-ef7a-42ef-b946-ece68cb022d1","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"加拿大+1X_3","type":"ss","server":"gy.ty7.fun","port":16943,"password":"3db42670-cdd7-47f3-a8e0-d40397a18c04","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"加拿大1","type":"vmess","server":"haa.dashuai.cyou","port":45066,"cipher":"auto","uuid":"1d8ebd10-621a-41b6-b5e5-3db30136e6eb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"加拿大2","type":"vmess","server":"xdd.dashuai.cyou","port":45067,"cipher":"auto","uuid":"1d8ebd10-621a-41b6-b5e5-3db30136e6eb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国+1","type":"ss","server":"gz.666666222.shop","port":20012,"password":"7a273d6c-bdb5-44f3-b5de-857dfc1eee9a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国+2","type":"ss","server":"gy.666666222.shop","port":20015,"password":"7a273d6c-bdb5-44f3-b5de-857dfc1eee9a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国+B+US","type":"ss","server":"usa2.iepl.cooc.icu","port":32881,"password":"9e0fc088-ea8c-4906-9e4f-6a2c1de6ca42","cipher":"aes-256-gcm"}
+  - {"name":"美国+纽约2","type":"ss","server":"gy.666666222.shop","port":20016,"password":"8f0d8813-0fcc-48a7-8ad1-480264e3700a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"美国1","type":"vmess","server":"haa.dashuai.cyou","port":45070,"cipher":"auto","uuid":"1d8ebd10-621a-41b6-b5e5-3db30136e6eb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"美国CA","type":"vmess","server":"usca1.ludou.us.kg","port":80,"cipher":"auto","uuid":"047e0597-1671-4680-bbbb-1e93e5a644dd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usca.ludou.us.kg"}}}
+  - {"name":"美国GA_1","type":"vmess","server":"usga1.ludou.us.kg","port":80,"cipher":"auto","uuid":"0e1ff563-d2e1-4437-8479-8928313b5d88","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usga.ludou.us.kg"}}}
+  - {"name":"美国GA_2","type":"vmess","server":"usga1.ludou.us.kg","port":80,"cipher":"auto","uuid":"6089f384-4403-4faa-b7ca-f8127d7b6b65","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usga.ludou.us.kg"}}}
+  - {"name":"美国LL_1","type":"vmess","server":"usll1.ludou.us.kg","port":80,"cipher":"auto","uuid":"0e1ff563-d2e1-4437-8479-8928313b5d88","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usll.ludou.us.kg"}}}
+  - {"name":"美国LL_2","type":"vmess","server":"usll1.ludou.us.kg","port":80,"cipher":"auto","uuid":"047e0597-1671-4680-bbbb-1e93e5a644dd","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usll.ludou.us.kg"}}}
+  - {"name":"纽约","type":"vmess","server":"03.bitaiyun.tech","port":80,"cipher":"auto","uuid":"0e1ff563-d2e1-4437-8479-8928313b5d88","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/aghagh","headers":{"host":"04.bitaiyun.tech"}}}
+  - {"name":"深港专线-德国","type":"vmess","server":"dzgz.tcity8.monster","port":35222,"cipher":"auto","uuid":"b9387345-5ae9-462e-aab2-ef3e2bf1d785","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"深港专线-加拿大","type":"vmess","server":"dzgz.tcity8.monster","port":35216,"cipher":"auto","uuid":"b9387345-5ae9-462e-aab2-ef3e2bf1d785","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"香港3+新+解锁","type":"ss","server":"szcm02618.qingqiu.buzz","port":17367,"password":"2ffb533a-5d33-4477-b3c9-cab40afc9a67","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"印度2","type":"vmess","server":"xdd.dashuai.cyou","port":45073,"cipher":"auto","uuid":"1d8ebd10-621a-41b6-b5e5-3db30136e6eb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"英国1","type":"vmess","server":"haa.dashuai.cyou","port":45064,"cipher":"auto","uuid":"1d8ebd10-621a-41b6-b5e5-3db30136e6eb","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"中港隧道-德国","type":"vmess","server":"jzgz.tcity8.monster","port":22230,"cipher":"auto","uuid":"b9387345-5ae9-462e-aab2-ef3e2bf1d785","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"中港隧道-加拿大","type":"vmess","server":"jzgz.tcity8.monster","port":22236,"cipher":"auto","uuid":"b9387345-5ae9-462e-aab2-ef3e2bf1d785","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"中港隧道-香港1","type":"vmess","server":"jzgz.tcity8.monster","port":22224,"cipher":"auto","uuid":"b9387345-5ae9-462e-aab2-ef3e2bf1d785","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"中港隧道-英国","type":"vmess","server":"jzgz.tcity8.monster","port":22229,"cipher":"auto","uuid":"b9387345-5ae9-462e-aab2-ef3e2bf1d785","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - TG BBJC52|韩国 02
-      - TG BBJC52|韩国 03
-      - TG BBJC52|韩国 04
-      - 澳大利亚原生1
-      - 澳大利亚原生2
-      - 德国-01
-      - 德国-02
+      - V2 美国 华南专线
+      - 德国+DE+|+BIZ
+      - 加拿大+1X_1
+      - 加拿大+1X_2
+      - 加拿大+1X_3
       - 加拿大1
       - 加拿大2
+      - 美国+1
+      - 美国+2
+      - 美国+B+US
+      - 美国+纽约2
       - 美国1
-      - 香港NO.1
-      - 印度1
+      - 美国CA
+      - 美国GA_1
+      - 美国GA_2
+      - 美国LL_1
+      - 美国LL_2
+      - 纽约
+      - 深港专线-德国
+      - 深港专线-加拿大
+      - 香港3+新+解锁
       - 印度2
       - 英国1
-      - 英国2
-      - 2X就是2X扣费+没有写倍率为1X
-      - 美国03备用
-      - NONE
-      - 美国+01+线路3
-      - 美国+04+线路3
-      - 印度+02+线路3
+      - 中港隧道-德国
+      - 中港隧道-加拿大
+      - 中港隧道-香港1
+      - 中港隧道-英国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - TG BBJC52|韩国 02
-      - TG BBJC52|韩国 03
-      - TG BBJC52|韩国 04
-      - 澳大利亚原生1
-      - 澳大利亚原生2
-      - 德国-01
-      - 德国-02
+      - V2 美国 华南专线
+      - 德国+DE+|+BIZ
+      - 加拿大+1X_1
+      - 加拿大+1X_2
+      - 加拿大+1X_3
       - 加拿大1
       - 加拿大2
+      - 美国+1
+      - 美国+2
+      - 美国+B+US
+      - 美国+纽约2
       - 美国1
-      - 香港NO.1
-      - 印度1
+      - 美国CA
+      - 美国GA_1
+      - 美国GA_2
+      - 美国LL_1
+      - 美国LL_2
+      - 纽约
+      - 深港专线-德国
+      - 深港专线-加拿大
+      - 香港3+新+解锁
       - 印度2
       - 英国1
-      - 英国2
-      - 2X就是2X扣费+没有写倍率为1X
-      - 美国03备用
-      - NONE
-      - 美国+01+线路3
-      - 美国+04+线路3
-      - 印度+02+线路3
+      - 中港隧道-德国
+      - 中港隧道-加拿大
+      - 中港隧道-香港1
+      - 中港隧道-英国
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - TG BBJC52|韩国 02
-      - TG BBJC52|韩国 03
-      - TG BBJC52|韩国 04
-      - 澳大利亚原生1
-      - 澳大利亚原生2
-      - 德国-01
-      - 德国-02
+      - V2 美国 华南专线
+      - 德国+DE+|+BIZ
+      - 加拿大+1X_1
+      - 加拿大+1X_2
+      - 加拿大+1X_3
       - 加拿大1
       - 加拿大2
+      - 美国+1
+      - 美国+2
+      - 美国+B+US
+      - 美国+纽约2
       - 美国1
-      - 香港NO.1
-      - 印度1
+      - 美国CA
+      - 美国GA_1
+      - 美国GA_2
+      - 美国LL_1
+      - 美国LL_2
+      - 纽约
+      - 深港专线-德国
+      - 深港专线-加拿大
+      - 香港3+新+解锁
       - 印度2
       - 英国1
-      - 英国2
-      - 2X就是2X扣费+没有写倍率为1X
-      - 美国03备用
-      - NONE
-      - 美国+01+线路3
-      - 美国+04+线路3
-      - 印度+02+线路3
+      - 中港隧道-德国
+      - 中港隧道-加拿大
+      - 中港隧道-香港1
+      - 中港隧道-英国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG BBJC52|韩国 02
-      - TG BBJC52|韩国 03
-      - TG BBJC52|韩国 04
-      - 澳大利亚原生1
-      - 澳大利亚原生2
-      - 德国-01
-      - 德国-02
+      - V2 美国 华南专线
+      - 德国+DE+|+BIZ
+      - 加拿大+1X_1
+      - 加拿大+1X_2
+      - 加拿大+1X_3
       - 加拿大1
       - 加拿大2
+      - 美国+1
+      - 美国+2
+      - 美国+B+US
+      - 美国+纽约2
       - 美国1
-      - 香港NO.1
-      - 印度1
+      - 美国CA
+      - 美国GA_1
+      - 美国GA_2
+      - 美国LL_1
+      - 美国LL_2
+      - 纽约
+      - 深港专线-德国
+      - 深港专线-加拿大
+      - 香港3+新+解锁
       - 印度2
       - 英国1
-      - 英国2
-      - 2X就是2X扣费+没有写倍率为1X
-      - 美国03备用
-      - NONE
-      - 美国+01+线路3
-      - 美国+04+线路3
-      - 印度+02+线路3
+      - 中港隧道-德国
+      - 中港隧道-加拿大
+      - 中港隧道-香港1
+      - 中港隧道-英国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - TG BBJC52|韩国 02
-      - TG BBJC52|韩国 03
-      - TG BBJC52|韩国 04
-      - 澳大利亚原生1
-      - 澳大利亚原生2
-      - 德国-01
-      - 德国-02
+      - V2 美国 华南专线
+      - 德国+DE+|+BIZ
+      - 加拿大+1X_1
+      - 加拿大+1X_2
+      - 加拿大+1X_3
       - 加拿大1
       - 加拿大2
+      - 美国+1
+      - 美国+2
+      - 美国+B+US
+      - 美国+纽约2
       - 美国1
-      - 香港NO.1
-      - 印度1
+      - 美国CA
+      - 美国GA_1
+      - 美国GA_2
+      - 美国LL_1
+      - 美国LL_2
+      - 纽约
+      - 深港专线-德国
+      - 深港专线-加拿大
+      - 香港3+新+解锁
       - 印度2
       - 英国1
-      - 英国2
-      - 2X就是2X扣费+没有写倍率为1X
-      - 美国03备用
-      - NONE
-      - 美国+01+线路3
-      - 美国+04+线路3
-      - 印度+02+线路3
+      - 中港隧道-德国
+      - 中港隧道-加拿大
+      - 中港隧道-香港1
+      - 中港隧道-英国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - TG BBJC52|韩国 02
-      - TG BBJC52|韩国 03
-      - TG BBJC52|韩国 04
-      - 澳大利亚原生1
-      - 澳大利亚原生2
-      - 德国-01
-      - 德国-02
+      - V2 美国 华南专线
+      - 德国+DE+|+BIZ
+      - 加拿大+1X_1
+      - 加拿大+1X_2
+      - 加拿大+1X_3
       - 加拿大1
       - 加拿大2
+      - 美国+1
+      - 美国+2
+      - 美国+B+US
+      - 美国+纽约2
       - 美国1
-      - 香港NO.1
-      - 印度1
+      - 美国CA
+      - 美国GA_1
+      - 美国GA_2
+      - 美国LL_1
+      - 美国LL_2
+      - 纽约
+      - 深港专线-德国
+      - 深港专线-加拿大
+      - 香港3+新+解锁
       - 印度2
       - 英国1
-      - 英国2
-      - 2X就是2X扣费+没有写倍率为1X
-      - 美国03备用
-      - NONE
-      - 美国+01+线路3
-      - 美国+04+线路3
-      - 印度+02+线路3
+      - 中港隧道-德国
+      - 中港隧道-加拿大
+      - 中港隧道-香港1
+      - 中港隧道-英国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -287,27 +329,33 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - TG BBJC52|韩国 02
-      - TG BBJC52|韩国 03
-      - TG BBJC52|韩国 04
-      - 澳大利亚原生1
-      - 澳大利亚原生2
-      - 德国-01
-      - 德国-02
+      - V2 美国 华南专线
+      - 德国+DE+|+BIZ
+      - 加拿大+1X_1
+      - 加拿大+1X_2
+      - 加拿大+1X_3
       - 加拿大1
       - 加拿大2
+      - 美国+1
+      - 美国+2
+      - 美国+B+US
+      - 美国+纽约2
       - 美国1
-      - 香港NO.1
-      - 印度1
+      - 美国CA
+      - 美国GA_1
+      - 美国GA_2
+      - 美国LL_1
+      - 美国LL_2
+      - 纽约
+      - 深港专线-德国
+      - 深港专线-加拿大
+      - 香港3+新+解锁
       - 印度2
       - 英国1
-      - 英国2
-      - 2X就是2X扣费+没有写倍率为1X
-      - 美国03备用
-      - NONE
-      - 美国+01+线路3
-      - 美国+04+线路3
-      - 印度+02+线路3
+      - 中港隧道-德国
+      - 中港隧道-加拿大
+      - 中港隧道-香港1
+      - 中港隧道-英国
 
 rules:
 # 本地/局域网地址
