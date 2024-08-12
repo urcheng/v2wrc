@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-07-30 11:08:25
+# 创建时间：2024-08-12 16:01:50
 # 使用模版：V2RaySE 默认模版
-# 节点数量：42
+# 节点数量：6
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,333 +85,81 @@ dns:
       - 0.0.0.0/32
 
 proxies:
+  - {"name":"🇭🇰+香港中转-2","type":"ss","server":"gdcub.yunnode.win","port":38519,"password":"9505ceb3-18b3-4252-ba4d-8e55038ae752","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱_定制专线：@QS00008","type":"ss","server":"109.201.152.181","port":443,"password":"shadowsocks","cipher":"aes-128-cfb"}
   - {"name":"🇺🇸_定制专线：@QS00008_1","type":"vmess","server":"23.227.38.3","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}}}
-  - {"name":"🇺🇸_定制专线：@QS00008_2","type":"vmess","server":"172.64.233.9","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"🇺🇸_定制专线：@QS00008_3","type":"vmess","server":"104.19.45.50","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
-  - {"name":"🇺🇸_定制专线：@QS00008_4","type":"vmess","server":"104.16.61.8","port":2095,"cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/linde06.indiavideo.sbs/linkws","headers":{"host":"worker-lingering-fog-c021.gesofog870.workers.dev"}}}
-  - {"name":"🇺🇸_定制专线：@QS00008_5","type":"vmess","server":"172.64.233.15","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"🇺🇸_定制专线：@QS00008_6","type":"vmess","server":"172.64.233.32","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"🇺🇸_定制专线：@QS00008_7","type":"vmess","server":"104.20.25.146","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"🇺🇸_定制专线：@QS00008_8","type":"vmess","server":"104.19.45.11","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}}}
-  - {"name":"🇺🇸_定制专线：@QS00008_9","type":"vmess","server":"172.64.233.24","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"🇺🇸_定制专线：@QS00008_10","type":"vmess","server":"172.64.166.33","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
-  - {"name":"🇺🇸_定制专线：@QS00008_11","type":"vmess","server":"104.19.45.13","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
-  - {"name":"🇺🇸_定制专线：@QS00008_12","type":"vmess","server":"104.17.106.171","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}}}
-  - {"name":"澳大利亚_1","type":"vmess","server":"a4.ludou.us.kg","port":80,"cipher":"auto","uuid":"82f37616-4bc5-47a8-8b29-6c1b1bac8c97","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b4.ludou.us.kg"}}}
-  - {"name":"澳大利亚_2","type":"vmess","server":"a4.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b4.ludou.us.kg"}}}
-  - {"name":"不定期抽奖https://t.me/mftizi","type":"vmess","server":"104.19.38.18","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"cdn2.freegradely.xyz"}}}
-  - {"name":"德国_1","type":"vmess","server":"a6.ludou.us.kg","port":80,"cipher":"auto","uuid":"1fd0b4c2-43ad-4fcb-af7d-689084eea915","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b6.ludou.us.kg"}}}
-  - {"name":"德国_2","type":"vmess","server":"a6.ludou.us.kg","port":80,"cipher":"auto","uuid":"82f37616-4bc5-47a8-8b29-6c1b1bac8c97","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b6.ludou.us.kg"}}}
-  - {"name":"德国_3","type":"vmess","server":"a6.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b6.ludou.us.kg"}}}
-  - {"name":"关注电报https://t.me/mftizi","type":"vmess","server":"104.26.0.56","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip14.freegradely.xyz"}}}
-  - {"name":"荷兰_1","type":"vmess","server":"a5.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b5.ludou.us.kg"}}}
-  - {"name":"荷兰_2","type":"vmess","server":"a5.ludou.us.kg","port":80,"cipher":"auto","uuid":"1fd0b4c2-43ad-4fcb-af7d-689084eea915","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b5.ludou.us.kg"}}}
-  - {"name":"加拿大_1","type":"vmess","server":"a2.ludou.us.kg","port":80,"cipher":"auto","uuid":"82f37616-4bc5-47a8-8b29-6c1b1bac8c97","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b2.ludou.us.kg"}}}
-  - {"name":"加拿大_2","type":"vmess","server":"a2.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b2.ludou.us.kg"}}}
-  - {"name":"加拿大_3","type":"vmess","server":"a2.ludou.us.kg","port":80,"cipher":"auto","uuid":"1fd0b4c2-43ad-4fcb-af7d-689084eea915","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b2.ludou.us.kg"}}}
-  - {"name":"伦敦_1","type":"vmess","server":"a1.ludou.us.kg","port":80,"cipher":"auto","uuid":"1fd0b4c2-43ad-4fcb-af7d-689084eea915","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b1.ludou.us.kg"}}}
-  - {"name":"伦敦_2","type":"vmess","server":"a1.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b1.ludou.us.kg"}}}
-  - {"name":"伦敦_3","type":"vmess","server":"a1.ludou.us.kg","port":80,"cipher":"auto","uuid":"82f37616-4bc5-47a8-8b29-6c1b1bac8c97","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"b1.ludou.us.kg"}}}
-  - {"name":"美国CA_1","type":"vmess","server":"usca1.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usca.ludou.us.kg"}}}
-  - {"name":"美国CA_2","type":"vmess","server":"usca1.ludou.us.kg","port":80,"cipher":"auto","uuid":"82f37616-4bc5-47a8-8b29-6c1b1bac8c97","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usca.ludou.us.kg"}}}
-  - {"name":"美国CA_3","type":"vmess","server":"usca1.ludou.us.kg","port":80,"cipher":"auto","uuid":"1fd0b4c2-43ad-4fcb-af7d-689084eea915","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usca.ludou.us.kg"}}}
-  - {"name":"美国GA_1","type":"vmess","server":"usga1.ludou.us.kg","port":80,"cipher":"auto","uuid":"82f37616-4bc5-47a8-8b29-6c1b1bac8c97","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usga.ludou.us.kg"}}}
-  - {"name":"美国GA_2","type":"vmess","server":"usga1.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usga.ludou.us.kg"}}}
-  - {"name":"美国LA_1","type":"vmess","server":"usla1.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usla.ludou.us.kg"}}}
-  - {"name":"美国LA_2","type":"vmess","server":"usla1.ludou.us.kg","port":80,"cipher":"auto","uuid":"1fd0b4c2-43ad-4fcb-af7d-689084eea915","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usla.ludou.us.kg"}}}
-  - {"name":"美国LA_3","type":"vmess","server":"usla1.ludou.us.kg","port":80,"cipher":"auto","uuid":"82f37616-4bc5-47a8-8b29-6c1b1bac8c97","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usla.ludou.us.kg"}}}
-  - {"name":"美国LL_1","type":"vmess","server":"usll1.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usll.ludou.us.kg"}}}
-  - {"name":"美国LL_2","type":"vmess","server":"usll1.ludou.us.kg","port":80,"cipher":"auto","uuid":"82f37616-4bc5-47a8-8b29-6c1b1bac8c97","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usll.ludou.us.kg"}}}
-  - {"name":"美国LL_3","type":"vmess","server":"usll1.ludou.us.kg","port":80,"cipher":"auto","uuid":"1fd0b4c2-43ad-4fcb-af7d-689084eea915","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"usll.ludou.us.kg"}}}
-  - {"name":"美国WA_1","type":"vmess","server":"uswa1.ludou.us.kg","port":80,"cipher":"auto","uuid":"c483c076-4577-440c-847b-2e36bd8f58f0","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"uswa.ludou.us.kg"}}}
-  - {"name":"美国WA_2","type":"vmess","server":"uswa1.ludou.us.kg","port":80,"cipher":"auto","uuid":"82f37616-4bc5-47a8-8b29-6c1b1bac8c97","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"uswa.ludou.us.kg"}}}
-  - {"name":"免费梯子https://t.me/mftizi","type":"vmess","server":"104.19.51.232","port":2086,"cipher":"auto","uuid":"29eebb60-b27b-4a9d-bba5-947763d9205e","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip005.dtku47.xyz"}}}
+  - {"name":"🇺🇸_定制专线：@QS00008_2","type":"vmess","server":"104.19.45.11","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip1.1457230.xyz"}}}
+  - {"name":"🇺🇸_定制专线：@QS00008_3","type":"vmess","server":"104.19.45.13","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip13.freegradely.xyz"}}}
+  - {"name":"🇺🇸_定制专线：@QS00008_4","type":"vmess","server":"172.64.166.33","port":2086,"cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"github.com/Alvin9999","headers":{"host":"ip2.1457230.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇭🇰+香港中转-2
       - 🇳🇱_定制专线：@QS00008
       - 🇺🇸_定制专线：@QS00008_1
       - 🇺🇸_定制专线：@QS00008_2
       - 🇺🇸_定制专线：@QS00008_3
       - 🇺🇸_定制专线：@QS00008_4
-      - 🇺🇸_定制专线：@QS00008_5
-      - 🇺🇸_定制专线：@QS00008_6
-      - 🇺🇸_定制专线：@QS00008_7
-      - 🇺🇸_定制专线：@QS00008_8
-      - 🇺🇸_定制专线：@QS00008_9
-      - 🇺🇸_定制专线：@QS00008_10
-      - 🇺🇸_定制专线：@QS00008_11
-      - 🇺🇸_定制专线：@QS00008_12
-      - 澳大利亚_1
-      - 澳大利亚_2
-      - 不定期抽奖https://t.me/mftizi
-      - 德国_1
-      - 德国_2
-      - 德国_3
-      - 关注电报https://t.me/mftizi
-      - 荷兰_1
-      - 荷兰_2
-      - 加拿大_1
-      - 加拿大_2
-      - 加拿大_3
-      - 伦敦_1
-      - 伦敦_2
-      - 伦敦_3
-      - 美国CA_1
-      - 美国CA_2
-      - 美国CA_3
-      - 美国GA_1
-      - 美国GA_2
-      - 美国LA_1
-      - 美国LA_2
-      - 美国LA_3
-      - 美国LL_1
-      - 美国LL_2
-      - 美国LL_3
-      - 美国WA_1
-      - 美国WA_2
-      - 免费梯子https://t.me/mftizi
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰+香港中转-2
       - 🇳🇱_定制专线：@QS00008
       - 🇺🇸_定制专线：@QS00008_1
       - 🇺🇸_定制专线：@QS00008_2
       - 🇺🇸_定制专线：@QS00008_3
       - 🇺🇸_定制专线：@QS00008_4
-      - 🇺🇸_定制专线：@QS00008_5
-      - 🇺🇸_定制专线：@QS00008_6
-      - 🇺🇸_定制专线：@QS00008_7
-      - 🇺🇸_定制专线：@QS00008_8
-      - 🇺🇸_定制专线：@QS00008_9
-      - 🇺🇸_定制专线：@QS00008_10
-      - 🇺🇸_定制专线：@QS00008_11
-      - 🇺🇸_定制专线：@QS00008_12
-      - 澳大利亚_1
-      - 澳大利亚_2
-      - 不定期抽奖https://t.me/mftizi
-      - 德国_1
-      - 德国_2
-      - 德国_3
-      - 关注电报https://t.me/mftizi
-      - 荷兰_1
-      - 荷兰_2
-      - 加拿大_1
-      - 加拿大_2
-      - 加拿大_3
-      - 伦敦_1
-      - 伦敦_2
-      - 伦敦_3
-      - 美国CA_1
-      - 美国CA_2
-      - 美国CA_3
-      - 美国GA_1
-      - 美国GA_2
-      - 美国LA_1
-      - 美国LA_2
-      - 美国LA_3
-      - 美国LL_1
-      - 美国LL_2
-      - 美国LL_3
-      - 美国WA_1
-      - 美国WA_2
-      - 免费梯子https://t.me/mftizi
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰+香港中转-2
       - 🇳🇱_定制专线：@QS00008
       - 🇺🇸_定制专线：@QS00008_1
       - 🇺🇸_定制专线：@QS00008_2
       - 🇺🇸_定制专线：@QS00008_3
       - 🇺🇸_定制专线：@QS00008_4
-      - 🇺🇸_定制专线：@QS00008_5
-      - 🇺🇸_定制专线：@QS00008_6
-      - 🇺🇸_定制专线：@QS00008_7
-      - 🇺🇸_定制专线：@QS00008_8
-      - 🇺🇸_定制专线：@QS00008_9
-      - 🇺🇸_定制专线：@QS00008_10
-      - 🇺🇸_定制专线：@QS00008_11
-      - 🇺🇸_定制专线：@QS00008_12
-      - 澳大利亚_1
-      - 澳大利亚_2
-      - 不定期抽奖https://t.me/mftizi
-      - 德国_1
-      - 德国_2
-      - 德国_3
-      - 关注电报https://t.me/mftizi
-      - 荷兰_1
-      - 荷兰_2
-      - 加拿大_1
-      - 加拿大_2
-      - 加拿大_3
-      - 伦敦_1
-      - 伦敦_2
-      - 伦敦_3
-      - 美国CA_1
-      - 美国CA_2
-      - 美国CA_3
-      - 美国GA_1
-      - 美国GA_2
-      - 美国LA_1
-      - 美国LA_2
-      - 美国LA_3
-      - 美国LL_1
-      - 美国LL_2
-      - 美国LL_3
-      - 美国WA_1
-      - 美国WA_2
-      - 免费梯子https://t.me/mftizi
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰+香港中转-2
       - 🇳🇱_定制专线：@QS00008
       - 🇺🇸_定制专线：@QS00008_1
       - 🇺🇸_定制专线：@QS00008_2
       - 🇺🇸_定制专线：@QS00008_3
       - 🇺🇸_定制专线：@QS00008_4
-      - 🇺🇸_定制专线：@QS00008_5
-      - 🇺🇸_定制专线：@QS00008_6
-      - 🇺🇸_定制专线：@QS00008_7
-      - 🇺🇸_定制专线：@QS00008_8
-      - 🇺🇸_定制专线：@QS00008_9
-      - 🇺🇸_定制专线：@QS00008_10
-      - 🇺🇸_定制专线：@QS00008_11
-      - 🇺🇸_定制专线：@QS00008_12
-      - 澳大利亚_1
-      - 澳大利亚_2
-      - 不定期抽奖https://t.me/mftizi
-      - 德国_1
-      - 德国_2
-      - 德国_3
-      - 关注电报https://t.me/mftizi
-      - 荷兰_1
-      - 荷兰_2
-      - 加拿大_1
-      - 加拿大_2
-      - 加拿大_3
-      - 伦敦_1
-      - 伦敦_2
-      - 伦敦_3
-      - 美国CA_1
-      - 美国CA_2
-      - 美国CA_3
-      - 美国GA_1
-      - 美国GA_2
-      - 美国LA_1
-      - 美国LA_2
-      - 美国LA_3
-      - 美国LL_1
-      - 美国LL_2
-      - 美国LL_3
-      - 美国WA_1
-      - 美国WA_2
-      - 免费梯子https://t.me/mftizi
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇭🇰+香港中转-2
       - 🇳🇱_定制专线：@QS00008
       - 🇺🇸_定制专线：@QS00008_1
       - 🇺🇸_定制专线：@QS00008_2
       - 🇺🇸_定制专线：@QS00008_3
       - 🇺🇸_定制专线：@QS00008_4
-      - 🇺🇸_定制专线：@QS00008_5
-      - 🇺🇸_定制专线：@QS00008_6
-      - 🇺🇸_定制专线：@QS00008_7
-      - 🇺🇸_定制专线：@QS00008_8
-      - 🇺🇸_定制专线：@QS00008_9
-      - 🇺🇸_定制专线：@QS00008_10
-      - 🇺🇸_定制专线：@QS00008_11
-      - 🇺🇸_定制专线：@QS00008_12
-      - 澳大利亚_1
-      - 澳大利亚_2
-      - 不定期抽奖https://t.me/mftizi
-      - 德国_1
-      - 德国_2
-      - 德国_3
-      - 关注电报https://t.me/mftizi
-      - 荷兰_1
-      - 荷兰_2
-      - 加拿大_1
-      - 加拿大_2
-      - 加拿大_3
-      - 伦敦_1
-      - 伦敦_2
-      - 伦敦_3
-      - 美国CA_1
-      - 美国CA_2
-      - 美国CA_3
-      - 美国GA_1
-      - 美国GA_2
-      - 美国LA_1
-      - 美国LA_2
-      - 美国LA_3
-      - 美国LL_1
-      - 美国LL_2
-      - 美国LL_3
-      - 美国WA_1
-      - 美国WA_2
-      - 免费梯子https://t.me/mftizi
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰+香港中转-2
       - 🇳🇱_定制专线：@QS00008
       - 🇺🇸_定制专线：@QS00008_1
       - 🇺🇸_定制专线：@QS00008_2
       - 🇺🇸_定制专线：@QS00008_3
       - 🇺🇸_定制专线：@QS00008_4
-      - 🇺🇸_定制专线：@QS00008_5
-      - 🇺🇸_定制专线：@QS00008_6
-      - 🇺🇸_定制专线：@QS00008_7
-      - 🇺🇸_定制专线：@QS00008_8
-      - 🇺🇸_定制专线：@QS00008_9
-      - 🇺🇸_定制专线：@QS00008_10
-      - 🇺🇸_定制专线：@QS00008_11
-      - 🇺🇸_定制专线：@QS00008_12
-      - 澳大利亚_1
-      - 澳大利亚_2
-      - 不定期抽奖https://t.me/mftizi
-      - 德国_1
-      - 德国_2
-      - 德国_3
-      - 关注电报https://t.me/mftizi
-      - 荷兰_1
-      - 荷兰_2
-      - 加拿大_1
-      - 加拿大_2
-      - 加拿大_3
-      - 伦敦_1
-      - 伦敦_2
-      - 伦敦_3
-      - 美国CA_1
-      - 美国CA_2
-      - 美国CA_3
-      - 美国GA_1
-      - 美国GA_2
-      - 美国LA_1
-      - 美国LA_2
-      - 美国LA_3
-      - 美国LL_1
-      - 美国LL_2
-      - 美国LL_3
-      - 美国WA_1
-      - 美国WA_2
-      - 免费梯子https://t.me/mftizi
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -434,48 +182,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰+香港中转-2
       - 🇳🇱_定制专线：@QS00008
       - 🇺🇸_定制专线：@QS00008_1
       - 🇺🇸_定制专线：@QS00008_2
       - 🇺🇸_定制专线：@QS00008_3
       - 🇺🇸_定制专线：@QS00008_4
-      - 🇺🇸_定制专线：@QS00008_5
-      - 🇺🇸_定制专线：@QS00008_6
-      - 🇺🇸_定制专线：@QS00008_7
-      - 🇺🇸_定制专线：@QS00008_8
-      - 🇺🇸_定制专线：@QS00008_9
-      - 🇺🇸_定制专线：@QS00008_10
-      - 🇺🇸_定制专线：@QS00008_11
-      - 🇺🇸_定制专线：@QS00008_12
-      - 澳大利亚_1
-      - 澳大利亚_2
-      - 不定期抽奖https://t.me/mftizi
-      - 德国_1
-      - 德国_2
-      - 德国_3
-      - 关注电报https://t.me/mftizi
-      - 荷兰_1
-      - 荷兰_2
-      - 加拿大_1
-      - 加拿大_2
-      - 加拿大_3
-      - 伦敦_1
-      - 伦敦_2
-      - 伦敦_3
-      - 美国CA_1
-      - 美国CA_2
-      - 美国CA_3
-      - 美国GA_1
-      - 美国GA_2
-      - 美国LA_1
-      - 美国LA_2
-      - 美国LA_3
-      - 美国LL_1
-      - 美国LL_2
-      - 美国LL_3
-      - 美国WA_1
-      - 美国WA_2
-      - 免费梯子https://t.me/mftizi
 
 rules:
 # 本地/局域网地址
